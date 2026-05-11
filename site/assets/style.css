@@ -997,9 +997,10 @@ main {
 }
 .home-headlines-list li:last-child { border-bottom: none; }
 .home-headlines-list a {
-  display: flex;
-  align-items: baseline;
-  gap: 0.875rem;
+  display: grid;
+  grid-template-columns: 1.5rem 1fr;
+  column-gap: 0.875rem;
+  row-gap: 0.25rem;
   padding: 0.875rem 0;
   color: var(--color-text);
   font-size: 0.9375rem;
@@ -1010,20 +1011,36 @@ main {
   color: var(--color-accent);
 }
 .home-headlines-list__num {
-  flex-shrink: 0;
   font-size: 0.75rem;
   font-weight: 700;
   color: var(--color-text-dim);
   font-variant-numeric: tabular-nums;
-  width: 1.5rem;
+  grid-column: 1;
+  grid-row: 1;
+  padding-top: 0.125rem;
 }
 .home-headlines-list__title {
-  flex: 1;
+  grid-column: 2;
+  grid-row: 1;
+  font-weight: 500;
+}
+.home-headlines-list__sub {
+  grid-column: 2;
+  grid-row: 2;
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+}
+.home-headlines-list__sub strong {
+  color: var(--color-accent);
+  font-weight: 600;
 }
 .home-headlines-list__source {
-  flex-shrink: 0;
-  font-size: 0.75rem;
+  grid-column: 2;
+  grid-row: 3;
+  font-size: 0.7rem;
   color: var(--color-text-dim);
+  letter-spacing: 0.04em;
 }
 
 .home-read-all {
