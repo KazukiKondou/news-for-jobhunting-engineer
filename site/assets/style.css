@@ -4,24 +4,31 @@
    ======================================================================== */
 
 :root {
-  color-scheme: dark;
+  color-scheme: light;
 
+  /* Body uses an industrial sans (Noto Sans JP + Inter as fallback for Latin) */
   --font-sans: "Inter", "Noto Sans JP", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
-  --font-display: "Inter", "Noto Sans JP", ui-sans-serif, system-ui, sans-serif;
+  /* Headlines use serif — gives the editorial / publication feel (vs tech-startup) */
+  --font-display: "Noto Serif JP", "Source Serif Pro", Georgia, "Times New Roman", "Hiragino Mincho ProN", "Yu Mincho", serif;
   --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
 
-  --color-bg: oklch(0.16 0.01 260);
-  --color-bg-elev: oklch(0.20 0.012 260);
-  --color-bg-card: oklch(0.22 0.013 260);
-  --color-border: oklch(0.30 0.015 260);
-  --color-border-strong: oklch(0.42 0.02 260);
-  --color-text: oklch(0.96 0.005 260);
-  --color-text-muted: oklch(0.72 0.012 260);
-  --color-text-dim: oklch(0.62 0.014 260);
-  --color-accent: oklch(0.74 0.16 235);
-  --color-accent-hover: oklch(0.82 0.16 235);
-  --color-tag-bg: oklch(0.30 0.05 235);
-  --color-tag-text: oklch(0.88 0.08 235);
+  /* Newspaper-style light palette
+     Background:  warm off-white (newsprint, not glaring white)
+     Surface:     pure white for cards
+     Text:        near-black
+     Accent:      single deep editorial red (BBC/Asahi family) */
+  --color-bg: #FBFAF6;
+  --color-bg-elev: #F4F1EA;
+  --color-bg-card: #FFFFFF;
+  --color-border: #E5E2D9;
+  --color-border-strong: #C9C5B8;
+  --color-text: #1A1A19;
+  --color-text-muted: #5C5C58;
+  --color-text-dim: #8A877F;
+  --color-accent: #B91C1C;
+  --color-accent-hover: #991B1B;
+  --color-tag-bg: rgba(185, 28, 28, 0.05);
+  --color-tag-text: #991B1B;
 }
 
 * {
@@ -71,10 +78,10 @@ code {
   font-family: var(--font-mono);
   font-size: 0.875em;
   padding: 0.1em 0.35em;
-  background: oklch(0.18 0.012 260);
+  background: var(--color-bg-elev);
   border: 1px solid var(--color-border);
-  border-radius: 0.25rem;
-  color: oklch(0.88 0.06 235);
+  border-radius: 0.2rem;
+  color: var(--color-text);
 }
 
 ol,
@@ -94,7 +101,7 @@ h4 {
 }
 
 ::selection {
-  background-color: oklch(0.55 0.16 235 / 0.4);
+  background-color: rgba(185, 28, 28, 0.2);
   color: var(--color-text);
 }
 
@@ -129,10 +136,20 @@ main {
   position: sticky;
   top: 0;
   z-index: 50;
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  background: color-mix(in srgb, var(--color-bg) 85%, transparent);
+  background: var(--color-bg);
   border-bottom: 1px solid var(--color-border);
+}
+
+/* A second hairline below for the masthead feel (BBC/Reuters/Nikkei) */
+.site-header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -4px;
+  height: 1px;
+  background: var(--color-border);
+  pointer-events: none;
 }
 
 .site-header__inner {
@@ -163,14 +180,16 @@ main {
   flex-shrink: 0;
   width: 2rem;
   height: 2rem;
-  border-radius: 0.375rem;
-  background: linear-gradient(135deg, #38bdf8, #6366f1);
-  color: #0a0a0c;
+  border-radius: 0.125rem;
+  background: var(--color-accent);
+  color: #FFFFFF;
+  font-family: var(--font-display);
   font-weight: 900;
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  letter-spacing: -0.02em;
 }
 
 .site-logo__title {
@@ -221,18 +240,18 @@ main {
 }
 
 .site-nav__link:hover {
-  color: var(--color-text);
-  background: var(--color-bg-elev);
+  color: var(--color-accent);
+  background: transparent;
 }
 
 /* ---------- Footer ---------- */
 .site-footer {
   margin-top: 6rem;
-  border-top: 1px solid var(--color-border);
+  border-top: 3px solid var(--color-accent);
   padding: 3rem 0 2.5rem;
-  color: var(--color-text-dim);
+  color: var(--color-text-muted);
   font-size: 0.875rem;
-  background: oklch(0.14 0.008 260);
+  background: var(--color-bg-elev);
 }
 
 .site-footer__inner {
@@ -313,28 +332,15 @@ main {
   .hero--compact .hero__inner { padding: 2.5rem 1.5rem 3rem; }
 }
 
+/* Editorial top rule — the "masthead" red bar of newspapers */
 .hero::before {
   content: "";
   position: absolute;
-  inset: 0;
-  z-index: -1;
-  opacity: 0.95;
-  background:
-    radial-gradient(ellipse 80% 60% at 15% 0%, oklch(0.45 0.18 235 / 0.45), transparent 60%),
-    radial-gradient(ellipse 60% 50% at 85% 40%, oklch(0.40 0.17 285 / 0.28), transparent 60%),
-    linear-gradient(180deg, transparent 70%, var(--color-bg) 100%);
-  pointer-events: none;
-}
-
-.hero::after {
-  content: "";
-  position: absolute;
+  top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
-  height: 1px;
-  background: linear-gradient(90deg, transparent 0%, var(--color-accent) 50%, transparent 100%);
-  opacity: 0.5;
+  height: 3px;
+  background: var(--color-accent);
   pointer-events: none;
 }
 
@@ -354,9 +360,21 @@ main {
   gap: 0.5rem;
   color: var(--color-accent);
   font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.08em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
+
+/* Newspaper-style red square mark replacing the old pulsing dot */
+.eyebrow .live-dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  background: var(--color-accent);
+  border-radius: 0;
+  position: static;
+}
+.eyebrow .live-dot::before,
+.eyebrow .live-dot::after { content: none; }
 
 .live-dot {
   position: relative;
@@ -398,20 +416,20 @@ main {
 .hero__title {
   margin-top: 0.875rem;
   font-family: var(--font-display);
-  font-weight: 900;
-  font-size: 2.125rem;
-  letter-spacing: -0.02em;
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: 0;
   text-wrap: balance;
-  line-height: 1.15;
+  line-height: 1.2;
 }
 
-@media (min-width: 640px) { .hero__title { font-size: 3rem; } }
-@media (min-width: 768px) { .hero__title { font-size: 3.5rem; } }
+@media (min-width: 640px) { .hero__title { font-size: 2.75rem; } }
+@media (min-width: 768px) { .hero__title { font-size: 3.25rem; } }
 
 .hero__intro {
   margin-top: 1rem;
   max-width: 52rem;
-  color: oklch(0.86 0.008 260);
+  color: var(--color-text);
   text-wrap: pretty;
   font-size: 1rem;
   line-height: 1.8;
@@ -432,8 +450,9 @@ main {
 
 .hero__meta strong {
   color: var(--color-text);
-  font-weight: 800;
-  font-size: 1.25rem;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.375rem;
   font-variant-numeric: tabular-nums;
   line-height: 1;
 }
@@ -443,7 +462,7 @@ main {
   display: inline-block;
   width: 1.5rem;
   height: 1px;
-  background: var(--color-border-strong);
+  background: var(--color-accent);
 }
 
 .hero__list {
@@ -502,17 +521,17 @@ main {
   align-items: center;
   gap: 0.5rem;
   padding: 0.625rem 1.25rem;
-  border-radius: 0.5rem;
+  border-radius: 0.125rem;
   font-weight: 600;
-  transition: background-color .15s ease, transform .15s ease;
+  transition: background-color .15s ease;
   cursor: pointer;
   border: none;
-  font-size: 1rem;
+  font-size: 0.9375rem;
 }
 
 .btn--primary {
   background: var(--color-accent);
-  color: #0a0a0c;
+  color: #FFFFFF;
 }
 
 .btn--primary:hover { background: var(--color-accent-hover); }
@@ -577,15 +596,14 @@ main {
   display: block;
   padding: 1.25rem;
   border: 1px solid var(--color-border);
-  border-radius: 0.75rem;
+  border-radius: 0.25rem;
   background: var(--color-bg-card);
-  transition: border-color .15s ease, background-color .15s ease, transform .15s ease;
+  transition: border-color .15s ease, box-shadow .15s ease;
 }
 
 .day-card:hover {
   border-color: var(--color-border-strong);
-  background: var(--color-bg-elev);
-  transform: translateY(-2px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
 }
 
 .day-card__head {
@@ -596,7 +614,8 @@ main {
 }
 
 .day-card__date {
-  font-size: 1.125rem;
+  font-family: var(--font-display);
+  font-size: 1.25rem;
   font-weight: 700;
   font-variant-numeric: tabular-nums;
 }
@@ -716,14 +735,14 @@ main {
 .day-title {
   margin-top: 0.75rem;
   font-family: var(--font-display);
-  font-size: 2.125rem;
-  font-weight: 900;
-  letter-spacing: -0.02em;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0;
   text-wrap: balance;
-  line-height: 1.15;
+  line-height: 1.2;
 }
 
-@media (min-width: 640px) { .day-title { font-size: 3rem; } }
+@media (min-width: 640px) { .day-title { font-size: 2.75rem; } }
 
 .day-meta {
   margin-top: 1.25rem;
@@ -739,13 +758,14 @@ main {
   display: inline-block;
   width: 1.5rem;
   height: 1px;
-  background: var(--color-border-strong);
+  background: var(--color-accent);
 }
 
 .day-meta strong {
   color: var(--color-text);
-  font-weight: 800;
-  font-size: 1.25rem;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.375rem;
   font-variant-numeric: tabular-nums;
   line-height: 1;
 }
@@ -753,7 +773,7 @@ main {
 .day-intro {
   margin-top: 1rem;
   max-width: 52rem;
-  color: oklch(0.86 0.008 260);
+  color: var(--color-text);
   text-wrap: pretty;
   font-size: 1rem;
   line-height: 1.8;
@@ -767,15 +787,17 @@ main {
 .toc {
   margin-top: 2rem;
   padding: 0;
-  border: 1px solid color-mix(in oklch, var(--color-accent) 25%, var(--color-border));
-  border-radius: 0.75rem;
-  background: color-mix(in oklch, var(--color-accent) 5%, var(--color-bg-card));
+  border-top: 1px solid var(--color-text);
+  border-bottom: 1px solid var(--color-border);
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  background: transparent;
   overflow: hidden;
 }
 
 .toc[open] {
-  background: var(--color-bg-card);
-  border-color: var(--color-border);
+  background: transparent;
 }
 
 .toc__summary {
@@ -791,15 +813,15 @@ main {
 }
 
 .toc__summary::-webkit-details-marker { display: none; }
-.toc__summary:hover { background: var(--color-bg-elev); }
+.toc__summary:hover { background: transparent; color: var(--color-accent); }
 
 .toc__summary-text {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  color: var(--color-text-dim);
+  color: var(--color-text);
   font-size: 0.75rem;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0.15em;
   text-transform: uppercase;
 }
@@ -878,9 +900,9 @@ main {
   flex-direction: column;
   padding: 1.25rem;
   border: 1px solid var(--color-border);
-  border-radius: 0.75rem;
+  border-radius: 0.25rem;
   background: var(--color-bg-card);
-  transition: border-color .15s ease, background-color .15s ease;
+  transition: border-color .15s ease, box-shadow .15s ease;
 }
 
 /* Stretched link so the entire card area is tappable (title anchor handles it) */
@@ -905,7 +927,7 @@ main {
 
 .article-card:hover {
   border-color: var(--color-border-strong);
-  background: var(--color-bg-elev);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
 }
 
 .article-card__body {
@@ -921,16 +943,17 @@ main {
 }
 
 .article-card__title {
-  font-size: 1.0625rem;
+  font-family: var(--font-display);
+  font-size: 1.125rem;
   font-weight: 700;
-  letter-spacing: -0.005em;
+  letter-spacing: 0;
   line-height: 1.45;
   text-wrap: balance;
   min-height: 2lh;
 }
 
 @media (min-width: 640px) {
-  .article-card__title { font-size: 1.1875rem; }
+  .article-card__title { font-size: 1.25rem; }
 }
 
 .article-card__title a {
@@ -1000,26 +1023,21 @@ main {
 .article-link {
   display: inline-flex;
   align-items: center;
-  gap: 0.375rem;
-  padding: 0.5rem 0.75rem;
-  min-height: 2rem;
-  border-radius: 0.375rem;
+  gap: 0.35rem;
+  padding: 0.25rem 0;
   font-size: 0.8125rem;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--color-accent);
-  border: 1px solid color-mix(in oklch, var(--color-accent) 22%, transparent);
-  background: transparent;
-  transition: color .15s ease, background-color .15s ease, border-color .15s ease;
+  border-bottom: 1px solid currentColor;
+  transition: color .15s ease;
   margin-left: auto;
 }
 
 .article-link:hover {
   color: var(--color-accent-hover);
-  background: color-mix(in oklch, var(--color-accent) 10%, transparent);
-  border-color: color-mix(in oklch, var(--color-accent) 40%, transparent);
 }
 .article-link:hover svg { transform: translate(2px, -2px); }
-.article-link svg { width: 0.875rem; height: 0.875rem; transition: transform .2s ease; }
+.article-link svg { width: 0.8125rem; height: 0.8125rem; transition: transform .2s ease; }
 
 .tags {
   display: flex;
@@ -1030,14 +1048,22 @@ main {
 .tag-chip {
   display: inline-flex;
   align-items: center;
-  padding: 0.15rem 0.5rem;
-  border-radius: 0.25rem;
-  background: color-mix(in oklch, var(--color-tag-text) 10%, transparent);
+  padding: 0.05rem 0;
+  background: transparent;
   color: var(--color-tag-text);
   font-size: 0.7rem;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  border: 1px solid color-mix(in oklch, var(--color-tag-text) 35%, transparent);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border: none;
+}
+
+/* Separator between tags reads like newspaper category breadcrumbs */
+.tag-chip + .tag-chip::before {
+  content: "·";
+  margin: 0 0.4rem;
+  color: var(--color-text-dim);
+  font-weight: 400;
 }
 
 /* ---------- Day navigation ---------- */
@@ -1054,13 +1080,14 @@ main {
   flex: 1;
   padding: 1rem;
   border: 1px solid var(--color-border);
-  border-radius: 0.5rem;
-  transition: border-color .15s ease, background-color .15s ease;
+  border-radius: 0.125rem;
+  background: var(--color-bg-card);
+  transition: border-color .15s ease, color .15s ease;
 }
 
 .day-nav__btn:hover {
-  border-color: var(--color-border-strong);
-  background: var(--color-bg-elev);
+  border-color: var(--color-accent);
+  color: var(--color-accent);
 }
 
 .day-nav__btn--next { text-align: right; }
