@@ -1,15 +1,11 @@
-node_modules
-dist
-.astro
 .git
 .gitignore
 .github
 .vscode
 .claude
 .DS_Store
-README.md
 *.log
-npm-debug.log*
 .env
 .env.*
 deploy.sh
+templates/

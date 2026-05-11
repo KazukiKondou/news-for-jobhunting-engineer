@@ -1,0 +1,139 @@
+<!--
+  ============================================================
+  Daily page template — エンジニア就活ニュース
+  ============================================================
+  The LINE routine should generate site/YYYY-MM-DD/index.html
+  by filling in this template. Replacement tokens:
+
+    {{DATE_ISO}}       e.g. 2026-05-11
+    {{DATE_LABEL}}     e.g. 2026年5月11日 (月)
+    {{DATE_OG_DT}}     e.g. 2026-05-11T00:00:00+09:00
+    {{COUNT}}          e.g. 6
+    {{INTRO}}          one-paragraph intro for the day
+    {{HEADLINES_TEXT}} comma-joined first 3 titles (used in meta description)
+    {{TOC_ITEMS}}      <li><span class="toc__num">NN</span><a href="#article-N">title</a></li> ...
+    {{ARTICLES}}       <article class="article-card" id="article-N">...</article> ...
+    {{PREV_HREF}}      e.g. /2026-05-10/  (empty string if none)
+    {{PREV_LABEL}}     e.g. 2026年5月10日 (empty string if none)
+    {{NEXT_HREF}}      empty when generating today (no next yet)
+    {{NEXT_LABEL}}     empty
+
+  Article card snippet ({{ARTICLES}} item, repeated N times, N = 1..COUNT):
+
+    <article class="article-card" id="article-{{N}}">
+      <div class="article-card__num">{{N}}</div>
+      <div class="article-card__body">
+        <h3 class="article-card__title"><a href="{{SOURCE_URL}}" target="_blank" rel="noopener noreferrer">{{TITLE}}</a></h3>
+        <p class="article-card__summary">{{SUMMARY_3_TO_4_LINES}}</p>
+        <div class="article-card__meta">
+          <div class="article-source">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8M15 18h-5M10 6h8v4h-8V6Z"/></svg>
+            <span>{{SOURCE_NAME}}</span>
+          </div>
+          <a class="article-link" href="{{SOURCE_URL}}" target="_blank" rel="noopener noreferrer">元記事を読む <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+          <div class="tags">
+            <span class="tag-chip">#{{TAG_1}}</span>
+            <span class="tag-chip">#{{TAG_2}}</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+  Day-nav: only show prev (yesterday) when generating today's page. If you
+  later regenerate yesterday's page to add a "next day" link, that's optional
+  — broken next links won't appear since you only add the block when known.
+
+  After generating the daily page, ALSO update site/index.html (latest day
+  hero + 'recent days' list) and site/archive/index.html (full grid).
+  See those files for the markers `LATEST_DAY_START..END`, `RECENT_DAYS_START..END`,
+  `ARCHIVE_LIST_START..END`.
+-->
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{DATE_LABEL}} | エンジニア就活ニュース</title>
+  <meta name="description" content="{{DATE_LABEL}}のテックニュース {{COUNT}}件: {{HEADLINES_TEXT}}" />
+  <link rel="canonical" href="https://news.kazukikondo.com/{{DATE_ISO}}/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="{{DATE_LABEL}} | エンジニア就活ニュース" />
+  <meta property="og:description" content="本日のテックニュース {{COUNT}}件" />
+  <meta property="og:url" content="https://news.kazukikondo.com/{{DATE_ISO}}/" />
+  <meta property="og:site_name" content="エンジニア就活ニュース" />
+  <meta property="og:locale" content="ja_JP" />
+  <meta property="article:published_time" content="{{DATE_OG_DT}}" />
+
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" />
+  <link rel="stylesheet" href="/assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="site-logo" href="/">
+        <span class="site-logo__badge">N</span>
+        <span class="site-logo__title">エンジニア就活ニュース</span>
+      </a>
+      <nav class="site-nav">
+        <a class="site-nav__link" href="/">ホーム</a>
+        <a class="site-nav__link" href="/archive/">アーカイブ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <article class="day-article">
+      <a class="back-link" href="/">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 19-7-7 7-7M19 12H5"/></svg>
+        ホームに戻る
+      </a>
+
+      <header class="day-header">
+        <div class="eyebrow">Daily News</div>
+        <h1 class="day-title">{{DATE_LABEL}}</h1>
+        <p class="day-meta">本日のニュース <strong>{{COUNT}}</strong> 件</p>
+        <p class="day-intro">{{INTRO}}</p>
+      </header>
+
+      <nav class="toc" aria-label="本日の見出し一覧">
+        <div class="toc__label">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>
+          見出し一覧
+        </div>
+        <ol class="toc__list">
+          {{TOC_ITEMS}}
+        </ol>
+      </nav>
+
+      <section class="articles">
+        {{ARTICLES}}
+      </section>
+
+      <nav class="day-nav" aria-label="日付ナビゲーション">
+        <a class="day-nav__btn day-nav__btn--prev" href="{{PREV_HREF}}">
+          <div class="day-nav__label">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
+            前の日
+          </div>
+          <div class="day-nav__date">{{PREV_LABEL}}</div>
+        </a>
+        <div class="day-nav__spacer"></div>
+      </nav>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <div>© 2026 Kazuki Kondo</div>
+      <div class="site-footer__meta">
+        <span>毎日更新</span>
+        <span class="site-footer__sep">·</span>
+        <span>LINE配信と連動</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
