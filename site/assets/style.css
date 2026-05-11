@@ -932,6 +932,15 @@ main {
   border-top-color: var(--color-accent);
 }
 
+/* The "thinking skills" section: sepia/warm intro to differentiate from IT就活 + 視野 */
+.articles-group--thinking .articles-group__header {
+  border-top-color: #6B4513;
+}
+.articles-group--thinking .articles-group__intro {
+  background: #F2EBDD;
+  border-left-color: #6B4513;
+}
+
 .articles-group__intro {
   margin: 0 0 1.5rem;
   padding: 0.875rem 1.125rem;
@@ -961,6 +970,13 @@ main {
 }
 .home-headlines-group--other .home-headlines-group__header {
   border-top-color: var(--color-accent);
+}
+.home-headlines-group--thinking .home-headlines-group__header {
+  border-top-color: #6B4513;
+}
+.home-headlines-group--thinking .home-headlines-group__intro {
+  background: #F2EBDD;
+  border-left-color: #6B4513;
 }
 .home-headlines-group__title {
   font-family: var(--font-display);
