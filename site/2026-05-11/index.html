@@ -18,7 +18,7 @@
   <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Noto+Sans+JP:wght@400;700;900&display=swap" />
   <link rel="stylesheet" href="/assets/style.css" />
 </head>
 <body>
@@ -37,23 +37,24 @@
 
   <main>
     <article class="day-article">
-      <a class="back-link" href="/">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 19-7-7 7-7M19 12H5"/></svg>
-        ホームに戻る
-      </a>
-
       <header class="day-header">
-        <div class="eyebrow">Daily News</div>
+        <div class="eyebrow">デイリーニュース</div>
         <h1 class="day-title">2026年5月11日 (月)</h1>
-        <p class="day-meta">本日のニュース <strong>6</strong> 件</p>
         <p class="day-intro">AIモデル業界の動きが活発な一日。Anthropic・OpenAI・Meta から相次いで発表があり、エンジニア採用市場にも影響しそうな話題が並びました。</p>
+        <p class="day-meta"><strong>6</strong>件のニュース</p>
       </header>
 
-      <nav class="toc" aria-label="本日の見出し一覧">
-        <div class="toc__label">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>
-          見出し一覧
-        </div>
+      <details class="toc" aria-label="本日の見出し一覧">
+        <summary class="toc__summary">
+          <span class="toc__summary-text">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>
+            見出し一覧
+          </span>
+          <span class="toc__summary-meta">
+            6件
+            <svg class="toc__chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+          </span>
+        </summary>
         <ol class="toc__list">
           <li><span class="toc__num">01</span><a href="#article-1">Anthropic、Claude Opus 5を正式発表 — 推論性能で全モデルを上回る</a></li>
           <li><span class="toc__num">02</span><a href="#article-2">OpenAI、GPT-5 を企業向けに先行公開 — マルチモーダル推論を強化</a></li>
@@ -62,12 +63,17 @@
           <li><span class="toc__num">05</span><a href="#article-5">GitHub、Copilot Workspace の一般提供開始 — タスク単位のAI開発を本格化</a></li>
           <li><span class="toc__num">06</span><a href="#article-6">経済産業省、生成AI人材育成プログラムを2026年度から拡充</a></li>
         </ol>
-      </nav>
+      </details>
 
       <section class="articles">
         <article class="article-card" id="article-1">
-          <div class="article-card__num">1</div>
           <div class="article-card__body">
+            <div class="tags">
+                <span class="tag-chip">#AI</span>
+                <span class="tag-chip">#Anthropic</span>
+                <span class="tag-chip">#LLM</span>
+              </div>
+
             <h3 class="article-card__title"><a href="https://www.itmedia.co.jp/news/" target="_blank" rel="noopener noreferrer">Anthropic、Claude Opus 5を正式発表 — 推論性能で全モデルを上回る</a></h3>
             <p class="article-card__summary">Anthropicは新世代の大規模言語モデル「Claude Opus 5」を発表した。SWE-bench Verifiedで85%超を記録し、複雑なエージェントタスクで先行モデルを大きく上回る。コンテキスト長は10Mトークンまで拡張され、大規模リポジトリ全体の解析が現実的になった。料金は前世代と同水準に据え置き。</p>
             <div class="article-card__meta">
@@ -76,18 +82,18 @@
                 <span>ITmedia NEWS</span>
               </div>
               <a class="article-link" href="https://www.itmedia.co.jp/news/" target="_blank" rel="noopener noreferrer">元記事を読む <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
-              <div class="tags">
-                <span class="tag-chip">#AI</span>
-                <span class="tag-chip">#Anthropic</span>
-                <span class="tag-chip">#LLM</span>
-              </div>
             </div>
           </div>
         </article>
 
         <article class="article-card" id="article-2">
-          <div class="article-card__num">2</div>
           <div class="article-card__body">
+            <div class="tags">
+                <span class="tag-chip">#AI</span>
+                <span class="tag-chip">#OpenAI</span>
+                <span class="tag-chip">#エンタープライズ</span>
+              </div>
+
             <h3 class="article-card__title"><a href="https://jp.techcrunch.com/" target="_blank" rel="noopener noreferrer">OpenAI、GPT-5 を企業向けに先行公開 — マルチモーダル推論を強化</a></h3>
             <p class="article-card__summary">OpenAIはエンタープライズ顧客向けに GPT-5 を先行リリース。動画・音声・コードを横断する推論能力を大幅に強化し、専用のエージェントSDKも同時公開した。一般公開は2026年下半期を予定しているという。価格は GPT-4o の約1.5倍。</p>
             <div class="article-card__meta">
@@ -96,18 +102,18 @@
                 <span>TechCrunch Japan</span>
               </div>
               <a class="article-link" href="https://jp.techcrunch.com/" target="_blank" rel="noopener noreferrer">元記事を読む <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
-              <div class="tags">
-                <span class="tag-chip">#AI</span>
-                <span class="tag-chip">#OpenAI</span>
-                <span class="tag-chip">#エンタープライズ</span>
-              </div>
             </div>
           </div>
         </article>
 
         <article class="article-card" id="article-3">
-          <div class="article-card__num">3</div>
           <div class="article-card__body">
+            <div class="tags">
+                <span class="tag-chip">#XR</span>
+                <span class="tag-chip">#Meta</span>
+                <span class="tag-chip">#ハードウェア</span>
+              </div>
+
             <h3 class="article-card__title"><a href="https://www.engadget.com/" target="_blank" rel="noopener noreferrer">Meta、新型 VR ヘッドセット「Quest Pro 2」発表 — 重量を40%軽量化</a></h3>
             <p class="article-card__summary">Meta は MR/VR ヘッドセット「Quest Pro 2」を発表した。本体重量を前世代比40%軽量化、4K解像度パネルを両眼に搭載。視線追跡と表情キャプチャがネイティブで動作する。SDKでは Unity・Unreal の両方に加え、WebXR の開発体験を大きく改善している。</p>
             <div class="article-card__meta">
@@ -116,18 +122,18 @@
                 <span>Engadget Japan</span>
               </div>
               <a class="article-link" href="https://www.engadget.com/" target="_blank" rel="noopener noreferrer">元記事を読む <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
-              <div class="tags">
-                <span class="tag-chip">#XR</span>
-                <span class="tag-chip">#Meta</span>
-                <span class="tag-chip">#ハードウェア</span>
-              </div>
             </div>
           </div>
         </article>
 
         <article class="article-card" id="article-4">
-          <div class="article-card__num">4</div>
           <div class="article-card__body">
+            <div class="tags">
+                <span class="tag-chip">#Web</span>
+                <span class="tag-chip">#Bun</span>
+                <span class="tag-chip">#インフラ</span>
+              </div>
+
             <h3 class="article-card__title"><a href="https://www.publickey1.jp/" target="_blank" rel="noopener noreferrer">Vercel、Edge Functions に Bun ランタイムを正式対応</a></h3>
             <p class="article-card__summary">Vercel は Edge Functions ランタイムに Bun を正式サポートしたと発表。コールドスタート時間が Node.js 比で約3分の1に短縮され、TypeScript の直接実行・WebSocket・SQLite が同梱される。Next.js 15.3 以降で <code>runtime: 'bun'</code> を指定して利用できる。</p>
             <div class="article-card__meta">
@@ -136,18 +142,18 @@
                 <span>Publickey</span>
               </div>
               <a class="article-link" href="https://www.publickey1.jp/" target="_blank" rel="noopener noreferrer">元記事を読む <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
-              <div class="tags">
-                <span class="tag-chip">#Web</span>
-                <span class="tag-chip">#Bun</span>
-                <span class="tag-chip">#インフラ</span>
-              </div>
             </div>
           </div>
         </article>
 
         <article class="article-card" id="article-5">
-          <div class="article-card__num">5</div>
           <div class="article-card__body">
+            <div class="tags">
+                <span class="tag-chip">#GitHub</span>
+                <span class="tag-chip">#Copilot</span>
+                <span class="tag-chip">#開発ツール</span>
+              </div>
+
             <h3 class="article-card__title"><a href="https://github.blog/" target="_blank" rel="noopener noreferrer">GitHub、Copilot Workspace の一般提供開始 — タスク単位のAI開発を本格化</a></h3>
             <p class="article-card__summary">GitHub は Copilot Workspace の GA(一般提供開始)を発表した。Issueから実装・PR作成までを対話的に進められるブラウザIDEで、コミット単位ではなくタスク単位での開発体験を提供する。Pro+プラン以上で利用可能で、Enterprise契約では監査ログにも対応する。</p>
             <div class="article-card__meta">
@@ -156,18 +162,18 @@
                 <span>GitHub Blog</span>
               </div>
               <a class="article-link" href="https://github.blog/" target="_blank" rel="noopener noreferrer">元記事を読む <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
-              <div class="tags">
-                <span class="tag-chip">#GitHub</span>
-                <span class="tag-chip">#Copilot</span>
-                <span class="tag-chip">#開発ツール</span>
-              </div>
             </div>
           </div>
         </article>
 
         <article class="article-card" id="article-6">
-          <div class="article-card__num">6</div>
           <div class="article-card__body">
+            <div class="tags">
+                <span class="tag-chip">#政策</span>
+                <span class="tag-chip">#キャリア</span>
+                <span class="tag-chip">#就活</span>
+              </div>
+
             <h3 class="article-card__title"><a href="https://www.nikkei.com/" target="_blank" rel="noopener noreferrer">経済産業省、生成AI人材育成プログラムを2026年度から拡充</a></h3>
             <p class="article-card__summary">経済産業省は2026年度から生成AIを活用できる人材の育成プログラムを拡充すると発表した。情報処理推進機構(IPA)を通じて、AI開発・運用に関する標準カリキュラムと認定試験を整備。エンジニア新卒採用市場にも影響が見込まれる。</p>
             <div class="article-card__meta">
@@ -176,11 +182,6 @@
                 <span>日本経済新聞</span>
               </div>
               <a class="article-link" href="https://www.nikkei.com/" target="_blank" rel="noopener noreferrer">元記事を読む <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
-              <div class="tags">
-                <span class="tag-chip">#政策</span>
-                <span class="tag-chip">#キャリア</span>
-                <span class="tag-chip">#就活</span>
-              </div>
             </div>
           </div>
         </article>
@@ -194,18 +195,32 @@
           </div>
           <div class="day-nav__date">2026年5月10日</div>
         </a>
-        <div class="day-nav__spacer"></div>
+        <div class="day-nav__status">
+          <svg class="day-nav__status-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <span class="day-nav__status-text">最新の記事です</span>
+        </div>
       </nav>
     </article>
   </main>
 
-  <footer class="site-footer">
+    <footer class="site-footer">
     <div class="site-footer__inner">
-      <div>© 2026 Kazuki Kondo</div>
-      <div class="site-footer__meta">
-        <span>毎日更新</span>
-        <span class="site-footer__sep">·</span>
-        <span>LINE配信と連動</span>
+      <div class="site-footer__main">
+        <div class="site-footer__brand">
+          <span class="site-logo__badge">N</span>
+          エンジニア就活ニュース
+        </div>
+        <div class="site-footer__tagline">エンジニア就活生のための日次テックニュース。LINE配信した記事を毎日まとめて公開しています。</div>
+      </div>
+      <div class="site-footer__row">
+        <div class="site-footer__meta">
+          <span>© 2026 Kazuki Kondo</span>
+          <span class="site-footer__sep">·</span>
+          <span>毎日更新</span>
+          <span class="site-footer__sep">·</span>
+          <span>LINE配信と連動</span>
+        </div>
+        <div class="site-footer__updated">最終更新: 2026/05/11 06:00 JST</div>
       </div>
     </div>
   </footer>
