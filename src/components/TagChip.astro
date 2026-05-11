@@ -1,0 +1,14 @@
+---
+interface Props {
+  tag: string;
+  size?: 'sm' | 'md';
+}
+const { tag, size = 'md' } = Astro.props;
+const sizeClass = size === 'sm' ? 'text-[11px] px-1.5 py-0.5' : 'text-xs px-2 py-0.5';
+---
+
+<span
+  class={`inline-flex items-center ${sizeClass} rounded-full font-medium bg-[color:var(--color-tag-bg)] text-[color:var(--color-tag-text)] border border-[color:var(--color-tag-bg)]`}
+>
+  #{tag}
+</span>

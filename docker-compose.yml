@@ -1,0 +1,10 @@
+services:
+  news:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: news-for-jobhunting-engineer:latest
+    container_name: news-site
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8766:80"
