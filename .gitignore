@@ -1,5 +1,7 @@
 # build output
 dist/
+# day-nav manifest is generated at Docker build time (single source of truth)
+site/days.json
 # generated types
 .astro/
 
