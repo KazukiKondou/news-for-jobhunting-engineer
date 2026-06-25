@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2026年6月26日 (金) | エンジニア就活ニュース</title>
+  <meta name="description" content="2026年6月26日 (金)のテックニュース 8件: GitHub Copilot SDK 6言語GA・AWS Lambda MicroVM隔離実行・メルカリ2027卒インターン ほか" />
+  <link rel="canonical" href="https://news.kazukikondo.com/2026-06-26/" />
+  <link rel="prev" href="/2026-06-25/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="2026年6月26日 (金) | エンジニア就活ニュース" />
+  <meta property="og:description" content="本日のニュース 8件" />
+  <meta property="og:url" content="https://news.kazukikondo.com/2026-06-26/" />
+  <meta property="og:site_name" content="エンジニア就活ニュース" />
+  <meta property="og:locale" content="ja_JP" />
+  <meta property="article:published_time" content="2026-06-26T00:00:00+09:00" />
+
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@700;900&display=swap" />
+  <link rel="stylesheet" href="/assets/style.css?v=3" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="site-logo" href="/">
+        <span class="site-logo__badge">N</span>
+        <span class="site-logo__title">エンジニア就活ニュース</span>
+      </a>
+      <nav class="site-nav">
+        <a class="site-nav__link" href="/">ホーム</a>
+        <a class="site-nav__link" href="/archive/">アーカイブ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <article class="day-article">
+      <header class="day-header">
+        <div class="eyebrow">デイリーニュース</div>
+        <h1 class="day-title">2026年6月26日 (金)</h1>
+        <p class="day-intro">GitHub Copilot SDK が Rust・Java を加えた 6 言語で一般提供に移行し Canvas・Sandbox も本格化・AWS Lambda が MicroVM による隔離実行環境を追加・メルカリと DeNA が 2027 卒サマーインターンの受付を開始・W 杯グループ F 最終節は今朝 8 時に日本 vs スウェーデン。</p>
+        <p class="day-meta"><strong>8</strong>件のニュース</p>
+      </header>
+
+      <details class="toc" open aria-label="本日の見出し一覧">
+        <summary class="toc__summary">
+          <span class="toc__summary-text">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>
+            見出し一覧
+          </span>
+          <span class="toc__summary-meta">
+            8件
+            <svg class="toc__chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+          </span>
+        </summary>
+        <ol class="toc__list">
+          <li><span class="toc__num">01</span><a href="#article-1">GitHub Copilot SDK が 6 言語で一般提供 — Canvas・クラウド Sandbox もパブリックプレビューでエージェント開発環境が整う</a></li>
+          <li><span class="toc__num">02</span><a href="#article-2">AWS Lambda に MicroVM 隔離実行環境を追加 — サーバーレスの手軽さにステートフル処理と強化セキュリティを両立</a></li>
+          <li><span class="toc__num">03</span><a href="#article-3">メルカリ、2027 年新卒向けソフトウェアエンジニア サマーインターン開始 — バックエンド・SRE・モバイル全領域で選考直結</a></li>
+          <li><span class="toc__num">04</span><a href="#article-4">DeNA、エンジニア向けサマーインターンシップ参加者を受付中 — アプリ改修型実践プログラムから本選考へ直結</a></li>
+          <li><span class="toc__num">05</span><a href="#article-5">AI 開発ツール比較 2026 — Cursor・GitHub Copilot・Claude Code それぞれの強みと選定基準をエンジニア視点で整理</a></li>
+          <li><span class="toc__num">06</span><a href="#article-6">DHBR 2026 年 6 月号「オクトパス組織という選択」— 複雑な環境に柔軟に適応する分散型組織の設計原則</a></li>
+          <li><span class="toc__num">07</span><a href="#article-7">FIFA W 杯グループ F 最終節 日本 vs スウェーデン — 今朝 8 時キックオフ・勝ち点 4 で臨む決勝トーナメント進出決定戦</a></li>
+          <li><span class="toc__num">08</span><a href="#article-8">KPMG 全米女子 PGA 選手権が開幕 — 笹生優花らが女子 4 大メジャー最高峰のヘイズルタイン戦に挑む</a></li>
+        </ol>
+      </details>
+
+      <section class="articles-group">
+        <div class="articles-group__header">
+          <h2 class="articles-group__title">
+            IT就活ニュース
+            <span class="articles-group__count">5件</span>
+          </h2>
+        </div>
+        <section class="articles">
+          <article class="article-card" id="article-1">
+            <div class="article-card__body">
+              <div class="tags">
+                <span class="tag-chip">#GitHub</span>
+                <span class="tag-chip">#Copilot</span>
+                <span class="tag-chip">#AIエージェント</span>
+              </div>
+              <h3 class="article-card__title"><a href="https://gihyo.jp/article/2026/06/github-copilot-updates" target="_blank" rel="noopener noreferrer">GitHub Copilot SDK が 6 言語で一般提供 — Canvas・クラウド Sandbox もパブリックプレビューでエージェント開発環境が整う</a></h3>
+              <p class="article-card__summary">GitHubは2026年6月のMicrosoft Buildに合わせ、GitHub Copilot SDK を Node.js/TypeScript・Python・Go・.NETに加えてRustとJavaを追加した6言語で一般提供（GA）に移行した。SDKは安定したAPIとプロダクション対応サポートを前提に再定義されており、企業がエージェント機能を自社サービスに組み込む基盤として活用できる。あわせてCopilot appではCanvas（計画・PR・ターミナルなどを一画面に集約するインタフェース）のテクニカルプレビュー対象が拡大し、クラウドおよびローカルのサンドボックス機能もパブリックプレビューを開始した。AIエージェントが複数の開発セッションを並列管理し、IssueからPRマージまでを一画面で進める「エージェントネイティブ」な開発環境が現実に近づいている。</p>
+              <div class="article-card__meta">
+                <div class="article-source">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8M15 18h-5M10 6h8v4h-8V6Z"/></svg>
+                  <span>gihyo.jp</span>
+                </div>
+                <a class="article-link" href="https://gihyo.jp/article/2026/06/github-copilot-updates" target="_blank" rel="noopener noreferrer">元記事を読む <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="article-card" id="article-2">
+            <div class="article-card__body">
+              <div class="tags">
+                <span class="tag-chip">#AWS</span>
+                <span class="tag-chip">#Lambda</span>
+                <span class="tag-chip">#サーバーレス</span>
+              </div>
+              <h3 class="article-card__title"><a href="https://www.publickey1.jp/blog/26/aws_lambda_microvms.html" target="_blank" rel="noopener noreferrer">AWS Lambda に MicroVM 隔離実行環境を追加 — サーバーレスの手軽さにステートフル処理と強化セキュリティを両立</a></h3>
+              <p class="article-card__summary">AWSはAWS Summit Japan 2026に合わせ、AWS LambdaにMicroVMによる隔離実行環境を追加する機能を発表した。従来のLambdaはコールドスタートと無状態実行が前提だったが、MicroVMを利用することでステートフルな処理とプロセス間の強化されたセキュリティ分離を実現する。コンテナとサーバーレスの利点を組み合わせた形で、AI推論ワークロードやマルチステップエージェント処理への適用が特に期待されている。Summit Day 2（本日）にはMicroVMを活用したユースケースのシアターセッションも予定されており、Lambdaの新用途として関心を集めている。</p>
+              <div class="article-card__meta">
+                <div class="article-source">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8M15 18h-5M10 6h8v4h-8V6Z"/></svg>
+                  <span>Publickey</span>
+                </div>
+                <a class="article-link" href="https://www.publickey1.jp/blog/26/aws_lambda_microvms.html" target="_blank" rel="noopener noreferrer">元記事を読む <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="article-card" id="article-3">
+            <div class="article-card__body">
+              <div class="tags">
+                <span class="tag-chip">#採用</span>
+                <span class="tag-chip">#メルカリ</span>
+                <span class="tag-chip">#インターン</span>
+              </div>
+              <h3 class="article-card__title"><a href="https://careers.mercari.com/new-graduates/" target="_blank" rel="noopener noreferrer">メルカリ、2027 年新卒向けソフトウェアエンジニア サマーインターン開始 — バックエンド・SRE・モバイル全領域で選考直結</a></h3>
+              <p class="article-card__summary">メルカリが2027年新卒向けのSoftware Engineerサマーインターンシップを開始した。バックエンド・フロントエンド・モバイル（iOS/Android）・プラットフォームエンジニアリング・SREの各領域に対応しており、実際のプロダクトコードベースに触れる実務型プログラムとなっている。選考要件としてWebアプリケーション・モバイルアプリ・プラットフォームの開発経験か、RDBMSとSQLの基礎知識が問われる。選考通過者は本選考フローに優遇接続されるルートが設けられており、フリマアプリ世界展開を担うエンジニアリング組織の実態を体験できる機会となっている。</p>
+              <div class="article-card__meta">
+                <div class="article-source">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8M15 18h-5M10 6h8v4h-8V6Z"/></svg>
+                  <span>Mercari 採用公式</span>
+                </div>
+                <a class="article-link" href="https://careers.mercari.com/new-graduates/" target="_blank" rel="noopener noreferrer">元記事を読む <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="article-card" id="article-4">
+            <div class="article-card__body">
+              <div class="tags">
+                <span class="tag-chip">#採用</span>
+                <span class="tag-chip">#DeNA</span>
+                <span class="tag-chip">#インターン</span>
+              </div>
+              <h3 class="article-card__title"><a href="https://student.dena.com/internship/" target="_blank" rel="noopener noreferrer">DeNA、エンジニア向けサマーインターンシップ参加者を受付中 — アプリ改修型実践プログラムから本選考へ直結</a></h3>
+              <p class="article-card__summary">ディー・エヌ・エー（DeNA）は2026年夏のエンジニア向け短期インターンシップの参加者を受け付けている。プログラムの中核はアプリケーション改修型の実践プロジェクトで、現役エンジニアがメンターとして付き4〜5日間のチーム開発を通じてゲームやサービス開発の実態を体験する形式だ。各回の参加定員は20〜30名程度と少人数制で設計されており、個別フィードバックを受けながら技術・設計・コミュニケーションを磨ける。インターン修了後は優遇ルートで本選考に接続されるケースがあり、事業横断で技術チャレンジを続けるDeNAの開発文化を早期に知る機会となっている。</p>
+              <div class="article-card__meta">
+                <div class="article-source">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8M15 18h-5M10 6h8v4h-8V6Z"/></svg>
+                  <span>DeNA 新卒採用</span>
+                </div>
+                <a class="article-link" href="https://student.dena.com/internship/" target="_blank" rel="noopener noreferrer">元記事を読む <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="article-card" id="article-5">
+            <div class="article-card__body">
+              <div class="tags">
+                <span class="tag-chip">#AIコーディング</span>
+                <span class="tag-chip">#開発ツール</span>
+                <span class="tag-chip">#技術トレンド</span>
+              </div>
+              <h3 class="article-card__title"><a href="https://soft.takinoko.net/2026/06/02/ai%E9%96%8B%E7%99%BA%E3%83%84%E3%83%BC%E3%83%AB%E6%AF%94%E8%BC%83-2026%EF%BD%9C%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E8%A6%96%E7%82%B9%E3%81%A7%E8%A6%8B%E3%82%8B%E6%9C%AC%E5%BD%93%E3%81%AB/" target="_blank" rel="noopener noreferrer">AI 開発ツール比較 2026 — Cursor・GitHub Copilot・Claude Code それぞれの強みと選定基準をエンジニア視点で整理</a></h3>
+              <p class="article-card__summary">エンジニア視点でAI開発ツールを比較した記事が2026年6月に公開され、Cursor・GitHub Copilot・Claude Codeの3ツールをコーディング補完・エージェント実行・コンテキスト保持・料金体系の4軸で評価している。Cursorはインライン補完と複数ファイル編集の統合度が高く個人開発に強みを持ち、GitHub CopilotはIssue〜PR自動化のチーム連携フローに優れ、Claude Codeはロングコンテキスト維持と複雑指示への追従力で差別化されている。3ツールを単一比較するのではなく「何を任せるか」を軸にした使い分けが生産性向上のカギになるという論点を提示しており、どのツールが現場で採用されているかを理解する上でも有用な整理だ。</p>
+              <div class="article-card__meta">
+                <div class="article-source">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8M15 18h-5M10 6h8v4h-8V6Z"/></svg>
+                  <span>ウェブソフト公開所</span>
+                </div>
+                <a class="article-link" href="https://soft.takinoko.net/2026/06/02/ai%E9%96%8B%E7%99%BA%E3%83%84%E3%83%BC%E3%83%AB%E6%AF%94%E8%BC%83-2026%EF%BD%9C%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E8%A6%96%E7%82%B9%E3%81%A7%E8%A6%8B%E3%82%8B%E6%9C%AC%E5%BD%93%E3%81%AB/" target="_blank" rel="noopener noreferrer">元記事を読む <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+              </div>
+            </div>
+          </article>
+        </section>
+      </section>
+
+      <section class="articles-group articles-group--thinking">
+        <div class="articles-group__header">
+          <h2 class="articles-group__title">
+            思考力を育てる
+            <span class="articles-group__count">1件</span>
+          </h2>
+        </div>
+        <p class="articles-group__intro">
+          AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。
+        </p>
+        <section class="articles">
+          <article class="article-card" id="article-6">
+            <div class="article-card__body">
+              <div class="tags">
+                <span class="tag-chip">#組織設計</span>
+                <span class="tag-chip">#DHBR</span>
+                <span class="tag-chip">#複雑性</span>
+              </div>
+              <h3 class="article-card__title"><a href="https://dhbr.diamond.jp/" target="_blank" rel="noopener noreferrer">DHBR 2026 年 6 月号「オクトパス組織という選択」— 複雑な環境に柔軟に適応する分散型組織の設計原則</a></h3>
+              <p class="article-card__summary">『DIAMONDハーバード・ビジネス・レビュー』2026年6月号の特集「組織の選択——激変する環境にどう対応するか」で、「複雑な環境に柔軟に適応するオクトパス組織という選択」が論じられている。タコが各触手を神経系で半自律的にコントロールするように、組織も中央集権型ピラミッドではなく複数の自律チームが状況に応じて判断できる分散型設計に移行することで、環境変化への対応速度を上げるという考え方だ。AIが意思決定の速度を加速させる中で、命令系統の長さそのものがボトルネックになるという指摘は、スタートアップのフラットな組織文化が生む強みと直結している。情報の流れと意思決定の構造を問い直す視点は、開発チームのあり方を考える上でも実践的な示唆を持つ。</p>
+              <div class="article-card__meta">
+                <div class="article-source">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8M15 18h-5M10 6h8v4h-8V6Z"/></svg>
+                  <span>DIAMOND ハーバード・ビジネス・レビュー</span>
+                </div>
+                <a class="article-link" href="https://dhbr.diamond.jp/" target="_blank" rel="noopener noreferrer">元記事を読む <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+              </div>
+            </div>
+          </article>
+        </section>
+      </section>
+
+      <section class="articles-group articles-group--other">
+        <div class="articles-group__header">
+          <h2 class="articles-group__title">
+            視野を広げる
+            <span class="articles-group__count">2件</span>
+          </h2>
+        </div>
+        <p class="articles-group__intro">
+          視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。
+        </p>
+        <section class="articles">
+          <article class="article-card" id="article-7">
+            <div class="article-card__body">
+              <div class="tags">
+                <span class="tag-chip">#サッカー</span>
+                <span class="tag-chip">#W杯2026</span>
+                <span class="tag-chip">#日本代表</span>
+              </div>
+              <h3 class="article-card__title"><a href="https://www.tv-tokyo.co.jp/sports/articles/2026/06/041981.html" target="_blank" rel="noopener noreferrer">FIFA W 杯グループ F 最終節 日本 vs スウェーデン — 今朝 8 時キックオフ・勝ち点 4 で臨む決勝トーナメント進出決定戦</a></h3>
+              <p class="article-card__summary">FIFA ワールドカップ 2026 北中米大会グループ F の最終節、サッカー日本代表 vs スウェーデン代表戦が本日 6 月 26 日午前 8 時（日本時間）にダラス・スタジアムでキックオフを迎える。日本代表は第 1 節でオランダと 2-2 で引き分け、第 2 節でチュニジアに 4-0 で快勝し、勝ち点 4 でグループ 2 位につけている。勝利または引き分けであれば 2 位以内が確定し決勝トーナメント進出が決まる一方、スウェーデンに負けた場合はオランダの結果次第となる。1998 年の初出場以来グループリーグを 5 大会連続で突破している日本代表が、今大会でも継続できるかが問われる一戦だ。</p>
+              <div class="article-card__meta">
+                <div class="article-source">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8M15 18h-5M10 6h8v4h-8V6Z"/></svg>
+                  <span>テレ東スポーツ</span>
+                </div>
+                <a class="article-link" href="https://www.tv-tokyo.co.jp/sports/articles/2026/06/041981.html" target="_blank" rel="noopener noreferrer">元記事を読む <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="article-card" id="article-8">
+            <div class="article-card__body">
+              <div class="tags">
+                <span class="tag-chip">#ゴルフ</span>
+                <span class="tag-chip">#女子スポーツ</span>
+                <span class="tag-chip">#メジャー大会</span>
+              </div>
+              <h3 class="article-card__title"><a href="https://www.lpga.com/schedule/2026/kpmg-womens-pga-championship" target="_blank" rel="noopener noreferrer">KPMG 全米女子 PGA 選手権が開幕 — 笹生優花らが女子 4 大メジャー最高峰のヘイズルタイン戦に挑む</a></h3>
+              <p class="article-card__summary">女子ゴルフ 4 大メジャーの一つ KPMG 全米女子 PGA 選手権が 6 月 25 日に米ミネソタ州ヘイズルタイン・ナショナル・ゴルフクラブで開幕し、28 日まで 4 ラウンドが行われる。日本勢は 2021 年全米女子オープン優勝の笹生優花と西村優菜が出場しており、世界ランキング上位の選手が集う最高峰の舞台での戦いとなっている。ゴルフはショットの選択・コース戦略・気象条件の読み・メンタル管理を毎ホール組み合わせる競技で、試行錯誤の連続から最適解を出し続ける構造を持つ。コース設計上 18 ホール 72 ストロークという制約の中でスコアを最小化するアプローチは、制約下の最適化という問題解決の一形態として競技の枠を超えた面白さがある。</p>
+              <div class="article-card__meta">
+                <div class="article-source">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8M15 18h-5M10 6h8v4h-8V6Z"/></svg>
+                  <span>LPGA</span>
+                </div>
+                <a class="article-link" href="https://www.lpga.com/schedule/2026/kpmg-womens-pga-championship" target="_blank" rel="noopener noreferrer">元記事を読む <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+              </div>
+            </div>
+          </article>
+        </section>
+      </section>
+
+      <nav class="day-nav" aria-label="日付ナビゲーション" data-date="2026-06-26">
+        <a class="day-nav__btn day-nav__btn--prev" href="/2026-06-25/" rel="prev" aria-label="前の日のニュース 2026年6月25日へ">
+          <span class="day-nav__label">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
+            前の日
+          </span>
+          <span class="day-nav__date">2026年6月25日</span>
+        </a>
+        <a class="day-nav__btn day-nav__btn--latest" href="/" aria-label="最新の日のニュースへ">
+          最新の日へ
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 17 5-5-5-5M13 17l5-5-5-5"/></svg>
+        </a>
+        <div class="day-nav__status" role="status">
+          <svg class="day-nav__status-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <span class="day-nav__status-text">最新の記事です</span>
+        </div>
+      </nav>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <div class="site-footer__main">
+        <div class="site-footer__brand">
+          <span class="site-logo__badge">N</span>
+          エンジニア就活ニュース
+        </div>
+        <div class="site-footer__tagline">エンジニア就活生のための日次テックニュース。LINE配信した記事を毎日まとめて公開しています。</div>
+      </div>
+      <div class="site-footer__row">
+        <div class="site-footer__meta">
+          <span>© 2026 Kazuki Kondo</span>
+          <span class="site-footer__sep">·</span>
+          <span>毎日更新</span>
+          <span class="site-footer__sep">·</span>
+          <span>LINE配信と連動</span>
+        </div>
+        <div class="site-footer__updated">最終更新: 2026/06/26 07:00 JST</div>
+      </div>
+    </div>
+  </footer>
+  <script src="/assets/day-nav.js?v=1" defer></script>
+</body>
+</html>
