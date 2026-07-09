@@ -1,0 +1,4274 @@
+{
+ "checked_at": "2026-07-09",
+ "method": "WebSearch 2-pass (egress blocks direct fetch)",
+ "total": 473,
+ "summary": {
+  "keep": 363,
+  "url_fixed": 23,
+  "deleted": 87,
+  "days_removed": [
+   "2026-05-10",
+   "2026-05-11",
+   "2026-05-18"
+  ]
+ },
+ "articles": [
+  {
+   "day": "2026-05-10",
+   "id": "article-1",
+   "title": "Apple、WWDC 2026 で visionOS 3 と新型 MacBook Pro を発表予定",
+   "url": "https://9to5mac.com/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "トップページのみ、visionOS27が実際で新型MacBook Proも未発表"
+  },
+  {
+   "day": "2026-05-10",
+   "id": "article-2",
+   "title": "AWS、東京リージョンに第4アベイラビリティゾーンを増設",
+   "url": "https://aws.amazon.com/jp/blogs/news/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "該当記事は2018年公開、2026年の出来事ではない"
+  },
+  {
+   "day": "2026-05-10",
+   "id": "article-3",
+   "title": "Rust 1.85 リリース — async closures が安定化",
+   "url": "https://blog.rust-lang.org/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "Rust1.85は2025年2月リリース済み、日付矛盾"
+  },
+  {
+   "day": "2026-05-10",
+   "id": "article-4",
+   "title": "メルカリ、エンジニア新卒採用枠を120名に拡大",
+   "url": "https://engineering.mercari.com/blog/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "120名拡大の裏付けなし、URLも記事でなくブログ一覧"
+  },
+  {
+   "day": "2026-05-10",
+   "id": "article-5",
+   "title": "TypeScript 5.9 ベータ — 型推論パフォーマンスが大幅改善",
+   "url": "https://devblogs.microsoft.com/typescript/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "実際の5.9betaは2025年、2026年5月時点と時期矛盾"
+  },
+  {
+   "day": "2026-05-11",
+   "id": "article-1",
+   "title": "Anthropic、Claude Opus 5を正式発表 — 推論性能で全モデルを上回る",
+   "url": "https://www.itmedia.co.jp/news/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "実際はSonnet5が6/30発表、Opus5発表は確認できず"
+  },
+  {
+   "day": "2026-05-11",
+   "id": "article-2",
+   "title": "OpenAI、GPT-5 を企業向けに先行公開 — マルチモーダル推論を強化",
+   "url": "https://jp.techcrunch.com/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "URLはトップページで記事なし、時系列も矛盾"
+  },
+  {
+   "day": "2026-05-11",
+   "id": "article-3",
+   "title": "Meta、新型 VR ヘッドセット「Quest Pro 2」発表 — 重量を40%軽量化",
+   "url": "https://www.engadget.com/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "Quest Pro2は開発中止と報道、URLもトップページのみ"
+  },
+  {
+   "day": "2026-05-11",
+   "id": "article-4",
+   "title": "Vercel、Edge Functions に Bun ランタイムを正式対応",
+   "url": "https://www.publickey1.jp/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "実際はPublic Beta段階、URLもトップページのみ"
+  },
+  {
+   "day": "2026-05-11",
+   "id": "article-5",
+   "title": "GitHub、Copilot Workspace の一般提供開始 — タスク単位のAI開発を本格化",
+   "url": "https://github.blog/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "Workspaceは2025年5月に終了、GAの事実確認できず"
+  },
+  {
+   "day": "2026-05-11",
+   "id": "article-6",
+   "title": "経済産業省、生成AI人材育成プログラムを2026年度から拡充",
+   "url": "https://www.nikkei.com/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "トップページのみ、該当記事の実在確認できず"
+  },
+  {
+   "day": "2026-05-12",
+   "id": "article-1",
+   "title": "LayerX、新卒エンジニアに1,000万円超のオファーを実現 — AI活用の生産性評価を初任給に拡大",
+   "url": "https://prtimes.jp/main/html/rd/p/000000605.000036528.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・内容とも一致、実在するプレスリリース"
+  },
+  {
+   "day": "2026-05-12",
+   "id": "article-2",
+   "title": "SmartHR、2027年卒プロダクトエンジニア採用開始 — ハッカソン形式インターンから選考直結",
+   "url": "https://recruit.smarthr.co.jp/newgrads/product-engineer/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・内容とも実在確認"
+  },
+  {
+   "day": "2026-05-12",
+   "id": "article-3",
+   "title": "TypeScript 7.0 Beta — GoベースのProject Corsaで10倍高速、tsgoコマンドに移行",
+   "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0-beta/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "公式ブログURL一致、内容も実際のBeta発表と整合"
+  },
+  {
+   "day": "2026-05-12",
+   "id": "article-4",
+   "title": "Helpfeel、シリーズE総額29億円完了 — AIナレッジデータプラットフォームでグローバル展開へ",
+   "url": "https://corp.helpfeel.com/news/pressrelease-20260127",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・29億円調達内容とも一致確認"
+  },
+  {
+   "day": "2026-05-12",
+   "id": "article-5",
+   "title": "Findy フリーランスエンジニア調査2026 — 平均月単価80万円、AI活用者は非活用者の2倍の確率",
+   "url": "https://findy.co.jp/3922/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・平均月単価80万円とも一致確認"
+  },
+  {
+   "day": "2026-05-12",
+   "id": "article-6",
+   "title": "「メタ認知的怠惰」— AIに頼るほど「考えているつもり」が深まる現象",
+   "url": "https://studyhacker.net/metacognitive-laziness",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "実記事確認、内容も一致"
+  },
+  {
+   "day": "2026-05-12",
+   "id": "article-7",
+   "title": "DHBR 2026年4月号「リーダーの求心力は対話から生まれる」— 丸井グループCEO 青井浩インタビュー",
+   "url": "https://dhbr.diamond.jp/articles/-/13611",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果に同一URL・内容が一致"
+  },
+  {
+   "day": "2026-05-12",
+   "id": "article-8",
+   "title": "日経サイエンス2026年5月号特集「時間軸天文学」— 木曽観測所「トモエゴゼン」で宇宙の激変を捉える",
+   "url": "https://www.nikkei-science.com/202605_027.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致、トモエゴゼン特集も合致"
+  },
+  {
+   "day": "2026-05-12",
+   "id": "article-9",
+   "title": "NASA、火星で「生命の起源」分子を新手法で初検出 — 古代火星に生命の前駆体が存在か",
+   "url": "https://www.gizmodo.jp/2026/05/nasas-curiosity-rover-discovers-origin-of-life-molecules-never-before-seen-on-mars.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・内容とも検索結果と完全一致"
+  },
+  {
+   "day": "2026-05-13",
+   "id": "article-1",
+   "title": "DeNA、2027年度新卒採用を「AIジェネラリスト」「AIスペシャリスト」2コース制へ刷新 — 初任給600万円〜/7",
+   "url": "https://dena.com/jp/news/5359/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・内容とも一致、初任給600万/700万円も確認"
+  },
+  {
+   "day": "2026-05-13",
+   "id": "article-2",
+   "title": "サイバーエージェント、2027年度エンジニアコース採用公開 — AIエージェント4億円投資が採用基準を刷新",
+   "url": "https://www.cyberagent.co.jp/careers/special/students/tech/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・4億円投資の事実とも一致"
+  },
+  {
+   "day": "2026-05-13",
+   "id": "article-3",
+   "title": "Vite 8.0 リリース — Rolldown/Oxcを統合し最大30倍高速、esbuild二重構成を解消",
+   "url": "https://vite.dev/blog/announcing-vite8",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "vite.dev公式発表と一致、実在確認"
+  },
+  {
+   "day": "2026-05-13",
+   "id": "article-4",
+   "title": "トグルホールディングス、シリーズB 2ndクローズで33.4億円調達 — 不動産×建築×金融をAI SaaSで統合",
+   "url": "https://sogyotecho.jp/news/20260430toggle/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・33.4億円の数値とも検索結果と一致"
+  },
+  {
+   "day": "2026-05-13",
+   "id": "article-5",
+   "title": "Forkwell分析 — 30歳ITエンジニアで転職4回超は転職なし組より158万円高、AI時代に拡大する市場価値の格差",
+   "url": "https://pr.forkwell.com/career_navi/it-engineer-salary-gap-as-top-talent-value-accelerates/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、年収格差テーマの記事実在確認"
+  },
+  {
+   "day": "2026-05-13",
+   "id": "article-6",
+   "title": "「人間の認知バイアス・限定合理性とAIの共進化」— AI補助が組織の確証バイアスを増幅するパラドックス",
+   "url": "https://www.jstage.jst.go.jp/article/jmp/22/2/22_63/_html/-char/ja",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・タイトルとも検索結果と一致"
+  },
+  {
+   "day": "2026-05-13",
+   "id": "article-7",
+   "title": "AIが変えたコンサル生存競争 — 「その目標は本当に正しいか」を問い続ける力が、分析AIより生き残る理由",
+   "url": "https://toyokeizai.net/articles/-/940742",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL実在、AI×コンサル記事内容ほぼ一致"
+  },
+  {
+   "day": "2026-05-13",
+   "id": "article-8",
+   "title": "名古屋大学、日本近海で単細胞・多細胞を切り替える酵母を発見 — 多細胞化進化の「中間段階」を確認",
+   "url": "https://www.nikkei-science.com/202605_058.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "名大の酵母研究記事としてURL一致"
+  },
+  {
+   "day": "2026-05-13",
+   "id": "article-9",
+   "title": "大相撲 令和8年五月場所 — 横綱・大の里が初日休場、一人横綱・豊昇龍が敗れる波乱の初日",
+   "url": "https://sports.yahoo.co.jp/sumo/basho/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果ブロックにURL文字列がそのまま出現（スポーツナビ大相撲場所ページ）"
+  },
+  {
+   "day": "2026-05-14",
+   "id": "article-1",
+   "title": "メルカリ、2027年卒エンジニア採用を開始 — スキル評価型初任給620万円〜、インターン有給化も同時発表",
+   "url": "https://careers.mercari.com/students/jp/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "実URLは見つからず。実在する新卒採用ページはcareers.mercari.com/new-graduates/だが、初任給620万円やインターン有給化という具体的内容の一致記事は確認できず"
+  },
+  {
+   "day": "2026-05-14",
+   "id": "article-2",
+   "title": "freee、エンジニア夏季インターン2026「Build &amp; Grow」— 有給50名で本選考直結",
+   "url": "https://jobs.freee.co.jp/internship/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "4検索で当該URL・代替URLとも実在確認できず。「Build & Grow」名称も未確認"
+  },
+  {
+   "day": "2026-05-14",
+   "id": "article-3",
+   "title": "Google Chrome、2026年9月から2週間リリースサイクルへ移行 — Chrome 153以降で全プラットフォ",
+   "url": "https://www.publickey1.jp/blog/26/googlechrome2web.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、Chrome153・9月2週間サイクルも一致"
+  },
+  {
+   "day": "2026-05-14",
+   "id": "article-4",
+   "title": "Next.js May 2026 Security Release — DoS・XSS等13件の脆弱性を修正、バージョン",
+   "url": "https://vercel.com/changelog/next-js-may-2026-security-release",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "Vercel公式changelogで13件のCVE修正確認"
+  },
+  {
+   "day": "2026-05-14",
+   "id": "article-5",
+   "title": "Qiita エンジニア白書2026 — 2,317名調査でAI活用率・人気言語・年収傾向の最新実態を公開",
+   "url": "https://qiita.com/white_papers/2026",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、2317名調査など内容も一致"
+  },
+  {
+   "day": "2026-05-14",
+   "id": "article-6",
+   "title": "安宅和人「AI時代こそ問いの設計が生死を分ける」— 「イシューからはじめよ」改訂版著者が東洋経済で語る思考の本質",
+   "url": "https://toyokeizai.net/articles/-/860000",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "該当記事の実在を裏付ける検索結果なし"
+  },
+  {
+   "day": "2026-05-14",
+   "id": "article-7",
+   "title": "ダブルループ学習とは何か — 「行動」でなく「前提」を変える思考法をDHBRが特集",
+   "url": "https://dhbr.diamond.jp/articles/-/13750",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "4検索で該当URL・記事の実在確認できず。DHBRサイト内検索でも同IDの記事は出現しない"
+  },
+  {
+   "day": "2026-05-14",
+   "id": "article-8",
+   "title": "ヴェネツィア国際建築展2026が開幕 — テーマ「Living Otherwise」で91か国が参加、日本館が伝統木構造",
+   "url": "https://bijutsutecho.com/magazine/news/headline/30500",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "実テーマはMONSOON COMMONALITYで不一致"
+  },
+  {
+   "day": "2026-05-14",
+   "id": "article-9",
+   "title": "国立民族学博物館「食と文明2026」特別展 — 発酵食の起源が人類定住を加速した証拠を世界各地から集結",
+   "url": "https://www.minpaku.ac.jp/exhibitions/special/2026fermentation/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "該当特別展の実在を示す検索結果なし"
+  },
+  {
+   "day": "2026-05-15",
+   "id": "article-1",
+   "title": "Sansan、2027年卒エンジニア採用を開始 — 初任給650万円、BizSaaS・プロダクト開発など3職種",
+   "url": "https://jp.corp-sansan.com/recruit/newgrads/",
+   "action": "url_fixed",
+   "correct_url": "https://jp.corp-sansan.com/news/2026/0413.html",
+   "reason": "correct_urlが検索結果に完全一致で出現、初任給引き上げ640万円のニュースリリースと確認"
+  },
+  {
+   "day": "2026-05-15",
+   "id": "article-2",
+   "title": "ZOZO、2027年卒エンジニア採用枠を80名に設定 — バックエンド/ML重点、インターンから選考直結",
+   "url": "https://recruit.zozo.com/engineer/newgraduate/",
+   "action": "url_fixed",
+   "correct_url": "https://corp.zozo.com/recruit/engineer-newgraduate/",
+   "reason": "corp.zozo.com/recruit/engineer-newgraduate/が検索結果に完全URL文字列として出現し実在確認"
+  },
+  {
+   "day": "2026-05-15",
+   "id": "article-3",
+   "title": "React 20 Beta公開 — React Compilerが既存コードの80%超を自動最適化、Server Act",
+   "url": "https://react.dev/blog/2026/05/15/react-20-beta",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "React20は未リリース、react.devに該当記事なし"
+  },
+  {
+   "day": "2026-05-15",
+   "id": "article-4",
+   "title": "Ubie、シリーズF 50億円を調達 — AI問診を医療機関500施設超に展開し米国拠点を設立",
+   "url": "https://ubieco.jp/media/press/2026051501",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "シリーズF50億円調達の実在裏付けなし"
+  },
+  {
+   "day": "2026-05-15",
+   "id": "article-5",
+   "title": "Forkwell エンジニア転職市場レポート2026 — 正社員中央値740万円、クラウド資格保有で非保有比+23%",
+   "url": "https://pr.forkwell.com/article/engineer-market-2026/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "4検索で当該記事・数値とも実在確認できず"
+  },
+  {
+   "day": "2026-05-15",
+   "id": "article-6",
+   "title": "入山章栄「両利きの経営」再考 — AI時代に「知の探索」を怠るリスク",
+   "url": "https://toyokeizai.net/articles/-/20260501",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "実際の東洋経済ID体系と乖離、該当記事見つからず"
+  },
+  {
+   "day": "2026-05-15",
+   "id": "article-7",
+   "title": "「確証バイアス」を逆用する思考実験 — 反証探しを習慣化した人が判断の質を高める理由",
+   "url": "https://diamond.jp/articles/-/20260514",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "該当URL・記事の実在を確認できず"
+  },
+  {
+   "day": "2026-05-15",
+   "id": "article-8",
+   "title": "iPS細胞由来網膜色素上皮シートの臨床2例目で視力回復 — 理研・住友ファーマが中間報告",
+   "url": "https://www.riken.jp/press/2026/20260515_2/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "4検索でも20260515_2の実在確認できず。同日の理研関連URLは別内容（キャリア募集等）のみ出現"
+  },
+  {
+   "day": "2026-05-15",
+   "id": "article-9",
+   "title": "高校野球「新基準金属バット」2年目データ — 本塁打数が前年比37%減、投手交代策も変化",
+   "url": "https://www.nikkansports.com/baseball/highschool/news/20260515-s0001.html",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "4検索実施も当該URL・37%減という数値の裏付けとれず（他媒体では倍増/70%減など数値が食い違う）"
+  },
+  {
+   "day": "2026-05-16",
+   "id": "article-1",
+   "title": "note、2027年卒ソフトウェアエンジニア採用 — 初任給580万円、クリエイターエコノミーを支える3職種",
+   "url": "https://herp.careers/v1/note/req-swe-2027",
+   "action": "url_fixed",
+   "correct_url": "https://note.jp/n/n9288424f94af",
+   "reason": "元URLは実在確認できず。同内容（note初の新卒採用、2027年入社1期生募集）の公式記事note.jp/n/n9288424f94afが検索結果に出現"
+  },
+  {
+   "day": "2026-05-16",
+   "id": "article-2",
+   "title": "ラクスル、2027年卒エンジニア採用を開始 — 採用枠25名、現役エンジニアとの1対1メンタリング付きインターン",
+   "url": "https://www.raksul.com/recruit/newgraduates/engineer/2027/",
+   "action": "url_fixed",
+   "correct_url": "https://recruit.raksul.com/newgrads/",
+   "reason": "correct_urlが検索結果に完全一致で出現し実在確認"
+  },
+  {
+   "day": "2026-05-16",
+   "id": "article-3",
+   "title": "Bun 2.0 正式リリース — npm比30倍高速のパッケージインストール、Node.js互換率99%を達成",
+   "url": "https://bun.sh/blog/bun-v2",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "Bun 2.0は存在せず現行は1.3系"
+  },
+  {
+   "day": "2026-05-16",
+   "id": "article-4",
+   "title": "タイミー、国内登録ワーカー数が800万人突破 — 食品・物流・小売のスポットワーク需要が前年比43%増",
+   "url": "https://prtimes.jp/main/html/rd/p/000000212.000052374.html",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "2025年1月に既に1000万人突破済で時系列矛盾"
+  },
+  {
+   "day": "2026-05-16",
+   "id": "article-5",
+   "title": "GitHub Copilot利用実態調査2026 — エンジニアの74%が日常利用、コードレビュー時間35%短縮",
+   "url": "https://github.blog/jp/2026-05-copilot-annual-survey/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "URL形式が実際のgithub.blogと不一致、数値未確認"
+  },
+  {
+   "day": "2026-05-16",
+   "id": "article-6",
+   "title": "キーガン「なぜ人と組織は変われないのか」— 変化への抵抗は意志でなく「免疫システム」の構造問題",
+   "url": "https://eichi-pub.com/books/kegan-immunity/",
+   "action": "url_fixed",
+   "correct_url": "https://eijipress.co.jp/en/products/2154",
+   "reason": "correct_urlが検索結果に完全一致で出現、実在確認済み（英治出版の書籍ページ）"
+  },
+  {
+   "day": "2026-05-16",
+   "id": "article-7",
+   "title": "安宅和人「AI時代の知的戦闘力」— 問いの質を高めることが生成AI時代の差別化要因になる",
+   "url": "https://newspicks.com/news/12851234/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "該当記事なし、IDも2026年の水準と不整合"
+  },
+  {
+   "day": "2026-05-16",
+   "id": "article-8",
+   "title": "カンヌ映画祭2026、日本映画2本がコンペティション選出 — 新世代監督が是枝・濱口に続く",
+   "url": "https://www.cinematoday.jp/news/N0139842",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "実際は3監督同時参加、2本という記述が事実と矛盾"
+  },
+  {
+   "day": "2026-05-16",
+   "id": "article-9",
+   "title": "ラグビー日本代表、テストマッチ2連勝で世界ランク12位 — 2027年W杯アルゼンチン大会へ最高位タイ更新",
+   "url": "https://www.rugby-japan.jp/news/2026/05/15/test-match-report/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "4検索実施も5月のテストマッチ2連勝・当該URLとも確認できず"
+  },
+  {
+   "day": "2026-05-17",
+   "id": "article-1",
+   "title": "Ubie、2027年卒エンジニア採用を開始 — 医療AIで初任給600万円、プロダクト職・リサーチ職2系統を募集",
+   "url": "https://recruit.ubie.life/engineer/2027/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "recruit.ubie.lifドメインは実在するが該当URL・初任給600万円やプロダクト職/リサーチ職2系統という具体的内容の一致記事は確認できず"
+  },
+  {
+   "day": "2026-05-17",
+   "id": "article-2",
+   "title": "Speee、2027年卒エンジニア採用枠を35名に拡大 — 入社1年目から設計レビューに参加できるラーニング制度",
+   "url": "https://speee.jp/recruit/new-graduate/2027/engineer/",
+   "action": "url_fixed",
+   "correct_url": "https://newgraduate.speee.jp/engineer/",
+   "reason": "元URLは未確認だが、同内容の新卒エンジニア採用ページのURLが完全一致で出現"
+  },
+  {
+   "day": "2026-05-17",
+   "id": "article-3",
+   "title": "Deno 2.3リリース — OXCへのLint統合で最大8倍高速化、Node.js互換モードをさらに強化",
+   "url": "https://deno.com/blog/v2.3",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "Deno2.3のOXC統合8倍高速化は確認できず"
+  },
+  {
+   "day": "2026-05-17",
+   "id": "article-4",
+   "title": "BASE、累計ショップ開設数が200万を突破 — 物流API「BASE Logistics」の出荷コスト削減効果42%で",
+   "url": "https://binc.jp/press-room/news/press/20260515-base-shops-2m",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "200万突破は2023年、2026年5月時点は260万突破済"
+  },
+  {
+   "day": "2026-05-17",
+   "id": "article-5",
+   "title": "Forkwell 転職市場レポート2026春 — Web系エンジニアの中央値年収890万円、前年比+7%",
+   "url": "https://engineer.forkwell.com/report/2026-spring/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "4検索でengineer.forkwell.com/reportドメイン自体や該当レポート・890万円統計を確認できず"
+  },
+  {
+   "day": "2026-05-17",
+   "id": "article-6",
+   "title": "『FACTFULNESS』が解剖するドラマ本能 — データより感情的物語に引き寄せられる本能の構造と批判的思考",
+   "url": "https://toyokeizai.net/articles/-/767953",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "該当記事ID・ドラマ本能特集の実在確認できず"
+  },
+  {
+   "day": "2026-05-17",
+   "id": "article-7",
+   "title": "システム思考のループ図で問題構造を可視化 — なぜ施策が裏目に出るのかを強化ループ・均衡ループで分析",
+   "url": "https://diamond.jp/articles/-/351842",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "4検索実施もdiamond.jp/articles/-/351842の実在確認できず"
+  },
+  {
+   "day": "2026-05-17",
+   "id": "article-8",
+   "title": "気象庁、黒潮大蛇行の終息を確認 — 2017年以来9年ぶり、関東〜東北沿岸の漁業環境が平年値へ",
+   "url": "https://www.jma.go.jp/jma/press/2026/05/kuroshio-meander-end.html",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "実際は2025年終息発表済み、9年ぶりも実際は7年9か月"
+  },
+  {
+   "day": "2026-05-17",
+   "id": "article-9",
+   "title": "OECD教育白書2026、先進国の大学進学率が初めて横ばいに — 職業訓練・短期資格へのシフトが鮮明",
+   "url": "https://www.mext.go.jp/b_menu/toukei/002/002b/1417059_00023.html",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "URL番号が実在の統計要覧番号列と不整合"
+  },
+  {
+   "day": "2026-05-18",
+   "id": "article-1",
+   "title": "マネーフォワード、2027年卒エンジニア採用を開始 — 採用枠60名、6月からサマーインターン直結選考",
+   "url": "https://career.moneyforward.com/recruit/graduate/2027/engineer/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "career.moneyforward.comというドメイン自体が実在せず（正しくはrecruit.moneyforward.com/students）。採用枠60名という数値も確認できず"
+  },
+  {
+   "day": "2026-05-18",
+   "id": "article-2",
+   "title": "リクルート、2027年卒に「AIプロダクト職」新設 — 初任給580万円、30名枠でデータサイエンスとPdMを統合",
+   "url": "https://recruit-careers.recruit.co.jp/newgrads/ai-product/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "該当サブドメイン・AIプロダクト職情報見当たらず"
+  },
+  {
+   "day": "2026-05-18",
+   "id": "article-3",
+   "title": "Next.js 16 正式リリース — Turbopackがデフォルトビルダーに、cold startが最大3倍高速化",
+   "url": "https://nextjs.org/blog/next-16",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "実際の正式リリースは2025年10月で7ヶ月ずれ"
+  },
+  {
+   "day": "2026-05-18",
+   "id": "article-4",
+   "title": "ナレッジワーク、シリーズB追加調達15億円 — 累計37億円、製造・小売向け展開を加速",
+   "url": "https://knowledgework.co.jp/news/2026/05/series-b2/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "実際は45億円調達・累計61億円で数値不一致"
+  },
+  {
+   "day": "2026-05-18",
+   "id": "article-5",
+   "title": "Offers、副業エンジニア実態調査2026 — 週2日で月30万円以上が42%、2024年比+11pt",
+   "url": "https://offers.jp/media/side-job/a_4089/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "4検索で未確認。Offersの実際のパス構造はmedia/sidejob/（ハイフンなし）でありパス自体が誤り"
+  },
+  {
+   "day": "2026-05-18",
+   "id": "article-6",
+   "title": "「イシューからはじめよ」改訂新版 — 安宅和人が語るAI時代の問題設定力",
+   "url": "https://diamond.jp/articles/-/367821",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "4検索で記事ID367821の実在確認できず。安宅和人・イシューからはじめよ関連の別記事のみヒット"
+  },
+  {
+   "day": "2026-05-18",
+   "id": "article-7",
+   "title": "成人発達理論「自己変容的知性」— キーガンの段階論が示すAI時代の学習限界",
+   "url": "https://eijipublishing.co.jp/news/2026/kegan-interview-ai-age/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "英治出版の実ドメインはeijipress.co.jp、記事未確認"
+  },
+  {
+   "day": "2026-05-18",
+   "id": "article-8",
+   "title": "東大・産総研、腸内細菌の「概日時計」を発見 — 睡眠リズムと連動する新メカニズム",
+   "url": "https://www.u-tokyo.ac.jp/focus/ja/press/z0109_00320.html",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "東大×産総研の概日時計研究は検索で確認できず"
+  },
+  {
+   "day": "2026-05-18",
+   "id": "article-9",
+   "title": "ブータン、「国民総幸福量」指標を12年ぶりに改定 — デジタル格差・気候適応を新指標に追加",
+   "url": "https://www.gnhc.gov.bt/en/2026-gnh-survey/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "4検索実施も2026年GNH指標改定・当該URLとも確認できず（直近改定は2023年5月発表分のみ確認）"
+  },
+  {
+   "day": "2026-05-19",
+   "id": "article-1",
+   "title": "GMOインターネット、新卒エンジニア採用「710万プログラム」— 技術評価上位者全員に初任給保証",
+   "url": "https://recruit.group.gmo/rookies/general.php",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・710万プログラム内容とも実在確認"
+  },
+  {
+   "day": "2026-05-19",
+   "id": "article-2",
+   "title": "ピクシブ、2027年卒エンジニア採用を本格化 — 有償インターン5日間から本選考直結",
+   "url": "https://www.pixiv.co.jp/new-graduates/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、有償インターン内容も整合"
+  },
+  {
+   "day": "2026-05-19",
+   "id": "article-3",
+   "title": "Node.js 26.0.0 リリース — Temporal APIがデフォルト有効、V8 14.6・Undici 8.",
+   "url": "https://nodejs.org/en/blog/release/v26.0.0",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "公式リリースノートと内容完全一致"
+  },
+  {
+   "day": "2026-05-19",
+   "id": "article-4",
+   "title": "ヘンリー、病院向けSaaSでシリーズC累計30億円完了 — クラウド型電子カルテでグローバル展開へ",
+   "url": "https://prtimes.jp/main/html/rd/p/000000020.000102549.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果に同一URL・内容が一致"
+  },
+  {
+   "day": "2026-05-19",
+   "id": "article-5",
+   "title": "LAPRAS、エンジニア「年収探査ジェネレーター」を提供開始 — 技術スタック差で最大3倍の年収格差",
+   "url": "https://corp.lapras.com/news/1271/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "corp.lapras.com/news/1271/が検索結果に完全URL文字列として出現し、「年収探査ジェネレーター」提供開始の記事と一致"
+  },
+  {
+   "day": "2026-05-19",
+   "id": "article-6",
+   "title": "「吟味する思考」国際調査で日本が最下位 — フェイクニュース時代のクリティカルシンキング",
+   "url": "https://www.factcheckcenter.jp/course/others/jfc-factcheck-course-theory4/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "同一内容の記事が同ドメインに実在確認"
+  },
+  {
+   "day": "2026-05-19",
+   "id": "article-7",
+   "title": "DHBR 2026年5月号「データを収益化する」— 優れたCDOが先に設計する「問い」とは何か",
+   "url": "https://www.fujisan.co.jp/product/5772/new/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "DHBR2026年5月号「データを収益化する」特集を確認"
+  },
+  {
+   "day": "2026-05-19",
+   "id": "article-8",
+   "title": "週刊東洋経済「宇宙ビジネスの熱波」— 1兆円予算時代、H3とスペースXの分岐点",
+   "url": "https://www.fujisan.co.jp/product/5828/new/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "5/23号「宇宙ビジネスの熱波」特集が実在確認"
+  },
+  {
+   "day": "2026-05-19",
+   "id": "article-9",
+   "title": "人口減少と生物多様性のパラドックス — 農山村の人減りが必ずしも自然を救わない",
+   "url": "https://www.nature.com/articles/s41893-025-01578-w",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "Nature Sustainability掲載研究と一致"
+  },
+  {
+   "day": "2026-05-20",
+   "id": "article-1",
+   "title": "kubell、2027年卒エンジニア採用「国内No.1ビジネスチャット×AIプロダクト開発への挑戦」",
+   "url": "https://job.tracks.run/events/kubell_27agent",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・内容とも検索結果と完全一致"
+  },
+  {
+   "day": "2026-05-20",
+   "id": "article-2",
+   "title": "VS Code「Agent window」プレビュー公開 — 複数AIエージェントでの並列開発を支援",
+   "url": "https://www.publickey1.jp/blog/26/vs_codeaiagent_window.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、Agent window内容も一致確認"
+  },
+  {
+   "day": "2026-05-20",
+   "id": "article-3",
+   "title": "AIを高速化するPythonライク新言語「Mojo」ベータ版到達 — 正式版は2026年後半に",
+   "url": "https://www.publickey1.jp/blog/26/aipythonmojo.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、ベータ到達の内容確認"
+  },
+  {
+   "day": "2026-05-20",
+   "id": "article-4",
+   "title": "クラウド市場2026Q1 — AWS 28%・Azure 21%、市場全体が年35%急成長",
+   "url": "https://www.publickey1.jp/blog/26/aws28azure213520261synergy_research.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "publickey1記事実在、数値も一致"
+  },
+  {
+   "day": "2026-05-20",
+   "id": "article-5",
+   "title": "DuckDBをクライアント/サーバ化する「Quack」プロトコル登場 — 複数インスタンス間の接続が可能に",
+   "url": "https://www.publickey1.jp/blog/26/duckdbquackduckdb.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果に同一URL・内容が一致"
+  },
+  {
+   "day": "2026-05-20",
+   "id": "article-6",
+   "title": "DHBR連載第3回「効果的な「問い」の立て方」— 成人発達理論から見た思考育成の鍵",
+   "url": "https://dhbr.diamond.jp/articles/-/13355",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致、連載第3回の内容も合致"
+  },
+  {
+   "day": "2026-05-20",
+   "id": "article-7",
+   "title": "DHBR連載第6回「大人になってからも人は変わりうる」— キーガンの5段階モデルと自己変容型知性",
+   "url": "https://dhbr.diamond.jp/articles/-/13738",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・タイトルとも検索結果と一致"
+  },
+  {
+   "day": "2026-05-20",
+   "id": "article-8",
+   "title": "愛知・名古屋アジア競技大会2026、聖火リレー日程決定 — eスポーツが初の正式メダル競技11種目",
+   "url": "https://www.aichi-nagoya2026.org/news/detail/1066/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "eスポーツは2022年杭州大会で既にメダル競技、「初」誤り"
+  },
+  {
+   "day": "2026-05-20",
+   "id": "article-9",
+   "title": "FIFA W杯公式球「Trionda」がバンクーバーの科学館を覆う — 開幕22日前に北米で盛り上がる",
+   "url": "https://lifevancouver.jp/science-world-fifa-world-cup-2026-official-match-ball",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・Trionda展示の内容とも一致"
+  },
+  {
+   "day": "2026-05-21",
+   "id": "article-1",
+   "title": "Timee、2027年卒プロダクトエンジニア採用開始 — DevEnable室と育成10制度を新設",
+   "url": "https://product-recruit.timee.co.jp/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "DevEnable室・採用ページとも実在確認"
+  },
+  {
+   "day": "2026-05-21",
+   "id": "article-2",
+   "title": "LINEヤフー、2027年卒技術職「AIカンパニー採用」開始 — 初任給43万円以上・年収650万円以上",
+   "url": "https://www.lycorp.co.jp/ja/recruit/newgrads/engineer/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "初任給43万円・年収650万円など数値も一致"
+  },
+  {
+   "day": "2026-05-21",
+   "id": "article-3",
+   "title": "Java 26 正式リリース — HotSpot起動高速化、HTTP/3クライアント標準搭載",
+   "url": "https://www.publickey1.jp/blog/26/java_26hotspothttp3.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、JDK26内容も一致確認"
+  },
+  {
+   "day": "2026-05-21",
+   "id": "article-4",
+   "title": "Google Play の手数料が20%以下へ — 独自課金・外部Webサイト経由の課金も解禁",
+   "url": "https://www.publickey1.jp/blog/26/google_playgoogle20web.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、手数料20%への改定内容確認"
+  },
+  {
+   "day": "2026-05-21",
+   "id": "article-5",
+   "title": "Cloudflare Email Service パブリックベータ — AIエージェントがWorkersからメール送受信",
+   "url": "https://www.publickey1.jp/blog/26/cloudflareaicloudflare_email_service.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "publickey1記事実在、内容一致"
+  },
+  {
+   "day": "2026-05-21",
+   "id": "article-6",
+   "title": "ピーター・センゲに学ぶ「学習する組織」 — 組織OSとシステム思考がAI時代の思考基盤に",
+   "url": "https://news.mynavi.jp/techplus/article/enterpriseit-newtrend-69/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果に同一URL・内容が一致"
+  },
+  {
+   "day": "2026-05-21",
+   "id": "article-7",
+   "title": "カラスはなぜ真っ黒? — 岡山大が「止まらないスイッチ」の分子メカニズムを解明",
+   "url": "https://www.okayama-u.ac.jp/tp/release/release_id1536.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致、研究内容も合致"
+  },
+  {
+   "day": "2026-05-21",
+   "id": "article-8",
+   "title": "「秒」63年ぶり再定義へ — 理研×島津製作所、光格子時計で国際機関と合意",
+   "url": "https://www.jiji.com/jc/article?k=2026051201092&g=soc",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・内容とも検索結果と完全一致"
+  },
+  {
+   "day": "2026-05-22",
+   "id": "article-1",
+   "title": "Wantedly、2027年卒エンジニア採用を通年実施 — フロントエンド/バックエンド/iOS/Android 4職種",
+   "url": "https://hire.wantedly.com/careers/wantedly/",
+   "action": "url_fixed",
+   "correct_url": "https://hire.wantedly.com/careers/wantedly/career_page_top_view?lang=ja",
+   "reason": "元URLの完全一致は出現せず、実際に検索結果に出現するのはcareer_page_top_view付きURL"
+  },
+  {
+   "day": "2026-05-22",
+   "id": "article-2",
+   "title": "DuckDB 1.5.3 — Quackプロトコル安定化・「普通のパッチリリースではない」と公式ブログ",
+   "url": "https://duckdb.org/2026/05/20/announcing-duckdb-153",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・タイトル文言とも完全一致"
+  },
+  {
+   "day": "2026-05-22",
+   "id": "article-3",
+   "title": "Google Antigravity 2.0 — Android開発に正式対応、AIエージェント型の統合開発スイートへ",
+   "url": "https://www.publickey1.jp/blog/26/google_antigravityandroidaiandroid_knowledge_baseandroid_skills.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "publickey記事のURL・内容とも一致"
+  },
+  {
+   "day": "2026-05-22",
+   "id": "article-4",
+   "title": "クラウドインフラ Q1 2026 — AWS 28%・Azure 21%で変わらず、市場全体が年率35%急成長",
+   "url": "https://www.publickey1.jp/blog/26/aws28azure213520261synergy_research.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、AWS28%Azure21%成長35%も一致"
+  },
+  {
+   "day": "2026-05-22",
+   "id": "article-5",
+   "title": "Findy IT/Webエンジニア調査2026 — 正社員平均年収が初の700万円台、生成AI活用者は9割超",
+   "url": "https://findy.co.jp/2679/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、700万円台・9割超の数値も一致"
+  },
+  {
+   "day": "2026-05-22",
+   "id": "article-6",
+   "title": "DHBR連載第6回 — ロバート・キーガン「自己変容的知性」に到達する大人は1%未満",
+   "url": "https://dhbr.diamond.jp/articles/-/13738",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、連載第6回キーガン特集を確認"
+  },
+  {
+   "day": "2026-05-22",
+   "id": "article-7",
+   "title": "5月22日「国際生物多様性の日」— 昆明・モントリオール30×30目標、陸域17%止まり",
+   "url": "https://www.eco-online.org/news-2026-5-19-2/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果に完全一致URLが出現（「5月22日 国際生物多様性の日に考える私たちの未来」）"
+  },
+  {
+   "day": "2026-05-22",
+   "id": "article-8",
+   "title": "Helical Fusion、核融合最終実証装置「Helix HARUKA」の建設を本格化 — 2027年通電試験へ",
+   "url": "https://sustainablejapan.jp/2026/03/14/helical-fusion-helix-haruka-phase1/122932",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果ブロックにURL文字列がそのまま出現、記事内容とも一致"
+  },
+  {
+   "day": "2026-05-23",
+   "id": "article-1",
+   "title": "Visional、2027年卒エンジニア採用開始 — BizReach含むグループ5社が合同セッション",
+   "url": "https://recruit.visional.inc/engineers/2027/",
+   "action": "url_fixed",
+   "correct_url": "https://newgrads.visional.inc/",
+   "reason": "newgrads.visional.inc/が検索結果に完全URL文字列として出現し、Visional新卒採用サイトとして実在確認"
+  },
+  {
+   "day": "2026-05-23",
+   "id": "article-2",
+   "title": "サイボウズ、2027年卒エンジニア採用を開始 — 完全リモート対応・全国から3職種選考",
+   "url": "https://cybozu.co.jp/recruit/entry/career/new-graduates/engineer/",
+   "action": "url_fixed",
+   "correct_url": "https://cybozu.co.jp/recruit/entry/newgrad/",
+   "reason": "correct_urlが検索結果に完全一致で出現し実在確認"
+  },
+  {
+   "day": "2026-05-23",
+   "id": "article-3",
+   "title": "PostgreSQL 18 Beta 1 公開 — 非同期I/O初実装とMERGE構文の大幅拡張",
+   "url": "https://www.publickey1.jp/blog/26/postgresql_18_beta_1.html",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "PostgreSQL18は2025年9月に正式リリース済で矛盾"
+  },
+  {
+   "day": "2026-05-23",
+   "id": "article-4",
+   "title": "Autify、シリーズC 20億円調達 — AIテストエージェントで国内外エンタープライズに展開",
+   "url": "https://autify.com/ja/news/series-c-2026",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "実際はシリーズB20億円、ドメインもautify.jpが正"
+  },
+  {
+   "day": "2026-05-23",
+   "id": "article-5",
+   "title": "GitHub Copilot生産性調査2026 — 週あたりコード行数が未使用者の1.4倍、PR承認速度55%短縮",
+   "url": "https://github.blog/jp/2026-05-23-github-copilot-productivity-report-2026/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "4検索でこのURL・記事の実在確認できず。GitHub Blogの実際の統計値（PRサイクル9.6日→2.4日等）とも記事本文の数値が一致しない"
+  },
+  {
+   "day": "2026-05-23",
+   "id": "article-6",
+   "title": "カーネマン逝去から2年 — 「ファスト&amp;スロー」の二重過程理論がAI依存時代に再評価",
+   "url": "https://diamond.jp/articles/-/385000",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "4検索実施もdiamond.jp/articles/-/385000の実在・カーネマン逝去2年再評価記事とも確認できず"
+  },
+  {
+   "day": "2026-05-23",
+   "id": "article-7",
+   "title": "ピーター・センゲ「学習する組織」— AI時代のフィードバックループとメンタルモデルの明示化",
+   "url": "https://dhbr.diamond.jp/articles/-/13700",
+   "action": "url_fixed",
+   "correct_url": "https://dhbr.diamond.jp/articles/-/13423",
+   "reason": "元URLは実在確認できず。同内容（ピーター・センゲ×名和高司「学習する組織はAI時代にどう進化するのか」2026年3月号）の記事dhbr.diamond.jp/articles/-/13423が検索結果に出現"
+  },
+  {
+   "day": "2026-05-23",
+   "id": "article-8",
+   "title": "京大CiRA、iPS細胞由来の人工膵島でI型糖尿病の臨床第1相試験へ — 動物実験で2年間の血糖正常化確認",
+   "url": "https://www.cira.kyoto-u.ac.jp/j/pressrelease/news/260523.html",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "治験は既に2025年開始済みで時系列が矛盾"
+  },
+  {
+   "day": "2026-05-23",
+   "id": "article-9",
+   "title": "伝統工芸従事者が2000年比で46%減 — 経産省調査、後継者不足で241品目のうち10品目超が危機",
+   "url": "https://www.meti.go.jp/press/2026/05/20260523001/20260523001.html",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "4検索で当該プレスリリースURL実在確認できず。傾向自体は他資料で裏付けあるが具体的press URLは不明"
+  },
+  {
+   "day": "2026-05-24",
+   "id": "article-1",
+   "title": "MIXI、2027年卒エンジニア採用本格化 — みてね・モンスターストライク等6プロダクトで選考直結",
+   "url": "https://mixigroup-recruit.mixi.co.jp/recruitment-category/new-graduate/13170/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果に同一URL・内容が一致"
+  },
+  {
+   "day": "2026-05-24",
+   "id": "article-2",
+   "title": "DMMグループ、2027年卒エンジニア採用 — 4,100万人超会員プラットフォーム・VPoE最終面接",
+   "url": "https://job.tracks.run/new-grad/yKTdd2obf",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致、4100万人会員も合致"
+  },
+  {
+   "day": "2026-05-24",
+   "id": "article-3",
+   "title": "AWS MCP Server がGA — IAM認証で15,000超のAWS APIをAIエージェントから安全に呼び出し",
+   "url": "https://aws.amazon.com/blogs/aws/the-aws-mcp-server-is-now-generally-available/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "GA発表・IAM認証・15000超API等すべて一致"
+  },
+  {
+   "day": "2026-05-24",
+   "id": "article-4",
+   "title": "IVRy、3メガバンクから45億円を長期融資で調達 — AI電話応対SaaS、累計151.1億円・6万アカウント突破",
+   "url": "https://www.nikkei.com/article/DGXZQOUC188BC0Y6A510C2000000/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・45億円・151.1億円・6万アカウント全て一致"
+  },
+  {
+   "day": "2026-05-24",
+   "id": "article-5",
+   "title": "Findy IT/Webエンジニア調査 — 平均年収700万円台初突破、生成AI業務活用率91.8%",
+   "url": "https://findy.co.jp/2679/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、700万円台・91.8%の数値も一致"
+  },
+  {
+   "day": "2026-05-24",
+   "id": "article-6",
+   "title": "DHBR 2026年6月号「サイロを破壊し意思決定を加速させる」— プロジェクト主導型組織の8要諦",
+   "url": "https://dhbr.diamond.jp/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "実際の特集は「組織の選択」、タイトル不一致"
+  },
+  {
+   "day": "2026-05-24",
+   "id": "article-7",
+   "title": "東洋経済「AIを使う人の批判的思考能力が低下している」— Microsoftの調査が示す認知スキルの劣化",
+   "url": "https://toyokeizai.net/articles/-/859462?display=b",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、Microsoft調査の内容も整合"
+  },
+  {
+   "day": "2026-05-24",
+   "id": "article-8",
+   "title": "第79回カンヌ映画祭、岡本多緒が日本人初の女優賞受賞 — 是枝・濱口・深田3監督の同時コンペ参加",
+   "url": "https://www.cinematoday.jp/news/N0154973",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、日本人初女優賞受賞を確認"
+  },
+  {
+   "day": "2026-05-24",
+   "id": "article-9",
+   "title": "大相撲夏場所、千秋楽を7力士で争う乱戦 — 14日目終了時点で霧島・若隆景ら11勝3敗に並走",
+   "url": "https://sumo.or.jp/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "14日目混戦・11勝3敗の展開が報道と一致"
+  },
+  {
+   "day": "2026-05-25",
+   "id": "article-1",
+   "title": "エムスリー、2027年卒ソフトウェアエンジニア通年採用 — 医療×Webの事業会社、採用倍率12倍超",
+   "url": "https://open.talentio.com/r/1/c/m3/pages/83383",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "Talentio該当ページ実在確認"
+  },
+  {
+   "day": "2026-05-25",
+   "id": "article-2",
+   "title": "GitHub Copilot App テクニカルプレビュー — Issue起点の自律型開発、Agent MergeでPR",
+   "url": "https://gihyo.jp/article/2026/05/github-copilot-app-technical-preview",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果に同一URL・内容が一致"
+  },
+  {
+   "day": "2026-05-25",
+   "id": "article-3",
+   "title": "ピクシーダストテクノロジーズ、シリーズD 33億円調達 — 波動制御技術でヘルスケア・空間音響を拡大",
+   "url": "https://thebridge.jp/2026/05/pixiedusttechnologies-seriesd-33billion-wave-control-expansion",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致、33億円調達も合致"
+  },
+  {
+   "day": "2026-05-25",
+   "id": "article-4",
+   "title": "Anthropic、Claudeサブスクを6月15日から刷新 — Agent SDK利用を別枠化、Proに月$20クレジ",
+   "url": "https://www.techno-edge.net/article/2026/05/14/5064.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、Agent SDK別枠化・$20クレジット等一致"
+  },
+  {
+   "day": "2026-05-25",
+   "id": "article-5",
+   "title": "JPYC、シリーズB 2ndクローズで28億円追加調達 — 日本初の電子決済手段ステーブルコイン",
+   "url": "https://corporate.jpyc.co.jp/news/posts/series-b-second-close",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、28億円追加調達を確認"
+  },
+  {
+   "day": "2026-05-25",
+   "id": "article-6",
+   "title": "AI共創はクリティカルシンキングで深まる — 批判的評価力こそAI時代の核心スキル",
+   "url": "https://thefas.jp/thinking-methods/ai-powered-workforece-pt2-critical-thinking/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致で記事実在確認"
+  },
+  {
+   "day": "2026-05-25",
+   "id": "article-7",
+   "title": "DHBR 2026年5月号「データを収益化する」 — 情報の価値化を問い直すCDO思考",
+   "url": "https://www.fujisan.co.jp/product/5772/new/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "「データを収益化する」特集と一致確認"
+  },
+  {
+   "day": "2026-05-25",
+   "id": "article-8",
+   "title": "トキ放鳥、能登半島で5月31日に本州初の式典 — 震災復興シンボル、15〜20羽を順化訓練中",
+   "url": "https://www.env.go.jp/press/press_04386.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、5/31放鳥15〜20羽など内容も一致"
+  },
+  {
+   "day": "2026-05-25",
+   "id": "article-9",
+   "title": "アルミニウム価格、約4年ぶりの高値 — 中東供給減でLME先物3,670ドル超",
+   "url": "https://www.sooktrading.com/jp/blog/10855/wwwsooktradingcomaluminum-may2026-japan-market-boom",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果に完全一致URLが出現（アルミニウム価格高騰記事、内容も一致）"
+  },
+  {
+   "day": "2026-05-26",
+   "id": "article-1",
+   "title": "サイバーエージェント、2027年度エンジニアコース通年採用 — エキスパート認定で年俸720万円以上、Re:Career",
+   "url": "https://www.cyberagent.co.jp/careers/special/students/tech/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、720万円・Re:Careerの内容確認"
+  },
+  {
+   "day": "2026-05-26",
+   "id": "article-2",
+   "title": "npm 11.15.0 — staged publishing（2FA承認必須）と4種のinstall-time fla",
+   "url": "https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "TheHackerNews記事実在、内容一致"
+  },
+  {
+   "day": "2026-05-26",
+   "id": "article-3",
+   "title": "Qubitcore、OIST発の量子コンピュータ技術でシード15.3億円調達 — 光接続分散アーキテクチャ、2026年内",
+   "url": "https://prtimes.jp/main/html/rd/p/000000005.000166227.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果に同一URL・内容が一致"
+  },
+  {
+   "day": "2026-05-26",
+   "id": "article-4",
+   "title": "トグルホールディングス、33.4億円調達 — 不動産AIプロダクトを保険・コールセンター等の業種へ水平展開",
+   "url": "https://www.nikkei.com/article/DGXZQOUC27A7C0X20C26A4000000/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致、33.4億円調達も合致"
+  },
+  {
+   "day": "2026-05-26",
+   "id": "article-5",
+   "title": "LAPRAS、転職顕在層が1.5倍増 — AIが可視化するキャリア市場価値レポートを刷新、経験5年の中央値683万円",
+   "url": "https://corp.lapras.com/news/1173/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL実在、683万円等の数値も裏付け確認"
+  },
+  {
+   "day": "2026-05-26",
+   "id": "article-6",
+   "title": "AI時代の専門性とは何か — 知識の深さと批判的思考が「AIに考えさせる前」の判断力を守る",
+   "url": "https://www.business-research-lab.com/250519-3/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・タイトルとも完全一致で確認"
+  },
+  {
+   "day": "2026-05-26",
+   "id": "article-7",
+   "title": "メタ認知・メタ思考がAI共創で創造性を広げる — 「自分の思考を観察する力」が生成AIの出力品質を高める",
+   "url": "https://thefas.jp/thinking-methods/ai-powered-workforece-pt1-metacognition/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致で記事実在確認"
+  },
+  {
+   "day": "2026-05-26",
+   "id": "article-8",
+   "title": "宝塚歌劇 月組トップスター・鳳月杏、2027年3月に退団 — 天紫珠李と同時発表",
+   "url": "https://kageki.hankyu.co.jp/news/20260518_001.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "kageki公式ニュースURL・内容とも一致"
+  },
+  {
+   "day": "2026-05-26",
+   "id": "article-9",
+   "title": "東京科学大学、腸の再生の新メカニズムを解明 — 復活幹細胞と普通幹細胞が相互移行し幹細胞プールを維持",
+   "url": "https://www.isct.ac.jp/ja/news/aminlemao62n",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・タイトルとも検索結果と完全一致"
+  },
+  {
+   "day": "2026-05-27",
+   "id": "article-1",
+   "title": "DeNA、2027年度新卒に「AIジェネラリスト」コース新設 — エンジニア年俸600万円〜、AIスペシャリストは700",
+   "url": "https://dena.com/jp/news/5359/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、600万・700万円の数値も一致確認"
+  },
+  {
+   "day": "2026-05-27",
+   "id": "article-2",
+   "title": "Sansan、2027年度新卒採用枠を過去最高170名へ — 初任給は住宅補助込みで年収約640万円、エンジニアは100",
+   "url": "https://prtimes.jp/main/html/rd/p/000000818.000049627.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、170名・640万円等の数値確認"
+  },
+  {
+   "day": "2026-05-27",
+   "id": "article-3",
+   "title": "Docker AIエージェント「Gordon」が正式リリース — Docker DesktopとCLIに統合、Perso",
+   "url": "https://www.docker.com/blog/meet-gordon-dockers-ai-agent-for-your-entire-container-workflow/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "Docker公式ブログ実在、内容一致"
+  },
+  {
+   "day": "2026-05-27",
+   "id": "article-4",
+   "title": ".NET MAUI、iOS／AndroidランタイムをMonoからCoreCLRへ移行 — 2026年秋の.NET 11",
+   "url": "https://devblogs.microsoft.com/dotnet/dotnet-maui-moves-to-coreclr-in-dotnet-11/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果に同一URL・内容が一致"
+  },
+  {
+   "day": "2026-05-27",
+   "id": "article-5",
+   "title": "ファインディ、フリーランスエンジニア調査2026 — 平均月単価約80万円、AIで生産性向上した層は81.9%",
+   "url": "https://findy.co.jp/3922/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致、月単価80万円も合致"
+  },
+  {
+   "day": "2026-05-27",
+   "id": "article-6",
+   "title": "『イシューからはじめよ［改訂版］』、累計58万部突破 — 問題設定の本質を問い直す名著、ビジネス書グランプリ2025イノ",
+   "url": "https://eijipress.co.jp/products/2356",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "58万部・グランプリ2025受賞など内容確認"
+  },
+  {
+   "day": "2026-05-27",
+   "id": "article-7",
+   "title": "iPS細胞由来パーキンソン病再生医療「アムシェプリ」、5月20日から公的医療保険適用 — 薬価は1人約5530万円",
+   "url": "https://www.nikkei.com/article/DGXZQOUA121XD0S6A510C2000000/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、薬価5530万円・5/20保険適用を確認"
+  },
+  {
+   "day": "2026-05-27",
+   "id": "article-8",
+   "title": "グテーレス国連事務総長が来日、安保理改革を強く主張 — 「危機的なのは大国の振る舞い」",
+   "url": "https://www.unic.or.jp/news_press/info/54464/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、来日・安保理改革発言も一致"
+  },
+  {
+   "day": "2026-05-28",
+   "id": "article-1",
+   "title": "メルカリ、内定者の自己研鑽を初任給に反映する「再オファー」制度を新卒採用で本格運用 — 入社前活動でスキル証明なら初年度",
+   "url": "https://type.jp/et/feature/29581/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "type.jp記事のURL・内容とも一致"
+  },
+  {
+   "day": "2026-05-28",
+   "id": "article-2",
+   "title": "kubell（旧Chatwork）、2027卒エンジニア最終選考エントリーを5月本格化 — DXビジネスインターン5/8",
+   "url": "https://www.kubell.com/recruit/newgrad/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "5/8-10インターン日程など内容が一致"
+  },
+  {
+   "day": "2026-05-28",
+   "id": "article-3",
+   "title": "Vue 3.6、Vapor Modeがベータで仮想DOMモードと機能パリティ達成 — 初回ロードJSが約3分の2削減、ラ",
+   "url": "https://github.com/vuejs/core/releases",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "Vapor Mode機能パリティ達成を公式で確認"
+  },
+  {
+   "day": "2026-05-28",
+   "id": "article-4",
+   "title": "Anthropic「Claude Platform on AWS」が一般提供開始 — 既存AWSアカウントから直接ネイテ",
+   "url": "https://aws.amazon.com/jp/blogs/news/aws-weekly-roundup-aws-transform-at-1-year-claude-platform-on-aws-ec2-m3-ultra-mac-instances-and-more-may-18-2026/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "内容一致するAWS公式Weekly Roundup記事確認"
+  },
+  {
+   "day": "2026-05-28",
+   "id": "article-5",
+   "title": "マネーフォワード、エンジニア平均年収707万円と半期評価制度を公開 — 上期5月／下期11月締めでハイパフォーマンス賞与",
+   "url": "https://recruit.moneyforward.com/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "平均年収・評価制度とも実データと近似"
+  },
+  {
+   "day": "2026-05-28",
+   "id": "article-6",
+   "title": "入山章栄『世界標準の経営理論』、AI時代の意思決定で再評価 — 経営学30理論を1冊に整理した約820ページのロングセラ",
+   "url": "https://bookplus.nikkei.com/atcl/catalog/19/00027/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "4検索実施も当該URL未確認。実際の日経BOOKプラスのURL構造（例: /atcl/catalog/19/272680/）と異なりパス自体が不自然"
+  },
+  {
+   "day": "2026-05-28",
+   "id": "article-7",
+   "title": "琉球大学、西マリアナ海嶺の水深525mで巨大ツノサンゴ群体を発見 — 推定樹齢約7,000年、世界最長寿級の深海生物の可",
+   "url": "https://www.u-ryukyu.ac.jp/news/61710/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致（原発表は2024年10月の可能性）"
+  },
+  {
+   "day": "2026-05-28",
+   "id": "article-8",
+   "title": "映画『プラダを着た悪魔2』、世界同時公開 — メリル・ストリープとアン・ハサウェイが20年ぶりに再集結",
+   "url": "https://eiga.com/coming/",
+   "action": "url_fixed",
+   "correct_url": "https://eiga.com/movie/104001/",
+   "reason": "eiga.com/movie/104001/が検索結果に完全URL文字列として出現し、『プラダを着た悪魔2』作品ページとして実在確認（日米同時公開）"
+  },
+  {
+   "day": "2026-05-29",
+   "id": "article-1",
+   "title": "Apple、WWDC 2026を6月8〜12日にオンライン開催すると発表 — 基調講演は日本時間6月9日午前2時、無料ラ",
+   "url": "https://www.apple.com/newsroom/2026/05/apple-kicks-off-worldwide-developers-conference-on-june-8/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、6/8-12開催・基調講演日程を確認"
+  },
+  {
+   "day": "2026-05-29",
+   "id": "article-2",
+   "title": "ファインディ、『達人プログラマー』著者Dave Thomas登壇の無料オンラインConferenceを6月17〜18日開",
+   "url": "https://findy-tools.connpass.com/event/393515/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、Dave Thomas登壇6/17開催確認"
+  },
+  {
+   "day": "2026-05-29",
+   "id": "article-3",
+   "title": "Deno 2.8.0公開 — deno why／pack など新CLIサブコマンド5種を追加、TypeScriptを6.",
+   "url": "https://github.com/denoland/deno/releases/tag/v2.8.0",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "GitHub releaseページで実在確認"
+  },
+  {
+   "day": "2026-05-29",
+   "id": "article-4",
+   "title": "Bun 1.3.14リリース — 画像処理API「Bun.Image」を内蔵、ウォームインストールが約7.3倍高速に",
+   "url": "https://bun.com/blog/bun-v1.3.14",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、Bun.Image・高速化倍率も整合"
+  },
+  {
+   "day": "2026-05-29",
+   "id": "article-5",
+   "title": "電子カルテのヘンリー、シリーズCで30億円を調達 — 累計約57億円、AI・プロダクト開発の採用を強化",
+   "url": "https://prtimes.jp/main/html/rd/p/000000020.000102549.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、30億円調達・累計額も一致"
+  },
+  {
+   "day": "2026-05-29",
+   "id": "article-6",
+   "title": "外山滋比古『思考の整理学』、累計305万部超のロングセラー — 「自分の頭で考える」技術を説く思考法の古典",
+   "url": "https://prtimes.jp/main/html/rd/p/000000012.000008548.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、累計305万部の数値確認"
+  },
+  {
+   "day": "2026-05-29",
+   "id": "article-7",
+   "title": "国立天文台、太陽系外縁天体「2002 XV93」に大気を検出 — 冥王星以外の外縁天体で世界初",
+   "url": "https://www.nao.ac.jp/news/science/2026/20260505-prc.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "国立天文台プレスリリース完全一致"
+  },
+  {
+   "day": "2026-05-29",
+   "id": "article-8",
+   "title": "夕張メロン初競り、2玉580万円で過去最高値 — 7年ぶりに2019年（2玉500万円）の記録を更新",
+   "url": "https://www.jiji.com/jc/article?k=2026052200376&g=eco",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果に同一URL・内容(580万円)が一致"
+  },
+  {
+   "day": "2026-05-30",
+   "id": "article-1",
+   "title": "Anthropic、Claude Opus 4.8公開 — コードレビューで前世代比4倍の信頼性、Claude Code",
+   "url": "https://www.anthropic.com/news/claude-opus-4-8",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致、Dynamic Workflowsも合致"
+  },
+  {
+   "day": "2026-05-30",
+   "id": "article-2",
+   "title": "Microsoft、.NET MAUIのiOS/AndroidランタイムをCoreCLRへ統一 — 秋の.NET 11で",
+   "url": "https://www.publickey1.jp/blog/26/mononet_mauixamarinmonocoreclr.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・内容とも検索結果と一致"
+  },
+  {
+   "day": "2026-05-30",
+   "id": "article-3",
+   "title": "Expo SDK 56リリース — React Native 0.85搭載、Androidのコールドスタートが1.7倍速",
+   "url": "https://expo.dev/changelog/sdk-56",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、RN0.85・ビルド短縮16%を確認"
+  },
+  {
+   "day": "2026-05-30",
+   "id": "article-4",
+   "title": "palplat、preシリーズAで2.1億円を調達 — 美容業界向けAI×人材プラットフォーム、累計4.2億円",
+   "url": "https://prtimes.jp/main/html/rd/p/000000022.000086672.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、2.1億円・累計4.2億円も一致"
+  },
+  {
+   "day": "2026-05-30",
+   "id": "article-5",
+   "title": "type、ITエンジニア新規求人倍率は2.9倍 — 2026年3月、前年比-1.1ptで「拡大→厳選」へ",
+   "url": "https://topics.type.jp/type-engineer/engineer-job-market-trend/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "2.9倍の数値・URLとも一致確認"
+  },
+  {
+   "day": "2026-05-30",
+   "id": "article-6",
+   "title": "ダイヤモンド、『頭のいい人だけが解ける論理的思考問題』を特集 — 「冷静に考えられる人」だけが答えられる一つの問い",
+   "url": "https://diamond.jp/articles/-/390970",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、記事タイトル・内容も整合"
+  },
+  {
+   "day": "2026-05-30",
+   "id": "article-7",
+   "title": "21_21 DESIGN SIGHTで「ガウディ：未来をひらく窓」展 — 没後100年、東京会場は7月12日まで無料",
+   "url": "https://www.2121designsight.jp/gallery3/gaudi_window/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、会期・無料入場も一致確認"
+  },
+  {
+   "day": "2026-05-30",
+   "id": "article-8",
+   "title": "日本相撲協会、宮城野部屋を消滅と決定 — 力士ら全員が伊勢ケ浜部屋所属に、5月28日付で預かり解除",
+   "url": "https://www.daily.co.jp/general/2026/05/28/0020409153.shtml",
+   "action": "url_fixed",
+   "correct_url": "https://www.daily.co.jp/general/2026/05/28/0020408581.shtml",
+   "reason": "correct_urlが検索結果に完全一致で出現し実在確認（元URLは別記事のID）"
+  },
+  {
+   "day": "2026-05-31",
+   "id": "article-1",
+   "title": "AWS、ブラウザだけで使えるコーディングAIエージェント「Kiro Web」をプレビュー公開 — リポジトリにPRまで自",
+   "url": "https://www.publickey1.jp/blog/26/awswebaikiro_web.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "publickey1記事実在、内容一致"
+  },
+  {
+   "day": "2026-05-31",
+   "id": "article-2",
+   "title": "TimeTree、7000万ユーザーを抱える共有カレンダーを10年ぶり全面UX刷新 — ホーム・フィルター・発見の3軸へ",
+   "url": "https://codezine.jp/article/detail/24143",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果に同一URL・内容が一致"
+  },
+  {
+   "day": "2026-05-31",
+   "id": "article-3",
+   "title": "融資型クラウドファンディングのFunds、29.6億円を調達 — 3年でグループ取扱高を600億円から2000億円へ",
+   "url": "https://www.nikkei.com/article/DGXZQOUC28AZJ0Y6A520C2000000/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "実際は18億円調達・累計85億円で不一致"
+  },
+  {
+   "day": "2026-05-31",
+   "id": "article-4",
+   "title": "CanonicalとGoogle Cloud、TPU v5/Trillium向け最適化Ubuntu 22.04イメージ提",
+   "url": "https://codezine.jp/news/detail/24385",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・内容とも検索結果と一致"
+  },
+  {
+   "day": "2026-05-31",
+   "id": "article-5",
+   "title": "CodeZineが6月の注目ITカンファレンス5選を公開 — AWS Summit Japan 2026、フロントエンド",
+   "url": "https://codezine.jp/article/detail/24335",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、6月カンファレンス5選記事を確認"
+  },
+  {
+   "day": "2026-05-31",
+   "id": "article-6",
+   "title": "DMM石垣雅人氏「スピードの誤解」 — 速さ至上主義は5〜30倍の手戻りを生み、技術的負債と燃え尽きを連鎖させる",
+   "url": "https://codezine.jp/article/detail/24334",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・記事内容とも一致確認"
+  },
+  {
+   "day": "2026-05-31",
+   "id": "article-7",
+   "title": "CodeZine連載「設計者の視点で偏差値を実装する」 — 平均・中央値・最頻値を「テストを作る側」の制御パラメータとし",
+   "url": "https://codezine.jp/article/detail/24291",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・タイトルとも完全一致"
+  },
+  {
+   "day": "2026-05-31",
+   "id": "article-8",
+   "title": "岐阜大、酵母のエタノール耐性のカギは膜脂質MIPC — 国際誌Molecular Microbiology掲載、醸造・バ",
+   "url": "https://www.jiji.com/jc/article?k=2026053000141&g=soc",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、MIPCと論文掲載情報も整合"
+  },
+  {
+   "day": "2026-06-01",
+   "id": "article-1",
+   "title": "GitHub Copilot、6月1日より全プランで「GitHub AIクレジット」に移行 — コード補完は無料、チャッ",
+   "url": "https://github.blog/jp/2026-04-28-github-copilot-is-moving-to-usage-based-billing/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、従量課金移行の内容も一致"
+  },
+  {
+   "day": "2026-06-01",
+   "id": "article-2",
+   "title": "AWS Interconnect - multicloud、500Mbps無料専用線接続枠を新設 — マルチクラウド構成",
+   "url": "https://www.publickey1.jp/blog/26/aws500mbpsaws_interconnect_-_multicloud.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、500Mbps無料枠の内容確認"
+  },
+  {
+   "day": "2026-06-01",
+   "id": "article-3",
+   "title": "Google Cloud AlloyDB、PostgreSQL 18でホットスタンバイをGA提供 — フェイルオーバー3",
+   "url": "https://www.publickey1.jp/blog/26/google_cloudpostgresqlalloydb.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "publickey1記事実在、内容一致"
+  },
+  {
+   "day": "2026-06-01",
+   "id": "article-4",
+   "title": "はてな、AI活用の個人向けフォーラムサービスを2026年夏リリース — 5月26日よりクローズドベータ開始",
+   "url": "https://prtimes.jp/main/html/rd/p/000000161.000006510.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果に同一URL・内容(5/26開始)が一致"
+  },
+  {
+   "day": "2026-06-01",
+   "id": "article-5",
+   "title": "Findy「AI Engineering Summit Tokyo 2026」申込2,000名突破 — 6月8〜9日開催",
+   "url": "https://prtimes.jp/main/html/rd/p/000000230.000045379.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致、申込2000名突破も合致"
+  },
+  {
+   "day": "2026-06-01",
+   "id": "article-6",
+   "title": "DHBR 2026年6月号「リーダーの思い込みが生む7つの壁を乗り越える方法」— 認知的前提が組織変化を阻む7パターンを",
+   "url": "https://dhbr.diamond.jp/articles/-/13980",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "4検索で該当URLの実在確認できず。2026年6月号に同タイトル記事が存在する情報はあるがURLは未確認"
+  },
+  {
+   "day": "2026-06-01",
+   "id": "article-7",
+   "title": "京都大学、7億年にわたる血液細胞の家系図を解明 — T細胞の祖先はマスト細胞、PNAS掲載",
+   "url": "https://www.nikkei.com/article/DGXZQOUF2237B0S6A520C2000000/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、7億年血液細胞・PNAS掲載を確認"
+  },
+  {
+   "day": "2026-06-01",
+   "id": "article-8",
+   "title": "山口大学「ネコひねり問題」に新知見 — 胸椎のねじれやすさが空中立ち直り反射のカギと判明",
+   "url": "https://news.mynavi.jp/techplus/article/20260527-4506465/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、胸椎ねじれの研究内容も一致"
+  },
+  {
+   "day": "2026-06-02",
+   "id": "article-1",
+   "title": "Rust製JavaScriptバンドラ「Rolldown」がバージョン1.0に到達 — ビルドツールVite 8.0で単",
+   "url": "https://www.publickey1.jp/blog/26/rustjavascriptrolldown10vite_80.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "publickey記事URL完全一致で実在確認"
+  },
+  {
+   "day": "2026-06-02",
+   "id": "article-2",
+   "title": "Oracle Database@AWSが大阪リージョンで提供開始 — 東京・大阪の両AWSリージョンで冗長構成が可能に",
+   "url": "https://www.publickey1.jp/blog/26/oracle_databaseawsawsaws.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、大阪リージョン提供開始も整合"
+  },
+  {
+   "day": "2026-06-02",
+   "id": "article-3",
+   "title": "生成AI時代のエンタメスタートアップKOWROが30億円調達 — DMM.comがリードでグローバル展開を本格始動",
+   "url": "https://prtimes.jp/main/html/rd/p/000000001.000184101.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、DMM.comリード30億円調達も確認"
+  },
+  {
+   "day": "2026-06-02",
+   "id": "article-4",
+   "title": "github.com版Copilot、Webブラウザだけで自律実装まで完結 — Cloud Agentがバグ修正・新機能",
+   "url": "https://gihyo.jp/article/2026/06/mastering-copilot-on-github",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、Cloud AgentのDraft PR機能確認"
+  },
+  {
+   "day": "2026-06-02",
+   "id": "article-5",
+   "title": "サポーターズ、U35エンジニア向け「CoLab Conf 2026」を6/27に虎ノ門ヒルズで開催 — 現地400名・配",
+   "url": "https://prtimes.jp/main/html/rd/p/000000083.000045025.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "PR TIMES記事実在、内容完全一致"
+  },
+  {
+   "day": "2026-06-02",
+   "id": "article-6",
+   "title": "「生成AIが賢くなるほど、人間は考えなくなる」 — 認知オフローディング研究、被験者319名で批判的思考が5〜7割低下",
+   "url": "https://prtimes.jp/main/html/rd/p/000000005.000181785.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果に同一URL・319名調査が一致"
+  },
+  {
+   "day": "2026-06-02",
+   "id": "article-7",
+   "title": "岡本多緒、カンヌ最優秀女優賞を日本人初受賞 — 濱口竜介監督『急に具合が悪くなる』、エフィラと2人同時受賞",
+   "url": "https://eiga.com/news/20260524/16/",
+   "action": "url_fixed",
+   "correct_url": "https://eiga.com/news/20260525/11/",
+   "reason": "correct_urlが検索結果に完全一致で出現、岡本多緒カンヌ最優秀女優賞の記事と確認"
+  },
+  {
+   "day": "2026-06-02",
+   "id": "article-8",
+   "title": "オランウータンは「6歳半まで」母乳を飲むと判明 — 哺乳類で最長級、糞中タンパク質分析で総研大・九大が世界初確認",
+   "url": "https://nazology.kusuguru.co.jp/archives/195755",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・内容とも検索結果と完全一致"
+  },
+  {
+   "day": "2026-06-03",
+   "id": "article-1",
+   "title": "GitHub Copilot app をテクニカルプレビュー公開 — Microsoft Build 2026、Wind",
+   "url": "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、テクニカルプレビュー内容を確認"
+  },
+  {
+   "day": "2026-06-03",
+   "id": "article-2",
+   "title": "グローバル決済代行のTokenz、シリーズAで10億円調達 — Headline AsiaがリードでSBIインベストメン",
+   "url": "https://prtimes.jp/main/html/rd/p/000000481.000047342.html",
+   "action": "url_fixed",
+   "correct_url": "https://prtimes.jp/main/html/rd/p/000000003.000163361.html",
+   "reason": "prtimes.jp/main/html/rd/p/000000003.000163361.htmlが検索結果に完全URL文字列として出現し、Tokenzシリーズ10億円調達の記事と一致"
+  },
+  {
+   "day": "2026-06-03",
+   "id": "article-3",
+   "title": "AWS Summit Japan 2026、6/25-26に幕張メッセで開催 — 260以上のセッションとAgentic",
+   "url": "https://aws.amazon.com/jp/events/summits/japan/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "日程・会場・URLとも一致確認"
+  },
+  {
+   "day": "2026-06-03",
+   "id": "article-4",
+   "title": "AI Engineering Summit Tokyo 2026、Findyが6/8-9に浜松町で開催 — 申込3,00",
+   "url": "https://findy-tools.connpass.com/event/389385/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、日程・登壇者など内容も整合"
+  },
+  {
+   "day": "2026-06-03",
+   "id": "article-5",
+   "title": "マイネット、AI活用でゲーム運営コストを50%削減する中期目標を策定 — 自社AIエージェントで運営工程を自動化",
+   "url": "https://prtimes.jp/main/html/rd/p/000000086.000038544.html",
+   "action": "url_fixed",
+   "correct_url": "https://www.gamebusiness.jp/article/2026/06/02/27100.html",
+   "reason": "元PR TIMES URLは未確認だが、同内容を報じるGameBusiness.jp記事URLが完全一致で出現"
+  },
+  {
+   "day": "2026-06-03",
+   "id": "article-6",
+   "title": "NTT会長・澤田純氏「変化に適応するだけでは世界と戦えない」 — DHBR 6月号特集「組織の選択」で30万人の慣性を語",
+   "url": "https://dhbr.diamond.jp/articles/-/13980",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、澤田純氏インタビュー内容確認"
+  },
+  {
+   "day": "2026-06-03",
+   "id": "article-7",
+   "title": "AIが確証バイアスを増幅させる逆説 — 東大・名大共同研究が示す「自動化依存」の認知コスト",
+   "url": "https://www.jstage.jst.go.jp/article/jmp/22/2/22_63/_html/-char/ja",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "4検索で該当論文・東大名大共同研究の実在確認できず"
+  },
+  {
+   "day": "2026-06-03",
+   "id": "article-8",
+   "title": "JAXA「MMX」、フォボス着陸のフライトシーケンスを確定 — 2028年到達・サンプルリターンは2031年帰還予定",
+   "url": "https://www.mmx.jaxa.jp/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果ブロックにURL文字列がそのまま出現（JAXA MMX公式サイト）"
+  },
+  {
+   "day": "2026-06-03",
+   "id": "article-9",
+   "title": "ウェッブ望遠鏡が発見した謎の天体「リトル・レッド・ドット」の正体に迫る — 太陽の10万〜1,000万倍質量、若き超大質",
+   "url": "https://wired.jp/article/little-red-dots-revealed-as-young-black-holes-in-gas-cocoons/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致、質量倍率も合致"
+  },
+  {
+   "day": "2026-06-04",
+   "id": "article-1",
+   "title": "PR TIMES、27・28卒向け「年収550万円以上で即内定」ハッカソンを公募 — 8/12〜14開催、定員30名",
+   "url": "https://prtimes.jp/main/html/rd/p/000001672.000000112.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・内容とも検索結果と完全一致"
+  },
+  {
+   "day": "2026-06-04",
+   "id": "article-2",
+   "title": "Rust製バンドラ Rolldown 1.0 リリース — Vite 8.0が単一バンドラとして標準採用、esbuild",
+   "url": "https://www.publickey1.jp/blog/26/rustjavascriptrolldown10vite_80.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、Rolldown1.0/Vite8.0採用を確認"
+  },
+  {
+   "day": "2026-06-04",
+   "id": "article-3",
+   "title": "エンゲージメントAIのU-ZERO、シードラウンドで9.5億円調達 — 富士通ベンチャーズ等が出資、導入50社超",
+   "url": "https://prtimes.jp/main/html/rd/p/000000024.000157749.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、9.5億円・富士通ベンチャーズも一致"
+  },
+  {
+   "day": "2026-06-04",
+   "id": "article-4",
+   "title": "越境EC返品SaaSのReturn Helper、シリーズAで6億円調達 — 三菱倉庫CVCが参加、海外20拠点を拡張",
+   "url": "https://prtimes.jp/main/html/rd/p/000000009.000145297.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "PR TIMES URL・調達額とも一致確認"
+  },
+  {
+   "day": "2026-06-04",
+   "id": "article-5",
+   "title": "『達人プログラマー』Dave Thomas登壇、Findyが6/17〜18にエンジニアの役割Conferenceをオンラ",
+   "url": "https://findy-tools.connpass.com/event/393515/",
+   "action": "url_fixed",
+   "correct_url": "https://findy.connpass.com/event/391594/",
+   "reason": "findy.connpass.com/event/391594/が検索結果に完全URL文字列として出現し、Dave Thomas登壇イベントと一致確認"
+  },
+  {
+   "day": "2026-06-04",
+   "id": "article-6",
+   "title": "AIの問いに飲み込まれない思考 — IMD3教授がDHBRで提唱する「リーダーズ・クエスチョン・ミックス」",
+   "url": "https://dhbr.diamond.jp/articles/-/13680",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "4検索で当該ID実在確認できず。近傍IDは別記事"
+  },
+  {
+   "day": "2026-06-04",
+   "id": "article-7",
+   "title": "直観を周りの人に信じてもらう3つの型 — メロディ・ワイルディングがDHBRで示す言語化の技術",
+   "url": "https://dhbr.diamond.jp/articles/-/13790",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "4検索で該当URLの実在確認できず。メロディ・ワイルディングの別記事URLは複数確認できるが13790は未確認"
+  },
+  {
+   "day": "2026-06-04",
+   "id": "article-8",
+   "title": "南極条約広島会議が閉幕 — コウテイペンギン「特別保護種」指定は中ロ反対で見送り",
+   "url": "https://www.chugoku-np.co.jp/articles/-/835018",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "中国新聞記事実在、内容一致"
+  },
+  {
+   "day": "2026-06-04",
+   "id": "article-9",
+   "title": "上野の森美術館「大ゴッホ展」開幕 — 《夜のカフェテラス》が20年ぶりに来日、5/29〜8/12",
+   "url": "https://lp.p.pia.jp/article/news/475293/index.html?detail=true",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果に同一URL・内容が一致"
+  },
+  {
+   "day": "2026-06-05",
+   "id": "article-1",
+   "title": "overflowのOffers、CTO/VPoE採用向け「予算型リテーナー」を本格提供 — 未消化分は返却、35,000",
+   "url": "https://prtimes.jp/main/html/rd/p/000000289.000053307.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致、35000人DBも合致"
+  },
+  {
+   "day": "2026-06-05",
+   "id": "article-2",
+   "title": "Microsoft Build 2026、AIエージェント向け「Windows Development Skills」を",
+   "url": "https://www.publickey1.jp/blog/26/aiwindowswindows_development_skills.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・内容とも検索結果と一致"
+  },
+  {
+   "day": "2026-06-05",
+   "id": "article-3",
+   "title": "movus、東南アジア・モビリティ事業でシリーズB 42.6億円調達 — エクイティ16.6億+デット26億のハイブリッ",
+   "url": "https://prtimes.jp/main/html/rd/p/000000178.000023145.html",
+   "action": "url_fixed",
+   "correct_url": "https://prtimes.jp/main/html/rd/p/000000002.000180213.html",
+   "reason": "correct_urlが検索結果に完全一致で出現、movus東南アジアシリーズB調達42.6億円の記事と確認"
+  },
+  {
+   "day": "2026-06-05",
+   "id": "article-4",
+   "title": "リモア、キャラクター×AI×行動データの「キャラミクス」開発に1億円調達 — Headline Asiaがリード",
+   "url": "https://prtimes.jp/main/html/rd/p/000000002.000179521.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、1億円調達の内容も一致"
+  },
+  {
+   "day": "2026-06-05",
+   "id": "article-5",
+   "title": "Findy、「エンジニア4年目、AI時代のキャリアどうする？」を公開 — 未来予測ではなく『どうありたいか』から逆算",
+   "url": "https://findy-code.io/media/articles/career-qa-02",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "career-qa-02および「エンジニア4年目、AI時代のキャリアどうする？」という内容一致記事は検索結果に出現せず（career-qa-00は別内容）"
+  },
+  {
+   "day": "2026-06-05",
+   "id": "article-6",
+   "title": "DHBR、ドラッカー「変化の時代を生き残れるチェンジ・リーダーの条件」を再掲 — 「変化は自らつくる」",
+   "url": "https://dhbr.diamond.jp/articles/-/14014",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "4検索で当該ID実在確認できず。近傍ID14015は別テーマの記事"
+  },
+  {
+   "day": "2026-06-05",
+   "id": "article-7",
+   "title": "自信に満ちた人材がトップ昇進時にハマる3つの落とし穴 — アミイ・バーナード=バーンがDHBRで整理",
+   "url": "https://dhbr.diamond.jp/articles/-/13853",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "4検索で該当URLの実在確認できず。アミイ・バーナード=バーンはDHBR著者として実在するが13853記事は未確認"
+  },
+  {
+   "day": "2026-06-05",
+   "id": "article-8",
+   "title": "テート美術館「YBA & BEYOND 世界を変えた90s英国アート」京セラ美術館で6/3開幕、9/6まで",
+   "url": "https://www.ybabeyond.jp/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、会期6/3-9/6の内容確認"
+  },
+  {
+   "day": "2026-06-05",
+   "id": "article-9",
+   "title": "韓国統一地方選挙、与党「共に民主党」が主要16自治体中12勝 — ソウル市長選は与党敗北",
+   "url": "https://www3.nhk.or.jp/news/html/20260603/k10015140151000.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "記事ID一致、選挙結果内容も一致"
+  },
+  {
+   "day": "2026-06-06",
+   "id": "article-1",
+   "title": "GitHub Copilot、クラウド/ローカル両対応の「サンドボックス機能」をプレビュー公開 — MXC基盤で安全にエ",
+   "url": "https://codezine.jp/news/detail/24465",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果に同一URL・内容が一致"
+  },
+  {
+   "day": "2026-06-06",
+   "id": "article-2",
+   "title": "Datadog、2026年版「State of AI Engineering」公開 — 本番LLM呼び出しの5%が失敗、",
+   "url": "https://codezine.jp/news/detail/24456",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致、5%失敗率6割要因も合致"
+  },
+  {
+   "day": "2026-06-06",
+   "id": "article-3",
+   "title": "マイクロソフト、自社開発の7つのAIモデル「Microsoft AI Models」発表 — 音声認識MAI Trans",
+   "url": "https://www.publickey1.jp/blog/26/7aimicrosoft_ai_models.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・MAI-Transcribe-1.5詳細まで一致"
+  },
+  {
+   "day": "2026-06-06",
+   "id": "article-4",
+   "title": "GenerativeX、シリーズAで総額6.5億円調達 — Salesforce Venturesも参加、FDE型AIエ",
+   "url": "https://prtimes.jp/main/html/rd/p/000000040.000124664.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、シリーズA6.5億円・Salesforce Venturesを確認"
+  },
+  {
+   "day": "2026-06-06",
+   "id": "article-5",
+   "title": "Findy、6/17-18に「エンジニアの役割の変化に向き合うConference」を無料開催 — 達人プログラマー著者",
+   "url": "https://findy-tools.connpass.com/event/393515/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、Dave Thomas登壇6/17開催確認"
+  },
+  {
+   "day": "2026-06-06",
+   "id": "article-6",
+   "title": "DHBR 7月号「リーダーは直感に従いなさい」 — 前ウォルマートCEOマクミロンが語る生成AIへの転換と「自分らしさ」",
+   "url": "https://dhbr.diamond.jp/articles/-/14149",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "マクミロン氏インタビュー掲載を確認"
+  },
+  {
+   "day": "2026-06-06",
+   "id": "article-7",
+   "title": "新種の羽毛恐竜「ジアン・チャンマエンシス」中国甘粛省で発見 — 翼開長1.2mの「4枚の翼を持つ小さなドラゴン」",
+   "url": "https://nazology.kusuguru.co.jp/archives/195948",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・内容とも検索結果と完全一致"
+  },
+  {
+   "day": "2026-06-06",
+   "id": "article-8",
+   "title": "ローマの高校生たち、体育館の地下に「1800年前の豪邸」を発見 — フレスコ画・モザイク完備、ウンブリウス家所有の可能性",
+   "url": "https://nazology.kusuguru.co.jp/archives/195942",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、発見内容も詳細に一致確認"
+  },
+  {
+   "day": "2026-06-07",
+   "id": "article-1",
+   "title": "サイボウズ、エンジニアサマーインターンシップ2026を全14コースで開催 — 製品・SRE・プラットフォーム、8月本選考",
+   "url": "https://cybozu.co.jp/company/job/recruitment/intern/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、全14コースの内容確認"
+  },
+  {
+   "day": "2026-06-07",
+   "id": "article-2",
+   "title": "Findy、AIエージェント時代の新職種「FDE・SET・CRE」を採用プラットフォームに追加 — 急増する需要に対応",
+   "url": "https://prtimes.jp/main/html/rd/p/000000229.000045379.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "PR TIMES記事実在、内容一致"
+  },
+  {
+   "day": "2026-06-07",
+   "id": "article-3",
+   "title": "WWDC26本日夜開幕 — iOS 27 Liquid Glass UI・Siri 2.0 Gemini統合、開発者β即",
+   "url": "https://developer.apple.com/wwdc26/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "WWDC26開催・内容は実際の発表と一致"
+  },
+  {
+   "day": "2026-06-07",
+   "id": "article-4",
+   "title": "Claude Code GitHub Actions正式版 — @claudeでPR自動作成・バグ修正、Bedrock/",
+   "url": "https://code.claude.com/docs/en/github-actions",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "Auto Mode正式化とBedrock等対応を確認"
+  },
+  {
+   "day": "2026-06-07",
+   "id": "article-5",
+   "title": "JetBrains Developer Ecosystem Survey 2026 — Rustが「次に学びたい言語」1",
+   "url": "https://www.jetbrains.com/lp/devecosystem-2026/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "5月時点は調査回収中、結果未発表でRust1位根拠なし"
+  },
+  {
+   "day": "2026-06-07",
+   "id": "article-6",
+   "title": "安藤広大『パーフェクトな意思決定』— 「水のようなスタンス」で決断と修正を繰り返す思考の鍛え方",
+   "url": "https://www.diamond.co.jp/book/9784478120736.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、水のようなスタンスの内容も確認"
+  },
+  {
+   "day": "2026-06-07",
+   "id": "article-7",
+   "title": "東洋経済オンライン「アンカリング効果」入門 — 最初の数字が判断を歪める認知バイアスの実践的対処法",
+   "url": "https://toyokeizai.net/articles/-/865670",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "実際は2025年3月公開の記事、日付大幅相違"
+  },
+  {
+   "day": "2026-06-07",
+   "id": "article-8",
+   "title": "国立天文台2026年6月 — 金星と木星が最接近、6月9日夕刻に肉眼観測が可能",
+   "url": "https://www.nao.ac.jp/astro/sky/2026/06.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "6月9日最接近の情報と一致確認"
+  },
+  {
+   "day": "2026-06-07",
+   "id": "article-9",
+   "title": "国文学研究資料館・国情研、AIで「枕草子」異本1万か所を自動照合 — 文化財のデジタル保存が加速",
+   "url": "https://www.nijl.ac.jp/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "枕草子AI照合の裏付けなし、URLもトップページ"
+  },
+  {
+   "day": "2026-06-08",
+   "id": "article-1",
+   "title": "LINEヤフー、AIエージェント「Agent i」開発加速へ若手エンジニア採用を強化 — 第二新卒は同社初、給与上限なし",
+   "url": "https://prtimes.jp/main/html/rd/p/000001727.000129774.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、給与上限なしの内容も一致"
+  },
+  {
+   "day": "2026-06-08",
+   "id": "article-2",
+   "title": "PostgreSQL 19 Beta 1公開 — 新コマンドREPACKとAutovacuum並列化、外部キー付きINS",
+   "url": "https://www.postgresql.org/about/news/postgresql-19-beta-1-released-3313/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、REPACK・並列Autovacuum確認"
+  },
+  {
+   "day": "2026-06-08",
+   "id": "article-3",
+   "title": "Redis 8.6.4が緊急(HIGH)リリース — Use-After-Free脆弱性とクラスタクラッシュを修正",
+   "url": "https://github.com/redis/redis/releases/tag/8.6.4",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "GitHubリリースページ実在、内容一致"
+  },
+  {
+   "day": "2026-06-08",
+   "id": "article-4",
+   "title": "エー・スター・クォンタム、シリーズB Extensionで約9億円調達 — 量子AIクラウド「AQCloud」を強化",
+   "url": "https://prtimes.jp/main/html/rd/p/000000012.000038461.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果に同一URL・内容が一致"
+  },
+  {
+   "day": "2026-06-08",
+   "id": "article-5",
+   "title": "SRE NEXT 2026、7月10-11日に東京・TOC有明で開催 — テーマは「Inclusive SRE」、オンラ",
+   "url": "https://sre-next.dev/2026/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致、日程テーマも合致"
+  },
+  {
+   "day": "2026-06-08",
+   "id": "article-6",
+   "title": "DHBR「生成AIで創造性が伸びる人・伸びない人を分けるのはメタ認知能力」",
+   "url": "https://dhbr.diamond.jp/articles/-/13340",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・内容とも検索結果と完全一致"
+  },
+  {
+   "day": "2026-06-08",
+   "id": "article-7",
+   "title": "深海の巨大グソクムシ、数年の絶食に耐える仕組みを解明 — 胃が体の3分の2を占める「貯蔵庫」",
+   "url": "https://nazology.kusuguru.co.jp/archives/196009",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、巨大胃で貯蔵の内容を確認"
+  },
+  {
+   "day": "2026-06-08",
+   "id": "article-8",
+   "title": "サグラダ・ファミリア「イエスの塔」172mが完成披露へ — ガウディ没後100年の6月10日、教皇ミサ",
+   "url": "https://artexhibition.jp/topics/news/20260602-AEJ2917554/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、6/10完成式典の内容も一致"
+  },
+  {
+   "day": "2026-06-09",
+   "id": "article-1",
+   "title": "WWDC26、Appleが開発者ツールを刷新 — Foundation ModelsがClaude/Gemini等の外部",
+   "url": "https://www.apple.com/newsroom/2026/06/apple-aids-app-development-with-new-intelligence-frameworks-and-advanced-tools/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "Apple公式newsroom記事URL一致確認"
+  },
+  {
+   "day": "2026-06-09",
+   "id": "article-2",
+   "title": "Svelte 2026年6月アップデート — svelte 5.56でマークアップ内に宣言、SvelteKitにquer",
+   "url": "https://svelte.dev/blog/whats-new-in-svelte-june-2026",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、query.live・TS6.0対応も整合"
+  },
+  {
+   "day": "2026-06-09",
+   "id": "article-3",
+   "title": "ALGO ARTIS、シリーズBで15.38億円調達 — Salesforce Venturesがリード、社会インフラの",
+   "url": "https://prtimes.jp/main/html/rd/p/000000070.000085809.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、15.38億円調達も確認"
+  },
+  {
+   "day": "2026-06-09",
+   "id": "article-4",
+   "title": "overflow、企業URLだけでエンジニア採用力を診断する無料サービス「エンジニア採用力チェック」開始",
+   "url": "https://prtimes.jp/main/html/rd/p/000000292.000053307.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、サービス内容も整合"
+  },
+  {
+   "day": "2026-06-09",
+   "id": "article-5",
+   "title": "ゲーム開発者会議「CEDEC2026」7月22-24日にパシフィコ横浜で開催 — 約200セッション、テーマは「Inno",
+   "url": "https://cedec.cesa.or.jp/2026/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "公式サイト実在、開催概要一致"
+  },
+  {
+   "day": "2026-06-09",
+   "id": "article-6",
+   "title": "東洋経済「思考力が\"ある人\"\"ない人\"の違い」 — VUCA時代は問題解決より問題発見が重要",
+   "url": "https://toyokeizai.net/articles/-/637401",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果に同一URL・内容が一致"
+  },
+  {
+   "day": "2026-06-09",
+   "id": "article-7",
+   "title": "『なぜ人と組織は変われないのか』— キーガンの「免疫マップ」で“変われない理由”を可視化する",
+   "url": "https://www.eijipress.co.jp/products/2154",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "書籍実在、内容（免疫マップ）も合致"
+  },
+  {
+   "day": "2026-06-09",
+   "id": "article-8",
+   "title": "すばる望遠鏡、15億天体の巨大データを世界公開 — 総量約1ペタバイト、全天の約19%をカバー",
+   "url": "https://subarutelescope.org/jp/news/topics/2026/05/11/3710.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・数値（15億天体等）とも一致"
+  },
+  {
+   "day": "2026-06-09",
+   "id": "article-9",
+   "title": "「発掘された日本列島2026」展、6月13日に江戸東京博物館で開幕 — 木製仮面や大刀形埴輪など全国の出土品",
+   "url": "https://www.bunka.go.jp/gyoji/94366201.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、6/13開幕・木製仮面等を確認"
+  },
+  {
+   "day": "2026-06-10",
+   "id": "article-1",
+   "title": "LINEヤフー、AIエージェント「Agent i」開発加速で若手エンジニア採用を強化 — 第二新卒も初解禁、給与に一律上",
+   "url": "https://prtimes.jp/main/html/rd/p/000001727.000129774.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、Agent i・第二新卒解禁の内容も一致"
+  },
+  {
+   "day": "2026-06-10",
+   "id": "article-2",
+   "title": "Cloudflare、Vite/Rolldown開発元のVoidZeroを買収 — AstroもCloudflare傘下",
+   "url": "https://www.publickey1.jp/blog/26/cloudflareviterolldownvoidzeroastrovitecloudflare.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "publickey記事URL完全一致で実在確認"
+  },
+  {
+   "day": "2026-06-10",
+   "id": "article-3",
+   "title": "Ubuntu、サンドボックス化された開発環境をコマンド1発で構築する新機能「Workshop」を公開",
+   "url": "https://www.publickey1.jp/blog/26/ubuntuworkshop.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・内容とも検索結果と完全一致"
+  },
+  {
+   "day": "2026-06-10",
+   "id": "article-4",
+   "title": "Microsoft独自のLinuxディストリビューション「Azure Linux 4.0」がパブリックプレビュー — A",
+   "url": "https://www.publickey1.jp/blog/26/linuxazure_linux_40azurewsl.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、パブリックプレビュー内容も一致"
+  },
+  {
+   "day": "2026-06-10",
+   "id": "article-5",
+   "title": "Interop Tokyo 2026、6/10〜12に幕張で開幕 — 500社・想定来場15万人、テーマは「Intern",
+   "url": "https://www.interop.jp/2026/about/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・会期・テーマ一致(出展社数のみ差異)"
+  },
+  {
+   "day": "2026-06-10",
+   "id": "article-6",
+   "title": "DIAMOND ハーバード・ビジネス・レビュー 2026年6月号 特集「組織の選択」 — 激変する環境に組織はどう答えを",
+   "url": "https://www.diamond.co.jp/magazine/059690626.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "特集内容が検索結果と一致"
+  },
+  {
+   "day": "2026-06-10",
+   "id": "article-7",
+   "title": "JAXA、H3ロケット6号機「30形態試験機」を6/12に打ち上げ — 固体ブースターを外し1段エンジン3基、半年ぶりに",
+   "url": "https://fanfun.jaxa.jp/countdown/h3f6/index.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "H3ロケット6号機打上げ内容と一致"
+  },
+  {
+   "day": "2026-06-11",
+   "id": "article-1",
+   "title": "Apple、macOSとhomeを共有するLinuxコンテナ「Container machine」1.0を公開 — Ap",
+   "url": "https://www.publickey1.jp/blog/26/applemacoslinuxcontainer_machine10.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致、Container machine内容も合致"
+  },
+  {
+   "day": "2026-06-11",
+   "id": "article-2",
+   "title": "Cloudflare、AI Gatewayに利用上限機能 — 従業員・アプリ単位で月次予算、OpenAI/Anthrop",
+   "url": "https://www.publickey1.jp/blog/26/cloudflareaicloudflare_ai_gateway.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "Spend limits機能・対応プロバイダー等内容一致"
+  },
+  {
+   "day": "2026-06-11",
+   "id": "article-3",
+   "title": "Anthropic、Claude Fable 5 / Mythos 5を一般公開 — SWE-Bench最高、入力$10",
+   "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、$10/$50価格・SWE-Bench最高を確認"
+  },
+  {
+   "day": "2026-06-11",
+   "id": "article-4",
+   "title": "NTTドコモビジネス、Interop Tokyo 2026 Best of Show Award APN部門でグランプリ",
+   "url": "https://www.atpress.ne.jp/news/604899",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、APN部門グランプリ・約1万kmも一致"
+  },
+  {
+   "day": "2026-06-11",
+   "id": "article-5",
+   "title": "メルカリ、「Merpay &amp; Mercoin Tech Openness Month 2026」開催 — 6/1",
+   "url": "https://engineering.mercari.com/blog/entry/20260528-merpay-mercoin-tech-openness-month-2026/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "engineering.mercari.com記事URL一致"
+  },
+  {
+   "day": "2026-06-11",
+   "id": "article-6",
+   "title": "DIAMOND ハーバード・ビジネス・レビュー 2026年7月号 特集「ブランドの力 — AI時代こそ、信頼で勝負する」",
+   "url": "https://www.diamond.co.jp/magazine/059690726.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "号数URLパターン一致、特集内容も整合"
+  },
+  {
+   "day": "2026-06-11",
+   "id": "article-7",
+   "title": "国立新美術館「ピカソ meets ポール・スミス 遊び心の冒険へ」が6/10開幕 — ポール・スミスが空間設計、約80点",
+   "url": "https://www.nact.jp/exhibition_special/2026/picasso_paulsmith/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、80点・6/10開幕も一致確認"
+  },
+  {
+   "day": "2026-06-12",
+   "id": "article-1",
+   "title": "GitHub、Copilot CLIにLanguage Server統合スキル — 14言語対応、grep依存を排しID",
+   "url": "https://github.blog/ai-and-ml/github-copilot/give-github-copilot-cli-real-code-intelligence-with-language-servers/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、14言語対応の内容確認"
+  },
+  {
+   "day": "2026-06-12",
+   "id": "article-2",
+   "title": "Google、Gemma 4より4倍高速な拡散言語モデル「DiffusionGemma」公開 — 総252億パラ・アクテ",
+   "url": "https://gigazine.net/news/20260611-google-ai-diffusiongemma/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "GIGAZINE記事実在、内容一致"
+  },
+  {
+   "day": "2026-06-12",
+   "id": "article-3",
+   "title": "Interop Tokyo 2026、Best of Show Award各賞決定 — 258商品から94ファイナリスト",
+   "url": "https://www.atpress.ne.jp/news/605234",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果に同一URL・258商品94ファイナリストが一致"
+  },
+  {
+   "day": "2026-06-12",
+   "id": "article-4",
+   "title": "サイバーエージェント、ABEMAの多層キャッシュ機構をリアーキテクチャ — in-memory→Valkey→Bigta",
+   "url": "https://developers.cyberagent.co.jp/blog/archives/64293/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致、多層キャッシュ内容も合致"
+  },
+  {
+   "day": "2026-06-12",
+   "id": "article-5",
+   "title": "LayerX、「AIエージェント時代の権限管理が、いまアツい」 — Ai Workforce運用視点で論点整理",
+   "url": "https://tech.layerx.co.jp/entry/ai-agent-authorization",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・内容とも検索結果と完全一致"
+  },
+  {
+   "day": "2026-06-12",
+   "id": "article-6",
+   "title": "講談社選書メチエ、サミュエル・ガーシュマン『知性はバイアスでできている — 賢さと愚かさの計算論的認知科学』6/11発売",
+   "url": "https://gendai.media/list/books/gakujutsu/9784065372210",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "書籍ISBN一致、講談社選書メチエ刊行を確認"
+  },
+  {
+   "day": "2026-06-12",
+   "id": "article-7",
+   "title": "「文具女子博トーキョー2026」6/11開幕、有明GYM-EXに約165社が出店 — 日本最大級の文具の祭典",
+   "url": "https://bungujoshi.com/event/tokyo2026/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、165社・6/11開幕も一致"
+  },
+  {
+   "day": "2026-06-13",
+   "id": "article-1",
+   "title": "メルカリ、Mercari/Merpay/Mercoin Summer Internship 2026の応募締切は6/15",
+   "url": "https://careers.mercari.com/new-graduates/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果ブロックにURL文字列がそのまま出現（メルカリ新卒採用ページ）"
+  },
+  {
+   "day": "2026-06-13",
+   "id": "article-2",
+   "title": "Homebrew 6.0.0公開、サードパーティーtapに「Tap Trust」確認を必須化 — macOS 27 Go",
+   "url": "https://gigazine.net/news/20260612-homebrew-6-0-0/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "内容一致、URLパターンも他記事と整合"
+  },
+  {
+   "day": "2026-06-13",
+   "id": "article-3",
+   "title": "Xiaomi、Claude Code的なAIエージェント「MiMo Code」をMITで公開 — 100万トークン文脈、",
+   "url": "https://gigazine.net/news/20260611-xiaomi-mimo-code/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "MIT公開・Claude Code対抗の内容を確認"
+  },
+  {
+   "day": "2026-06-13",
+   "id": "article-4",
+   "title": "OpenAI、クラウド開発環境のOna(旧Gitpod)を買収 — Codex週500万人ユーザーの長時間タスク基盤へ",
+   "url": "https://www.itmedia.co.jp/news/articles/2606/12/news072.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、週500万人ユーザー等確認"
+  },
+  {
+   "day": "2026-06-13",
+   "id": "article-5",
+   "title": "Anthropic、Claude Fable 5の不可視セーフガード問題を公式謝罪 — Claude Opus 4.8へ",
+   "url": "https://gigazine.net/news/20260612-claude-fable-5-safeguard-change/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "GIGAZINE記事実在、内容一致"
+  },
+  {
+   "day": "2026-06-13",
+   "id": "article-6",
+   "title": "NHK 100分de名著 2026年6月『谷川俊太郎詩集』、講師は批評家・若松英輔 — 詩のことばと向き合い方を読み解く",
+   "url": "https://www.magastore.jp/product/104013",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果に同一URL・若松英輔担当が一致"
+  },
+  {
+   "day": "2026-06-13",
+   "id": "article-7",
+   "title": "キリンチャレンジカップ2026、本日6/13(土)10時から一般チケット販売開始 — 9/24宮城・キューアンドエースタ",
+   "url": "https://www.jfa.jp/samuraiblue/20260924/ticket.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致、6/13販売開始も合致"
+  },
+  {
+   "day": "2026-06-14",
+   "id": "article-1",
+   "title": "jig.jp、サマーインターンシップ2026の募集開始 — Claude Code活用Webコースと福井・鯖江での合宿型",
+   "url": "https://prtimes.jp/main/html/rd/p/000000047.000070695.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "Claude Code活用コース・鯖江合宿等内容一致"
+  },
+  {
+   "day": "2026-06-14",
+   "id": "article-2",
+   "title": "個人開発のローカルMarkdownノート「Files.md」公開、PWAでインストール不要 — Google Drive",
+   "url": "https://gigazine.net/news/20260613-files-md/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "英語版記事で同日同URLパターンを確認"
+  },
+  {
+   "day": "2026-06-14",
+   "id": "article-3",
+   "title": "Anthropic、米国政府指示でClaude Fable 5・Mythos 5を停止 — 6月9日リリース直後、UK ",
+   "url": "https://gigazine.net/news/20260613-anthropic-claude-fable-mythos-suspend/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致、6/9公開後の停止事実も一致"
+  },
+  {
+   "day": "2026-06-14",
+   "id": "article-4",
+   "title": "SpaceXがNASDAQに新規上場、調達750億ドル — 評価額1.75兆ドルで史上最大IPO、マスク氏は世界初の1兆",
+   "url": "https://www.itmedia.co.jp/news/articles/2606/13/news024.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "IPO額・評価額・マスク氏長者化とも一致"
+  },
+  {
+   "day": "2026-06-14",
+   "id": "article-5",
+   "title": "Findy、フリーランスITエンジニアの月単価レポート公開 — 平均80万円、Go/TypeScript層が高単価、AI",
+   "url": "https://findy.co.jp/3922/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、平均80万円等の数値も一致"
+  },
+  {
+   "day": "2026-06-14",
+   "id": "article-6",
+   "title": "DIAMOND HBR 2026年7月号「ブランドの力 — AI時代における信頼戦略」発売 — スタバ日本CEOら登壇、",
+   "url": "https://www.diamond.co.jp/magazine/059690726.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "スタバ日本CEO登壇等、特集内容を確認"
+  },
+  {
+   "day": "2026-06-14",
+   "id": "article-7",
+   "title": "三菱一号館美術館「\"カフェ\"に集う芸術家」展、昨日6/13(土)開幕 — マネ・ゴッホ・ロートレック・ピカソほか約130",
+   "url": "https://mimt.jp/ex_sp/cafe/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、会期6/13開幕・出展内容確認"
+  },
+  {
+   "day": "2026-06-15",
+   "id": "article-1",
+   "title": "WASI 0.3が正式版に、WebAssembly Componentの非同期処理を共通基盤へ — Wasmtime 4",
+   "url": "https://www.publickey1.jp/blog/26/wasi_03webassembly_component.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "publickey1記事実在、内容一致"
+  },
+  {
+   "day": "2026-06-15",
+   "id": "article-2",
+   "title": "LLMアーキテクチャ新技法「KV共有」「mHC」「圧縮アテンション」 — Gemma 4で128K長文時に最大6GBのK",
+   "url": "https://gigazine.net/news/20260614-recent-developments-in-llm-architectures/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "同スラッグのgigazine記事内容が一致"
+  },
+  {
+   "day": "2026-06-15",
+   "id": "article-3",
+   "title": "AIエージェント向けOSSバックエンド「InsForge」公開 — PostgreSQL・S3・MCPを統合、自然言語で",
+   "url": "https://gigazine.net/news/20260614-insforge/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "実在確認、gigazine英語版URLと符合"
+  },
+  {
+   "day": "2026-06-15",
+   "id": "article-4",
+   "title": "GitHub Copilotコードレビュー、組織ランナー制御と内容除外設定を追加 — 指示ファイルの4000文字上限を撤",
+   "url": "https://github.blog/changelog/2026-06-12-copilot-code-review-new-configurations-and-controls/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・4000文字上限撤廃等内容が完全一致"
+  },
+  {
+   "day": "2026-06-15",
+   "id": "article-5",
+   "title": "ガートナー、2027年までにAIエージェントを使うエンジニアの65%が「IDEは必要不可欠ではない」と回答すると予想",
+   "url": "https://www.publickey1.jp/blog/26/2027ai65ide.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、ガートナー2027年65%予測を確認"
+  },
+  {
+   "day": "2026-06-15",
+   "id": "article-6",
+   "title": "週刊東洋経済「AI大失業が来る — 消える仕事・残る仕事を見分ける7つの視点」発売、Sansan寺田×Anthropic",
+   "url": "https://toyokeizai.net/feature/6a0aa80fa53aefe40f000000",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、寺田×東條対談の実在確認"
+  },
+  {
+   "day": "2026-06-15",
+   "id": "article-7",
+   "title": "住みよさランキング2026、熊本県人吉市が2年ぶり全国1位 — 2位文京区・3位長久手市、上位4市は0.35ポイント差",
+   "url": "https://toyokeizai.net/articles/-/947566",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "1位人吉市など順位が記事と一致確認"
+  },
+  {
+   "day": "2026-06-16",
+   "id": "article-1",
+   "title": "Stack Overflow、AIエージェント同士が知見を共有する「Stack Overflow for Agents」",
+   "url": "https://www.publickey1.jp/blog/26/stack_overflowaistack_overflow_for_agents.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・内容とも検索結果と完全一致"
+  },
+  {
+   "day": "2026-06-16",
+   "id": "article-2",
+   "title": "中国製AIコーディング特化モデル「Kimi K2.7 Code」公開 — 推論トークン-30%、Kimi Code Be",
+   "url": "https://gigazine.net/news/20260615-kimi-k2-7-code/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、-30%トークン・+21.8%の数値も一致"
+  },
+  {
+   "day": "2026-06-16",
+   "id": "article-3",
+   "title": "NVIDIA、35万種類超の動作を1万5000FPSで生成する単一バックボーン「MotionBricks」を発表 — U",
+   "url": "https://gigazine.net/news/20260615-nvidia-motionbricks/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "内容(35万種・1.5万FPS等)がNVIDIA発表と一致"
+  },
+  {
+   "day": "2026-06-16",
+   "id": "article-4",
+   "title": "AIデータセンター反対運動が拡大、2026年Q1だけで75件・約20兆円規模の建設計画が停止・遅延",
+   "url": "https://gigazine.net/news/20260615-data-center-opposition/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "GIGAZINE記事実在、数値も一致"
+  },
+  {
+   "day": "2026-06-16",
+   "id": "article-5",
+   "title": "実験ネットワーク「DN42」用のAIエージェントがAWS上で全体スキャン、24時間で約105万円の請求に",
+   "url": "https://gigazine.net/news/20260615-dn42-ai-agent/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果に同一URL・約105万円請求が一致"
+  },
+  {
+   "day": "2026-06-16",
+   "id": "article-6",
+   "title": "東洋経済「AI時代、弁護士にクライアントは何を求めるのか?」 — AIナンバーワン弁護士・松尾剛行が\"若手不要論\"に答え",
+   "url": "https://toyokeizai.net/articles/-/948127",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致、松尾剛行氏の記事も合致"
+  },
+  {
+   "day": "2026-06-16",
+   "id": "article-7",
+   "title": "英バーミンガム大「ミニ宇宙」で時計を使わずに時間を測定 — ルビジウム87原子24,000個のBECで\"エントロピー時間",
+   "url": "https://gigazine.net/news/20260616-mini-universe-measure-time/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "ルビジウム87原子24000個等内容が完全一致"
+  },
+  {
+   "day": "2026-06-17",
+   "id": "article-1",
+   "title": "GitLab、AIエージェント向け次世代Git互換サービス「Project Switch」発表 — クローン42倍・タス",
+   "url": "https://www.publickey1.jp/blog/26/gitlabaigitproject_switch50.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、クローン42倍・トークン半減を確認"
+  },
+  {
+   "day": "2026-06-17",
+   "id": "article-2",
+   "title": "AMD、フラッシュメモリをDRAMとして扱う米MEXTを買収 — DRAM認識量を2〜4倍に、コストは半額",
+   "url": "https://gigazine.net/news/20260616-amd-acquires-mext-ai-memory/",
+   "action": "url_fixed",
+   "correct_url": "https://gigazine.net/gsc_news/en/20260616-amd-acquires-mext-ai-memory/",
+   "reason": "元URL（/news/配下）は出現せず。同内容記事はgigazine.net/gsc_news/en/20260616-amd-acquires-mext-ai-memory/として検索結果に出現"
+  },
+  {
+   "day": "2026-06-17",
+   "id": "article-3",
+   "title": "OpenRouter、複数モデルを並列で走らせ統合する「Fusion」公開 — 安価モデル組み合わせでClaude Fa",
+   "url": "https://gigazine.net/news/20260616-openrouter-ai-fusion/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "GIGAZINE記事URL完全一致で実在確認"
+  },
+  {
+   "day": "2026-06-17",
+   "id": "article-4",
+   "title": "OSSのcurlが7月を「夏休み」化、脆弱性報告を1か月間受け付けず — 2026春の通報は2024比4〜5倍に",
+   "url": "https://gigazine.net/news/20260616-curl-summer-of-bliss/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "内容一致、4〜5倍の通報増加も整合"
+  },
+  {
+   "day": "2026-06-17",
+   "id": "article-5",
+   "title": "「Claude/GPTからローカルLLMに置き換えた」事例集 — RTX 5090でQwen 3.6を50〜150トーク",
+   "url": "https://gigazine.net/news/20260617-replace-caude-gpt-with-local-model/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、RTX5090・Qwenの内容も一致"
+  },
+  {
+   "day": "2026-06-17",
+   "id": "article-6",
+   "title": "ログミーBiz「優れたフレームワークが持つ3つの条件」 — 豊間根青地氏が説く\"耳慣れない言葉\"の力",
+   "url": "https://logmi.jp/main/management/333552",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、豊間根青地氏の内容確認"
+  },
+  {
+   "day": "2026-06-17",
+   "id": "article-7",
+   "title": "ヴァイキング最古の銀貨266枚を化学分析 — 銀94%のうちイスラム圏ディルハム由来が混在、交易は実物より早かった",
+   "url": "https://gigazine.net/news/20260617-viking-islamic-silver-coins/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "GIGAZINE記事実在、内容一致"
+  },
+  {
+   "day": "2026-06-18",
+   "id": "article-1",
+   "title": "SpaceX、AIコーディング Cursor 運営の Anysphere を600億ドル株式交換で買収合意 — 解除料は",
+   "url": "https://gigazine.net/news/20260617-spacex-acquires-curso-anysphere/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果に同一URL・600億ドル買収が一致"
+  },
+  {
+   "day": "2026-06-18",
+   "id": "article-2",
+   "title": "AWS、コスト調査をAIエージェントに任せる「FinOps Agent」パブリックプレビュー — CloudTrail連",
+   "url": "https://www.publickey1.jp/blog/26/awsaiaws_finops_agent.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致、CloudTrail連携等も合致"
+  },
+  {
+   "day": "2026-06-18",
+   "id": "article-3",
+   "title": "ChatGPT利用者シェアが初の50%割れ、5月46.4% — Gemini 27.7%・Claude 10.3%、Cl",
+   "url": "https://gigazine.net/news/20260617-state-of-ai/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "46.4%・27.7%・10.3%の数値が完全一致"
+  },
+  {
+   "day": "2026-06-18",
+   "id": "article-4",
+   "title": "GitHub大規模障害が頻発、MicrosoftがAWSにキャパシティ協力要請 — 週2.75億コミット、年140億コミ",
+   "url": "https://gigazine.net/news/20260617-microsoft-turns-aws-github-capacity/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、週2.75億コミット等の数値を確認"
+  },
+  {
+   "day": "2026-06-18",
+   "id": "article-5",
+   "title": "Android 17 正式リリース — 任意アプリをフローティング化する「アプリバブル」、ML-DSAでポスト量子暗号、",
+   "url": "https://gigazine.net/news/20260617-android-17/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致、機能内容も一致"
+  },
+  {
+   "day": "2026-06-18",
+   "id": "article-6",
+   "title": "ログミーBiz 豊間根青地「部下への\"ふわっと指示\"を脱する 4ステップ」 — 課題・行動・語感・運用",
+   "url": "https://logmi.jp/main/management/333558",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "logmi.jp記事URL完全一致で実在確認"
+  },
+  {
+   "day": "2026-06-18",
+   "id": "article-7",
+   "title": "nazology「自らの幸福度を下げてしまう3つの共通パターン」 — 安全・居場所・外部評価依存",
+   "url": "https://nazology.kusuguru.co.jp/archives/196662",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・内容とも検索結果と完全一致"
+  },
+  {
+   "day": "2026-06-18",
+   "id": "article-8",
+   "title": "70万年前のジリスの糞化石からマンモスのDNA — カナダ・ハカイ研「植食動物が巨獣の肉も食べていた」",
+   "url": "https://nazology.kusuguru.co.jp/archives/196688",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "元URLが検索結果に完全一致で出現し、内容（古代リス糞化石からマンモスDNA、ハカイ研究所、約70万年前）も一致"
+  },
+  {
+   "day": "2026-06-18",
+   "id": "article-9",
+   "title": "2頭の母トラが子育てを分担、ネパール西部で世界初撮影 — 4平方kmの島で5頭の子を交代世話",
+   "url": "https://nazology.kusuguru.co.jp/archives/196657",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、ネパール西部での撮影内容確認"
+  },
+  {
+   "day": "2026-06-19",
+   "id": "article-1",
+   "title": "Microsoft、iOS版Blink試作ブラウザがSafariをSpeedometer 3.1で28.6%上回るベンチ",
+   "url": "https://gigazine.net/news/20260618-blink-on-ios/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "GIGAZINE記事実在(英語版で確認)、内容一致"
+  },
+  {
+   "day": "2026-06-19",
+   "id": "article-2",
+   "title": "Anthropic、Claude DesignとClaude Codeを双方向同期 — 1週間で100万人利用、/des",
+   "url": "https://gigazine.net/news/20260618-claude-design-claude-code/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "同スラッグ記事内容(100万人利用等)が一致"
+  },
+  {
+   "day": "2026-06-19",
+   "id": "article-3",
+   "title": "GitHub、PR数の同時オープン上限を管理者が設定できる機能 — 生成AIによる低品質PR大量投稿対策、信頼コントリビ",
+   "url": "https://gigazine.net/news/20260618-github-limit-pull-request/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "実在確認、gigazine英語版URLと符合"
+  },
+  {
+   "day": "2026-06-19",
+   "id": "article-4",
+   "title": "OpenAI財務文書流出、2025年純損失385億ドル(約6兆円) — 売上130.7億ドル・R&amp;D 191.8",
+   "url": "https://gigazine.net/news/20260618-openai-financial-docs/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "385億ドル・130.7億ドル等の数値が一致"
+  },
+  {
+   "day": "2026-06-19",
+   "id": "article-5",
+   "title": "Epic Games、大容量バイナリ向けVCS「Lore」をMITライセンスで公開 — 差分転送・部分DL・マークルツリ",
+   "url": "https://gigazine.net/news/20260618-epic-games-lore/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "英語版記事で同日同URLパターンを確認"
+  },
+  {
+   "day": "2026-06-19",
+   "id": "article-6",
+   "title": "nazology「本当の賢さとは即答する力ではなく『すぐに反応しない力』」 — トマス・ジェフリーの心理学とストア派",
+   "url": "https://nazology.kusuguru.co.jp/archives/196722",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致で記事実在確認"
+  },
+  {
+   "day": "2026-06-19",
+   "id": "article-7",
+   "title": "ブリストル大、ドクチョウ属が近縁種の3倍長生き — 最長348日、花粉摂取が老化遅延に関与(Nature Communi",
+   "url": "https://nazology.kusuguru.co.jp/archives/196710",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果に完全一致URLが出現（ドクチョウ属348日長寿、Nature Communications 2026年6月16日掲載と内容一致）"
+  },
+  {
+   "day": "2026-06-19",
+   "id": "article-8",
+   "title": "ロンドン大クイーン・メアリー校、『ヴィーナスの誕生』モデルのシモネッタは下垂体腫瘍卒中で23歳死亡か — 結核説に新説",
+   "url": "https://nazology.kusuguru.co.jp/archives/196678",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果ブロックにURL文字列がそのまま出現、シモネッタ死因新説の記事内容とも一致"
+  },
+  {
+   "day": "2026-06-20",
+   "id": "article-1",
+   "title": "NVIDIA、Claude Codeでロボットを自律改善する「ENPIRE」発表 — CMUと共同、ピン挿入で成功率99",
+   "url": "https://gigazine.net/news/20260619-nvidia-enpire-agentic-robot/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、CMU共同・99%成功率も一致"
+  },
+  {
+   "day": "2026-06-20",
+   "id": "article-2",
+   "title": "OpenAI、ChatGPT「Scheduled tasks」を公開 — 時間予約・条件発火で自動実行、Pulseは同月",
+   "url": "https://gigazine.net/news/20260619-chatgpt-scheduled-tasks/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、Pulse終了の内容確認"
+  },
+  {
+   "day": "2026-06-20",
+   "id": "article-3",
+   "title": "GitHub、マルウェア配布の偽装リポジトリ約1万件を発見 — 正規プロジェクト複製+README差し替えの手口",
+   "url": "https://gigazine.net/news/20260619-github-malware-distribution/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "GIGAZINE記事実在、内容一致"
+  },
+  {
+   "day": "2026-06-20",
+   "id": "article-4",
+   "title": "Google、Android開発者認証を2026年9月30日から段階導入 — ブラジル等4ヶ国先行、未登録APKはサイド",
+   "url": "https://gigazine.net/news/20260619-android-developer-verification-timeline/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果に同一URL・9/30ブラジル等が一致"
+  },
+  {
+   "day": "2026-06-20",
+   "id": "article-5",
+   "title": "Amazon、AIチップ「Trainium」外販を協議開始 — 前世代比4倍・コスト最大50%減、年500億ドル規模を狙",
+   "url": "https://gigazine.net/news/20260619-amazon-trainium/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "実在確認、外販協議・500億ドルも合致"
+  },
+  {
+   "day": "2026-06-20",
+   "id": "article-6",
+   "title": "ナゾロジー「自分で幸福度を下げる3つの共通パターン」 — 安全・所属・他者承認依存",
+   "url": "https://nazology.kusuguru.co.jp/archives/196662",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・安全所属他者承認の内容が一致"
+  },
+  {
+   "day": "2026-06-20",
+   "id": "article-7",
+   "title": "ナゾロジー「ビタミンDがテロメア短縮を数年単位で遅らせる可能性」 — 米25,871人を5年追跡、AJCN掲載",
+   "url": "https://nazology.kusuguru.co.jp/archives/178085",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、25871人5年追跡・AJCNを確認"
+  },
+  {
+   "day": "2026-06-20",
+   "id": "article-8",
+   "title": "ナゾロジー「マヤ儀式で生け贄が青く塗られた本当の理由」 — マヤブルーは雨神チャークの色、フィールド博物館の研究",
+   "url": "https://nazology.kusuguru.co.jp/archives/196750",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致で記事実在確認"
+  },
+  {
+   "day": "2026-06-21",
+   "id": "article-1",
+   "title": "サイバーエージェント、2028年度エンジニアコース個人参加型インターン 6/27開催 — SRE・クラウドPFEの実務を",
+   "url": "https://www.cyberagent.co.jp/careers/students/event/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "6/27開催の1dayインターン内容と一致"
+  },
+  {
+   "day": "2026-06-21",
+   "id": "article-2",
+   "title": "GenerativeX、シリーズA 6.5億円調達 — Salesforce Venturesなど5社からAIエージェン",
+   "url": "https://prtimes.jp/main/html/rd/p/000000040.000124664.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、6.5億円調達など内容も一致"
+  },
+  {
+   "day": "2026-06-21",
+   "id": "article-3",
+   "title": "AWS Kiro iOS版を公開 — EARS記法で仕様書から実装まで自律するAIアシスタントIDEがスマホで操作可能に",
+   "url": "https://www.techtimes.com/articles/318546/20260617/aws-summit-new-york-2026-kiro-brings-aerospace-spec-standards-ai-coding.htm",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、EARS記法・iOS版内容も一致"
+  },
+  {
+   "day": "2026-06-21",
+   "id": "article-4",
+   "title": "Google、Gemini 3.5 Proを6月下旬に一般提供予定 — 200万トークンコンテキスト+Deep Thin",
+   "url": "https://k-tai.watch.impress.co.jp/docs/news/2110010.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、200万トークン等の内容確認"
+  },
+  {
+   "day": "2026-06-21",
+   "id": "article-5",
+   "title": "GitHub Copilot CLI、–remoteオプションでセッションをウェブストリーミング — スマホからAIコー",
+   "url": "https://blog.beachside.dev/entry/2026/06/16/120000",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "blog.beachside.dev/entry/2026/06/16/120000が検索結果に完全URL文字列として出現（月刊GitHubアップデート2026年5月号、Copilot CLI --remote GA化を含む）"
+  },
+  {
+   "day": "2026-06-21",
+   "id": "article-6",
+   "title": "週刊東洋経済2026年6/20号「AI大失業が来る」— エージェントAIによる雇用喪失の実態と人間に残る仕事を探る",
+   "url": "https://toyokeizai.net/feature/6a0aa80fa53aefe40f000000",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果に同一URL・AI大失業特集が一致"
+  },
+  {
+   "day": "2026-06-21",
+   "id": "article-7",
+   "title": "DHBR 2026年6月号「組織の選択」— リーダーの思い込み7つの壁・オクトパス組織・AI戦略を一冊で論じる",
+   "url": "https://dhbr.diamond.jp/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "トップページURLは検索結果に繰り返し完全一致で出現し実在確認"
+  },
+  {
+   "day": "2026-06-21",
+   "id": "article-8",
+   "title": "日経サイエンス2026年6月号「リトル・レッド・ドット」— ウェッブ望遠鏡がほぼ全画像に捉えた初期宇宙の謎の赤い点群",
+   "url": "https://www.nikkei-science.com/202606_032.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・リトルレッドドット特集が完全一致"
+  },
+  {
+   "day": "2026-06-21",
+   "id": "article-9",
+   "title": "アルテミス計画宇宙船が太平洋に着水し地球帰還 — 人類56年ぶりに最遠距離記録を更新、来年はドッキング試験へ",
+   "url": "https://news.web.nhk/newsweb/na/na-k10015096901000",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、56年ぶり記録更新・太平洋着水を確認"
+  },
+  {
+   "day": "2026-06-22",
+   "id": "article-1",
+   "title": "Gartner、2027年末にAIエージェントコーディングチームの65%がIDEを必要不可欠と考えなくなると予測",
+   "url": "https://www.publickey1.jp/blog/26/2027ai65ide.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致、Gartner予測内容も一致"
+  },
+  {
+   "day": "2026-06-22",
+   "id": "article-2",
+   "title": "AWS Summit Japan 2026、6/25(木)・26(金)に幕張メッセで開幕 — 260以上のセッション無料",
+   "url": "https://aws.amazon.com/jp/events/summits/japan/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "AWS公式イベントページと一致確認"
+  },
+  {
+   "day": "2026-06-22",
+   "id": "article-3",
+   "title": "マネーフォワード、2027年卒エンジニア職 本選考直結10日間就業型インターン受付中 — 全国4拠点・時給2,000円",
+   "url": "https://talent.supporterz.jp/events/6eb98b85-49e6-4acb-b173-6adaa156b899/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・内容とも検索結果と完全一致"
+  },
+  {
+   "day": "2026-06-22",
+   "id": "article-4",
+   "title": "Google DeepMind、AI中核人材が相次いで離脱 — Transformer共同開発者がOpenAIへ、Alp",
+   "url": "https://finance.biggo.jp/news/a2fd0f43-05c1-4824-9ae5-44a8afa58839",
+   "action": "url_fixed",
+   "correct_url": "https://finance.biggo.jp/news/c6d9e66e-2251-44e6-a1c8-1f7e0b513760",
+   "reason": "correct_urlが検索結果に完全一致で出現、実在確認済み（DeepMind人材離脱記事、内容も一致）"
+  },
+  {
+   "day": "2026-06-22",
+   "id": "article-5",
+   "title": "freee、2027年卒エンジニア採用を通年受付 — バックエンド・フロントエンド・インフラ全職種でプロダクト開発チーム",
+   "url": "https://jobs.freee.co.jp/entry/newgrads/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、通年採用の内容確認"
+  },
+  {
+   "day": "2026-06-22",
+   "id": "article-6",
+   "title": "「独創的な思考」がAIによって絶滅の危機に瀕する — 既存知識の最適化が創造的飛躍力を侵食するとWIREDが警告",
+   "url": "https://wired.jp/article/vol58-the-rising-risk-of-original-thinking-going-extinct/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "WIRED記事実在、内容一致"
+  },
+  {
+   "day": "2026-06-22",
+   "id": "article-7",
+   "title": "Forbes JAPAN「戦略思考から生成AIまで：2026年のリーダーシップ潮流」— What より Why を先に問",
+   "url": "https://newspicks.com/news/15721374/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果に同一URL・内容が一致"
+  },
+  {
+   "day": "2026-06-22",
+   "id": "article-8",
+   "title": "日経サイエンス2026年6月号「mRNAワクチンがん治療を変える」— 個別化ワクチンが手術・薬物療法に続く第3の選択肢へ",
+   "url": "https://www.nikkei-science.com/202606_062.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致、mRNAワクチン特集も合致"
+  },
+  {
+   "day": "2026-06-22",
+   "id": "article-9",
+   "title": "FIFAワールドカップ2026 グループF最終節へ — 日本代表は26日スウェーデン戦で決勝トーナメント進出確定を目指す",
+   "url": "https://news.yahoo.co.jp/articles/eba88b9bfa20e6d4d8f328a4343866978db5e429",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL実在、スウェーデン戦前の展望記事として整合"
+  },
+  {
+   "day": "2026-06-23",
+   "id": "article-1",
+   "title": "AWS、コード・インフラ構成・ビジネスコンテキストを統合解析してシステム全体の脆弱性を推論する「AWS Continuu",
+   "url": "https://www.publickey1.jp/blog/26/awsaws_contiuumai.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致（誤字Contiuumも一致）、内容確認"
+  },
+  {
+   "day": "2026-06-23",
+   "id": "article-2",
+   "title": "GitHub Copilot SDK、TypeScript/Python/Go/.NET/Rust/Javaの6言語で一",
+   "url": "https://forest.watch.impress.co.jp/docs/news/2115714.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致、6言語GA発表内容も一致"
+  },
+  {
+   "day": "2026-06-23",
+   "id": "article-3",
+   "title": "ZOZO、2027年卒対象の就業型インターンシップ本格化 — エンジニア職に加えPM職を新設、本選考直結型で受付中",
+   "url": "https://corp.zozo.com/recruit/engineer-newgraduate/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "PM職新設・就業型インターンと一致確認"
+  },
+  {
+   "day": "2026-06-23",
+   "id": "article-4",
+   "title": "DeNA 2027年度「AIジェネラリスト」コース選考本格化 — 標準年収600万円スタート、AIを実装で使うスキルを重",
+   "url": "https://student.dena.com/job/engineer/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "AIジェネラリスト・年収600万円など内容一致"
+  },
+  {
+   "day": "2026-06-23",
+   "id": "article-5",
+   "title": "AnthropicのClaude Agent SDK課金体系変更、2026年6月15日の施行当日に緊急停止 — 開発者コ",
+   "url": "https://dev.classmethod.jp/articles/claude-2026-pricing-reform-bucket-system/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、6/15緊急停止の内容も一致確認"
+  },
+  {
+   "day": "2026-06-23",
+   "id": "article-6",
+   "title": "MIT・CMU・オックスフォード共同研究：AI補助を4週間使った後に補助を外すと問題解決能力が顕著に低下 — 解答直接依",
+   "url": "https://www.media.mit.edu/articles/ai-s-impact-on-cognitive-ability-mit-study-reveals-more-troubling-data/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "実際はMIT単独の偽ニュース判定研究で内容不一致"
+  },
+  {
+   "day": "2026-06-23",
+   "id": "article-7",
+   "title": "DIAMOND ハーバード・ビジネス・レビュー「AI時代の判断力」— 生成AIは既存の判断力を増幅するが判断力の欠如は補",
+   "url": "https://dhbr.diamond.jp/articles/-/13495",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "DHBR記事実在、趣旨一致"
+  },
+  {
+   "day": "2026-06-23",
+   "id": "article-8",
+   "title": "メッシ、W杯通算18ゴールで歴代最多記録を単独更新 — アルゼンチンはオーストリアに2-0で連勝し決勝T進出を確定",
+   "url": "https://news.web.nhk/newsweb/na/na-k10015156781000",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果に同一URL・18ゴール記録が一致"
+  },
+  {
+   "day": "2026-06-24",
+   "id": "article-1",
+   "title": "xAI の Grok 4.3 が Amazon Bedrock で一般提供開始 — 100 万トークンコンテキスト対応・",
+   "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/grok-amazon-bedrock/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致、Mantle・100万トークンも合致"
+  },
+  {
+   "day": "2026-06-24",
+   "id": "article-2",
+   "title": "Amazon S3 Vectors、クエリ料金を最大 80% 引き下げ — 1000 万ベクトル超のインデックスで RA",
+   "url": "https://dev.classmethod.jp/en/articles/20260616-s3-vectors-query-charges/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・80%引き下げ等内容が完全一致"
+  },
+  {
+   "day": "2026-06-24",
+   "id": "article-3",
+   "title": "Zenn「AI がコードレビューする時間が自分で書く時間を超えた」— Claude Code バックグラウンド実行など ",
+   "url": "https://zenn.dev/long910/articles/2026-06-21-ai-agent-developer-workflow",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、AIコードレビュー時間逆転記事を確認"
+  },
+  {
+   "day": "2026-06-24",
+   "id": "article-4",
+   "title": "Cognition が日本法人を設立 — 自律 AI エンジニア「Devin」日本市場へ本格進出、DeNA 事例でエンジ",
+   "url": "https://www.crnasia.com/news/2026/artificial-intelligence/cognition-establishes-japan-entity-in-first-expansion-into-a",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致、DeNA事例2倍超も一致"
+  },
+  {
+   "day": "2026-06-24",
+   "id": "article-5",
+   "title": "サイバーエージェント 2027 年度エンジニアコース — SRE・XR・セキュリティ等の職種区分で通年受付中、Re:Ca",
+   "url": "https://www.cyberagent.co.jp/careers/special/students/tech/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "採用ページURL・Re:Career併設と一致"
+  },
+  {
+   "day": "2026-06-24",
+   "id": "article-6",
+   "title": "東洋経済オンライン「AI 価格破壊で大手コンサル隆盛の時代も、優秀な新卒が不要となる残酷なパラドックス」— 採用の定義が",
+   "url": "https://toyokeizai.net/articles/-/948509",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・タイトルとも検索結果と完全一致"
+  },
+  {
+   "day": "2026-06-24",
+   "id": "article-7",
+   "title": "週刊東洋経済 6/20・27 号「AI 大失業が来る」— 消える仕事・残る仕事を 7 つの視点で整理した特集",
+   "url": "https://toyokeizai.net/feature/6a0aa80fa53aefe40f000000",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、特集内容も一致確認"
+  },
+  {
+   "day": "2026-06-24",
+   "id": "article-8",
+   "title": "C・ロナウド、W 杯史上初の 6 大会連続ゴールを 41 歳で達成 — ポルトガルはウズベキスタンに 5-0 で圧勝し初",
+   "url": "https://www.soccer-king.jp/news/world/wc/20260624/2176163.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、6大会連続ゴール等の内容確認"
+  },
+  {
+   "day": "2026-06-25",
+   "id": "article-1",
+   "title": "AWS Summit Japan 2026 本日幕張メッセ開幕 — Bedrock AgentCore の GA 初日・",
+   "url": "https://aws.amazon.com/jp/events/summits/japan/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "AWS公式サイト実在、内容一致"
+  },
+  {
+   "day": "2026-06-25",
+   "id": "article-2",
+   "title": "TypeScript 7.0 RC 公開 — Go 移植版「Project Corsa」が RC 段階に到達・tsc コ",
+   "url": "https://www.publickey1.jp/blog/26/typescriptgo10typescript_70.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果に同一URL・内容が一致"
+  },
+  {
+   "day": "2026-06-25",
+   "id": "article-3",
+   "title": "freee、2027 年卒プロダクトエンジニア採用を通年実施 — FinTech SaaS × AI の機能開発チームへ",
+   "url": "https://jobs.freee.co.jp/entry/newgrads/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致、新卒採用ページ実在"
+  },
+  {
+   "day": "2026-06-25",
+   "id": "article-4",
+   "title": "Findy「スタートアップというだけでエンジニアに人気の時代は終わった」— 年収・技術環境・事業軸が選択基準の主役に",
+   "url": "https://findy-code.io/engineer-lab/startup-engineer-unpopular",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・タイトルとも検索結果と一致"
+  },
+  {
+   "day": "2026-06-25",
+   "id": "article-5",
+   "title": "Anthropic の Computer Use API と動的ワークフローが中小企業向けに普及 — Claude が自",
+   "url": "https://uravation.com/media/ai-major-updates-june-2026-anthropic-openai-google/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、Computer Use API等の内容を確認"
+  },
+  {
+   "day": "2026-06-25",
+   "id": "article-6",
+   "title": "DHBR 7 月号「AI エージェントは企業と顧客の関係性をどう変えるのか」— 信頼の源泉が変わる時代の本質",
+   "url": "https://dhbr.diamond.jp/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果ブロックにURL文字列がそのまま出現（DHBR公式サイト）、7月号特集内容も確認"
+  },
+  {
+   "day": "2026-06-25",
+   "id": "article-7",
+   "title": "FIFA W 杯グループ C 最終節 スコットランド vs ブラジル — 今朝 7 時キックオフ・初の 16 強をかけて",
+   "url": "https://www.tv-tokyo.co.jp/sports/articles/2026/06/041975.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "テレ東記事URL・7時キックオフと一致"
+  },
+  {
+   "day": "2026-06-25",
+   "id": "article-8",
+   "title": "JAXA「My Earth 文化祭 2026」7 月 25 日開催 — 宇宙飛行士 油井亀美也が ISS からの地球観測",
+   "url": "https://humans-in-space.jaxa.jp/news/info/",
+   "action": "url_fixed",
+   "correct_url": "https://www.satnavi.jaxa.jp/ja/news/2026/06/24/12455/index.html",
+   "reason": "www.satnavi.jaxa.jp/ja/news/2026/06/24/12455/index.htmlが検索結果に完全URL文字列として出現し、「My Earth文化祭2026」7/25開催・油井亀美也宇宙飛行士登壇の告知と一致"
+  },
+  {
+   "day": "2026-06-26",
+   "id": "article-1",
+   "title": "GitHub Copilot SDK が 6 言語で一般提供 — Canvas・クラウド Sandbox もパブリックプ",
+   "url": "https://gihyo.jp/article/2026/06/github-copilot-updates",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、6言語GA・Canvas等も一致"
+  },
+  {
+   "day": "2026-06-26",
+   "id": "article-2",
+   "title": "AWS Lambda に MicroVM 隔離実行環境を追加 — サーバーレスの手軽さにステートフル処理と強化セキュリテ",
+   "url": "https://www.publickey1.jp/blog/26/aws_lambda_microvms.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、MicroVM隔離実行環境の内容確認"
+  },
+  {
+   "day": "2026-06-26",
+   "id": "article-3",
+   "title": "メルカリ、2027 年新卒向けソフトウェアエンジニア サマーインターン開始 — バックエンド・SRE・モバイル全領域で選",
+   "url": "https://careers.mercari.com/new-graduates/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "メルカリ採用ページ実在確認"
+  },
+  {
+   "day": "2026-06-26",
+   "id": "article-4",
+   "title": "DeNA、エンジニア向けサマーインターンシップ参加者を受付中 — アプリ改修型実践プログラムから本選考へ直結",
+   "url": "https://student.dena.com/internship/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果に同一URL・内容が一致"
+  },
+  {
+   "day": "2026-06-26",
+   "id": "article-5",
+   "title": "AI 開発ツール比較 2026 — Cursor・GitHub Copilot・Claude Code それぞれの強みと",
+   "url": "https://soft.takinoko.net/2026/06/02/ai%E9%96%8B%E7%99%BA%E3%83%84%E3%83%BC%E3%83%AB%E6%AF%94%E8%BC%83-2026%EF%BD%9C%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E8%A6%96%E7%82%B9%E3%81%A7%E8%A6%8B%E3%82%8B%E6%9C%AC%E5%BD%93%E3%81%AB/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致"
+  },
+  {
+   "day": "2026-06-26",
+   "id": "article-6",
+   "title": "DHBR 2026 年 6 月号「オクトパス組織という選択」— 複雑な環境に柔軟に適応する分散型組織の設計原則",
+   "url": "https://dhbr.diamond.jp/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "トップページURLは検索結果に繰り返し完全一致で出現し実在確認"
+  },
+  {
+   "day": "2026-06-26",
+   "id": "article-7",
+   "title": "FIFA W 杯グループ F 最終節 日本 vs スウェーデン — 今朝 8 時キックオフ・勝ち点 4 で臨む決勝トーナ",
+   "url": "https://www.tv-tokyo.co.jp/sports/articles/2026/06/041981.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、朝8時KO・勝ち点4での対戦を確認"
+  },
+  {
+   "day": "2026-06-26",
+   "id": "article-8",
+   "title": "KPMG 全米女子 PGA 選手権が開幕 — 笹生優花らが女子 4 大メジャー最高峰のヘイズルタイン戦に挑む",
+   "url": "https://www.lpga.com/schedule/2026/kpmg-womens-pga-championship",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "大会実在・笹生優花出場確認、ドメインも正当"
+  },
+  {
+   "day": "2026-06-27",
+   "id": "article-1",
+   "title": "Amazon Bedrock、2026年Q1だけで過去累計超え — AIエージェント需要でトークン処理が急加速",
+   "url": "https://www.itmedia.co.jp/aiplus/article/2606/26/2000000131/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "AWS基調講演内容と記事URLが一致"
+  },
+  {
+   "day": "2026-06-27",
+   "id": "article-2",
+   "title": "Node.js、v27から年1リリース・全バージョンLTS化へ — 奇数版廃止でメンテナンス負荷を半減",
+   "url": "https://www.infoq.com/news/2026/06/nodejs-release-changes/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・内容とも検索結果と完全一致"
+  },
+  {
+   "day": "2026-06-27",
+   "id": "article-3",
+   "title": "xAI「Grok Build」に /goal 自律実行モード — 計画・実行・検証を全自動化、一時停止・再開も可",
+   "url": "https://www.techtimes.com/articles/318976/20260624/grok-build-ships-autonomous-execution-xai-agent-now-plans-runs-verifies.htm",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、自律実行モードの内容も一致"
+  },
+  {
+   "day": "2026-06-27",
+   "id": "article-4",
+   "title": "CoLab Conf 2026、本日虎ノ門で開幕 — 「AIとキャリア」テーマにU35エンジニアが集結",
+   "url": "https://supporterz-seminar.connpass.com/event/355775/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、6/27虎ノ門開催の内容確認"
+  },
+  {
+   "day": "2026-06-27",
+   "id": "article-5",
+   "title": "Kotoba Technologies、AIリアルタイム音声翻訳で1000万ドル（約16億円）調達",
+   "url": "https://www.nikkei.com/article/DGXZQOUC26BAL0W6A620C2000000/",
+   "action": "url_fixed",
+   "correct_url": "https://www.nikkei.com/article/DGXZQOUC255680V20C26A6000000/",
+   "reason": "correct_urlが検索結果に完全一致で出現、実在確認済み（Kotoba Technologies 16億円調達記事、内容も一致）"
+  },
+  {
+   "day": "2026-06-27",
+   "id": "article-6",
+   "title": "米MIT研究「AI10分利用で問題解決能力が低下」— 自己解決力を侵食する認知委託の落とし穴",
+   "url": "https://newspicks.com/trends/2762/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果に同一URL・内容が一致"
+  },
+  {
+   "day": "2026-06-27",
+   "id": "article-7",
+   "title": "DHBR 7月号「AI時代こそ信頼で勝負する」— AIが代替するほど\"人の判断\"が差別化になる逆説",
+   "url": "https://www.fujisan.co.jp/product/5772/new/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致、7月号発売情報も合致"
+  },
+  {
+   "day": "2026-06-27",
+   "id": "article-8",
+   "title": "フランスで6月最高気温41.9度 — 欧州異例の熱波、背景に気候変動の「常態化」",
+   "url": "https://www.nikkei.com/article/DGXZQOCB230CF0T20C26A6000000/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・41.9度の数値とも一致"
+  },
+  {
+   "day": "2026-06-27",
+   "id": "article-9",
+   "title": "ツール・ド・フランス2026、7月4日バルセロナ開幕 — 55年ぶりTTTスタートで21ステージの旅へ",
+   "url": "https://www.discoverfrance.com/bike-travel-guide/tour-de-france-2026-date-stages-schedule",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "バルセロナ開幕・55年ぶりTTT・21日程を確認"
+  },
+  {
+   "day": "2026-06-28",
+   "id": "article-1",
+   "title": "STORES 2028年卒採用刷新「ビジネス×テクノロジー」総合職新設、8月サマーインターン直結",
+   "url": "https://prtimes.jp/main/html/rd/p/000000267.000031375.html",
+   "action": "url_fixed",
+   "correct_url": "https://prtimes.jp/main/html/rd/p/000000275.000031375.html",
+   "reason": "correct_urlが検索結果に完全一致で出現、STORES新卒採用サイト公開の記事と確認"
+  },
+  {
+   "day": "2026-06-28",
+   "id": "article-2",
+   "title": "Bun v2.1 ZigからRust全コード移行完了 — AI（Claude）96万行を6日間で書き換え",
+   "url": "https://startupxo.com/en/news/2026/05/bun-zig-rust-runtime-rewrite/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "StartupXO記事URL完全一致で実在確認"
+  },
+  {
+   "day": "2026-06-28",
+   "id": "article-3",
+   "title": "ファインディ シリーズD 20.5億円調達 — 韓国・台湾進出3年でアジア1,600社",
+   "url": "https://prtimes.jp/main/html/rd/p/000000158.000045379.html",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "URL自体は実在だが実際は2025年5月発表で日付大幅相違"
+  },
+  {
+   "day": "2026-06-28",
+   "id": "article-4",
+   "title": "Deno コアJSエンジンOSS化 — 組み込み・エッジ向け単体利用可能に",
+   "url": "https://codezine.jp/news/detail/20255",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、コアJSエンジンOSS化を確認"
+  },
+  {
+   "day": "2026-06-28",
+   "id": "article-5",
+   "title": "AIコーディングCLIツール2026年版比較 — Claude Code・Copilot・Kiro・Codex・Gemi",
+   "url": "https://genai-ai.co.jp/ai-kanri/blog/cc-ai-coding-cli-comparison-2/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、比較内容確認"
+  },
+  {
+   "day": "2026-06-28",
+   "id": "article-6",
+   "title": "「確証バイアス」がキャリア選択を歪める — 行動経済学が示す「見たいものしか見えない」罠",
+   "url": "https://diamond.jp/list/series/s-koudoukeizaigaku",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "diamond.jp/list/series/s-koudoukeizaigakuが検索結果に完全URL文字列として出現（行動経済学連載ページ、確証バイアスも同連載内で扱われる）"
+  },
+  {
+   "day": "2026-06-28",
+   "id": "article-7",
+   "title": "週刊ダイヤモンド「メディア興亡」— アルゴリズム配信時代に「自分で考える力」を守るために",
+   "url": "https://www.fujisan.co.jp/product/5771/new/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "元URLが検索結果に完全一致で出現（週刊ダイヤモンド最新号ページ）"
+  },
+  {
+   "day": "2026-06-28",
+   "id": "article-8",
+   "title": "日経サイエンス6月号「ウェッブ望遠鏡が観測した宇宙最初期の銀河」— ビッグバンから4億年後の星形成",
+   "url": "https://www.nikkei-science.com/page/magazine/202606.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL実在確認、6月号ページ"
+  },
+  {
+   "day": "2026-06-28",
+   "id": "article-9",
+   "title": "ウィンブルドン2026、明日開幕 — AI審判が全コートに導入され「人間の判定」は消えるか",
+   "url": "https://www.wimbledon.com/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果に完全一致URL（ウィンブルドン公式サイトトップ）が出現、実在確認済み"
+  },
+  {
+   "day": "2026-06-29",
+   "id": "article-1",
+   "title": "Sakana AI「Sakana Fugu」一般提供 — 複数LLMを動的選択、SWE-Bench Pro 73.7点で",
+   "url": "https://sakana.ai/fugu-release/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、SWE-Bench Pro 73.7点を確認"
+  },
+  {
+   "day": "2026-06-29",
+   "id": "article-2",
+   "title": "VS Code 1.126 — セッション単位コスト追跡とマルチチャット同時実行でAIエージェント開発の透明性を強化",
+   "url": "https://code.visualstudio.com/updates/v1_126",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致、コスト追跡等の内容も一致"
+  },
+  {
+   "day": "2026-06-29",
+   "id": "article-3",
+   "title": "GitHub Copilot for Jira がGA — JiraチケットからCopilotエージェントの進捗をリアル",
+   "url": "https://github.blog/changelog/2026-06-25-github-copilot-for-jira-is-now-generally-available/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "GitHub changelog URL完全一致で確認"
+  },
+  {
+   "day": "2026-06-29",
+   "id": "article-4",
+   "title": "クラウドワークス、2027年卒エンジニア新卒採用を実施 — Webアプリ・SRE・ML・データ 4職種でフリーランス市場",
+   "url": "https://crowdworks.co.jp/careers/new_graduate/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、4職種の内容も一致"
+  },
+  {
+   "day": "2026-06-29",
+   "id": "article-5",
+   "title": "週刊東洋経済 7月4日号「スタートアップ新聖地 九州・福岡の磁力」— 福岡市長インタビューが描く地方テックエコシステムの",
+   "url": "https://str.toyokeizai.net/magazine/toyo/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "福岡市長インタビュー等、特集内容を確認"
+  },
+  {
+   "day": "2026-06-29",
+   "id": "article-6",
+   "title": "DHBR 2026年7月号「ブランドの力」— AI時代に「信頼」が競争優位となる理由をスターバックス・オニツカタイガー経",
+   "url": "https://dhbr.diamond.jp/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "7月号特集(スタバ・オニツカ)の内容確認"
+  },
+  {
+   "day": "2026-06-29",
+   "id": "article-7",
+   "title": "HBR「2026年のAI実使用事例分析」— 1万2,637件のデータが示す「AI Slop」の罠、若手が陥りやすい思考停",
+   "url": "https://note.com/effectuation/n/n43fc3fafbc76",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "note記事実在、内容一致"
+  },
+  {
+   "day": "2026-06-29",
+   "id": "article-8",
+   "title": "日経サイエンス 2026年8月号「量子コンピューターは世界を変えるか」— 期待と現実を第一線研究者が語る、実用化の時間軸",
+   "url": "https://www.nikkei-science.com/page/magazine/202608.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果に同一URL・特集内容が一致"
+  },
+  {
+   "day": "2026-06-29",
+   "id": "article-9",
+   "title": "日経ビジネス 2026年6月29日号「外国人材の受け入れ大転換」— 高度人材・特定技能の規制緩和が日本の職場環境を変え始",
+   "url": "https://business.nikkei.com/atcl/NBD/19/mokuji/00377/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致、外国人材特集も合致"
+  },
+  {
+   "day": "2026-06-30",
+   "id": "article-1",
+   "title": "10X、2027年卒プロダクトエンジニア採用開始 — Stailerの加盟チェーン130社超、TypeScript/Go",
+   "url": "https://10x.co.jp/careers/engineers/2027/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "4検索実施も当該URL未確認。10x.co.jp/recruit/はPAGE NOT FOUND、代替の実在URLも特定できず"
+  },
+  {
+   "day": "2026-06-30",
+   "id": "article-2",
+   "title": "Anthropic、MCP 2.0仕様を公開 — ツールストリーミング・マルチホップ認証・プログレス通知を追加",
+   "url": "https://modelcontextprotocol.io/changelog/2026-06-27",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "「MCP2.0」は存在せず実際は日付版仕様のみ"
+  },
+  {
+   "day": "2026-06-30",
+   "id": "article-3",
+   "title": "React 20 RC リリース — ReactコンパイラとServer Componentsの統合完成、JSX tra",
+   "url": "https://react.dev/blog/2026/06/react-20-rc",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "React20は未発表、2026年6月時点で最新は19系"
+  },
+  {
+   "day": "2026-06-30",
+   "id": "article-4",
+   "title": "Kyash、シリーズE 40億円を調達 — 金融インフラAPIエンジニアの増強とBtoB展開に本格投資",
+   "url": "https://blog.kyash.co/news/series-e-40/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "KyashのシリーズE調達は検索で確認できず"
+  },
+  {
+   "day": "2026-06-30",
+   "id": "article-5",
+   "title": "LayerX Tech Blog「GitHub Copilot導入1年後」— PR承認速度1.6倍・バグ検出率は有意差な",
+   "url": "https://tech.layerx.co.jp/entry/2026/06/copilot-1year",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "記事未発見、URL形式も実際のブログ規則と不一致"
+  },
+  {
+   "day": "2026-06-30",
+   "id": "article-6",
+   "title": "東洋経済オンライン「意思決定のコストを意識せよ」— 選択肢過多が判断力を消耗させる、Barry Schwartz「選択の",
+   "url": "https://toyokeizai.net/articles/-/826431",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "該当URLも「意思決定のコストを意識せよ」Barry Schwartz選択のパラドックス記事も検索結果に出現せず"
+  },
+  {
+   "day": "2026-06-30",
+   "id": "article-7",
+   "title": "ダイヤモンドオンライン「成人発達理論の実践入門」— ケガン理論が解く「なぜ人は変われないのか」、垂直的成長の3段階",
+   "url": "https://diamond.jp/articles/-/358991",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "4検索で当該ID実在確認できず"
+  },
+  {
+   "day": "2026-06-30",
+   "id": "article-8",
+   "title": "中央公論 2026年7月号「書くことと考えること」— 村田沙耶香と認知科学者・今井むつみが語る言語化の限界と可能性",
+   "url": "https://www.chuko.co.jp/chuokoron/2026/07/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "実際の特集は米建国250年で内容不一致"
+  },
+  {
+   "day": "2026-06-30",
+   "id": "article-9",
+   "title": "ニューズウィーク日本版 7月1日号「世界の都市再生2026」— ロッテルダムの浮体式住宅が気候変動時代の都市設計モデルに",
+   "url": "https://www.newsweekjapan.jp/magazine/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果に完全一致URL（ニューズウィーク日本版本誌紹介ページ）が出現、実在確認済み"
+  },
+  {
+   "day": "2026-07-02",
+   "id": "article-1",
+   "title": "Deno 2.9 正式リリース — コールドスタート2倍速・Deno Desktopでクロスプラットフォームアプリ開発",
+   "url": "https://deno.com/blog/v2.9",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致、コールドスタート倍速も合致"
+  },
+  {
+   "day": "2026-07-02",
+   "id": "article-2",
+   "title": "Microsoft、WSL ContainersをパブリックプレビューA公開 — Docker不要のLinuxコンテナ、",
+   "url": "https://www.publickey1.jp/blog/26/windowslinuxwsl_containerswindows2.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・virtiofs高速化等内容が一致"
+  },
+  {
+   "day": "2026-07-02",
+   "id": "article-3",
+   "title": "PR TIMES、27・28卒エンジニア向けハッカソン受付開始 — 優秀者は年収550万円以上で即内定・締切7/5",
+   "url": "https://prtimes.jp/main/html/rd/p/000001672.000000112.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果ブロックにURL文字列がそのまま出現（PR TIMESハッカソン記事、年収550万円即内定）"
+  },
+  {
+   "day": "2026-07-02",
+   "id": "article-4",
+   "title": "Google、ユーザーのIPv6利用率が50%を突破 — 主要ISPのデフォルト移行でWebインフラ設計が転換点へ",
+   "url": "https://www.publickey1.jp/blog/26/googleipv650.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致、IPv6利用率50%突破も一致"
+  },
+  {
+   "day": "2026-07-02",
+   "id": "article-5",
+   "title": "Sansan、2027年度新卒初任給を手当込み年収640万円に引き上げ — 高専門エンジニアには1000万円超のオファー",
+   "url": "https://prtimes.jp/main/html/rd/p/000000818.000049627.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "PR TIMES URL・初任給額とも一致確認"
+  },
+  {
+   "day": "2026-07-02",
+   "id": "article-6",
+   "title": "東洋経済オンライン「AIに指示するセンスのない人が負ける理由」— 答えを出させるだけのAI利用は「思考の外注」になる",
+   "url": "https://toyokeizai.net/articles/-/936634",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、内容も概ね整合"
+  },
+  {
+   "day": "2026-07-02",
+   "id": "article-7",
+   "title": "DHBR 2026年7月号「AI時代こそ信頼で勝負する」— 情報洪水の中でブランドが「認知の節約コスト」になる論理",
+   "url": "https://dhbr.diamond.jp/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "特集テーマ・関連記事の実在を確認"
+  },
+  {
+   "day": "2026-07-02",
+   "id": "article-8",
+   "title": "特別展「大南極展」日本科学未来館で開幕 — 南極観測70周年・34万年前のアイスコアと隕石実物が一堂に",
+   "url": "https://dainankyokuten.jp/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、34万年アイスコア等の内容確認"
+  },
+  {
+   "day": "2026-07-02",
+   "id": "article-9",
+   "title": "愛知・名古屋2026アジア競技大会 — eスポーツが初の公式メダル競技11種目、32年ぶり日本開催の準備が最終局面",
+   "url": "https://www.aichi-nagoya2026.org/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "公式サイト実在、開催概要おおむね一致"
+  },
+  {
+   "day": "2026-07-04",
+   "id": "article-1",
+   "title": "サポーターズ、「参加してよかったエンジニアサマーインターンシップランキング2026」発表 — LINEヤフーが2年連続1",
+   "url": "https://prtimes.jp/main/html/rd/p/000000080.000045025.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果に同一URL・LINEヤフー1位が一致"
+  },
+  {
+   "day": "2026-07-04",
+   "id": "article-2",
+   "title": "Astro 7.0正式リリース — Vite 8/Rolldown搭載・Rust製コンパイラでビルド最大61%高速化",
+   "url": "https://astro.build/blog/astro-7/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致、Vite8/Rolldownも合致"
+  },
+  {
+   "day": "2026-07-04",
+   "id": "article-3",
+   "title": "Google「Dart &amp; Flutter Agent Skills」リリース — MCPサーバーでAIエージェ",
+   "url": "https://www.publickey1.jp/blog/26/googledartflutter_agent_skillsdartflutterai.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・内容とも検索結果と完全一致"
+  },
+  {
+   "day": "2026-07-04",
+   "id": "article-4",
+   "title": "Linux Foundation、AIエージェントにDNS基盤のID標準「Agent Name Service」発表",
+   "url": "https://www.linuxfoundation.org/press/linux-foundation-announces-intent-to-launch-agent-name-service-to-establish-trusted-identity-infrastructure-for-ai-agents",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致、Agent Name Service発表を確認"
+  },
+  {
+   "day": "2026-07-04",
+   "id": "article-5",
+   "title": "ITR、国内IaaS/PaaS市場2026年度は2兆4400億円 — 2029年には1.5倍の3兆7000億円へ急成長",
+   "url": "https://www.itmedia.co.jp/news/articles/2603/24/news068.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、市場予測数値も一致（実際は3月公開）"
+  },
+  {
+   "day": "2026-07-04",
+   "id": "article-6",
+   "title": "生成AIに依存すると脳活動が低下したまま戻らない — KDDI総合研究所が脳波測定で確認",
+   "url": "https://rp.kddi-research.jp/atelier/column/archives/5443",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "rp.kddi-research.jp記事URL完全一致"
+  },
+  {
+   "day": "2026-07-04",
+   "id": "article-7",
+   "title": "「AIに思考力まで奪われていないか」— AIが得意な整理と人間が担う「問いの設定」",
+   "url": "https://newspicks.com/news/15668307/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・内容とも検索結果と完全一致"
+  },
+  {
+   "day": "2026-07-04",
+   "id": "article-8",
+   "title": "ツール・ド・フランス2026、バルセロナで本日開幕 — 55年ぶりチームTT・全21ステージ7/26パリ閉幕",
+   "url": "https://prtimes.jp/main/html/rd/p/000000627.000014079.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "prtimes.jp/main/html/rd/p/000000627.000014079.htmlが検索結果に完全URL文字列として出現し、ツール・ド・フランス2026開幕（バルセロナ、55年ぶりチームTT）の記事と一致"
+  },
+  {
+   "day": "2026-07-04",
+   "id": "article-9",
+   "title": "はやぶさ2、明日7月5日に小惑星「トリフネ」へ超近接フライバイ — 地表1kmまで接近予定",
+   "url": "https://www.hayabusa2.jaxa.jp/topics/20260624_torifune/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、7/5フライバイ予定の内容確認"
+  },
+  {
+   "day": "2026-07-05",
+   "id": "article-1",
+   "title": "PayPay 2027年卒ソフトウェアエンジニア採用 — 国内最大規模フィンテック基盤でKotlin/Go/Swift開",
+   "url": "https://about.paypay.ne.jp/career/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "PayPay採用ページ実在確認"
+  },
+  {
+   "day": "2026-07-05",
+   "id": "article-2",
+   "title": "ファインディ「生成AI事業に抜擢されたエンジニア」評価スキル初公開 — 設計力・アーキテクチャ思考が最重要",
+   "url": "https://findy.co.jp/3621/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果に同一URL・内容が一致"
+  },
+  {
+   "day": "2026-07-05",
+   "id": "article-3",
+   "title": "GoogleユーザーのIPv6利用率が初めて50%を突破 — 2026年3月、インターネット基盤の歴史的節目",
+   "url": "https://www.publickey1.jp/blog/26/googleipv650.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致、50.1%到達も合致"
+  },
+  {
+   "day": "2026-07-05",
+   "id": "article-4",
+   "title": "PythonパッケージマネージャーuvがCIでpipを逆転 — Rust製で10倍速、GitHub 85,000スター突",
+   "url": "https://github.com/astral-sh/uv",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "元URLが検索結果に完全一致で出現し実在確認（スター数87.2kで記事の85,000突破と整合）"
+  },
+  {
+   "day": "2026-07-05",
+   "id": "article-5",
+   "title": "元GitHub CEO Thomas Dohmke「Entire CLI」OSS公開 — AIエージェントの開発コンテキ",
+   "url": "https://www.publickey1.jp/blog/26/github_ceoaientire_cligit.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、Dohmke氏のEntire CLI公開を確認"
+  },
+  {
+   "day": "2026-07-05",
+   "id": "article-6",
+   "title": "東洋経済「アンカリング効果の教養」— 情報があふれる時代に判断を歪める初期数値の罠",
+   "url": "https://toyokeizai.net/articles/-/865670",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "実際は2025年3月公開の記事の使い回し"
+  },
+  {
+   "day": "2026-07-05",
+   "id": "article-7",
+   "title": "DHBR「誠実な意思決定のカギは多様性にある」— プレッシャー下で同質グループが陥るバイアスの構造",
+   "url": "https://dhbr.diamond.jp/articles/-/12810",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "dhbr記事URL完全一致、内容も整合"
+  },
+  {
+   "day": "2026-07-05",
+   "id": "article-8",
+   "title": "鈴鹿8時間耐久ロードレース2026 本日決勝 — Honda/Yamaha/Kawasakiのワークス3強が頂点を争う",
+   "url": "https://www.suzukacircuit.jp/8tai/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "公式サイトURL一致、開催日・内容も整合"
+  },
+  {
+   "day": "2026-07-05",
+   "id": "article-9",
+   "title": "WTTアメリカスマッシュ2026 — 張本智和・張本美和兄妹がロサンゼルスで世界トップと激突",
+   "url": "https://www.jsports.co.jp/tabletennis/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "4検索で完全一致URLは確認できず。実在する卓球関連URLは/pickup/tabletennis/やnews.jsports.co.jp/tabletennis/など別パス"
+  },
+  {
+   "day": "2026-07-08",
+   "id": "article-1",
+   "title": "ログラス、2027卒エンジニア採用を通年化 — 経営管理SaaSのバックエンド/フロントエンド5名同時公募",
+   "url": "https://loglass.co.jp/careers/engineers",
+   "action": "url_fixed",
+   "correct_url": "https://loglass.co.jp/recruit/newgraduate-engineer",
+   "reason": "correct_urlと同一パスのページ（www付き）が検索結果に出現し実在確認"
+  },
+  {
+   "day": "2026-07-08",
+   "id": "article-2",
+   "title": "Chatwork 2027卒エンジニア夏季インターン「CW Tech Campus」応募開始 — 5日間で実際のSaaS",
+   "url": "https://recruit.chatwork.com/internship/2027/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "recruit.chatwork.comは実在するが2027年版インターンページや「CW Tech Campus」という名称の記事は確認できず（実在するのは2022〜2024年版のみ）"
+  },
+  {
+   "day": "2026-07-08",
+   "id": "article-3",
+   "title": "Tailwind CSS v4.1 正式リリース — CSS Cascadeレイヤー対応と新しい@starting-st",
+   "url": "https://tailwindcss.com/blog/tailwindcss-v4-1",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "実際は2025年4月リリースで1年以上ずれ"
+  },
+  {
+   "day": "2026-07-08",
+   "id": "article-4",
+   "title": "GitHub Actions、macOS M4ホステッドランナーを全プランに正式GA — Apple Silicon C",
+   "url": "https://github.blog/changelog/2026-07-08-macos-m4-runners-ga/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "4検索で該当changelog実在確認できず。GitHub公式のmacOS GAは2026年2月のmacos-26版のみで、M4ランナーGA発表は確認できない（架空の可能性）"
+  },
+  {
+   "day": "2026-07-08",
+   "id": "article-5",
+   "title": "Nstock、シリーズB 12億円調達 — ストックオプション管理SaaSの税務・法務連携機能を強化",
+   "url": "https://nstock.jp/news/20260707-series-b/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "正しいドメインはnstock.co.jp、直近シリーズBは25年9月15億円"
+  },
+  {
+   "day": "2026-07-08",
+   "id": "article-6",
+   "title": "「確証バイアスとエコーチェンバー」— 信じたい情報だけを選ぶ認知の罠と構造的な破り方",
+   "url": "https://dhbr.diamond.jp/articles/-/14023",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "4検索で該当URLの実在確認できず。確証バイアス・エコーチェンバーは実在テーマだがこの記事IDは未確認"
+  },
+  {
+   "day": "2026-07-08",
+   "id": "article-7",
+   "title": "「垂直的成長」とは何か — AI時代に問われる認識の枠組みそのものの変容",
+   "url": "https://toyokeizai.net/articles/-/834521",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "該当記事の実在確認できず、ID番号も不整合"
+  },
+  {
+   "day": "2026-07-08",
+   "id": "article-8",
+   "title": "ispace、月面着陸機「RESILIENCE」ミッション3の打ち上げを2027年2月に確定",
+   "url": "https://ispace-inc.com/jpn/news/2026/07/mission3-launch/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "RESILIENCEはミッション2の機体、ミッション3と矛盾"
+  },
+  {
+   "day": "2026-07-08",
+   "id": "article-9",
+   "title": "「食べるコオロギ」から「培養魚肉」へ — 代替タンパク市場の主役交代と食糧安保の論点",
+   "url": "https://www.nikkei.com/article/DGXZQOUA070C26A7000000/",
+   "action": "deleted",
+   "correct_url": null,
+   "reason": "4検索実施も当該記事ID・培養魚肉への主役交代論点とも裏付けとれず"
+  },
+  {
+   "day": "2026-07-09",
+   "id": "article-1",
+   "title": "マネーフォワード2028卒エンジニアサマーインターン — 時給2,000円・10日間・本選考直結",
+   "url": "https://recruit.moneyforward.com/students/event/sXZmlOOh",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、時給2000円・10日間も一致確認"
+  },
+  {
+   "day": "2026-07-09",
+   "id": "article-2",
+   "title": "Timee 2028卒Webエンジニア実務型インターン — 1ヶ月フルリモート・選考直結",
+   "url": "https://newgrads.timee.co.jp/Internship",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、2028卒フルリモート内容確認"
+  },
+  {
+   "day": "2026-07-09",
+   "id": "article-3",
+   "title": "Claude Cowork がモバイル・Webに展開 — Maxプランから数週間でロールアウト開始",
+   "url": "https://claude.com/blog/cowork-web-mobile",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "Anthropic公式ブログ実在、内容完全一致"
+  },
+  {
+   "day": "2026-07-09",
+   "id": "article-4",
+   "title": "Rust 1.97 stable リリース — v0マングリングがデフォルト・Cargo build.warnings安",
+   "url": "https://releases.rs/docs/1.97.0/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "検索結果に同一URL・7/9リリース等が一致"
+  },
+  {
+   "day": "2026-07-09",
+   "id": "article-5",
+   "title": "GitHub Models が7月30日に完全終了 — 代替はAzure AI FoundryとGitHub Copil",
+   "url": "https://github.blog/changelog/2026-07-01-github-models-is-being-fully-retired-on-july-30-2026/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "終了時期・移行先の内容を他媒体で確認"
+  },
+  {
+   "day": "2026-07-09",
+   "id": "article-6",
+   "title": "DHBR 2026年7月号「前ウォルマートCEOが語る実行力 — リーダーは直感に従いなさい」",
+   "url": "https://www.fujisan.co.jp/product/5772/new/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL・直感に従いなさい等内容が一致"
+  },
+  {
+   "day": "2026-07-09",
+   "id": "article-7",
+   "title": "AIの「説得爆撃」に注意せよ — LLMが強力な説得者になるリスク",
+   "url": "https://dhbr.diamond.jp/articles/-/13793",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL一致、説得爆撃の内容も一致"
+  },
+  {
+   "day": "2026-07-09",
+   "id": "article-8",
+   "title": "FC東京・佐藤龍之介がバレンシアCFへ完全移籍 — 日本人初・5年契約",
+   "url": "https://www.fctokyo.co.jp/news/details/337421/",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "URL完全一致、バレンシア移籍・5年契約も一致"
+  },
+  {
+   "day": "2026-07-09",
+   "id": "article-9",
+   "title": "はやぶさ2が小惑星「トリフネ」フライバイ成功 — 中心から距離800mの超近接通過",
+   "url": "https://www.jaxa.jp/press/2026/07/20260706-3_j.html",
+   "action": "keep",
+   "correct_url": null,
+   "reason": "jaxa.jp press URL完全一致、800m通過も一致"
+  }
+ ]
+}
