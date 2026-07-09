@@ -1,0 +1,2493 @@
+{
+ "date": "2026-07-09",
+ "type": "browser-verify-and-fix",
+ "summary": {
+  "external_urls_checked": 353,
+  "curl_200": 347,
+  "browser_checked": 6,
+  "ok": 348,
+  "fixed": 3,
+  "deleted": 2,
+  "internal": {
+   "days": 54,
+   "articles_after_fix": 384,
+   "internal_link_404": 0,
+   "checked": "ID連番・TOC・day-meta・セクション件数・day-card・days.json・375px幅 すべて整合(tools/check-site.py)",
+   "bug_fixed": "ホーム見出し→/{日付}/#article-N のアンカージャンプが scroll-behavior:smooth 起因で発火しない事故を実機で再現・修正(style.css、focus-within に限定+v=4バンプ)"
+  },
+  "notes": "developers.cyberagent.co.jp は curl では 000 になるがブラウザでは正常(bot対策)。ペイウォール該当なし"
+ },
+ "results": [
+  {
+   "url": "https://findy-code.io/engineer-lab/startup-engineer-unpopular",
+   "http_status": 404,
+   "browser_verdict": "deleted",
+   "action": "2026-06-25 article-4 を記事ごと削除・ID振り直し",
+   "reason": "ブラウザで Not Found。実在する同スラッグ記事は2020年9月公開で、サイト記事の『2026年の採用市場動向』という内容は事実と不一致(捏造)。正しいソースなし"
+  },
+  {
+   "url": "https://mixigroup-recruit.mixi.co.jp/recruitment-category/new-graduate/13170/",
+   "http_status": 404,
+   "browser_verdict": "fixed",
+   "action": "URLを https://mixigroup-recruit.mixi.co.jp/ (採用トップ・恒久URL)に差し替え",
+   "reason": "ブラウザで404(ページ削除)。記事内容(27卒採用・みてね/モンスト等・2026年10月/2027年4月入社)はWebSearch結果で再確認済み"
+  },
+  {
+   "url": "https://recruit.moneyforward.com/students/event/sXZmlOOh",
+   "http_status": 404,
+   "browser_verdict": "fixed",
+   "action": "URLを https://recruit.moneyforward.com/ (採用トップ・恒久URL)に差し替え",
+   "reason": "ブラウザで404。トークン風イベントURL(ルール2.5(b)違反パターン)。インターン自体(10日間・時給2,000円・本選考直結)は複数の検索結果で実在確認済み"
+  },
+  {
+   "url": "https://recruit.raksul.com/newgrads/",
+   "http_status": 404,
+   "browser_verdict": "deleted",
+   "action": "2026-05-16 article-2 を記事ごと削除・ID振り直し",
+   "reason": "ブラウザで Not Found。公式の恒久URLがWebSearch結果に存在せず、記事の『採用枠25名』も検索結果の『採用予定数20名』と不一致のため削除"
+  },
+  {
+   "url": "https://www.lpga.com/schedule/2026/kpmg-womens-pga-championship",
+   "http_status": 404,
+   "browser_verdict": "fixed",
+   "action": "URLを https://www.lpga.com/tournaments/kpmgwomenspgachampionship/overview に差し替え",
+   "reason": "ブラウザで404 Error。LPGA公式トーナメントページ(検索結果由来)へ差し替え。笹生優花・西村優菜出場も検索で再確認済み"
+  },
+  {
+   "url": "https://about.paypay.ne.jp/career/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://artexhibition.jp/topics/news/20260602-AEJ2917554/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://astro.build/blog/astro-7/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/grok-amazon-bedrock/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://aws.amazon.com/blogs/aws/the-aws-mcp-server-is-now-generally-available/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://aws.amazon.com/jp/blogs/news/aws-weekly-roundup-aws-transform-at-1-year-claude-platform-on-aws-ec2-m3-ultra-mac-instances-and-more-may-18-2026/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://aws.amazon.com/jp/events/summits/japan/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://blog.beachside.dev/entry/2026/06/16/120000",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://bun.com/blog/bun-v1.3.14",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://bungujoshi.com/event/tokyo2026/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://business.nikkei.com/atcl/NBD/19/mokuji/00377/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://careers.mercari.com/new-graduates/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://cedec.cesa.or.jp/2026/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://claude.com/blog/cowork-web-mobile",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://code.claude.com/docs/en/github-actions",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://code.visualstudio.com/updates/v1_126",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://codezine.jp/article/detail/24143",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://codezine.jp/article/detail/24291",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://codezine.jp/article/detail/24334",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://codezine.jp/article/detail/24335",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://codezine.jp/news/detail/20255",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://codezine.jp/news/detail/24385",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://codezine.jp/news/detail/24456",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://codezine.jp/news/detail/24465",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://corp.helpfeel.com/news/pressrelease-20260127",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://corp.lapras.com/news/1173/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://corp.lapras.com/news/1271/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://corp.zozo.com/recruit/engineer-newgraduate/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://corporate.jpyc.co.jp/news/posts/series-b-second-close",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://crowdworks.co.jp/careers/new_graduate/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://cybozu.co.jp/company/job/recruitment/intern/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://cybozu.co.jp/recruit/entry/newgrad/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://dainankyokuten.jp/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://dena.com/jp/news/5359/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://deno.com/blog/v2.9",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://dev.classmethod.jp/articles/claude-2026-pricing-reform-bucket-system/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://dev.classmethod.jp/en/articles/20260616-s3-vectors-query-charges/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://devblogs.microsoft.com/dotnet/dotnet-maui-moves-to-coreclr-in-dotnet-11/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0-beta/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://developer.apple.com/wwdc26/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://developers.cyberagent.co.jp/blog/archives/64293/",
+   "http_status": 0,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 000(bot対策)だがブラウザでは正常表示。ABEMA多層キャッシュ記事の内容一致を確認"
+  },
+  {
+   "url": "https://dhbr.diamond.jp/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://dhbr.diamond.jp/articles/-/12810",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://dhbr.diamond.jp/articles/-/13340",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://dhbr.diamond.jp/articles/-/13355",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://dhbr.diamond.jp/articles/-/13423",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://dhbr.diamond.jp/articles/-/13495",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://dhbr.diamond.jp/articles/-/13611",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://dhbr.diamond.jp/articles/-/13738",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://dhbr.diamond.jp/articles/-/13793",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://dhbr.diamond.jp/articles/-/13980",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://dhbr.diamond.jp/articles/-/14149",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://diamond.jp/articles/-/390970",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://diamond.jp/list/series/s-koudoukeizaigaku",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://duckdb.org/2026/05/20/announcing-duckdb-153",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://eiga.com/movie/104001/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://eiga.com/news/20260525/11/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://eijipress.co.jp/en/products/2154",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://eijipress.co.jp/products/2356",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://engineering.mercari.com/blog/entry/20260528-merpay-mercoin-tech-openness-month-2026/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://expo.dev/changelog/sdk-56",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://fanfun.jaxa.jp/countdown/h3f6/index.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://finance.biggo.jp/news/c6d9e66e-2251-44e6-a1c8-1f7e0b513760",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://findy-tools.connpass.com/event/389385/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://findy-tools.connpass.com/event/393515/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://findy.co.jp/2679/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://findy.co.jp/3621/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://findy.co.jp/3922/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://findy.connpass.com/event/391594/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://forest.watch.impress.co.jp/docs/news/2115714.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://genai-ai.co.jp/ai-kanri/blog/cc-ai-coding-cli-comparison-2/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://gendai.media/list/books/gakujutsu/9784065372210",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://gigazine.net/gsc_news/en/20260616-amd-acquires-mext-ai-memory/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://gigazine.net/news/20260611-google-ai-diffusiongemma/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://gigazine.net/news/20260611-xiaomi-mimo-code/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://gigazine.net/news/20260612-claude-fable-5-safeguard-change/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://gigazine.net/news/20260612-homebrew-6-0-0/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://gigazine.net/news/20260613-anthropic-claude-fable-mythos-suspend/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://gigazine.net/news/20260613-files-md/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://gigazine.net/news/20260614-insforge/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://gigazine.net/news/20260614-recent-developments-in-llm-architectures/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://gigazine.net/news/20260615-data-center-opposition/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://gigazine.net/news/20260615-dn42-ai-agent/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://gigazine.net/news/20260615-kimi-k2-7-code/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://gigazine.net/news/20260615-nvidia-motionbricks/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://gigazine.net/news/20260616-curl-summer-of-bliss/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://gigazine.net/news/20260616-mini-universe-measure-time/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://gigazine.net/news/20260616-openrouter-ai-fusion/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://gigazine.net/news/20260617-android-17/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://gigazine.net/news/20260617-microsoft-turns-aws-github-capacity/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://gigazine.net/news/20260617-replace-caude-gpt-with-local-model/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://gigazine.net/news/20260617-spacex-acquires-curso-anysphere/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://gigazine.net/news/20260617-state-of-ai/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://gigazine.net/news/20260617-viking-islamic-silver-coins/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://gigazine.net/news/20260618-blink-on-ios/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://gigazine.net/news/20260618-claude-design-claude-code/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://gigazine.net/news/20260618-epic-games-lore/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://gigazine.net/news/20260618-github-limit-pull-request/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://gigazine.net/news/20260618-openai-financial-docs/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://gigazine.net/news/20260619-amazon-trainium/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://gigazine.net/news/20260619-android-developer-verification-timeline/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://gigazine.net/news/20260619-chatgpt-scheduled-tasks/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://gigazine.net/news/20260619-github-malware-distribution/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://gigazine.net/news/20260619-nvidia-enpire-agentic-robot/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://gihyo.jp/article/2026/05/github-copilot-app-technical-preview",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://gihyo.jp/article/2026/06/github-copilot-updates",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://gihyo.jp/article/2026/06/mastering-copilot-on-github",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://github.blog/ai-and-ml/github-copilot/give-github-copilot-cli-real-code-intelligence-with-language-servers/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://github.blog/changelog/2026-06-12-copilot-code-review-new-configurations-and-controls/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://github.blog/changelog/2026-06-25-github-copilot-for-jira-is-now-generally-available/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://github.blog/changelog/2026-07-01-github-models-is-being-fully-retired-on-july-30-2026/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://github.blog/jp/2026-04-28-github-copilot-is-moving-to-usage-based-billing/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://github.com/astral-sh/uv",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://github.com/denoland/deno/releases/tag/v2.8.0",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://github.com/redis/redis/releases/tag/8.6.4",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://github.com/vuejs/core/releases",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://hire.wantedly.com/careers/wantedly/career_page_top_view?lang=ja",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://job.tracks.run/events/kubell_27agent",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://job.tracks.run/new-grad/yKTdd2obf",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://jobs.freee.co.jp/entry/newgrads/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://jp.corp-sansan.com/news/2026/0413.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://k-tai.watch.impress.co.jp/docs/news/2110010.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://kageki.hankyu.co.jp/news/20260518_001.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://lifevancouver.jp/science-world-fifa-world-cup-2026-official-match-ball",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://loglass.co.jp/recruit/newgraduate-engineer",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://logmi.jp/main/management/333552",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://logmi.jp/main/management/333558",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://lp.p.pia.jp/article/news/475293/index.html?detail=true",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://mimt.jp/ex_sp/cafe/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://nazology.kusuguru.co.jp/archives/178085",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://nazology.kusuguru.co.jp/archives/195755",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://nazology.kusuguru.co.jp/archives/195942",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://nazology.kusuguru.co.jp/archives/195948",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://nazology.kusuguru.co.jp/archives/196009",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://nazology.kusuguru.co.jp/archives/196657",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://nazology.kusuguru.co.jp/archives/196662",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://nazology.kusuguru.co.jp/archives/196678",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://nazology.kusuguru.co.jp/archives/196688",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://nazology.kusuguru.co.jp/archives/196710",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://nazology.kusuguru.co.jp/archives/196722",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://nazology.kusuguru.co.jp/archives/196750",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://newgrads.timee.co.jp/Internship",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://newgrads.visional.inc/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://newgraduate.speee.jp/engineer/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://news.mynavi.jp/techplus/article/20260527-4506465/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://news.mynavi.jp/techplus/article/enterpriseit-newtrend-69/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://news.web.nhk/newsweb/na/na-k10015096901000",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://news.web.nhk/newsweb/na/na-k10015156781000",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://news.yahoo.co.jp/articles/eba88b9bfa20e6d4d8f328a4343866978db5e429",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://newspicks.com/news/15668307/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://newspicks.com/news/15721374/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://newspicks.com/trends/2762/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://nodejs.org/en/blog/release/v26.0.0",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://note.com/effectuation/n/n43fc3fafbc76",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://note.jp/n/n9288424f94af",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://open.talentio.com/r/1/c/m3/pages/83383",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://pr.forkwell.com/career_navi/it-engineer-salary-gap-as-top-talent-value-accelerates/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://product-recruit.timee.co.jp/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://prtimes.jp/main/html/rd/p/000000001.000184101.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://prtimes.jp/main/html/rd/p/000000002.000179521.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://prtimes.jp/main/html/rd/p/000000002.000180213.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://prtimes.jp/main/html/rd/p/000000003.000163361.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://prtimes.jp/main/html/rd/p/000000005.000166227.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://prtimes.jp/main/html/rd/p/000000005.000181785.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://prtimes.jp/main/html/rd/p/000000009.000145297.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://prtimes.jp/main/html/rd/p/000000012.000008548.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://prtimes.jp/main/html/rd/p/000000012.000038461.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://prtimes.jp/main/html/rd/p/000000020.000102549.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://prtimes.jp/main/html/rd/p/000000022.000086672.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://prtimes.jp/main/html/rd/p/000000024.000157749.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://prtimes.jp/main/html/rd/p/000000040.000124664.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://prtimes.jp/main/html/rd/p/000000047.000070695.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://prtimes.jp/main/html/rd/p/000000070.000085809.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://prtimes.jp/main/html/rd/p/000000080.000045025.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://prtimes.jp/main/html/rd/p/000000083.000045025.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://prtimes.jp/main/html/rd/p/000000161.000006510.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://prtimes.jp/main/html/rd/p/000000229.000045379.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://prtimes.jp/main/html/rd/p/000000230.000045379.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://prtimes.jp/main/html/rd/p/000000275.000031375.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://prtimes.jp/main/html/rd/p/000000289.000053307.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://prtimes.jp/main/html/rd/p/000000292.000053307.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://prtimes.jp/main/html/rd/p/000000605.000036528.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://prtimes.jp/main/html/rd/p/000000627.000014079.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://prtimes.jp/main/html/rd/p/000000818.000049627.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://prtimes.jp/main/html/rd/p/000001672.000000112.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://prtimes.jp/main/html/rd/p/000001727.000129774.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://qiita.com/white_papers/2026",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://recruit.group.gmo/rookies/general.php",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://recruit.moneyforward.com/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://recruit.smarthr.co.jp/newgrads/product-engineer/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://releases.rs/docs/1.97.0/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://rp.kddi-research.jp/atelier/column/archives/5443",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://sakana.ai/fugu-release/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://soft.takinoko.net/2026/06/02/ai%E9%96%8B%E7%99%BA%E3%83%84%E3%83%BC%E3%83%AB%E6%AF%94%E8%BC%83-2026%EF%BD%9C%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E8%A6%96%E7%82%B9%E3%81%A7%E8%A6%8B%E3%82%8B%E6%9C%AC%E5%BD%93%E3%81%AB/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://sogyotecho.jp/news/20260430toggle/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://sports.yahoo.co.jp/sumo/basho/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://sre-next.dev/2026/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://startupxo.com/en/news/2026/05/bun-zig-rust-runtime-rewrite/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://str.toyokeizai.net/magazine/toyo/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://student.dena.com/internship/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://student.dena.com/job/engineer/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://studyhacker.net/metacognitive-laziness",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://subarutelescope.org/jp/news/topics/2026/05/11/3710.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://sumo.or.jp/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://supporterz-seminar.connpass.com/event/355775/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://sustainablejapan.jp/2026/03/14/helical-fusion-helix-haruka-phase1/122932",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://svelte.dev/blog/whats-new-in-svelte-june-2026",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://talent.supporterz.jp/events/6eb98b85-49e6-4acb-b173-6adaa156b899/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://tech.layerx.co.jp/entry/ai-agent-authorization",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://thebridge.jp/2026/05/pixiedusttechnologies-seriesd-33billion-wave-control-expansion",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://thefas.jp/thinking-methods/ai-powered-workforece-pt1-metacognition/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://thefas.jp/thinking-methods/ai-powered-workforece-pt2-critical-thinking/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://topics.type.jp/type-engineer/engineer-job-market-trend/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://toyokeizai.net/articles/-/637401",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://toyokeizai.net/articles/-/859462?display=b",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://toyokeizai.net/articles/-/936634",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://toyokeizai.net/articles/-/940742",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://toyokeizai.net/articles/-/947566",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://toyokeizai.net/articles/-/948127",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://toyokeizai.net/articles/-/948509",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://toyokeizai.net/feature/6a0aa80fa53aefe40f000000",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://type.jp/et/feature/29581/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://uravation.com/media/ai-major-updates-june-2026-anthropic-openai-google/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://vercel.com/changelog/next-js-may-2026-security-release",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://vite.dev/blog/announcing-vite8",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://wired.jp/article/little-red-dots-revealed-as-young-black-holes-in-gas-cocoons/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://wired.jp/article/vol58-the-rising-risk-of-original-thinking-going-extinct/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.2121designsight.jp/gallery3/gaudi_window/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.aichi-nagoya2026.org/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.anthropic.com/news/claude-opus-4-8",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.apple.com/newsroom/2026/05/apple-kicks-off-worldwide-developers-conference-on-june-8/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.apple.com/newsroom/2026/06/apple-aids-app-development-with-new-intelligence-frameworks-and-advanced-tools/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.atpress.ne.jp/news/604899",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.atpress.ne.jp/news/605234",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.bunka.go.jp/gyoji/94366201.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.business-research-lab.com/250519-3/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.chugoku-np.co.jp/articles/-/835018",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.cinematoday.jp/news/N0154973",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.crnasia.com/news/2026/artificial-intelligence/cognition-establishes-japan-entity-in-first-expansion-into-a",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.cyberagent.co.jp/careers/special/students/tech/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.cyberagent.co.jp/careers/students/event/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.daily.co.jp/general/2026/05/28/0020408581.shtml",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.diamond.co.jp/book/9784478120736.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.diamond.co.jp/magazine/059690626.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.diamond.co.jp/magazine/059690726.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.discoverfrance.com/bike-travel-guide/tour-de-france-2026-date-stages-schedule",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.docker.com/blog/meet-gordon-dockers-ai-agent-for-your-entire-container-workflow/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.eco-online.org/news-2026-5-19-2/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.eijipress.co.jp/products/2154",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.env.go.jp/press/press_04386.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.factcheckcenter.jp/course/others/jfc-factcheck-course-theory4/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.fctokyo.co.jp/news/details/337421/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.fujisan.co.jp/product/5771/new/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.fujisan.co.jp/product/5772/new/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.fujisan.co.jp/product/5828/new/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.gamebusiness.jp/article/2026/06/02/27100.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.gizmodo.jp/2026/05/nasas-curiosity-rover-discovers-origin-of-life-molecules-never-before-seen-on-mars.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.hayabusa2.jaxa.jp/topics/20260624_torifune/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.infoq.com/news/2026/06/nodejs-release-changes/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.interop.jp/2026/about/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.isct.ac.jp/ja/news/aminlemao62n",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.itmedia.co.jp/aiplus/article/2606/26/2000000131/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.itmedia.co.jp/news/articles/2603/24/news068.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.itmedia.co.jp/news/articles/2606/12/news072.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.itmedia.co.jp/news/articles/2606/13/news024.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.jaxa.jp/press/2026/07/20260706-3_j.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.jfa.jp/samuraiblue/20260924/ticket.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.jiji.com/jc/article?k=2026051201092&amp;g=soc",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.jiji.com/jc/article?k=2026052200376&g=eco",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.jiji.com/jc/article?k=2026053000141&g=soc",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.jstage.jst.go.jp/article/jmp/22/2/22_63/_html/-char/ja",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.kubell.com/recruit/newgrad/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.linuxfoundation.org/press/linux-foundation-announces-intent-to-launch-agent-name-service-to-establish-trusted-identity-infrastructure-for-ai-agents",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.lycorp.co.jp/ja/recruit/newgrads/engineer/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.magastore.jp/product/104013",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.mmx.jaxa.jp/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.nact.jp/exhibition_special/2026/picasso_paulsmith/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.nao.ac.jp/astro/sky/2026/06.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.nao.ac.jp/news/science/2026/20260505-prc.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.nature.com/articles/s41893-025-01578-w",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.newsweekjapan.jp/magazine/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.nikkei-science.com/202605_027.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.nikkei-science.com/202605_058.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.nikkei-science.com/202606_032.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.nikkei-science.com/202606_062.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.nikkei-science.com/page/magazine/202606.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.nikkei-science.com/page/magazine/202608.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.nikkei.com/article/DGXZQOCB230CF0T20C26A6000000/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.nikkei.com/article/DGXZQOUA121XD0S6A510C2000000/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.nikkei.com/article/DGXZQOUC188BC0Y6A510C2000000/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.nikkei.com/article/DGXZQOUC255680V20C26A6000000/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.nikkei.com/article/DGXZQOUC27A7C0X20C26A4000000/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.nikkei.com/article/DGXZQOUF2237B0S6A520C2000000/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.okayama-u.ac.jp/tp/release/release_id1536.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.pixiv.co.jp/new-graduates/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.postgresql.org/about/news/postgresql-19-beta-1-released-3313/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.publickey1.jp/blog/26/2027ai65ide.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.publickey1.jp/blog/26/7aimicrosoft_ai_models.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.publickey1.jp/blog/26/aipythonmojo.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.publickey1.jp/blog/26/aiwindowswindows_development_skills.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.publickey1.jp/blog/26/applemacoslinuxcontainer_machine10.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.publickey1.jp/blog/26/aws28azure213520261synergy_research.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.publickey1.jp/blog/26/aws500mbpsaws_interconnect_-_multicloud.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.publickey1.jp/blog/26/aws_lambda_microvms.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.publickey1.jp/blog/26/awsaiaws_finops_agent.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.publickey1.jp/blog/26/awsaws_contiuumai.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.publickey1.jp/blog/26/awswebaikiro_web.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.publickey1.jp/blog/26/cloudflareaicloudflare_ai_gateway.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.publickey1.jp/blog/26/cloudflareaicloudflare_email_service.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.publickey1.jp/blog/26/cloudflareviterolldownvoidzeroastrovitecloudflare.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.publickey1.jp/blog/26/duckdbquackduckdb.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.publickey1.jp/blog/26/github_ceoaientire_cligit.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.publickey1.jp/blog/26/gitlabaigitproject_switch50.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.publickey1.jp/blog/26/google_antigravityandroidaiandroid_knowledge_baseandroid_skills.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.publickey1.jp/blog/26/google_cloudpostgresqlalloydb.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.publickey1.jp/blog/26/google_playgoogle20web.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.publickey1.jp/blog/26/googlechrome2web.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.publickey1.jp/blog/26/googledartflutter_agent_skillsdartflutterai.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.publickey1.jp/blog/26/googleipv650.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.publickey1.jp/blog/26/java_26hotspothttp3.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.publickey1.jp/blog/26/linuxazure_linux_40azurewsl.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.publickey1.jp/blog/26/mononet_mauixamarinmonocoreclr.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.publickey1.jp/blog/26/oracle_databaseawsawsaws.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.publickey1.jp/blog/26/rustjavascriptrolldown10vite_80.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.publickey1.jp/blog/26/stack_overflowaistack_overflow_for_agents.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.publickey1.jp/blog/26/typescriptgo10typescript_70.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.publickey1.jp/blog/26/ubuntuworkshop.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.publickey1.jp/blog/26/vs_codeaiagent_window.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.publickey1.jp/blog/26/wasi_03webassembly_component.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.publickey1.jp/blog/26/windowslinuxwsl_containerswindows2.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.satnavi.jaxa.jp/ja/news/2026/06/24/12455/index.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.soccer-king.jp/news/world/wc/20260624/2176163.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.sooktrading.com/jp/blog/10855/wwwsooktradingcomaluminum-may2026-japan-market-boom",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.suzukacircuit.jp/8tai/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.techno-edge.net/article/2026/05/14/5064.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.techtimes.com/articles/318546/20260617/aws-summit-new-york-2026-kiro-brings-aerospace-spec-standards-ai-coding.htm",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.techtimes.com/articles/318976/20260624/grok-build-ships-autonomous-execution-xai-agent-now-plans-runs-verifies.htm",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.tv-tokyo.co.jp/sports/articles/2026/06/041975.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.tv-tokyo.co.jp/sports/articles/2026/06/041981.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.u-ryukyu.ac.jp/news/61710/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.unic.or.jp/news_press/info/54464/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.wimbledon.com/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www.ybabeyond.jp/",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://www3.nhk.or.jp/news/html/20260603/k10015140151000.html",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  },
+  {
+   "url": "https://zenn.dev/long910/articles/2026-06-21-ai-agent-developer-workflow",
+   "http_status": 200,
+   "browser_verdict": "ok",
+   "action": "none",
+   "reason": "curl 200"
+  }
+ ]
+}

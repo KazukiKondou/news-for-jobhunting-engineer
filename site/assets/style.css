@@ -36,8 +36,17 @@
 }
 
 html {
-  scroll-behavior: smooth;
   scroll-padding-top: 5rem;
+}
+
+/* smooth はユーザー操作中(フォーカスがページ内にある時)だけ適用する。
+   html 全体に常時適用すると、#article-N 付きURLで着地した際のアンカー
+   ジャンプがスクロールアニメーション扱いになり、環境によって発火せず
+   「リンクから飛べない」事故になるため、初回ロード時は即時ジャンプさせる。 */
+@media (prefers-reduced-motion: no-preference) {
+  html:focus-within {
+    scroll-behavior: smooth;
+  }
 }
 
 body {
