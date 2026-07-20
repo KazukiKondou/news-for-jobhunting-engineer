@@ -196,7 +196,7 @@
   hero/archive の合計件数カウントも更新。
 - day-card / home見出し / archive抜粋のタイトルは同期させる。
 - commit + push:
-    git -c user.name='Kazuki Kondo' -c user.email='kizuka0621@gmail.com' \
+    git -c user.name='Kazuki Kondo' -c user.email='217720256+KazukiKondou@users.noreply.github.com' \
       commit -am "news: $(TZ=Asia/Tokyo date +%Y-%m-%d) のニュースを追加"
     git push origin main
 - deploy確認: home serverがpollingで5分以内に自動deploy。
