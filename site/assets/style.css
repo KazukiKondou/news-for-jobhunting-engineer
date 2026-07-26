@@ -2015,6 +2015,21 @@ main {
   text-wrap: pretty;
 }
 
+/* 強調した数値・日付が途中で改行されると読みにくい
+   (「約86億円」が「約」/「86億円」に割れる等)。
+   keep-all で語中の改行を止め、どうしても入らないときだけ break-word で折る。 */
+.article-card__summary strong,
+.day-intro strong,
+.hero__intro strong,
+.articles-group__intro strong,
+.correction__detail strong,
+.correction__before strong,
+.correction__after strong,
+.update__body strong {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
 /* 英字の長い塊(製品名・URL)は必要なときだけ折る。
    これが無いとカードの最小幅が塊の幅まで広がり、親からはみ出す。 */
 .article-card__title,
@@ -2053,17 +2068,18 @@ main {
   grid-template-columns: repeat(auto-fill, minmax(min(18rem, 100%), 1fr));
 }
 
-/* 件数と閲覧数は折り返すことがあるので、区切り線が行頭に出ないようにする。 */
+/* 件数と閲覧数は折り返すことがあるので、折り返しを許可する。
+   列方向のgapは元の 0.5rem を保つ (0にすると先頭の飾り罫が数字に密着する)。 */
 .day-meta,
 .hero__meta {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 0.25rem 0;
+  gap: 0.25rem 0.5rem;
 }
 
 .day-stat + .day-stat {
-  margin-left: 0.75rem;
+  margin-left: 0.25rem;
   padding-left: 0.75rem;
 }
 
