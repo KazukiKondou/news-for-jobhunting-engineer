@@ -1975,3 +1975,208 @@ main {
 }
 
 .update__items li + li { margin-top: 0.25rem; }
+
+/* ============================================================
+   日本語の折り返し
+   見出しが1文字だけ次行に落ちる・語の途中で切れるのを防ぐ。
+   word-break: auto-phrase は文節単位で改行位置を選ぶ (非対応環境では無視される)。
+   ============================================================ */
+
+.hero__title,
+.day-title,
+.page-title,
+.articles-group__title,
+.home-headlines-group__title,
+.article-card__title,
+.home-headlines-list__title,
+.rank-row__title,
+.update__title,
+.correction__headline,
+.day-corrections__title,
+.toc__list a,
+.day-card__list li {
+  word-break: auto-phrase;
+  text-wrap: pretty;
+}
+
+.hero__intro,
+.day-intro,
+.page-lead,
+.section__sub,
+.articles-group__intro,
+.home-headlines-group__intro,
+.article-card__summary,
+.day-corrections__note,
+.correction__detail,
+.update__body,
+.update__items li,
+.rank-empty {
+  word-break: auto-phrase;
+  text-wrap: pretty;
+}
+
+/* 英字の長い塊(製品名・URL)は必要なときだけ折る。
+   これが無いとカードの最小幅が塊の幅まで広がり、親からはみ出す。 */
+.article-card__title,
+.article-card__summary,
+.home-headlines-list__title,
+.home-headlines-list__source,
+.rank-row__title,
+.rank-row__source,
+.day-card__list li,
+.correction__headline,
+.correction__detail,
+.correction__before,
+.correction__after,
+.update__title,
+.update__body,
+.article-source span {
+  overflow-wrap: break-word;
+}
+
+/* グリッド/フレックスの子は既定の min-width:auto だと内容の最小幅まで
+   広がってしまう。0 にして必ず親の幅に収める。 */
+.articles { grid-template-columns: minmax(0, 1fr); }
+
+.article-card,
+.day-card,
+.correction,
+.update,
+.rank-row__body,
+.home-headlines-list li,
+.article-card__body {
+  min-width: 0;
+}
+
+/* 320px 幅では 18rem のカラムが入らないので、狭いときは1カラムに落とす。 */
+.day-grid {
+  grid-template-columns: repeat(auto-fill, minmax(min(18rem, 100%), 1fr));
+}
+
+/* 件数と閲覧数は折り返すことがあるので、区切り線が行頭に出ないようにする。 */
+.day-meta,
+.hero__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0;
+}
+
+.day-stat + .day-stat {
+  margin-left: 0.75rem;
+  padding-left: 0.75rem;
+}
+
+/* ============================================================
+   スマートフォン (〜599px)
+   ナビが4項目になりロゴと同居できなくなったため、ヘッダーを2段にする。
+   ============================================================ */
+@media (max-width: 599px) {
+  .site-header__inner {
+    height: auto;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.125rem;
+    padding: 0.5rem 0.875rem 0;
+  }
+
+  .site-logo__title {
+    font-size: 0.9375rem;
+  }
+
+  /* 4項目を等間隔に。端末がさらに狭い場合だけ横スクロールで逃がす。 */
+  .site-nav {
+    gap: 0;
+    justify-content: space-between;
+    margin: 0 -0.875rem;
+    padding: 0 0.5rem 0.25rem;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .site-nav::-webkit-scrollbar { display: none; }
+
+  .site-nav__link {
+    padding: 0.375rem 0.4375rem;
+    font-size: 0.8125rem;
+  }
+
+  .page-head { padding: 2rem 1.25rem 0; }
+  .page-title { font-size: 1.5rem; }
+
+  .day-corrections { padding: 1rem; }
+  .day-corrections__head { align-items: flex-start; }
+  .correction { padding: 0.75rem 0.875rem; }
+
+  /* 評価ボタンは2つで1行に収める。クリック数は右端に置いたままにする。 */
+  .article-actions { gap: 0.375rem; }
+
+  .react-btn {
+    padding: 0.375rem 0.5rem;
+    font-size: 0.75rem;
+  }
+
+  .article-stat { font-size: 0.75rem; }
+
+  /* ランキングの指標・期間タブは横スクロールで逃がす。 */
+  .rank-controls {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+  }
+
+  /* スクロールコンテナ(overflow-x:auto)は width:auto のままだと内容幅に広がり、
+     align-items:stretch でも縮まない。max-width:100% で親の幅に収める。 */
+  .rank-tabs,
+  .rank-chips {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  /* 3項目なので、字間を詰めてスクロールせずに収まるようにする。 */
+  .rank-tab {
+    flex: none;
+    padding: 0.4375rem 0.5rem;
+    font-size: 0.8125rem;
+  }
+
+  .rank-chip {
+    flex: none;
+    padding: 0.25rem 0.5rem;
+  }
+
+  .rank-tabs::-webkit-scrollbar,
+  .rank-chips::-webkit-scrollbar { display: none; }
+
+  .rank-row { gap: 0.625rem; }
+  .rank-row__num { width: 1.375rem; font-size: 1rem; }
+  .rank-row__score-value { font-size: 1.0625rem; }
+
+  .update { padding: 1rem 1.125rem; }
+  .update__title { font-size: 1.0625rem; }
+}
+
+/* 特に狭い端末 (〜360px) ではナビの文字をもう一段詰める。 */
+@media (max-width: 360px) {
+  .site-nav__link {
+    padding: 0.375rem 0.3125rem;
+    font-size: 0.75rem;
+  }
+}
+
+/* ============================================================
+   タブレット (600〜1023px)
+   ============================================================ */
+@media (min-width: 600px) and (max-width: 1023px) {
+  .rank-controls {
+    flex-wrap: wrap;
+    row-gap: 0.625rem;
+  }
+
+  .day-grid {
+    grid-template-columns: repeat(auto-fill, minmax(min(16rem, 100%), 1fr));
+  }
+}

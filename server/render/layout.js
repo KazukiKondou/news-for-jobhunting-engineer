@@ -4,7 +4,7 @@ import { escapeHtml } from '../util.js';
 
 const SITE_NAME = 'エンジニア就活ニュース';
 const ORIGIN = 'https://news.kazukikondo.com';
-const ASSET_VERSION = 5;
+const ASSET_VERSION = 6;
 
 const NAV_ITEMS = [
   { key: 'home', href: '/', label: 'ホーム' },
