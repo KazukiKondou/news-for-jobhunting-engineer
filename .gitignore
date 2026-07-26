@@ -27,3 +27,6 @@ pnpm-debug.log*
 
 # claude code local
 .claude/
+
+# SQLite (実行時データ。コンテナのボリュームに置く)
+data/

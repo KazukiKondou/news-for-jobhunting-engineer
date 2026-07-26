@@ -79,7 +79,8 @@ function parseArticle(chunk) {
     title: toPlainText(titleMatch[2]),
     summary: toSummaryHtml(summaryRaw),
     sourceName: toPlainText(sourceName),
-    sourceUrl: linkUrl ?? titleMatch[1],
+    // href は属性としてエスケープされているので実体に戻す (&amp; の二重エスケープ防止)。
+    sourceUrl: decodeEntities(linkUrl ?? titleMatch[1]),
     tags,
   };
 }
