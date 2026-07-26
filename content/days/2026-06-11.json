@@ -1,0 +1,112 @@
+{
+  "date": "2026-06-11",
+  "label": "2026年6月11日 (木)",
+  "intro": "Apple Container machine 1.0公開・Claude Fable 5一般提供・NTTドコモIOWN約1万kmでInteropグランプリ。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Apple、macOSとhomeを共有するLinuxコンテナ「Container machine」1.0を公開 — Apple Silicon向け軽量VM基盤",
+          "summary": "Appleが、macOS上でLinuxコンテナをシームレスに動かす新機能「Container machine」のバージョン1.0をリリースした。軽量な仮想マシンを基盤にしつつ、コンテナ側からmacOSのユーザー情報やホームディレクトリをそのまま参照できるよう統合されているのが特徴。macOS側でソースを編集しながら、Linuxコンテナでビルド・テスト・実行を回す、といった開発ワークフローが1台の中で完結する。Docker Desktop等の代替として、Apple Silicon Macを開発機にしているWeb系エンジニアにとって標準ツールチェーンが1段書き換わる可能性がある。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/applemacoslinuxcontainer_machine10.html",
+          "tags": [
+            "技術トレンド",
+            "Apple",
+            "コンテナ"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "Cloudflare、AI Gatewayに利用上限機能 — 従業員・アプリ単位で月次予算、OpenAI/Anthropic/Googleに対応",
+          "summary": "CloudflareがAI Gatewayに、AIモデル利用料の上限を細かく制御する新機能を追加した。共有APIキー越しでも、従業員ごと・アプリごと・カスタム属性ごとに「毎月のAI利用上限額」を設定でき、対象はOpenAI・Anthropic・Googleなど複数プロバイダにまたがる。リアルタイムで利用料を集計し、上限到達時はリクエストをブロックするか、より安価なモデルへ自動的にダウングレードする選択ができる。Cloudflare Accessと連携することで「誰がいくら使ったか」をIDベースで管理可能。現在はクローズドベータで参加者を募集中。AI料金の暴走をインフラ側でガードする発想は、社内AI活用が常態化したWeb系企業で今後標準装備になっていきそうだ。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/cloudflareaicloudflare_ai_gateway.html",
+          "tags": [
+            "企業動向",
+            "Cloudflare",
+            "AIGateway"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "Anthropic、Claude Fable 5 / Mythos 5を一般公開 — SWE-Bench最高、入力$10/出力$50で旧プレビュー比半額以下",
+          "summary": "Anthropicが、新世代モデルClaude Fable 5とClaude Mythos 5を発表・一般提供を開始した。Fable 5は同社が一般公開した中で最も高性能なモデルで、コーディング・知識業務・ビジョン・科学研究といったほぼ全てのベンチマークで現行最高水準。タスクが長く複雑になるほど他モデルとの差が広がるとされ、SWE-Benchでも最高スコアを記録している。Mythos 5は同じ基盤モデルから一部の安全機構を外したサイバー防御者・インフラ事業者向け版で、サイバーセキュリティ能力は世界最高水準と説明された。価格は入力$10／出力$50（100万トークン）で、旧Claude Mythos Previewと比べ半額以下に下がった。Claude Codeを業務で使うWeb系エンジニアにとって、開発支援AIのコストと性能の前提が一段書き換わる。",
+          "sourceName": "Anthropic",
+          "sourceUrl": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+          "tags": [
+            "技術トレンド",
+            "Anthropic",
+            "Claude"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "NTTドコモビジネス、Interop Tokyo 2026 Best of Show Award APN部門でグランプリ — 合計約1万kmのIOWN実証",
+          "summary": "NTTドコモビジネスが、Interop Tokyo 2026のBest of Show Award APN(All Photonics Network)部門でグランプリを受賞した(6月10日発表)。受賞対象は「過去最大距離のIOWN APNを利用したソリューション動態展示」で、日本全国の拠点を結ぶ合計約1万kmの実回線上で動態実証を行ったもの。展示構成はGPU over APN、長距離リアルタイム同期型仮想ストレージ、産業向けデジタルツイン、OPEN HUB Windowの多拠点触覚展示、3Dリアルタイム表示＋ハプティクスロボットの5つ。クラウド/ネットワーク基盤志望のエンジニアにとって、IOWNが「将来構想」から「実機検証フェーズ」に入ったことが見える節目の受賞だ。",
+          "sourceName": "NTTドコモビジネス（@Press）",
+          "sourceUrl": "https://www.atpress.ne.jp/news/604899",
+          "tags": [
+            "カンファレンス",
+            "Interop",
+            "IOWN"
+          ]
+        },
+        {
+          "position": 5,
+          "title": "メルカリ、「Merpay & Mercoin Tech Openness Month 2026」開催 — 6/1から1ヶ月で20本超の技術記事を公開",
+          "summary": "メルカリが、グループ会社のメルペイ・メルコイン・メルカリモバイルの開発エンジニア組織から計20本以上の技術記事を1ヶ月間連続公開する「Merpay & Mercoin Tech Openness Month 2026」を2026年6月1日から開催している。テーマは決済プラットフォーム、AI活用、マイクロサービス設計、組織構造、パフォーマンスチューニングなど幅広い。Day 1はMerpay Payment & Customer Platformチームによる「メルカリのグローバル展開を支えるPayment Platformの進化」が公開された。フィンテックSaaSの内側がここまで開示されるイベントは限られており、就活で同社や決済ドメインを見ているなら一次情報として読む価値がある。",
+          "sourceName": "メルカリエンジニアリングブログ",
+          "sourceUrl": "https://engineering.mercari.com/blog/entry/20260528-merpay-mercoin-tech-openness-month-2026/",
+          "tags": [
+            "企業動向",
+            "メルカリ",
+            "技術発信"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "DIAMOND ハーバード・ビジネス・レビュー 2026年7月号 特集「ブランドの力 — AI時代こそ、信頼で勝負する」",
+          "summary": "ダイヤモンド社のDIAMOND ハーバード・ビジネス・レビュー 2026年7月号(6月10日発売、2,900円)の特集は「ブランドの力 — AI時代こそ、信頼で勝負する」。スターバックスコーヒージャパン代表・森井久恵氏のインタビュー「スターバックスのブランドは『顧客の体験』の積み重ねでつくられる」、HBSによる「マーケティングとは競争優位を築くための長期投資である」、キングス・カレッジ・ロンドンとエモリー大の論文「AIエージェントは企業と顧客の関係性をどう変えるのか」、ファストファッションの5原則、オニツカタイガーのブランド戦略インタビューが並ぶ。連載は早稲田・入山章栄氏の複雑系の理論、感情知能(EI)など。AIが情報生成を当たり前にした世界で「信頼の総量」をどう設計するかを軸に、就活で見ている会社の競争優位を読み解く道具になる。",
+          "sourceName": "ダイヤモンド社",
+          "sourceUrl": "https://www.diamond.co.jp/magazine/059690726.html",
+          "tags": [
+            "ブランド",
+            "マーケティング",
+            "HBR"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "国立新美術館「ピカソ meets ポール・スミス 遊び心の冒険へ」が6/10開幕 — ポール・スミスが空間設計、約80点",
+          "summary": "国立新美術館(東京・六本木)で、企画展「ピカソ meets ポール・スミス 遊び心の冒険へ」が2026年6月10日に開幕した(会期は9月21日まで)。パリ国立ピカソ美術館の所蔵作品から、青の時代の《男の肖像》や《アルルカンに扮したパウロ》など約80点を緩やかな時系列で紹介する一方、イギリスのデザイナー、ポール・スミスが会場のレイアウト・色彩・配置をキュレーションするのが最大の特徴。2023年にパリで開かれたピカソ没後50周年記念展「Picasso Celebration」をもとにした国際巡回展の一環で、画家本人の「遊び心」をデザイナーの目で再構成するという、面接の雑談ネタにも刺さる切り口になっている。",
+          "sourceName": "国立新美術館",
+          "sourceUrl": "https://www.nact.jp/exhibition_special/2026/picasso_paulsmith/",
+          "tags": [
+            "美術",
+            "ピカソ",
+            "ポール・スミス"
+          ]
+        }
+      ]
+    }
+  ]
+}

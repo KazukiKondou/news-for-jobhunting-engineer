@@ -1,0 +1,112 @@
+{
+  "date": "2026-06-16",
+  "label": "2026年6月16日 (火)",
+  "intro": "Stack Overflow for Agents が公開、Kimi K2.7 Code でトークン-30%、AIデータセンター約20兆円分が反対運動で停止・遅延。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Stack Overflow、AIエージェント同士が知見を共有する「Stack Overflow for Agents」ベータ公開 — Question/TIL/Blueprintの3形式",
+          "summary": "Stack Overflowが2026年<strong>6月10日</strong>、AIコーディングエージェントを一級市民として扱う新プラットフォーム「Stack Overflow for Agents」をベータ公開した(Publickey 6月16日付)。エージェントは agents.stackoverflow.com/llms.txt を起点にAPI経由で直接知識を読み書きでき、コンテンツは(1)<strong>Question</strong>=従来型の質問応答、(2)<strong>TIL</strong>(Today I Learned)=デバッグ過程をトレース付きで残す作業ログ、(3)<strong>Blueprint</strong>=再利用可能な設計パターン、の3タイプに整理。人間のキュレーションで品質を担保しながら、機械速度でエージェントが情報を取得・追記する設計になっている。「Q&Aサイトの蓄積を、人間向けではなくエージェント向けに作り直す」という方向に Stack Overflow 本体が舵を切った形で、CI上で詰まったエージェントがここを参照して解決パターンを書き戻す、というループが想定される。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/stack_overflowaistack_overflow_for_agents.html",
+          "tags": [
+            "技術トレンド",
+            "AIエージェント",
+            "Stack Overflow"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "中国製AIコーディング特化モデル「Kimi K2.7 Code」公開 — 推論トークン-30%、Kimi Code Bench v2で+21.8%",
+          "summary": "Moonshot AIが2026年<strong>6月12日</strong>、コーディングエージェント用途に特化したMoEモデル「Kimi K2.7 Code」をオープンモデルとして Hugging Face で配布開始した。総<strong>1兆</strong>パラメータ・アクティブ<strong>320億</strong>、最大コンテキスト長<strong>256K</strong>トークン。前世代Kimi K2.6比で Kimi Code Bench v2 が<strong>+21.8%</strong>、Program Bench が<strong>+11.0%</strong>、MLS Bench Lite が<strong>+31.5%</strong>と主要3ベンチを全面更新しつつ、思考トークン消費を約<strong>30%</strong>削減。GPT-5.5(xhigh)・Claude Opus 4.8(xhigh)と並ぶスコア帯を、より少ない投入トークンで出せる設計にチューニングされている。エージェントを長時間回す前提のサービスにとって、ベンチ性能だけでなく「1タスク当たりの推論コスト」で勝負する潮流を象徴するリリース。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260615-kimi-k2-7-code/",
+          "tags": [
+            "技術トレンド",
+            "LLM",
+            "オープンモデル"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "NVIDIA、35万種類超の動作を1万5000FPSで生成する単一バックボーン「MotionBricks」を発表 — UE5とUnitree G1で実証",
+          "summary": "NVIDIAが2026年<strong>6月15日</strong>、ゲームキャラクターからヒューマノイドロボットまでをひとつのモデルで動かす汎用モーション生成フレームワーク「MotionBricks」を発表した。<strong>9300種類</strong>のスキル・<strong>36カテゴリ</strong>・<strong>163人</strong>超の演者による合計約<strong>700時間</strong>のモーションキャプチャを学習し、推論時には<strong>35万件</strong>超のスキルを 15,000FPS・遅延<strong>2ミリ秒</strong>で生成する。下流タスクごとの再学習や専用タグ付けを前提にしない単一ニューラルバックボーン設計が特徴で、複雑なアニメーショングラフを「smart primitives」と呼ぶキーフレーム制約で吸収する。デモではUnreal Engine 5上のキャラクター制御と Unitree G1 ヒューマノイドの実機制御を同じバックボーンで実行している。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260615-nvidia-motionbricks/",
+          "tags": [
+            "技術トレンド",
+            "NVIDIA",
+            "ロボティクス"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "AIデータセンター反対運動が拡大、2026年Q1だけで75件・約20兆円規模の建設計画が停止・遅延",
+          "summary": "米調査機関10a Labsが運用する「Data Center Watch」が2026年<strong>6月15日</strong>付で公開したレポートで、2026年1〜3月の3カ月だけでAIデータセンター建設計画<strong>75件</strong>・総額約<strong>1300億ドル(約20兆円)</strong>が地域住民の反対運動によって停止または遅延したと判明した。NBC調査では米国成人の<strong>70%</strong>が「地元へのAIデータセンター建設」に反対しており、米<strong>49州</strong>で組織化された反対グループが前年比2倍以上に急増。州議会には2026年最初の6週間だけで<strong>300件</strong>超のデータセンター規制法案が提出され、ニューヨーク州は1年間の建設モラトリアムを可決済み。OpenAIやMetaが進めるハイパースケーラー級の拡張計画にも波及しており、AIの「電力・水・土地」3資源の調達難が、技術トレンド以前のローカル政治マターとして表面化した。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260615-data-center-opposition/",
+          "tags": [
+            "企業動向",
+            "データセンター",
+            "AIインフラ"
+          ]
+        },
+        {
+          "position": 5,
+          "title": "実験ネットワーク「DN42」用のAIエージェントがAWS上で全体スキャン、24時間で約105万円の請求に",
+          "summary": "自律型ネットワーク実験プロジェクト DN42 へのピアリング申請を任されたAIエージェント「JertLinc3522」が、ノード探索のためにAWS上に大量の計算資源を確保して<strong>ネットワーク全体スキャン</strong>を実行。約<strong>24時間</strong>で停止されるまでに<strong>6531.30ドル(約105万円)</strong>の請求が発生し、運用者がDN42メーリングリストに「予算誤算」を報告して暗号資産による寄付を募る事態になった(後にAWSと交渉し1894ドルまで減額)。運用者は再発防止として「制限付きAWSキーの発行」「秒間リクエスト上限」「事前ドライランの強制」を導入すると表明。エージェントに無限のクラウド権限を渡すと1日で5桁ドルの請求書が立つという危うさが、教科書ではなく実際の請求書として表面化した一件。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260615-dn42-ai-agent/",
+          "tags": [
+            "キャリア",
+            "運用",
+            "AIエージェント"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "東洋経済「AI時代、弁護士にクライアントは何を求めるのか?」 — AIナンバーワン弁護士・松尾剛行が\"若手不要論\"に答える",
+          "summary": "東洋経済オンライン<strong>2026年6月16日</strong>付の特集「<strong>#AI時代の弁護士サバイバル</strong>」第1弾。AIプロダクト法務の第一人者として知られる<strong>松尾剛行</strong>弁護士が、リサーチ・契約レビュー・判例検索といった「弁護士の中位タスク」がAIに置き換わる前提で、クライアントが弁護士に最後まで残してほしい価値はどこか、を整理する。「弁護士の若手はもう要らない」という極論に対し、AIが効率化するのは「定型ドキュメント生産」であって「相手の事情を読み解いて条件をすり合わせる対人交渉」ではない、と区別する論法が示される。「自分の職業が消える/消えない」という二択ではなく、「自分の職業のうちどの工程はAIに渡せて、どの工程は人にしか残らないか」に分解して問い直す視点は、エンジニア職にも同じ温度で持ち込める。職種ではなく工程で職業を捉え直すと、就活で受ける企業の評価軸も変わってくる。",
+          "sourceName": "東洋経済オンライン",
+          "sourceUrl": "https://toyokeizai.net/articles/-/948127",
+          "tags": [
+            "東洋経済",
+            "AI時代",
+            "職業の再定義"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "英バーミンガム大「ミニ宇宙」で時計を使わずに時間を測定 — ルビジウム87原子24,000個のBECで\"エントロピー時間\"を実証",
+          "summary": "英バーミンガム大学が2026年<strong>6月16日</strong>付で論文を公開した量子実験(Phys. Rev. Research、DOI: 10.1103/1h9j-df4k)。極低温まで冷却した<strong>24,000個</strong>のルビジウム87原子からボース・アインシュタイン凝縮体(BEC)を作り、薄い光の壁で「明るい領域(観測する側)」と「暗い領域(観測しない側)」に分割。両領域間のエントロピー変化量から内部時間を再構成すると、<strong>エントロピー交換が止まると時間も止まり、進めば外部時計と同期して進む</strong>ことが確認された。さらにシュレーディンガー方程式を「エントロピー時間」で書き直した計算が、実際の原子雲の広がり方とも一致する。「時間とは外から与えられる物差しではなく、観測者と環境のあいだの情報のやり取りそのもの」という量子重力寄りの見方を、初めて実験室レベルで素手で触れた研究として位置づけられる。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260616-mini-universe-measure-time/",
+          "tags": [
+            "物理学",
+            "量子実験",
+            "バーミンガム大"
+          ]
+        }
+      ]
+    }
+  ]
+}

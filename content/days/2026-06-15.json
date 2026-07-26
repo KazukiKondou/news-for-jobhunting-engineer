@@ -1,0 +1,112 @@
+{
+  "date": "2026-06-15",
+  "label": "2026年6月15日 (月)",
+  "intro": "WASI 0.3が正式版、Gemma 4のKV共有で長文KVキャッシュ最大6GB削減、住みよさ2026は人吉市が2年ぶり1位。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "WASI 0.3が正式版に、WebAssembly Componentの非同期処理を共通基盤へ — Wasmtime 46は6/20予定",
+          "summary": "ByteCode Allianceは2026年<strong>6月15日</strong>、WebAssemblyをブラウザ外で動かすための仕様「WASI 0.3」を正式版として発表した。これまでは各WebAssembly Componentが独立したイベントループを持ちながら非同期処理を扱っていたため、コンポーネント間の連携や言語ランタイム差をまたぐ並行処理が一貫しなかった。WASI 0.3では「ホスト側が1つのイベントループでコンポーネント群全体を回す」モデルに改められ、非同期I/Oやタイマー、コンポーネント間の呼び出しが共通基盤上に乗る。これによりGo・Rust・JavaScript製のComponentをまたぐサーバレス的なホスト実装がぐっと書きやすくなる。リファレンス実装の Wasmtime は6月20日リリース予定のバージョン46で本仕様に対応する。Cloudflare Workers系・サーバレス実行基盤を志望する学生にとって、Wasmtime + WASI 0.3 はそのまま面接で深掘りされる足場になる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/wasi_03webassembly_component.html",
+          "tags": [
+            "技術トレンド",
+            "WebAssembly",
+            "WASI"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "LLMアーキテクチャ新技法「KV共有」「mHC」「圧縮アテンション」 — Gemma 4で128K長文時に最大6GBのKVキャッシュ削減",
+          "summary": "2026年<strong>6月14日</strong>付のレビュー記事が、大規模言語モデルの推論コストを下げる3つの新技法を整理した。(1)<strong>KV共有</strong>: 後続レイヤーが先行レイヤーのKey/Value状態を再利用してKVキャッシュを縮める手法。Googleの Gemma 4 では約半数のレイヤーで共有し、128K長文コンテキスト時に E2B で約<strong>2.7GB</strong>、E4B で約<strong>6GB</strong>のキャッシュ削減を達成。(2)<strong>mHC(多様体制約付きハイパーコネクション)</strong>: DeepSeek V4 がトランスフォーマーブロック内の残差接続を二重確率行列の多様体に射影してスケーリングを安定化させる新方式。(3)<strong>圧縮アテンション</strong>: ZAYA1-8B は圧縮潜在空間で直接Attentionを計算しFLOPsまで削減、DeepSeek V4 はCSAとHCAを交互配置するハイブリッド設計。LLMが「もう大きさ勝負ではなくキャッシュ効率勝負」に入ったことが鮮明になる総説で、推論基盤・MLOps志望者の面接ネタとして筋がいい。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260614-recent-developments-in-llm-architectures/",
+          "tags": [
+            "技術トレンド",
+            "LLM",
+            "推論最適化"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "AIエージェント向けOSSバックエンド「InsForge」公開 — PostgreSQL・S3・MCPを統合、自然言語でテーブル作成まで自動化",
+          "summary": "AIコーディングエージェントから直接叩けることを前提に作られたオープンソースのバックエンドプラットフォーム「InsForge」が2026年<strong>6月14日</strong>付で紹介された。PostgreSQL データベース、ユーザー認証、S3 互換ストレージ、エッジ関数、コンテナ、リアルタイム、ベクトル検索、決済までを一式同梱した「OSS版Heroku」的な構成に加え、複数LLMプロバイダをOpenAI互換APIに束ねる「Model Gateway」、<strong>MCP</strong>サーバ対応、CLI操作といったエージェント連携機能を独自に積む。Claude Code 等から「title・content・authorカラムを持つpostsテーブルを作って」と自然言語で指示するだけでスキーマ・ストレージ・認可設定が一気通貫で立ち上がる。FirebaseやSupabaseの「次の世代」を、人ではなくエージェントに最適化して引き直したサービスとして読める。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260614-insforge/",
+          "tags": [
+            "技術トレンド",
+            "OSS",
+            "バックエンド"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "GitHub Copilotコードレビュー、組織ランナー制御と内容除外設定を追加 — 指示ファイルの4000文字上限を撤廃",
+          "summary": "GitHubが2026年<strong>6月12日</strong>、Copilot Code Reviewの管理機能を大幅拡張した。(1)組織共通のGitHub Actionsランナー種別を「Copilot → Runner type → Runner type configuration」でデフォルト設定でき、リポジトリ側からの上書きをロック可能に。(2)Copilotの<strong>コンテンツ除外設定</strong>(ファイル/ディレクトリ単位のブロック)を、コードレビュー機能にも反映するようになった(従来は補完のみだった)。(3).github 配下の指示ファイル copilot-instructions.md ・ *.instructions.md にあった<strong>4000文字</strong>上限を撤廃。これにより、社内コーディング規約・命名規則・SQL方針などをAIレビュー時のプロンプトに丸ごと積めるようになる。「Copilotを企業利用するときに最後に効くのは規約をどう食わせるか」を地でいく更新。",
+          "sourceName": "GitHub Changelog",
+          "sourceUrl": "https://github.blog/changelog/2026-06-12-copilot-code-review-new-configurations-and-controls/",
+          "tags": [
+            "企業動向",
+            "GitHub",
+            "開発生産性"
+          ]
+        },
+        {
+          "position": 5,
+          "title": "ガートナー、2027年までにAIエージェントを使うエンジニアの65%が「IDEは必要不可欠ではない」と回答すると予想",
+          "summary": "米ガートナーが2026年5月27日に出した予測を、Publickeyが6月15日に紹介。AIコーディング支援はこれまでVisual Studio Codeなど<strong>IDE</strong>への組み込みが中心だったが、Claude Code や Antigravity 2.0 のような「エディタやIDEと独立して動くコーディングAIエージェント」が広がる中で構図が反転しつつある、というのが今回の予想の中心。具体的には<strong>2027年まで</strong>に、AIエージェントを使ってコーディングするエンジニアリングチームの<strong>65%</strong>超が「IDEは必要不可欠ではない」と回答し、開発の管理機能はIDEからCI/CD・チケット・コードレビューを横串する自動化プラットフォーム側へ移ると見ている。VS Code縛りで覚えてきたショートカットや拡張ではなく、「エージェントへの指示設計」と「リポジトリ全体のルール統治」が次の差別化軸になるという見立て。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/2027ai65ide.html",
+          "tags": [
+            "キャリア",
+            "AIエージェント",
+            "ガートナー"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "週刊東洋経済「AI大失業が来る — 消える仕事・残る仕事を見分ける7つの視点」発売、Sansan寺田×Anthropic日本トップ対談も",
+          "summary": "『週刊東洋経済』2026年<strong>6月20日・27日合併号</strong>(本日<strong>6月15日</strong>発売、950円)が、特集に「<strong>AI大失業が来る — あなたの番はいつ？消える仕事・残る仕事 見分ける7つの視点</strong>」を組んだ。コンサル・ゲーム・メディア・ホワイトカラー各層の現場ルポと、米国・中国の労働市場データを並べ、「同じ職種でも何が残り、何が消えるか」を切り分ける視点を提示する。Sansan社長・寺田親弘氏とAnthropicジャパン代表・東條英俊氏の対談「敵か味方か？どう動く？AIビジネス」、BCG・アクセンチュア日本トップへの聞き取り、ソニーグループの次の打ち手リポートまで一冊で並走させる構成。「自分の職種は安全か」ではなく「自分の仕事のうちどの部分が代替されるか」に視点を切り替えるとキャリア設計の解像度が一気に上がる、というメタ認知の練習材料として読める。学生にとっては、就活で受ける企業を「AIで残る部分にどれだけ人を寄せる経営をしているか」で比較する物差しになる。",
+          "sourceName": "東洋経済オンライン",
+          "sourceUrl": "https://toyokeizai.net/feature/6a0aa80fa53aefe40f000000",
+          "tags": [
+            "東洋経済",
+            "AI失業",
+            "キャリア設計"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "住みよさランキング2026、熊本県人吉市が2年ぶり全国1位 — 2位文京区・3位長久手市、上位4市は0.35ポイント差",
+          "summary": "東洋経済新報社が2026年<strong>6月15日</strong>、毎年恒例の「<strong>住みよさランキング2026</strong>」全国編トップ200を発表した。1位は熊本県<strong>人吉市</strong>(2024年に続き<strong>2年ぶり首位</strong>、2025年は福井市)、2位東京都<strong>文京区</strong>、3位愛知県<strong>長久手市</strong>。安心度・利便度・快適度・富裕度の4本柱・20指標で全自治体を採点する設計で、上位4市は<strong>約0.35ポイント差</strong>のひしめき合いに。人吉市は2020年の球磨川水害復興を経て、人口あたり飲食店数や医療アクセスといった「人口規模が小さい街ほど不利になりやすい指標」で逆に高得点を取り、文京区・長久手区など首都圏型の高位自治体と渡り合う形になった。地方都市が「再生プロセスごと評価される」現象として読むと、地方創生・公共政策・都市データを扱うエンジニア就活でも教養として効く。",
+          "sourceName": "東洋経済オンライン",
+          "sourceUrl": "https://toyokeizai.net/articles/-/947566",
+          "tags": [
+            "社会",
+            "都市",
+            "住みよさランキング"
+          ]
+        }
+      ]
+    }
+  ]
+}

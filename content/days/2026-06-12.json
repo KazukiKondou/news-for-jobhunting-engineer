@@ -1,0 +1,112 @@
+{
+  "date": "2026-06-12",
+  "label": "2026年6月12日 (金)",
+  "intro": "Copilot CLIが14言語LSP対応、DiffusionGemma 252億パラで公開、Interop Best of Showは25部門で表彰。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "GitHub、Copilot CLIにLanguage Server統合スキル — 14言語対応、grep依存を排しIDE並みの型・参照取得へ",
+          "summary": "GitHub Blogが、コーディングAIエージェント「Copilot CLI」向けに「Language Server統合スキル」を公開した。これまでのCopilot CLIは大規模コードベースに対してgrepやバイナリのデコンパイルなどテキスト処理頼みでコード探索をしていたが、新スキルではLanguage Server Protocol(LSP)を介して型解析・参照検索・定義ジャンプといったIDE並みの構造的理解を行えるようになる。対応言語はJava、Python、TypeScript、Rustなど14言語で、各OSのインストール手順とCopilot CLIへの登録スニペットがスキル内に同梱されている。~/.copilot/skills/に展開してCLIを再起動し、「set up LSP for Java」のようなコマンドで自動セットアップが走る。Copilot CLIを日常的に開く実務エンジニアにとって、コードベース探索の精度が一段上がる更新。",
+          "sourceName": "GitHub Blog",
+          "sourceUrl": "https://github.blog/ai-and-ml/github-copilot/give-github-copilot-cli-real-code-intelligence-with-language-servers/",
+          "tags": [
+            "技術トレンド",
+            "GitHub",
+            "Copilot"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "Google、Gemma 4より4倍高速な拡散言語モデル「DiffusionGemma」公開 — 総252億パラ・アクティブ38億のMoE",
+          "summary": "Googleが、画像生成で使われる拡散モデルの考え方を言語生成に応用した新モデル「DiffusionGemma」をApache License 2.0で公開した。総パラメーター数252億・アクティブパラメーター数38億のMixture of Experts(MoE)構成で、同等サイズのGemma 4 26B A4Bと比べてトークン生成が約4倍速い。NVFP4量子化版は単一のGeForce RTX 5090で動作可能とされ、家庭用GPU環境でも扱いやすい。数独タスクに特化したファインチューニング版も同時公開され、「同じ箇所を反復して埋めていく」用途で拡散方式の強みを示している。モデルはHugging Faceからダウンロード可能で、Web系のAIプロダクトに「自己回帰LLM以外の選択肢」を据える土台になり得る。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260611-google-ai-diffusiongemma/",
+          "tags": [
+            "技術トレンド",
+            "Google",
+            "OSS"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "Interop Tokyo 2026、Best of Show Award各賞決定 — 258商品から94ファイナリスト、25部門で表彰",
+          "summary": "日本最大級のネットワーク技術カンファレンス「Interop Tokyo 2026」(6月10-12日・幕張メッセ)で、恒例の「Best of Show Award」の各部門グランプリ・準グランプリが発表された(6月11日18:00)。今年は258商品・サービスがエントリーし、5月29日のファイナリスト審査で94製品を25部門にまとめ、6月9日の各社実機評価と6月10日(開幕日)の最終審査で受賞作を決定。セキュリティアセスメント部門グランプリは<strong>Keysight SBOM Manager</strong>、For AI部門は<strong>Cisco DefenceCraw</strong>、データセンター部門はNidec In-Rack & In-Row CDUなど、AIインフラ・セキュリティ対策の最新製品が顔をそろえた。来場予定は約15万人、参加企業672社。受賞一覧は公式サイトに掲載中。",
+          "sourceName": "ナノオプト・メディア（@Press）",
+          "sourceUrl": "https://www.atpress.ne.jp/news/605234",
+          "tags": [
+            "カンファレンス",
+            "Interop",
+            "ネットワーク"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "サイバーエージェント、ABEMAの多層キャッシュ機構をリアーキテクチャ — in-memory→Valkey→Bigtableをジェネリクスで共通化",
+          "summary": "サイバーエージェントが、ABEMAのGrowthBackendチームでインターン生(東京電機大大学院生)が主担当となった多層キャッシュ機構のリアーキテクチャ事例を公開した。マイクロサービス内に散在していた「in-memory → Valkey → Bigtable」の3層キャッシュロジックを共通化し、データアクセス層に混ざっていたビジネスロジックを分離。ジェネリクス型でキャッシュ層をカプセル化することで各レイヤーの責務を整理した。本番反映前にはDark Canaryでトラフィックを段階的に流して問題なくリクエストを捌けることを検証してからリリース。Web系メガベンチャーのインターン生が大規模配信基盤の改善を担う「現場感」がそのまま読める一本。",
+          "sourceName": "サイバーエージェント Developers Blog",
+          "sourceUrl": "https://developers.cyberagent.co.jp/blog/archives/64293/",
+          "tags": [
+            "企業動向",
+            "サイバーエージェント",
+            "ABEMA"
+          ]
+        },
+        {
+          "position": 5,
+          "title": "LayerX、「AIエージェント時代の権限管理が、いまアツい」 — Ai Workforce運用視点で論点整理",
+          "summary": "LayerXのプロダクトマネージャーが、エンタープライズAIプラットフォーム「Ai Workforce」を運用する立場から、AIエージェント時代の権限管理(authorization)の難所をエンジニアブログで整理した。論点は「人間向けRBACをそのまま流用できない理由」「エージェントに渡すべきスコープの粒度」「閲覧可能データとアクション可能データを分けて設計する必要性」など。AIエージェントが人間と並んで業務を回すことが現実になりつつある中、企業の中で「誰の代理として、どの範囲で、何をしてよいか」を設計するというテーマは、SaaS・Web系の現場でこの先数年の主要論点になる。SaaSプロダクトをやりたい就活生にも刺さる切り口。",
+          "sourceName": "LayerX Engineering Blog",
+          "sourceUrl": "https://tech.layerx.co.jp/entry/ai-agent-authorization",
+          "tags": [
+            "企業動向",
+            "LayerX",
+            "AIエージェント"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "講談社選書メチエ、サミュエル・ガーシュマン『知性はバイアスでできている — 賢さと愚かさの計算論的認知科学』6/11発売",
+          "summary": "講談社選書メチエが、米ハーバード大教授サミュエル・ガーシュマンの『知性はバイアスでできている — 賢さと愚かさの計算論的認知科学』(高橋達二・長谷川珈訳、2,420円)を2026年6月11日に発売した。ベイズ確率論と計算認知科学の道具を使って「ヒトの脳というコンピュータが、どう知り、どう判断し、どう動くか」を体系化し、しばしば欠陥として扱われる「認知バイアス」は知性の副作用ではなく原理として不可欠なものだ、と立論する。同日付で『キリスト教13の不思議』『仏教の歴史』『ホメロスの世界』『公と私』、選書メチエから中沢新一『いま、ここにある神話』も一斉刊行され、宗教・古典・神話の人文棚が一気に厚くなった一日。AI時代に「自分の判断はなぜズレるのか」を計算論で言語化したい人向けの一冊。",
+          "sourceName": "講談社（gendai.media）",
+          "sourceUrl": "https://gendai.media/list/books/gakujutsu/9784065372210",
+          "tags": [
+            "認知科学",
+            "計算論",
+            "講談社選書メチエ"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "「文具女子博トーキョー2026」6/11開幕、有明GYM-EXに約165社が出店 — 日本最大級の文具の祭典",
+          "summary": "すべての文具好きに贈る日本最大級の文具の祭典「文具女子博トーキョー2026」が、2026年6月11日(木)から14日(日)まで東京・有明GYM-EXで開催されている。出店者数は約165社で、夏らしいカラフル文具や、ぷっくりシール、限定アイテム、新作などをその場で買える即売イベント。入場料は6月11-12日が990円、13-14日が1,190円(税込)。6月10日と6月12日の夕方には入場者数を絞った「プレミアムタイム」も用意され、ゆっくり買い物したい人向けに分散させる設計。テーマは「今日はどっち？文具コーディネート」で、ヤシの木などリゾート感のある会場演出。物理プロダクトから受ける刺激の密度は、デジタルプロダクトの企画・設計を考えるうえでも侮れない。",
+          "sourceName": "文具女子博（日販セグモ）",
+          "sourceUrl": "https://bungujoshi.com/event/tokyo2026/",
+          "tags": [
+            "文具",
+            "展示会",
+            "カルチャー"
+          ]
+        }
+      ]
+    }
+  ]
+}

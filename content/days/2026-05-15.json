@@ -1,0 +1,38 @@
+{
+  "date": "2026-05-15",
+  "label": "2026年5月15日 (金)",
+  "intro": "Sansan、2027年卒エンジニア採用を開始・ZOZO、2027年卒エンジニア採用枠を80名に設定。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Sansan、2027年卒エンジニア採用を開始 — 初任給650万円、BizSaaS・プロダクト開発など3職種",
+          "summary": "Sansanは2026年5月、2027年卒エンジニアの採用ページを公開した。初任給は650万円（職種共通）で、名刺管理サービス「Sansan」のバックエンド・インフラ、Bill Oneのプロダクト開発、データエンジニアリングの3職種を設けている。技術スタックはRuby on Rails・Python・Go・Kubernetesが主で、夏インターンシップからの直接選考ルートも用意している。書類選考→コーディングテスト→技術面接2回→最終面接の4ステップが選考フローとなっている。",
+          "sourceName": "Sansan採用公式",
+          "sourceUrl": "https://jp.corp-sansan.com/news/2026/0413.html",
+          "tags": [
+            "採用",
+            "Sansan",
+            "新卒"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "ZOZO、2027年卒エンジニア採用枠を80名に設定 — バックエンド/ML重点、インターンから選考直結",
+          "summary": "ZOZOは2027年卒エンジニア採用の詳細を公表した。採用枠は80名で、ファッションECの基幹システムを支えるバックエンドエンジニアとファッション×MLを推進する機械学習エンジニアを中心とした構成だ。夏・秋に実施する「Tech Camp」インターンシップ（1〜4週間、有給）への参加者は本選考のコーディングテストが免除され、現場エンジニアとの直接評価フローに入れる設計となっている。Golang/Kotlin/Python/Kubernetesが主な利用技術で、月1回の技術勉強会「ZOZOTECH」への学生参加も認めている。",
+          "sourceName": "ZOZO採用公式",
+          "sourceUrl": "https://corp.zozo.com/recruit/engineer-newgraduate/",
+          "tags": [
+            "採用",
+            "ZOZO",
+            "新卒"
+          ]
+        }
+      ]
+    }
+  ]
+}

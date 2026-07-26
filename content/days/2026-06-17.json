@@ -1,0 +1,112 @@
+{
+  "date": "2026-06-17",
+  "label": "2026年6月17日 (水)",
+  "intro": "GitLab、AIエージェント向け次世代Git互換サー…・AMD、フラッシュメモリをDRAMとして扱う米MEXT…・OpenRouter、複数モデルを並列で走らせ統合する…。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "GitLab、AIエージェント向け次世代Git互換サービス「Project Switch」発表 — クローン42倍・タスク完了22倍、トークン消費は半分",
+          "summary": "GitLabが2026年<strong>6月17日</strong>付で、AIコーディングエージェントを一級市民として扱う次世代ソースコード管理サービス「Project Switch」を発表した(Publickey)。<strong>Gitプロトコル互換</strong>のまま、計算層とストレージ層を分離する内部アーキテクチャに作り直すことで、クローンは<strong>42倍</strong>、書き込みは<strong>17倍</strong>、ネットワーク転送量は従来比<strong>1/1000</strong>に圧縮されたと公表。AIエージェントが1タスクを完走するまでに必要な往復回数も削減され、エンドツーエンドのタスク完了時間が約<strong>22倍</strong>速くなり、消費される<strong>推論トークンは半分</strong>で済むという。「Gitクライアントを書き換えずに、サーバ側だけで現代のエージェント前提のワークロードに最適化する」というアプローチで、就活面では「リポジトリ操作はもうローカル開発者だけのものではない」という前提変化が見えてくる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/gitlabaigitproject_switch50.html",
+          "tags": [
+            "技術トレンド",
+            "AIエージェント",
+            "GitLab"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "AMD、フラッシュメモリをDRAMとして扱う米MEXTを買収 — DRAM認識量を2〜4倍に、コストは半額",
+          "summary": "AMDが2026年<strong>6月15日</strong>、メモリ仮想化スタートアップ <strong>MEXT</strong> の買収を発表した。MEXTは「アプリより下のレイヤで動く予測型AI」が安価な<strong>フラッシュメモリを高速DRAMとして見せかける</strong>技術を開発しており、サーバから見える実効DRAM容量を<strong>2〜4倍</strong>に拡張しながら、メモリコストを<strong>50%</strong>削減できる。AIチップの総原価のうち63%(2026年5月時点)がメモリという構造を踏まえると、推論サーバの単価競争を一気に押し下げる買い物。NVIDIAのHBM寄り戦略に対して、AMDは「実DRAMより安く、ベンチ的にDRAMに見える階層」を取りに行く格好で、GPU・CPU・メモリの三辺で別軸の勝負が立ち上がってきた。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/gsc_news/en/20260616-amd-acquires-mext-ai-memory/",
+          "tags": [
+            "企業動向",
+            "AIインフラ",
+            "半導体"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "OpenRouter、複数モデルを並列で走らせ統合する「Fusion」公開 — 安価モデル組み合わせでClaude Fable 5の99%スコアを半額で",
+          "summary": "複数LLMの統一APIプロキシ OpenRouter が2026年<strong>6月16日</strong>、新機能 Fusion を公開。仕組みは「同じユーザー入力を複数モデルに並列で投げて、レビュアーモデルが全回答を読み比べてから最終解答を生成する」二段構成。<strong>Claude Opus 4.8 + GPT-5.5 + Gemini 3.1 Pro</strong> の組み合わせは Claude Fable 5 の主要ベンチを上回り、より安い <strong>Gemini 3 Flash + Kimi K2.6 + DeepSeek V4 Pro</strong> でも Fable 5 比<strong>-1%</strong>以内のスコアを<strong>半額</strong>で出した。ただし初期にはレビュアーが意図せず Claude Opus 4.8 に固定されていたフロントエンドのバグが見つかり、開発元が修正を約束。「単一モデルで限界を見るより、安いモデルを組み合わせて精度・コスト両面で勝つ」設計が、エージェント時代のもうひとつの定石として現れてきた。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260616-openrouter-ai-fusion/",
+          "tags": [
+            "技術トレンド",
+            "LLM",
+            "マルチモデル"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "OSSのcurlが7月を「夏休み」化、脆弱性報告を1か月間受け付けず — 2026春の通報は2024比4〜5倍に",
+          "summary": "世界中で使われているHTTPクライアント curl の開発チームが、<strong>2026年7月1日〜8月3日</strong>の約1カ月間、<strong>脆弱性報告の受付と対応を停止</strong>すると表明。創設者 Daniel Stenberg は理由として「2026年春の通報量が<strong>2024年比で4〜5倍</strong>、2025年比でも約2倍、平均で日に1件超」になっており、メンテナの負荷が限界に達していることを挙げた。通常のバグ修正はGitHub上で続けるが、本来のcurl 8.22.0 リリースは<strong>2週間ずらして9月2日</strong>に延期。「OSSメンテナにも有給休暇を渡そう」という現実的な実験で、AIエージェントの自動レポートがOSSのリソースを食い潰しつつある状況に対する、メンテナ側からの最初期の制度設計でもある。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260616-curl-summer-of-bliss/",
+          "tags": [
+            "OSS",
+            "セキュリティ",
+            "働き方"
+          ]
+        },
+        {
+          "position": 5,
+          "title": "「Claude/GPTからローカルLLMに置き換えた」事例集 — RTX 5090でQwen 3.6を50〜150トークン/秒、月100ドル節約の代わりに指示を細かく",
+          "summary": "GIGAZINE が2026年<strong>6月17日</strong>付で、日常コーディングをクラウドLLM(Claude / GPT)から<strong>ローカルLLM</strong>に置き換えた個人エンジニアの事例をまとめた。代表的な構成は Qwen 3.6 35B-A3B や Gemma 4 31B を llama.cpp・vLLM 上で動かし、RTX 5090 / RTX 6000 クラスで<strong>50〜150トークン/秒</strong>。「サブスク代を月<strong>100ドル</strong>分節約できる」「コードを社外に出さなくて済む」というメリットがある一方、雑な依頼は通らず<strong>指示を細かく分割する</strong>必要があり、難度の高い設計判断は依然として Claude Opus に投げる。落としどころは\"単純反復はローカル/設計はクラウド\"のハイブリッド構成で、就活面でも「自前GPUとOSSモデルを組める人材」の市場価値が上がりつつある。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260617-replace-caude-gpt-with-local-model/",
+          "tags": [
+            "キャリア",
+            "ローカルLLM",
+            "開発環境"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "ログミーBiz「優れたフレームワークが持つ3つの条件」 — 豊間根青地氏が説く\"耳慣れない言葉\"の力",
+          "summary": "ログミーBiz <strong>2026年6月16日</strong>付。うねり株式会社代表・<strong>豊間根青地</strong>氏(『パワポ芸人』『一発OKがでる資料 簡単につくるコツ』著者)による講演「強い組織は型で動く」のレポート。フレームワークを「問題を解くための\"考え方\"と\"行動手順\"のベストプラクティス」と定義し直し、本当に職場で動くフレームワークが持つ3条件として、(1) <strong>シンプルで直感的</strong>、(2) <strong>耳慣れない言葉である</strong>、(3) <strong>そのまま行動を変えられる</strong>、を提示する。事例は彼自身が提唱する「<strong>キメヘン</strong>」(キき手・メッセージ・ヘンか=Listener / Message / Change)で、これを「目的思考」と命名していたら誰の口にも残らなかった、と振り返る。情報を伝えるためではなく、相手の行動を変えるためにコミュニケーションを設計するという軸の置き換えは、就活のESや面接でも\"よく見るパワーワード\"から外して書くきっかけになる。",
+          "sourceName": "ログミーBiz",
+          "sourceUrl": "https://logmi.jp/main/management/333552",
+          "tags": [
+            "フレームワーク",
+            "組織論",
+            "豊間根青地"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "ヴァイキング最古の銀貨266枚を化学分析 — 銀94%のうちイスラム圏ディルハム由来が混在、交易は実物より早かった",
+          "summary": "2026年<strong>6月17日</strong>付で公開された、デンマーク・<strong>オーフス大学</strong>と<strong>国立博物館</strong>の共同論文。2018年にリベ近郊で発見された<strong>「ダムフス退蔵銀貨」266枚</strong>(西暦<strong>820〜830年</strong>頃に鋳造されたヴァイキング最初期の銀貨)について、25枚をサンプル抽出し<strong>鉛同位体比</strong>と化学組成を測定した。その結果、合金は<strong>銀94%・銅5%・鉛1%</strong>で構成され、原料銀は西ヨーロッパ由来の銀とイスラム圏のディルハム銀貨を溶かした銀の混合と判明。これまで「現物のディルハムが北欧で見つかった年代」より早い時期から、ヴァイキングは中東の銀流通網に接続していたことになる。\"文物より先に、原料が国境を越える\"という史実の補正は、技術人材市場の話を考えるときの素材としても残しておきたい。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260617-viking-islamic-silver-coins/",
+          "tags": [
+            "歴史",
+            "考古学",
+            "ヴァイキング"
+          ]
+        }
+      ]
+    }
+  ]
+}

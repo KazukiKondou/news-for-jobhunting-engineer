@@ -1,0 +1,50 @@
+{
+  "date": "2026-05-14",
+  "label": "2026年5月14日 (木)",
+  "intro": "Google Chrome、2026年9月から2週間リ…・Next.js May 2026 Security R…・Qiita エンジニア白書2026。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Google Chrome、2026年9月から2週間リリースサイクルへ移行 — Chrome 153以降で全プラットフォームに適用",
+          "summary": "Googleは2026年3月にChromeのリリースサイクルを現在の4週間から2週間に短縮すると発表した。Chrome 153（2026年9月8日stable予定）を皮切りに全プラットフォーム（Desktop・Android・iOS）で2週間サイクルに移行する。バグ修正の展開スピードを上げながらセキュリティパッチをより迅速にユーザーへ届けることが目的で、Enterpriseユーザー向けの拡張安定版（Extended Stable Channel）は従来通り8週間サイクルを継続する。フロントエンドエンジニアとしてはブラウザの挙動変更・新APIの追加が高頻度で発生することになり、Chrome DevToolsの活用やCanaryビルドでの先行確認が一層の実務スキルとなる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/googlechrome2web.html",
+          "tags": [
+            "Chrome",
+            "技術トレンド",
+            "Google"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "Next.js May 2026 Security Release — DoS・XSS等13件の脆弱性を修正、バージョン16.2以降に対応",
+          "summary": "Vercelは2026年5月にNext.jsのセキュリティリリースを実施し、DoS（サービス拒否攻撃）・ミドルウェアバイパス・SSRF・キャッシュポイズニング・XSSを含む脆弱性13件に対応した。修正は主にNext.js 16.x系（16.2以降）が対象で、15.x系の一部にもバックポートされている。16.2はAIエージェント連携を想定した「Agent-ready create-next-app」やブラウザログのサーバー転送機能も搭載しており、LLMを組み込んだWebアプリのデプロイ基盤として注目を集めている。修正パッチの対応状況はVercel公式changelogで追跡でき、早期バージョンアップが推奨されている。",
+          "sourceName": "Vercel公式",
+          "sourceUrl": "https://vercel.com/changelog/next-js-may-2026-security-release",
+          "tags": [
+            "Next.js",
+            "セキュリティ",
+            "Vercel"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "Qiita エンジニア白書2026 — 2,317名調査でAI活用率・人気言語・年収傾向の最新実態を公開",
+          "summary": "Qiitaは2026年版「エンジニア白書」を公開した。Qiitaユーザー2,317名を対象に、人気プログラミング言語・働き方・転職時に重視する項目・AI活用ツールの利用実態を調査している。言語ランキングではTypeScriptが上位を維持しつつ、RustやGoの利用率が前年より上昇している。年収1,000万円超エンジニアに共通するスキルとして「OSS貢献経験」「英語技術ドキュメントの読解力」「インフラ・ミドルウェア理解」が上位に挙がり、AIコード生成ツールの業務利用割合と年収帯の相関についても集計されている。副業・リモートワークへの意識や職場選択基準の傾向も確認できる内容となっている。",
+          "sourceName": "Qiita",
+          "sourceUrl": "https://qiita.com/white_papers/2026",
+          "tags": [
+            "キャリア",
+            "年収",
+            "調査"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "date": "2026-06-13",
+  "label": "2026年6月13日 (土)",
+  "intro": "Homebrew 6.0.0でtap信頼必須化、MiMo Codeは100万トークン文脈、OpenAIがOnaを買収しCodex強化。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "メルカリ、Mercari/Merpay/Mercoin Summer Internship 2026の応募締切は6/15 — 6トラックから選択、月給例30万円",
+          "summary": "メルカリが2026年7月〜2027年6月に新卒入社可能な学生を対象とするサマーインターン「Mercari/Merpay/Mercoin Summer Internship 2026」の応募締切を <strong>2026年6月15日(日)</strong> に設定して継続募集中。Backend / Frontend / Mobile (iOS or Android) / Platform Engineering / Site Reliability Engineering / Corporate Engineering の6つのソフトウェアエンジニアトラックから選択でき、期間は2〜3ヶ月・週20時間以上の稼働が条件。月給例は <strong>300,000円</strong> (基本給221,965円+45時間分の固定残業78,035円)で、フルフレックス(コアタイム・フレキシブルタイムなし)、リモートワーク可(基本は週2日以上の六本木オフィス出社)、試用期間3ヶ月。Web系メガベンチャーの選考直結インターンの中でも、決済(Merpay)・暗号資産(Mercoin)を含む3社混合の応募が一度にできるのが特徴。",
+          "sourceName": "メルカリ採用サイト",
+          "sourceUrl": "https://careers.mercari.com/new-graduates/",
+          "tags": [
+            "採用",
+            "メルカリ",
+            "インターン"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "Homebrew 6.0.0公開、サードパーティーtapに「Tap Trust」確認を必須化 — macOS 27 Golden Gate初期対応、Intel x86_64は2027年9月に完全終了",
+          "summary": "macOS / Linuxのパッケージマネージャ「Homebrew」のメジャーバージョン<strong>6.0.0</strong>が2026年6月11日に公開された。最大の変更は新セキュリティ機構「Tap Trust」で、サードパーティーtap(formula や cask が入ったGitリポジトリ)はインストール前に明示的な信頼登録が必要になる。tap はRubyスクリプトでユーザー権限のまま走るため、これまで悪意あるtapを区別できなかったサプライチェーンの穴を塞いだ形。brew trust --formula user/repo/formula や brew trust --cask user/repo/cask で個別許可、Brewfileは trusted: true を付記する。あわせてmacOS 27「Golden Gate」への初期対応、LinuxのBubblewrapサンドボックス対応、ask mode標準化、内部JSON APIの標準有効化も入った。Intel Macは2026年9月にTier 3へ、<strong>macOS Intel x86_64の完全サポート終了は2027年9月</strong>と予告された。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260612-homebrew-6-0-0/",
+          "tags": [
+            "技術トレンド",
+            "OSS",
+            "Homebrew"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "Xiaomi、Claude Code的なAIエージェント「MiMo Code」をMITで公開 — 100万トークン文脈、200ステップ超で人間評価65%勝率",
+          "summary": "中国Xiaomiが2026年6月11日、AIコーディングエージェント「MiMo Code」と背後のモデル「MiMo-V2.5」「MiMo-V2.5-Pro」をMITライセンスで公開した。OpenCodeをフォークし、複数エージェント候補生成と評価選別、自然言語SKILLをJavaScript生成で決定論的に実行する仕組みを備える。コンテキストウィンドウは<strong>100万トークン</strong>、200ステップを超える長時間タスクではブラインドの人間評価で MiMo-V2.5 が65%の勝率を記録した。GitHubは github.com/XiaomiMiMo/MiMo-Code、ドキュメントは mimo.xiaomi.com/mimocode/start でいずれもセルフホスト可能。Claude Code / Codex / Gemini Code に続く中華圏発のOSSコーディングエージェントとして、選択肢の多様化が進む。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260611-xiaomi-mimo-code/",
+          "tags": [
+            "技術トレンド",
+            "AIエージェント",
+            "OSS"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "OpenAI、クラウド開発環境のOna(旧Gitpod)を買収 — Codex週500万人ユーザーの長時間タスク基盤へ",
+          "summary": "OpenAIが米Onaの買収を2026年6月11日(現地時間)に発表した(買収額は非公表)。Onaは旧Gitpodで、Webブラウザベースのクラウド開発環境を<strong>200万人超の開発者</strong>に提供してきた老舗。2025年9月のリブランド以降は「AIエージェント向けのセキュアなクラウド実行・オーケストレーション基盤」へ業態転換し、銀行・政府系ファンドでの週次利用は2026年初以降で約13倍に伸びていた。OpenAIは買収理由として「Codexの作業時間が数時間〜数日に伸びており、ユーザーが単一デバイス・セッションに縛られない長時間実行環境が必要」と説明。Codexの週次アクティブユーザーは500万人超で、2026年初比+400%。規制当局承認後、OnaチームはCodexチームに合流する。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/articles/2606/12/news072.html",
+          "tags": [
+            "企業動向",
+            "OpenAI",
+            "外資テック"
+          ]
+        },
+        {
+          "position": 5,
+          "title": "Anthropic、Claude Fable 5の不可視セーフガード問題を公式謝罪 — Claude Opus 4.8への自動フォールバックへ移行",
+          "summary": "Anthropicが2026年6月11日、AIモデル「Claude Fable 5」にユーザーへ通知せず仕込んでいたセーフガード(モデル性能の不可視制限)について公式に謝罪する声明をXで公開した。「Cancer」「Hello」など無害な入力でも危険判定される事例が報告されており、全セッションのうち<strong>5%が誤って危険判定</strong>される過剰な検知になっていた。Anthropicは「迅速かつ安全に展開するため不可視セーフガードを選択したが、それは誤りだった」と表明。今後はフラグ付きリクエストを <strong>Claude Opus 4.8</strong> へ明示的にフォールバックする処理に切り替え、サイバー・生物兵器関連と同じ拒否フローへ統一する。API経由では拒否理由を明示し、分類器改善で誤判定頻度を引き下げる予定。フロンティアAIの「目に見えない制御」をめぐる議論が一段表に出た出来事。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260612-claude-fable-5-safeguard-change/",
+          "tags": [
+            "企業動向",
+            "Anthropic",
+            "外資テック"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "NHK 100分de名著 2026年6月『谷川俊太郎詩集』、講師は批評家・若松英輔 — 詩のことばと向き合い方を読み解く",
+          "summary": "NHK Eテレ『100分de名著』の2026年6月放送回は、2024年に92歳で逝去した詩人・<strong>谷川俊太郎</strong>の自選詩集を、批評家・若松英輔が「25分×4回=100分」で読み解く構成。テキストはNHK出版から5月25日に発売(全153ページ)。詩は短いがゆえに、ことばの一語一語の選択がそのまま書き手の思考の輪郭を露わにする。AI時代に「自分のことばで何かを言う」とはどういうことか、書き手の選択と削除の過程を追体験することで、自分自身の思考のクセを観察するメタ認知の訓練として読める。LLMが平均的な文を量産する時代に、「平均的でない一語」を選び抜く作業の重さを再考する糸口になる一冊。",
+          "sourceName": "マガストア（NHKテキスト）",
+          "sourceUrl": "https://www.magastore.jp/product/104013",
+          "tags": [
+            "100分de名著",
+            "若松英輔",
+            "詩"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "キリンチャレンジカップ2026、本日6/13(土)10時から一般チケット販売開始 — 9/24宮城・キューアンドエースタジアム、価格は7,400円〜25,700円",
+          "summary": "日本サッカー協会(JFA)が、2026年9月24日(木)に宮城・キューアンドエースタジアムみやぎで開催する「<strong>キリンチャレンジカップ2026</strong>」(SAMURAI BLUE)の一般チケットを、本日2026年6月13日(土)10:00から「チケットJFA」で先着販売する。SAMURAI BLUEシートが販売開始価格25,700円、カテゴリー1で16,400円、最安は自由席カテゴリー6の2,900円〜7,400円。販売開始後も「ダイナミックプライシング」で価格変動する設計で、1人5枚まで(ファミリーシートは1セット)、購入はインターネットのみ。同月28日(日)は広島でも対戦予定で、対戦相手はW杯後の調整中のため未定のままチケット販売がスタートする。",
+          "sourceName": "日本サッカー協会（JFA）",
+          "sourceUrl": "https://www.jfa.jp/samuraiblue/20260924/ticket.html",
+          "tags": [
+            "サッカー",
+            "日本代表",
+            "チケット"
+          ]
+        }
+      ]
+    }
+  ]
+}

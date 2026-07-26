@@ -1,0 +1,124 @@
+{
+  "date": "2026-06-03",
+  "label": "2026年6月3日 (水)",
+  "intro": "GitHub Copilot app をテクニカルプレ…・グローバル決済代行のTokenz、シリーズAで10億円…・AWS Summit Japan 2026、6/25-…。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "GitHub Copilot app をテクニカルプレビュー公開 — Microsoft Build 2026、Windows/Mac/Linux対応のエージェント特化デスクトップアプリ",
+          "summary": "GitHubが6月2日のMicrosoft Build 2026で、新しい「GitHub Copilot app」をテクニカルプレビューとして公開した。Windows 11 / Windows on Arm / Mac / Linux に対応する初の専用デスクトップアプリで、複数リポジトリにまたがる「My Work」ビュー、エージェントと人間が同じ盤面で作業する Canvas 機能、ローカル/クラウドのサンドボックス、PR自動マージ補助の Agent Merge までを束ねる設計だ。同時に Copilot SDK が Node.js / TypeScript / Python / Go / .NET / Rust / Java の6言語で一般提供となり、自前のCopilot拡張を作りやすくなった。さらに7月以降は Enterprise 顧客向けに、ブランチ全体を自律的に書き換える Autonomous Agent Mode が有効化される(マージ前は人間承認が必須)。GitHub Actions の利用は週<strong>20億</strong>分超、コミット数は月<strong>14億</strong>超で、開発者の日常がエージェント前提に再設計されつつある。",
+          "sourceName": "The GitHub Blog",
+          "sourceUrl": "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
+          "tags": [
+            "GitHub",
+            "Copilot",
+            "Microsoft Build"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "グローバル決済代行のTokenz、シリーズAで10億円調達 — Headline AsiaがリードでSBIインベストメントも参加",
+          "summary": "Merchant of Record (MoR) 型のグローバル決済プラットフォームを提供する株式会社Tokenzが6月2日、シリーズAラウンドで総額<strong>10億円</strong>の第三者割当増資を完了した。リード投資家は Headline Asia、新規に SBI インベストメントと New Commerce Ventures、既存株主の Coral Capital、Cherubic Ventures、NEA らも追加出資した。Tokenz は2025年3月時点で<strong>170</strong>以上の国・地域、<strong>200</strong>種類超の決済手段に対応し、HUNTER×HUNTER公式アプリやワンダープラネット『Crash Fever』など大手コンテンツのクロスボーダー決済を捌いている。日本では2025年12月施行の「スマホソフトウェア競争促進法(スマホ新法)」で AppStore / Google Play 外の決済が広がっており、最大<strong>30%</strong>のプラットフォーム手数料を回避できる代替決済の需要が一気に立ち上がるタイミングだ。資金は AI を組み込んだ不正検知の強化、5拠点(東京/シンガポール/米国/リトアニア/台湾)の人員拡大に充てる。",
+          "sourceName": "PR TIMES",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000003.000163361.html",
+          "tags": [
+            "資金調達",
+            "フィンテック",
+            "スマホ新法"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "AWS Summit Japan 2026、6/25-26に幕張メッセで開催 — 260以上のセッションとAgentic AI特集、参加無料",
+          "summary": "国内最大のクラウドラーニングイベント「AWS Summit Japan 2026」が、6月25日(木)・26日(金)の<strong>2</strong>日間、幕張メッセで開催される。事前登録制で参加費は無料、<strong>260</strong>以上のセッション、<strong>300</strong>以上のExpo出展、AgenticなAI活用と本番運用を中心としたコンテンツが用意される。Day1 10:00からの基調講演、ハンズオン、顧客事例セッション、Networking Reception まで現地のラインナップが揃う。クラウド開発・運用の最新の語彙(エージェント、サーバレス、生成AI、コスト最適化、SREのAI化など)を一気に浴びられる場で、就活生でも事前申込さえすれば無料で参加できる。",
+          "sourceName": "AWS公式",
+          "sourceUrl": "https://aws.amazon.com/jp/events/summits/japan/",
+          "tags": [
+            "AWS",
+            "カンファレンス",
+            "幕張メッセ"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "AI Engineering Summit Tokyo 2026、Findyが6/8-9に浜松町で開催 — 申込3,000名突破でOpenAIも登壇",
+          "summary": "ファインディが主催する「AI Engineering Summit Tokyo 2026」が、6月8日(月)・9日(火)に浜松町コンベンションホール&ハイブリッドスタジオで開催される。テーマはAIエージェントを「使い・作り・組織で動かす」エンジニア/EMの実践知の共有で、すでに connpass 上の申込は<strong>3,000</strong>名を突破した。基調講演には OpenAI が登壇し、両日 9:00〜21:00 のロングセッション、現地+オンラインのハイブリッド配信、PingCAP や JAPAN AI など複数の協賛企業による事例トラックも用意される。",
+          "sourceName": "Findy connpass",
+          "sourceUrl": "https://findy-tools.connpass.com/event/389385/",
+          "tags": [
+            "Findy",
+            "AIエンジニア",
+            "カンファレンス"
+          ]
+        },
+        {
+          "position": 5,
+          "title": "マイネット、AI活用でゲーム運営コストを50%削減する中期目標を策定 — 自社AIエージェントで運営工程を自動化",
+          "summary": "運営型モバイルゲーム事業の株式会社マイネット(東証スタンダード)が6月3日、AIエージェントによって1タイトルあたりのゲーム運営コストを<strong>50%</strong>削減する中期目標を策定したと発表した。問い合わせ対応、リアルタイム不正検知、イベント企画の下書き生成、KPIモニタリングなど、運営工程の各レイヤをAIで自動化していく。マイネットは他社運営に移管されるオンラインゲームを引き取って延命する「ゲームのセカンダリ運営」を本業にしており、運営コストの圧縮はそのままLTV改善に直結する構造だ。",
+          "sourceName": "マイネット プレスリリース",
+          "sourceUrl": "https://www.gamebusiness.jp/article/2026/06/02/27100.html",
+          "tags": [
+            "マイネット",
+            "AI活用",
+            "ゲーム事業"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "NTT会長・澤田純氏「変化に適応するだけでは世界と戦えない」 — DHBR 6月号特集「組織の選択」で30万人の慣性を語る",
+          "summary": "『DIAMOND ハーバード・ビジネス・レビュー 2026年6月号』(5月9日発売)の特集「組織の選択 — 激変する環境にどう対応するか」で、NTT取締役会長の澤田純氏のインタビューが掲載された。グループ全体で<strong>30万人</strong>超を抱える組織は「現状維持の慣性」が極端に強く、適応するだけのスタンスでは世界の競争スピードに置いていかれる。澤田氏が打った手は、組織再編・経営の権限委譲・スピード重視のKPI設定の3点セットで、「変えない理由を温存しないために、決定を待たない」という構えだ。同号にはアントニオ・ニエト=ロドリゲス「プロジェクト主導型組織を実現する8つの要諦」、クリストファー・マーキス「戦略的冬眠を選ぶべき時」、AI戦略を組織実態に合わせる論考なども並ぶ。",
+          "sourceName": "DIAMOND ハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/13980",
+          "tags": [
+            "組織論",
+            "HBR",
+            "NTT"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "JAXA「MMX」、フォボス着陸のフライトシーケンスを確定 — 2028年到達・サンプルリターンは2031年帰還予定",
+          "summary": "JAXAは6月2日、2026年9月打ち上げを予定する火星衛星サンプルリターン探査機「MMX（Martian Moons eXploration）」の詳細なフライトシーケンスを公開した。火星圏到達は2028年8月を計画し、フォボス軌道投入後に<strong>2</strong>地点でのサンプル採取を実施、地球帰還は2031年を見込む。目標採取量は<strong>10g</strong>以上で、フォボスの組成が小惑星由来か、火星から飛び散った衝突破片かという長年の謎に直接アクセスするデータを持ち帰る。フランスCNES・ドイツDLRが共同開発した小型ローバー「IDEFIX」も搭載し、フォボス表面を自律走行しながら複数地点の地形観測を行う。MMXが成功すれば、はやぶさ2のリュウグウサンプル回収に続く、日本の惑星科学の第2弾マイルストーンとなる。",
+          "sourceName": "JAXA MMX公式",
+          "sourceUrl": "https://www.mmx.jaxa.jp/",
+          "tags": [
+            "JAXA",
+            "火星探査",
+            "宇宙科学"
+          ]
+        },
+        {
+          "position": 8,
+          "title": "ウェッブ望遠鏡が発見した謎の天体「リトル・レッド・ドット」の正体に迫る — 太陽の10万〜1,000万倍質量、若き超大質量ブラックホール説が浮上",
+          "summary": "ジェイムズ・ウェッブ宇宙望遠鏡(JWST)が撮影したほぼすべての画像に映り込んでいた小さな赤い天体「リトル・レッド・ドット(LRD)」について、デンマーク・英国などの国際研究チームが2年がかりのデータ解析の末、若い超大質量ブラックホールの「ガスの繭」に包まれた姿である可能性を Nature 誌(DOI: 10.1038/s41586-025-09900-4)で報告した。LRDは宇宙誕生から<strong>8</strong>〜<strong>20</strong>億年の時期に集中して出現し、その後ほぼ姿を消す。質量は太陽の<strong>10万</strong>〜<strong>1,000万</strong>倍と従来推定の約<strong>100</strong>分の1にまで下方修正され、現在の銀河中心に居座る巨大ブラックホールの「子ども時代」の標本である可能性が浮上した。これまで分析対象<strong>12</strong>個すべてでガスが球状にコンパクトに分布(数光日〜数百光日)していた点が決定打となった。初期宇宙の見え方が観測データの積み重ねによって静かに更新されている。",
+          "sourceName": "WIRED.jp",
+          "sourceUrl": "https://wired.jp/article/little-red-dots-revealed-as-young-black-holes-in-gas-cocoons/",
+          "tags": [
+            "天文学",
+            "ウェッブ望遠鏡",
+            "ブラックホール"
+          ]
+        }
+      ]
+    }
+  ]
+}

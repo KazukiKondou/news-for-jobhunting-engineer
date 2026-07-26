@@ -1,0 +1,124 @@
+{
+  "date": "2026-05-30",
+  "label": "2026年5月30日 (土)",
+  "intro": "Anthropic、Claude Opus 4.8公開・Microsoft、.NET MAUIのiOS/And…・Expo SDK 56リリース。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Anthropic、Claude Opus 4.8公開 — コードレビューで前世代比4倍の信頼性、Claude Code向けDynamic Workflowsをプレビュー",
+          "summary": "Anthropicは5月28日、フラグシップモデルClaude Opus 4.8を公開した。コーディング・エージェント能力・推論・オフィスワークの各ベンチマークで前世代Opus 4.7を上回り、社内評価ではコード生成時の見落としを許す確率が約4分の1に低下した。Claude Codeには研究プレビューとしてDynamic Workflowsが追加され、Claudeが計画を立てて多数のサブエージェントを並列に走らせ、結果を検証してから返す。料金は通常モードが入力100万トークン$5・出力$25で4.7から据え置き、Fastモードは2.5倍速で価格は従来の3分の1に下がった。claude.aiやCowork上では応答にかける思考量を調整できる「Effort」コントロールも導入された。",
+          "sourceName": "Anthropic公式",
+          "sourceUrl": "https://www.anthropic.com/news/claude-opus-4-8",
+          "tags": [
+            "AI",
+            "Anthropic",
+            "ClaudeCode"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "Microsoft、.NET MAUIのiOS/AndroidランタイムをCoreCLRへ統一 — 秋の.NET 11でMono時代を終える",
+          "summary": "Microsoftは、クロスプラットフォームUIフレームワーク.NET MAUIのiOSおよびAndroid向けランタイムを、秋にリリース予定の.NET 11でMonoからCoreCLRへ移行すると明らかにした。Xamarin時代から続いてきたMonoランタイムをようやく脱却し、バックエンドとフロントエンドのランタイムがCoreCLRに統一される。CoreCLRが備える階層型JIT、R2Rプリコンパイル、PGOといった最適化がモバイル開発でも利用可能になり、性能差や挙動差が縮小する見込みだ。あわせてiOSとMac Catalystではネイティブ向けAOTコンパイルが提供され、Androidも将来的に統一ツールチェーン化が進む。ただしBlazor WebAssemblyは引き続きMonoベースで稼働する。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/mononet_mauixamarinmonocoreclr.html",
+          "tags": [
+            ".NET",
+            "MAUI",
+            "モバイル"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "Expo SDK 56リリース — React Native 0.85搭載、Androidのコールドスタートが1.7倍速・iOSビルドが約16%短縮",
+          "summary": "React Nativeベースのモバイル開発プラットフォームExpoは5月21日にSDK 56をリリースした。同梱するReact Nativeは0.85、Reactは19.2に更新され、Activity.onCreateはKotlinコンパイラプラグインの新規導入で93msから55msへ約1.7倍速、Time to InteractiveもSDK 55比で1.5倍に改善した。iOSではExpoモジュールのプリコンパイル済みXCFrameworkを採用し、クリーンビルド時間の中央値を約1分・16%短縮、EASでコミュニティライブラリのプリコンパイル併用でさらに約20%短縮できる。SwiftUI（iOS）とJetpack Compose（Android）のExpo UI APIが正式に安定版となり、create-expo-appの既定テンプレートに組み込まれた。AGENTS.mdやCLAUDE.mdといったAIエージェント向け設定もデフォルトで生成される。",
+          "sourceName": "Expo公式（Changelog）",
+          "sourceUrl": "https://expo.dev/changelog/sdk-56",
+          "tags": [
+            "Expo",
+            "ReactNative",
+            "OSS"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "palplat、preシリーズAで2.1億円を調達 — 美容業界向けAI×人材プラットフォーム、累計4.2億円",
+          "summary": "美容業界に特化したAI×人材プラットフォームを開発するpalplat株式会社は5月29日、preシリーズAラウンドで総額2.1億円を調達したと発表した。累計調達額は4.2億円となる。引受先はKUSABI Fund 1、PKSHA Algorithm Fund 2、Aidemyの石川聡彦CEOによる個人出資。同社は採用支援の「MakeMe Career」、AIスキル診断付きのダイレクトリクルーティング「MakeMe Cloud」、店舗の販売現場でリアルタイムにフィードバックするAIエージェント「MakeMe Buddy」を提供する。資金は美容ブランド・サロン領域でのプロダクト拡張とAIエージェント機能の開発、エンジニアおよび事業開発職の採用に充てる。",
+          "sourceName": "palplat（PR TIMES）",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000022.000086672.html",
+          "tags": [
+            "資金調達",
+            "palplat",
+            "SaaS"
+          ]
+        },
+        {
+          "position": 5,
+          "title": "type、ITエンジニア新規求人倍率は2.9倍 — 2026年3月、前年比-1.1ptで「拡大→厳選」へ",
+          "summary": "転職サイトtypeが公開する最新動向によると、ITエンジニアの新規求人倍率は2026年3月時点で2.9倍。前月の3.3倍から0.4ポイント下げ、前年同月の4.0倍からは1.1ポイントの大幅減となった。応募側はtypeに登録するエンジニアの応募が4月時点で20〜30代1.4倍・全体1.5倍と引き続き活発で、求人倍率は1.1倍前後で安定推移している。typeは「採用姿勢は『拡大』から『厳選』へとシフトし、企業はジョブ型・スキルマッチで採用の優先順位を絞り込む段階に入った」と分析する。Web系事業会社志望でも、ポートフォリオやスキルセットで差を示せるかが成否を分ける局面に近づきつつある。",
+          "sourceName": "type（topics）",
+          "sourceUrl": "https://topics.type.jp/type-engineer/engineer-job-market-trend/",
+          "tags": [
+            "キャリア",
+            "求人倍率",
+            "type"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "ダイヤモンド、『頭のいい人だけが解ける論理的思考問題』を特集 — 「冷静に考えられる人」だけが答えられる一つの問い",
+          "summary": "ダイヤモンド・オンラインは5月29日、累計刊行のロングセラー『頭のいい人だけが解ける論理的思考問題』（野村裕之・著）の抜粋として、「階段の帽子」という古典的なロジックパズルを掲載した。学歴や専門知識ではなく、前提を整理して背理法やケース分けを丁寧に積み上げる「冷静さ」が答えに辿り着く鍵だと著者は論じる。記事中ではAIにも同じ問題を解かせ、人間が手順を口に出しながら推論する過程と、AIが省略するパターンとを対比している。生成AIに答えを丸投げするほど、人間側の「問題を分解する」「条件を疑う」訓練が利く場面が増える、という主張に読み替えられる構成だ。",
+          "sourceName": "ダイヤモンド・オンライン",
+          "sourceUrl": "https://diamond.jp/articles/-/390970",
+          "tags": [
+            "論理的思考",
+            "書評",
+            "野村裕之"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "21_21 DESIGN SIGHTで「ガウディ：未来をひらく窓」展 — 没後100年、東京会場は7月12日まで無料",
+          "summary": "アントニ・ガウディの没後100年にあたる2026年、東京ミッドタウンの21_21 DESIGN SIGHT ギャラリー3で「ガウディ：未来をひらく窓」展が5月16日から7月12日まで開催されている。YKK APが主催し、ガウディ建築の象徴的なモチーフである「窓」に着目した展示で、立面図・模型・スペインからの現地映像が並ぶ。バルセロナ側のメイン会場は4月21日から10月25日まで、ユネスコ世界遺産の「パラウ・グエル」で開かれており、東京会場はそのサテライト位置づけ。入場無料・開館10〜19時で、閉館日は5月26日と6月23日。建築や産業デザインの教養として、また「窓」を切り口に光・通風・装飾を読み替える視点を試せる機会となっている。",
+          "sourceName": "21_21 DESIGN SIGHT",
+          "sourceUrl": "https://www.2121designsight.jp/gallery3/gaudi_window/",
+          "tags": [
+            "建築",
+            "ガウディ",
+            "展覧会"
+          ]
+        },
+        {
+          "position": 8,
+          "title": "日本相撲協会、宮城野部屋を消滅と決定 — 力士ら全員が伊勢ケ浜部屋所属に、5月28日付で預かり解除",
+          "summary": "日本相撲協会は5月28日、両国国技館で理事会を開き、伊勢ケ浜部屋に「預かり」となっていた旧宮城野部屋について、同日付で預かりを解除すると決めた。これにより、史上最多の優勝45度を誇る元横綱白鵬が師匠を務めた宮城野部屋は完全に消滅し、所属していた力士・裏方は全員が伊勢ケ浜部屋の所属となる。宮城野部屋は元幕内・北青鵬の暴力問題に伴う監督義務違反で2024年4月から預かり扱いとなっていたが、預かりから2年以上、白鵬の親方退職から1年が経過し、部屋復興の申請も理事会に出ていなかったとして、賛成多数で正式な消滅が決まった。元横綱照ノ富士は「もともと一つの部屋。変わらず今まで通り頑張りたい」とコメントしている。",
+          "sourceName": "デイリースポーツ",
+          "sourceUrl": "https://www.daily.co.jp/general/2026/05/28/0020408581.shtml",
+          "tags": [
+            "相撲",
+            "宮城野部屋",
+            "スポーツ"
+          ]
+        }
+      ]
+    }
+  ]
+}

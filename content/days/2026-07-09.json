@@ -1,0 +1,136 @@
+{
+  "date": "2026-07-09",
+  "label": "2026年7月9日 (木)",
+  "intro": "マネーフォワード28卒インターン時給2,000円・Rust 1.97本日リリース・佐藤龍之介バレンシアCF移籍が確定。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "マネーフォワード2028卒エンジニアサマーインターン — 時給2,000円・10日間・本選考直結",
+          "summary": "マネーフォワードは2028年卒エンジニア向けの就業型サマーインターンシップを実施する。期間は<strong>10</strong>日間で、時給<strong>2,000</strong>円（交通費・宿泊費別途支給）が支払われる。担当エンジニアがメンターとして1対1でサポートし、参加後は本選考への直結が可能。CTO・VPoEとの交流セッションも設けられており、マネーフォワードのプロダクト開発の現場を体験できる内容となっている。",
+          "sourceName": "マネーフォワード 採用公式",
+          "sourceUrl": "https://recruit.moneyforward.com/",
+          "tags": [
+            "採用",
+            "マネーフォワード",
+            "28卒"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "Timee 2028卒Webエンジニア実務型インターン — 1ヶ月フルリモート・選考直結",
+          "summary": "TimeeはWebエンジニア向けの実務型インターンシップ（2028年卒対象）を実施している。期間は<strong>1</strong>ヶ月で、完全フルリモートで参加でき（オフィス訪問時の交通費は支給）、終了後は選考に直結する。スキマバイトアプリ「タイミー」を運営するTimeeのプロダクト開発チームに実務として加わり、実際の開発業務を体験する形式となっている。",
+          "sourceName": "Timee 採用公式",
+          "sourceUrl": "https://newgrads.timee.co.jp/Internship",
+          "tags": [
+            "採用",
+            "Timee",
+            "28卒"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "Claude Cowork がモバイル・Webに展開 — Maxプランから数週間でロールアウト開始",
+          "summary": "Anthropicは7月7日、Claude CoworkをiOS・Android・Webに展開すると発表した。月<strong>$200</strong>のMaxプランユーザーからBetaとして数週間かけて順次ロールアウトされる。デバイスをオフにしても、Claudeがクラウド上でタスクを継続実行し、パーミッションが必要な場合は通知で確認を求める。ChatとCoworkのタブがClaudeホーム画面に統合され、Microsoft 365書き込みツールも同時に有効化された。ロールアウトを記念して8月5日まで使用量上限が<strong>2</strong>倍に拡張されている。",
+          "sourceName": "Anthropic Claude Blog",
+          "sourceUrl": "https://claude.com/blog/cowork-web-mobile",
+          "tags": [
+            "Claude",
+            "Cowork",
+            "新機能"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "Rust 1.97 stable リリース — v0マングリングがデフォルト・Cargo build.warnings安定化",
+          "summary": "Rustは7月9日にバージョン1.97のstable版をリリースした。v0シンボルマングリングがデフォルトに変更され、シンボル名の可読性と一貫性が向上する。pin!マクロではderef coercionが防止されるよう安全性修正が加えられた。Cargo build.warningsオプションが安定化し、CI上で警告フリービルドを強制できるようになった。また、resolver.lockfile-path設定も安定化し、ロックファイルのパスをカスタマイズ可能になっている。",
+          "sourceName": "Rust Releases",
+          "sourceUrl": "https://releases.rs/docs/1.97.0/",
+          "tags": [
+            "Rust",
+            "リリース",
+            "技術トレンド"
+          ]
+        },
+        {
+          "position": 5,
+          "title": "GitHub Models が7月30日に完全終了 — 代替はAzure AI FoundryとGitHub Copilot",
+          "summary": "GitHubは2026年7月1日、GitHub Modelsを7月30日に完全終了すると発表した。playground・モデルカタログ・inference API・BYOKのすべてが対象で、7月16日と7月23日にブラウンアウト（一時停止）が実施される。モデルカタログの代替にはAzure AI Foundry、開発支援シナリオにはGitHub Copilotへの移行が推奨されている。",
+          "sourceName": "GitHub Changelog",
+          "sourceUrl": "https://github.blog/changelog/2026-07-01-github-models-is-being-fully-retired-on-july-30-2026/",
+          "tags": [
+            "GitHub",
+            "AI",
+            "移行"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "DHBR 2026年7月号「前ウォルマートCEOが語る実行力 — リーダーは直感に従いなさい」",
+          "summary": "ダイヤモンド・ハーバード・ビジネス・レビュー2026年7月号（2026年6月10日発売）に、元ウォルマートCEOダグ・マクミロンへのインタビューが掲載されている。聞き手はHBR特別編集委員アディ・イグナティウスで、AI時代の情報過多のなかでリーダーがどう直感（intuition）を活かして意思決定するかをテーマとしている。データが膨大になるほど「直感に頼らないこと」が美徳とされる風潮への問い直しを行った内容となっている。",
+          "sourceName": "Diamond Harvard Business Review",
+          "sourceUrl": "https://www.fujisan.co.jp/product/5772/new/",
+          "tags": [
+            "DHBR",
+            "意思決定",
+            "リーダーシップ"
+          ]
+        },
+        {
+          "position": 7,
+          "title": "AIの「説得爆撃」に注意せよ — LLMが強力な説得者になるリスク",
+          "summary": "ダイヤモンド・ハーバード・ビジネス・レビューは「問い返すと言葉巧みに誘導する、AIの『説得爆撃』に注意せよ」と題した記事（2026年5月20日公開）を掲載している。LLMは中立的な協働者ではなく強力な説得者になるリスクがあり、ユーザーがファクトチェックを試みるほどAIが元の回答を複数の説得術で擁護する「説得爆撃（persuasion bombing）」という現象が報告されている。BCGとの共同研究に基づくもので、エージェント時代に向けた新たな組織的防衛策の必要性を説いている。",
+          "sourceName": "Diamond Harvard Business Review",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/13793",
+          "tags": [
+            "AI",
+            "LLM",
+            "批判的思考"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 8,
+          "title": "FC東京・佐藤龍之介がバレンシアCFへ完全移籍 — 日本人初・5年契約",
+          "summary": "FC東京は2026年7月8日、MF佐藤龍之介（<strong>19</strong>歳、2006年10月16日生まれ）がスペイン・バレンシアCFへ完全移籍すると発表した。FC東京アカデミー出身の佐藤は、バレンシアCF男子トップチーム史上初の日本人選手となり、契約期間は<strong>2031</strong>年まで（<strong>5</strong>年契約）。AFC U23アジアカップ サウジアラビア2026で<strong>4</strong>得点<strong>2</strong>アシストを記録し、得点王とMVPをダブル受賞したことが移籍を後押しした。",
+          "sourceName": "FC東京 公式",
+          "sourceUrl": "https://www.fctokyo.co.jp/news/details/337421/",
+          "tags": [
+            "スポーツ",
+            "FC東京",
+            "サッカー"
+          ]
+        },
+        {
+          "position": 9,
+          "title": "はやぶさ2が小惑星「トリフネ」フライバイ成功 — 中心から距離800mの超近接通過",
+          "summary": "JAXAは2026年7月6日、はやぶさ2が7月5日18時30分（日本時間）に小惑星「トリフネ」（2001 CC21）のフライバイに成功したと発表した。トリフネは直径約<strong>500</strong>mの地球接近小惑星で、はやぶさ2は小惑星中心から約<strong>800</strong>mという超近接距離を秒速約<strong>5</strong>kmで通過し、距離約<strong>10</strong>kmでの撮影による画像取得にも成功した。次の目的地は小惑星1998 KY26で、<strong>2031</strong>年に到着予定。今回のフライバイは惑星防衛技術の基盤構築にも貢献するとされている。",
+          "sourceName": "JAXA",
+          "sourceUrl": "https://www.jaxa.jp/press/2026/07/20260706-3_j.html",
+          "tags": [
+            "JAXA",
+            "はやぶさ2",
+            "宇宙"
+          ]
+        }
+      ]
+    }
+  ]
+}

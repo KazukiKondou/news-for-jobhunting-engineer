@@ -1,0 +1,124 @@
+{
+  "date": "2026-06-06",
+  "label": "2026年6月6日 (土)",
+  "intro": "GitHub Copilotサンドボックスがプレビュー公開、Datadog調査でLLM呼び出しの5%が失敗、Microsoft Build 2026で7つのAIモデル発表が並んだ。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "GitHub Copilot、クラウド/ローカル両対応の「サンドボックス機能」をプレビュー公開 — MXC基盤で安全にエージェント実行",
+          "summary": "GitHubが6月5日、<strong>GitHub Copilot</strong>のサンドボックス機能をプレビュー公開した、とCodeZineが伝えた。ローカル版は macOS / Linux / Windows に対応し、Copilotが実行するシェルコマンドを Microsoft が同時発表した MXC(Microsoft Execution Containers) 技術で制限する。クラウド版はGitHubがホストする完全隔離Linux環境を「コマンド一つで」起動でき、デバイス間で作業を継続したり高負荷タスクをオフロードできる。Copilotにエージェント的な実行権限を渡しつつ、コード・ツール・ファイルシステム・ネットワークを安全に分離するための基盤側の整備で、Web系開発の日常フローにもエージェント実行が組み込まれていく流れだ。",
+          "sourceName": "CodeZine",
+          "sourceUrl": "https://codezine.jp/news/detail/24465",
+          "tags": [
+            "GitHubCopilot",
+            "サンドボックス",
+            "エージェント開発"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "Datadog、2026年版「State of AI Engineering」公開 — 本番LLM呼び出しの5%が失敗、原因の6割はレート制限超過",
+          "summary": "Datadogが6月3日、2026年版「State of AI Engineering」調査レポートを公開した(CodeZine報)。本番環境におけるAIモデルへの呼び出しのうち約<strong>5%</strong>がエラーで失敗し、その<strong>約6割</strong>はレート制限超過などキャパシティ起因。3つ以上のモデルを使う組織が<strong>70%</strong>、<strong>6個以上</strong>を運用する企業も<strong>41%</strong>に達し、マルチモデル前提の運用が標準化した。1リクエスト当たりのトークン使用量の中央値も<strong>2058 → 5251</strong>へ倍増、コンテキストエンジニアリングへの投資が競争力に直結し始めている。Web系の本番AIは「素早く試す」段階から「安全に動かし続ける」段階へ移行しつつある。",
+          "sourceName": "CodeZine",
+          "sourceUrl": "https://codezine.jp/news/detail/24456",
+          "tags": [
+            "Datadog",
+            "LLM運用",
+            "AIエンジニアリング"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "マイクロソフト、自社開発の7つのAIモデル「Microsoft AI Models」発表 — 音声認識MAI Transcribe-1.5は競合の5倍速・43言語対応",
+          "summary": "マイクロソフトが日本時間6月3日未明開幕の<strong>Microsoft Build 2026</strong>で、自社開発した<strong>7つのAIモデル</strong>「Microsoft AI Models」を発表したと、Publickeyが報じた。推論フラッグシップMAI-Thinking-1は「中規模ながら同クラスでは最強クラス」、MAI-Code-1-FlashはGitHub Copilot・VS Code連携前提のエージェント型コーディングモデル、MAI Transcribe-1.5は競合モデルの<strong>5倍速</strong>で<strong>43言語</strong>に対応する音声認識、MAI-Voice-2は<strong>15言語</strong>の音声生成、画像系のMAI-Image-2.5はArenaスコアで他社を上回るとされる。自社モデル化により、Copilot周辺のスタックを内製基盤で固める動きが本格化した。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/7aimicrosoft_ai_models.html",
+          "tags": [
+            "Microsoft",
+            "AIモデル",
+            "Build2026"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "GenerativeX、シリーズAで総額6.5億円調達 — Salesforce Venturesも参加、FDE型AIエージェント支援を米国にも展開",
+          "summary": "2023年設立のAIエージェント特化スタートアップ <strong>株式会社GenerativeX</strong> が6月1日、シリーズAで総額<strong>6.5億円</strong>を調達したと発表した。リード投資家はニッセイキャピタル、ほかにSalesforce Ventures、Angel Bridge、ディープコア、SMBCベンチャーキャピタルが参加。同社はFDE(Forward Deployed Engineer)型コンサルティングと AIエージェントの設計・導入を一気通貫で提供するモデルで、金融・製薬・製造の大手<strong>80社</strong>(時価総額合計約950兆円)を支援してきた実績がある。今回の資金は米国(サンフランシスコ・ニューヨーク)拠点でのFDE体制本格展開、AIリスク・セキュリティ領域強化に投じられる。Web系AI実装と業務側の溝を埋める職種として、FDEポジションが日本の就活市場にも拡張していく動きだ。",
+          "sourceName": "GenerativeX プレスリリース",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000040.000124664.html",
+          "tags": [
+            "GenerativeX",
+            "シリーズA",
+            "SalesforceVentures"
+          ]
+        },
+        {
+          "position": 5,
+          "title": "Findy、6/17-18に「エンジニアの役割の変化に向き合うConference」を無料開催 — 達人プログラマー著者Dave Thomas登壇",
+          "summary": "ファインディが、生成AIの進化に伴うエンジニアの役割拡張をテーマにした2日間カンファレンス「エンジニアの役割の変化に向き合うConference」を、<strong>6月17日(水)-18日(木)</strong>にオンライン無料配信する。登壇者は『達人プログラマー』著者の <strong>Dave Thomas</strong>、シンギュラリティ・ソサエティ代表理事の中島聡、エンジニアリングリーダー著者の <strong>Cate Huston</strong>、日本CTO協会理事の広木大地ら。技術領域を超えた事業/プロダクト/組織への関わり、キャリアの選択肢、組織設計を扱う構成で、6月18日夜にはファインディオフィスでの懇親会も予定されている。学生も参加可能で、就活前に「Web系エンジニアのキャリア像」を一次情報で取りに行ける貴重な機会。",
+          "sourceName": "Findy Tools (connpass)",
+          "sourceUrl": "https://findy-tools.connpass.com/event/393515/",
+          "tags": [
+            "Findy",
+            "カンファレンス",
+            "DaveThomas"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "DHBR 7月号「リーダーは直感に従いなさい」 — 前ウォルマートCEOマクミロンが語る生成AIへの転換と「自分らしさ」",
+          "summary": "DHBR2026年7月号(6/9発売)のインタビュー「リーダーは直感に従いなさい」では、前ウォルマートCEOの<strong>ダグ・マクミロン</strong>が、激動する経営環境のなかで「自分がどんな人間かを忘れずに、それでも変化を恐れない」というスタンスを語る。生成AIに対する姿勢を当初の慎重派から成長志向へとどう切り替えたかという具体例、そして次のリーダーを選ぶ際に「より速く・より効果的に変化に対応できる人物」を基準に置いたという判断軸が示される。意思決定をデータ分析だけで埋めようとすると凍りつくAI時代だからこそ、「自分の直感は何を見ているか」を内省できるメタ認知の重みが増す、という読み方ができる論考。",
+          "sourceName": "DIAMOND ハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14149",
+          "tags": [
+            "DHBR",
+            "直感と意思決定",
+            "マクミロン"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "新種の羽毛恐竜「ジアン・チャンマエンシス」中国甘粛省で発見 — 翼開長1.2mの「4枚の翼を持つ小さなドラゴン」",
+          "summary": "中国北西部・甘粛省の昌馬盆地で、白亜紀前期(<strong>約1億2400万〜1億2000万年前</strong>)の地層から、新種の小型羽毛恐竜<strong>ジアン・チャンマエンシス</strong> (Jian changmaensis) の化石が見つかった、とナゾロジーが6月5日に報じた。腕と脚の両方に長い羽毛をもつ「ミクロラプトル類」で、4本の肢すべてが翼状になっていたため研究者は「まるで<strong>4枚の翼</strong>を持つ小さなドラゴン」と表現する。翼開長は<strong>約1.2m</strong>、体格はメンフクロウほどと推定される。論文は『Annals of Carnegie Museum』2026年6月4日号。鳥類進化の初期に「飛行のかたち」が複数並列に試されていた証拠が一つ増えた。",
+          "sourceName": "ナゾロジー",
+          "sourceUrl": "https://nazology.kusuguru.co.jp/archives/195948",
+          "tags": [
+            "古生物学",
+            "羽毛恐竜",
+            "中国甘粛省"
+          ]
+        },
+        {
+          "position": 8,
+          "title": "ローマの高校生たち、体育館の地下に「1800年前の豪邸」を発見 — フレスコ画・モザイク完備、ウンブリウス家所有の可能性",
+          "summary": "ローマ中心部・コロッセオ近くにあるカヴール科学高校の体育館の地下から、ローマ帝政中期(2世紀中頃、<strong>約1800年前</strong>)の大型「ドムス」(高級邸宅)の遺構が出てきた、とナゾロジーが6月5日に報じた。生徒たちの間で噂になっていた地下通路を探検記録した報告がきっかけで、2026年1月から本格的な発掘が開始されたという。出土したのは精緻な<strong>フレスコ画・装飾・モザイク</strong>で、上流階級の住居に典型的な装い。碑文からは<strong>ウンブリウス家</strong>が所有者だった可能性が示唆され、キケロやアウグストゥスの邸宅が並んだ歴史的居住区域とつながる発見になる。「教室の真下に1800年が眠っていた」という日常と古代が直結する話。",
+          "sourceName": "ナゾロジー",
+          "sourceUrl": "https://nazology.kusuguru.co.jp/archives/195942",
+          "tags": [
+            "古代ローマ",
+            "考古学",
+            "ドムス"
+          ]
+        }
+      ]
+    }
+  ]
+}

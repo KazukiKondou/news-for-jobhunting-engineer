@@ -1,0 +1,136 @@
+{
+  "date": "2026-06-18",
+  "label": "2026年6月18日 (木)",
+  "intro": "SpaceXがCursor運営Anysphereを600億ドルで買収合意、AWS FinOps Agentがプレビュー開始、ChatGPTシェアは初の50%割れ。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "SpaceX、AIコーディング Cursor 運営の Anysphere を600億ドル株式交換で買収合意 — 解除料は最大100億ドル、完了は2026年Q3",
+          "summary": "SpaceX が2026年<strong>6月17日</strong>、AIコーディングアシスタント Cursor を提供する <strong>Anysphere</strong> を全株式交換で買収する合意に達したと公表(GIGAZINE)。買収総額は<strong>600億ドル</strong>、Anysphere の年商はB2Bで<strong>約26億ドル</strong>、直近の資金調達では500億ドルの評価額が付いていた。合意日は6月16日、クロージングは<strong>2026年Q3</strong>を見込む。一般解除手数料<strong>100億ドル</strong>・反トラスト由来の解除料<strong>40億ドル</strong>という巨額の break-up fee は、買収を確実に通したい SpaceX 側の意志の強さを示す。傘下 xAI / Grok Build と Cursor は既に共同モデル学習で関係が深く、Elon Musk 陣営が「開発者の使うIDEを丸ごと取り込みに行く」構図が固まる。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260617-spacex-acquires-curso-anysphere/",
+          "tags": [
+            "企業動向",
+            "M&A",
+            "SpaceX"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "AWS、コスト調査をAIエージェントに任せる「FinOps Agent」パブリックプレビュー — CloudTrail連携・Slack日報・Jira起票まで自動",
+          "summary": "AWS が2026年<strong>6月18日</strong>付で、コスト関連の質問を自然言語で投げると AIエージェントが原因を調査・回答してくれる「<strong>AWS FinOps Agent</strong>」のパブリックプレビューを開始した(Publickey)。コスト異常が出ると CloudTrail のイベントと突き合わせて原因を特定し、Slack に日次定期レポートを<strong>PDF</strong>で投稿、Cost Optimization Hub / Compute Optimizer からの推奨構成を<strong>Jiraチケット</strong>に起票するところまでを自動化する。プレビュー期間中は一定の使用制限付きで<strong>追加料金なし</strong>、対応リージョンは米東(バージニア北部)のみ。「クラウド請求書の解読」が AI エージェントの典型ユースケースとして標準化されつつあり、FinOps 専任ポジションの仕事の中身もエージェントへのプロンプト設計と監督に寄っていく。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/awsaiaws_finops_agent.html",
+          "tags": [
+            "技術トレンド",
+            "AIエージェント",
+            "AWS"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "ChatGPT利用者シェアが初の50%割れ、5月46.4% — Gemini 27.7%・Claude 10.3%、Claudeのユーザー単価は2.76ドルでGPT超え",
+          "summary": "2026年<strong>6月17日</strong>付の GIGAZINE が State of AI レポートを紹介。ChatGPT の利用者シェアは2026年<strong>3月</strong>に初めて50%を割り、5月時点で <strong>46.4%</strong>、Gemini <strong>27.7%</strong>、Claude <strong>10.3%</strong> に伸びた。ChatGPT の月間アクティブユーザーは5月に<strong>11億人</strong>を突破しており、ユーザー数自体は減っていない=競合がそれ以上に伸びている構図。米モバイルアプリのユーザーあたり売上は Claude が<strong>2.76ドル</strong>で ChatGPT の<strong>1.74ドル</strong>を超え、Anthropic の年換算売上は3月時点で OpenAI を上回った。「会話品質の比較」より「Google エコシステムや開発者ワークフローへの組み込み」など、サービス統合面に競争の重心が移っている。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260617-state-of-ai/",
+          "tags": [
+            "業界動向",
+            "LLM",
+            "競争環境"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "GitHub大規模障害が頻発、MicrosoftがAWSにキャパシティ協力要請 — 週2.75億コミット、年140億コミットペースに",
+          "summary": "2026年<strong>6月17日</strong>付の GIGAZINE。GitHub では今年に入って大規模障害が連発しており、Microsoft は AWS をはじめとする他クラウドの容量を借りて当面の処理能力をしのいでいることを認めた。週間コミット数は2025年の年間<strong>10億</strong>から<strong>週2.75億</strong>にまで膨らみ、このペースなら2026年は<strong>140億コミット</strong>に到達する見込み。GitHub Actions の実行時間も週<strong>5億分(2023)→週10億分(2025)</strong>と倍増し、AIエージェントによる自動開発が既存インフラの想定をはるかに上回った。Microsoft は2026年度に<strong>1,900億ドル</strong>(約30兆円)の設備投資を Azure データセンター拡張に充てる一方、Copilot の有料転換が進まず投資家から訴訟も起こされている。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260617-microsoft-turns-aws-github-capacity/",
+          "tags": [
+            "インフラ",
+            "企業動向",
+            "GitHub"
+          ]
+        },
+        {
+          "position": 5,
+          "title": "Android 17 正式リリース — 任意アプリをフローティング化する「アプリバブル」、ML-DSAでポスト量子暗号、対応はPixel 6以降",
+          "summary": "Google が2026年<strong>6月16日</strong>に Android 17 の正式版を公開(GIGAZINE 6月17日付)。目玉は (1) 任意のアプリをフローティングバブル化できる「<strong>アプリバブル</strong>」、(2) <strong>ML-DSA</strong> による量子耐性鍵生成・署名のシステム統合、(3) 自撮りと画面録画を同時にできる Screen Reaction、(4) 完全操作可能な <strong>Interactive PiP</strong>、(5) 1タップで端末間タスクを移送する Continue On、など。メモリ管理はプロセスごとの上限を厳格化し、超過時は即時終了させる方針。権限も「セッション単位で特定データだけ」とより細粒度に。対応端末は <strong>Pixel 6 以降</strong>で、システム分割によって CPU 使用率・消費電力・UI のジャダーが軽減されたとしている。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260617-android-17/",
+          "tags": [
+            "技術トレンド",
+            "モバイル",
+            "Android"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "ログミーBiz 豊間根青地「部下への\"ふわっと指示\"を脱する 4ステップ」 — 課題・行動・語感・運用",
+          "summary": "ログミーBiz <strong>2026年6月17日</strong>付の続編レポート。うねり株式会社代表・<strong>豊間根青地</strong>氏が、組織で実際に動くフレームワークを作る4ステップを示す。(1) <strong>課題から作る</strong>(目指す状態と現状のギャップから逆算する)、(2) <strong>行動から作る</strong>(思考の整理と実際の手数が連結する)、(3) <strong>語感から作る</strong>(記憶に残る \"耳慣れない\" 言葉を選ぶ)、(4) <strong>運用で仕上げる</strong>(現場で回しながら定義を書き直し続ける)。根底には「同じ言葉を使っていると思い込んで、実は違う意味で受け取っている」という組織内コミュニケーションの常態への認識がある。漠然と『レベルを上げよう』と言わず『QAR』のような共通言語を作る、という発想は、自分自身のESや面接の \"あいまいワード\" を点検する作業にもそのまま転用できる。",
+          "sourceName": "ログミーBiz",
+          "sourceUrl": "https://logmi.jp/main/management/333558",
+          "tags": [
+            "コミュニケーション",
+            "フレームワーク",
+            "豊間根青地"
+          ]
+        },
+        {
+          "position": 7,
+          "title": "nazology「自らの幸福度を下げてしまう3つの共通パターン」 — 安全・居場所・外部評価依存",
+          "summary": "nazology <strong>2026年6月18日</strong>付。Psychology Today の整理を元に、心理士がカウンセリング現場で繰り返し見る「自分で自分の幸福度を下げてしまう」3パターンを並べた記事。(1) <strong>心の土台となる \"安全\" が確保されていない</strong>(経済的安定・健康・生活の予測可能性が崩れると、心は警戒状態を続け、未来の成長より目前の不安に資源を奪われる)、(2) <strong>\"ここが私の居場所\" と思える心の拠り所がない</strong>、(3) <strong>自分の価値を \"外部の評価\" に預けてしまう</strong>。『Science』掲載の先行研究では、<strong>経済的欠乏感そのものが認知処理能力を下げる</strong>ことが実証されており、夢を追う前の \"土台調整\" を怠ると思考そのものの帯域が落ちる。睡眠不足・経済不安・過剰な業務量の見直しを優先する、という順番の組み替えは自己分析でも有効。",
+          "sourceName": "ナゾロジー",
+          "sourceUrl": "https://nazology.kusuguru.co.jp/archives/196662",
+          "tags": [
+            "心理学",
+            "幸福度",
+            "認知科学"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 8,
+          "title": "70万年前のジリスの糞化石からマンモスのDNA — カナダ・ハカイ研「植食動物が巨獣の肉も食べていた」",
+          "summary": "nazology <strong>2026年6月17日</strong>付。カナダ・<strong>ハカイ研究所</strong> と <strong>マクマスター大学</strong> の研究チームが、ユーコン凍土から見つかった最大<strong>70万年前</strong>のジリスの糞化石(コプロライト)を分析した論文を Nature Communications に発表(2026年6月9日)。糞からは<strong>マンモス・バイソン</strong>といった巨大草食動物に加え、大型ネコ科の DNA まで検出され、現生のジリスでは確認されていない \"巨獣の肉食\" の痕跡が出てきた。凍土に保存された70万年前の糞は、サンプル開封時にまだ \"はっきりとフンの臭い\" がしたといい、筆頭著者タイラー・マーチー氏は「70万年前のフンが、まだ臭うとは思わなかった」と述べる。教科書的な「植食/肉食」二分が氷期下では崩れていた可能性を示し、古生態の前提を組み替える発見。",
+          "sourceName": "ナゾロジー",
+          "sourceUrl": "https://nazology.kusuguru.co.jp/archives/196688",
+          "tags": [
+            "考古学",
+            "古生物",
+            "古環境"
+          ]
+        },
+        {
+          "position": 9,
+          "title": "2頭の母トラが子育てを分担、ネパール西部で世界初撮影 — 4平方kmの島で5頭の子を交代世話",
+          "summary": "nazology <strong>2026年6月17日</strong>付。BBC のドキュメンタリー『Tiger Island』撮影チームが、ネパール西部の河川にある面積<strong>約4平方km</strong>の小島で、2頭の母トラ「ゴマ」と「ジュギニ」が子育てを分担している様子をドローン撮影で世界初記録した。ジュギニが食事をしている間、ゴマが自分の子<strong>2頭</strong>と、ジュギニの子<strong>3頭</strong>を合わせた<strong>計5頭</strong>を見守る \"交代制保育\" が、縞模様パターンを個体識別マーカーとして用いた空撮で初めて連続観察された。「単独行動の捕食者」とされてきたトラの社会性について、孤立した環境下では協力的養育が成立しうるという例で、霊長類以外の大型哺乳類の協力育児研究の論点を拡張する。",
+          "sourceName": "ナゾロジー",
+          "sourceUrl": "https://nazology.kusuguru.co.jp/archives/196657",
+          "tags": [
+            "生物",
+            "動物行動学",
+            "ネパール"
+          ]
+        }
+      ]
+    }
+  ]
+}

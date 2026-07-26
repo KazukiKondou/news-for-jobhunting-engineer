@@ -1,0 +1,124 @@
+{
+  "date": "2026-06-19",
+  "label": "2026年6月19日 (金)",
+  "intro": "iOS版BlinkがSafariを28.6%上回るベンチ、Claude DesignとClaude Code連携が1週間100万人、Epic GamesがMITのVCS「Lore」を公開。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Microsoft、iOS版Blink試作ブラウザがSafariをSpeedometer 3.1で28.6%上回るベンチ — EU DMAのBrowserEngineKitを活用、JetStreamも+13.1%",
+          "summary": "Microsoft Edge チームが2026年<strong>6月18日</strong>、iOS 上で Chromium の <strong>Blink レンダリングエンジン</strong>を動かす試作版ブラウザのベンチマーク結果を公開した(GIGAZINE)。Speedometer 3.1 は Blink版が<strong>49.27</strong> vs Safari <strong>38.3</strong>(<strong>+28.6%</strong>)、JetStream 3 は <strong>306.35</strong> vs <strong>270.9</strong>(+13.1%)、MotionMark 1.3.1 は <strong>4773.52</strong> vs <strong>4673.68</strong>(+2.1%)。EUのデジタル市場法に伴い Apple が2024年3月から BrowserEngineKit 経由で代替エンジンを許可しているが、技術的制約とユーザーベース移行の壁から大手の正式リリースはまだない。iOS の「Web プラットフォーム=Safari独占」前提が崩れれば、Web系の表示性能・PWA・WebGPU 戦略にも影響する。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260618-blink-on-ios/",
+          "tags": [
+            "技術トレンド",
+            "ブラウザ",
+            "Microsoft"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "Anthropic、Claude DesignとClaude Codeを双方向同期 — 1週間で100万人利用、/design-syncコマンドでFigma・Adobe・Replit連携",
+          "summary": "Anthropic が2026年<strong>6月18日</strong>付で、UI設計向けの Claude Design と開発向けの Claude Code の連携を強化したと発表(GIGAZINE)。デザインシステムのインポートを刷新し、キャンバス上での直接編集が可能になり、/design-sync コマンドでデザインとコードを双方向同期できる。<strong>Figma</strong>・<strong>Adobe</strong>・<strong>Lovable</strong>・<strong>Replit</strong> など外部ツール連携も拡大。提供開始から<strong>1週間で100万人</strong>以上が利用、トークン消費量とエラーも平均的に減少したと公表。デザイナーとエンジニアの境界が薄くなり、就活生の「UI と実装の両方触れる」スキルセットが評価されやすくなる。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260618-claude-design-claude-code/",
+          "tags": [
+            "技術トレンド",
+            "AIエージェント",
+            "Anthropic"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "GitHub、PR数の同時オープン上限を管理者が設定できる機能 — 生成AIによる低品質PR大量投稿対策、信頼コントリビュータはバイパス可",
+          "summary": "GitHub が2026年<strong>6月18日</strong>付で、書き込み権限のない外部ユーザーが <strong>1リポジトリで同時にオープンできるPR数</strong>を、リポジトリ管理者が上限設定できる機能をリリースした(GIGAZINE)。生成AIによる「とりあえず一斉投稿」型の低品質PRが OSS メンテナーを疲弊させていた背景がある。上限に達したユーザーは、既存PRがクローズ or マージされるまで新規作成できなくなる。一方で <strong>バイパスリスト</strong>に登録された \"信頼できるコントリビュータ\" は対象外なので、まじめな貢献者の手は止まらない。「PR を出した経験」だけでなく「マージまで通したか・コミュニティで信頼関係を作ったか」を就活で語れることの価値が改めて上がっている。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260618-github-limit-pull-request/",
+          "tags": [
+            "開発ツール",
+            "GitHub",
+            "OSS"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "OpenAI財務文書流出、2025年純損失385億ドル(約6兆円) — 売上130.7億ドル・R&D 191.8億ドル、黒字化は2029年まで見込めず",
+          "summary": "2026年<strong>6月18日</strong>付の GIGAZINE。流出した内部財務文書から、<strong>OpenAI</strong> の2025年売上は<strong>130億7000万ドル(約2兆円)</strong>、営業費用は<strong>415億5000万ドル(約6.6兆円)</strong>に達し、純損失は<strong>385億ドル(約6兆円)</strong>に達したと判明。<strong>R&D だけで191.8億ドル(約3兆円)</strong>。営業赤字の対売上比は2024年の <strong>237%</strong> から2025年は <strong>160%</strong> にとどまったが、<strong>キャッシュフロー黒字化は2029年まで見込めない</strong>計画。IPO 準備中だが今後は収益性とコスト改善に方針が寄る可能性が高い。「LLM 自体は儲かるか」より「インフラを誰が持つか・どこまで効率化できるか」が AI 業界の中心テーマに変わりつつある。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260618-openai-financial-docs/",
+          "tags": [
+            "企業動向",
+            "財務",
+            "OpenAI"
+          ]
+        },
+        {
+          "position": 5,
+          "title": "Epic Games、大容量バイナリ向けVCS「Lore」をMITライセンスで公開 — 差分転送・部分DL・マークルツリー検証、Unreal Editor for Fortniteで実運用済",
+          "summary": "Epic Games が2026年<strong>6月18日</strong>付で、大容量バイナリファイルの取り扱いを前提に設計したバージョン管理システム「<strong>Lore</strong>」を <strong>MITライセンス</strong>でオープンソース公開した(GIGAZINE)。ファイルを小断片に分割し<strong>変更部分のみを再処理</strong>することで転送量を抑え、必要な範囲だけの部分ダウンロード、オフライン編集、<strong>マークルツリー</strong>による改ざん検出に対応する。Git は元来コード中心で、画像・音声・3Dモデルといった大容量バイナリには Git LFS 等の追加機構が要った。Unreal Editor for Fortnite の組み込み Unreal Revision Control として既に運用済みで、現状は <strong>0.x 系のプレ安定版</strong>。ゲーム開発・モデル管理・MLOps の素材リポジトリなど、Web系外まで波及しうる。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260618-epic-games-lore/",
+          "tags": [
+            "OSS",
+            "バージョン管理",
+            "Epic Games"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "nazology「本当の賢さとは即答する力ではなく『すぐに反応しない力』」 — トマス・ジェフリーの心理学とストア派",
+          "summary": "nazology <strong>2026年6月19日</strong>付。心理学者<strong>トマス・ジェフリー</strong>氏の議論を起点に、「頭の回転が速い=賢い」という常識を組み替える記事。重要なのは「感情が動いた瞬間に即反応する力」ではなく、<strong>一呼吸置いてから応答する力</strong>であり、怒りや焦りに支配されたままだと余計な発言と不要な決断に流れやすい。記事は古代ギリシアの<strong>ストア派</strong>と<strong>マルクス・アウレリウス</strong>を引きながら、「外で何が起きたか」より「それにどう向き合うか」という<strong>自分の反応のコントロール</strong>こそが知性だと整理する。面接やGD で「速く返さねば」と感じる場面、SNS で反射的に書きそうになる場面、上司や顧客の刺激語に過剰反応しそうな場面 — 数秒の \"反応を遅らせる\" 設計が、出力の質を底上げする。",
+          "sourceName": "ナゾロジー",
+          "sourceUrl": "https://nazology.kusuguru.co.jp/archives/196722",
+          "tags": [
+            "心理学",
+            "メタ認知",
+            "ストア派"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "ブリストル大、ドクチョウ属が近縁種の3倍長生き — 最長348日、花粉摂取が老化遅延に関与(Nature Communications)",
+          "summary": "nazology <strong>2026年6月18日</strong>付。英<strong>ブリストル大学</strong>の研究チームが、中南米熱帯雨林に生息する<strong>ドクチョウ属(Heliconius)</strong>の蝶が、近縁種と比べて<strong>約3倍</strong>長命であると確認した論文 \"Evolution of increased longevity and slowed ageing in a genus of tropical butterfly\" を Nature Communications 2026年6月16日号に掲載。<strong>ヘリコニウス・ヒューイッソニ</strong>種が最長<strong>348日</strong>生存したのに対し、比較対象の<strong>ディオネ・ユノ</strong>種は<strong>14日</strong>。チームは飼育記録・野外追跡・管理飼育実験を組み合わせて中央値寿命と年齢別死亡率を解析し、<strong>成虫が花粉を摂取する珍しい食性</strong>が長寿に関与している可能性を示した。体重減少速度や握力テストでも衰えが遅く、「老化を遅らせる進化」の生体モデルとして注目される。",
+          "sourceName": "ナゾロジー",
+          "sourceUrl": "https://nazology.kusuguru.co.jp/archives/196710",
+          "tags": [
+            "生物",
+            "老化研究",
+            "進化"
+          ]
+        },
+        {
+          "position": 8,
+          "title": "ロンドン大クイーン・メアリー校、『ヴィーナスの誕生』モデルのシモネッタは下垂体腫瘍卒中で23歳死亡か — 結核説に新説",
+          "summary": "nazology <strong>2026年6月18日</strong>付。15世紀フィレンツェの美女<strong>シモネッタ・ヴェスプッチ</strong>(1453-1476)はボッティチェリの名画『<strong>ヴィーナスの誕生</strong>』のモデルとされる人物で、<strong>23歳</strong>で早逝した死因は長く<strong>結核</strong>と考えられてきた。英<strong>ロンドン大学クイーン・メアリー校</strong>の研究チームが、最期の日々の歴史記録と肖像画に残された身体的特徴を医学的に分析し、「<strong>下垂体腺腫の急激な悪化による下垂体腫瘍卒中</strong>」だった可能性を新説として提示。論文は Endocrinology, Diabetes & Metabolism 誌2026年<strong>6月12日</strong>付に掲載された。歴史記録と肖像のディテールから医学的診断を試みる<strong>古病理学的アプローチ</strong>の事例として、面接の雑談ネタにも、教養としても引き出しになる。",
+          "sourceName": "ナゾロジー",
+          "sourceUrl": "https://nazology.kusuguru.co.jp/archives/196678",
+          "tags": [
+            "美術史",
+            "医学史",
+            "ルネサンス"
+          ]
+        }
+      ]
+    }
+  ]
+}

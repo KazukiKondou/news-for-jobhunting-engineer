@@ -1,0 +1,105 @@
+{
+  "date": "2026-06-04",
+  "label": "2026年6月4日 (木)",
+  "intro": "PR TIMES、27・28卒向け「年収550万円以上…・Rust製バンドラ Rolldown 1.0 リリース・エンゲージメントAIのU-ZERO、シードラウンドで9…。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "PR TIMES、27・28卒向け「年収550万円以上で即内定」ハッカソンを公募 — 8/12〜14開催、定員30名",
+          "summary": "プレスリリース配信のPR TIMESが6月2日、2027卒・2028卒のエンジニア志望者を対象に「PR TIMES HACKATHON 2026 Summer」の参加者募集を開始した。<strong>8月12日(水)〜14日(金)</strong>の3日間、東京・赤坂インターシティの本社で開催する3日間のチーム開発イベントで、定員は<strong>30名</strong>。個人賞を受賞すると中途採用基準である<strong>年収550万円以上</strong>での即内定オファーが提示される。一次募集締切は7月5日、二次募集は7月26日。「実プロダクト開発に挑む選考連動型イベント」として、Web系SaaSを志す学部・院生が業界水準の自走力を試せる場になる。",
+          "sourceName": "PR TIMES プレスリリース",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000001672.000000112.html",
+          "tags": [
+            "PR TIMES",
+            "27卒",
+            "ハッカソン"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "Rust製バンドラ Rolldown 1.0 リリース — Vite 8.0が単一バンドラとして標準採用、esbuild/Rollupの両立を狙う",
+          "summary": "Rust製の高速JavaScriptバンドラ「Rolldown」が<strong>バージョン1.0</strong>に到達したことをPublickeyが6月2日付で報じた。esbuildの高速性とRollupの拡張性を1つのバンドラに統合することを目標としており、開発開始から約2年でようやくGAに達した。注目すべきはビルドツール Vite 8.0 がデフォルトでRolldownを単一バンドラとして採用した点で、これまでViteは開発時に esbuild、本番ビルドに Rollup と2種類を使い分けていた構成が解消される。Web系フロントエンドで React / Vue / Svelte いずれを書く場合でも、ローカル開発と本番ビルドの差異が減り、ビルド体験そのものが書き換わる節目となる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/rustjavascriptrolldown10vite_80.html",
+          "tags": [
+            "Rolldown",
+            "Vite",
+            "Rust"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "エンゲージメントAIのU-ZERO、シードラウンドで9.5億円調達 — 富士通ベンチャーズ等が出資、導入50社超",
+          "summary": "従業員エンゲージメントAIを提供する株式会社U-ZEROが6月3日、シードラウンドのファーストクローズで総額<strong>9.5億円</strong>を調達したと発表した。出資者は富士通ベンチャーズ、Global Hands-On VC、サンブリッジグループ創業者のアレン・マイナー氏、元Concur Technologies社長のマイク・エバーハード氏、早稲田大学ビジネススクール教授の平野正雄氏ら。すでに導入企業は<strong>50社</strong>超。日本の従業員エンゲージメント率は<strong>6%</strong>(2024年)と国際平均23%に対し低位にとどまっており、AIで上司・部下のフィードバックを介在させて「組織の沈黙」を可視化する設計だ。資金は製品開発、人材採用、営業・マーケティングに投じる。",
+          "sourceName": "U-ZERO プレスリリース",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000024.000157749.html",
+          "tags": [
+            "U-ZERO",
+            "資金調達",
+            "HRテック"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "越境EC返品SaaSのReturn Helper、シリーズAで6億円調達 — 三菱倉庫CVCが参加、海外20拠点を拡張",
+          "summary": "越境EC向け返品ソリューションSaaSを提供するReturn Helperが6月2日、シリーズAラウンドで<strong>6億円</strong>(400万米ドル)を調達したと発表した。出資者は台湾Cathay Financial HoldingsのCVCであるCathay Venture、三菱倉庫CVCのMLCベンチャーズ、Jun Yue Investment、既存株主の Collopl Next。同社は Amazon / Shopify / TikTok Shop 等を支える海外<strong>20</strong>拠点超の返品インフラと提携キャリア<strong>30</strong>社超を持ち、2025年度売上は前年比<strong>+60%</strong>超で伸びた。フォワード物流の FlexForward、返品商品の再販を扱うリコマース事業もスタックしており、物流×SaaSのクロスボーダー領域は資金が引き寄せられ続けている。",
+          "sourceName": "Return Helper プレスリリース",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000009.000145297.html",
+          "tags": [
+            "ReturnHelper",
+            "越境EC",
+            "シリーズA"
+          ]
+        },
+        {
+          "position": 5,
+          "title": "『達人プログラマー』Dave Thomas登壇、Findyが6/17〜18にエンジニアの役割Conferenceをオンライン開催",
+          "summary": "ファインディが「エンジニアの役割の変化に向き合うConference」を<strong>6月17日(水)・18日(木)</strong>にオンラインで無料開催する。Day1は10:50〜17:40、Day2は9:20〜21:00と2日間で計約20時間枠を確保し、最終日夜には現地懇親会も予定。登壇陣は『達人プログラマー』著者の <strong>Dave Thomas</strong>、シンギュラリティ・ソサエティ代表理事の中島聡氏、日本CTO協会理事・レクター代表の広木大地氏、『エンジニアリングリーダー』著者 Cate Huston (Twill CTO) ら。AIエージェント前提でエンジニアの役割がどう揺れるかを、原理原則と実務側面から並べる構成で、学生でも参加可能。",
+          "sourceName": "Findy connpass",
+          "sourceUrl": "https://findy.connpass.com/event/391594/",
+          "tags": [
+            "Findy",
+            "カンファレンス",
+            "達人プログラマー"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "南極条約広島会議が閉幕 — コウテイペンギン「特別保護種」指定は中ロ反対で見送り",
+          "summary": "広島市中区で5月11日から開かれていた第48回南極条約協議国会議(ATCM)が、<strong>11日間</strong>の協議を経て5月21日に閉幕した。圧倒的多数の国が絶滅危惧種コウテイペンギンの「特別保護種」指定を支持したものの、<strong>中国とロシアの反対</strong>で全会一致を要するこの指定は今年も合意に至らず見送りとなった。優先課題として保護策を進めることだけは確認された。観光客の急増に対する規制も継続協議となる。気候変動による氷上繁殖地の減少という生物学的事実と、地政学の対立とが同じテーブルで隣り合うことを示した会議で、ESG・サステナビリティ系の面接でも触れやすい話題。",
+          "sourceName": "中国新聞デジタル",
+          "sourceUrl": "https://www.chugoku-np.co.jp/articles/-/835018",
+          "tags": [
+            "南極条約",
+            "コウテイペンギン",
+            "環境外交"
+          ]
+        },
+        {
+          "position": 7,
+          "title": "上野の森美術館「大ゴッホ展」開幕 — 《夜のカフェテラス》が20年ぶりに来日、5/29〜8/12",
+          "summary": "上野の森美術館で「大ゴッホ展 夜のカフェテラス」が5月29日に開幕した。会期は<strong>8月12日(水)</strong>まで。オランダ・クレラー=ミュラー美術館の所蔵品からゴッホの秀作<strong>約60点</strong>に加え、ルノワール、モネら印象派の名画も並ぶ前半生編の構成で、アルル時代の代表作《夜のカフェテラス(フォルム広場)》が<strong>20年ぶり</strong>に日本にやってくる点が大きな目玉。一般料金は平日2,800円・土日祝3,000円、6月30日まで高校生以下は無料、開館時間は9:00〜17:30(金・土・祝は19:00まで)。「夜の青とガス灯の黄色」の対比を実物で見られる夏になる。",
+          "sourceName": "ぴあエンタメ情報",
+          "sourceUrl": "https://lp.p.pia.jp/article/news/475293/index.html?detail=true",
+          "tags": [
+            "ゴッホ",
+            "上野の森美術館",
+            "美術展"
+          ]
+        }
+      ]
+    }
+  ]
+}

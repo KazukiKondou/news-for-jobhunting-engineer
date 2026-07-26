@@ -1,0 +1,112 @@
+{
+  "date": "2026-06-10",
+  "label": "2026年6月10日 (水)",
+  "intro": "LINEヤフーがAI領域でエンジニア採用を強化・CloudflareがVite開発元VoidZeroを買収・Ubuntuが開発環境1コマンド構築の「Workshop」を公開・JAXA H3-30S試験機が6/12打ち上げ。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "LINEヤフー、AIエージェント「Agent i」開発加速で若手エンジニア採用を強化 — 第二新卒も初解禁、給与に一律上限なし",
+          "summary": "LINEヤフーは、自社のAIエージェント「Agent i」をはじめとするAI領域の開発を加速させるため、若手エンジニア採用を強化すると発表した。2027年4月・10月入社の新卒に加え、同社として初めて第二新卒も対象とする。「人数規模の拡大ではなく、AI領域の成長領域で活躍できる人材」を重視し、給与には一律の上限を設けず、スキルに見合った報酬を提示する方針。配属先には「Agent i」のほか、大規模サービス開発も想定されている。AIエージェント開発に振り切った採用設計で、外資テックに流れがちな高スキル層を取りに行く動きだ。",
+          "sourceName": "LINEヤフー（PR TIMES）",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000001727.000129774.html",
+          "tags": [
+            "採用",
+            "LINEヤフー",
+            "AIエージェント"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "Cloudflare、Vite/Rolldown開発元のVoidZeroを買収 — AstroもCloudflare傘下に、OSSファンドに100万ドル拠出",
+          "summary": "CDN/エッジ大手のCloudflareが、フロントエンドビルドツールViteやバンドラRolldown、テストランナーVitest、JS/TSツールチェーンOxcなどの開発を主導するVoidZeroの買収を発表した。Cloudflareは2026年1月に静的サイトジェネレータAstroの開発元Astro Technology Companyも買収しており、これでAstroとViteエコシステムが同じ会社の傘下に並ぶ。買収後もVite等は引き続きMITライセンスとして公開され、ガバナンスは現行チームのままだとされる。CloudflareはViteエコシステムを支援するOSSファンドに100万ドルを拠出するとした。Web開発プラットフォーム領域でNext.jsを抱えるVercelやNetlifyへの対抗意識が一気に強まる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/cloudflareviterolldownvoidzeroastrovitecloudflare.html",
+          "tags": [
+            "企業動向",
+            "Cloudflare",
+            "Vite"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "Ubuntu、サンドボックス化された開発環境をコマンド1発で構築する新機能「Workshop」を公開",
+          "summary": "Canonical（Ubuntu開発元）が、サンドボックス化された開発環境をワンコマンドで構築できる新機能「Workshop」を公開した。内部ではLXD（Linuxのシステムコンテナ）を使い、利用者はYAMLで構成を宣言するだけで、Ollama・OpenCode・NVIDIA CUDA・AMD ROCm といったAI関連SDKまで載った再現可能な環境が立ち上がる。複数の言語に対応し、ホスト側のファイルシステム・デバイス・ネットワークへは制限付きアクセスのみ許可される設計。Workshopは「環境構築の時間を削り、マシン間で同じ環境を再現する」ことを目的としており、AIエージェントに作業させる開発環境としても使えるよう設計されているのが特徴だ。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/ubuntuworkshop.html",
+          "tags": [
+            "技術トレンド",
+            "Ubuntu",
+            "開発環境"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "Microsoft独自のLinuxディストリビューション「Azure Linux 4.0」がパブリックプレビュー — Azure最適化、WSLでも利用可能に",
+          "summary": "Microsoftが自社で開発・配布するLinuxディストリビューション「Azure Linux 4.0」のパブリックプレビューを開始した。Fedora由来のRPMベースで、Azure仮想マシン上でHyper-VとAzure環境向けに最適化されたチューニング、ソフトウェアサプライチェーンの検証、Microsoftによるサポートが提供される。クラウド向けに同社が出す「初の汎用サーバ用Linux」という位置付けで、Azure Marketplaceから利用できるほか、Windows上のWSLからも近日利用可能になる。Azure向けLinuxはこれまでも個別領域（Kubernetes向けCBL-Mariner等）で提供されてきたが、汎用サーバ用途まで広げてきた点が新しい。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/linuxazure_linux_40azurewsl.html",
+          "tags": [
+            "技術トレンド",
+            "Microsoft",
+            "Linux"
+          ]
+        },
+        {
+          "position": 5,
+          "title": "Interop Tokyo 2026、6/10〜12に幕張で開幕 — 500社・想定来場15万人、テーマは「Internet for AI, AI for Internet」",
+          "summary": "日本最大級のインターネットテクノロジー展「Interop Tokyo 2026」が、6月10日(水)から12日(金)まで幕張メッセで開催される(展示会の入場は無料、要登録)。今年で33回目。テーマは「Internet for AI, AI for Internet」で、AIを支えるネットワークインフラと、AIによるネットワーク運用の高度化を同時に扱う。Interop本体に加え、AI NATIVE EXPO、Digital Signage Japan、Vision AI Expoが同時開催され、出展は約500社、想定来場者数は3日間で約15万人。基調講演・展示ホールセミナー・専門セミナー・Interop Tokyo Conference(別途有料)が組まれている。ネットワーク・クラウド・セキュリティの最新動向を一気に押さえられる場として、Web系志望にも有効だ。",
+          "sourceName": "Interop Tokyo 2026 公式",
+          "sourceUrl": "https://www.interop.jp/2026/about/",
+          "tags": [
+            "カンファレンス",
+            "Interop",
+            "ネットワーク"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "DIAMOND ハーバード・ビジネス・レビュー 2026年6月号 特集「組織の選択」 — 激変する環境に組織はどう答えを出すか",
+          "summary": "ダイヤモンド社のDIAMOND ハーバード・ビジネス・レビュー 2026年6月号(5月9日発売、2,900円)の特集は「組織の選択 ─ 激変する環境にどう対応するか」。NTT取締役会長・澤田純氏のインタビュー「変化に適応するだけでは世界と戦えない」、HBRから「プロジェクト主導型組織を実現する8つの要諦」、AWS幹部による「複雑な環境に柔軟に適応するオクトパス組織という選択」、ケンブリッジ大学クリストファー・マーキス教授の「企業には『戦略的冬眠』を選ぶべき時がある」が並ぶ。リーダーシップ論「リーダーの思い込みが生む7つの壁を乗り越える方法」、戦略「AI戦略は組織の実態に合わせて策定せよ」も収録。組織形態という抽象を、自分が入る会社をどう見るかの思考フレームに落とし込める一冊だ。",
+          "sourceName": "ダイヤモンド社",
+          "sourceUrl": "https://www.diamond.co.jp/magazine/059690626.html",
+          "tags": [
+            "組織論",
+            "HBR",
+            "経営"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "JAXA、H3ロケット6号機「30形態試験機」を6/12に打ち上げ — 固体ブースターを外し1段エンジン3基、半年ぶりに飛行再開",
+          "summary": "JAXAは、H3ロケット6号機(30形態試験機)を2026年6月12日に種子島宇宙センターから打ち上げると発表した。打ち上げ時間帯は午前9時53分〜11時52分、予備期間は6月13〜30日と7月9〜31日。6号機は1段目のメインエンジンLE-9を従来の2基から3基に増やす一方で、固体燃料ロケットブースターSRB-3を1基も搭載しない「H3-30S」(30形態)の初号機にあたり、H3シリーズの中で打ち上げコストが最も低い形態として位置付けられる。2025年12月のH3 8号機の打ち上げ失敗から約半年ぶりの飛行再開でもあり、「衛星をより安価に軌道へ送る」という構想を実機で検証する節目の打ち上げになる。",
+          "sourceName": "JAXA（ファン!ファン!JAXA!）",
+          "sourceUrl": "https://fanfun.jaxa.jp/countdown/h3f6/index.html",
+          "tags": [
+            "宇宙",
+            "H3ロケット",
+            "JAXA"
+          ]
+        }
+      ]
+    }
+  ]
+}
