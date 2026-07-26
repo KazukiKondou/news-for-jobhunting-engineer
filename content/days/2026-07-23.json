@@ -1,0 +1,112 @@
+{
+  "date": "2026-07-23",
+  "label": "2026年7月23日 (木)",
+  "intro": "JiraがAI要件定義を自動作成しClaude/Copilotへタスク投入。Gemini 3.6 Flashは前世代比出力17%削減。NVIDIA Vera CPUがSapphire Rapids比2.2倍。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "アトラシアン、Jira Plannerで要件定義を自動作成 — 生成したタスクをClaude Code・GitHub Copilotなど各AIエージェントに直接アサイン可能に",
+          "summary": "Publickeyが<strong>2026</strong>年<strong>7</strong>月<strong>23</strong>日、アトラシアンが<strong>Jira</strong>に大型AI機能を投入したと報じた。新機能「<strong>Jira Planner</strong>」は既存の<strong>コードベース</strong>・Jira履歴・<strong>Confluence</strong>の情報からコンテキストを取得し、そこから要件定義を自動生成する。さらにワークアイテム管理機能は要件を作業単位へ分解し、人間または<strong>Claude Code</strong>・<strong>GitHub Copilot</strong>・<strong>Cursor</strong>(<strong>OpenAI Codex</strong>対応予定)などのAIエージェントへ直接アサインできる。標準搭載の「<strong>Jira Coding Agent</strong>」はバグ修正・脆弱性対応など定型作業をエージェントへ自動割当し、進捗をモニタリング。Web/SaaS事業会社の作業単位そのものが「人間+AI」前提へ書き換わる象徴的アップデート。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/jiraaiclaudecopilotai.html",
+          "tags": [
+            "Jira",
+            "Atlassian",
+            "AIエージェント"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "Google、Gemini 3.6 Flash / Flash-Lite / Flash Cyber 同時公開 — DeepSWE 49%(3.5比+12pt)、出力トークン17%削減",
+          "summary": "GIGAZINEが<strong>2026</strong>年<strong>7</strong>月<strong>22</strong>日、Google DeepMindが<strong>Gemini</strong>ファミリーに3モデル同時追加したと報じた。汎用型「<strong>Gemini 3.6 Flash</strong>」はコーディング/知識労働に特化し、開発ベンチマーク<strong>DeepSWE</strong>で3.5比 37%→49%へ、同一課題での出力トークンも<strong>17%</strong>削減。API価格は入力<strong>100万トークン$1.50</strong>/出力<strong>$7.50</strong>。「<strong>3.5 Flash-Lite</strong>」は毎秒<strong>350トークン</strong>生成でTerminal-Bench 2.1が<strong>54%</strong>、価格は$0.30/$2.50。セキュリティ特化「<strong>3.5 Flash Cyber</strong>」は<strong>CodeMender</strong>に搭載し脆弱性発見・修正を担う。Web/SaaSのAPI乗り換え検討に直結する更新。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260722-google-gemini-3-6-flash/",
+          "tags": [
+            "Google",
+            "Gemini",
+            "AIモデル"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "NVIDIA、AIエージェント向けCPU「Vera」詳細公開 — 独自コア「Olympus」88基・176スレッド、Sapphire Rapids比2.2倍、2026年秋提供",
+          "summary": "GIGAZINEが<strong>2026</strong>年<strong>7</strong>月<strong>22</strong>日、NVIDIAがAIエージェント向けサーバーCPU「<strong>Vera</strong>」の詳細を公開したと報じた。独自設計コア「<strong>Olympus</strong>」を<strong>88基</strong>搭載、合計<strong>176スレッド</strong>、L3キャッシュ<strong>164MB</strong>、メインメモリは最大<strong>1.5TB</strong>まで対応する。DeepInfraの実測ベンチで、AIエージェント制御ワークロードにおいて<strong>Intel Sapphire Rapids比2.2倍</strong>、<strong>AMD Zen 5比1.2倍</strong>の性能を記録。すでに量産段階に入っており、<strong>2026年秋</strong>からGoogle Cloud・Microsoft Azureなどクラウド事業者を通じて提供予定。GPU中心だったAI基盤の「制御プレーン」までNVIDIAが取りに来る動きで、クラウド原価と応答レイテンシに効いてくる。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260722-nvidia-vera-cpu/",
+          "tags": [
+            "NVIDIA",
+            "CPU",
+            "AIエージェント"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "Fireworks AI、Kimi K3+Fable 5使い分け実験でコスト効率最大50倍 — 課題ごとにモデル選択で正答率93%",
+          "summary": "GIGAZINEが<strong>2026</strong>年<strong>7</strong>月<strong>22</strong>日、AI推論基盤の<strong>Fireworks AI</strong>が公開した「1モデル固定 vs 課題別使い分け」の実験結果を報じた。オープンモデル<strong>Kimi K3</strong>とクローズド<strong>Fable 5</strong>を、約<strong>1000件</strong>のタスクで振り分け評価。<strong>Kimi K3</strong>は記号計算・開発ツール、<strong>Fable 5</strong>はWeb開発・データ可視化で優位を示し、タスクごとに最適モデルを選ぶだけで正答率<strong>93%</strong>を維持しつつ、長時間エージェントタスクではコスト効率が<strong>最大約50倍</strong>改善した。「低コストなオープンモデルを基本にし、難所だけを高価なモデルへ振る」設計指針は、Web/SaaSでAI利用が本番運用に入ったフェーズの相場感を更新する。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260722-fireworks-kimi-k3-fable/",
+          "tags": [
+            "Fireworks",
+            "AI活用",
+            "コスト最適化"
+          ]
+        },
+        {
+          "position": 5,
+          "title": "Cisco、脆弱性検出AI「Antares」公開 — GPT-5.5級性能を低コストで、コードベース内から穴を特定",
+          "summary": "GIGAZINEが<strong>2026</strong>年<strong>7</strong>月<strong>22</strong>日、Ciscoが脆弱性検出に特化した小型モデル「<strong>Antares</strong>」を公開したと報じた。ソースコードを解析して脆弱性の位置と種別を特定する用途に振り切った設計で、汎用型汎用大規模モデルより桁違いに軽いにもかかわらず、社内評価では<strong>GPT-5.5級の検出性能</strong>を低コストで再現。ネットワーク機器大手が自社の脆弱性運用ノウハウをそのままAI側に落とし込んだ形で、CI/CDパイプラインに常時載せて<strong>コードレビュー段階で脆弱性を止める</strong>使い方を想定する。汎用LLM単発呼び出しより桁違いに安価な運用コストで組み込める点が、Web/SaaS事業会社のSRE・セキュリティ運用の選択肢を広げる。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260722-cisco-antares/",
+          "tags": [
+            "Cisco",
+            "セキュリティ",
+            "AIモデル"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "AI時代の「判断力」をどう育てるか — 定型業務代替の裏で消えるリーダー育成機会、DIAMONDハーバード・ビジネス・レビュー",
+          "summary": "DIAMONDハーバード・ビジネス・レビューが公開した<strong>デイビッド S. ダンカン</strong>の論考。生成AIは「経験不足の労働者を助けるツール」ではなく「<strong>既存の判断力を増幅するツール</strong>」であり、AIが定型業務を代替することで人間が試行錯誤を通じて<strong>判断力</strong>を培う機会そのものが消えていく、という組織的パラドックスを指摘する。判断力とは「ルールだけでは足りない状況で賢明に行動する能力」で、実務での試行錯誤からしか身につかない。単純作業を先にAIへ渡して短期の生産性を上げると、数年後に組織全体の意思決定筋がやせ細る、という逆説の指摘。技術活用と人材育成のジレンマに直面する管理職に対し、単なる効率化ではなく「判断力を育てる仕組み」を意図して設計することの必要性を投げかける。",
+          "sourceName": "DIAMOND ハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/13495",
+          "tags": [
+            "判断力",
+            "リーダーシップ",
+            "DHBR"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "セミの夜鳴き、都市部でのみ確認 — 東京都立大・玉川大・麻布大が2024年6-8月24時間録音、夜間照明と高温が原因か",
+          "summary": "時事通信が<strong>2026</strong>年<strong>7</strong>月<strong>22</strong>日、<strong>東京都立大</strong>・<strong>玉川大</strong>・<strong>麻布大</strong>のグループがまとめた研究成果を報じた。都市域3地点(都立大南大沢キャンパスなど)と保全緑地3地点に<strong>24時間連続録音</strong>装置を置き、<strong>2024年6月下旬〜8月末</strong>までの鳴き声を解析。<strong>6種</strong>のセミが確認された中で、身近な<strong>アブラゼミ</strong>と<strong>ニイニイゼミ</strong>は緑地では昼間しか鳴かないのに対し、都市域では<strong>夜間にも鳴く</strong>個体が観測された。研究チームは要因として<strong>夜間照明</strong>と<strong>コンクリート構造物による高温化</strong>を挙げる。都市化が生き物の行動リズムそのものを書き換えている一事例で、「気候変動」よりも身近な尺度で人間活動と生態系の関係を示すデータになる。",
+          "sourceName": "時事通信",
+          "sourceUrl": "https://www.jiji.com/jc/article?k=2026072200146&g=soc&m=rss",
+          "tags": [
+            "生態学",
+            "都市環境",
+            "東京都立大"
+          ]
+        }
+      ]
+    }
+  ]
+}

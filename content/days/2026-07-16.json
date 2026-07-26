@@ -1,0 +1,112 @@
+{
+  "date": "2026-07-16",
+  "label": "2026年7月16日 (木)",
+  "intro": "Vite+がベータ公開、27B級LLM Bonsai 27Bがスマホで動作、デブサミ夏が本日開幕。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "フロントエンド開発ツールを統合した「Vite+」がベータ公開 — VoidZeroがCloudflare傘下で初リリース",
+          "summary": "Publickeyは<strong>2026</strong>年<strong>7</strong>月<strong>16</strong>日、Viteの開発元VoidZeroが「<strong>Vite+</strong>」のベータ版を公開したと報じた。Vite+はローカルサーバ・バンドラ・リンター・フォーマッター・テストランナーなど、JavaScriptアプリケーション開発に必要なツール群を「<strong>1つ</strong>のCLI」に統合したもの。ベータ版ではvp runコマンドが自動追跡とViteメタデータを使って設定不要のビルドキャッシュを実現し、vp migrateは既存プロジェクトの移行支援対象を拡大しAIエージェント向けプロンプトも提供する。組織全体の構成標準化やプロキシ/ファイアウォール対応などエンタープライズ機能も加わった。VoidZeroは<strong>2026</strong>年<strong>6</strong>月にCloudflareに買収されており、Vite+はその買収後の最初の大きなリリース。フロントエンドを触るWeb系志望学生にとって、標準ツールチェーン統合の実務的な選択肢がまた1つ増えた形。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/vite.html",
+          "tags": [
+            "フロントエンド",
+            "Vite",
+            "JavaScript"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "PrismML、iPhoneで動く270億パラメータLLM「Bonsai 27B」を公開 — Apache 2.0、1-bit版3.9GB",
+          "summary": "PC Watchは<strong>2026</strong>年<strong>7</strong>月<strong>15</strong>日、PrismMLが<strong>270億</strong>パラメータの大規模言語モデル「<strong>Bonsai 27B</strong>」シリーズを発表したと報じた。Ternary版(3値: -1, 0, +1)は<strong>5.9</strong>GB、1-bit版(2値: -1, +1)は<strong>3.9</strong>GBまで圧縮され、後者はiPhone(<strong>12</strong>GB搭載機でもアプリの実効メモリは<strong>6</strong>GB制約)でも動作する。ベンチマーク精度はフル精度版比でTernary版<strong>95</strong>%・1-bit版<strong>90</strong>%を維持。RTX 5090上では1-bit版が最大<strong>163</strong>tok/s、Apple M5 Max上でも<strong>87</strong>tok/sで実用速度。ライセンスはApache 2.0で、Hugging Faceから無料公開。Web系スタートアップがスマホ上のLLM推論を製品に組み込む道筋が現実的になった、という節目のリリース。",
+          "sourceName": "Impress PC Watch",
+          "sourceUrl": "https://pc.watch.impress.co.jp/docs/news/2125273.html",
+          "tags": [
+            "LLM",
+            "PrismML",
+            "OSS"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "Developers Summit 2026 Summerが本日開幕 — 7/16-17東京、60セッション・現地限定・参加費無料",
+          "summary": "翔泳社主催のエンジニアカンファレンス「<strong>Developers Summit 2026 Summer</strong>」(通称: デブサミ夏)が<strong>2026</strong>年<strong>7</strong>月<strong>16</strong>日から<strong>17</strong>日にかけて、東京・千代田区のJPタワー ホール&カンファレンスで開催される。テーマは「エンジニアが主役となって未来の価値を創り出す」で、AIによるコード生成が浸透する中で「事業成長を止めない」ためのIT基盤構築・運用と、事業貢献を軸にした約<strong>60</strong>セッションが2日間並ぶ。Day1では「IT Strategy Summit」が併設開催。参加は<strong>事前登録制で無料</strong>、ただし現地開催のみ・オンライン配信/アーカイブ配信は無しという点に注意。ダイヤモンド/プラチナスポンサーにはIncidentTech、東急、MBK Digital、CodeRabbitなどが名を連ねる。Web系事業会社の現場エンジニアの視座を直接インストールできる<strong>2</strong>日間。",
+          "sourceName": "翔泳社 event.shoeisha.jp",
+          "sourceUrl": "https://event.shoeisha.jp/devsumi/20260716",
+          "tags": [
+            "デブサミ",
+            "カンファレンス",
+            "翔泳社"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "Publickey「IT系上場企業の平均年収 2026年版［後編］」 — ソフト/サービス系トップ5が全社1,000万円超え",
+          "summary": "Publickeyは<strong>2026</strong>年<strong>7</strong>月<strong>13</strong>日、IT系上場企業の平均年収を業種別に集計した「<strong>2026</strong>年版[後編]」を公開した。ソフトウェア/サービス系はトップ<strong>5</strong>が全社<strong>1,000</strong>万円超えとなり、前年比で顕著な上昇を見せた。SI/システム開発系では上位企業の順位入れ替わりと年収変動が確認され、クラウド/通信キャリア系ではSoracomやKDDIといった企業が<strong>1,000</strong>万円超え。<strong>7</strong>月<strong>1</strong>日付けでTISが子会社インテックを合併して「<strong>TISI</strong>」へ商号変更した点も同記事内で触れられている。前編(<strong>7</strong>月<strong>13</strong>日)ではネットベンチャー/ゲーム/メディア系企業を扱う。Web系事業会社を志望する学生にとって、志望企業群の「実際の年収レンジ」を年次で見比べる基礎資料として使える。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/it_2026_si.html",
+          "tags": [
+            "年収",
+            "キャリア",
+            "IT上場企業"
+          ]
+        },
+        {
+          "position": 5,
+          "title": "メシウス、JavaScript表計算コンポーネント「SpreadJS V19.1J」を7/23リリース — リアルタイム共同編集対応",
+          "summary": "メシウス(旧グレープシティ)は<strong>2026</strong>年<strong>7</strong>月<strong>23</strong>日にJavaScript表計算コンポーネント「<strong>SpreadJS V19.1J</strong>」をリリースする、とPublickeyが<strong>7</strong>月<strong>16</strong>日に報じた。目玉は<strong>リアルタイム共同編集機能</strong>で、複数ユーザーが同じシートを同時にWebブラウザ上で編集・確認できる。加えて、Googleドキュメント風のスレッド形式コメントと、ユーザーごとの<strong>編集/閲覧のみ</strong>権限設定が新規追加された。共同編集機能は専用アドオンとして別売り。基本ライセンスは開発用<strong>22</strong>万円/ライセンス、配布用<strong>66</strong>万円/ドメイン、SaaS商用配布<strong>99</strong>万円/<strong>5</strong>ドメイン。業務系Webアプリの表計算UIを自前実装する代わりに使う商用JSコンポーネントで、Web系事業会社の管理画面系プロダクトでも実務利用の候補になる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/javascriptspreadjs.html",
+          "tags": [
+            "JavaScript",
+            "SpreadJS",
+            "共同編集"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "「ナルシシスト気質が強い人ほど生成AI過剰依存に陥る」 — トルコ・デュズジェ大学、677人分析(BMC Psychology掲載)",
+          "summary": "GIGAZINEは<strong>2026</strong>年<strong>7</strong>月<strong>15</strong>日、トルコ・デュズジェ大学のカガン・クルジャブルン助教らが実施した調査で「<strong>ナルシシズム(自己愛)が強い人ほど生成AIへの過剰依存や長時間使用に陥りやすい</strong>」ことが確認されたと報じた。対象は<strong>677</strong>人の生成AIユーザー(平均年齢<strong>40</strong>歳、男性<strong>50</strong>%)で、成果はBMC Psychologyに掲載。相関の媒介変数は男女で異なり、女性では垂直的個人主義のみを介して、男性は垂直的個人主義と不確実性への耐性の低さの両方を介して発生する。示唆されるのは「AIに『いつでも肯定してくれる相手』を求めがちな自分を、単なる便利さの話ではなく<strong>自己認知の構造</strong>として観察する」視点。「便利だから多用している」と思っているとき、実際には自分の内面のどの成分が使わせているのか、を分解してみる素材になる。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260715-narcissistic-individuals-problematic-ai-use/",
+          "tags": [
+            "心理学",
+            "生成AI",
+            "自己認知"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "水に溶けたウランを微生物が「固体化」 — 独HZDRら、130日で残存5%(Nature Communications掲載)",
+          "summary": "GIGAZINEは<strong>2026</strong>年<strong>7</strong>月<strong>13</strong>日、独ヘルムホルツ・ドレスデン・ロッセンドルフ研究所(HZDR)がWismut GmbH、スペイン・グラナダ大学と共同で、「水に溶けたウランを微生物が安定した固体化合物に変換できる」ことを世界で初めて実験的に示したと報じた。廃鉱山の水に含まれる自然発生の細菌群にグリセロール(グリセリン)を「エサ」として与え、酸素のない環境で培養すると、<strong>130</strong>日後には溶けていたウランの<strong>約95</strong>%が固体化(残存<strong>5</strong>%)し、酸素に触れても壊れにくい<strong>5</strong>価ウラン(FeU(V)O₄)が高い割合で形成されることが分光分析で確認された。研究は<strong>2026</strong>年<strong>5</strong>月<strong>4</strong>日にNature Communicationsに掲載。旧鉱山や汚染地の環境浄化への応用が期待できる、教養として日常の風景に「地味だがすごい」を1つ足す話題。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260713-bacteria-uranium-stable-compound/",
+          "tags": [
+            "微生物学",
+            "環境",
+            "NatureCommunications"
+          ]
+        }
+      ]
+    }
+  ]
+}

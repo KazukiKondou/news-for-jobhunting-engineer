@@ -1,0 +1,112 @@
+{
+  "date": "2026-07-12",
+  "label": "2026年7月12日 (日)",
+  "intro": "TypeScript 7.0 が Go 実装でGA・VS Codeビルド125.7秒→10.6秒、AI駆動開発カンファ2026夏(7/30-31)はin-person300名完売。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "TypeScript 7.0 が正式リリース — Go実装コンパイラで VS Code ビルド 11.9倍高速化",
+          "summary": "Microsoft は<strong>2026</strong>年<strong>7</strong>月<strong>8</strong>日、コンパイラと言語サービスを Go でネイティブ実装した「TypeScript <strong>7.0</strong>」を GA としてリリースした。VS Code コードベースのフルビルドは<strong>125.7</strong>秒から<strong>10.6</strong>秒へ<strong>11.9</strong>倍、Sentry は<strong>8.9</strong>倍、Bluesky は<strong>8.7</strong>倍高速化。エディタでのエラー表示は<strong>17.5</strong>秒から<strong>1.3</strong>秒以下に短縮された。Slack は CI の型検査を<strong>7.5</strong>分から<strong>1.25</strong>分に圧縮したと事例を寄せている。メモリ使用量も -<strong>6</strong>%〜-<strong>26</strong>%改善。TypeScript 6 と挙動互換を維持したままの大移行で、大規模フロントエンド運用の景色を書き換える。",
+          "sourceName": "Microsoft TypeScript DevBlog",
+          "sourceUrl": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/",
+          "tags": [
+            "TypeScript",
+            "Microsoft",
+            "技術トレンド"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "AI駆動開発カンファレンス 2026夏、7/30-31 Microsoft品川で開催 — 現地300名完売・Online 1,709名登録",
+          "summary": "生成AIとLLMを使った開発を主題にした「AI駆動開発カンファレンス <strong>2026</strong>夏」が<strong>2026</strong>年<strong>7</strong>月<strong>30</strong>日・<strong>31</strong>日、日本マイクロソフト品川本社(<strong>31</strong>F・<strong>30</strong>F)とオンライン(YouTube Live)で開催される。現地枠<strong>300</strong>名は<strong>6</strong>月時点で完売、オンライン枠<strong>2,000</strong>名のうち<strong>1,709</strong>名がすでに登録済み。Microsoft・Cursor・Cognition ほか20社超の技術企業がスポンサーに名を連ね、AI駆動な要件定義・コード生成・自動テスト・UI設計・ドキュメンテーションを事業会社の実装例で扱う。KDDIアジャイル開発センターやクリエーションラインも登壇予定で、Web系エンジニアの実務が AI とどう組み合わさっているかを見に行ける場になる。",
+          "sourceName": "connpass / AI駆動開発カンファレンス実行委員会",
+          "sourceUrl": "https://aid.connpass.com/event/392229/",
+          "tags": [
+            "カンファレンス",
+            "AI駆動開発",
+            "Microsoft"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "Qiita、7/22-23 の AI DevEx Conference 2026 に協賛・登壇 — 「AIネイティブ組織」を語る",
+          "summary": "エイチームホールディングス傘下の Qiita は、<strong>2026</strong>年<strong>7</strong>月<strong>22</strong>日・<strong>23</strong>日にJPタワー ホール&カンファレンス(東京・千代田区)で開催される「AI DevEx Conference 2026 - Future of Development Productivity」に協賛し、両日ブースを出展する。<strong>23</strong>日<strong>15</strong>時からのセッション(Room A)には Qiita リードエンジニアの千葉智也氏が登壇し「AI時代に個の加速がチームの強さになる — やさしいイネーブルメント」を発表。個人の開発速度が AI で急伸する一方で組織側のプロセスが追いつかないという同社観測を、エンジニアコミュニティ側からどう緩衝するかを扱う。",
+          "sourceName": "PR TIMES / エイチームHD (Qiita)",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000002774.000001348.html",
+          "tags": [
+            "Qiita",
+            "エイチームHD",
+            "AI DevEx"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "TechTrain × 武蔵野大学、実践型AIインターン「スッシトレイン2026」— 40名・9〜10月・3単位認定",
+          "summary": "エンジニア教育の株式会社TechBowl(TechTrain 運営)が、武蔵野大学データサイエンス学部および国際データサイエンス学部と共同で、AI で身近な課題を解決する実践型インターンシップ「スッシトレイン<strong>2026</strong>」を<strong>2026</strong>年<strong>9</strong>月<strong>25</strong>日〜<strong>10</strong>月<strong>23</strong>日に開催する。定員<strong>40</strong>名、大学の正式単位<strong>3</strong>単位認定、プログラミング不要で文理不問。初日と最終日は対面、期間中はオンライン中心のハイブリッド形式で、現役プロフェッショナルがメンターとして伴走する。大学のカリキュラムに AI 実務経験がそのまま単位として組み込まれる、事業会社の実装知が学部教育に流れ込む例。",
+          "sourceName": "PR TIMES / TechBowl",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000231.000040741.html",
+          "tags": [
+            "インターン",
+            "TechTrain",
+            "武蔵野大学"
+          ]
+        },
+        {
+          "position": 5,
+          "title": "viviON、PHPカンファレンス2026 (7/20 大田区PiO) にエレファントスポンサーとして協賛",
+          "summary": "DLsite などデジタルコンテンツ配信を運営する株式会社viviON が、<strong>2026</strong>年<strong>7</strong>月<strong>20</strong>日(月・祝)に大田区産業プラザ PiO で日本PHPユーザ会主催で開催される「PHPカンファレンス<strong>2026</strong>」に、上位スポンサー枠のエレファントスポンサーとして協賛する。同社は電子コミック「comipo」や二次元コンテンツグッズ販売「viviON BLUE」など、PHP を核とする複数の Web サービスを長年運営してきた背景を持ち、事業会社側から国内 PHP コミュニティに継続コミットしていく姿勢を打ち出した。事業ドメインが Web エンタメでも、根っこの Web スタックは同じという事業会社目線の話。",
+          "sourceName": "PR TIMES / viviON",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000386.000089066.html",
+          "tags": [
+            "PHP",
+            "viviON",
+            "OSSコミュニティ"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "DIAMOND HBR、ドラッカー名言集連載を開始 — 「マネジメントの三つの役割」",
+          "summary": "DIAMONDハーバード・ビジネス・レビュー(dhbr.diamond.jp)は<strong>2026</strong>年<strong>7</strong>月<strong>11</strong>日、上田惇生氏の英和対訳による「決定版 ドラッカー名言集」連載の第<strong>1</strong>回を公開した。ピーター・F・ドラッカーが説くマネジメントの本質を、①その組織固有のミッションを果たすこと、②働く人が生き生きと成果をあげられるようにすること、③自らが社会に与える影響を処理し、社会に貢献することの<strong>3</strong>つの、同等に重要だが本質的に異なる役割として捉える。マネジメントを目的達成の手段としてだけでなく、組織の外側への責任まで一気通貫で扱う視座を、原文と翻訳を並置しながら1回1テーマで積み上げていく形式。",
+          "sourceName": "DIAMOND ハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14257",
+          "tags": [
+            "ドラッカー",
+            "HBR",
+            "マネジメント"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "京都大学、プラスチックボトルキャップに乗った海洋ごみ生態系の航海記録を解読",
+          "summary": "京都大学大学院人間・環境学研究科の石村豊穂教授らの研究グループは<strong>2026</strong>年<strong>7</strong>月<strong>10</strong>日、高知県沖で回収された直径約<strong>3.5</strong>cm のプラスチック製ボトルキャップから、<strong>9</strong>分類群・計<strong>307</strong>個体の生物からなる小さな生態系を検出したと発表した。中には巣を作って生活していた約<strong>9</strong>cm のゴカイ(Eunice bipapillata)も含まれる。有孔虫殻の酸素同位体比から経験水温を推定し、海流モデルと突き合わせた結果、フィリピン近海から黒潮に乗って約<strong>70</strong>日で日本近海まで漂流したと推定した。海洋ごみが「機能する生態系」を長距離運ぶ生態系運送機になっている姿を、標本ベースで示した論文(Marine Pollution Bulletin)。名古屋大・産総研・科博・JAMSTEC・福井県立大との共同研究。",
+          "sourceName": "京都大学",
+          "sourceUrl": "https://www.kyoto-u.ac.jp/ja/research-news/2026-07-10",
+          "tags": [
+            "海洋生態学",
+            "プラスチックごみ",
+            "京都大学"
+          ]
+        }
+      ]
+    }
+  ]
+}

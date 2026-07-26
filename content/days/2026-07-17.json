@@ -1,0 +1,112 @@
+{
+  "date": "2026-07-17",
+  "label": "2026年7月17日 (金)",
+  "intro": "Firefoxがブラウザ内で丸ごと動くWASM実験、Grok BuildがApache 2.0で公開、Xが全ソースコード公開表明。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Puter Labs、FirefoxをブラウザのタブでまるごとWASM実行する「Firefox in WebAssembly」を公開 — 開発AIコスト約400万円",
+          "summary": "GIGAZINEは<strong>2026</strong>年<strong>7</strong>月<strong>16</strong>日、Puter Labsが「<strong>Firefox in WebAssembly</strong>」を公開したと報じた。Mozilla Firefox本体を丸ごとWASMにコンパイルし、任意のブラウザのタブの中で動作させる実験プロジェクトで、レンダリングエンジンGeckoとJavaScriptエンジンSpiderMonkeyまでWASM化されている。通信はWebSocket経由でWispサーバがリレーする構成。開発には約<strong>300億</strong>トークンのAIが使われ、料金換算で<strong>2万5,000</strong>ドル(約<strong>400</strong>万円)を超えたという。実用というよりWebAssemblyの限界を突く実験の位置付けで、スマホでは動作が不安定な報告もある。Web系フロントエンドの「どこまでブラウザの中に押し込めるか」を1つ更新した節目のリリース。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260716-firefox-in-webassembly/",
+          "tags": [
+            "WebAssembly",
+            "Firefox",
+            "PuterLabs"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "SpaceXAI、コーディングエージェント「Grok Build」をApache 2.0で公開 — 全ユーザーの利用制限もリセット",
+          "summary": "GIGAZINEは<strong>2026</strong>年<strong>7</strong>月<strong>16</strong>日、SpaceXAI(旧xAI)がAIエージェント「<strong>Grok Build</strong>」をオープンソース化したと報じた。<strong>Grok 4.5</strong>による自動コーディングを可能にするCLIエージェントで、ターミナルからの質問応答やPlanモードでのタスク計画に対応する。<strong>2026</strong>年<strong>5</strong>月に一般公開されて以来はじめてのOSS化で、GitHub上にApache License 2.0で公開された。同時に全ユーザーの利用回数制限もリセットされている。以前指摘されていた「ユーザーのコードベースがサーバにアップロードされる」問題については、<strong>7</strong>月<strong>12</strong>日にデフォルトで無効化+既存データ削除済み。Cursor / Claude Code / Codex に続くOSSの選択肢としてWeb系開発現場の比較対象がまた1つ増えた形。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260716-grok-build-open-source/",
+          "tags": [
+            "OSS",
+            "AIエージェント",
+            "Grok"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "イーロン・マスク、X(旧Twitter)の全コードベースを「例外なく」オープンソース化すると表明 — 第三者監査役も招請予定",
+          "summary": "GIGAZINEは<strong>2026</strong>年<strong>7</strong>月<strong>16</strong>日、イーロン・マスクが前日<strong>7</strong>月<strong>15</strong>日にX(旧Twitter)の「<strong>すべてのコードベースを例外なくオープンソース化する</strong>」と表明したと報じた。セキュリティ脆弱性のレビュー完了後に公開する方針で、外部の第三者監査役も招請予定。<strong>2023</strong>年<strong>3</strong>月<strong>31</strong>日にはランキングアルゴリズムのみの部分公開が行われていたが、当時公開分は以降のアルゴリズム変更が反映されず、実務追跡には使えなかった経緯がある。今回の完全公開が実現すれば、大規模SNSのバックエンド・レコメンド機構がまるごと閲覧可能になる。Web系事業会社のインフラ設計・レコメンド設計を勉強する題材としては規模・粒度ともに稀有な素材となり得る。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260716-x-open-source/",
+          "tags": [
+            "X",
+            "OSS",
+            "企業動向"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "Google Play、サードパーティ製アプリストアからのカタログアクセスを7/22米国から解禁 — Epic Games訴訟で和解",
+          "summary": "GIGAZINEは<strong>2026</strong>年<strong>7</strong>月<strong>16</strong>日、Googleが<strong>2026</strong>年<strong>7</strong>月<strong>22</strong>日から米国で、サードパーティ製アプリストアがGoogle Playのアプリカタログにアクセスできるようにすると発表したと報じた。「<strong>登録済アプリストア</strong>」経由でアプリをダウンロード可能になり、料金はGoogle Play と同条件が維持される。背景は<strong>2020</strong>年から<strong>5</strong>年続いたEpic Gamesとの訴訟で、<strong>2025</strong>年<strong>10</strong>月にGoogleの反競争的行為が認定された件。Googleは当初の「サードパーティストアからの直接ダウンロード命令」への異議申し立てを取り下げて和解した。開発者は Play Console から、各アプリを他ストアで公開/個別管理/非公開のいずれかを選択できる。モバイル配信の勢力図が変わる転換点で、Web系志望でモバイルにも触れる学生は今後の日本展開時期に注視。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260716-android-third-party-app-stores/",
+          "tags": [
+            "Google",
+            "モバイル",
+            "規制"
+          ]
+        },
+        {
+          "position": 5,
+          "title": "2026年上半期 国内スタートアップ投資動向 — 資金調達額5,033億円(前年比+4%)、社数1,061社(-35%)、1社平均+71%",
+          "summary": "フォースタートアップスは<strong>2026</strong>年<strong>7</strong>月<strong>16</strong>日、STARTUP DB独自調査による「<strong>2026</strong>年上半期 国内スタートアップ投資動向レポート」を公開した。上半期の資金調達額は暫定値で<strong>5,033億</strong>円(前年比<strong>+4</strong>%、着地見込み<strong>5,788億</strong>円)。資金調達社数は<strong>1,061</strong>社(前年比<strong>-35</strong>%)まで絞られ、<strong>1</strong>社あたりの平均調達額は<strong>4.2億</strong>円(前年比<strong>+71</strong>%)へと大型化。研究開発型スタートアップの調達が全体の約<strong>35</strong>%を占め、上半期だけで<strong>1,753億</strong>円(前年比<strong>+25</strong>%)に達する。M&A件数は<strong>128</strong>件(<strong>+29</strong>%)と活発化する一方、IPOは<strong>18</strong>社にとどまる。Web系事業会社を含む志望企業の資金調達段階を把握する基礎資料として、就活面接の企業研究に直結する統計。",
+          "sourceName": "PR TIMES / フォースタートアップス",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000464.000032589.html",
+          "tags": [
+            "スタートアップ",
+            "資金調達",
+            "STARTUPDB"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "ピューリッツァー賞審査員が明かす「文学賞はどう決まるか」 — 全冊は読まれず、初期段階は単一審査員の好みが左右",
+          "summary": "GIGAZINEは<strong>2026</strong>年<strong>7</strong>月<strong>17</strong>日、ピューリッツァー賞ほか<strong>6</strong>つの文学賞を審査してきたレベッカ・マカーイ氏が「文学賞の裏側」を解説した記事を報じた。ポイントは、審査員は「<strong>全ての本を最初から最後まで読んでいるわけではない</strong>」こと。数百冊を半年で捌く関係上、気に入らない作品は途中で読むのを止めることが公式に許容されており、初期段階では単一審査員の好みが選出を大きく左右する。ピューリッツァー賞ではさらに、審査員が絞った候補作を最終的にコロンビア大学委員会が独立して決めるため、審査員自身も受賞作を知らないケースがある。「客観的評価」に見えるものの中身はプロセス・時間制約・個人の好みの複合物だという事実は、「<strong>賞・ランキング・レコメンド</strong>」全般に対して自分の判断の重み付けをどう置くかを見直す材料になる。日々AIの評価・スコアと付き合う立場でこそ、「評価する側の内部構造」を1枚剥がして見る訓練の題材として効く。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260717-book-prizes/",
+          "tags": [
+            "メタ認知",
+            "評価バイアス",
+            "ピューリッツァー賞"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "コンゴ民主共和国の熱帯雨林で新種の霊長類 Colobus congoensis を発見 — 過去75年のアフリカで5種目、生息域約1,700km²",
+          "summary": "GIGAZINEは<strong>2026</strong>年<strong>7</strong>月<strong>16</strong>日、コンゴ民主共和国のロマミ国立公園の熱帯雨林で新種の霊長類が確認されたと報じた(掲載誌: PLOS One)。命名は「<strong>Colobus congoensis</strong>」で、地元では「<strong>Likweli</strong>」として知られていた。体重約<strong>7</strong>kg と近縁種より小型、光沢のある黒い毛皮に縁取りのあるクリーム色の唇、目の周囲は薄い灰色で頬骨が高く突き出す特徴を持つ。過去<strong>75</strong>年間にアフリカで発見された新種の霊長類としては<strong>5</strong>種目にあたり、コンゴ民主共和国にちなんで名付けられた最初の霊長類。遺伝子解析では近縁種との分岐は<strong>400万〜500万</strong>年前と推定され、生息域は約<strong>1,700</strong>km²に限定される。「まだ発見されていない大型哺乳類が地球上に残っている」という事実そのものを、面接雑談の1枚目として持っておける話題。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260716-new-species-monkey-congo-rainforest/",
+          "tags": [
+            "生物学",
+            "新種発見",
+            "PLOSOne"
+          ]
+        }
+      ]
+    }
+  ]
+}

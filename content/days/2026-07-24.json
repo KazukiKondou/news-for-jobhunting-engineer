@@ -1,0 +1,112 @@
+{
+  "date": "2026-07-24",
+  "label": "2026年7月24日 (金)",
+  "intro": ".NET MAUIがMonoからCoreCLRへ統一。Bun v1.4.0はZig 53万行をRustへ11日で移植。Google CloudはYoY+82%。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": ".NET 11 Preview 6公開 — .NET MAUIのiOS/AndroidランタイムをMonoからCoreCLRへ、Androidアプリサイズ変動は10%以下",
+          "summary": "Publickeyが<strong>2026</strong>年<strong>7</strong>月<strong>24</strong>日、Microsoftが<strong>.NET 11 Preview 6</strong>を公開したと報じた。目玉は<strong>.NET MAUI</strong>の実行基盤変更で、これまで歴史的経緯から<strong>iOS</strong>・<strong>Android</strong>・<strong>Mac Catalyst</strong>で<strong>Mono</strong>が採用されていたところを、Windows/macOSで先行していた<strong>CoreCLR</strong>に統一する。iOS/Mac Catalystは実行速度が向上し、Androidも起動時間とアプリサイズの変動が<strong>10%以下</strong>に収まる見通し。これで.NET側のMono採用は<strong>Blazor WebAssembly</strong>のみとなり、実質引退へ。<strong>Unity 7</strong>もCoreCLR移行を正式表明済みで、C#製モバイル/クロスプラットフォームアプリの実行基盤が一本化される節目となる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/net_mauiiosandoridmonocoreclrnet_11_preview_6.html",
+          "tags": [
+            ".NET",
+            "Microsoft",
+            "MAUI"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "Bun v1.4.0がZig→Rust移行、正式発表前にClaude Codeへ組み込み — 約53万行のコードを11日で書き直し",
+          "summary": "GIGAZINEが<strong>2026</strong>年<strong>7</strong>月<strong>23</strong>日、JavaScriptランタイム<strong>Bun</strong>の最新版<strong>v1.4.0</strong>がRust移行版になっていた事実を報じた。Bun作者のJarred Sumner氏は<strong>Zig</strong>で書かれた約<strong>53万行</strong>のコードを、複数の<strong>Claude Code</strong>インスタンスを並列に走らせて<strong>11日間</strong>で書き直したという。Rust化の主目的はメモリ管理の安全性で、Zigの手動解放に起因する解放忘れやダブルフリーを、コンパイラの生存期間検査で排除する。外部挙動はほぼ変わらず、正式リリース前に<strong>Claude Code</strong>のバンドル版として先に配布されており「利用者はほとんど気付かなかった」。ランタイム基盤をAIエージェントで並列に大書き換えできた事例として、規模と期間の両面で異例。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260723-claude-code-bun-in-rust/",
+          "tags": [
+            "Bun",
+            "Rust",
+            "ClaudeCode"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "Alphabet 2026Q2決算、全社売上前年比+24% — Google Cloud +82%、Gemini APIは1分220億トークン処理",
+          "summary": "GIGAZINEが<strong>2026</strong>年<strong>7</strong>月<strong>23</strong>日、<strong>Alphabet</strong>の<strong>2026年Q2</strong>決算を報じた。全社売上は前年同期比<strong>+24%</strong>。事業別では<strong>Google検索</strong>が<strong>+17%</strong>で月間アクティブユーザー<strong>10億人</strong>を突破、<strong>Google Cloud</strong>は<strong>+82%</strong>で<strong>Fortune 100</strong>企業の約<strong>90%</strong>が<strong>Gemini Enterprise</strong>を導入。<strong>Gemini API</strong>のトークン処理量は<strong>1分あたり220億トークン</strong>(3カ月前は160億)まで拡大した。<strong>YouTube</strong>広告売上は<strong>110億6000万ドル</strong>、Geminiアプリの月間アクティブユーザーは<strong>9億5000万人</strong>、デイリーは前年比<strong>3倍</strong>。AI事業単独ではなくコア検索・広告と同時に伸びており、Web/SaaS事業会社にとってはGoogle Cloud採用可否の意思決定材料が更新される。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260723-google-earnings-2026-q2/",
+          "tags": [
+            "Alphabet",
+            "GoogleCloud",
+            "決算"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "AMDとAnthropicが戦略提携、最大2GWの「Helios」導入 — AMD側は最大50億ドルの出資も同時発表",
+          "summary": "ITmediaが<strong>2026</strong>年<strong>7</strong>月<strong>23</strong>日、<strong>AMD</strong>と<strong>Anthropic</strong>の戦略的提携を報じた。AI基盤「<strong>AMD Helios</strong>」を<strong>Anthropic</strong>が最大<strong>2GW</strong>規模で導入し、初期<strong>1GW</strong>を<strong>2027年半ば</strong>から順次展開する。搭載チップは<strong>AMD Instinct MI455X</strong> GPU+<strong>EPYC Venice</strong> CPUの組み合わせ。契約と同時に<strong>AMDが最大50億ドル</strong>を<strong>Anthropic</strong>へ戦略投資し、両社の関係を購入契約以上に深める。<strong>Anthropic</strong>はこれまで<strong>AWS Trainium</strong>・<strong>Google TPU</strong>・<strong>NVIDIA</strong> GPUなど複数プラットフォームで<strong>Claude</strong>を運用しており、そこにAMDが公式に加わる形。NVIDIA一強だった生成AI基盤の勢力図が変わる材料。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/articles/2607/23/news063.html",
+          "tags": [
+            "AMD",
+            "Anthropic",
+            "出資"
+          ]
+        },
+        {
+          "position": 5,
+          "title": "GitHub、バグ報奨金プログラムを再編 — VIP招待制で重大脆弱性は3万ドル以上、AI生成の低品質報告に対応",
+          "summary": "GIGAZINEが<strong>2026</strong>年<strong>7</strong>月<strong>23</strong>日、<strong>GitHub</strong>が<strong>7月27日</strong>付でバグ報奨金プログラムを刷新すると報じた。生成AIによる低品質報告が急増し、重大な脆弱性が処理待ちに埋もれる問題への対応。招待制の<strong>VIP</strong>プログラムを恒久化し、重大脆弱性で<strong>3万ドル</strong>以上、低で<strong>1000ドル</strong>を支払う。一般向けは低<strong>250ドル</strong>〜重大<strong>1万ドル</strong>の固定額に整理。VIP参加資格は「重大1件/高2件/中4件/低7件」いずれか達成が条件で、新規参加者には<strong>HackerOne</strong>の<strong>Signal Requirements</strong>を導入して基準未満でも最大<strong>4件</strong>まで報告可能とする。「報告数ではなく調査の質」への転換を明示。Web/SaaSでもAI起因の運用ノイズは共通課題で、報奨制度側にガードレールを敷いた設計例となる。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260723-github-bug-bounty-program/",
+          "tags": [
+            "GitHub",
+            "セキュリティ",
+            "バグ報奨金"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "成人発達理論の「段階」は序列ではなく地図 — 加藤洋平が意味生成構造としての発達を再定義、DIAMONDハーバード・ビジネス・レビュー",
+          "summary": "DIAMONDハーバード・ビジネス・レビューが<strong>2026</strong>年<strong>7</strong>月<strong>23</strong>日に配信した<strong>加藤洋平</strong>の連載第<strong>22回</strong>。<strong>成人発達理論</strong>における「<strong>段階</strong>」概念は、能力の優劣で人を序列化するためのものではなく、<strong>世界の捉え方の質的差異を記述する地図</strong>だと再定義する。<strong>ピアジェ</strong>や<strong>ロバート・キーガン</strong>のモデルが本来示していたのは「<strong>意味生成の構造の変化</strong>」で、同じ出来事を<strong>脅威</strong>と受け取るか<strong>学習機会</strong>と捉えるかは意味づけルールの違いに起因する。近年<strong>カート・フィッシャー</strong>やフローニンゲン学派は、発達を「<strong>文脈の中で揺れ動く動的プロセス</strong>」として再解釈しており、固定的な段階論から距離を置く。「自分は今どの段階か」ではなく「今どの意味生成モードを使っているか」を観察する視点は、自分と他者の反応差を分解する道具になる。",
+          "sourceName": "DIAMOND ハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14420",
+          "tags": [
+            "成人発達理論",
+            "メタ認知",
+            "DHBR"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "東京都美術館開館100周年記念、大英博物館日本美術コレクション展「百花繚乱」7/25開幕 — 江戸絵画40000点から選抜、歌麿「読書美人図」初里帰り",
+          "summary": "<strong>東京都美術館</strong>が<strong>開館100周年</strong>を記念して開催する特別展「<strong>大英博物館日本美術コレクション 百花繚乱〜海を越えた江戸絵画</strong>」が<strong>2026年7月25日</strong>から<strong>10月18日</strong>まで開かれる(会場は東京都美術館)。<strong>1753年</strong>創設の大英博物館は海外最大級の日本美術コレクションを抱え、その所蔵は約<strong>40000点</strong>にのぼる。今回は江戸期の屏風・掛軸・絵巻に加え、<strong>喜多川歌麿</strong>・<strong>東洲斎写楽</strong>・<strong>葛飾北斎</strong>・<strong>歌川広重</strong>ら浮世絵師の作を出品。歌麿の墨画「<strong>読書美人図</strong>」は英国から日本に初めて里帰りする逸品で、円山応挙「虎子渡河図屏風」、北斎「万物絵本大全図」の下絵なども並ぶ。日本発の絵画がロンドンで<strong>270年</strong>近く保存されてきた事実そのものが、視野を海外側にひっくり返す教材になる。",
+          "sourceName": "東京都美術館",
+          "sourceUrl": "https://www.tobikan.jp/exhibition/2026_britishmuseum.html",
+          "tags": [
+            "美術",
+            "大英博物館",
+            "江戸絵画"
+          ]
+        }
+      ]
+    }
+  ]
+}

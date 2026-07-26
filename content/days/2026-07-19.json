@@ -1,0 +1,112 @@
+{
+  "date": "2026-07-19",
+  "label": "2026年7月19日 (日)",
+  "intro": "nginxでCVSS 9.2の緊急パッチ、CloudFrontがVPC Origins由来で全停止、Gemini Sparkが月14,500円で日本語化。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "jig.jp、採用サイトを全面リニューアル — 「ふわっち」に頼らない複数プロダクト横断の「挑戦のカルチャー」を訴求、東証グロース5244",
+          "summary": "株式会社<strong>jig.jp</strong>(東証グロース 5244、本社福井県鯖江市、代表 <strong>川俣大</strong>)は<strong>2026</strong>年<strong>7</strong>月<strong>16</strong>日、採用サイトを全面リニューアルしたと発表した。ライブ配信「<strong>ふわっち</strong>」の認知は高い一方で「1プロダクト企業」に見えてしまう課題感から、VTuber事業・スマートグラス「<strong>SABERA</strong>」・オープンデータ基盤など複数プロダクトを横断する「挑戦のカルチャー」を前面に押し出した構成に変更。人事責任者の桶側是宏氏は「複数のプロダクトで力をつけて挑戦するカルチャーを、1プロダクトのイメージに埋もれさせない」とコメントしている。リニューアル以降、自社サイト経由の直接応募が増加しており、今後は社員の日常や地方拠点の働き方をSNSでも発信するという。福井本社×東京拠点で複数プロダクトを走らせるWeb企業のブランディング事例として、地方拠点型スタートアップの採用戦術の一つを示した。",
+          "sourceName": "PR TIMES / jig.jp",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000053.000070695.html",
+          "tags": [
+            "採用",
+            "jig.jp",
+            "プロダクト横断"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "nginx が3件の脆弱性を修正、v1.30.4/v1.31.3公開 — CVE-2026-42533 は CVSS 9.2 でDoS/RCE、Web運用は緊急パッチ推奨",
+          "summary": "Webサーバー「<strong>nginx</strong>」が<strong>2026</strong>年<strong>7</strong>月<strong>16</strong>日、Stable <strong>v1.30.4</strong>・Mainline <strong>v1.31.3</strong> を公開し、深刻度Critical含む<strong>3件</strong>の脆弱性を修正した。CVE-2026-42533(CVSS <strong>9.2</strong>)はmapディレクティブ処理のヒープバッファオーバーフローで、認証なしでworker再起動によるDoS、ASLR無効環境ではコード実行の恐れがある。CVE-2026-60005(CVSS 8.8)はsliceモジュールの未初期化メモリ利用でメモリ内容の漏洩、CVE-2026-56434(CVSS 8.3)はssiモジュールの Use-After-Free。運用中のWebサービスは<strong>Stable系v1.30.4</strong>または<strong>Mainline系v1.31.3</strong>への速やかな更新が必要。",
+          "sourceName": "窓の杜",
+          "sourceUrl": "https://forest.watch.impress.co.jp/docs/news/2125645.html",
+          "tags": [
+            "nginx",
+            "セキュリティ",
+            "CVE"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "AWS CloudFront がグローバル障害、VPC Origins機能に起因 — 17:40発生、PayPay・note・アニメマニアが数時間停止、21:20頃復旧",
+          "summary": "Amazon Web Services (AWS) の CDN「<strong>Amazon CloudFront</strong>」が<strong>2026</strong>年<strong>7</strong>月<strong>16</strong>日<strong>17時40分</strong>頃からグローバル規模で障害を起こし、<strong>PayPay</strong>・<strong>note</strong>・アニメマニアなど CloudFront に依存する日本国内のサービスも数時間にわたり停止した。AWSステータスによると、CloudFrontの新機能「VPC Origins」を有効化しているディストリビューションでエラーが発生しており、暫定回避策として同機能を無効化するよう案内が出された。<strong>21時20分</strong>頃にAWSが復旧アップデートを発表。Web系事業会社の入社1〜2年目が直面するSRE案件で、単一CDNベンダー依存とマルチCDNフェイルオーバーの是非を議論するきっかけになった。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/articles/2607/16/news096.html",
+          "tags": [
+            "AWS",
+            "CloudFront",
+            "SRE"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "Google の常時稼働AIエージェント「Gemini Spark」日本語対応 — Ultra 月14,500円、Gmail・カレンダー横断で24時間タスク実行",
+          "summary": "Google が<strong>2026</strong>年<strong>7</strong>月<strong>16</strong>日、パーソナルAIエージェント「<strong>Gemini Spark</strong>」の日本語対応を開始した。<strong>Gemini 3.5</strong> と Google Antigravity 上で動作し、PCを閉じても・スマホがロック中でも<strong>24時間365日</strong>クラウド側でタスクを継続実行する。情報収集・データ整理・メール処理・スケジュール調整・旅行プランニングなどをGmail・Docs・Slides横断で自動化。提供対象は「<strong>Gemini Ultra</strong>」プラン(月額<strong>14,500円</strong>〜)加入者で、Gemini アプリから順次ロールアウトされる。サードパーティアプリや Model Context Protocol(MCP)経由の任意アプリ連携にも対応。従来のCopilot型AIとの対比で、常時稼働・自律実行型エージェントが月額課金SaaSとしてどう定着するかが焦点となる。",
+          "sourceName": "PC Watch",
+          "sourceUrl": "https://pc.watch.impress.co.jp/docs/news/2125695.html",
+          "tags": [
+            "Google",
+            "GeminiSpark",
+            "AIエージェント"
+          ]
+        },
+        {
+          "position": 5,
+          "title": "Anthropic、Claude Fable 5 を Max・Team Premium プランの標準機能に統合 — Pro は Usage Credits へ移行、初回$100付与",
+          "summary": "米Anthropicは<strong>2026</strong>年<strong>7</strong>月<strong>17</strong>日(日本時間<strong>18</strong>日発表)、最上位AI「<strong>Claude Fable 5</strong>」を<strong>Max</strong>・<strong>Team Premium</strong> プランの標準機能に統合し、追加料金なしで通常利用枠の最大<strong>50%</strong>まで使えるようにすると発表した。「<strong>Pro</strong>」および「<strong>Team Standard</strong>」ユーザー向けには <strong>Usage Credits</strong> の従量課金モデルへ移行し、初回一時付与として<strong>$100</strong>クレジットが配布される。Fable 5 は長時間タスク・複雑コーディング・高度推論に特化した「Mythos-class」最上位モデル。当初は全有料プランで7日間の無料お試しとして提供、需要超過で<strong>2</strong>度延長されていた。OpenAI・Anthropic・Moonshotが同時期に上位モデルへの課金枠を張り替えており、Web系事業会社の生成AI利用ポリシーにも波及している。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/articles/2607/18/news019.html",
+          "tags": [
+            "Anthropic",
+            "Claude",
+            "サブスク統合"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "「京大に首席合格した著者」「科学的エビデンス」— 東大生が読む\"本質的な勉強法\"がわかる本3冊、西岡壱誠が推薦",
+          "summary": "東洋経済オンラインは<strong>2026</strong>年<strong>7</strong>月<strong>18</strong>日、ドラゴン桜編集担当で <strong>Reala</strong> 代表の<strong>西岡壱誠</strong>氏による寄稿を掲載した。「成果を出す人は、必ずといっていいほど地に足のついたコンテンツから情報を得ている」と指摘し、SNSやまとめサイトで消費される流行の勉強法ではなく、京大首席合格者の実践知や認知科学の一次エビデンスに立ち返った書籍3冊を推薦する。技術記事とドキュメントを高速で回すエンジニア職の学習にも接続する視点で、「なぜ効くのか」を分解する枠組みが提示される。トレンドのキャッチアップと基礎学習の配分を再設計する材料になる。",
+          "sourceName": "東洋経済オンライン",
+          "sourceUrl": "https://toyokeizai.net/articles/-/950360",
+          "tags": [
+            "学習法",
+            "書評",
+            "エビデンス"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "アンドリュー・ワイエス展、豊田市美術館で7/18開幕 — 日本での大規模回顧展は17年ぶり、約100点で「境界」を主題化",
+          "summary": "アメリカを代表するリアリズム画家<strong>アンドリュー・ワイエス</strong>(1917〜2009)の展覧会が<strong>2026</strong>年<strong>7</strong>月<strong>18</strong>日、愛知県の<strong>豊田市美術館</strong>で開幕した。会期は<strong>9</strong>月<strong>23</strong>日まで。展示規模は約<strong>100点</strong>で、日本で本格的な回顧展が開かれるのは実に<strong>17年ぶり</strong>。テーマは「境界」で、窓・扉・地平線などワイエス作品に繰り返し現れるモティーフを軸に、風景と人物の内面性を静謐に描いた作品世界を再照射する。ホイットニー美術館の《冬の野》(1942)、フィラデルフィア美術館の《冷却小屋》(1953)ほか、日本初公開作品も複数含む。同時開催で「ワン・ルーム・ワン・アーティスト展」も企画され、ヤノベケンジ・堀尾昭子・梅津庸一・岡崎和郎の4作家を1室ずつ紹介する構成となっている。",
+          "sourceName": "豊田市美術館 公式",
+          "sourceUrl": "https://www.museum.toyota.aichi.jp/exhibition/wyeth2026",
+          "tags": [
+            "アート",
+            "アメリカン・リアリズム",
+            "豊田市美術館"
+          ]
+        }
+      ]
+    }
+  ]
+}

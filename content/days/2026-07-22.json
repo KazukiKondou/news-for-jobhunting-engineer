@@ -1,0 +1,112 @@
+{
+  "date": "2026-07-22",
+  "label": "2026年7月22日 (水)",
+  "intro": "Anthropicが書籍訴訟で15億ドル和解、米著作権史上最大。AWS CloudFormationにデプロイ最大4倍のExpressモード。Cursor Swarm新版でエージェント費用1/8。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "AICX協会「AI Agent Day 2026 Summer」7/23-24オンライン開催 — メルカリ・Google Cloud Japan・Salesforceなど登壇、参加費無料",
+          "summary": "CodeZineが<strong>2026</strong>年<strong>7</strong>月<strong>21</strong>日、AICX協会が主催する2日間イベント「<strong>AI Agent Day 2026 Summer</strong>」を<strong>7</strong>月<strong>23-24日</strong>にオンライン(Zoom)で開催すると報じた。テーマは「<strong>事例完全解剖 5つの壁を、事例で解体する2日間</strong>」で、AIエージェント導入後の運用・定着の壁の乗り越え方を具体事例で提示する。登壇は<strong>メルカリ</strong>、<strong>グーグル・クラウド・ジャパン</strong>、<strong>Salesforce Japan</strong>、<strong>ウイングアーク1st</strong>、<strong>モビルス</strong>ほか。運営はビジョナリーエンジン、事前登録制で参加費無料。登録者には「AIエージェント実践事例集」が配布される。Web/SaaS事業会社のAIエージェント運用の解像度を上げる素材として、就活生でも観測しやすい2日間。",
+          "sourceName": "CodeZine",
+          "sourceUrl": "https://codezine.jp/news/detail/29056",
+          "tags": [
+            "AIエージェント",
+            "メルカリ",
+            "カンファレンス"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "AWS、CloudFormation「Expressモード」提供開始 — デプロイ最大4倍、SQSキュー作成64秒→10秒未満、Lambda削除20-30分→10秒未満",
+          "summary": "AWSが<strong>2026</strong>年<strong>7</strong>月<strong>21</strong>日、Infrastructure as Codeサービス<strong>AWS CloudFormation</strong>に「<strong>Expressモード</strong>」を追加した。従来モードは各リソースが安定状態になるまで待機したのに対し、Expressモードは<strong>設定適用後すぐに処理完了</strong>を返す。ベンチマークでデプロイ時間は<strong>最大4倍</strong>短縮、SQSキュー作成は64秒→10秒未満、Lambda関数削除は20-30分→10秒未満へ。想定用途は開発中の繰り返しデプロイ、テスト用途、AIエージェント経由の高速インフラ変更で、「最終的に整合が取れればよい」ワークロードに有効。Web/SaaS各社のCI/CD時間を直接短縮できる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/aws4aws_cloudformation_express.html",
+          "tags": [
+            "AWS",
+            "CloudFormation",
+            "IaC"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "Cursor「Agent Swarm」新版、Opus 4.8計画+Composer 2.5実行の分業でコスト1/8 — 170万円→22万円で同等品質",
+          "summary": "Anysphereが開発するAIコードエディタ<strong>Cursor</strong>が<strong>2026</strong>年<strong>7</strong>月<strong>21</strong>日、複数AIに作業を分担させる「<strong>Agent Swarm</strong>」の改良版を発表した。計画役に高性能な<strong>Opus 4.8</strong>、実行役に低コスト<strong>Composer 2.5</strong>を配置する分業で、大規模プロジェクトの総費用を約170万円→約22万円へ、およそ<strong>1/8</strong>に削減しながら出力品質はほぼ同等を維持した。新版では「設計判断を共有文書に記録し、変更衝突時に第三者AIが調整」する機構を導入。ワーカーが全トークンの<strong>69-90%</strong>を消費するため、そこへ低コストモデルを配置する経済設計がAI駆動開発の相場感を更新する事例。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260721-agent-swarm-model-economics/",
+          "tags": [
+            "Cursor",
+            "AIエージェント",
+            "開発効率"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "Anthropic、著作権訴訟で15億ドル和解が正式承認 — 48万点超の書籍1点あたり3000ドル、米著作権史上最大",
+          "summary": "GIGAZINEが<strong>2026</strong>年<strong>7</strong>月<strong>22</strong>日、Anthropicが<strong>Claude</strong>の訓練に海賊版書籍<strong>700万点以上</strong>を用いた件で作家グループと結んだ<strong>15億ドル(約2440億円)</strong>の和解が正式承認されたと報じた。対象は<strong>48万点超</strong>の書籍で、<strong>1点あたり3000ドル</strong>(約48万8000円)を支払う。<strong>44万点以上</strong>について既に請求済み。<strong>2024</strong>年の提訴時に判事は「フェアユースではない」と判断しており、複数の再検討を経ての決着。<strong>米著作権訴訟史上最大規模</strong>の和解となる一方、一部の著者・出版社は反発し独自訴訟を継続。生成AI学習データの調達コスト・法的リスクの前例となる。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260722-anthropics-settlement-book-piracy-ai/",
+          "tags": [
+            "Anthropic",
+            "著作権",
+            "AI規制"
+          ]
+        },
+        {
+          "position": 5,
+          "title": "Google、Gemini専用AIチップ「Frozen v2」発表 — 電力当たりトークン生成量6-10倍、2028年展開予定",
+          "summary": "Googleが<strong>2026</strong>年<strong>7</strong>月<strong>21</strong>日、生成AI<strong>Gemini</strong>のサーバー効率化に特化した新カスタムAIチップ「<strong>Frozen v2</strong>」を発表した。既存チップ比で単位電力当たりのトークン生成量が<strong>6-10倍</strong>効率化する設計で、リリースは<strong>2028</strong>年中を予定。AI推論コストと消費電力の急増が業界共通課題となる中、OpenAIやAnthropicも同様にカスタムシリコン開発を進めており、モデル会社×自社チップの垂直統合競争が加速する。Gemini APIを組み込むWeb/SaaS各社にとっては、将来的な提供コストと応答レイテンシが両方効いてくる基盤層の話。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260721-google-new-ai-chip-designed-gemini/",
+          "tags": [
+            "Google",
+            "Gemini",
+            "AIチップ"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "「頭の悪い働き方」評価される人はAI壁打ち率18倍 — 越川慎司『会社から期待されている人の習慣115』、ダイヤモンド",
+          "summary": "ダイヤモンド・オンラインが<strong>2026</strong>年<strong>7</strong>月<strong>22</strong>日、元マイクロソフト役員<strong>越川慎司</strong>氏の新著『<strong>815社17万人を分析してわかった 会社から期待されている人の習慣115</strong>』の抜粋を公開した。ワースト1に挙げられた「無駄な努力」は<strong>考えが整理されないまま上司に何度も相談する</strong>行為で、上司の時間を奪い評価を下げる。対して評価される人の<strong>45%</strong>は相談前に<strong>AIを「壁打ち相手」</strong>として使い、論点を明確化してから上司へ持ち込む。期待されている人のAI活用率は一般社員の<strong>18倍</strong>。「AIに答えを出させる」ではなく「AIに問いを整えさせる」という切り替えは、就活のES/面接準備でも直接使える思考順序。",
+          "sourceName": "ダイヤモンド・オンライン",
+          "sourceUrl": "https://diamond.jp/articles/-/394916",
+          "tags": [
+            "働き方",
+            "思考整理",
+            "越川慎司"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "不二製油、常温でも柔らかい国内初のチョコレートを開発 — 5-25度で柔らか、菓子装飾工程を簡略化、2026年内発売",
+          "summary": "日本経済新聞が<strong>2026</strong>年<strong>7</strong>月<strong>22</strong>日、油脂大手の<strong>不二製油</strong>が<strong>常温(5-25度)でも柔らかい国内初のチョコレート</strong>を開発し<strong>2026年内</strong>に発売すると報じた。業界基準の<strong>カカオ成分量</strong>を維持したまま、従来の「<strong>32度付近で急に溶ける</strong>」性質を回避。<strong>30度以下でもホイップなどの加工が可能</strong>で、菓子店や食品会社向けに素材・装飾用として販売する。製菓現場では温度管理を大幅に緩められ、装飾工程が簡略化される。IT系エンジニア志望の視野から離れた「素材テクノロジー×製造現場」の技術ネタで、面接雑談や祖父母世代のニュース話にも触りやすい一件。",
+          "sourceName": "日本経済新聞",
+          "sourceUrl": "https://www.nikkei.com/article/DGXZQOUF226NN0S6A520C2000000/",
+          "tags": [
+            "食品科学",
+            "不二製油",
+            "製菓"
+          ]
+        }
+      ]
+    }
+  ]
+}

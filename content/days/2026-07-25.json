@@ -1,0 +1,112 @@
+{
+  "date": "2026-07-25",
+  "label": "2026年7月25日 (土)",
+  "intro": "Claude Opus 5がFable 5の半額で登場、Worldは5250万ドル調達、東京E-Prixは日本初のナイトレース。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Anthropicが「Claude Opus 5」公開 — Fable 5と同等性能を半額で提供、Frontier-Benchで43.3%、xhigh/Fastモード追加",
+          "summary": "GIGAZINEが<strong>2026</strong>年<strong>7</strong>月<strong>25</strong>日、<strong>Anthropic</strong>が新モデル「<strong>Claude Opus 5</strong>」を公開したと報じた。API料金は<strong>Opus 4.8</strong>と同じで入力<strong>5ドル</strong>/百万トークン・出力<strong>25ドル</strong>/百万トークン、<strong>Fable 5</strong>の<strong>半額</strong>でありながら<strong>Frontier-Bench v0.1</strong>では<strong>43.3%</strong>(Fable 5は<strong>33.7%</strong>)、<strong>ARC-AGI-3</strong>では<strong>30.2%</strong>(GPT-5.6 Solの<strong>7.8%</strong>を上回る)を記録。低・中・高・<strong>xhigh</strong>・<strong>max</strong>から選べる推論効力レバーと、追加料金で<strong>2.5倍</strong>高速化する<strong>Fast mode</strong>も同時導入。安全性クラシファイヤの発動率は従来比<strong>約85%減</strong>で、Fable/Mythosに課されていた<strong>30日</strong>データ保持ポリシーも適用対象外。<strong>Claude.ai</strong>/API/<strong>Claude Code</strong>で即日提供、<strong>Claude Max</strong>の既定モデルにもなった。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260725-claude-opus-5/",
+          "tags": [
+            "Anthropic",
+            "ClaudeOpus5",
+            "AI"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "DeepSeek創業者・梁文鋒が4時間講演、「NVIDIAのCUDA優位は崩れつつある」 — 資源差はあれど才能差ではないと明言",
+          "summary": "GIGAZINEが<strong>2026</strong>年<strong>7</strong>月<strong>24</strong>日に報じた<strong>DeepSeek</strong>創業者・<strong>梁文鋒</strong>氏の投資家向け講演(<strong>2026年5月20日</strong>実施、約<strong>4時間</strong>)。DeepSeekは既に<strong>約70億元</strong>(<strong>約1.6兆円</strong>)級の資金を集めながら、「AGI研究が最優先で、<strong>利益最大化を狙った時点で負ける</strong>」と明言。米中AI性能差は資源差にすぎず、<strong>CUDA</strong>互換の障壁が消えれば急速に縮まると分析した。APIは<strong>約10ヶ月</strong>でハードウェア原価を回収する価格設計。開発リソースは<strong>コーディングエージェント</strong>に集中し、3D生成/動画生成/専門ドメイン特化エージェントは優先度を下げる方針で、<strong>DeepSeek Chat</strong>を「スーパーアプリ」にする計画は明確に否定。フラグシップ高性能モデルは劣化版ではなく本体をOSS公開し続けると強調した。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260724-deepseek-liang-wenfeng-talk/",
+          "tags": [
+            "DeepSeek",
+            "CUDA",
+            "NVIDIA"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "サム・アルトマン率いる「World」、暗号資産販売で5250万ドル調達 — 12ヶ月ロック付き、Pantera Capitalがリード",
+          "summary": "TechCrunchが<strong>2026</strong>年<strong>7</strong>月<strong>24</strong>日、<strong>サム・アルトマン</strong>氏らが立ち上げた生体認証プロジェクト「<strong>World</strong>」(旧<strong>Worldcoin</strong>)が独自トークン<strong>WLD</strong>の売却で<strong>5250万ドル</strong>(約<strong>80億円</strong>)を調達したと報じた。買い手は<strong>12ヶ月</strong>のロックアップ付きで転売不可、長期コミットの担保となる。ラウンドは<strong>Pantera Capital</strong>がリード、<strong>Bain Capital Crypto</strong>、<strong>Susquehanna Crypto</strong>、<strong>Selini Capital</strong>、<strong>Eightco Holdings</strong>が参加。調達資金はケイマン籍の<strong>World Foundation</strong>に入り、専用装置<strong>Orb</strong>による虹彩スキャンで発行する匿名ID「<strong>World ID</strong>」のネットワーク拡張に充てる。AI時代に「相手が人間か否か」を区別するインフラを、暗号資産で運転資金化する構図が今回で明確化された。",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/07/24/sam-altmans-biometric-startup-world-raises-52-5-million-via-crypto-sale/",
+          "tags": [
+            "World",
+            "SamAltman",
+            "資金調達"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "「Devin」開発元Cognition、対話AI「Poke」を低い9桁ドルで買収 — 3ヶ月で1億件超のメッセージ実績",
+          "summary": "TechCrunchが<strong>2026</strong>年<strong>7</strong>月<strong>24</strong>日、AIコーディングエージェント「<strong>Devin</strong>」を手がける<strong>Cognition</strong>が、対話AIアシスタント「<strong>Poke</strong>」を「<strong>低い9桁ドル</strong>」(<strong>数百億円</strong>規模)で買収したと報じた。PokeはThe Interaction Company of Californiaが<strong>2026年3月</strong>に公開したメッセージング特化AIで、iMessage/SMS/Telegram/WhatsApp上で軽妙かつフレンドリーな対話を売りにし、<strong>3ヶ月</strong>で<strong>1億件</strong>超のメッセージをやり取りしていた。<strong>2026年6月</strong>にはAppleの<strong>Messages for Business</strong>プラットフォームで承認された初のAIエージェントとなった実績を持つ。運用コストが高く単体黒字化は難しかったが、Cognition共同創業者<strong>2名</strong>は元々Poke親会社にエンジェル投資済み。狙いはDevinに「性格」を注入し、AIモデル本体だけでなく対話の質そのものを差別化軸に据えることにある。",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/",
+          "tags": [
+            "Cognition",
+            "Devin",
+            "M&A"
+          ]
+        },
+        {
+          "position": 5,
+          "title": "Bluesky、AIアシスタント「Attie」に検索機能「Quests」ベータ追加 — AT Protocol上の会話を横断リサーチ",
+          "summary": "TechCrunchが<strong>2026</strong>年<strong>7</strong>月<strong>24</strong>日、<strong>Bluesky</strong>が自社AIアシスタント「<strong>Attie</strong>」に新機能「<strong>Quests</strong>」を追加し、オープンなリサーチツールへ拡張したと報じた。従来のAttieは<strong>2026年3月</strong>に公開されたコーディング不要のカスタムフィード/アルゴリズム設計ツールだったが、Questsではユーザーが自然言語で問い合わせるとBluesky本体と<strong>AT Protocol</strong>上に構築された他アプリを横断して、話題や影響力の高いアカウントを抽出する。まずは無料・ウェイトリスト経由のベータ提供で、研究者やクリエイターなど「ネットワーク全体の動きを把握したい層」が対象。Blueskyは<strong>シリーズB</strong>で<strong>1億ドル</strong>を調達済みで、その原資を使い有料サブスクへの布石を打つ。AT Protocol圏へのAI組込みが加速しつつあることを示す動き。",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool/",
+          "tags": [
+            "Bluesky",
+            "ATProtocol",
+            "AI"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "ドラッカー「一度も大きな間違いをしたことのない人を、トップに据えてはならない」 — 『現代の経営』1954年の原典、DIAMONDハーバード・ビジネス・レビュー",
+          "summary": "DIAMONDハーバード・ビジネス・レビューが<strong>2026</strong>年<strong>7</strong>月<strong>23</strong>日、<strong>上田惇生</strong>訳による<strong>ピーター F. ドラッカー</strong>の格言解説を掲載した。ドラッカー『<strong>現代の経営</strong>』(<strong>1954年</strong>)所収の一節で、「<strong>優れた指導者ほど失敗数が多い</strong>。新しいことに挑戦するからだ」と論じる。反対に「<strong>大きな間違いを経験したことのない人物は凡庸である</strong>」とし、「誤りを早期に発見し、修正する方法」を学んでいない人間は組織を導けないと断じる。<strong>半世紀</strong>以上前の議論だが、失敗を封じ込めたい心理と、それが意思決定の質に及ぼす影響を同じ地平で扱う枠組みは、AI時代の「レビュー文化」や心理的安全性の議論にも接続できる古典的補助線となる。",
+          "sourceName": "DIAMOND ハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14263",
+          "tags": [
+            "ドラッカー",
+            "リーダーシップ",
+            "DHBR"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "「TDK Tokyo E-Prix 2026」7/25-26、有明・東京ビッグサイト周辺サーキットで開催 — フォーミュラE史上初の日本ナイトレース、決勝は両日20:05発走",
+          "summary": "FIAフォーミュラE世界選手権の「<strong>TDK Tokyo E-Prix 2026</strong>」が<strong>2026年7月25日(土)・26日(日)</strong>、東京・有明の<strong>東京ビッグサイト</strong>周辺に敷かれた市街地サーキットで開催される。決勝は両日とも夜<strong>20:05</strong>スタートで、<strong>フォーミュラE史上初</strong>の日本におけるナイトレース。会場照明とピット給電はすべて先進<strong>バイオ燃料</strong>由来の再生可能エネルギーで賄い、EV+夜景+持続可能エネルギーの三位一体を都市部で成立させる実験となる。サーキット横のFan Villageではゲームシミュレータ、EV技術展示、キッズゾーンに加えライブ音楽(土曜=<strong>銀座竹内</strong>、日曜=<strong>ONE OR EIGHT</strong>)が終日展開。駐車場は用意されず来場は「<strong>りんかい線・国際展示場駅</strong>から徒歩<strong>7分</strong>」を含む公共交通と水上バスに限定される。",
+          "sourceName": "FIA Formula E",
+          "sourceUrl": "https://www.fiaformulae.com/en/events/2025-26/tokyo",
+          "tags": [
+            "フォーミュラE",
+            "東京",
+            "ナイトレース"
+          ]
+        }
+      ]
+    }
+  ]
+}

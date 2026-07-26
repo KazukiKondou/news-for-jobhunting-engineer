@@ -1,0 +1,112 @@
+{
+  "date": "2026-07-15",
+  "label": "2026年7月15日 (水)",
+  "intro": "Gartner「2029年60%が2-3人チーム」、Claude 31万件性格分析、GitHubシークレット検出名刷新が並んだ。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "GitHub、シークレットスキャン検出タイプの名称を刷新 — Generic secrets / Provider secrets の2軸に整理",
+          "summary": "GitHubは<strong>2026</strong>年<strong>7</strong>月<strong>14</strong>日、シークレットスキャン(secret scanning)の検出タイプの名称を刷新したとCodeZineが報じた。従来のNon-provider patternsは「<strong>Generic secrets</strong>」(秘密鍵や接続文字列など、発行元非依存のもの)に、Generic patternsは「<strong>Provider secrets</strong>」(AWSキーやStripeトークンなど、特定サービス発行のもの)に変更。Copilot secret scanningとAI-detected secretsもより明確な分類に統合された。検出ロジック自体は無変更で、Webhooks/REST API/監査ログの互換性は維持される。ドキュメントは新名称に更新済で、既存リンクはリダイレクトで吸収される。Web系企業の内定インターンや実務でGitHub中心の開発をする学生にとって、「シークレット漏えい対策の語彙」が一段整理された節目。",
+          "sourceName": "翔泳社 CodeZine",
+          "sourceUrl": "https://codezine.jp/news/detail/28935",
+          "tags": [
+            "GitHub",
+            "セキュリティ",
+            "DevOps"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "テンセント、AIモデル「Hy3」をApache 2.0で正式公開 — 100万トークン入力1元・出力4元",
+          "summary": "テンセントは<strong>2026</strong>年<strong>7</strong>月<strong>6</strong>日に大規模言語モデル「<strong>Hy3</strong>」を正式リリースし、<strong>7</strong>月<strong>14</strong>日にCodeZineが詳細を報じた。<strong>4</strong>月のプレビュー版以降、<strong>50</strong>以上の自社製品からのフィードバックを反映して改善。同社の主張では、同規模モデルを上回るパフォーマンスを示し、パラメータ数が<strong>2〜5</strong>倍の主要OSSモデルにも匹敵する性能とされる。ツール呼び出しの安定性、出力フォーマットの正確性、ハルシネーション防止に強みを持つ。価格は<strong>100万</strong>トークンあたり入力<strong>1</strong>人民元・出力<strong>4</strong>人民元・キャッシュ入力<strong>0.25</strong>人民元。ライセンスはApache 2.0で、GitHub / HuggingFace / ModelScope / AtomGitで配布。中国発の高性能OSS LLMがApache 2.0でWeb系スタートアップの実運用候補に入る、という選択肢がまた増えた。",
+          "sourceName": "翔泳社 CodeZine",
+          "sourceUrl": "https://codezine.jp/news/detail/28928",
+          "tags": [
+            "Tencent",
+            "AI",
+            "OSS"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "Anthropic、Claude 3モデルの性格分析を公開 — 31万件の会話サンプルでSonnet「温かみ」Opus 4.7「厳格」",
+          "summary": "Anthropicは<strong>2026</strong>年<strong>7</strong>月<strong>14</strong>日、Claude Sonnet 4.6・Opus 4.6・Opus 4.7の<strong>3</strong>モデルの出力傾向を分析した「性格調査」の結果を公開した。約<strong>31万</strong>件の会話サンプルを、「尊重 vs 慎重」「温かさ vs 厳格さ」「深さ vs 簡潔さ」「素直 vs 実行」の<strong>4</strong>つの対立軸で評価。<strong>Sonnet 4.6</strong>は「温かみのある応答」、<strong>Opus 4.7</strong>は「責任ある厳格な文章」を生成する傾向。言語別では英語とロシア語で「エビデンスを求めがち」、日本語は「偏りが小さめ」との結果。モデルごとに人格特性が定量化されたことで、Web系のプロダクト設計側で「どのモデルにどの役回りを任せるか」を数値で議論できる材料になる。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260714-anthropic-claude-value/",
+          "tags": [
+            "Anthropic",
+            "Claude",
+            "AI"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "Gartner予測、2029年までに60%の組織がより小さなエンジニアリングチームを本格展開 — 4-5人→2-3人へ",
+          "summary": "Publickeyは<strong>2026</strong>年<strong>7</strong>月<strong>15</strong>日、ガートナーが「<strong>2029</strong>年までに<strong>60</strong>%の組織が、より小さなソフトウェアエンジニアリングチームを本格展開する」と予測したと報じた。現在の小規模チームの標準は<strong>4〜5</strong>人だが、今後はAIが日常的な開発タスクを担うことで<strong>2〜3</strong>人程度のチームも増加する見込み。ガートナーは「人間とAIの能力と強みを最大限に活かすためのチーム再編成」と位置づけつつ、「ジュニアレベル人材の採用・育成は継続すべき」と強調。小規模チームではビジネス理解から製品設計、AI監督まで幅広い能力が要求されるため、Web系事業会社を志望する学生にとっては<strong>1</strong>人あたりの担当範囲が広がる将来像を先取りする話。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/202960.html",
+          "tags": [
+            "Gartner",
+            "キャリア",
+            "AI時代"
+          ]
+        },
+        {
+          "position": 5,
+          "title": "Pangram Labs調査、LinkedInの長文投稿の40.5%はAI生成 — 全体13.8%、250語以上では約25%",
+          "summary": "AI検出プラットフォームPangram Labsは<strong>2026</strong>年<strong>7</strong>月<strong>14</strong>日、複数プラットフォームにまたがる<strong>100万</strong>件以上の投稿を分析した結果、LinkedInの長文投稿の<strong>40.5</strong>%がAIによって生成されたものだったと報じられた(GIGAZINE経由)。全プラットフォーム平均では<strong>13.8</strong>%が、<strong>250</strong>語以上の長文に絞ると約<strong>25</strong>%がAI生成。長文執筆を掲げるSubstackですらAI生成/支援コンテンツが<strong>21.9</strong>%を占めた。匿名SNSではAI利用率が相対的に低く、実名ビジネスSNSで逆に高いという反転が確認された点が特徴。就活プロフィールや自己PR文の「AIで書きました」を前提に読み手が変わりつつある、というシグナル。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260714-linkedin-longform-content-ai/",
+          "tags": [
+            "LinkedIn",
+            "AI",
+            "キャリア"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "DIAMOND HBR「有能なリーダーが『問題児』扱いされてしまう評価の罠」 — 行動特性の背景を見ずレッテル化する構造バイアス",
+          "summary": "DIAMOND ハーバード・ビジネス・レビューは<strong>2026</strong>年<strong>7</strong>月<strong>15</strong>日、ベラス・コーチング創業者ルイス・ベラスケス氏の論考「有能なリーダーが『問題児』扱いされてしまう評価の罠」を公開した。組織が優れたリーダーを失う原因は、彼らが「扱いづらい」からではなく、「何が扱いづらくさせているのか、その原因を見誤る」ためであると主張。人は「最も目につきやすい行動」を基準にしがちだが、行動を方向づけている環境や組織システムは見えにくく、個人の性格に原因を求めてしまう構造的バイアスが生じる。摩擦の原因はスキル不足だけでなく、過去のレッテル、強みへの過度な依存、組織システムの問題など複数存在し、一度貼られた誤ったレッテルは昇進・育成・人材確保の意思決定を悪化させ続ける。自分自身の「なぜかいつも同じ人が損している」観察に、環境要因を加える視点を得られる。",
+          "sourceName": "DIAMOND HBR",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14072",
+          "tags": [
+            "DHBR",
+            "リーダーシップ",
+            "評価バイアス"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "Nature Astronomy、天の川銀河中心付近で「エリスルロース」を初検出 — 生命起源につながる4炭素糖が星間空間に",
+          "summary": "Nature Astronomyは<strong>2026</strong>年<strong>7</strong>月<strong>13</strong>日、天の川銀河の中心付近の星間空間で、<strong>4</strong>つの炭素原子からなる糖の一種「<strong>エリスルロース</strong>(erythrulose)」が同定されたと報じた。これまで単純な炭水化物は宇宙空間で検出されてきたが、より複雑な糖分子が星間ガス雲の中に存在することが確認されたのは初。糖類はRNAやDNAといった生命の遺伝物質の主要な骨格を作る成分であり、宇宙のどこで「生命の材料」が形づくられているかを議論する上で新しい実測データが加わった格好。地球上の生命起源が「隕石によって運ばれた宇宙由来の分子」から始まった可能性を裏付ける観測が積み上がっており、天文学者が「宇宙化学(astrochemistry)」と呼ぶ領域の日常的成果。教養として、また就活面接の雑談で「今週の宇宙ニュース」を語れる素材。",
+          "sourceName": "Nature Astronomy",
+          "sourceUrl": "https://www.nature.com/articles/s41550-026-02905-7",
+          "tags": [
+            "天文学",
+            "星間物質",
+            "Nature"
+          ]
+        }
+      ]
+    }
+  ]
+}

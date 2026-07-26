@@ -1,0 +1,112 @@
+{
+  "date": "2026-07-10",
+  "label": "2026年7月10日 (金)",
+  "intro": "サイバーエージェント28卒事業戦略インターン7/24開始・BunがZig→Rust全面移植完了・ティアフォーが7/22東証グロース上場。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "サイバーエージェント2028卒 事業戦略サマーインターン — 7/24〜26開催・内定直結",
+          "summary": "サイバーエージェントは2028年卒学生を対象に、内定直結型の「事業戦略インターンシップ」を<strong>2026</strong>年<strong>7</strong>月<strong>24</strong>日から<strong>26</strong>日までの<strong>3</strong>日間で実施する。テーマは「IT×〇〇で事業創出×事業グロースの戦略を創り出す<strong>3</strong>日間」で、参加者は大きな未来を想像し、それを実現させる戦略を描くプロセスをチームで体験する。事業戦略・広告戦略・メディア&IP事業戦略など複数のビジネスコース内定直結型プログラムがサマー〜秋にかけて連続開催される。",
+          "sourceName": "サイバーエージェント 採用公式",
+          "sourceUrl": "https://www.cyberagent.co.jp/careers/students/event/",
+          "tags": [
+            "採用",
+            "サイバーエージェント",
+            "28卒"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "LayerX 【バクラク】2028卒 Business職サマーインターン — 実践型・特別招待枠あり",
+          "summary": "LayerXは、SaaS「バクラク」のBusiness職(ビジネス総合職・事業開発職)を対象とした2028年卒サマーインターンを募集している。実施期間は2026年<strong>5</strong>月から<strong>8</strong>月で、実際のプロダクトとAIを武器に顧客の業務フローが変わる瞬間を追体験する実践型ワークショップ形式。参加者には本選考のES及び1次選考を免除する特別招待枠へ案内される可能性がある。プロダクト開発職やAI・LLMエンジニア枠も並行して募集中で、いずれも新卒採用サイトからエントリー可能。",
+          "sourceName": "LayerX 新卒採用サイト",
+          "sourceUrl": "https://jobs.layerx.co.jp/newgrads/",
+          "tags": [
+            "採用",
+            "LayerX",
+            "28卒"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "Bun が Zig→Rust 全面移植を完了 — Claude Fable 5 を11日稼働・API費約16.5万ドル",
+          "summary": "JavaScriptランタイム Bun が Zig で書かれた約<strong>100</strong>万行のコードベースを Rust へ全面移植し、5月14日にメインブランチへマージ完了した詳細をBun創業者Jarred Sumner氏が公表した。Anthropic 傘下となった Bun チームは implementer と reviewer の並列エージェント<strong>64</strong>インスタンスで Claude(内部名 Fable 5) を運用し、キックオフから完了まで<strong>11</strong>日間、純作業<strong>6</strong>日で移植を完遂。API費は約<strong>16.5</strong>万ドルで、Rust版はメモリ使用量6.7GB→609MBの改善と起動時間<strong>10</strong>%高速化を達成した。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/javascriptbunclaude_fable_511zigrustclaude.html",
+          "tags": [
+            "Bun",
+            "Rust",
+            "AI活用"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "Supabase「Multigres v0.1」alpha が登場 — Vitess共同創業者と作る分散Postgres",
+          "summary": "Supabase は PostgreSQL をクラスタ化してスケーリングと高可用性を実現するオープンソース分散DB基盤「Multigres v0.1」alpha を公開した。YouTube を支えた MySQL 分散基盤 Vitess の共同創業者 Sugu Sougoumarane 氏との協業で設計され、二段構えのコネクションプーリング(multigateway + multipooler)、コンセンサスベースの自動フェイルオーバー、pgBackRest ベースのバックアップ、Kubernetes オペレータを備える。v0.1 は単一シャードの HA クラスタが対象で、Vitess 級の水平スケール機能は将来リリースで提供予定。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/postgresqldbmultigres_v01.html",
+          "tags": [
+            "Supabase",
+            "PostgreSQL",
+            "分散DB"
+          ]
+        },
+        {
+          "position": 5,
+          "title": "ティアフォー 7/22 東証グロース上場 — Autoware基盤・調達217億円で今年2番目のIPO",
+          "summary": "オープンソース自動運転ソフトウェア基盤「Autoware」を開発するティアフォーが、東京証券取引所グロース市場への新規上場承認を受け、上場日は<strong>2026</strong>年<strong>7</strong>月<strong>22</strong>日(水)を予定している。IPO規模は<strong>217</strong>億円で、想定価格<strong>1,015</strong>円、時価総額は約<strong>645</strong>億円、公募・売出しを合わせた調達は<strong>177</strong>億円。2026年の国内 IPO ではティアフォーが<strong>2</strong>番目に大きな規模となる見通しで、直近期の売上高は<strong>64</strong>.1億円(前期比+65.6%)と急拡大している。",
+          "sourceName": "LIGARE",
+          "sourceUrl": "https://ligare.news/story/tier4-0702/",
+          "tags": [
+            "IPO",
+            "ティアフォー",
+            "自動運転"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "DHBR 2026年8月号「強いチームをつくる」— 本日7/10発売・スーパーチームのリーダー像",
+          "summary": "ダイヤモンド・ハーバード・ビジネス・レビュー2026年8月号(<strong>2026</strong>年<strong>7</strong>月<strong>10</strong>日発売)は「強いチームをつくる」を特集する。「スーパーチームのリーダーが実践する<strong>7</strong>つの習慣」「全員が成長できる組織のつくり方」「スーパーファシリテーターがチームの総合力を引き上げる」など、AI 時代に人間チームがなぜ・どのようにパフォーマンスを引き上げるかを、ハーバードの研究者と実務家の視点で解剖する構成となっている。",
+          "sourceName": "Diamond Harvard Business Review",
+          "sourceUrl": "https://www.fujisan.co.jp/product/5772/next/",
+          "tags": [
+            "DHBR",
+            "チーム",
+            "リーダーシップ"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "JAXA「みちびき7号機」8月7日に打上げ再設定 — H3ロケット9号機・準天頂衛星",
+          "summary": "JAXA は<strong>2026</strong>年<strong>7</strong>月<strong>8</strong>日、H3ロケット<strong>9</strong>号機による準天頂衛星システム「みちびき<strong>7</strong>号機」の打上げ日を<strong>8</strong>月<strong>7</strong>日午前<strong>4</strong>時<strong>30</strong>分〜<strong>6</strong>時<strong>00</strong>分(日本標準時)に再設定したと発表した。予備期間は8月8日〜31日と9月3日〜30日で、悪天候等の延期に柔軟に対応する。みちびき7号機は日本上空の高精度測位サービスを補完する衛星で、自動運転やスマート農業など位置情報を必要とするサービスの基盤となる。",
+          "sourceName": "JAXA",
+          "sourceUrl": "https://www.jaxa.jp/press/2026/07/20260708-1_j.html",
+          "tags": [
+            "JAXA",
+            "みちびき",
+            "宇宙"
+          ]
+        }
+      ]
+    }
+  ]
+}

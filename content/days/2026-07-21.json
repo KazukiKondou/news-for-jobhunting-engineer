@@ -1,0 +1,112 @@
+{
+  "date": "2026-07-21",
+  "label": "2026年7月21日 (火)",
+  "intro": "AnthropicがClaude Code一括管理の「apps gateway」公開。Next.js月次セキュリティ初回9件修正。EC2 R8i 東京、vCPUあたり+43%。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Anthropic、セルフホスト型「Claude apps gateway for AWS/Google Cloud」公開 — OIDC SSO・RBAC・組織/日次コスト上限、Bedrock/Foundryも一括管理",
+          "summary": "Anthropicが<strong>2026</strong>年<strong>7</strong>月<strong>21</strong>日、Claude Codeなど自社アプリを企業内で一括管理する<strong>セルフホスト型ゲートウェイ</strong>「<strong>Claude apps gateway for AWS/Google Cloud</strong>」を公開した。OIDC対応IdPと連携した<strong>シングルサインオン</strong>、gateway.yamlによるロールベースアクセス制御(<strong>RBAC</strong>)、組織/グループ/ユーザー単位で<strong>日ごと・週ごと・月ごとの費用上限</strong>設定、テレメトリ収集を提供する。バックエンドは<strong>Anthropic API</strong>・<strong>Amazon Bedrock</strong>・<strong>Claude Platform on AWS</strong>・<strong>Google Cloud</strong>・<strong>Microsoft Foundry</strong>上のClaudeを束ねる。Web/SaaS事業会社がAIコーディング環境を全社配布する際の「野良利用と青天井課金」対策の第一手として扱える構成。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/claude_codeclaude_apps_gateway_for_awsgoogle_cloud.html",
+          "tags": [
+            "Anthropic",
+            "ClaudeCode",
+            "組織運用"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "Next.js、月次セキュリティリリースを開始 — 7/21初回で16.2/15.5向けに高深刻度4件・中深刻度5件の計9件を修正",
+          "summary": "Vercelが<strong>2026</strong>年<strong>7</strong>月<strong>13</strong>日、Next.jsの月次セキュリティリリースプログラム正式移行を発表し、初回リリースを<strong>2026</strong>年<strong>7</strong>月<strong>21</strong>日に実施する(当初7/20予定を7/21へ延期)。対象は<strong>Next.js 16.2</strong>と<strong>15.5</strong>で、<strong>高深刻度4件・中深刻度5件</strong>の計<strong>9件</strong>の脆弱性を修正する予定。背景として、Mozillaが直近のFirefoxリリースでAnthropicの「<strong>Mythos Preview</strong>」により<strong>271件</strong>の脆弱性を一挙に開示するなど、LLM主導の脆弱性発見が急増している状況を挙げ、Vercel自身も社内ツールdeepsecで同種の解析を回している。今後は月次事前通知+緊急時アドホックの二段構えで運用する。",
+          "sourceName": "Next.js公式ブログ",
+          "sourceUrl": "https://nextjs.org/blog/next-security-release-program",
+          "tags": [
+            "Nextjs",
+            "セキュリティ",
+            "Vercel"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "JSランタイム「Bun」がZig→Rustへ11日で書き直し — Claude Code v2.1.181に既に同梱、Simon Willisonが発見",
+          "summary": "Publickeyが<strong>2026</strong>年<strong>7</strong>月<strong>21</strong>日、JavaScriptランタイム「<strong>Bun</strong>」がZigからRustへ<strong>11日</strong>で書き直された事実を報じた。<strong>Simon Willison</strong>氏(Django共同開発者)が<strong>Claude Code v2.1.181</strong>(<strong>7</strong>月<strong>17</strong>日リリース)を解析し、Bun v1.4.0 (macOS arm64)という文字列と多数の.rs参照を発見。Bun作者の<strong>Jarred Sumner</strong>氏も実質認めた。従来ZigのメンテナンスコストがOSS運営上の課題だったBunが、AI駆動移植によって本番投入まで漕ぎ着けた事例で、「大規模なランタイムを他言語へ再実装する」という工程の相場感が一段変わったことを示す。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/rustbunclaude_code.html",
+          "tags": [
+            "Bun",
+            "Rust",
+            "ClaudeCode"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "AWS、EC2 R8iシリーズを東京リージョンで提供開始 — 第6世代Intel Xeonでコンピューティング性能vCPU比+43%、ネットワーク帯域600Gbps",
+          "summary": "AWSが<strong>2026</strong>年<strong>7</strong>月<strong>10</strong>日(現地時間)、EC2の新インスタンス<strong>R8in / R8ib / R8idn / R8idb</strong>の提供を<strong>東京・フランクフルト・アイルランド</strong>で開始した(<strong>7</strong>月<strong>19</strong>日CodeZine報道)。<strong>第6世代Intel Xeonスケーラブルプロセッサ</strong>+<strong>第6世代AWS Nitro Card</strong>を搭載し、vCPUあたりのコンピューティング性能は前世代R6in/R6idn比で<strong>最大43%向上</strong>。ネットワーク帯域は<strong>R8in/R8idn</strong>で600Gbps、EBS帯域は<strong>R8ib/R8idb</strong>で最大300Gbps。想定用途はリアルタイムビッグデータ分析・AI/機械学習・NoSQL/データレイクなど。Web/SaaS各社のバッチ・分析基盤の刷新候補として直に検討対象になる。",
+          "sourceName": "CodeZine",
+          "sourceUrl": "https://codezine.jp/news/detail/29026",
+          "tags": [
+            "AWS",
+            "EC2",
+            "東京リージョン"
+          ]
+        },
+        {
+          "position": 5,
+          "title": "Meta、Anthropicと2年最大100億ドル規模のAI計算契約を協議 — Meta 2026年CapEx 1,450億ドル、クラウド事業参入シグナル",
+          "summary": "MetaとAnthropicが<strong>2年間で最大100億ドル</strong>規模のコンピューティング契約を協議中。Anthropic側から<strong>2026</strong>年<strong>6</strong>月に提案があり、月次分割払い&両者早期解約可の条件で交渉中(<strong>7</strong>月<strong>17</strong>日報道)。Anthropicは<strong>5</strong>月に SpaceX と<strong>3年450億ドル</strong>の計算契約を締結済みで、今回はそれに次ぐ規模。Metaは<strong>2026</strong>年のCapExを最大<strong>1,450億ドル</strong>(前年720億ドルから<strong>2倍超</strong>)に引き上げ、元AWS幹部Dave Brownを採用するなど<strong>クラウド事業本格参入</strong>のシグナルが濃い。発表直後Meta株は日中一時-6%まで下げ、終値は-2%で着地した。",
+          "sourceName": "Yahoo Finance / TheStreet",
+          "sourceUrl": "https://finance.yahoo.com/technology/ai/articles/meta-anthropic-drop-bombshell-news-174700402.html",
+          "tags": [
+            "Meta",
+            "Anthropic",
+            "クラウド事業"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "優秀なのに嫌な「ブリリアント・ジャーク」が組織を静かに崩す — 沢渡あまね&伊達洋駆、東洋経済オンライン",
+          "summary": "東洋経済オンラインが<strong>2026</strong>年<strong>7</strong>月<strong>20</strong>日、<strong>沢渡あまね</strong>氏(作家・組織開発)と<strong>伊達洋駆</strong>氏(ビジネスリサーチラボ代表)の共著記事を掲載した。テーマは<strong>「ブリリアント・ジャーク」</strong>——業績は出すが対人的に問題のある人物——が、<strong>インシビリティ(小さな無礼さ)</strong>の蓄積によって組織を静かに崩壊させる構造。ため息、雑な挨拶、無視といった「単発では告発しにくい」振る舞いが積み重なると、辞めるのは無礼を受けた側で、最後に残るのは「無礼に慣れた側」だという逆説を、初期症状のサインとともに解説する。個々人の能力ではなく「組織の空気を測る解像度」を上げるための道具箱として読める記事。有料領域あり。",
+          "sourceName": "東洋経済オンライン",
+          "sourceUrl": "https://toyokeizai.net/articles/-/949523",
+          "tags": [
+            "組織論",
+            "インシビリティ",
+            "東洋経済"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "タイタンの空を飛ぶNASA「ドラゴンフライ」振動・気密試験をクリア — 2028年打ち上げ・2034年到達、全長約4mの胴体で統合作業開始",
+          "summary": "soraeが<strong>2026</strong>年<strong>7</strong>月<strong>20</strong>日、NASA/APL(ジョンズ・ホプキンス大学応用物理研究所)が開発する土星の衛星<strong>タイタン</strong>探査機「<strong>ドラゴンフライ</strong>」の進捗を報じた。全長約<strong>4m</strong>の胴体部分が<strong>振動試験</strong>と<strong>気密試験</strong>をクリアし、各サブシステムの<strong>統合作業</strong>が本格化。<strong>8つのローター</strong>を持つドローン型探査機で、タイタンの極寒(-179°C)と分厚い大気の中を飛行するために構造・アンテナ設計を独自に最適化している。<strong>2028年</strong>打ち上げ、<strong>2034年</strong>頃タイタン到達、その後数年間の飛行探査を予定。「大気を持つ地球外天体をドローンで飛び回る」という初の試みで、地球型惑星以外の探査手段の常識を書き換える可能性を持つ計画。",
+          "sourceName": "sorae 宇宙へのポータルサイト",
+          "sourceUrl": "https://sorae.info/space/20260720-dragonfly.html",
+          "tags": [
+            "宇宙開発",
+            "NASA",
+            "タイタン"
+          ]
+        }
+      ]
+    }
+  ]
+}

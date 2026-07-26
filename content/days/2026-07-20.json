@@ -1,0 +1,112 @@
+{
+  "date": "2026-07-20",
+  "label": "2026年7月20日 (月)",
+  "intro": "Findy AI DevExが7/22-23開幕、Meta/GitHub/メルカリなど50社超が登壇。ITエンジニアの65%が「AIスキルで年収格差が拡大する」と予想。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Findy「AI DevEx Conference 2026」7/22-23 東京丸の内で開催 — Meta・GitHub・メルカリなど50社超が登壇、参加は現地3,000円/オンライン無料",
+          "summary": "ファインディが主催する「<strong>AI DevEx Conference 2026 – Future of Development Productivity –</strong>」が<strong>2026</strong>年<strong>7</strong>月<strong>22</strong>日(水)〜<strong>23</strong>日(木)、<strong>JPタワーホール&カンファレンス</strong>(東京・丸の内)およびオンラインのハイブリッド形式で開催される。テーマは「AI時代の開発生産性と開発組織の未来」で、<strong>Meta</strong>・<strong>GitHub</strong>・<strong>Uber</strong>・<strong>Notion</strong>・<strong>メルカリ</strong>・<strong>デジタル庁</strong>など<strong>50社超</strong>から<strong>56名</strong>を超えるスピーカーが登壇予定。参加費は現地アーリーバード3,000円・通常5,000円で、オンライン視聴は無料(要事前登録)。Findyは同カンファレンスで、開発組織向けAIエージェント運用、レビュー自動化、コード生成品質管理などの現場事例を集約する狙い。就活生には、Web系事業会社のエンジニアが「AI時代に何を作るか/どう作るか」をどう議論しているかを把握できる、開催直前の稀少な公開ラインナップ。",
+          "sourceName": "ファインディ公式",
+          "sourceUrl": "https://findy.co.jp/4027/",
+          "tags": [
+            "カンファレンス",
+            "Findy",
+            "開発生産性"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "Element Labs、ローカルLLM向けAIエージェント「LM Studio Bionic」公開 — GLM 5.2・Kimi K2.7 Codeでコード解析、ローカル⇔クラウド切替可",
+          "summary": "Element Labsが<strong>2026</strong>年<strong>7</strong>月<strong>17</strong>日、オープンソースモデル特化のAIエージェントプラットフォーム「<strong>LM Studio Bionic</strong>」を公開した。従来の LM Studio がローカルモデルの管理ツールだったのに対し、Bionic は<strong>コーディング</strong>・<strong>ドキュメント編集</strong>・<strong>リサーチ</strong>など実務タスク自体をローカルで実行する方向に振り切っている。強力なオープンモデル(GLM 5.2・Kimi K2.7 Codeなど)を活用してコードベースを解析でき、必要に応じてローカル実行とクラウドモデルを柔軟に切り替えて最適性能を得る設計。閉域網・機密プロジェクトを扱う事業会社では、Cursor/Claude Codeへ全部投げられない環境の代替として現実的な選択肢になる。",
+          "sourceName": "窓の杜",
+          "sourceUrl": "https://forest.watch.impress.co.jp/docs/news/2126007.html",
+          "tags": [
+            "LLM",
+            "AIエージェント",
+            "OSS"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "Google、「NotebookLM」を「Gemini Notebook」に改称 — Geminiエコシステム統合を強化、7/17発表",
+          "summary": "Google が<strong>2026</strong>年<strong>7</strong>月<strong>17</strong>日、AIリサーチツール「<strong>NotebookLM</strong>」の名称を「<strong>Gemini Notebook</strong>」へ変更したと発表した。Geminiアプリスイートおよび同社全体のAIエコシステムの一部として明確に位置づける狙いで、スプレッドシート・スライド・PDFなど各種ドキュメントフォーマット対応や新機能追加は継続する。Googleは「ユーザーがAIをどこに位置づけるかを理解する助けになる」ためのブランド統一だと説明し、「ミッションは変わらない」と強調。Web/SaaSプロダクトで生成AI機能を出す事業会社にとって、単独ブランドを維持するか統合するかの分岐点として参考になる事例。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/articles/2607/17/news062.html",
+          "tags": [
+            "Google",
+            "Gemini",
+            "プロダクト"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "AWS Cost Explorerのバグで最大約$1,000超の過剰計上、初期対応にも批判 — 7/17認知・7/18修正、影響ユーザーへ順次補償",
+          "summary": "AWSのコスト管理ツール「<strong>Cost Explorer</strong>」に集計バグがあり、ユーザーの請求可視化に最大$1,000超の過剰計上が表示された。<strong>2026</strong>年<strong>7</strong>月<strong>19</strong>日<strong>07:40</strong>のITmedia報道によれば、AWS Support の公式アカウントが当初「一大事だが軽く扱うようなことではない」と応答したことに<strong>SNS上で批判</strong>が集中。AWSは<strong>7</strong>月<strong>17</strong>日に問題を認知、<strong>7</strong>月<strong>18</strong>日に修正を完了し、影響ユーザーへの通知と補償を順次開始した。実際の請求(billing)への波及は無いとしている。Web系事業会社の入社直後にSRE/コスト管理を触るエンジニア向けに、クラウド事業者の障害対応・広報の失敗例と復旧までのタイムラインが揃った事例。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/articles/2607/19/news010.html",
+          "tags": [
+            "AWS",
+            "CostExplorer",
+            "SRE"
+          ]
+        },
+        {
+          "position": 5,
+          "title": "ITエンジニアの59.3%が職場で「AI格差」を実感、65.0%が「AIスキルで年収格差は拡大する」と予想 — レバテック572名調査",
+          "summary": "レバテックが<strong>2026</strong>年<strong>7</strong>月<strong>13</strong>日、20〜59歳のITエンジニア<strong>572名</strong>を対象にした「AI格差」調査結果を公表した。<strong>59.3%</strong>が「職場でAI格差が生まれていると感じる」と回答し、20代は<strong>67.4%</strong>と最も高い認識を示した(30代52.1%/40代60.0%/50代57.4%)。影響領域は「担当する業務範囲の差」が<strong>51.3%</strong>でトップで、上流工程への関与や意思決定権限を左右する。評価・昇進スピードへの波及は<strong>39.5%</strong>。今後のAIスキルによる年収格差については<strong>65.0%</strong>が「拡大する」と予想し、20代では<strong>71.5%</strong>に達した。就活時点で「AIを使える人」ではなく「AIで上流に関与できる人」を目指す方向づけが要点になる調査結果。",
+          "sourceName": "レバテック公式",
+          "sourceUrl": "https://levtech.co.jp/research/5683976/",
+          "tags": [
+            "キャリア",
+            "年収",
+            "AI格差"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "「対話を増やそう」だけでは失敗する — 大鵬薬品工業が全社導入した「10分読書会」の背景、東洋経済",
+          "summary": "東洋経済オンラインが<strong>2026</strong>年<strong>7</strong>月<strong>20</strong>日、フリーライター濱川太一氏による寄稿で、<strong>大鵬薬品工業</strong>が全社導入した「<strong>10分読書会</strong>」の構造分析を掲載した。掛け声だけの「対話を増やそう」「部門間交流」施策がなぜ失敗するのかを追い、たった10分の要約発表を毎回同じ枠で回すという「対話の型」を用意することで、初対面同士でも意味のある議論が起きる仕組みを解説する。エンジニアが所属することが多い高度専門部門は放っておくと「サイロ化」しやすく、「読書」という共通土台を最小コストで挿入する設計が、対話の量ではなく質を上げるという主張。学生が個人で応用するなら「輪読の型を先に決めてから開催する」という運用面のヒントになる。",
+          "sourceName": "東洋経済オンライン",
+          "sourceUrl": "https://toyokeizai.net/articles/-/950650",
+          "tags": [
+            "組織学習",
+            "対話設計",
+            "読書会"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "世界の少子化は「二つの普遍的経路」に沿って進む — 理研、237カ国・地域を統計物理で解析、家計の教育費削減が回復に有効と示唆",
+          "summary": "理化学研究所 脳科学研究センター/東北大学の板尾健司氏らが<strong>2026</strong>年<strong>7</strong>月<strong>17</strong>日、世界の少子化が「二つの普遍的経路」に沿って進むと発表した。<strong>237カ国・地域</strong>の平均寿命と出生率の推移に統計物理学の手法を適用したところ、<strong>Phase I</strong>(1950年以前): 平均寿命と出生率が反比例、<strong>Phase II</strong>(1950年以降): 平均寿命の伸長に対し出生率が指数関数的に低下、という二つの普遍パターンが浮かび上がった。先進国は Phase I → Phase II を辿るのに対し、途上国は Phase I をスキップして Phase II に入る傾向がある。研究はさらに「<strong>家計レベルでの教育費負担の軽減</strong>」が出生率の回復に有効と示唆する。多国比較を単一のモデルで束ねる「物理学寄りの社会科学」アプローチが、政策議論の抽象度を1段上げる。論文は Evolutionary Human Sciences(doi:10.1017/ehs.2026.10054) に7月7日オンライン掲載済み。",
+          "sourceName": "理化学研究所 公式",
+          "sourceUrl": "https://www.riken.jp/press/2026/20260717_1/index.html",
+          "tags": [
+            "人口動態",
+            "統計物理",
+            "理研"
+          ]
+        }
+      ]
+    }
+  ]
+}
