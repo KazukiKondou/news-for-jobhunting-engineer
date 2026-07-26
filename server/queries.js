@@ -79,21 +79,24 @@ export function createQueries(db) {
      * 検証記録は content/factchecks.json 経由でDBに入るので、routineが結果を
      * pushしてデプロイされた時点でキューから自然に消える (書き込みAPIは不要)。
      */
+    // 集計値を外側で使いたいので、GROUP BY を副問い合わせに閉じ込めてから絞り込む。
     pendingDoubts: db.prepare(`
-      SELECT a.slug, a.date, a.position, a.title, a.summary, a.source_name, a.source_url,
-             c.doubts,
-             MIN(f.created_at) AS first_reported,
-             MAX(f.created_at) AS last_reported
-      FROM article_feedback f
-      JOIN articles a ON a.slug = f.slug
-      LEFT JOIN article_counters c ON c.slug = a.slug
-      WHERE f.kind = 'doubt'
-      GROUP BY a.slug
-      HAVING NOT EXISTS (
+      SELECT * FROM (
+        SELECT a.slug, a.date, a.position, a.title, a.summary, a.source_name, a.source_url,
+               c.doubts,
+               MIN(f.created_at) AS first_reported,
+               MAX(f.created_at) AS last_reported
+        FROM article_feedback f
+        JOIN articles a ON a.slug = f.slug
+        LEFT JOIN article_counters c ON c.slug = a.slug
+        WHERE f.kind = 'doubt'
+        GROUP BY a.slug
+      ) q
+      WHERE NOT EXISTS (
         SELECT 1 FROM factcheck_runs r
-        WHERE r.slug = a.slug AND r.ran_on >= substr(MAX(f.created_at), 1, 10)
+        WHERE r.slug = q.slug AND r.ran_on >= substr(q.last_reported, 1, 10)
       )
-      ORDER BY c.doubts DESC, first_reported ASC
+      ORDER BY q.doubts DESC, q.first_reported ASC
     `),
     siteTotals: db.prepare(`
       SELECT (SELECT COUNT(*) FROM articles WHERE ${ACTIVE}) AS articles,
