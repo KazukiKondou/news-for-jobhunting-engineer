@@ -162,7 +162,22 @@ function handleRanking(res, url) {
   return sendHtml(res, 200, renderRankingPage({ metric, period, rows: queries.ranking(metric, period) }));
 }
 
+/**
+ * 「内容があやしい」と報告された記事の一覧。日次routineのファクトチェック入力。
+ * どの記事が疑われているかは公開したくないので、トークン必須。
+ * FACTCHECK_TOKEN を設定していない環境では無効 (404)。
+ */
+function handleFactcheckQueue(req, res) {
+  const token = process.env.FACTCHECK_TOKEN;
+  if (!token) return sendJson(res, 404, { error: 'not_found' });
+  if (req.headers['x-factcheck-token'] !== token) return sendJson(res, 401, { error: 'unauthorized' });
+
+  return sendJson(res, 200, { generatedAt: new Date().toISOString(), articles: queries.pendingDoubts() });
+}
+
 function handleApi(req, res, url, visitor) {
+  if (url.pathname === '/api/factcheck/queue') return handleFactcheckQueue(req, res);
+
   const match = url.pathname.match(/^\/api\/articles\/([\w-]+)\/(feedback|click)$/);
   if (!match) return sendJson(res, 404, { error: 'not_found' });
   if (req.method !== 'POST') return sendJson(res, 405, { error: 'method_not_allowed' });

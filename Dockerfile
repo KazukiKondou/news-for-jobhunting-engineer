@@ -1,22 +1,26 @@
 # syntax=docker/dockerfile:1.7
-FROM nginx:1.27-alpine
+# 依存パッケージゼロ。SQLiteもHTTPサーバーもNode本体の機能だけで動く。
+FROM node:24-alpine
 
-COPY nginx.conf /etc/nginx/conf.d/default.conf
-COPY site/ /usr/share/nginx/html/
+WORKDIR /app
 
-# Generate days.json manifest from the YYYY-MM-DD page directories (ascending).
-# This is the single source of truth for /assets/day-nav.js runtime self-healing,
-# so it is built fresh here rather than committed.
-RUN cd /usr/share/nginx/html && { \
-      printf '['; first=1; \
-      for d in $(ls -d 20[0-9][0-9]-[0-1][0-9]-[0-3][0-9] 2>/dev/null | sort); do \
-        [ -f "$d/index.html" ] || continue; \
-        if [ "$first" = 1 ]; then first=0; else printf ','; fi; \
-        printf '"%s"' "$d"; \
-      done; printf ']'; \
-    } > days.json
+COPY server/ ./server/
+COPY content/ ./content/
+COPY site/assets/ ./site/assets/
 
-EXPOSE 80
+# 記事はイメージ内の content/ から毎起動DBへ同期する。
+# 閲覧数・評価・クリック数はボリューム上のDBにだけ存在し、同期では消えない。
+RUN mkdir -p /data && chown -R node:node /data /app
+USER node
+
+ENV NODE_ENV=production \
+    PORT=8080 \
+    DB_PATH=/data/news.db \
+    CONTENT_DIR=/app/content
+
+EXPOSE 8080
 
 HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
-  CMD wget -qO- http://127.0.0.1/ > /dev/null || exit 1
+  CMD wget -qO- http://127.0.0.1:8080/healthz > /dev/null || exit 1
+
+CMD ["node", "server/index.js"]

@@ -7,4 +7,14 @@ services:
     container_name: news-site
     restart: unless-stopped
     ports:
-      - "127.0.0.1:8766:80"
+      - "127.0.0.1:8766:8080"
+    environment:
+      # ファクトチェック待ちの記事一覧を日次routineへ渡すためのトークン。
+      # 未設定なら /api/factcheck/queue は無効(404)のままになる。
+      FACTCHECK_TOKEN: ${FACTCHECK_TOKEN:-}
+    volumes:
+      # 閲覧数・評価・元記事クリック数の保存先。再デプロイでも消さない。
+      - news-data:/data
+
+volumes:
+  news-data:

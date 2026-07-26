@@ -73,18 +73,28 @@ export function createQueries(db) {
       SELECT date, title FROM articles WHERE ${ACTIVE} ORDER BY date DESC, position ASC
     `),
     listUpdates: db.prepare('SELECT * FROM updates ORDER BY released_on DESC, id DESC'),
-    // 未レビューの「あやしい」評価。ファクトチェックのキュー。
+    /**
+     * ファクトチェック待ちの記事。
+     * 「最後に報告された時刻より後に検証した記録が無い」ものを未処理とみなす。
+     * 検証記録は content/factchecks.json 経由でDBに入るので、routineが結果を
+     * pushしてデプロイされた時点でキューから自然に消える (書き込みAPIは不要)。
+     */
     pendingDoubts: db.prepare(`
-      SELECT a.slug, a.date, a.title, a.source_url, c.doubts,
-             MIN(f.created_at) AS first_reported
+      SELECT a.slug, a.date, a.position, a.title, a.summary, a.source_name, a.source_url,
+             c.doubts,
+             MIN(f.created_at) AS first_reported,
+             MAX(f.created_at) AS last_reported
       FROM article_feedback f
       JOIN articles a ON a.slug = f.slug
       LEFT JOIN article_counters c ON c.slug = a.slug
-      WHERE f.kind = 'doubt' AND f.reviewed_at IS NULL
+      WHERE f.kind = 'doubt'
       GROUP BY a.slug
+      HAVING NOT EXISTS (
+        SELECT 1 FROM factcheck_runs r
+        WHERE r.slug = a.slug AND r.ran_on >= substr(MAX(f.created_at), 1, 10)
+      )
       ORDER BY c.doubts DESC, first_reported ASC
     `),
-    markReviewed: db.prepare("UPDATE article_feedback SET reviewed_at = ? WHERE slug = ? AND kind = 'doubt'"),
     siteTotals: db.prepare(`
       SELECT (SELECT COUNT(*) FROM articles WHERE ${ACTIVE}) AS articles,
              (SELECT COUNT(*) FROM days) AS days,
@@ -144,7 +154,6 @@ export function createQueries(db) {
     listUpdates: () => statements.listUpdates.all().map((row) => ({ ...row, items: JSON.parse(row.items || '[]') })),
     siteTotals: () => statements.siteTotals.get(),
     pendingDoubts: () => statements.pendingDoubts.all(),
-    markDoubtsReviewed: (slug) => statements.markReviewed.run(new Date().toISOString(), slug),
 
     /** 日ページの記事をセクション定義と突き合わせて組み立てる。 */
     dayContent(date) {

@@ -183,18 +183,42 @@
 6. 生成・公開・配信
 ----------------------------------------------------------------
 - 本日付: TZ=Asia/Tokyo date +%Y-%m-%d
-- HTML生成: site/{YYYY-MM-DD}/index.html。テンプレは templates/day.html。
-  3セクション構造の参考: site/2026-05-12/index.html。
-  各 article-card に id="article-N"(1から通し番号。IT就活→思考力→視野)。
-  ID番号は実際に採用できた件数に合わせて1から連番にする。
-- index.html 更新:
-    LATEST_DAY_START..END: hero + 3セクションの見出し一覧
-    RECENT_DAYS_START..END: 前日 day-card を先頭追加、計9枚まで保持
-- archive/index.html 更新:
-    ARCHIVE_LIST_START..END: 月グループ化、当日カードを月先頭に追加。
-    archive day-card の3件抜粋は home の見出し上位3と完全一致させる。
-  hero/archive の合計件数カウントも更新。
-- day-card / home見出し / archive抜粋のタイトルは同期させる。
+- 【重要・2026-07-26変更】HTMLは生成しない。記事はDBで1件ずつ管理しており、
+  ページはサーバーが表示のたびにDBから組み立てる。routineが書くのは
+  content/days/{YYYY-MM-DD}.json のみ。
+  site/{date}/index.html・index.html・archive/index.html は編集しない
+  （これらはもう存在しない。件数カウントの手作業同期も不要になった）。
+- content/days/{YYYY-MM-DD}.json の形式:
+    {
+      "date": "2026-07-26",
+      "label": "2026年7月26日 (日)",
+      "intro": "その日の一言まとめ（具体名詞と数値を含める）",
+      "sections": [
+        { "key": "it",       "title": "IT就活ニュース", "intro": null,
+          "articles": [ ... ] },
+        { "key": "thinking", "title": "思考力を育てる", "intro": "...",
+          "articles": [ ... ] },
+        { "key": "other",    "title": "視野を広げる",   "intro": "...",
+          "articles": [ ... ] }
+      ]
+    }
+  articles[] の1件:
+    {
+      "position": 1,
+      "title": "見出し",
+      "summary": "3〜4行。数値は <strong>2,000</strong> のように強調",
+      "sourceName": "情報源の名前",
+      "sourceUrl": "https://...",
+      "tags": ["採用", "28卒"]
+    }
+  ルール:
+    - position は その日の1から通し番号（IT就活→思考力→視野の順）。
+      採用できた件数に合わせて1から連番にする。欠番・重複は不可。
+    - position は記事の恒久IDになる（slug = "{date}-{position}"）。閲覧数・
+      いいね・元記事クリック数がこれに紐づくので、公開後に振り直さない。
+    - summary で使ってよいタグは <strong> だけ。それ以外のHTMLは書かない。
+    - sourceUrl は実体のURLをそのまま書く（&amp; ではなく & と書く）。
+    - 記事を取り下げるときは配列から消さず "status": "retracted" を付ける。
 - commit + push:
     git -c user.name='Kazuki Kondo' -c user.email='kizuka0621@gmail.com' \
       commit -am "news: $(TZ=Asia/Tokyo date +%Y-%m-%d) のニュースを追加"
@@ -216,6 +240,80 @@
   curl で LINE push API、HTTP 200 を確認。
 
 ----------------------------------------------------------------
+6.5 ファクトチェック（毎日、記事生成と同じ実行の中で必ず流す）
+----------------------------------------------------------------
+読者は各記事に「内容があやしい」と報告できる。報告された記事を毎日検証し、
+誤りが確認できたものを直し、同じ誤りが二度と混ざらないようこの仕様書自体を
+更新する。記事生成が0件だった日でも、このステップは必ず実行する。
+
+(1) 対象の取得
+    curl -sf -H "X-Factcheck-Token: ${FACTCHECK_TOKEN}" \
+      https://news.kazukikondo.com/api/factcheck/queue
+    → {"articles":[{slug,date,position,title,summary,sourceName,sourceUrl,
+                    doubts,first_reported,last_reported}, ...]}
+    articles が空なら (5) の記録だけ行って終了。
+    401/404が返る場合はトークン未設定。警告を残して記事生成は続行する。
+
+(2) 検証（1件ずつ。section -1 のゼロ容認ルールをそのまま適用する）
+    - sourceUrl を WebFetch。取得できなければ WebSearch で一次情報を探す。
+    - summary の全ての文（日付・数値・企業名・固有名詞・因果関係）を
+      取得したテキストと照合する。
+    - 判定は次の3つだけ:
+        ok           … 取得ソースと完全に一致した
+        wrong        … ソースと食い違う / ソースに存在しない記述がある
+                       / URLが404や別内容
+        unverifiable … ソースが消えている等で真偽を確かめられない
+    - 「たぶん合っている」で ok にしない。確認できなければ unverifiable。
+
+(3) 修正（wrong / unverifiable のとき）
+    content/days/{date}.json の該当 position を直す。
+      - 数値・日付・固有名詞の誤り → その記述だけ正しい内容に直す
+      - URLが死んでいる/別内容    → 実在確認できたURLに差し替える
+      - 記事全体が事実無根、または一次情報が確認できない
+        → "status": "retracted" を付ける（配列からは消さない。
+           取り下げ後もカウンタとURLの履歴を残すため）
+    unverifiable は本文を書き換えず retracted にする。推測で補完しない。
+
+(4) 修正履歴に残す（content/corrections.json に追記。配列）
+    {
+      "date": "2026-07-09",            ← 記事が載っている日
+      "slug": "2026-07-09-3",
+      "kind": "fact_error",            ← fact_error | url_fix | retraction | clarify
+      "headline": "何を直したかの一行",
+      "detail": "なぜ誤りだったかと、確認できた事実",
+      "before": "修正前の記述（該当箇所だけ）",
+      "after":  "修正後の記述",
+      "evidenceUrl": "根拠にした一次情報のURL",
+      "correctedOn": "2026-07-26"      ← 修正した日
+    }
+    (date, kind, headline) の組が同じ行は上書きになるので、headline は
+    記事ごとに具体的に書く。この配列がそのまま日別ページ上部に出る。
+
+(5) 検証記録（content/factchecks.json に追記。配列）
+    { "slug":"2026-07-09-3", "ranOn":"2026-07-26", "verdict":"wrong",
+      "detail":"何を照合し何が食い違ったか", "action":"summaryの金額を修正" }
+    ok だった記事も必ず1行残す。この記録があるとキューから外れる仕組みなので、
+    書き忘れると同じ記事を毎日検証し続けることになる。
+
+(6) プロンプト改善（wrong が1件でもあった場合は必須）
+    誤りの「型」を一般化し、この routine-prompt.txt に再発防止ルールを追記する。
+      - 追記先: section 2.5 の直後に「2.6 過去の誤りから来る禁止事項」を作り、
+        以降はそこへ箇条書きで足していく。
+      - 書き方: 「何をやったか」ではなく「次から何を禁止/必須にするか」を書く。
+        例: 誤 → 「マネーフォワードの時給を間違えた」
+            正 → 「給与・時給・期間は、募集要項ページ本文に書かれた数値のみ
+                   採用する。まとめサイト・求人集約サイトの数値は使わない」
+      - 1件の誤りにつき1ルール。既にあるルールと重複するなら追記せず、
+        既存ルールを具体化する方向で書き換える。
+      - ルールには由来（YYYY-MM-DD、slug）を括弧で添える。
+    アップデート情報にも残す: content/updates.json の先頭に category:"fix" で
+    1件追加する（id は "{YYYY-MM-DD}-factcheck"、title に修正件数を書く）。
+
+(7) コミット
+    記事生成分とまとめて1コミットでよい。メッセージ例:
+      fix: ファクトチェックにより N 件を修正（2026-07-26）
+
+----------------------------------------------------------------
 7. 成功条件
 ----------------------------------------------------------------
 - 公開前チェックリスト(section 3)を全記事で満たしている
@@ -233,8 +331,12 @@
 [ ] 採用/インターンの締切切れ・期間終了が0件
 [ ] summaryに取得テキスト外の事実が0件
 [ ] 古すぎる話題を新着扱いしていない
-[ ] site/{date}/index.html を生成
-[ ] index.html / archive/index.html を更新（件数カウント含む）
+[ ] content/days/{date}.json を生成（position が1から連番）
+[ ] HTMLファイルは一切編集していない
+[ ] ファクトチェックのキューを取得した（section 6.5）
+[ ] 報告された記事を全件検証し content/factchecks.json に記録した
+[ ] 誤りは content/days/*.json を修正し corrections.json に履歴を残した
+[ ] wrong があった場合、routine-prompt.txt に再発防止ルールを追記した
 [ ] commit + push 成功
 [ ] deploy 200 確認（失敗時は警告のみ）
 [ ] LINE push 200 成功
