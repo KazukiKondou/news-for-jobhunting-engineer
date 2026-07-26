@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2026年7月21日 (火) | エンジニア就活ニュース</title>
+  <meta name="description" content="2026年7月21日のテックニュース 7件: Claude apps gateway登場 / Next.js月次セキュリティ初回9件 / Bun→Rust in Claude Code ほか" />
+  <link rel="canonical" href="https://news.kazukikondo.com/2026-07-21/" />
+  <link rel="prev" href="/2026-07-20/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="2026年7月21日 (火) | エンジニア就活ニュース" />
+  <meta property="og:description" content="本日のテックニュース 7件" />
+  <meta property="og:url" content="https://news.kazukikondo.com/2026-07-21/" />
+  <meta property="og:site_name" content="エンジニア就活ニュース" />
+  <meta property="og:locale" content="ja_JP" />
+  <meta property="article:published_time" content="2026-07-21T00:00:00+09:00" />
+
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@700;900&display=swap" />
+  <link rel="stylesheet" href="/assets/style.css?v=4" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="site-logo" href="/">
+        <span class="site-logo__badge">N</span>
+        <span class="site-logo__title">エンジニア就活ニュース</span>
+      </a>
+      <nav class="site-nav">
+        <a class="site-nav__link" href="/">ホーム</a>
+        <a class="site-nav__link" href="/archive/">アーカイブ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <article class="day-article">
+      <header class="day-header">
+        <div class="eyebrow">デイリーニュース</div>
+        <h1 class="day-title">2026年7月21日 (火)</h1>
+        <p class="day-intro">AnthropicがClaude Code一括管理の「apps gateway」公開。Next.js月次セキュリティ初回9件修正。EC2 R8i 東京、vCPUあたり+43%。</p>
+        <p class="day-meta"><strong>7</strong>件のニュース</p>
+      </header>
+
+      <details class="toc" open aria-label="本日の見出し一覧">
+        <summary class="toc__summary">
+          <span class="toc__summary-text">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>
+            見出し一覧
+          </span>
+          <span class="toc__summary-meta">
+            7件
+            <svg class="toc__chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+          </span>
+        </summary>
+        <ol class="toc__list">
+          <li><span class="toc__num">01</span><a href="#article-1">Anthropic、セルフホスト型「Claude apps gateway for AWS/Google Cloud」公開 — OIDC SSO・RBAC・組織/日次コスト上限、Bedrock/Foundryも一括管理</a></li>
+          <li><span class="toc__num">02</span><a href="#article-2">Next.js、月次セキュリティリリースを開始 — 7/21初回で16.2/15.5向けに高深刻度4件・中深刻度5件の計9件を修正</a></li>
+          <li><span class="toc__num">03</span><a href="#article-3">JSランタイム「Bun」がZig→Rustへ11日で書き直し — Claude Code v2.1.181に既に同梱、Simon Willisonが発見</a></li>
+          <li><span class="toc__num">04</span><a href="#article-4">AWS、EC2 R8iシリーズを東京リージョンで提供開始 — 第6世代Intel Xeonでコンピューティング性能vCPU比+43%、ネットワーク帯域600Gbps</a></li>
+          <li><span class="toc__num">05</span><a href="#article-5">Meta、Anthropicと2年最大100億ドル規模のAI計算契約を協議 — Meta 2026年CapEx 1,450億ドル、クラウド事業参入シグナル</a></li>
+          <li><span class="toc__num">06</span><a href="#article-6">優秀なのに嫌な「ブリリアント・ジャーク」が組織を静かに崩す — 沢渡あまね&amp;伊達洋駆、東洋経済オンライン</a></li>
+          <li><span class="toc__num">07</span><a href="#article-7">タイタンの空を飛ぶNASA「ドラゴンフライ」振動・気密試験をクリア — 2028年打ち上げ・2034年到達、全長約4mの胴体で統合作業開始</a></li>
+        </ol>
+      </details>
+
+      <section class="articles-group">
+        <div class="articles-group__header">
+          <h2 class="articles-group__title">
+            IT就活ニュース
+            <span class="articles-group__count">5件</span>
+          </h2>
+        </div>
+        <section class="articles">
+          <article class="article-card" id="article-1">
+            <div class="article-card__body">
+              <div class="tags">
+                <span class="tag-chip">#Anthropic</span>
+                <span class="tag-chip">#ClaudeCode</span>
+                <span class="tag-chip">#組織運用</span>
+              </div>
+              <h3 class="article-card__title"><a href="https://www.publickey1.jp/blog/26/claude_codeclaude_apps_gateway_for_awsgoogle_cloud.html" target="_blank" rel="noopener noreferrer">Anthropic、セルフホスト型「Claude apps gateway for AWS/Google Cloud」公開 — OIDC SSO・RBAC・組織/日次コスト上限、Bedrock/Foundryも一括管理</a></h3>
+              <p class="article-card__summary">Anthropicが<strong>2026</strong>年<strong>7</strong>月<strong>21</strong>日、Claude Codeなど自社アプリを企業内で一括管理する<strong>セルフホスト型ゲートウェイ</strong>「<strong>Claude apps gateway for AWS/Google Cloud</strong>」を公開した。OIDC対応IdPと連携した<strong>シングルサインオン</strong>、<code>gateway.yaml</code>によるロールベースアクセス制御(<strong>RBAC</strong>)、組織/グループ/ユーザー単位で<strong>日ごと・週ごと・月ごとの費用上限</strong>設定、テレメトリ収集を提供する。バックエンドは<strong>Anthropic API</strong>・<strong>Amazon Bedrock</strong>・<strong>Claude Platform on AWS</strong>・<strong>Google Cloud</strong>・<strong>Microsoft Foundry</strong>上のClaudeを束ねる。Web/SaaS事業会社がAIコーディング環境を全社配布する際の「野良利用と青天井課金」対策の第一手として扱える構成。</p>
+              <div class="article-card__meta">
+                <div class="article-source">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8M15 18h-5M10 6h8v4h-8V6Z"/></svg>
+                  <span>Publickey</span>
+                </div>
+                <a class="article-link" href="https://www.publickey1.jp/blog/26/claude_codeclaude_apps_gateway_for_awsgoogle_cloud.html" target="_blank" rel="noopener noreferrer">元記事を読む <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="article-card" id="article-2">
+            <div class="article-card__body">
+              <div class="tags">
+                <span class="tag-chip">#Nextjs</span>
+                <span class="tag-chip">#セキュリティ</span>
+                <span class="tag-chip">#Vercel</span>
+              </div>
+              <h3 class="article-card__title"><a href="https://nextjs.org/blog/next-security-release-program" target="_blank" rel="noopener noreferrer">Next.js、月次セキュリティリリースを開始 — 7/21初回で16.2/15.5向けに高深刻度4件・中深刻度5件の計9件を修正</a></h3>
+              <p class="article-card__summary">Vercelが<strong>2026</strong>年<strong>7</strong>月<strong>13</strong>日、Next.jsの月次セキュリティリリースプログラム正式移行を発表し、初回リリースを<strong>2026</strong>年<strong>7</strong>月<strong>21</strong>日に実施する(当初<code>7/20</code>予定を<code>7/21</code>へ延期)。対象は<strong>Next.js 16.2</strong>と<strong>15.5</strong>で、<strong>高深刻度4件・中深刻度5件</strong>の計<strong>9件</strong>の脆弱性を修正する予定。背景として、Mozillaが直近のFirefoxリリースでAnthropicの「<strong>Mythos Preview</strong>」により<strong>271件</strong>の脆弱性を一挙に開示するなど、LLM主導の脆弱性発見が急増している状況を挙げ、Vercel自身も社内ツール<code>deepsec</code>で同種の解析を回している。今後は月次事前通知+緊急時アドホックの二段構えで運用する。</p>
+              <div class="article-card__meta">
+                <div class="article-source">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8M15 18h-5M10 6h8v4h-8V6Z"/></svg>
+                  <span>Next.js公式ブログ</span>
+                </div>
+                <a class="article-link" href="https://nextjs.org/blog/next-security-release-program" target="_blank" rel="noopener noreferrer">元記事を読む <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="article-card" id="article-3">
+            <div class="article-card__body">
+              <div class="tags">
+                <span class="tag-chip">#Bun</span>
+                <span class="tag-chip">#Rust</span>
+                <span class="tag-chip">#ClaudeCode</span>
+              </div>
+              <h3 class="article-card__title"><a href="https://www.publickey1.jp/blog/26/rustbunclaude_code.html" target="_blank" rel="noopener noreferrer">JSランタイム「Bun」がZig→Rustへ11日で書き直し — Claude Code v2.1.181に既に同梱、Simon Willisonが発見</a></h3>
+              <p class="article-card__summary">Publickeyが<strong>2026</strong>年<strong>7</strong>月<strong>21</strong>日、JavaScriptランタイム「<strong>Bun</strong>」がZigからRustへ<strong>11日</strong>で書き直された事実を報じた。<strong>Simon Willison</strong>氏(Django共同開発者)が<strong>Claude Code v2.1.181</strong>(<strong>7</strong>月<strong>17</strong>日リリース)を解析し、<code>Bun v1.4.0 (macOS arm64)</code>という文字列と多数の<code>.rs</code>参照を発見。Bun作者の<strong>Jarred Sumner</strong>氏も実質認めた。従来ZigのメンテナンスコストがOSS運営上の課題だったBunが、AI駆動移植によって本番投入まで漕ぎ着けた事例で、「大規模なランタイムを他言語へ再実装する」という工程の相場感が一段変わったことを示す。</p>
+              <div class="article-card__meta">
+                <div class="article-source">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8M15 18h-5M10 6h8v4h-8V6Z"/></svg>
+                  <span>Publickey</span>
+                </div>
+                <a class="article-link" href="https://www.publickey1.jp/blog/26/rustbunclaude_code.html" target="_blank" rel="noopener noreferrer">元記事を読む <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="article-card" id="article-4">
+            <div class="article-card__body">
+              <div class="tags">
+                <span class="tag-chip">#AWS</span>
+                <span class="tag-chip">#EC2</span>
+                <span class="tag-chip">#東京リージョン</span>
+              </div>
+              <h3 class="article-card__title"><a href="https://codezine.jp/news/detail/29026" target="_blank" rel="noopener noreferrer">AWS、EC2 R8iシリーズを東京リージョンで提供開始 — 第6世代Intel Xeonでコンピューティング性能vCPU比+43%、ネットワーク帯域600Gbps</a></h3>
+              <p class="article-card__summary">AWSが<strong>2026</strong>年<strong>7</strong>月<strong>10</strong>日(現地時間)、EC2の新インスタンス<strong>R8in / R8ib / R8idn / R8idb</strong>の提供を<strong>東京・フランクフルト・アイルランド</strong>で開始した(<strong>7</strong>月<strong>19</strong>日CodeZine報道)。<strong>第6世代Intel Xeonスケーラブルプロセッサ</strong>+<strong>第6世代AWS Nitro Card</strong>を搭載し、vCPUあたりのコンピューティング性能は前世代R6in/R6idn比で<strong>最大43%向上</strong>。ネットワーク帯域は<strong>R8in/R8idn</strong>で<code>600Gbps</code>、EBS帯域は<strong>R8ib/R8idb</strong>で最大<code>300Gbps</code>。想定用途はリアルタイムビッグデータ分析・AI/機械学習・NoSQL/データレイクなど。Web/SaaS各社のバッチ・分析基盤の刷新候補として直に検討対象になる。</p>
+              <div class="article-card__meta">
+                <div class="article-source">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8M15 18h-5M10 6h8v4h-8V6Z"/></svg>
+                  <span>CodeZine</span>
+                </div>
+                <a class="article-link" href="https://codezine.jp/news/detail/29026" target="_blank" rel="noopener noreferrer">元記事を読む <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="article-card" id="article-5">
+            <div class="article-card__body">
+              <div class="tags">
+                <span class="tag-chip">#Meta</span>
+                <span class="tag-chip">#Anthropic</span>
+                <span class="tag-chip">#クラウド事業</span>
+              </div>
+              <h3 class="article-card__title"><a href="https://finance.yahoo.com/technology/ai/articles/meta-anthropic-drop-bombshell-news-174700402.html" target="_blank" rel="noopener noreferrer">Meta、Anthropicと2年最大100億ドル規模のAI計算契約を協議 — Meta 2026年CapEx 1,450億ドル、クラウド事業参入シグナル</a></h3>
+              <p class="article-card__summary">MetaとAnthropicが<strong>2年間で最大100億ドル</strong>規模のコンピューティング契約を協議中。Anthropic側から<strong>2026</strong>年<strong>6</strong>月に提案があり、月次分割払い&amp;両者早期解約可の条件で交渉中(<strong>7</strong>月<strong>17</strong>日報道)。Anthropicは<strong>5</strong>月に SpaceX と<strong>3年450億ドル</strong>の計算契約を締結済みで、今回はそれに次ぐ規模。Metaは<strong>2026</strong>年のCapExを最大<strong>1,450億ドル</strong>(前年<code>720億ドル</code>から<strong>2倍超</strong>)に引き上げ、元AWS幹部Dave Brownを採用するなど<strong>クラウド事業本格参入</strong>のシグナルが濃い。発表直後Meta株は日中一時<code>-6%</code>まで下げ、終値は<code>-2%</code>で着地した。</p>
+              <div class="article-card__meta">
+                <div class="article-source">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8M15 18h-5M10 6h8v4h-8V6Z"/></svg>
+                  <span>Yahoo Finance / TheStreet</span>
+                </div>
+                <a class="article-link" href="https://finance.yahoo.com/technology/ai/articles/meta-anthropic-drop-bombshell-news-174700402.html" target="_blank" rel="noopener noreferrer">元記事を読む <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+              </div>
+            </div>
+          </article>
+        </section>
+      </section>
+
+      <section class="articles-group articles-group--thinking">
+        <div class="articles-group__header">
+          <h2 class="articles-group__title">
+            思考力を育てる
+            <span class="articles-group__count">1件</span>
+          </h2>
+        </div>
+        <p class="articles-group__intro">
+          AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。
+        </p>
+        <section class="articles">
+          <article class="article-card" id="article-6">
+            <div class="article-card__body">
+              <div class="tags">
+                <span class="tag-chip">#組織論</span>
+                <span class="tag-chip">#インシビリティ</span>
+                <span class="tag-chip">#東洋経済</span>
+              </div>
+              <h3 class="article-card__title"><a href="https://toyokeizai.net/articles/-/949523" target="_blank" rel="noopener noreferrer">優秀なのに嫌な「ブリリアント・ジャーク」が組織を静かに崩す — 沢渡あまね&amp;伊達洋駆、東洋経済オンライン</a></h3>
+              <p class="article-card__summary">東洋経済オンラインが<strong>2026</strong>年<strong>7</strong>月<strong>20</strong>日、<strong>沢渡あまね</strong>氏(作家・組織開発)と<strong>伊達洋駆</strong>氏(ビジネスリサーチラボ代表)の共著記事を掲載した。テーマは<strong>「ブリリアント・ジャーク」</strong>——業績は出すが対人的に問題のある人物——が、<strong>インシビリティ(小さな無礼さ)</strong>の蓄積によって組織を静かに崩壊させる構造。ため息、雑な挨拶、無視といった「単発では告発しにくい」振る舞いが積み重なると、辞めるのは無礼を受けた側で、最後に残るのは「無礼に慣れた側」だという逆説を、初期症状のサインとともに解説する。個々人の能力ではなく「組織の空気を測る解像度」を上げるための道具箱として読める記事。有料領域あり。</p>
+              <div class="article-card__meta">
+                <div class="article-source">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8M15 18h-5M10 6h8v4h-8V6Z"/></svg>
+                  <span>東洋経済オンライン</span>
+                </div>
+                <a class="article-link" href="https://toyokeizai.net/articles/-/949523" target="_blank" rel="noopener noreferrer">元記事を読む <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+              </div>
+            </div>
+          </article>
+        </section>
+      </section>
+
+      <section class="articles-group articles-group--other">
+        <div class="articles-group__header">
+          <h2 class="articles-group__title">
+            視野を広げる
+            <span class="articles-group__count">1件</span>
+          </h2>
+        </div>
+        <p class="articles-group__intro">
+          視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。
+        </p>
+        <section class="articles">
+          <article class="article-card" id="article-7">
+            <div class="article-card__body">
+              <div class="tags">
+                <span class="tag-chip">#宇宙開発</span>
+                <span class="tag-chip">#NASA</span>
+                <span class="tag-chip">#タイタン</span>
+              </div>
+              <h3 class="article-card__title"><a href="https://sorae.info/space/20260720-dragonfly.html" target="_blank" rel="noopener noreferrer">タイタンの空を飛ぶNASA「ドラゴンフライ」振動・気密試験をクリア — 2028年打ち上げ・2034年到達、全長約4mの胴体で統合作業開始</a></h3>
+              <p class="article-card__summary">soraeが<strong>2026</strong>年<strong>7</strong>月<strong>20</strong>日、NASA/APL(ジョンズ・ホプキンス大学応用物理研究所)が開発する土星の衛星<strong>タイタン</strong>探査機「<strong>ドラゴンフライ</strong>」の進捗を報じた。全長約<strong>4m</strong>の胴体部分が<strong>振動試験</strong>と<strong>気密試験</strong>をクリアし、各サブシステムの<strong>統合作業</strong>が本格化。<strong>8つのローター</strong>を持つドローン型探査機で、タイタンの極寒(<code>-179°C</code>)と分厚い大気の中を飛行するために構造・アンテナ設計を独自に最適化している。<strong>2028年</strong>打ち上げ、<strong>2034年</strong>頃タイタン到達、その後数年間の飛行探査を予定。「大気を持つ地球外天体をドローンで飛び回る」という初の試みで、地球型惑星以外の探査手段の常識を書き換える可能性を持つ計画。</p>
+              <div class="article-card__meta">
+                <div class="article-source">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8M15 18h-5M10 6h8v4h-8V6Z"/></svg>
+                  <span>sorae 宇宙へのポータルサイト</span>
+                </div>
+                <a class="article-link" href="https://sorae.info/space/20260720-dragonfly.html" target="_blank" rel="noopener noreferrer">元記事を読む <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+              </div>
+            </div>
+          </article>
+        </section>
+      </section>
+
+      <nav class="day-nav" aria-label="日付ナビゲーション" data-date="2026-07-21">
+        <a class="day-nav__btn day-nav__btn--prev" href="/2026-07-20/" rel="prev" aria-label="前の日のニュース 2026年7月20日へ">
+          <span class="day-nav__label">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
+            前の日
+          </span>
+          <span class="day-nav__date">2026年7月20日</span>
+        </a>
+        <a class="day-nav__btn day-nav__btn--latest" href="/" aria-label="最新の日のニュースへ">
+          最新の日へ
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 17 5-5-5-5M13 17l5-5-5-5"/></svg>
+        </a>
+        <div class="day-nav__status" role="status">
+          <svg class="day-nav__status-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <span class="day-nav__status-text">最新の記事です</span>
+        </div>
+      </nav>
+    </article>
+  </main>
+
+    <footer class="site-footer">
+    <div class="site-footer__inner">
+      <div class="site-footer__main">
+        <div class="site-footer__brand">
+          <span class="site-logo__badge">N</span>
+          エンジニア就活ニュース
+        </div>
+        <div class="site-footer__tagline">Web系・IT系事業会社志望のエンジニア就活生のための日次ニュース。LINE配信した記事を毎日まとめて公開しています。</div>
+      </div>
+      <div class="site-footer__row">
+        <div class="site-footer__meta">
+          <span>© 2026 Kazuki Kondo</span>
+          <span class="site-footer__sep">·</span>
+          <span>毎日更新</span>
+          <span class="site-footer__sep">·</span>
+          <span>LINE配信と連動</span>
+        </div>
+        <div class="site-footer__updated">最終更新: 2026/07/21 07:00 JST</div>
+      </div>
+    </div>
+  </footer>
+  <script src="/assets/day-nav.js?v=1" defer></script>
+</body>
+</html>
