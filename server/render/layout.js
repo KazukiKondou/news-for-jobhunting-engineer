@@ -4,7 +4,7 @@ import { escapeHtml } from '../util.js';
 
 const SITE_NAME = 'エンジニア就活ニュース';
 const ORIGIN = 'https://news.kazukikondo.com';
-const ASSET_VERSION = 6;
+const ASSET_VERSION = 7;
 
 const NAV_ITEMS = [
   { key: 'home', href: '/', label: 'ホーム' },
@@ -98,6 +98,7 @@ ${noindex ? '  <meta name="robots" content="noindex" />\n' : ''}  <meta property
   <meta property="og:site_name" content="${SITE_NAME}" />
   <meta property="og:locale" content="ja_JP" />
 ${headExtra}
+  <link rel="alternate" type="application/rss+xml" title="${SITE_NAME}" href="/feed.xml" />
   <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

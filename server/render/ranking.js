@@ -1,7 +1,7 @@
 // ランキングページ。指標(元記事クリック / いいね / 日別閲覧数)と期間を切り替えられる。
 
 import { escapeHtml, formatCount, shortDateLabel } from '../util.js';
-import { RANKING_METRICS, RANKING_PERIODS } from '../queries.js';
+import { RANKING_METRICS, RANKING_PERIODS, DEFAULT_METRIC, DEFAULT_PERIOD } from '../queries.js';
 import { layout } from './layout.js';
 import { ICONS } from './components.js';
 
@@ -96,6 +96,6 @@ ${list}
     activeNav: 'ranking',
     body,
     // 指標×期間の組み合わせは実質同じ内容なので、検索エンジンには既定の1つだけ見せる。
-    noindex: !(metric === 'clicks' && period === 'all'),
+    noindex: !(metric === DEFAULT_METRIC && period === DEFAULT_PERIOD),
   });
 }

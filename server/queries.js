@@ -4,12 +4,21 @@ import { todayInJst, shiftDate } from './util.js';
 
 const ACTIVE = "status <> 'retracted'";
 
-/** ランキングで選べる指標。doubt は公開しない (内部のファクトチェック用途のみ)。 */
+/**
+ * ランキングで選べる指標。ここに書いた順がそのままタブの並び順になる。
+ * doubt は公開しない (内部のファクトチェック用途のみ)。
+ */
 export const RANKING_METRICS = {
-  clicks: { label: '元記事クリック', unit: 'クリック', column: 'c.source_clicks', scope: 'article' },
+  // ラベルはスマホでタブが4つ並ぶため、意味を保ったまま短くしている。
+  dayClicks: { label: '日別クリック', unit: 'クリック', scope: 'day' },
+  clicks: { label: '記事別クリック', unit: 'クリック', column: 'c.source_clicks', scope: 'article' },
   likes: { label: 'いいね', unit: 'いいね', column: 'c.likes', scope: 'article' },
-  views: { label: '日別の閲覧数', unit: '閲覧', column: 'v.views', scope: 'day' },
+  views: { label: '日別閲覧数', unit: '閲覧', scope: 'day' },
 };
+
+/** ランキング画面を開いたときに最初に出る指標と期間。 */
+export const DEFAULT_METRIC = 'dayClicks';
+export const DEFAULT_PERIOD = 'all';
 
 export const RANKING_PERIODS = {
   all: { label: '全期間', days: null },
@@ -72,6 +81,12 @@ export function createQueries(db) {
     articleTitles: db.prepare(`
       SELECT date, title FROM articles WHERE ${ACTIVE} ORDER BY date DESC, position ASC
     `),
+    recentArticles: db.prepare(`
+      SELECT slug, date, position, title, summary, source_name, source_url, section
+      FROM articles WHERE ${ACTIVE}
+      ORDER BY date DESC, position ASC
+      LIMIT ?
+    `),
     listUpdates: db.prepare('SELECT * FROM updates ORDER BY released_on DESC, id DESC'),
     /**
      * ファクトチェック待ちの記事。
@@ -122,14 +137,24 @@ export function createQueries(db) {
       .all(periodCutoff(period), limit);
   }
 
-  function rankDays(period, limit) {
+  // 日単位の指標。dayClicks はその日の記事の元記事クリックを合計する。
+  const DAY_SCORE = {
+    views: 'COALESCE(v.views, 0)',
+    dayClicks: `(SELECT COALESCE(SUM(c.source_clicks), 0)
+                 FROM articles a JOIN article_counters c ON c.slug = a.slug
+                 WHERE a.date = d.date AND a.${ACTIVE})`,
+  };
+
+  function rankDays(metric, period, limit) {
+    // 式は DAY_SCORE の固定値なので、外部入力が文字列結合に混ざることはない。
+    const score = DAY_SCORE[metric];
     return db
       .prepare(`
-        SELECT d.date, d.label, d.intro, v.views AS score,
+        SELECT d.date, d.label, d.intro, ${score} AS score,
                (SELECT COUNT(*) FROM articles a WHERE a.date = d.date AND a.${ACTIVE}) AS article_count
         FROM days d
-        JOIN day_views v ON v.date = d.date
-        WHERE d.date >= ? AND v.views > 0
+        LEFT JOIN day_views v ON v.date = d.date
+        WHERE d.date >= ? AND ${score} > 0
         ORDER BY score DESC, d.date DESC
         LIMIT ?
       `)
@@ -155,6 +180,7 @@ export function createQueries(db) {
     correctionCounts: () => new Map(statements.correctionCounts.all().map((r) => [r.date, r.n])),
     correctionsForDay: (date) => statements.correctionsForDay.all(date),
     listUpdates: () => statements.listUpdates.all().map((row) => ({ ...row, items: JSON.parse(row.items || '[]') })),
+    recentArticles: (limit = 40) => statements.recentArticles.all(limit),
     siteTotals: () => statements.siteTotals.get(),
     pendingDoubts: () => statements.pendingDoubts.all(),
 
@@ -221,7 +247,7 @@ export function createQueries(db) {
 
     ranking(metric, period, limit = 30) {
       return RANKING_METRICS[metric].scope === 'day'
-        ? rankDays(period, limit)
+        ? rankDays(metric, period, limit)
         : rankArticles(metric, period, limit);
     },
   };

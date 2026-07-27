@@ -6,13 +6,20 @@ import { join, extname, normalize } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 import { openDatabase, syncContent } from './db.js';
-import { createQueries, RANKING_METRICS, RANKING_PERIODS } from './queries.js';
+import {
+  createQueries,
+  RANKING_METRICS,
+  RANKING_PERIODS,
+  DEFAULT_METRIC,
+  DEFAULT_PERIOD,
+} from './queries.js';
 import { parseCookies, serializeCookie, randomVisitorId } from './util.js';
 import { layout } from './render/layout.js';
 import { renderDayPage } from './render/day.js';
 import { renderHomePage, renderArchivePage, RECENT_DAYS } from './render/listings.js';
 import { renderRankingPage } from './render/ranking.js';
 import { renderUpdatesPage } from './render/updates.js';
+import { renderRss, renderSitemap, renderRobots } from './render/feeds.js';
 
 const ROOT = join(fileURLToPath(import.meta.url), '..', '..');
 const PORT = Number(process.env.PORT ?? 8080);
@@ -156,8 +163,8 @@ function handleDay(res, date, visitor) {
 function handleRanking(res, url) {
   const requestedMetric = url.searchParams.get('metric');
   const requestedPeriod = url.searchParams.get('period');
-  const metric = RANKING_METRICS[requestedMetric] ? requestedMetric : 'clicks';
-  const period = RANKING_PERIODS[requestedPeriod] ? requestedPeriod : 'all';
+  const metric = RANKING_METRICS[requestedMetric] ? requestedMetric : DEFAULT_METRIC;
+  const period = RANKING_PERIODS[requestedPeriod] ? requestedPeriod : DEFAULT_PERIOD;
 
   return sendHtml(res, 200, renderRankingPage({ metric, period, rows: queries.ranking(metric, period) }));
 }
@@ -208,6 +215,26 @@ const server = createServer(async (req, res) => {
     if (pathname.startsWith('/api/')) return handleApi(req, res, url, visitor);
     if (pathname === '/healthz') return sendJson(res, 200, { ok: true, ...queries.siteTotals() });
     if (pathname.startsWith('/assets/')) return serveAsset(res, pathname);
+
+    // クローラー向け。Cookie も Vary: Cookie も付けずに返してCDNに任せる。
+    if (pathname === '/robots.txt') {
+      return send(res, 200, renderRobots(), {
+        'Content-Type': 'text/plain; charset=utf-8',
+        'Cache-Control': 'public, max-age=86400',
+      });
+    }
+    if (pathname === '/sitemap.xml') {
+      return send(res, 200, renderSitemap(queries.listDates()), {
+        'Content-Type': 'application/xml; charset=utf-8',
+        'Cache-Control': 'public, max-age=3600',
+      });
+    }
+    if (pathname === '/feed.xml') {
+      return send(res, 200, renderRss(queries.recentArticles()), {
+        'Content-Type': 'application/rss+xml; charset=utf-8',
+        'Cache-Control': 'public, max-age=3600',
+      });
+    }
 
     if (req.method !== 'GET' && req.method !== 'HEAD') return sendHtml(res, 405, renderNotFound());
 
