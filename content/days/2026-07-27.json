@@ -1,0 +1,112 @@
+{
+  "date": "2026-07-27",
+  "label": "2026年7月27日 (月)",
+  "intro": "MCPが7/28版でステートレス化、Unity 7が.NET CoreCLRへ移行。T2が50億円・SAZOが32.1億円を調達。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "MCP仕様、7月28日版でステートレス通信が正式化 — 初期化ハンドシェイクとSession-Idを廃止、GitHub MCPサーバが同日対応",
+          "summary": "Publickeyが<strong>2026</strong>年<strong>7</strong>月<strong>27</strong>日、翌<strong>7月28日</strong>に「<strong>MCP 2026-07-28</strong>」版が正式公開されると報じた。現行の<strong>MCP 2025-11-25</strong>ではクライアントとサーバ間で<strong>ステートフル</strong>な通信が前提だったが、新版では<strong>ステートレス</strong>接続に切り替わり、<strong>Initializeによるハンドシェイク</strong>、<strong>Mcp-Session-Id</strong>ヘッダによるセッション管理、セッションIDに紐付くDB操作がいずれも不要になる。<strong>GitHub</strong>は同日、新仕様に対応した次期<strong>GitHub MCPサーバ</strong>をリリース予定と表明。接続がシンプル・高速化し、複数サーバとロードバランサーによる<strong>スケーラブル</strong>な運用が容易になる。AIエージェント連携APIの事実上の標準が「軽量プロトコル+HTTP的水平スケール」へ寄る節目で、Web系バックエンドが慣れたステートレス設計と同じ土俵に載る。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/mcp728mcpgithub_mcp.html",
+          "tags": [
+            "MCP",
+            "AIエージェント",
+            "GitHub"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "「Unity 7」発表、ランタイムをMonoから.NET CoreCLRへ移行 — シェーダービルドが90%高速化、MCP経由でAIエージェント接続",
+          "summary": "Publickeyが<strong>2026</strong>年<strong>7</strong>月<strong>27</strong>日、Unity Technologiesが次世代ゲームエンジン「<strong>Unity 7</strong>」を発表したと報じた。最大の変更点はランタイム基盤を長年の<strong>Mono</strong>からMicrosoftの<strong>.NET CoreCLR</strong>へ移行したことで、開発画面から動作確認・デバッグの<strong>プレイモード</strong>がほぼ瞬時に起動するようになった。<strong>シェーダービルド</strong>速度は<strong>90%</strong>高速化、<strong>リアルタイムグローバルイルミネーション</strong>を含む新レンダリング機構を導入。<strong>MCP</strong>対応でAIエージェントをエディタから直接呼び出せる。ゲーム開発を主用途としつつ<strong>WebGL</strong>やメタバース案件で使うWeb系エンジニアにも波及する変化で、「言語ランタイムを載せ替えると開発体験がどれだけ変わるか」の等身大の事例として学べる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/unity_7mononet_coreclr.html",
+          "tags": [
+            "Unity",
+            ".NET",
+            "ゲームエンジン"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "Atlassian、Jiraに「AIによる要件定義の自動作成」搭載 — Claude Code/Copilot/Cursorへタスクを直接アサイン可能に",
+          "summary": "Publickeyが<strong>2026</strong>年<strong>7</strong>月<strong>23</strong>日、<strong>Atlassian</strong>が<strong>Jira</strong>に大規模な新機能群を投入したと報じた。中核は「<strong>Jira Planner</strong>」で、<strong>AI</strong>が要件定義を自動作成し、着手すべきタスクを洗い出す。生成された各タスクは、<strong>Claude Code</strong>・<strong>GitHub Copilot</strong>・<strong>Cursor</strong>といったコーディングエージェントへ<strong>コンテキストを保持したまま</strong>アサインでき、近日中に<strong>OpenAI Codex</strong>も対応予定。標準搭載の「<strong>Jira Coding Agent</strong>」により<strong>バグ修正</strong>・<strong>脆弱性修復</strong>・<strong>テスト生成</strong>・<strong>ドキュメント更新</strong>といった定型作業を人が書かずに委譲できる。企業ITの標準チケットシステムが「AIエージェントへの入口」に再定義される動きで、Web系プロダクト開発の日常フローも巻き込まれる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/jiraaiclaudecopilotai.html",
+          "tags": [
+            "Atlassian",
+            "Jira",
+            "AIエージェント"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "T2、シリーズBファーストクローズで約50億円調達 — 11社が参加し累計165億円超、レベル4自動運転トラックを2027年度以降に商用化",
+          "summary": "自動運転トラックによる幹線輸送を開発する<strong>株式会社T2</strong>が<strong>2026</strong>年<strong>7</strong>月<strong>21</strong>日、シリーズBラウンドの<strong>ファーストクローズ</strong>で総額<strong>約50億円</strong>を調達したと発表した。<strong>商船三井</strong>のCVCファンドや<strong>住友倉庫</strong>など<strong>11社</strong>が引受先となり、累計調達額は<strong>165億円超</strong>に到達。<strong>2027年度</strong>以降に、東京−大阪間などの高速道路本線での<strong>レベル4</strong>自動運転トラックによる幹線輸送サービスの提供開始を目指す。<strong>2026年度</strong>中にシリーズBの<strong>追加クローズ</strong>も計画。労働人口減とドライバー不足の直撃を受ける物流領域で、AI×モビリティ系スタートアップに大型資金が流れ続けている典型例で、Web系志望でも「業務ドメインの重い課題を機械学習でどう畳むか」という一次事例として押さえておける。",
+          "sourceName": "T2 プレスリリース",
+          "sourceUrl": "https://t2.auto/news/2026/0721.pdf",
+          "tags": [
+            "T2",
+            "自動運転",
+            "資金調達"
+          ]
+        },
+        {
+          "position": 5,
+          "title": "AI越境ECのSAZO、シリーズAで総額32.1億円調達 — 上半期GMVが約7倍、海外売上比率75.65%で「エージェンティックコマース」へ",
+          "summary": "AI越境ECサービス「<strong>SAZO</strong>」を運営する<strong>株式会社SAZO</strong>が<strong>2026</strong>年<strong>7</strong>月<strong>22</strong>日、シリーズAラウンドで総額<strong>32.1億円</strong>の資金調達を実施したと発表した。引受先は<strong>日本郵政キャピタル</strong>、<strong>鈴与</strong>、<strong>PARTNERS FUND2号</strong>、韓国<strong>NAVER Corporation</strong>、<strong>D4V2号</strong>等。<strong>2025年5月</strong>のプレシリーズA(<strong>7.1億円</strong>)から約<strong>1年</strong>で大型ラウンドに到達した。<strong>2026年度上半期</strong>で月間<strong>GMV</strong>が約<strong>7倍</strong>に成長し、海外売上比率は<strong>75.65%</strong>。調達資金は「<strong>エージェンティック・コマース</strong>(Agentic Commerce)」インフラのプロダクトR&D、グローバル展開加速、組織強化、マーケティングに投じる。ECの購買行動そのものをAIエージェントが担う次フェーズの実装が国内でも本格化してきた。",
+          "sourceName": "SAZO プレスリリース",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000013.000138802.html",
+          "tags": [
+            "SAZO",
+            "越境EC",
+            "資金調達"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "「最高レジリエンス責任者を設置すべき理由」 — DHBRがCResOという新職種を提示、CrowdStrike障害850万台をケースに",
+          "summary": "DIAMONDハーバード・ビジネス・レビューが<strong>2026</strong>年<strong>7</strong>月<strong>27</strong>日、国連防災機関(<strong>UNDRR</strong>)、<strong>ユニバーシティ・カレッジ・ロンドン</strong>、<strong>マサチューセッツ大学ボストン校</strong>ほか<strong>7名</strong>の共著論考「最高レジリエンス責任者を設置すべき理由」を掲載した。企業は独立した<strong>チーフ・レジリエンス・オフィサー(CResO)</strong>職を置くべきと主張する。リスク・セキュリティ・オペレーション・戦略が<strong>サイロ化</strong>しているために、複数システムに同時影響が及ぶ大規模障害の復旧責任者が不在になる、と問題提起。<strong>2024年7月</strong>の<strong>CrowdStrike</strong>障害では航空・病院・物流に連鎖障害が起き、推定<strong>850万台</strong>の<strong>Microsoft</strong>デバイスが影響を受けた事例を挙げる。「個別対策の寄せ集めではなく、レジリエンスを組織全体の<strong>ケイパビリティ</strong>としてガバナンスする」という発想の型は、技術選定や採用先を評価する視点にも転用できる。",
+          "sourceName": "DIAMOND ハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14172",
+          "tags": [
+            "DHBR",
+            "レジリエンス",
+            "組織論"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "テオ・ヤンセン展、富山県美術館で9月23日まで開催 — 風の力だけで歩く「ストランドビースト」の実物と設計を公開",
+          "summary": "オランダの造形作家<strong>テオ・ヤンセン</strong>の展覧会「<strong>テオ・ヤンセン展</strong>」が、<strong>2026年7月4日〜9月23日</strong>に<strong>富山県美術館</strong>で開催中。ヤンセンが<strong>1990年</strong>から作り続ける、風の力だけで浜辺を歩く人工生命体「<strong>ストランドビースト(Strandbeest)</strong>」の実物大の個体に加えて、スケッチ・模型・映像を通じて発想と<strong>進化過程</strong>そのものを見せる構成。プラスチックチューブという極めて安価な素材を、遺伝的アルゴリズムに近い試行錯誤で「歩ける脚部」に育て上げる過程は、<strong>アート</strong>と<strong>エンジニアリング</strong>と<strong>生物進化</strong>の境界を溶かす。純粋な芸術鑑賞であると同時に、「制約の中で反復的に最適化する」という思考の実体を、手で触れられる形で見られる稀な機会になっている。",
+          "sourceName": "Tokyo Art Beat",
+          "sourceUrl": "https://www.tokyoartbeat.com/events/-/Theo-Jansen-Exhibition/88857-ADD/2026-07-04",
+          "tags": [
+            "テオ・ヤンセン",
+            "展覧会",
+            "富山県美術館"
+          ]
+        }
+      ]
+    }
+  ]
+}
