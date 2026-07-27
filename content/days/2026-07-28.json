@@ -1,0 +1,112 @@
+{
+  "date": "2026-07-28",
+  "label": "2026年7月28日 (火)",
+  "intro": "Claude Opus 5がFable 5に半額で肉薄、アスエネがBlackRock系から135億円、LINE広告記録3.5年分が誤削除。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Anthropic、「Claude Opus 5」を公開 — Fable 5クラスの性能を出力$25/1Mトークンで、Opus 4.8比で最大2倍のスコア",
+          "summary": "Impress Watchが<strong>2026</strong>年<strong>7</strong>月<strong>25</strong>日、<strong>Anthropic</strong>が新モデル「<strong>Claude Opus 5</strong>」を<strong>7月24日(米国時間)</strong>に公開したと報じた。API料金は入力<strong>$5</strong>/100万トークン、出力<strong>$25</strong>/100万トークンで前世代<strong>Opus 4.8</strong>と据え置き、最上位<strong>Claude Fable 5</strong>(入力$10/出力$50)のちょうど<strong>半額</strong>にあたる。ソフトウェア開発ベンチ<strong>Frontier-Bench v0.1</strong>ではOpus 4.8比<strong>2倍</strong>のスコア、<strong>CursorBench 3.2</strong>最大推論設定でFable 5との差を<strong>0.5ポイント</strong>以内に収めつつタスク当たりコストを半減、<strong>ARC-AGI 3</strong>では2位モデルの<strong>3倍</strong>のスコアを記録した。<strong>Claude Pro</strong>($20/月)の最上位、<strong>Claude Max</strong>($100+)の標準モデルとして提供。フロンティア級の能力を半額の料率で回せるため、コーディングエージェントや業務自動化を組み込むWeb系プロダクトの単価計算が一段書き換わる。",
+          "sourceName": "Impress Watch",
+          "sourceUrl": "https://www.watch.impress.co.jp/docs/news/2127836.html",
+          "tags": [
+            "Anthropic",
+            "Claude",
+            "生成AI"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "LINEヤフー、LINE広告の第三者提供記録3年半分を誤削除 — 2022年12月〜2026年6月、個人情報保護法の保存義務対象",
+          "summary": "ITmedia NEWSが<strong>2026</strong>年<strong>7</strong>月<strong>24</strong>日、<strong>LINEヤフー</strong>が「<strong>LINE広告</strong>」などで発生した第三者提供記録の一部を<strong>約3年半</strong>にわたり誤って削除していたと発表したと報じた。対象期間は<strong>2022年12月15日</strong>〜<strong>2026年6月9日</strong>。企業がハッシュ化した顧客データを<strong>LINEユーザー</strong>のデータと照合する広告ターゲティング機能で、一致したユーザーの内部識別子など<strong>個人情報保護法</strong>で保存が義務付けられている記録が、定期的なデータ管理見直しの際に本来保存対象なのに対象外として扱われていた。漏えいや不正利用は現時点で確認されていないが、ユーザーが自分の個人データがどの企業の広告表示に使われたかを<strong>開示請求</strong>した際に履歴が不完全になる可能性がある。国内最大級のメッセージング×広告プラットフォームが個人情報保護法の保存義務で自己申告することになった事案で、Web事業会社の<strong>データガバナンス</strong>が採用面接でも問われやすくなる。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/articles/2607/24/news096.html",
+          "tags": [
+            "LINEヤフー",
+            "個人情報保護法",
+            "データガバナンス"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "Meta、無料の認証バッジ「Facebook Verified」を提供開始 — 自撮り動画でプロフィール写真と照合、Marketplace/Datingなどに順次表示",
+          "summary": "ITmedia NEWSが<strong>2026</strong>年<strong>7</strong>月<strong>26</strong>日、<strong>Meta</strong>が<strong>Facebook</strong>で無料の認証バッジ「<strong>Facebook Verified</strong>」の提供を開始したと報じた。提供開始は<strong>2026年7月24日(米国時間)</strong>。ユーザーが短い<strong>自撮り動画</strong>を撮影し、既存のプロフィール写真と一致するかをMetaが照合、通過すれば数分でバッジが付与される。対象は<strong>18歳以上</strong>でコミュニティ規定違反のない実在人物のアカウント。バッジは<strong>Facebook Marketplace</strong>、<strong>Dating</strong>、<strong>Groups</strong>、プロフィールに表示され、将来的にはフィード投稿にも展開される。政府発行IDと有料月額($13.99/月〜)を伴う既存の「<strong>Meta Verified</strong>」とは別枠で、「アカウントを使っているのが実在の人間か」を無料で確認する用途に特化。米中心に段階提供し、順次<strong>グローバル展開</strong>する。プラットフォームの<strong>詐欺・なりすまし対策</strong>としてのアイデンティティ検証を、有料オプションから無料の当然機能に格上げした事例。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/articles/2607/26/news015.html",
+          "tags": [
+            "Meta",
+            "Facebook",
+            "本人確認"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "アスエネ、135億円を調達 — BlackRock×TemasekのDPがリード、8割以上をM&Aに投じAIサステナビリティを国際展開",
+          "summary": "起業のわからないをできるにが<strong>2026</strong>年<strong>7</strong>月<strong>24</strong>日、<strong>CO2排出量</strong>管理システムを提供する<strong>アスエネ株式会社</strong>がシリーズDで<strong>135億円</strong>を調達したと報じた。リードは<strong>BlackRock</strong>と<strong>Temasek</strong>(シンガポール政府系)の合弁VC<strong>Decarbonization Partners(DP)</strong>で、BlackRock系VCが日本の未上場スタートアップに投資するのは<strong>今回が初めて</strong>。新規調達分からセカンダリーを除いた実質分の<strong>8割以上</strong>を<strong>M&A</strong>に充てる方針で、AI活用の<strong>CO2可視化・削減・報告</strong>から<strong>ESG評価</strong>、<strong>サプライチェーン管理</strong>、<strong>第三者検証</strong>、<strong>カーボンクレジット</strong>、エネルギー管理まで<strong>6つのAIサステナビリティプロダクト</strong>を軸に国際展開を加速する。ClimateTech×AIの日本発SaaSに外資系運用会社の大型マネーが入り、事業会社側からもSaaS採用の材料になる規模感の投資が動いている。",
+          "sourceName": "起業のわからないをできるに",
+          "sourceUrl": "https://sogyotecho.jp/news/20260724asuene/",
+          "tags": [
+            "アスエネ",
+            "資金調達",
+            "ClimateTech"
+          ]
+        },
+        {
+          "position": 5,
+          "title": "RevComm、シリーズBファーストクローズで33.5億円 — SMBC-GB Growthリード、累計86億円、音声解析AI「MiiTel」で海外展開加速",
+          "summary": "<strong>音声解析AI</strong>「<strong>MiiTel</strong>」を提供する<strong>株式会社RevComm</strong>が<strong>2026</strong>年<strong>7</strong>月<strong>22</strong>日、シリーズBラウンドのファーストクローズで総額<strong>33.5億円</strong>の資金調達を実施したと発表した。エクイティとデットの合算で、累計調達額は<strong>86億円</strong>に到達。リード投資家は<strong>Global Brain</strong>と<strong>SMBC Edge</strong>が共同運営する<strong>SMBC-GB Growth1号投資事業有限責任組合</strong>。エクイティは<strong>WiL</strong>、<strong>KDDI Open Innovation Fund 3号</strong>、<strong>新生ベンチャーパートナーズ1号</strong>、<strong>Salesforce Ventures</strong>、デットは<strong>福岡銀行</strong>と<strong>スタートアップデットファンド2号</strong>が参加。<strong>2020年</strong>のシリーズA以来<strong>6年ぶり</strong>のエクイティ調達で、資金は<strong>AIエージェント</strong>実装と音声AIのエンタープライズ基盤化、<strong>MiiTel Synapse</strong>拡販、海外展開、組織強化に投じる。国内SaaSの音声×AI領域で老舗プレイヤーが大型ラウンドに戻ってきた事例。",
+          "sourceName": "RevComm プレスリリース",
+          "sourceUrl": "https://www.revcomm.com/ja/news/pressrelease/20260722/",
+          "tags": [
+            "RevComm",
+            "MiiTel",
+            "資金調達"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "DHBR編集長ブログ「ブランドの力：AI時代こそ、信頼で勝負する」 — スターバックス／オニツカタイガーで検証する信頼の積み上げ方",
+          "summary": "DIAMONDハーバード・ビジネス・レビューが<strong>2026</strong>年<strong>6</strong>月<strong>10</strong>日、<strong>2026年7月号</strong>特集「<strong>ブランドの力 —AI時代こそ、信頼で勝負する—</strong>」の編集長ブログを公開した。生成AIの比較購買が消費者行動と検索行動を書き換え、低品質なAI生成コンテンツが市場に溢れる中で、「<strong>信頼の積み重ねこそすべて</strong>」を軸にブランド戦略を再設計する必要があると論じる。特集は<strong>5本</strong>の論文で構成され、<strong>スターバックス</strong>や<strong>オニツカタイガー</strong>のインタビューを通じて、市場圧力があっても<strong>顧客体験の一貫性</strong>と<strong>ブランド価値への忠実さ</strong>で長期の信頼を積むアプローチを検証。「AIの生成物と自社の一次情報のどちらを信じてもらえるか」という問いは、企業選び・自分のキャリア発信・情報源の評価の場面にも移植でき、技術差別化に代替できない「時間で積む資産」の見方が身につく。",
+          "sourceName": "DIAMOND ハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14080",
+          "tags": [
+            "DHBR",
+            "ブランド",
+            "AI時代"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "3.5cmのペットボトルキャップに乗ってフィリピンから約70日 — 京大チーム、ゴカイら9分類群307個体の「漂流する海洋ごみ生態系」を解明",
+          "summary": "<strong>京都大学</strong>が<strong>2026</strong>年<strong>7</strong>月<strong>10</strong>日、高知県沖で回収された<strong>3.5cm</strong>の<strong>プラスチック製ボトルキャップ</strong>の中に、体長約<strong>9cm</strong>の<strong>ゴカイ</strong>(<strong>Eunice bipapillata</strong>)が巣穴を掘って住み着き、プラスチックの平滑な表面を「隙間と足場に富んだ立体的な生息場所」に変えていたことを解明したと発表した。付着生物は<strong>フォラミニフェラ(有孔虫)</strong>、<strong>コケムシ</strong>、<strong>フジツボ</strong>、<strong>ヒラムシ</strong>など<strong>9分類群307個体</strong>にのぼる。有孔虫殻の<strong>酸素同位体比</strong>から当時の水温を推定し、キャップは<strong>フィリピン</strong>方面から<strong>黒潮</strong>に乗って<strong>約70日</strong>北上してきたと結論付けた。成果は国際査読誌<strong>Marine Pollution Bulletin</strong>に掲載。3センチ半のゴミ1個が生態系を長距離運ぶという直感に反する事実は、環境問題・生物学・海洋物理を横断して「小さな条件が長い時間で大きな結果を生む」という思考の題材になる。",
+          "sourceName": "京都大学 研究成果",
+          "sourceUrl": "https://www.kyoto-u.ac.jp/ja/research-news/2026-07-10",
+          "tags": [
+            "京都大学",
+            "海洋ごみ",
+            "生態系"
+          ]
+        }
+      ]
+    }
+  ]
+}
