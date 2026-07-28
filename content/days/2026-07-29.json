@@ -1,0 +1,112 @@
+{
+  "date": "2026-07-29",
+  "label": "2026年7月29日 (水)",
+  "intro": "はてな11.8億円流出の調査報告書、Vercel scriptcがTSをネイティブ化、CLAS13.8億円調達が同日に並んだ。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "はてな、11.8億円流出事案の特別調査委員会報告書を公開 — 偽警察→遠隔操作、Y銀行の権限設定不備でほころびが連鎖",
+          "summary": "ITmedia NEWSが<strong>2026</strong>年<strong>7</strong>月<strong>28</strong>日、Web系企業<strong>はてな</strong>が<strong>7月24日</strong>に公開した特別調査委員会報告書の詳細を報じた。<strong>2026年4月</strong>に発覚した振り込め詐欺の被害総額は<strong>11億7981万円</strong>で、経理部長が「警察」と名乗る集団から偽の警察手帳・検察官証を提示され、リモートデスクトップアプリを実行して業務用PCを乗っ取られた。<strong>Y銀行</strong>口座では単独振込が可能な権限設定、承認上限金額の未設定、部下の異変指摘無視、<strong>200時間</strong>超の残業・休日出勤による孤立といった組織的ほころびが連鎖したと結論付けている。同社は被害額を特別損失に計上し、<strong>2026年7月期</strong>の業績予想を<strong>7.67億円</strong>の純損失に修正、社長と担当取締役は月額報酬を<strong>20%</strong>・<strong>6ヶ月</strong>自主返上する。Web系事業会社の内部統制と経理オペレーションが、単一障害点をどう避けるかという設計問題として一気に俎上に上がった。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2607/28/2000000238/",
+          "tags": [
+            "はてな",
+            "内部統制",
+            "セキュリティ"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "Vercel、TypeScriptをC経由でネイティブ化する「scriptc」をOSS公開 — 起動47ms→2.4ms、200KB台に圧縮",
+          "summary": "Publickeyが<strong>2026</strong>年<strong>7</strong>月<strong>28</strong>日、<strong>Vercel</strong>がTypeScriptコードをC言語に変換し<strong>clang</strong>でネイティブバイナリにコンパイルする「<strong>scriptc</strong>」をオープンソース公開したと報じた。<strong>Node.js</strong>環境で<strong>60〜100MB</strong>だったアプリのバイナリが<strong>170〜200KB</strong>、JavaScriptランタイムを埋め込んでも<strong>3MB</strong>程度まで圧縮され、Apple Silicon搭載Macでの起動時間は<strong>47ミリ秒</strong>から<strong>2.4ミリ秒</strong>以下に短縮した。<strong>UTF-16</strong>文字列セマンティクス、配列/マップ/セット、<strong>JSON</strong>検証、<strong>fs</strong>・<strong>path</strong>・<strong>process</strong>・<strong>child_process</strong>・<strong>crypto</strong>・<strong>http(s)</strong>など主要な<strong>Node API</strong>、<strong>npm</strong>依存の解決と埋め込みに対応する。<strong>React Compiler</strong>のコアが<strong>Rust</strong>へ移行しつつある流れと並び、JavaScript/TypeScriptツールチェーンのネイティブ化が加速している。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/verceltypescriptcscriptc.html",
+          "tags": [
+            "Vercel",
+            "TypeScript",
+            "OSS"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "Google Cloud、脆弱性を自動検出・検証・修正するAI「CodeMender」プレビュー公開 — 対応7言語、VS Code/Antigravity連携",
+          "summary": "Publickeyが<strong>2026</strong>年<strong>7</strong>月<strong>29</strong>日、<strong>Google Cloud</strong>がコード脆弱性の検出から修正までを自律実行するAIエージェント「<strong>CodeMender</strong>」のプレビューを公開したと報じた。メモリ破損、インジェクション、Webセキュリティ、暗号欠陥といった複雑な脆弱性を発見し、<strong>サンドボックス</strong>環境でエクスプロイトコードを実行して誤検知を排除、修正コードを別のAIが評価する多段構成をとる。対応言語は<strong>C/C++</strong>、<strong>Go</strong>、<strong>Java</strong>、<strong>Python</strong>、<strong>Ruby</strong>、<strong>Rust</strong>、<strong>TypeScript</strong>の<strong>7</strong>言語で、<strong>CI/CD</strong>ワークフロー、CLI、<strong>Visual Studio Code</strong>、<strong>Antigravity</strong>と連携できる。<strong>GitHub Copilot</strong>への<strong>Claude Opus 5</strong>搭載に続き、脆弱性対応をエンジニアからAIエージェント側に寄せる動きが日次で積み上がっており、Web系プロダクトの脆弱性ワークフローが再設計フェーズに入っている。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/google_cloudaicodemender.html",
+          "tags": [
+            "Google Cloud",
+            "AIエージェント",
+            "セキュリティ"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "家具家電サブスクCLAS、パナソニックCVC+3行融資で13.8億円調達 — 個人27万人・法人3500社超、累計114億円",
+          "summary": "家具・家電サブスク「<strong>CLAS</strong>」を運営する<strong>株式会社クラス</strong>が<strong>2026</strong>年<strong>7</strong>月<strong>28</strong>日、<strong>パナソニックくらしビジョナリーファンド</strong>(パナソニックと<strong>SBIインベストメント</strong>が共同運営)を引受先とする第三者割当増資に加え、<strong>静岡銀行</strong>・<strong>商工組合中央金庫</strong>・<strong>山梨中央銀行</strong>からの融資を含む総額<strong>13.8億円</strong>の資金調達を発表した。個人会員は<strong>27万人</strong>超、法人アカウントは<strong>3,500社</strong>超に拡大し、累計調達額はデットファイナンス含め<strong>114.6億円</strong>に到達。個人向け『<strong>CLAS</strong>』と法人向け『<strong>CLAS Biz</strong>』で耐久消費財の<strong>循環プラットフォーム</strong>を運営する。<strong>ClimateTech</strong>の隣に位置する<strong>サーキュラーエコノミー</strong>領域で、事業会社のCVCマネーがサブスク型リユース基盤に厚く流れ込んでいる事例。",
+          "sourceName": "PR TIMES (株式会社クラス)",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000314.000033987.html",
+          "tags": [
+            "クラス",
+            "資金調達",
+            "サーキュラーエコノミー"
+          ]
+        },
+        {
+          "position": 5,
+          "title": "PyCon JP 2026、8月広島で開催 — 4トラック45セッション、基調はキャロル・ウィリングと北尾崇(Pyxel)",
+          "summary": "技術評論社<strong>gihyo.jp</strong>が<strong>2026</strong>年<strong>7</strong>月<strong>28</strong>日、日本最大級の<strong>Python</strong>カンファレンス「<strong>PyCon JP 2026</strong>」の詳細タイムテーブルを公開した。会期は<strong>2026年8月21日(金)</strong>・<strong>22日(土)</strong>のカンファレンス本編に加え、<strong>23日(日)</strong>の開発スプリントで構成され、会場は<strong>広島国際会議場</strong>。2日間で<strong>4トラック</strong>に分かれ、計<strong>45本</strong>のトークとライトニングトークが並ぶ。初日基調講演は<strong>Python</strong>コア開発者で<strong>Project Jupyter</strong>コアコントリビューターの<strong>キャロル・ウィリング</strong>氏、最終日は国産レトロゲームエンジン「<strong>Pyxel</strong>」開発者の<strong>北尾崇</strong>氏。参加登録は<strong>connpass</strong>経由。東京開催が続いた同カンファレンスの西日本開催として、関西・中国地方からの参加動線が広がる。",
+          "sourceName": "gihyo.jp",
+          "sourceUrl": "https://gihyo.jp/article/2026/07/pycon-jp-2026-timetable",
+          "tags": [
+            "PyCon JP",
+            "Python",
+            "カンファレンス"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "DHBR加藤洋平「成人発達理論の段階は序列ではなく地図である」 — 心のOSの違いとして他者を読み替える",
+          "summary": "DIAMONDハーバード・ビジネス・レビューが<strong>2026</strong>年<strong>7</strong>月<strong>23</strong>日、成人発達学者・<strong>加藤洋平</strong>による連載第<strong>22回</strong>「発達段階の誤解を解く」を公開した。<strong>ピアジェ</strong>、<strong>キーガン</strong>、<strong>クック・グロイター</strong>らが用いた「段階」概念は、人を序列化するための優劣ラベルではなく、「世界をどんな前提で意味づけているか」という<strong>心のOS</strong>の違いを記述する<strong>地図</strong>である、と説く。同じ人でも文脈やタスクで発揮される思考容量が変わるという近年の研究にも触れ、他者を「能力不足」と切り捨てず<strong>異なる意味生成の枠組み</strong>で動いていると読み替えれば、対話や1on1の質が変わる、と論じる。他人を評価する軸を「良し悪し」から「構造の違い」にずらす訓練として、日常のチーム対話や自分の限界を捉え直す場面にも使える思考の型を提供している。",
+          "sourceName": "DIAMOND ハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14420",
+          "tags": [
+            "成人発達理論",
+            "加藤洋平",
+            "メタ認知"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "陸上1マイル世界記録が27年ぶり更新、ジョシュ・カー3分42秒66 — エルゲルージの1999年記録を0.47秒短縮",
+          "summary": "<strong>World Athletics</strong>が<strong>2026</strong>年<strong>7</strong>月<strong>18</strong>日、ロンドン・ダイヤモンドリーグの男子<strong>1マイル</strong>(<strong>1,609m</strong>)でイギリスの<strong>ジョシュ・カー</strong>(<strong>28</strong>)が<strong>3分42秒66</strong>を記録し、モロッコの英雄<strong>ヒシャム・エルゲルージ</strong>が<strong>1999年</strong>ローマで打ち立てた<strong>3分43秒13</strong>を<strong>0.47秒</strong>更新したと発表した。<strong>3分43秒</strong>の壁を破った初の選手となる。<strong>400m</strong>通過<strong>55.3秒</strong>、<strong>1,500m</strong>通過<strong>3分27秒62</strong>で自身の英国記録を上回るペースで走り、2位<strong>ヤレド・ヌグセ</strong>(米)に<strong>3秒</strong>以上の大差をつけた。カーは目標タイム3:42を意味する「<strong>Project 222</strong>」を掲げて挑み、<strong>ロンドン・スタジアム</strong>で達成した。中距離走の壁が四半世紀ぶりに破られた歴史的な夜となった。",
+          "sourceName": "World Athletics",
+          "sourceUrl": "https://worldathletics.org/competitions/diamond-league/news/london-athletics-meet-2026-josh-kerr-world-mile-record",
+          "tags": [
+            "陸上",
+            "世界記録",
+            "中距離"
+          ]
+        }
+      ]
+    }
+  ]
+}
