@@ -1,0 +1,100 @@
+{
+  "date": "2026-07-30",
+  "label": "2026年7月30日 (木)",
+  "intro": "MCPが過去最大のステートレス化改訂（7月28日版）、Findy開発資本アワード第5回募集開始、飛鳥・藤原の宮都が国内27件目の世界遺産に登録された。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "MCP、登場以来最大のアップデート — セッション廃止でステートレスプロトコルへ移行、GitHub・Linux Foundationも同日対応",
+          "summary": "Publickeyが<strong>2026</strong>年<strong>7</strong>月<strong>29</strong>日、Model Context Protocol（<strong>MCP</strong>）が<strong>7月28日</strong>付け仕様で登場以来最大の改訂を行ったと報じた。initializeハンドシェイクと<strong>Mcp-Session-Id</strong>ヘッダが廃止され、各リクエストが完全に独立したステートレスプロトコルへ移行した。同日、<strong>GitHub MCP</strong>サーバーも新仕様に対応（<strong>7月23日</strong>先行対応）し、<strong>Linux Foundation</strong>傘下の<strong>Agentic AI Foundation</strong>がMCPをホストすることも発表された。ステートレス化により中間プロキシやロードバランサーとの相性が改善し、エンタープライズ導入の障壁が下がる。AIエージェント連携の標準規格として採用が広がるMCPが、アーキテクチャ面で大きな転換点を迎えた。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/mcp728mcpgithub_mcp.html",
+          "tags": [
+            "MCP",
+            "AIエージェント",
+            "標準規格"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "KDDI、AI対話型情報サービス「Buffmee」提供開始 — 約150の信頼性の高いコンテンツを情報源に出典明示",
+          "summary": "ITmedia Mobileが<strong>2026</strong>年<strong>7</strong>月<strong>28</strong>日、<strong>KDDI</strong>がAI対話型情報サービス「<strong>Buffmee</strong>（バフミー）」の提供を開始したと報じた。<strong>約150</strong>の信頼性の高いコンテンツを情報源とし、<strong>NewsPicks Select</strong>を含む厳選メディアから回答を生成する。ユーザーは<strong>7つ</strong>のボタン操作でニュースや生活情報を取得でき、回答には出典が明示される。<strong>プレミアムプラン</strong>では<strong>1年間無制限</strong>で利用できる。生成AIの「ハルシネーション」問題に対して情報源を限定・明示するアプローチをとっており、信頼性を担保しながらAI活用を進める事業者戦略の一例として注目される。",
+          "sourceName": "ITmedia Mobile",
+          "sourceUrl": "https://www.itmedia.co.jp/mobile/articles/2607/28/news070.html",
+          "tags": [
+            "KDDI",
+            "AI",
+            "情報サービス"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "AWS CloudFormation「Expressモード」一般提供 — 最大4倍速いデプロイ、CDKはv2.1129.0で対応",
+          "summary": "Publickeyが<strong>2026</strong>年<strong>7</strong>月<strong>22</strong>日頃、<strong>AWS CloudFormation</strong>の<strong>Expressモード</strong>が<strong>7月21日</strong>に一般提供（GA）となったと報じた。従来モードと比べ最大<strong>4倍</strong>速いデプロイを実現する。Expressモードはリソースの設定適用確認後にスタック更新を完了とするため、安定化を待つ時間が不要になる。<strong>AWS CDK</strong>では<strong>cdk deploy --express</strong>フラグで利用でき、<strong>aws-cdk CLI v2.1129.0</strong>（<strong>7月1日</strong>リリース）以降で対応。デプロイ高速化はCI/CDパイプラインのフィードバックループ短縮に直結し、IaCを軸に開発速度を上げたい現場にとって即効性の高いアップデートとなった。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/aws4aws_cloudformation_express.html",
+          "tags": [
+            "AWS",
+            "CloudFormation",
+            "インフラ"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "Findy Team+ Award 2026、評価軸を「開発生産性」から「開発資本」へ刷新 — 応募締切9月末、表彰式12月",
+          "summary": "ファインディ株式会社が<strong>2026</strong>年<strong>7</strong>月<strong>22</strong>日、「<strong>Findy Team+ Award 2026</strong>」（第<strong>5</strong>回）の募集開始を発表した。今回の最大の変化は評価軸の刷新で、「開発生産性」から<strong>Findy</strong>が<strong>2026年5月</strong>に提唱した「<strong>開発資本</strong>」概念へ移行した。<strong>7月</strong>に実施した<strong>185人</strong>の開発リーダー調査では、Qualityスコアの高い組織が事業成果とエンジニア定着率の両面で相関を示した。<strong>Organization Award</strong>と<strong>Best Practice Award</strong>の<strong>2</strong>カテゴリで優秀組織を表彰し、応募締切は<strong>2026年9月末</strong>、表彰式は<strong>12月初旬</strong>を予定する。開発組織の評価フレームが「速さ」から「資本としての技術力」へシフトしている流れを象徴するイベントとなっている。",
+          "sourceName": "PR TIMES (ファインディ株式会社)",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000254.000045379.html",
+          "tags": [
+            "Findy",
+            "開発組織",
+            "採用"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "東洋経済・印南敦史「地頭がいい人の情報処理は3段階」 — Information→Knowledge→Intelligenceへの変換力",
+          "summary": "東洋経済オンラインが<strong>2026</strong>年<strong>7</strong>月<strong>26</strong>日、書評家・<strong>印南敦史</strong>による「地頭がいい人は何が違うのか」を公開した。情報（<strong>Information</strong>）を文脈に照らして意味付けすると知識（<strong>Knowledge</strong>）になり、さらに他の知識と統合・抽象化すると知性（<strong>Intelligence</strong>）になる<strong>3</strong>段階のプロセスを解説する。「答えのない問いに対して思考し判断を下す力」こそが<strong>Intelligence</strong>であり、地頭がいいとされる人はこの<strong>I→K→I</strong>変換を自然に行っているという。AIが情報検索や知識提示を代替する時代に、最終段階の統合・判断プロセスは人間固有の能力として残る。情報過多の中でどの段階で処理が止まっているかを意識するだけで、インプットの質は変わる。",
+          "sourceName": "東洋経済オンライン",
+          "sourceUrl": "https://toyokeizai.net/articles/-/952222",
+          "tags": [
+            "メタ認知",
+            "情報処理",
+            "知性"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "飛鳥・藤原の宮都と関連資産群、ユネスコ世界文化遺産に登録 — 国内27件目、奈良4件目",
+          "summary": "<strong>第48回</strong>ユネスコ世界遺産委員会（韓国・釜山）が<strong>2026</strong>年<strong>7</strong>月<strong>26</strong>日、奈良県の「<strong>飛鳥・藤原の宮都と関連資産群</strong>」を世界文化遺産に登録することを決定した。登録資産は明日香村・橿原市・桜井市にまたがる<strong>19</strong>の構成資産で、高松塚古墳・キトラ古墳・石舞台古墳などを含む。国内の世界遺産は計<strong>27</strong>件（文化<strong>22</strong>件・自然<strong>5</strong>件）となり、奈良県では<strong>4</strong>件目の登録となった。<strong>6</strong>世紀末から<strong>8</strong>世紀初にかけての古代日本中央集権国家の形成過程を示す遺産群として評価された。日本史上最初の「都」が形成された地域の登録は、日本のルーツを物語る文化的節目となった。",
+          "sourceName": "時事ドットコム",
+          "sourceUrl": "https://www.jiji.com/jc/article?k=2026072600130&g=soc",
+          "tags": [
+            "世界遺産",
+            "奈良",
+            "文化遺産"
+          ]
+        }
+      ]
+    }
+  ]
+}
