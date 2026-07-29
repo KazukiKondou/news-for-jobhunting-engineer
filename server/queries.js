@@ -10,14 +10,14 @@ const ACTIVE = "status <> 'retracted'";
  */
 export const RANKING_METRICS = {
   // ラベルはスマホでタブが4つ並ぶため、意味を保ったまま短くしている。
-  dayClicks: { label: '日別クリック', unit: 'クリック', scope: 'day' },
   clicks: { label: '記事別クリック', unit: 'クリック', column: 'c.source_clicks', scope: 'article' },
+  dayClicks: { label: '日別クリック', unit: 'クリック', scope: 'day' },
   likes: { label: 'いいね', unit: 'いいね', column: 'c.likes', scope: 'article' },
   views: { label: '日別閲覧数', unit: '閲覧', scope: 'day' },
 };
 
 /** ランキング画面を開いたときに最初に出る指標と期間。 */
-export const DEFAULT_METRIC = 'dayClicks';
+export const DEFAULT_METRIC = 'clicks';
 export const DEFAULT_PERIOD = 'all';
 
 export const RANKING_PERIODS = {
