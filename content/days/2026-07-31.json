@@ -1,0 +1,112 @@
+{
+  "date": "2026-07-31",
+  "label": "2026年7月31日 (金)",
+  "intro": "JetBrains Contextがコーディングエージェントのターン数を最大68%削減、Google Cloud「CodeMender」プレビュー公開、はやぶさ2が小惑星トリフネから400mを通過した。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "JetBrains、AIコーディングエージェント向け「JetBrains Context」発表 — ターン数を最大68%、レイテンシを最大59%、実行コストを最大48%削減",
+          "summary": "Publickeyが<strong>2026</strong>年<strong>7</strong>月<strong>31</strong>日、<strong>JetBrains</strong>がAIコーディングエージェント向けの新プロダクト「<strong>JetBrains Context</strong>」を発表したと報じた。コードリポジトリのインデックス構築とセマンティック検索をエージェントに提供し、マルチリポジトリ横断のコンテキスト供給に対応する。ベンチマークでは<strong>ターン数を最大68%</strong>、<strong>レイテンシを最大59%</strong>、<strong>実行コストを最大48%</strong>削減できるとしている。JetBrainsは「Coding agents shouldn't have to rediscover your codebase for every task.」と説明し、エージェントが毎回コードベースを探索し直す非効率を潰す位置付けだ。<strong>JetBrains AI for Teams and Organizations</strong>のユーザー向けアーリーアクセスとして提供が始まった。「AIエージェントに何を渡すか」がプロダクト差別化の主戦場になってきた流れを象徴する発表となる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/jetbrainsaijetbrains_context.html",
+          "tags": [
+            "JetBrains",
+            "AIエージェント",
+            "開発ツール"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "Google Cloud、脆弱性の検出から検証・修正までを自律実行する「CodeMender」プレビュー公開 — 7言語対応でCI/CDにも統合",
+          "summary": "Publickeyが<strong>2026</strong>年<strong>7</strong>月<strong>29</strong>日、<strong>Google Cloud</strong>がコード脆弱性の検出、サンドボックス内でのエクスプロイト実行によるリスク検証、修正コード提案までをAIが自律的に行う「<strong>CodeMender</strong>」のプレビュー公開を発表したと報じた。対応言語は<strong>C/C++、Go、Java、Python、Ruby、Rust、TypeScript</strong>の<strong>7言語</strong>で、メモリ破損・インジェクション・Webセキュリティ・暗号の欠陥・安全でないデータ処理といった欠陥を検出する。<strong>CI/CDワークフロー・CLI・Visual Studio Code・Antigravity</strong>と統合可能で、修正はdiff形式で提示され開発者の手動レビュー・承認が必須。生成された修正コードは別のAIが評価する二段構えの設計になっている。SASTとパッチ生成をワンパイプラインで自動化する動きが本格化する。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/google_cloudaicodemender.html",
+          "tags": [
+            "Google Cloud",
+            "セキュリティ",
+            "AIエージェント"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "Vercel、TypeScriptをネイティブバイナリ化する「scriptc」をOSS公開 — 起動時間47ms→2.4ms、容量60〜100MB→170〜200KB",
+          "summary": "Publickeyが<strong>2026</strong>年<strong>7</strong>月<strong>28</strong>日、<strong>Vercel</strong>がTypeScriptコードをC言語経由でネイティブ実行ファイルへコンパイルする「<strong>scriptc</strong>」をオープンソース(vercel-labs/scriptc)公開したと報じた。TypeScriptを型付き中間表現(Typed IR)からC言語コードに変換し、GCC/Clangでネイティブバイナリを生成する。Apple Silicon Macでの計測ではNode.jsの<strong>60〜100MB</strong>に対し<strong>170〜200KB</strong>(静的、JS埋め込み時は<strong>3MB</strong>)、起動時間は<strong>47ms</strong>から<strong>2.4ms以下</strong>まで短縮される。Node.js互換API(fs, path, process, child_process, os, crypto等)、npm依存性解決、<strong>quickjs-ng(&lt;620KB)</strong>組み込みによるJS実行にも対応する。サーバレス関数のコールドスタート解消を狙う実験プロジェクトで、Web系開発者にとっては「TypeScriptが実行環境ごとネイティブ化する」パラダイムを試せる素材となる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/verceltypescriptcscriptc.html",
+          "tags": [
+            "Vercel",
+            "TypeScript",
+            "OSS"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "はてな×KADOKAWA、AI小説エディタ「RIKU」をクローズドβ公開 — 執筆本体は人、AIは発想整理・設定構築・校正校閲を担当",
+          "summary": "ITmedia NEWSが<strong>2026</strong>年<strong>7</strong>月<strong>30</strong>日、株式会社<strong>はてな</strong>と<strong>KADOKAWA</strong>がAIを組み込んだ次世代小説エディタ「<strong>RIKU</strong>」を共同開発し、同日クローズドβテスト参加者募集を開始したと報じた。RIKUはAIが小説を書くツールではなく、書くのはユーザー本人で、AIは<strong>発想の整理・世界観やキャラクター設定の構築・校正校閲</strong>を支援する「伴奏役」の位置付け。ユーザーの入力データはAIの学習に利用しないと明記している。応募対象は<strong>18歳以上</strong>で執筆中/執筆意欲のあるユーザー、締切は<strong>2026年8月17日</strong>23時59分。国内Web系プロダクト企業と大手IPホルダーが「作り手支援」レイヤーで組んだ形で、生成AIとコンテンツ産業の役割分担を製品として提示した事例となる。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2607/30/2000000309/",
+          "tags": [
+            "はてな",
+            "KADOKAWA",
+            "生成AI"
+          ]
+        },
+        {
+          "position": 5,
+          "title": "KubeCon+CloudNativeCon Japan 2026 パシフィコ横浜で開幕 — Kubernetes本番採用80%超、AI稼働66%、日本開発者95万人",
+          "summary": "Publickeyが<strong>2026</strong>年<strong>7</strong>月<strong>30</strong>日、<strong>KubeCon+CloudNativeCon Japan 2026</strong>が<strong>パシフィコ横浜</strong>で開幕したと報じた。CNCFの調査ではKubernetesを本番環境で運用する企業は<strong>80%超</strong>、Kubernetes上で生成AIを稼働させる企業は<strong>66%</strong>に達し、Kubernetesは「AIを動かすプラットフォーム」として再定義されつつある。日本国内のクラウドネイティブ開発者は<strong>約95万人</strong>、CNCFのコントリビューターは<strong>30万人</strong>超、ホストする<strong>OSSプロジェクトは230以上</strong>。CNCFは新たに「認定AI適合性プラットフォーム」プログラムの設定を計画しており、<strong>2030年に93.3ギガワット</strong>まで拡大するとされる推論ワークロードに向けたインフラ標準化が主題となる。国内Web系企業のインフラ・SREキャリアを考える上で外せない節目のカンファレンスとなる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/kubernetesaikubeconcloudnativecon_japan_2026.html",
+          "tags": [
+            "Kubernetes",
+            "CNCF",
+            "カンファレンス"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "東洋経済・吉田幸司「『学ぶほど考える力がつく』は勘違い」 — 学びとは「考えなくて済むようにする」営み、天動説→地動説とオッカムのカミソリで解説",
+          "summary": "東洋経済オンラインが<strong>2026</strong>年<strong>7</strong>月<strong>29</strong>日、哲学博士でクロス・フィロソフィーズ社長の<strong>吉田幸司</strong>による論考「『学ぶほど考える力がつく』は勘違い」を公開した。「学び=考える機会を増やす」というイメージは誤りで、学びとは<strong>「考えなくて済むようにする」</strong>営みだと主張する。天動説では火星や金星の不可解な動きを説明するため<strong>周転円・エカント</strong>といった幾何学的な仮想装置を積み上げざるを得なかったが、地動説はより少ない前提で同じ現象を説明できた。この「より少ない前提でより多くを説明する」方向、すなわち<strong>オッカムのカミソリ</strong>を働かせる方向に知性は進化してきたと解説する。AIが答えを提示する時代に、自分は「何を考え、何を考えなくてよいか」を選び直すための思考の軸を示す論考となっている。",
+          "sourceName": "東洋経済オンライン",
+          "sourceUrl": "https://toyokeizai.net/articles/-/952515",
+          "tags": [
+            "思考法",
+            "オッカムのカミソリ",
+            "哲学"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "はやぶさ2、小惑星「トリフネ」の表面から400mを通過 — 秒速5.3kmの近接フライバイに成功、日欧6機関の国際観測",
+          "summary": "時事ドットコムが<strong>2026</strong>年<strong>7</strong>月<strong>30</strong>日、宇宙航空研究開発機構(<strong>JAXA</strong>)がはやぶさ2の拡張ミッションで小惑星「<strong>トリフネ</strong>」の表面から約<strong>400メートル</strong>を通過するフライバイに成功したと発表したと報じた。接近は<strong>2026年7月5日</strong>午後6時半ごろ(日本時間)、相対速度は秒速<strong>5.3キロ</strong>で、写真撮影・レーダーによる距離計測・赤外線カメラ観測を実施した。JAXAに加え<strong>東京大・千葉工業大・東京科学大・産業技術総合研究所・パリ天文台・カナリア天体物理研究所</strong>など国内外の研究機関が参加する国際観測となった。JAXAの三桝裕也チーム長は「非常に近いところを通すことができて、素晴らしい技術を得られた」とコメントした。リュウグウの帰還カプセル回収後の拡張ミッションで、太陽系小天体の連続探査を成立させる日本の探査技術を象徴する成果となる。",
+          "sourceName": "時事ドットコム",
+          "sourceUrl": "https://www.jiji.com/jc/article?k=2026073001035&g=soc",
+          "tags": [
+            "JAXA",
+            "はやぶさ2",
+            "宇宙探査"
+          ]
+        }
+      ]
+    }
+  ]
+}
