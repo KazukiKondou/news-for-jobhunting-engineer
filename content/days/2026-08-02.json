@@ -1,0 +1,124 @@
+{
+  "date": "2026-08-02",
+  "label": "2026年8月2日 (日)",
+  "intro": "KubeCon Japan 2026が横浜で開幕、JetBrains Contextでコンテキスト取得の往復が最大68%減、はやぶさ2がトリフネ744mで世界最短フライバイ。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "JetBrains、AIエージェント向けにコード基盤へのコンテキスト供給基盤「JetBrains Context」を発表 — エージェント往復回数を最大68%削減、レイテンシ59%減、実行コスト48%減",
+          "summary": "Publickeyが<strong>2026</strong>年<strong>7</strong>月<strong>31</strong>日、<strong>JetBrains</strong>がAIエージェント向けの新サービス「<strong>JetBrains Context</strong>」を発表したと報じた。AIエージェントはリポジトリを繰り返し検索してコンテキストを再取得する結果トークンを浪費するが、JetBrains Contextは事前にインデックスした意味検索可能なコード基盤をエージェントに供給し、複数リポジトリをまたいだ広い文脈で高品質なコードを生成できるようにする。実測でエージェントのターン数を最大<strong>68%</strong>削減、レイテンシを最大<strong>59%</strong>短縮、実行コストを最大<strong>48%</strong>削減する。現在「JetBrains AI for Teams and Organizations」ユーザー向けにアーリーアクセスで提供される。Claude CodeやOpenAI Codexなど外部のAIエージェントからも利用でき、AIコーディング環境の共通土台としてIDEベンダーが「コンテキスト供給基盤」を握りに来た動きになる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/jetbrainsaijetbrains_context.html",
+          "tags": [
+            "JetBrains",
+            "AIエージェント",
+            "開発ツール"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "「KubeCon+CloudNativeCon Japan 2026」がPacifico横浜で開幕 — 国内クラウドネイティブ開発者95万人規模、企業の66%がKubernetes上で生成AIを運用",
+          "summary": "Publickeyが<strong>2026</strong>年<strong>7</strong>月<strong>30</strong>日、Cloud Native Computing Foundation(CNCF)主催のクラウドネイティブ最大級のカンファレンス「<strong>KubeCon+CloudNativeCon Japan 2026</strong>」が<strong>7月29-30日</strong>にPacifico横浜で開幕したと報じた。CNCFによると国内のクラウドネイティブ開発者は約<strong>95万人</strong>で、グローバルでは<strong>191か国</strong>の<strong>30万人</strong>超が<strong>230</strong>以上のオープンソースプロジェクトに貢献している。今回の中心テーマはKubernetesを「AIを動かすプラットフォーム」として位置付けることで、既に企業の<strong>66%</strong>がKubernetes上で生成AIを運用中と紹介された。AI推論需要は<strong>2030年</strong>までに<strong>93.3ギガワット</strong>に達すると見込まれ、CNCFはベンダーをまたいでAIワークロードを一貫運用できるよう「Certified AI-compliant Platform」認定プログラムの導入を計画する。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/kubernetesaikubeconcloudnativecon_japan_2026.html",
+          "tags": [
+            "Kubernetes",
+            "CNCF",
+            "カンファレンス"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "Google Cloud、AIが脆弱性検出からサンドボックス内での攻撃検証・修正までを自動実行する「CodeMender」プレビュー公開 — C/C++・Go・Java・Python・Ruby・Rust・TypeScriptの7言語対応",
+          "summary": "Publickeyが<strong>2026</strong>年<strong>7</strong>月<strong>29</strong>日、Google Cloudが自律AIエージェント「<strong>CodeMender</strong>」のプレビューを公開したと報じた。CodeMenderはコードの脆弱性を検出し、サンドボックス内で実際にエクスプロイトコードを実行してリスクの実在性を検証したうえで、修正パッチを自動生成する。対応言語は<strong>C/C++・Go・Java・Python・Ruby・Rust・TypeScript</strong>の<strong>7言語</strong>で、静的解析が見落とすメモリ破壊・インジェクション・暗号処理の欠陥まで踏み込む。生成したパッチは別のAIが既存機能への影響を評価し、CI/CD・CLI・Visual Studio Code・Antigravityなどの開発ツールに組み込める。開発者は最終差分をレビュー・承認する運用となり、AI×セキュリティが「検出」から「実行検証+自動修正」まで拡張された事例となる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/google_cloudaicodemender.html",
+          "tags": [
+            "Google Cloud",
+            "セキュリティ",
+            "AIエージェント"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "Vercel、TypeScriptをC言語経由でネイティブ実行ファイルにコンパイルする「scriptc」をオープンソース公開 — 起動時間2.4ms(Node.js比約20倍高速)、バイナリサイズ170〜200KB",
+          "summary": "Publickeyが<strong>2026</strong>年<strong>7</strong>月<strong>28</strong>日、<strong>Vercel</strong>がTypeScriptコードをネイティブ実行ファイルへコンパイルするOSSツール「<strong>scriptc</strong>」を公開したと報じた。TypeScriptをまず型付きの中間表現へ変換し、次にC言語コードへ変換したうえで<strong>clang</strong>で実行ファイルを生成する<strong>3</strong>段構成で、Node.js/Deno/Bunと違いJavaScriptランタイムを含まない真にネイティブなバイナリを作る。fs/path/process/crypto/http/https/fetchなど主要Node.js APIを提供し、npmパッケージはビルド時に解決してバイナリに埋め込む。Node.jsで<strong>60〜100MB</strong>のアプリが<strong>170〜200KB</strong>まで縮小(JSエンジン埋込みでも約<strong>3MB</strong>)、Apple silicon Macでの起動時間はNode.jsの約<strong>47ms</strong>に対し<strong>2.4ms</strong>未満。GitHubの<code>vercel-labs/scriptc</code>で公開されている。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/verceltypescriptcscriptc.html",
+          "tags": [
+            "Vercel",
+            "TypeScript",
+            "OSS"
+          ]
+        },
+        {
+          "position": 5,
+          "title": "家具・家電サブスク「CLAS」、13.8億円を調達 — パナソニックくらしビジョナリーファンドが引受、累計調達額114.6億円に到達",
+          "summary": "パナソニック ニュースルーム ジャパンが<strong>2026</strong>年<strong>7</strong>月<strong>28</strong>日、家具・家電のサブスクリプションサービス「<strong>CLAS</strong>」を展開する株式会社クラスに、パナソニックがSBIインベストメントと共同運営するコーポレートベンチャーキャピタル「<strong>パナソニックくらしビジョナリーファンド</strong>」から出資したと発表した。CLAS側は今回、同ファンドを引受先とする第三者割当増資と、静岡銀行・商工組合中央金庫・山梨中央銀行などの金融機関からの融資により総額<strong>13.8億円</strong>を調達し、これでデットファイナンス等を含む累計調達額は<strong>114.6億円</strong>となる。個人向け「CLAS」と法人向け「<strong>CLAS Biz</strong>」を通じて耐久消費財の循環プラットフォームを拡大するのが狙いで、大手メーカーCVCから資本を取りに行くD2C/循環型SaaSのモデルケースとなる。",
+          "sourceName": "Panasonic Newsroom Japan",
+          "sourceUrl": "https://news.panasonic.com/jp/press/jn260728-2",
+          "tags": [
+            "CLAS",
+            "サブスクリプション",
+            "資金調達"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "DHBRドラッカー「未来を語るなら、現実からスタートせよ」 — 『産業人の未来』新装版から、未来を思い描く前にまず「現実の把握」を出発点に置く",
+          "summary": "DIAMOND ハーバード・ビジネス・レビューが<strong>2026</strong>年<strong>7</strong>月<strong>31</strong>日、<strong>P.F.ドラッカー</strong>の著書『<strong>産業人の未来</strong>』(訳=上田惇生)からの抜粋論考「未来を語るなら、現実からスタートせよ」を公開した。多くのリーダーは現状の把握を飛ばしていきなり「あるべき未来」を語りがちだが、ドラッカーは「われわれは<strong>現在の現実</strong>を知らなければならない」「われわれは<strong>現在からスタート</strong>しなければならない」と繰り返し、未来設計の出発点は現実の直視にあると強調する。組織の実際の能力・制約・市場ポジションを把握しないままの戦略は「運用の実態から切り離された絵空事」になるとし、変革を担うリーダーの前提として「現実の誠実な評価」を先に置くべきだと説く。KPIを立てる前にまず現状を1次情報で捉える、というエンジニアの仕事にも直結する構図となる。",
+          "sourceName": "DIAMOND ハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14267",
+          "tags": [
+            "ドラッカー",
+            "戦略",
+            "現状把握"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "JAXA「はやぶさ2」、小惑星トリフネから744mを秒速5kmで通過しながらレーザ測距に世界初成功 — 太陽系天体フライバイの最短距離を更新",
+          "summary": "JAXAが<strong>2026</strong>年<strong>7</strong>月<strong>30</strong>日、小惑星探査機「<strong>はやぶさ2</strong>」が<strong>2026</strong>年<strong>7</strong>月<strong>5</strong>日に実施した小惑星「<strong>トリフネ</strong>」フライバイで、探査機に搭載された<strong>LIDAR</strong>(レーザー高度計)による測距に成功したと発表した。小惑星フライバイ中のレーザ測距成功は<strong>世界初</strong>で、探査機は秒速約<strong>5km</strong>で飛行しながら小惑星中心から約<strong>744m</strong>まで接近し(表面からは約<strong>400m</strong>)、最接近の<strong>約4秒前</strong>と<strong>約3秒前</strong>にそれぞれ約<strong>20km</strong>・<strong>15km</strong>の距離で測距データを取得した。太陽系天体をフライバイ探査した最短距離としても世界最短の記録となる。<strong>1.064μm</strong>波長のパルスYAGレーザーによる高精度な機体制御と機器較正が実証され、将来の惑星防衛や小惑星探査ミッションへの応用が見込まれる。",
+          "sourceName": "JAXA",
+          "sourceUrl": "https://www.jaxa.jp/press/2026/07/20260730-2_j.html",
+          "tags": [
+            "宇宙",
+            "JAXA",
+            "はやぶさ2"
+          ]
+        },
+        {
+          "position": 8,
+          "title": "シンク・ネイチャー、日本全国の「歴史の古い草原」分布を初めて地図化 — 全国2,654か所・58,872ha、国土のわずか0.16%と判明",
+          "summary": "ITmedia NEWSが<strong>2026</strong>年<strong>7</strong>月<strong>31</strong>日、沖縄県の<strong>シンク・ネイチャー</strong>のサイエンスチームが、日本各地に残る「<strong>歴史の古い半自然草原</strong>」の全国分布を初めて地図化したと報じた。人の管理により草本植生が<strong>100年以上</strong>維持されてきた場所を「歴史的に古い半自然草原」と定義し、複数の歴史地図と統計データを独自解析で統合して<strong>1ha</strong>以上の草原を特定した結果、全国で<strong>2,654か所</strong>・合計<strong>58,872ha</strong>(=国土のわずか<strong>0.16%</strong>)しか残っていないと判明した。成果は国際生態学誌「<strong>Ecological Research</strong>」に掲載され、Webプラットフォーム「<strong>Japanese Old Grassland Watch</strong>」で自治体の生物多様性戦略、環境影響評価、自然共生サイト候補地の検討などに利用できるようにした。焼き払い・採草・放牧といった人の営みが作った独自の生態系が、いかに希少化しているかを数値で可視化した研究となる。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2607/31/2000000337/",
+          "tags": [
+            "生態学",
+            "環境",
+            "生物多様性"
+          ]
+        }
+      ]
+    }
+  ]
+}
