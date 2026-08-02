@@ -1,0 +1,112 @@
+{
+  "date": "2026-08-03",
+  "label": "2026年8月3日 (月)",
+  "intro": "TypeScript 7.0で型検査11.9倍、CNCF調査で日本のクラウドネイティブ開発者約95万人、DiaブラウザWindows版が2026年秋公開へ。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Microsoft、TypeScriptの新コンパイラ「TypeScript 7.0」を正式リリース — Go実装のネイティブポートでVS Codeの型検査が125.7秒→10.6秒(11.9倍)、メモリ使用量6〜26%減",
+          "summary": "Microsoft TypeScriptチームが<strong>2026</strong>年<strong>7</strong>月<strong>8</strong>日、TypeScriptを<strong>Go</strong>で書き直したネイティブコンパイラ「<strong>TypeScript 7.0</strong>」を正式リリース(GA)したと発表した。既存<strong>TypeScript 6.0</strong>の型検査ロジックと構造的に同一のロジックを、ネイティブコード速度・共有メモリマルチスレッド・新最適化と組み合わせている。フルビルドの短縮は<strong>VS Code</strong>で<strong>125.7秒→10.6秒(11.9倍)</strong>、Sentry<strong>139.8秒→15.7秒(8.9倍)</strong>、Playwright<strong>12.8秒→1.47秒(8.7倍)</strong>、Bluesky<strong>24.3秒→2.8秒(8.7倍)</strong>で、メモリ使用量も<strong>6〜26%</strong>削減された。エディタ内のファイル単位エラー検出は<strong>17.5秒→1.3秒未満(13倍)</strong>。設定既定値は<code>strict</code>有効・<code>module: esnext</code>・<code>types: []</code>・<code>rootDir: ./</code>へ変更され、<code>target: es5</code>・<code>baseUrl</code>・AMD/UMD/SystemJSは廃止。<code>--checkers</code>と<code>--builders</code>で型検査とプロジェクトビルドを並列化できる。ただし Vue/Angular/Svelte/Astro などプログラマティックAPIに依存するツール群は7.0では動かず、対応APIが載る<strong>7.1</strong>を数か月待つ必要がある。",
+          "sourceName": "TypeScript Blog",
+          "sourceUrl": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/",
+          "tags": [
+            "TypeScript",
+            "コンパイラ",
+            "Microsoft"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "CNCF、日本のクラウドネイティブ開発者コミュニティが約95〜100万人と発表 — 世界全体1,990万人、95カ国12,500人超調査、日本のAPIゲートウェイ採用47%",
+          "summary": "Publickeyが<strong>2026</strong>年<strong>8</strong>月<strong>3</strong>日、Cloud Native Computing Foundation(<strong>CNCF</strong>)が日本のクラウドネイティブコミュニティ調査結果を発表したと報じた。日本のクラウドネイティブ開発者数は約<strong>95〜100万人</strong>で、世界全体では<strong>1,990万人</strong>。調査は<strong>2025年12月〜2026年1月</strong>に実施され、<strong>95カ国</strong>から<strong>12,500人以上</strong>が回答した。過去<strong>12カ月間</strong>の技術採用率は、日本では<strong>APIゲートウェイ 47%</strong>(最多)、<strong>マイクロサービス 39%</strong>、<strong>Kubernetes 27%</strong>と続く。インフラ利用形態は海外がオンプレミス・プライベート・ハイブリッドいずれも<strong>30%台</strong>で並ぶのに対し、日本は依然としてオンプレミスに大きく依存しており、パブリック/プライベートクラウドを上回る状況が続く。世界の総開発者に占める日本コミュニティの規模は約<strong>5%</strong>と定量化された形で、Web系事業会社を志望する層にとってはクラウドネイティブ技術の国内需要規模を測る一次データとなる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/100cncf.html",
+          "tags": [
+            "CNCF",
+            "Kubernetes",
+            "開発者調査"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "アトラシアン子会社The Browser Company、AI業務ブラウザ「Dia」のWindows版を2026年秋リリースへ — ベータウェイトリスト受付開始、以後毎週水曜に進捗共有",
+          "summary": "Publickeyが<strong>2026</strong>年<strong>8</strong>月<strong>3</strong>日、アトラシアン傘下のThe Browser Companyが「AI時代の仕事用ブラウザ」と位置付ける「<strong>Dia</strong>」のWindows版を<strong>2026年秋</strong>にリリースすると発表したと報じた。Diaは Arc ブラウザの後継として<strong>2024年12月</strong>に発表され、<strong>2025年10月</strong>に Mac 正式版がリリース済み。今回The Browser CompanyのCEO Josh Miller氏が X 上で Windows 版のベータ<strong>ウェイトリスト受付開始</strong>を告知し、要望が根強かった Windows 対応をようやく取り込む。リリースまで<strong>毎週水曜</strong>に進捗状況を公開する運用に切り替え、Perplexity Comet や旧 Arc など先行する AI 搭載ブラウザとの差別化を透明性で押し出す方針。アトラシアンは<strong>2025年9月</strong>にThe Browser Companyを買収しており、Jira・Confluence 等と組み合わせた業務用 AI ブラウザ戦略の中核ピースとなる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/aidiawindows.html",
+          "tags": [
+            "Dia",
+            "The Browser Company",
+            "アトラシアン"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "AWS、公式オンラインワークショップ用の無料サンドボックス環境を提供開始 — Builder IDのみで利用可、1セッション最大8時間、リクエストから約15分で起動、週1回リセット",
+          "summary": "Publickeyが<strong>2026</strong>年<strong>7</strong>月<strong>28</strong>日、AWSが公式オンラインワークショップ用の実行環境として無料のサンドボックスの提供を開始したと報じた。「<strong>AWS Builder Center Workshops</strong>」のページから無料の<strong>Builder ID</strong>だけで利用でき、通常の<strong>AWSアカウントやクレジットカード登録は不要</strong>。1セッションは最大<strong>8時間</strong>稼働し、リクエストからおおむね<strong>15分以内</strong>で環境が起動する。リクエスト回数の上限は<strong>週1回</strong>で毎週日曜にリセットされる仕様。ワークショップ内でリソースのデプロイやコードの実行を試すことができ、セッション終了後は自動で環境が破棄される。対象は現状一部のワークショップに限定されるが、順次拡大予定。学生や就活生がクレカ登録なしに EC2・Lambda・RDS などの実サービスに触れられる公式導線が用意された形となり、ハンズオン学習のハードルを大きく下げる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/awsawsaws.html",
+          "tags": [
+            "AWS",
+            "サンドボックス",
+            "学習環境"
+          ]
+        },
+        {
+          "position": 5,
+          "title": "Findy Freelance、フリーランスエンジニア実態調査で平均月単価が約80万円に — 時間単価5,319円(前回比+181円)、AIコード生成活用度で月単価に約10万円差",
+          "summary": "ファインディが<strong>2026</strong>年<strong>3</strong>月<strong>11</strong>日、Findy Freelance登録ユーザー<strong>265名</strong>(<strong>2026年1月23〜30日</strong>実施)を対象とした「フリーランスエンジニア実態調査」を公開した。平均月単価は約<strong>80万円</strong>、時間単価は<strong>5,319円</strong>で前回調査の<strong>5,138円</strong>から<strong>+181円</strong>上昇。<strong>AIによるコード生成を50%以上活用する層</strong>の月単価は約<strong>84万円</strong>、<strong>活用度25%以下</strong>の層は約<strong>74万円</strong>となり、AI活用度の違いで月単価に<strong>約10万円</strong>の差が出た。生産性向上を実感した層は<strong>81.9%</strong>に達したが、実際に直近1年で月単価が上がったと答えたのは<strong>約4割</strong>にとどまる。技術スタック別では<strong>Go・TypeScript</strong>メインの層が高単価を維持し、稼働形態は全体の<strong>65.3%</strong>が週<strong>4〜5日</strong>、時間単価<strong>6,000円以上</strong>の高単価層では週<strong>3日以下</strong>への稼働シフトが進む。フリーランス継続希望は高単価層で強く、正社員転向を検討する層は<strong>約25%</strong>。",
+          "sourceName": "Findy",
+          "sourceUrl": "https://findy.co.jp/3922/",
+          "tags": [
+            "フリーランス",
+            "年収",
+            "AI活用"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "DIAMOND HBR入山章栄「他者とわかり合いたいのなら、『世界をどう見るか』という哲学的前提に目を向けよ」 — 対話が噛み合わないのは意見の差ではなく存在論・認識論の差",
+          "summary": "DIAMOND ハーバード・ビジネス・レビュー<strong>2026年9月号</strong>で、早稲田大学ビジネススクールの<strong>入山章栄</strong>教授が科学哲学と経営理論の関係を解説した論考を公開した。入山教授は「<strong>人は信じた理論に沿って行動し、現実そのものが理論に近づいていくことさえある</strong>」と指摘し、経営理論の背後には異なる科学哲学的前提—<strong>存在論</strong>(実在論 vs 社会構成主義)や<strong>認識論</strong>(実証主義 vs 解釈主義)—が横たわっていることを示す。組織や他者との対話が噛み合わない原因は表層的な意見の相違ではなく、「世界をどう見るか」という根本的立場の違いに由来する場合が多い。したがって他者理解を深めるには、相手がどの哲学的前提で世界を捉えているかをまず可視化することが先で、そこで初めて「同じ用語で違うことを話している」構造にメスを入れられる。エンジニアリング領域でも、要件・設計論争が実は「品質」や「速度」の定義前提が違うだけということは多く、対話の分解フレームとして機能する。",
+          "sourceName": "DIAMOND ハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14563",
+          "tags": [
+            "入山章栄",
+            "科学哲学",
+            "対話"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "国立天文台、2026年のペルセウス座流星群は新月と重なり最高条件と発表 — 8月13日午前3時頃に1時間35個、月齢29でここ数年で最も暗い流星まで見える",
+          "summary": "国立天文台が<strong>2026年8月</strong>のほしぞら情報として、今年の<strong>ペルセウス座流星群</strong>が<strong>新月</strong>と重なる好条件で見られると発表した。極大は日本時間<strong>8月13日11時頃</strong>で日中となるため、直前の<strong>8月12〜13日</strong>夜と<strong>8月13〜14日</strong>夜が観測の中心。ちょうど<strong>8月13日</strong>が新月(月齢<strong>29</strong>)で、月明かりの影響を全く受けないためここ数年で最も暗い流星まで見えるのが今年最大のポイント。国立天文台の予想では、都市部を除く空が暗い場所での見え数は<strong>8月13日午前3時頃</strong>(東京の場合)に1時間あたり<strong>約35個</strong>、<strong>8月14日未明</strong>で<strong>約30個</strong>。流星は<strong>21時頃</strong>から出現し始め、放射点が高くなる深夜〜夜明けにかけて増える。8月13日の皆既日食はグリーンランド北東部・アイスランド・スペイン北部を通り日本からは観測不能だが、流星群のほうは日本全国で条件が揃う稀な年となる。",
+          "sourceName": "国立天文台",
+          "sourceUrl": "https://www.nao.ac.jp/astro/sky/2026/08-topics03.html",
+          "tags": [
+            "天文",
+            "ペルセウス座流星群",
+            "国立天文台"
+          ]
+        }
+      ]
+    }
+  ]
+}
