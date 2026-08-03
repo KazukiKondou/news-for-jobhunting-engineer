@@ -1,0 +1,112 @@
+{
+  "date": "2026-08-04",
+  "label": "2026年8月4日 (火)",
+  "intro": "Tokioチーム発のRust製Webフレームワーク「Topcoat」登場、クラウド市場が年42%成長、4℃上昇で滑れるスキー場は全国7カ所。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Tokioチーム、Rust製フルスタックWebフレームワーク「Topcoat」を発表 — Tokio非同期ランタイム上でSSR/ファイルベースルーティング/Tailwind製コンポーネント、Toasty ORM連携も計画",
+          "summary": "Publickeyが<strong>2026</strong>年<strong>8</strong>月<strong>4</strong>日、Rust製非同期ランタイム「<strong>Tokio</strong>」の開発チーム(リード: <strong>Carl Lerche</strong>氏)が、Rust製フルスタックWebアプリケーションフレームワーク「<strong>Topcoat</strong>」を発表したと報じた。TopcoatはTokio上でサーバサイドレンダリング(<strong>SSR</strong>)を行い、ファイルベースのルーティング、Tailwind CSSベースのコンポーネントライブラリ、Fontsource(フォント)・Iconify(アイコン)を標準統合。ホットリロード対応の開発サーバとCLIを備え、HTMLをコード内に直接記述しつつ動的部分は制御構文で扱う。変更のあったセクションのみブラウザに送る<strong>部分ページ更新</strong>もサポートし、AIによる開発支援を前提に「言語選択より完備されたライブラリ群が効いてくる」との思想で設計されている。今後Rust製ORM「<strong>Toasty</strong>」との連携強化、バリデーション、メール送信機能などを追加予定。Lerche氏は「<strong>3年前</strong>はRustでWebアプリを作るのは無謀だと言われた。今は状況が全く違う」とコメントし、Rust Webエコシステムの空白を埋めるフレームワークとして位置付ける。ソースは<code>github.com/tokio-rs/topcoat</code>で公開。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/rustwebtopcoattokio.html",
+          "tags": [
+            "Rust",
+            "Tokio",
+            "Webフレームワーク"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "Google Chrome 152ベータ公開、CPU性能を判定する「CPU Performance API」やCSS新擬似要素・擬似クラス、GPU subgroup制御などを搭載",
+          "summary": "CodeZineが<strong>2026</strong>年<strong>8</strong>月<strong>2</strong>日、Googleが<strong>7</strong>月<strong>30</strong>日にAndroid・ChromeOS・Linux・macOS・WindowsでChrome<strong>152</strong>のベータ版を公開したと報じた。目玉は<strong>CPU Performance API</strong>で、Webアプリが端末のCPU性能ティアを取得し、既存の<strong>Compute Pressure API</strong>と併用して処理を最適化できる。CSSでは擬似要素<code>::backdrop</code>・<code>::scroll-marker</code>・<code>::view-transition</code>を拡張サポートし、動画/音声のUIを表現できる<code>:playing</code>・<code>:paused</code>擬似クラスを新設。フォーム関連では自動修正を制御する<code>autocorrect</code>属性と、テキスト範囲操作用の<strong>OpaqueRange API</strong>を追加。インストール済みWebアプリのサブアプリ管理と<strong>フレームレス表示</strong>、GPU機能<code>subgroup-size-control</code>、Fetch APIによる外部接続許可リスト機能も入る。廃止では<strong>Private Aggregation API</strong>が停止、クライアントサイド<strong>XSLT</strong>が非推奨に。macOSではPWA通知も強化。安定版は9月上旬公開見込み。",
+          "sourceName": "CodeZine",
+          "sourceUrl": "https://codezine.jp/news/detail/29198",
+          "tags": [
+            "Chrome",
+            "Web API",
+            "CSS"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "Synergy Research、2026年Q2クラウドインフラ市場調査 — 総額1,430億ドル(前年比+43%、過去8年で最大)、AWS28%横ばい・Azure20%(-1)・Google Cloud15%(+1)",
+          "summary": "Publickeyが<strong>2026</strong>年<strong>8</strong>月<strong>4</strong>日、米Synergy Research Groupが2026年第2四半期の世界クラウドインフラ市場データを公表したと報じた。市場総額は<strong>1,430億ドル(約22.88兆円)</strong>で前年同期比<strong>+43%</strong>成長し、過去<strong>8</strong>年で最も高い伸び率。<strong>3</strong>年でおよそ<strong>2倍</strong>以上に拡大した。ベンダー別シェアは<strong>AWSが28%</strong>で横ばい、<strong>Microsoft Azureが20%</strong>で<strong>1ポイント低下</strong>、<strong>Google Cloudが15%</strong>で<strong>1ポイント上昇</strong>。上位3社の合計シェアは大きく変わっておらず、市場が過去最高ペースで拡大する中でも寡占構造を維持している=3社がセクターの成長を牽引していると分析された。CNCFの日本開発者数<strong>約100万人</strong>とあわせて、Web事業会社志望者は「AWS一択で勉強するか、GCP側の伸びに賭けるか」を実データで測れる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/aws28google_cloud1154220262synergy_research.html",
+          "tags": [
+            "クラウド",
+            "AWS",
+            "市場調査"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "LayerX、AI人事労務SaaS「バクラク人事労務」の先行トライアル開始 — マイナンバーカード画像から個人情報を自動抽出、給与計算利用企業の86.6%が抱える「Excel二重管理」を解消",
+          "summary": "LayerXが<strong>2026</strong>年<strong>8</strong>月<strong>3</strong>日、AI人事労務サービス「<strong>バクラク人事労務</strong>」の先行トライアルを開始したと発表した。申請・承認・従業員マスタへの反映を一気通貫でつなぎ、労務手続きを自動化するSaaSで、給与・勤怠システムを既に導入している企業を主要ターゲットとする。特徴は3つ:(1) <strong>従業員情報の一元管理</strong>を効力発生日ベースのバージョン管理とAI検索で提供、(2) <strong>マイナンバーカードの画像</strong>からAIが氏名・生年月日・住所を自動読み取りして入力を自動化、(3) 確認・承認・マスタ更新・書類作成・電子申請までを単一プラットフォームで処理。同社調査では、給与計算システム利用企業の<strong>86.6%</strong>がExcelでの二重管理・手動CSV突合を継続しており、この「システム間の手作業」を排除するのが狙い。<strong>8</strong>月<strong>21</strong>日には東京で開発者Q&A付きの発表イベントも開催。バクラク経費精算・請求書・法人カードに続くLayerXコンパウンド戦略の1ピースとして展開する。",
+          "sourceName": "バクラク公式",
+          "sourceUrl": "https://bakuraku.jp/news/20260803/",
+          "tags": [
+            "LayerX",
+            "SaaS",
+            "AI"
+          ]
+        },
+        {
+          "position": 5,
+          "title": "GitHub、AIモデル実行基盤「GitHub Models」を2026年7月30日に正式サービス終了 — Playground・モデルカタログ・推論API・BYOKを全停止、移行先はMicrosoft Foundry",
+          "summary": "CodeZineが<strong>2026</strong>年<strong>8</strong>月<strong>3</strong>日、GitHubが同社のAIモデル実行基盤「<strong>GitHub Models</strong>」を<strong>2026</strong>年<strong>7</strong>月<strong>30</strong>日付で正式に終了したと報じた。GitHubは<strong>7</strong>月<strong>1</strong>日にサービス終了を公式ブログで告知しており、既存・新規いずれの利用者も対象。停止対象はPlayground、モデルカタログ、推論API、そして自前APIキーを使う<strong>BYOK(Bring Your Own Key)</strong>機能を含む全機能。GitHubは移行先として、より広いモデルカタログを利用できる「<strong>Microsoft Foundry</strong>」を案内し、GitHub Copilot自体は引き続き複数のAIモデルをサポートしてワークフロー自動化に用いるとしている。GitHub Modelsは各種LLMの試用・比較を1つの環境で行える開発者向け実験基盤として2024年に始まったサービスだった。Web系事業会社での「モデル評価環境をどう社内に持つか」の設計判断において、外部プレイグラウンドに依存する構成の脆さが改めて問われる。",
+          "sourceName": "CodeZine",
+          "sourceUrl": "https://codezine.jp/news/detail/29203",
+          "tags": [
+            "GitHub",
+            "生成AI",
+            "サービス終了"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "DIAMOND HBR最新号「AIを使用すると能力が低く見られる」 — 大手テック企業のエンジニア28,698名調査、AIコーディングツール導入1年後の使用率は41%止まり、女性は31%",
+          "summary": "DIAMOND ハーバード・ビジネス・レビューが2026年9月号で、AIツール導入をめぐる「見え方」の研究論文の日本語版(前田尚子訳)を公開した。世界的大手テック企業のソフトウェアエンジニア<strong>28,698名</strong>を対象とした調査と、<strong>1,026名</strong>を対象とした介入実験の結果、AIコーディングツールを導入して<strong>1年後</strong>でも実際に利用しているのは<strong>41%</strong>にとどまり、女性エンジニアではさらに低い<strong>31%</strong>だった。企業側はインセンティブを設けて使用を促していたにもかかわらず、使わない層が多数残った。研究者たちが突き止めた最大の要因は、ツールの使い勝手や難しさではなく「<strong>AIを使うと同僚から能力が低いと見られるおそれ</strong>」という<strong>社会的認知</strong>だった。組織が期待する「AIで生産性が上がる」という理屈とは別軸で、「他人からどう見えるか」が実際の採用行動を規定してしまう。しかも女性側でこの抑圧が強く効くというジェンダー差まで観測された。Web系志望者がAI活用力をアピールする際にも、「使っていることを可視化する組織文化があるか」を面接で見極める指標として使える。",
+          "sourceName": "DIAMOND ハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14562",
+          "tags": [
+            "HBR",
+            "AI",
+            "社会的認知"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "北海道大学など、気候変動で日本のスキー場が縮小と発表 — 全国349スキー場を積雪シミュレーション、+4℃で安定営業可能は7カ所のみに、+2℃でも53カ所に減少",
+          "summary": "北海道大学メディア・コミュニケーション研究院の吉沢奈保子講師と森林研究・整備機構の勝山雄太研究員らが<strong>2026</strong>年<strong>8</strong>月<strong>3</strong>日、日本の<strong>349</strong>スキー場全ての「気候変動下での存続可能性」を積雪シミュレーションで評価した研究成果を発表した。気候予測データを用いて過去実験(1951〜2011年)、+<strong>2℃</strong>上昇シナリオ(2030〜2091年)、+<strong>4℃</strong>上昇シナリオ(2050〜2111年)の<strong>3</strong>条件で解析。結果、気温+<strong>4℃</strong>のケースでは自然雪だけで<strong>安定営業できるスキー場は全国でわずか7カ所</strong>まで減少、部分的に営業可能なスキー場を含めても<strong>33カ所</strong>にとどまることがわかった。+<strong>2℃</strong>のシナリオでも安定営業可能は<strong>53カ所</strong>、部分営業可能を含めて<strong>108カ所</strong>と、現状の3分の1以下まで縮小する。論文は日本雪氷学会誌「<strong>雪氷</strong>」に掲載。冬季五輪・スキー観光・地方経済といった文化と気候の交点で何が消えていくかを、都道府県別に定量化した一次データとして重要な意味を持つ。",
+          "sourceName": "北海道大学",
+          "sourceUrl": "https://www.hokudai.ac.jp/news/2026/08/47.html",
+          "tags": [
+            "気候変動",
+            "スキー場",
+            "北海道大学"
+          ]
+        }
+      ]
+    }
+  ]
+}
