@@ -1,0 +1,124 @@
+{
+  "date": "2026-08-05",
+  "label": "2026年8月5日 (水)",
+  "intro": "Bending SpoonsがAirtableを13億ドルで買収、Airbnbが150クラスタ13,000ノードのK8s基盤をCiliumへ移行、キーガンが8月号HBRで発達指向型組織を語る。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Airbnb、150以上のKubernetesクラスタ・13,000ノードをAWS VPC CNIからCiliumへ全面移行 — 8カ月をかけ、eBPFで毎秒100Podの起動負荷まで検証",
+          "summary": "翔泳社CodeZineが<strong>2026</strong>年<strong>8</strong>月<strong>4</strong>日に公開したKubeCon+CloudNativeCon Japan 2026 レポートによると、Airbnbのスタッフソフトウェアエンジニア<strong>Yifei Sun</strong>氏が、同社の本番Kubernetes基盤を<strong>150以上</strong>のクラスタ・<strong>13,000</strong>を超えるワーカーノード規模でAWS VPC CNIからeBPFベースの「<strong>Cilium</strong>」へ切り替えた事例を発表した。移行は約<strong>8</strong>カ月に及び、EC2側の負荷を減らすため<strong>Prefix Delegation</strong>を採用してEC2 APIコールを<strong>60%以上</strong>削減した一方、ノード起動時間は約<strong>50%</strong>遅くなるトレードオフも計測された。Ciliumの信頼性検証では毎秒<strong>100</strong>Podのスケジューリング負荷テストを実施。Web事業会社の本番ネットワークをeBPF基盤に寄せる際の設計判断とトレードオフが、実測値付きで公開された。",
+          "sourceName": "CodeZine",
+          "sourceUrl": "https://codezine.jp/article/detail/29186",
+          "tags": [
+            "Kubernetes",
+            "Cilium",
+            "Airbnb"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "Bending Spoons、Airtableを企業価値13億ドルで買収 — ARR約4億8000万ドル・前年比+20%、2021年ピーク評価額110億ドルから約8割減の「SaaSリセット」象徴案件",
+          "summary": "TechCrunchが<strong>2026</strong>年<strong>8</strong>月<strong>4</strong>日、イタリアのソフトウェア企業<strong>Bending Spoons</strong>(Vimeo/WeTransfer/Evernote/Eventbrite等を運営)が、ノーコードSaaSの<strong>Airtable</strong>を企業価値<strong>12.85</strong>億ドル(株式価値約<strong>22.5</strong>億ドル)の全額現金取引で買収する契約を締結したと報じた。Airtableは<strong>2026</strong>年<strong>6</strong>月時点で年間経常収益(ARR)約<strong>4.8</strong>億ドル・前年比<strong>+20%</strong>超で成長しているが、<strong>2021</strong>年ピーク時の一次募集で付いた評価額<strong>110</strong>億ドル超、および今年初のセカンダリー市場で報じられた<strong>40</strong>億ドルから大きく圧縮された値付けとなる。Bending Spoonsは<strong>2026</strong>年<strong>7</strong>月に評価額<strong>180</strong>億ドルでNASDAQへ上場したばかりで、これがIPO後初の買収案件。ノーコードSaaSの代表格が「ピーク評価額の約1割」で買われる構図となり、SaaSマルチプル圧縮の実例として日本のスタートアップ資金調達環境にも波及する。",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/08/04/bending-spoons-to-buy-airtable-for-1-28b/",
+          "tags": [
+            "M&A",
+            "SaaS",
+            "Airtable"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "1Password、SaaS Manager新機能でClaude・ChatGPT・CursorのAI支出をダッシュボード一元管理 — チーム/ユーザー/サービス別に予算設定とアラート",
+          "summary": "Publickeyが<strong>2026</strong>年<strong>8</strong>月<strong>5</strong>日、パスワードマネージャの<strong>1Password</strong>が「<strong>1Password SaaS Manager</strong>」に、組織のAIサービス支出をリアルタイム可視化する新機能を追加したと報じた。Anthropic <strong>Claude</strong>、OpenAI <strong>ChatGPT</strong>、Anysphere <strong>Cursor</strong>を初期対応とし、チーム別・ユーザー別・サービス別の支出をひとつのダッシュボードに集約。予算設定とアラート機能を備え、部門横断で個人課金が乱立するシャドーAI課金を統制する狙い。今後対応サービスは順次拡大予定。生成AIツールが業務標準に組み込まれるほど「誰がどのAIにいくら払っているか」が把握できないという実務課題を、SaaS管理レイヤーで解こうという発想の製品。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/1passwordaiclaudecursorchatgptaii.html",
+          "tags": [
+            "1Password",
+            "生成AI",
+            "SaaS管理"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "Microsoft、AIがトレースログから性能ボトルネックを分析する「Windows Performance Analyzer MCP」を早期プレビュー公開 — GitHub Copilot CLIから自然言語で原因調査",
+          "summary": "Publickeyが<strong>2026</strong>年<strong>8</strong>月<strong>5</strong>日、Microsoftが性能分析ツール「Windows Performance Analyzer」向けのMCP(Model Context Protocol)サーバー「<strong>WPA MCP</strong>」を早期プレビュー版として公開したと報じた。<strong>GitHub Copilot CLI</strong>をクライアントに、開発者はアプリの性能問題を自然言語で問い合わせでき、AIが関連トレースデータを特定して「ボトルネックがCPU処理・ファイルI/O・ネットワークI/Oのいずれにあるか」を分析レポートとして返す。CPU枯渇やメモリ負荷といった代表的な性能指標にプロンプト例が示され、パフォーマンス分析にAIエージェント的アプローチを持ち込む実装として位置付けられる。性能分析ツールに直接LLMを接続するのではなく、MCPサーバー越しに構造化データを渡すアーキテクチャで、AIエージェントが観測系ツールを操作する典型例。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/aiwindows_performance_analyzer_mcpwpa_mcp.html",
+          "tags": [
+            "Microsoft",
+            "MCP",
+            "パフォーマンス"
+          ]
+        },
+        {
+          "position": 5,
+          "title": "npm、2FAバイパス付きグラニュラーアクセストークンの権限操作を一律ブロック — 2027年1月には直接公開機能も削除、GitHubが漏洩トークン悪用を封じる方針",
+          "summary": "翔泳社CodeZineが<strong>2026</strong>年<strong>8</strong>月<strong>4</strong>日、GitHub Blogの<strong>2026</strong>年<strong>7</strong>月<strong>31</strong>日付発表を引用し、npmのグラニュラーアクセストークン(<strong>GAT</strong>)で2FAバイパス設定がある場合、アカウント・組織・パッケージ管理系の操作が実行不可になったと報じた。対象はトークン作成/削除、パッケージ権限変更、組織メンバーシップ管理など。漏洩トークンによる「アカウント乗っ取り、不正なトークン生成、管理者追加」といった連鎖リスクを断つのが目的で、GitHubは<strong>2027</strong>年<strong>1</strong>月を目標に、2FAバイパストークンによるパッケージ直接公開機能も廃止する予定。個人アクセストークンなど他形式のトークンには影響しない。OSSサプライチェーン攻撃対策として、npm発行体側が2FAを「例外なし」に近づけていく動き。",
+          "sourceName": "CodeZine",
+          "sourceUrl": "https://codezine.jp/news/detail/29215",
+          "tags": [
+            "npm",
+            "セキュリティ",
+            "2FA"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "ロバート・キーガン、DHBR 2026年8月号で「発達指向型組織(DDO)」を語る — 発達は25歳で止まらない、強いチームほど互いの弱さをさらけ出す",
+          "summary": "DIAMOND ハーバード・ビジネス・レビュー<strong>2026</strong>年<strong>8</strong>月号(特集「強いチームをつくる」)は、成人発達理論の第一人者<strong>ロバート・キーガン</strong>(ハーバード大学教育学大学院名誉教授)のインタビュー「全員が成長できる組織のつくり方」を掲載した。キーガンは「人の発達は人生最初の<strong>25</strong>年で終わらず、大人も継続的に成長できる」という前提のもと、社員の成長を組織運営の中心に据える「<strong>発達指向型組織(DDO: Deliberately Developmental Organization)</strong>」を提唱。強いチームほどメンバーが自分の弱点をさらけ出し、率直なフィードバックを通じて個人と組織の成長につなげる。バーンアウト防止や組織全体の課題対応能力の向上にも効くと語る。『なぜ人と組織は変われないのか』(免疫マップ)以降の議論の延長で、AI時代に「大人の発達を止めない組織設計」をどう作るかを扱う。",
+          "sourceName": "DIAMOND ハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14366",
+          "tags": [
+            "キーガン",
+            "成人発達理論",
+            "HBR"
+          ]
+        },
+        {
+          "position": 7,
+          "title": "HBR2026年8月号「なぜ従業員は生成AIにこれほど脅威を感じるのか」 — 自己決定理論の「有能性・自律性・関係性」を満たさないAI導入は人を萎縮させる",
+          "summary": "DIAMOND ハーバード・ビジネス・レビュー<strong>2026</strong>年<strong>8</strong>月号に、<strong>エリック・ヘルマン</strong>(ヴィアドリナ欧州大学)、<strong>ステファノ・プントーニ</strong>(ペンシルバニア大学ウォートン校)、<strong>ケアリー K. モアウェッジ</strong>(ボストン大学クエストロム校)による共同論考が掲載された。3氏は、従業員が生成AIに脅威を感じる根底には自己決定理論の<strong>3</strong>つの心理的欲求 -- (1)<strong>有能性</strong>(影響力や能力があるという感覚)、(2)<strong>自律性</strong>(自分の行動を自分で制御している感覚)、(3)<strong>関係性</strong>(他者と有意義に繋がっている感覚) -- が損なわれる感覚があると分析。この<strong>3</strong>欲求が満たされる導入設計であれば従業員はAIを便利なツールとして受容し、そうでなければ利用を躊躇するため、リーダーはツール導入と同時にチェンジマネジメント戦略と正式なトレーニング機会を用意する必要があると論じる。自己決定理論(SDT)を生成AI受容の文脈に持ち込んだ整理。",
+          "sourceName": "DIAMOND ハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14360",
+          "tags": [
+            "HBR",
+            "生成AI",
+            "自己決定理論"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 8,
+          "title": "理研ら、腸細胞は「栄養素の質」ではなく「量」を細胞質流動性で感じ取っていると発見 — ショウジョウバエ実験、アミノ酸29.6mMでエレボーシス多発・592mMで抑制",
+          "summary": "理化学研究所・関西学院大学・科学技術振興機構の共同チームが<strong>2026</strong>年<strong>8</strong>月<strong>4</strong>日、ショウジョウバエの腸細胞が栄養素の<strong>種類</strong>ではなく<strong>総量</strong>を細胞質の流動性を通じて感知する新機構を発見したと発表した(『米国科学アカデミー紀要』<strong>PNAS</strong>掲載)。実験では、低アミノ酸(<strong>29.6</strong>mM)条件で細胞質流動性が上昇し、腸細胞の新型細胞死「<strong>エレボーシス</strong>」が高頻度で観察された一方、高アミノ酸(<strong>592</strong>mM)条件では流動性が低下し細胞死が抑制。ブドウ糖量の変化は影響を与えなかった。つまり腸細胞は「何を食べたか」より「どのくらい食べたか」に細胞質の物理状態で反応している構図で、ヒトを含めた動物の食餌ベース恒常性維持機構の理解につながる可能性があるとされる。栄養素センシングを「化学的シグナル」ではなく「物理的な流動性」で捉える視点が特徴。",
+          "sourceName": "理化学研究所",
+          "sourceUrl": "https://www.riken.jp/press/2026/20260804_2/index.html",
+          "tags": [
+            "生命科学",
+            "腸",
+            "理研"
+          ]
+        }
+      ]
+    }
+  ]
+}
