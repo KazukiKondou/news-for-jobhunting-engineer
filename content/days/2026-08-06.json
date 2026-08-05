@@ -1,0 +1,112 @@
+{
+  "date": "2026-08-06",
+  "label": "2026年8月6日 (木)",
+  "intro": "npm互換の新パッケージマネージャvlt 1.0がクリーンインストール38%高速化で登場、MetaはParallel Sub-agentのコーディングエージェント「Muse Code」を投入、Jeff Deanら4名がGoogleを離れ科学研究AIスタートアップDiscovery Loopを起業。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "npm互換のセキュリティファースト新パッケージマネージャ「vlt」バージョン1.0が到達 — クリーンインストールが約38%高速、OSVで既知の悪性パッケージ27万5000超を除外",
+          "summary": "Publickeyが<strong>2026</strong>年<strong>8</strong>月<strong>6</strong>日、vlt technology(元npm CEO <strong>Darcy Clarke</strong>氏らが設立)が同社のパッケージマネージャ「<strong>vlt</strong>」の<strong>バージョン1.0</strong>を正式リリースしたと報じた。vltはnpmの完全なdrop-in互換で、既存の<code>package.json</code>のまま乗り換えられる一方、クリーンインストールの実測でnpmより<strong>約38%高速</strong>と紹介されている。設計の中心はセキュリティで、OSV脆弱性データベースを参照して既知のマルウェアや悪性パッケージを事前排除する仕組みを持ち、あわせて発表された「<strong>vltレジストリ</strong>」はミラーとして<strong>27万5000</strong>を超える悪性パッケージを取り除いた状態で公開される。プライベートレジストリは<strong>2GB</strong>まで無料、超過分は従量課金となり、npm/yarn/pnpm/bun/denoの各クライアントから利用可能。従来「本当は変えたいが移行が重い」と言われてきたnpm回りのサプライチェーンリスクに、互換パスで一度に殴り込む位置付けの1.0となる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/npmvlt10npm.html",
+          "tags": [
+            "npm",
+            "vlt",
+            "サプライチェーン"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "Meta、大規模コードベース向けターミナル型AIコーディングエージェント「Muse Code」をベータ公開 — Muse Sparkベース、複雑タスクではサブエージェントを並列生成して独立ワークツリーで作業",
+          "summary": "TechCrunchが<strong>2026</strong>年<strong>8</strong>月<strong>5</strong>日、Metaが自社のコード生成モデル「Muse Spark」を使ったターミナル型コーディングエージェント「<strong>Muse Code</strong>」をベータ公開したと報じた。CEO<strong>Mark Zuckerberg</strong>氏は「大規模リポジトリ全体で変更計画・コード実装・検証まで一貫してこなせる」と紹介。難易度の高いタスクでは複数のサブエージェントを並列生成し、それぞれ独立した<code>git worktree</code>上で作業させて開発者の作業コピーには手を入れない設計で、テストでは<strong>6</strong>つのゲーム機能を同時並行で衝突なく実装できたとされる。Meta AI責任者の<strong>Alexandr Wang</strong>氏は「特にコスト面で非常に強い選択肢になり得る」と、OpenAI Codex/Anthropic Claude Codeとの対比を明言。単一コマンドでインストール可能。Metaが広告ビジネス以外に生成AIプロダクトの版図を広げる動きの延長で、Web事業会社の開発現場で「コーディングエージェントを何本試すか」の選択肢がまた1本増えたことになる。",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/",
+          "tags": [
+            "Meta",
+            "コーディングエージェント",
+            "生成AI"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "GitHub Copilot、エンタープライズ向けにチーム単位の設定カスタマイズを追加 — 管理者が「overridable」でマークした項目のみチーム側で上書き可、team-mappings.jsonで一元管理",
+          "summary": "翔泳社CodeZineが<strong>2026</strong>年<strong>8</strong>月<strong>5</strong>日、GitHubがCopilotエンタープライズ設定に「チーム単位のカスタマイズ」機能を追加したと報じた(GitHub Blog <strong>2026</strong>年<strong>8</strong>月<strong>3</strong>日発表)。従来は組織一括だったCopilot設定を、管理者が「<strong>overridable</strong>」キーで許可した項目に限り各チームで個別に上書きできる。上書き可能な代表例は「<strong>disableBypassPermissionsMode</strong>」やチームで使うベースモデル(<strong>model</strong>)などで、逆にoverridable指定を外した項目は組織のポリシーとして厳格に固定される。プラグインやMarketplace拡張機能もチーム単位で有効化でき、設定は<code>team-mappings.json</code>で一元管理される。VS Code / Copilot CLI / Copilot Appで対応が進行中。Web事業会社のように「Backend/Mobile/SREでツール事情が違うがガバナンスは共通」という組織で、Copilot導入時の交渉ポイントが「全社一律 vs チーム最適化」から「厳格ポリシー×チーム余白」の設計論に変わる話。",
+          "sourceName": "CodeZine",
+          "sourceUrl": "https://codezine.jp/news/detail/29234",
+          "tags": [
+            "GitHub Copilot",
+            "エンタープライズ",
+            "ガバナンス"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "モビリティフィンテックMoove、シリーズCで2.5億ドル調達・評価額21億ドル — Waymo向け車両運用の裏方として、Phoenix/Miami/Las Vegas/Londonのロボタクシー基盤を担う",
+          "summary": "TechCrunchが<strong>2026</strong>年<strong>8</strong>月<strong>5</strong>日、ドバイ拠点のモビリティフィンテック<strong>Moove</strong>が<strong>2.5億ドル</strong>のシリーズCを企業価値<strong>21億ドル</strong>で調達したと報じた。リードはMubadala Investment Company、コリードにWoven CapitalとIon Pacific。BlackRock、MUFG、Franklin Templeton、Uberなども参加した。Mooveは<strong>2020</strong>年設立、ライドシェア運転手向けの車両ファイナンスを本業とし、現在<strong>14カ国</strong>で<strong>4万2000台</strong>の人ドライブ配車車両を運用、社員<strong>3300</strong>名。<strong>2023</strong>年初頭からロボタクシー領域に参入し、Waymoの車両運用を<strong>Phoenix・Miami・Las Vegas</strong>、および今後の<strong>London</strong>で担う「フリートオペレータ」として位置取り。今回の資金でAV管理体制を約<strong>350名</strong>採用して増強し、ロボタクシー用の自動整備・充電拠点「Nests」も拡張(現在<strong>15拠点</strong>が開発中)。「AV会社は自ら車両を持ちたがらない」という業界構造を突く、Web/モバイル志望の学生からも読みやすいB2Bインフラ側の伸び方の実例。",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/08/05/moove-raises-250m-to-become-the-backbone-of-the-robotaxi-industry/",
+          "tags": [
+            "資金調達",
+            "モビリティ",
+            "ロボタクシー"
+          ]
+        },
+        {
+          "position": 5,
+          "title": "Jeff Dean氏がGoogle退社、AI科学研究スタートアップ「Discovery Loop」を起業 — Sanjay Ghemawat/Quoc Le/Oriol Vinyals氏が合流、Alphabetも出資参加",
+          "summary": "TechCrunchが<strong>2026</strong>年<strong>8</strong>月<strong>5</strong>日、Google第<strong>30</strong>号社員で<strong>27</strong>年間検索・分散基盤・マルチモーダルAIを牽引してきた<strong>Jeff Dean</strong>氏が同社を離れ、AIによる科学研究の加速を掲げるパブリック・ベネフィット・コーポレーション「<strong>Discovery Loop</strong>」をCEOとして立ち上げたと報じた。共同創業組には、シニアフェローの<strong>Sanjay Ghemawat</strong>氏、Google Brain設立メンバー<strong>Quoc Le</strong>氏、DeepMindシニア研究者<strong>Oriol Vinyals</strong>氏の<strong>4名</strong>体制。「高オクタン価のアルゴリズムで数千の実験を同時に立ち上げ、反復させる」ことで実験数と質を同時に押し上げる方針で、AI自身を改良するリカーシブ・セルフ・インプルーブメントも探索領域に含む。シリーズはRadical VenturesとKhosla Venturesのコリードで、Kleiner Perkins/Lightspeed/Doerr Capital、そして<strong>Alphabet</strong>本体も出資者に名を連ねる。Google側からの反発報道はなく、大企業を出た大物研究者チームがAI×科学で独立するという「キャリアの型」が改めて示された事例。",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/",
+          "tags": [
+            "Jeff Dean",
+            "AI",
+            "スタートアップ"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "Dress Code馬場千春氏、AIを鵜呑みにしないPdM思考法を8/25 ProductZine Day 2026で公開 — 「どうすればいい？」ではなく「その根拠、どこにある？」「間違ったら何が起きる？」で解像度を上げる",
+          "summary": "翔泳社CodeZineが<strong>2026</strong>年<strong>8</strong>月<strong>5</strong>日、Dress Code株式会社の<strong>馬場千春</strong>氏(プロダクトマネージャ、元エムスリー/リクルート)が<strong>8</strong>月<strong>25</strong>日開催の「ProductZine Day 2026」で登壇し、「AI時代に必要なPdMの思考法」を公開すると報じた。専門外の判断を強いられがちなPdMがAIに「答え」を投げると、もっともらしい正論に振り回されて意思決定の質が下がる、というのが問題設定。処方箋は<strong>3</strong>つで、(1)「どうすればいい？」と答えを聞かない、(2)「その根拠、どこにある？」と一次情報の位置を問う、(3)「間違ったら何が起きる？」と決定の副作用を先に想像する。この<strong>3</strong>問はPdMに限らず、AIに調べもの・要約・比較検討をさせる全てのビジネスサイドに転用できる思考ハックで、AI時代における「必要な分だけ理解する解像度」の実装例として整理されている。技術ではなく「AIの前で人が保持すべき問いの型」を扱う内容。",
+          "sourceName": "CodeZine",
+          "sourceUrl": "https://codezine.jp/news/detail/29241",
+          "tags": [
+            "PdM",
+            "生成AI",
+            "思考法"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "東北大ら国際チーム、光子ビームで「反Kメソンを含む原子核」の観測に世界初成功 — SPring-8のLEPS2で重陽子と衝突、中性子星内部の高密度核物質の理解に前進",
+          "summary": "東北大学大学院理学研究科などが参加する<strong>LEPS2/Solenoidコラボレーション</strong>は<strong>2026</strong>年<strong>8</strong>月<strong>5</strong>日、大型放射光施設<strong>SPring-8</strong>のLEPS2ビームラインで、光子ビーム(レーザー電子光)を重陽子に当てることで「<strong>反Kメソン</strong>が陽子と中性子を強く結び付けた原子核」の観測に世界で初めて成功したと発表した。反Kメソンは強い引力で核子を結び付ける「糊」として働き、生成された原子核の運動量分布から、通常の原子核より核子がぎゅっと引き寄せられた状態にあることが示唆された。共同研究機関は大阪大学・京都産業大学・岐阜大学ほか国内外の複数機関。中性子星の内部は、通常の原子核をはるかに超える高密度の核物質でできていると考えられているが、その状態方程式は今も未解明。今回の観測は「重い中性子星が壊れずに存在できる仕組み」の解明につながる基礎データを提供する。IT一色の日々に、宇宙のいちばん硬い部分の話を1本挟むための素材。",
+          "sourceName": "東北大学大学院理学研究科",
+          "sourceUrl": "https://www.sci.tohoku.ac.jp/news/20260805-14579.html",
+          "tags": [
+            "物理",
+            "中性子星",
+            "SPring-8"
+          ]
+        }
+      ]
+    }
+  ]
+}
