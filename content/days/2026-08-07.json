@@ -1,0 +1,112 @@
+{
+  "date": "2026-08-07",
+  "label": "2026年8月7日 (金)",
+  "intro": "xAIが本日Grok 4.6を公開、Sakana AIは同週に日本語特化LLM「Namazu」APIを始動、AMDのQ2データセンター収益が前年比107%増の67億ドルで過去最高、EU AI法の透明性義務が8月2日から施行。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "xAI、Grok 4.6を本日リリース — 1.5兆パラメータV9基盤を引き継ぎSFT・RL後処理を強化、Claude Opus 4.8やKimi K3と正面対決へ",
+          "summary": "kie.aiが<strong>2026</strong>年<strong>8</strong>月<strong>7</strong>日、<strong>xAI</strong>が同日「<strong>Grok 4.6</strong>」を正式公開したと報じた。Grok 4.5と同じ<strong>1.5</strong>兆パラメータのV9基盤を踏襲しつつ、SFT(教師あり微調整)とRL(強化学習)の後処理を全面的に見直すことで推論品質を引き上げた。比較対象として名指しされているのは<strong>Claude Opus 4.8</strong>と約<strong>2.8</strong>兆パラメータのKimi K3で、重量級モデルとの直接対決を意識した位置づけ。次世代の<strong>Grok 4.7</strong>(2.1兆パラメータ)は数週間後のリリースが予告されており、同社のモデル更新サイクルの短期化が続いていることも示された。xAIは<strong>2025</strong>年にスーパーコンピュータ「Colossus」を稼働させており、今回の高速リリースはその計算資源を活かしたものと見られる。ロールモデルとしては「大手テックの中に入りたい」学生より「AIインフラに直接触れたい」人材を引き寄せる実験場として注目される。",
+          "sourceName": "kie.ai",
+          "sourceUrl": "https://kie.ai/blog/what-is-grok-4-6",
+          "tags": [
+            "AI",
+            "LLM",
+            "xAI"
+          ]
+        },
+        {
+          "position": 2,
+          "title": "Sakana AI、日本語特化LLM「Namazu」のAPIを今週始動 — OpenAI互換、入力$0.95/Mトークン・出力$4/M、自律的なWeb検索とコード実行に対応",
+          "summary": "gihyo.jpが<strong>2026</strong>年<strong>8</strong>月<strong>3</strong>日、東京拠点のAIスタートアップ<strong>Sakana AI</strong>が日本語特化LLM「<strong>Namazu(ナマズ)</strong>」のAPIを公開したと報じた。OpenAI互換エンドポイントを採用しており、既存のSDKやクライアントをほぼ変更なく流用できる。料金は入力トークン<strong>$0.95</strong>/百万・出力<strong>$4</strong>/百万で初期費用・月額固定費なしの従量制。モデルは自律的なWeb検索とコード実行を内包しており、プログラミング補助や日本語ドキュメント生成に強みを持つとされる。なお、GDPR等の法規制を踏まえ<strong>EU・EEA・英国・スイス</strong>からの利用は現時点で対象外。Sakana AIは2023年設立で研究者のDavid Ha氏らが率いており、「進化的アルゴリズムでモデルを合成する」アプローチで知られるが、今回はプロダクト側の一手を打った形となる。日本語ビジネス文書・技術ドキュメントを扱うWeb事業会社での採用検討余地がある。",
+          "sourceName": "gihyo.jp",
+          "sourceUrl": "https://gihyo.jp/article/2026/08/sakana-namazu",
+          "tags": [
+            "Sakana AI",
+            "日本語LLM",
+            "API"
+          ]
+        },
+        {
+          "position": 3,
+          "title": "Microsoft、Windows Performance Analyzer MCPをプレビュー公開 — ETWトレースログをGitHub Copilot CLIで自然言語解析、CPU・I/Oのボトルネックをローカル処理で特定",
+          "summary": "ITmedia NEWSが<strong>2026</strong>年<strong>8</strong>月<strong>6</strong>日、Microsoftが「<strong>Windows Performance Analyzer MCP</strong>」のプレビューを公開したと報じた(リリースは<strong>7</strong>月<strong>30</strong>日)。Windows標準の<strong>ETW</strong>(Event Tracing for Windows)が生成するトレースログ(.etlファイル)を、GitHub Copilot CLIから自然言語で問い合わせられるようにするMCPサーバーで、CPU負荷・ファイルI/O・ネットワークI/Oのボトルネック箇所を自動的に洗い出す。内部処理エンジンには<code>TraceProcessor</code>を使い、トレースデータはクラウドに送信せずローカルで完結するため、社内向けアプリやゲームのプロファイリングにも適用しやすい。MCP(Model Context Protocol)ベースのため、将来的にCopilot以外のAIエージェントからも呼び出せる拡張性を持つ。WindowsアプリやゲームのパフォーマンスチューニングはCopilotで自動化する方向へ進んでおり、デバッグ経験の在り方が変わりつつある局面として理解できる。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2608/06/2000000434/",
+          "tags": [
+            "Microsoft",
+            "MCP",
+            "デバッグ"
+          ]
+        },
+        {
+          "position": 4,
+          "title": "EU AI法の透明性義務が8月2日から施行 — チャットボット開示・AI生成コンテンツのマーキング・ディープフェイクラベル付けが法的義務に、違反は最大€1500万または全世界売上の3%",
+          "summary": "Help Net Securityが<strong>2026</strong>年<strong>8</strong>月<strong>4</strong>日、EU AI法第<strong>50</strong>条の透明性義務が<strong>8</strong>月<strong>2</strong>日から正式施行されたと報じた。義務の柱は<strong>3</strong>つで、(1)チャットボットなどAIシステムと人間が対話する際の明示開示、(2)AI生成コンテンツへの機械可読マーキング、(3)ディープフェイクや合成コンテンツへのラベル付け。欧州委員会の執行ツールキットも同日から稼働している。一方、医療・採用・信用審査などに課せられる「高リスクAI」向けの義務はAI Omnibus指令の調整を経て<strong>2027</strong>年<strong>12</strong>月<strong>2</strong>日への延期が決まった。ペナルティは最大<strong>€1500万</strong>または全世界年間売上の<strong>3</strong>%。グローバルにサービス展開するWeb事業会社にとって、EU圏ユーザーへのチャット機能や生成AIコンテンツ配信フローの見直しが直近の法務タスクとして浮上する。",
+          "sourceName": "Help Net Security",
+          "sourceUrl": "https://www.helpnetsecurity.com/2026/08/04/eu-ai-act-enforcement-ai-models/",
+          "tags": [
+            "EU AI Act",
+            "規制",
+            "コンプライアンス"
+          ]
+        },
+        {
+          "position": 5,
+          "title": "AMD、Q2 2026売上高$115億で過去最高・データセンター部門が前年比107%増の$67億 — Instinct GPUとEPYCが牽引、Q3ガイダンスは$127〜133億で+41%成長見込み",
+          "summary": "Quartzが<strong>2026</strong>年<strong>8</strong>月<strong>4</strong>日、AMDがQ2 <strong>2026</strong>決算で売上高<strong>$115</strong>億(前年比<strong>+50</strong>%)・過去最高を更新したと報じた。なかでも注目はデータセンター部門で、売上<strong>$67</strong>億(前年比<strong>+107</strong>%)は全売上の<strong>58</strong>%を占め、AI向けInstinct GPUとサーバーCPU EPYCの需要が主因と説明された。非GAAP EPSは<strong>$1.66</strong>。ただし時間外株価は<strong>$472.20</strong>と<strong>8.94</strong>%下落しており、市場はすでに高水準の業績を織り込んでいた格好となる。Q3ガイダンスは<strong>$127〜133</strong>億(前年比<strong>+41</strong>%)で力強い見通しを維持。NVIDIAのH100/H200需要に続く形でAMD Instinctを採用するクラウドプロバイダが増えており、「AI半導体市場はNVIDIA一強からの分散が始まっている」という議論に実績数字が加わった決算となる。インフラ・クラウド領域への就職を検討する上でのバックグラウンドとして押さえておきたい。",
+          "sourceName": "Quartz",
+          "sourceUrl": "https://qz.com/amd-record-revenue-data-center-earnings-q2-2026-080426",
+          "tags": [
+            "AMD",
+            "データセンター",
+            "AI半導体"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "AIをたった10分使うだけで思考力・粘り強さが低下 — カーネギーメロン大ら4機関の実験、正答率が非AI群より20%低下し問題スキップが約2倍に",
+          "summary": "日経クロステックが、カーネギーメロン大学・MIT・オックスフォード大学・UCLAの研究者<strong>4</strong>機関が共同で実施した認知実験を報じた。参加者をAI使用群と非使用群に分けて問題を解かせ、その後AI使用群からツールを取り上げたところ、正答率が非AI群より<strong>20</strong>%低く、問題をスキップする頻度が約<strong>2</strong>倍になった。AI使用中は高いスコアを記録した群が、ツールを失った途端に顕著に落ち込む結果は「AIが補助ではなく代替として使われると、使う側の思考ループが育ちにくい」という懸念を裏付ける。研究では<strong>10</strong>分というごく短い使用時間でも効果が現れた点が強調されており、慢性的な依存状態でなくても即座に影響が出ることが示された。就職活動でもESや面接対策にAIを多用するケースが増えているが、「AIなしで考える時間を意図的に作る」習慣の重要性を改めて問い直す内容。",
+          "sourceName": "日経クロステック",
+          "sourceUrl": "https://xtech.nikkei.com/atcl/nxt/column/18/03673/072700005/?ST=singleview",
+          "tags": [
+            "認知科学",
+            "AI",
+            "思考力"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "2026年のペルセウス座流星群は8月13日の極大と新月が重なり観測好条件 — 暗い空で1時間35個超、12日夜〜13日早朝が見頃",
+          "summary": "ナショナルジオグラフィック日本版が<strong>2026</strong>年<strong>8</strong>月<strong>3</strong>日、今年の<strong>ペルセウス座流星群</strong>は<strong>8</strong>月<strong>13</strong>日午前<strong>11</strong>時頃(JST)に極大を迎え、同日が<strong>新月</strong>にあたるため月明かりの影響がほぼゼロになると伝えた。暗い観測地では<strong>1</strong>時間に<strong>35</strong>個超、理想的な条件なら<strong>100</strong>個以上の流星が見込まれるという。見頃は<strong>12</strong>日夜〜<strong>13</strong>日早朝で、ペルセウス座が高く上る深夜<strong>0</strong>時以降が特にチャンス。ペルセウス座流星群はしぶんぎ座・ふたご座とともに「<strong>三大流星群</strong>」に数えられ、毎年コンスタントに出現数が多い。今年は新月との重なりという好条件が揃い、記事は「数年に一度の観測機会」と表現している。就活の夏、デジタルから離れて空を見上げる時間の提案として。",
+          "sourceName": "ナショナルジオグラフィック日本版",
+          "sourceUrl": "https://natgeo.nikkeibp.co.jp/atcl/news/26/080300429/",
+          "tags": [
+            "天文",
+            "流星群",
+            "自然"
+          ]
+        }
+      ]
+    }
+  ]
+}
