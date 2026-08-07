@@ -1,0 +1,84 @@
+{
+  "date": "2026-08-08",
+  "label": "2026年8月8日 (土)",
+  "intro": "HashiCorp共同創業者ミッチェル・ハシモトがSuperlogicalを設立してサーバーサイドのターミナルマルチプレクサ開発へ、npmクリエーターらのvlt v1.0が登場しクリーンインストールで38%高速化。ワークマンは生成AIで商品画像を生成してプッシュ通知開封率1.5倍を達成、東北大学らは安価な青色顔料を触媒にCO₂をメタン燃料へファラデー効率80%で変換する技術を発表した。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "ファインディ、学生エンジニア向け「Findy Student」β版を提供開始 — GitHubアクティビティを月次カードで可視化し技術イベント参加もワンストップ",
+          "summary": "ファインディが<strong>2026</strong>年<strong>8</strong>月<strong>6</strong>日、エンジニアを目指す学生向けの新サービス「<strong>Findy Student</strong>」のβ版を提供開始した。GitHubアカウントを連携すると、公開リポジトリでの活動をもとに「コミット通信簿」が毎月自動生成され、学生は自身の開発活動を1枚のカードとして把握・シェアできる。個人開発やチーム開発でどれだけ手を動かしてきたかが毎月の記録として積み上がり、現在地を把握しながら自己研鑽を続けられる仕組みを提供する。技術イベントやハッカソンなどへの参加も同サービスから可能で、就活準備と実績の可視化を一体で進められる設計となっている。",
+          "sourceName": "PR TIMES（ファインディ株式会社）",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000256.000045379.html",
+          "tags": ["採用", "就活ツール", "学生エンジニア"]
+        },
+        {
+          "position": 2,
+          "title": "HashiCorp共同創業者ミッチェル・ハシモトが新会社Superlogicalを設立 — 「あらゆる仕事のマルチプレクサ」を掲げ、サーバーサイドのターミナルマルチプレクサからスタート",
+          "summary": "HashiCorp共同創業者でターミナルエミュレータGhosttyの作者として知られるミッチェル・ハシモトが、<strong>2026</strong>年<strong>7</strong>月末に新会社「<strong>Superlogical</strong>」の設立を発表した。最初のプロダクトはサーバーサイドのターミナルマルチプレクサで、セッションがサーバー上に維持されるためデバイスを変えてもその場から作業を再開できる。Web・ネイティブmacOS・iOSアプリからアクセス可能で、ライブセッション共有も標準搭載。レンダリングエンジンにはGhosttyから分離したGPUアクセラレーションライブラリlibghosttyを採用する。Jack PearkesMらが共同創業者で、Notable CapitalとAmplify Partnersが出資。Patrick CollisonやTobias Lütke、HashiCorp共同創業者Armon Dadgarらもエンジェルとして名を連ねる。将来的には人間の作業とAIエージェントを統合する「あらゆる仕事のマルチプレクサ」を目指すと表明している。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/superlogical.html",
+          "tags": ["スタートアップ", "技術トレンド", "ターミナル"]
+        },
+        {
+          "position": 3,
+          "title": "npmクリエーターらのセキュリティファーストなパッケージマネージャ「vlt」がv1.0到達 — クリーンインストールでnpm比最大38%高速、マルウェアブロックを第一級機能に",
+          "summary": "npmの作者Isaac Schlueterらが設立したvltが<strong>2026</strong>年<strong>8</strong>月にv<strong>1.0</strong>とホストレジストリ（npmミラー・プライベートレジストリ）の提供を開始した。npmと同等のコマンド体系で動作するドロップイン代替品で、クリーンインストール時はnpmより最大<strong>38</strong>%高速。セキュリティを最優先設計とし、<strong>60</strong>超のグラフネイティブ疑似セレクター（うち約<strong>30</strong>件がセキュリティ系、:malware・:cve・:unmaintained・:evalなど）を搭載する。公開済みのマルウェアフィードや脆弱性DBを取り込んで既知の不正パッケージをブロックする仕組みを第一級機能として組み込んでいる。npm・pnpm・yarn・bun・denoの各ツールからvltのホストレジストリへの公開・インストールも後方互換で対応する。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/npmvlt10npm.html",
+          "tags": ["技術トレンド", "JavaScript", "セキュリティ"]
+        },
+        {
+          "position": 4,
+          "title": "ワークマン、画像生成AIで商品撮影を代替 — Gemini 2.5 Flash ImageとVeoを活用、AI生成画像のプッシュ通知は開封率が物撮り比で約1.5倍",
+          "summary": "ワークマンがGoogle Cloudの画像生成AI「<strong>Gemini 2.5 Flash Image（NanoBanana）</strong>」と動画生成AI「<strong>Veo</strong>」を商品撮影に活用していたことが、ITmedia NEWSの<strong>2026</strong>年<strong>8</strong>月<strong>6</strong>日の報道で明らかになった。全国<strong>1,000</strong>店舗以上を<strong>500</strong>人以下の社員で支える同社では商品コンテンツ制作の負担が課題となっており、ECサイトの物撮り画像をAIで補完・生成する運用を導入した。とくにAI生成画像を使ったプッシュ通知は、物撮り画像を使う場合に比べて開封率が約<strong>1.5</strong>倍高いという成果が出ている。小売・EC領域でのGoogle Cloud生成AI活用事例として、導入コストと効果を具体的な数値で示した内容となっている。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2608/06/2000000370/",
+          "tags": ["技術トレンド", "生成AI", "EC"]
+        },
+        {
+          "position": 5,
+          "title": "Tokio開発元がRust製フルスタックWebフレームワーク「Topcoat」を公開 — サーバーサイドのRustコードをそのままブラウザ側にも適用、WASMバンドル不要",
+          "summary": "非同期ランタイムTokioの開発組織tokio-rsが、Rustのフルスタックウェブフレームワーク「<strong>Topcoat</strong>」を<strong>2026</strong>年<strong>8</strong>月に公開した。「The full full-stack framework for Rust」を謳い、MITライセンスで提供される。マークアップはすべてサーバーサイドでレンダリングされる一方、ドル構文で記述した式はRustとして型チェックされた上でJavaScriptにも変換され、ブラウザ上で再実行される仕組みを採用している。WASMバンドルもクライアント側のビルドプロセスも不要で、ビュー・テンプレート、モジュール式ルーティング、コンテンツハッシュアセット配信、Tailwind統合を標準搭載する。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/rustwebtopcoattokio.html",
+          "tags": ["技術トレンド", "Rust", "Web"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "「学ぶほど考える力がつく」は勘違い — 科学の歴史が示す、思考力の本質は「考えなくて済む領域を増やすこと」",
+          "summary": "東洋経済オンラインで哲学者・吉田幸司が、「学べば学ぶほど考える力がつく」という通念を問い直した。学問と科学の歴史をたどると、その営みの多くは「考えなくて済む」状態を生み出すためのものだったという逆説を論じている。天動説から地動説へのコペルニクス的転換を例に挙げ、惑星の複雑な軌道計算を必要としていた従来の理論が、より単純な宇宙モデルによって一掃された構造がそれにあたると指摘する。同氏の著書「考えない哲学：思考の終わり、行動の始まり」（東洋経済新報社、<strong>2026</strong>年<strong>7</strong>月刊）に基づく内容で、「何を考えるべきか」と「何は考えなくてよいか」を峻別する知性の整理術を説く。「考えること自体が価値」という前提を問い直し、人が思考から解放されて初めて別次元の認識が開けるという逆説的な立場を取る。",
+          "sourceName": "東洋経済オンライン",
+          "sourceUrl": "https://toyokeizai.net/articles/-/952515",
+          "tags": ["思考力", "哲学", "認知科学"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "安価な青色顔料でCO₂をメタン燃料に変換 — 東北大学らがファラデー効率80%・耐久80時間を達成し学術誌Smallに掲載",
+          "summary": "東北大学材料科学高等研究所・北海道大学・AZUL Energy株式会社の共同研究グループが<strong>2026</strong>年<strong>8</strong>月、安価な青色顔料「銅フタロシアニン」を電極触媒として用い、CO₂を電気化学的にガス燃料のメタンへ高選択的に変換する手法を開発したと発表した。最大約<strong>80</strong>%のファラデー効率と約<strong>80</strong>時間の耐久性を達成しており、従来困難とされていたCO₂からメタンへのワンステップ再燃料化技術の実現に道を開く成果として学術誌『<strong>Small</strong>』に掲載された。銅フタロシアニンはプラスチックや塗料に広く使われる日常的な青色染料で、低コストで製造できる点が特徴。カーボンニュートラル実現に向けた二酸化炭素の再利用技術として、排出したCO₂をそのまま燃料に転換するワンステップ手法の実用化を目指す研究が各国で進んでいる。",
+          "sourceName": "東北大学プレスリリース",
+          "sourceUrl": "https://www.tohoku.ac.jp/japanese/2026/08/press20260804-03-co2.html",
+          "tags": ["科学", "環境", "エネルギー"]
+        }
+      ]
+    }
+  ]
+}
