@@ -1,0 +1,84 @@
+{
+  "date": "2026-08-09",
+  "label": "2026年8月9日 (日)",
+  "intro": "AWSがAnthropicとOpenAIと連携しClaude Codeなどへコード脆弱性スキャンを統合、ガートナーがAIエージェントを「過度な期待のピーク」に位置付けるハイプサイクルを発表。リクルートが2026年度新卒エンジニア向け研修資料<strong>13</strong>本を公開し、CMUら複数大学の実験ではAIを<strong>10</strong>分使うだけで自力解決能力が低下することが示された。SPring-8で光子ビームによる反Kメソン原子核の世界初観測も報告された。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "リクルート、2026年度新卒エンジニア研修資料13本を公開 — 「ソフトウェアエンジニア人生サバイバルガイド」などAI時代の生き残り方も収録",
+          "summary": "リクルートが<strong>2026</strong>年<strong>8</strong>月<strong>6</strong>日、2026年度の新卒エンジニア向け研修資料<strong>13</strong>本を公開した。「ソフトウェアエンジニア人生サバイバルガイド」をはじめとしたAI時代を生き抜くための内容が含まれており、AIをスキル育成に積極活用することを推奨している。リクルートの研修公開は毎年注目を集めており、技術教育コンテンツとして就活・自己研鑽の参考になる。",
+          "sourceName": "リクルート テックブログ",
+          "sourceUrl": "https://techblog.recruit.co.jp/article-7222/",
+          "tags": ["採用", "技術教育", "AI活用"]
+        },
+        {
+          "position": 2,
+          "title": "ガートナー ジャパン、「デジタルワークプレースのハイプサイクル：日本、2026年」を発表 — AIエージェントは「過度な期待」のピーク、ガバナンス整備が急務",
+          "summary": "ガートナー ジャパンが<strong>2026</strong>年<strong>8</strong>月<strong>5</strong>日、「デジタルワークプレースのハイプサイクル：日本、<strong>2026</strong>年」を発表した。エージェント型AIが「過度な期待」のピークに位置づけられ、ローコード・ノーコードと生成AIは「啓発」の段階にある。AI関連技術の選定がIT部門主導からビジネス部門主導に移行しつつある潮流が示されており、組織的なAIガバナンスの整備が急務とされている。",
+          "sourceName": "ガートナー ジャパン",
+          "sourceUrl": "https://www.gartner.co.jp/ja/newsroom/press-releases/2026-08-05-hype-cycle-for-future-digital-workplace-in-japan",
+          "tags": ["技術トレンド", "AIエージェント", "ハイプサイクル"]
+        },
+        {
+          "position": 3,
+          "title": "LayerX、KubeCon + CloudNativeCon Japan 2026参加レポートを公開 — コンテナユーザーの82%が本番Kubernetes稼働、AIモデル推論の66%がKubernetes上で管理",
+          "summary": "LayerX AI Workforce部門EMのJoeが、<strong>2026</strong>年<strong>7</strong>月<strong>28</strong>〜<strong>30</strong>日に横浜で開催されたKubeCon + CloudNativeCon Japan 2026への参加レポートをエンジニアブログで公開した。7月28日のJapan Community DayではOpenTelemetryについて登壇。CNCF調査によればコンテナユーザーの<strong>82</strong>%が本番環境でKubernetesを稼働させており、AIモデル推論ワークロードの<strong>66</strong>%もKubernetes上で管理されていることが示された。クラウドネイティブ技術のAI領域への普及が加速していることが読み取れる内容となっている。",
+          "sourceName": "LayerX エンジニアブログ",
+          "sourceUrl": "https://tech.layerx.co.jp/entry/2026/08/06/105240",
+          "tags": ["技術トレンド", "クラウドネイティブ", "Kubernetes"]
+        },
+        {
+          "position": 4,
+          "title": "「FDE（フォワードデプロイドエンジニア）」に関心ありはITエンジニアの68.3% — レバテックとATIT調査、72%が今後需要増加を予測",
+          "summary": "レバテックと＠ITが<strong>2026</strong>年<strong>8</strong>月<strong>5</strong>日、ITエンジニア<strong>243</strong>名を対象としたFDE（Forward Deployed Engineer）に関する調査結果を公開した。FDEとは顧客の現場に入り込んで課題解決と技術実装を担う職種で、調査では<strong>68.3</strong>%が関心を示し（「非常に興味あり」<strong>21.4</strong>%・「やや興味あり」<strong>46.9</strong>%）、<strong>72.0</strong>%が今後需要が増加すると予測している。AI時代に注目を集める新職種として、就活生が把握しておきたいキャリアパスの一つとなっている。",
+          "sourceName": "＠IT",
+          "sourceUrl": "https://atmarkit.itmedia.co.jp/ait/articles/2608/05/news051.html",
+          "tags": ["技術トレンド", "新職種", "FDE"]
+        },
+        {
+          "position": 5,
+          "title": "AWSがAnthropicとOpenAIと連携、Claude Code・Codex・Kiroへコード脆弱性スキャンを統合 — 開発ワークフロー内からオンデマンドで優先度付け・修正提案まで自動化",
+          "summary": "Amazon Web Servicesが<strong>2026</strong>年<strong>8</strong>月<strong>5</strong>日、AnthropicとOpenAIと連携してAWS Continuumを開発者ワークフローへ統合すると発表した。Claude Code・Codex・Kiroなどのコーディング環境に組み込まれ、開発者はコーディング中にオンデマンドで脆弱性スキャンを実行できる。検出した脆弱性の優先度付け、サンドボックスでの検証、修正提案までを自動化する設計で、セキュリティを開発の初期段階から組み込む「シフトレフト」アプローチを推進する。",
+          "sourceName": "Amazon Web Services Blog",
+          "sourceUrl": "https://aws.amazon.com/blogs/security/aws-partners-with-anthropic-and-openai-to-bring-aws-continuum-into-developer-workflows/",
+          "tags": ["技術トレンド", "セキュリティ", "AIコーディング"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "AIをわずか10分使うだけで思考力・粘り強さが低下 — CMU・MIT・UCLAらの実験が示す、短期的なパフォーマンス向上と長期的な能力低下のトレードオフ",
+          "summary": "CMU・MIT・UCLA・オックスフォード大学などの研究チームが行った実験で、約<strong>10</strong>分間AIを使用した参加者はその後AI禁止の問題を解かせると使用しなかった参加者より有意に低いスコアを示したことが、日経クロステックの<strong>2026</strong>年<strong>8</strong>月<strong>4</strong>日の報道で明らかになった。AIの使用によって短期的なパフォーマンスは向上するが、独立した思考・問題解決能力が低下するというトレードオフが実験で示された形だ。就活生やエンジニアにとって、AIをどのように使うかが自身の能力開発に直接影響する問いとして重要性を増している。",
+          "sourceName": "日経クロステック",
+          "sourceUrl": "https://xtech.nikkei.com/atcl/nxt/column/18/03673/072700005/",
+          "tags": ["認知科学", "AI依存", "思考力"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "光子ビームで反Kメソンを含む原子核を世界初観測 — 大阪大学・東北大学・岐阜大学が中性子星の謎解明へ前進",
+          "summary": "大阪大学核物理研究センター・東北大学・岐阜大学などの共同研究グループが<strong>2026</strong>年<strong>8</strong>月<strong>5</strong>日、兵庫県のSPring-8のLEPS2実験設備において大型ソレノイド分光装置を用い、光子ビームを使って反Kメソンを含む原子核の観測に世界で初めて成功したと発表した。反Kメソンが「糊」のような役割を果たして原子核を形成することが確認された。この成果は、高密度核物質の性質や中性子星の内部構造の理解に向けた重要な前進として注目される。",
+          "sourceName": "東北大学大学院理学研究科プレスリリース",
+          "sourceUrl": "https://www.sci.tohoku.ac.jp/news/20260805-14579.html",
+          "tags": ["科学", "物理学", "素粒子"]
+        }
+      ]
+    }
+  ]
+}
