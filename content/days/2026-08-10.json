@@ -1,0 +1,84 @@
+{
+  "date": "2026-08-10",
+  "label": "2026年8月10日 (月)",
+  "intro": "AWS・OpenAI・Microsoft・Anysphere・VercelがAIエージェントプラグインの共通規格「Agent Plugins 1.0.0」を発表し、Googleも対応を表明。HashiCorp共同創業者のHashimoto氏が新会社「Superlogical」を設立し、npm互換パッケージマネージャ「vlt」も<strong>1.0</strong>に到達。<strong>2026</strong>年Q2クラウド市場は前年比<strong>42</strong>%成長と過去最高を記録した。欧州の熱波でドナウ川が歴史的渇水となり、ブルガリアの川底からマンモスの化石が出土した。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "「Agent Plugins 1.0.0」発表、異なるAIエージェント間でもスキルやMCPサーバ設定が共通化 — AWS・OpenAI・Microsoft・Anysphere・Vercelが仕様策定、Googleも対応表明",
+          "summary": "AWS・Microsoft・OpenAI・Anysphere（Cursor）・Vercelが、AIエージェントのスキルとMCPサーバー設定を1つのパッケージにまとめ異なるAIエージェント間で再利用できる共通規格「Agent Plugins 1.0.0」を<strong>2026</strong>年<strong>8</strong>月<strong>10</strong>日に発表した。Googleも対応を表明している。プラグインはplugin.json・skillsフォルダ・mcp.jsonから構成される1つのディレクトリで、ChatGPT・Codex・VS Code・Cursor・GitHub Copilot・KiroなどのAIコーディングツールから共通して利用できる設計となっている。開発者は一度スキルやMCPサーバー設定をパッケージ化すれば、対応クライアント全体で使い回せるようになる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/agent_plugins_100aimcpopenaiawsgoogle.html",
+          "tags": ["技術トレンド", "AIエージェント", "MCP"]
+        },
+        {
+          "position": 2,
+          "title": "MicrosoftがAIによるWindowsアプリのトレースログ解析ツール「WPA MCP」をプレビュー公開 — GitHub Copilot CLIから自然言語でパフォーマンス問題を診断",
+          "summary": "Microsoftが<strong>2026</strong>年<strong>7</strong>月<strong>30</strong>日、Windowsアプリのパフォーマンス問題の原因をAIがETWトレースログから解析するツール「Windows Performance Analyzer MCP（WPA MCP）」のアーリープレビューを公開した。GitHub Copilot CLIとMCP（Model Context Protocol）を介して自然言語でトレースデータを問い合わせでき、グラフや表を手動で読み解く作業が不要になる。ログの解析はローカルのTraceProcessorエンジンが担い、AIは整形された結果だけを解釈するためトレースの生データはモデルに送信されない設計となっている。ドライバー開発者やパフォーマンステスト担当エンジニアが主な対象。",
+          "sourceName": "Mynavi TechPlus",
+          "sourceUrl": "https://news.mynavi.jp/techplus/article/20260807-4785013/",
+          "tags": ["技術トレンド", "AI", "開発ツール"]
+        },
+        {
+          "position": 3,
+          "title": "セキュリティ優先のnpm互換パッケージマネージャ「vlt」がバージョン1.0に到達 — 不正パッケージ27万5000件以上をブロック、38%速いインストールを実現",
+          "summary": "JavaScriptパッケージマネージャ「vlt」がバージョン<strong>1.0</strong>に到達し、npmのミラーレジストリとプライベートレジストリ「vsr」のホスティング版の一般提供も同時に開始した。vltのレジストリは脆弱性データベースを参照し、不正なmanifestやマルウェアを含む<strong>27</strong>万<strong>5000</strong>件以上のパッケージバージョンをインデックス時点でブロックする。エッジからの配布によりクリーンインストールがnpmレジストリより<strong>38</strong>%速く、npmと同一コマンド体系のため既存ツールチェーンにそのまま置き換えて使えるnpm互換設計となっている。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/npmvlt10npm.html",
+          "tags": ["技術トレンド", "JavaScript", "セキュリティ"]
+        },
+        {
+          "position": 4,
+          "title": "2026年Q2クラウドインフラ市場、前年比42%成長と過去最高 — AWSが28%で首位維持、Google Cloudは1ポイント上昇して15%",
+          "summary": "Synergy Researchが<strong>2026</strong>年第<strong>2</strong>四半期のクラウドインフラ市場調査結果を発表した。市場全体の前年比成長率は<strong>42</strong>%となり過去最高を記録した。シェアはAWSが<strong>28</strong>%で前四半期と変わらず首位を維持。Microsoft Azureは<strong>1</strong>ポイント下落して<strong>20</strong>%、Google Cloudは<strong>1</strong>ポイント上昇して<strong>15</strong>%となった。上位3社が市場の過半数を占める構図は引き続き変わっていない。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/aws28google_cloud1154220262synergy_research.html",
+          "tags": ["技術トレンド", "クラウド", "市場調査"]
+        },
+        {
+          "position": 5,
+          "title": "HashiCorp共同創業者のMitchell Hashimoto氏が新会社「Superlogical」を設立 — 人間とAIエージェントが同じセッションで作業できるターミナル基盤を開発",
+          "summary": "Vagrant・Terraform等を生み出したHashiCorpの共同創業者で、ターミナルエミュレータGhosttyの開発者でもあるMitchell Hashimoto氏が<strong>2026</strong>年<strong>7</strong>月<strong>30</strong>日に新会社「Superlogical」を設立した。まずはターミナルマルチプレクサの開発から始め、将来的には人間とAIエージェントが同一ターミナルセッションで作業できる基盤の構築を目指す。WebブラウザやmacOS・iOSネイティブアプリから同じセッションに再接続できる設計で、ベータ版の順番待ちリストへの登録を開始しており、開発中のオープンソース公開も約束している。Notable Capital・Amplify Partnersが出資している。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/superlogical.html",
+          "tags": ["技術トレンド", "スタートアップ", "開発ツール"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "精神科医・樺沢紫苑氏の新著『知性大全 AI時代に不可欠な力』が刊行 — 生成AIへの思考の丸投げで脳活動が低下するという知見を踏まえ「知性」を再定義",
+          "summary": "精神科医でベストセラー作家の樺沢紫苑氏の新著『知性大全 AI時代に不可欠な力』が<strong>2026</strong>年<strong>8</strong>月<strong>5</strong>日にサンクチュアリ出版から刊行された（<strong>280</strong>ページ、税抜<strong>1,900</strong>円）。生成AIへの思考の丸投げが習慣化すると脳活動が低下するという研究知見を踏まえ、AI時代にこそ必要な「知性」のあり方を提唱する内容となっている。「AIに思考を任せ続けることで人間の知性が衰える」という問いを立て、メタ認知・脳科学・認知科学の観点から自律的な思考力を養うための実践論を展開している。",
+          "sourceName": "Yahoo!ニュース（リアルサウンド）",
+          "sourceUrl": "https://news.yahoo.co.jp/articles/f589e59eb91dc7ed3b3a913c9832cfe03ac221d6",
+          "tags": ["認知科学", "思考力", "AI依存"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "欧州熱波でドナウ川が歴史的渇水、ブルガリアの川底からマンモスの化石を発見 — 下顎骨・象牙・肩甲骨など複数の骨片を確認",
+          "summary": "<strong>2026</strong>年<strong>7</strong>月<strong>30</strong>日、ブルガリア北部リャホボ村付近のドナウ川沿いで、欧州を襲った熱波と干ばつによる記録的な水位低下で川底が露出し、ケナガマンモスのものとみられる化石が発見された。ルセ歴史博物館の調査隊が現場に入り、下顎骨・象牙・肩甲骨・肋骨など複数の骨片を確認した。骨格の大部分がなお地中に埋まっている可能性があるという。ドナウ川の水位はハンガリーで観測史上最低を記録し、同国唯一の原子力発電所も冷却水不足で一時稼働を停止する事態となった。",
+          "sourceName": "AFPBB News",
+          "sourceUrl": "https://www.afpbb.com/articles/-/3646459",
+          "tags": ["科学", "環境", "欧州"]
+        }
+      ]
+    }
+  ]
+}
