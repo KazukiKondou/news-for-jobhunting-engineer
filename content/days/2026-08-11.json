@@ -1,0 +1,84 @@
+{
+  "date": "2026-08-11",
+  "label": "2026年8月11日 (火)",
+  "intro": "デジタル庁がガバメントAI「源内」向けにNTTデータ・富士通・Preferred Networksの国産LLM<strong>3</strong>モデルをさくらのクラウドで試用開始、LAPRASの<strong>2026</strong>年エンジニア調査ではClaudeの利用率が<strong>72.4</strong>%へ急伸しChatGPTを逆転した。BASE子会社Eストアーの「ショップサーブ」に不正アクセスがあり最大<strong>885</strong>万件超の個人情報漏えいが判明。ジョージタウン大学らが脳の真のマルチタスクを練習で実現できると発表し、XRISMがブラックホール爆風の銀河外<strong>30</strong>万光年への到達を世界初観測した。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "デジタル庁、ガバメントAI「源内」でNTTデータ・富士通・PFNの国産LLM3モデルをさくらのクラウドで試用開始 — 国産クラウドをガバメントクラウドとして活用する初事例",
+          "summary": "デジタル庁が<strong>2026</strong>年<strong>8</strong>月、ガバメントAI「源内」で利用する大規模言語モデルの評価として、NTTデータの「tsuzumi <strong>2</strong>」・富士通の「Takane <strong>32</strong>B」・Preferred Networks（PFN）の「PLaMo <strong>2.0</strong> Prime」の国産<strong>3</strong>モデルをさくらのクラウド上で稼働させ試用を開始した。さくらのクラウドはガバメントクラウドのすべての技術要件を満たしており、国産クラウドサービスがガバメントクラウドとして活用される初の事例となる。<strong>9</strong>月から<strong>11</strong>月にかけて複数回の実証実験を実施し、チャット機能でのA/Bテストを通じて既存モデルと比較評価する計画だ。日本のAI自律性確保（AI主権）を目的とした取り組みとして注目される。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/3ai.html",
+          "tags": ["技術トレンド", "AI", "政府"]
+        },
+        {
+          "position": 2,
+          "title": "エンジニアのAIツール利用率、ClaudeがChatGPTを逆転して首位に — LAPRASの2026年調査で利用率72.4%（前回比+21.5pt）、9割が日常的に活用",
+          "summary": "LAPRASが<strong>2026</strong>年に実施したエンジニア向けAIツール利用調査で、ClaudeがChatGPTを上回り利用率<strong>1</strong>位に立った。Claudeの利用率は前回調査の<strong>50.9</strong>%から<strong>21.5</strong>ポイント増の<strong>72.4</strong>%に急伸し、ChatGPTを逆転した。エンジニアの<strong>9</strong>割以上が何らかのAIツールを日常的に活用しており、コーディング補助や情報収集への活用が進んでいる実態が示された。AIコーディングツールが就職活動や現場での技術力評価においても重要な軸となりつつあることを示す調査結果だ。",
+          "sourceName": "LAPRAS HR TECH LAB",
+          "sourceUrl": "https://hr-tech-lab.lapras.com/knowledge/research-report/engineer-survey2026_01",
+          "tags": ["技術トレンド", "AIツール", "調査"]
+        },
+        {
+          "position": 3,
+          "title": "BASE子会社Eストアーの「ショップサーブ」に不正アクセス、最大885万件超の個人情報漏えい — 被害期間は当初「約2時間」から約2カ月半へ修正",
+          "summary": "BASE株式会社の子会社・Eストアーが運営するECサービス「ショップサーブ」において不正アクセスが発覚し、購入者の氏名・住所・メールアドレス・カード番号（先頭<strong>6</strong>桁と下<strong>4</strong>桁）・有効期限などを含む最大<strong>885</strong>万件超の個人情報が漏えいした。被害期間は当初<strong>2026</strong>年<strong>8</strong>月<strong>1</strong>日の約<strong>2</strong>時間とされていたが、その後の調査で<strong>5</strong>月<strong>21</strong>日から約<strong>2</strong>カ月半にわたる継続的な不正アクセスであったことが判明した。購入者情報だけでなく、出店者側の管理画面・FTPのログイン情報や振込先口座情報も漏えい対象に含まれる。大規模な個人情報漏えいとして、ECサービスのセキュリティ対策を改めて問う事態となっている。",
+          "sourceName": "@IT",
+          "sourceUrl": "https://atmarkit.itmedia.co.jp/ait/articles/2608/05/news066.html",
+          "tags": ["セキュリティ", "情報漏えい", "EC"]
+        },
+        {
+          "position": 4,
+          "title": "Cloudflare、AIエージェントワークスペース基盤「Cloudflare OS」をApache 2.0でオープンソース公開 — 全社員が自社仕様のAIエージェントを利用でき、内部システム接続はGatekeeperで制御",
+          "summary": "Cloudflareが、<strong>2026</strong>年<strong>5</strong>月から社内展開していた組織向けAIエージェントワークスペース基盤「Cloudflare OS」をApache <strong>2.0</strong>ライセンスのもとオープンソースとして公開した。全社員が組織の仕様に合わせたAIエージェントを利用できるプラットフォームで、内部システムへのアクセスはGatekeeperコンポーネントがセキュリティを制御する設計となっている。MCP（Model Context Protocol）サーバー設定の一元管理にも対応しており、各部門がカスタマイズしたAIエージェントを展開できる。企業が自社のAIワークスペースを構築する際のリファレンス実装として活用できる点が注目されている。",
+          "sourceName": "gihyo.jp",
+          "sourceUrl": "https://gihyo.jp/article/2026/08/cloudflare-os",
+          "tags": ["技術トレンド", "AIエージェント", "オープンソース"]
+        },
+        {
+          "position": 5,
+          "title": "GoogleのパーソナルAIエージェント「Gemini Spark」が日本を含む160カ国以上に展開 — 24時間クラウド上で自律動作し、月額2,900円のGoogle AI Proプランにも対応",
+          "summary": "Googleが<strong>2026</strong>年<strong>7</strong>月<strong>30</strong>日（米国時間）、パーソナルAIエージェント「Gemini Spark」を日本を含む<strong>160</strong>カ国以上で展開すると発表した。クラウド上で<strong>24</strong>時間常駐して自律的に動作するエージェントで、ユーザーのタスクを継続的にバックグラウンドで実行できる。月額<strong>2</strong>,<strong>900</strong>円のGoogle AI Proプランにも対応しており、個人ユーザーが高度なAIエージェント機能を利用できる環境が整う。ChatGPTやClaudeなどのコーディング特化AIに対して、Googleが日常タスク自動化領域でのシェア拡大を狙う動きとなっている。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2608/02/2000000347/",
+          "tags": ["技術トレンド", "AI", "Google"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。思考法・ビジネス書・心理学・認知科学からの洞察を取り上げます。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "脳は十分な練習により「真のマルチタスク」を実現するよう再配線できると判明 — ジョージタウン・リーハイ大学ら研究、前頭前野から他領域へ処理を移行",
+          "summary": "ジョージタウン大学とリーハイ大学などの共同研究チームが行った実験で、十分な練習を積むことで脳が真のマルチタスクを実現できるよう再配線されることが明らかになったと、GIGAZINEが<strong>2026</strong>年<strong>7</strong>月<strong>31</strong>日に報じた（原著は『Journal of Cognitive Neuroscience』掲載）。練習を重ねることで、タスク処理が前頭前野から他の脳領域へと移行し、より少ない認知リソースで複数タスクを並行処理できる状態になるという。「マルチタスクは不可能」という従来の認知科学の通説に一石を投じる結果で、学習の継続的な蓄積が脳の構造的な変化をもたらすことを示す。AIに頼る前にまず繰り返しの練習で自分の能力を高める重要性を裏付ける知見ともいえる。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260731-brain-rewire-true-multitasking/",
+          "tags": ["認知科学", "脳科学", "学習"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "XRISMがブラックホールの「爆風」が銀河外30万光年先まで到達することを世界初観測 — 従来推定の100倍超のエネルギー、Nature Astronomyに掲載",
+          "summary": "東北大学・金沢大学・東京都立大学などの共同研究チームが、JAXAのX線分光撮像衛星「XRISM」のResolve分光計を用いた観測により、ブラックホールが噴き出す「爆風」（アウトフロー）が銀河の外側<strong>30</strong>万光年先まで到達していることを世界で初めて観測したと発表した。今回観測された爆風のエネルギーは従来の推定値の<strong>100</strong>倍超に相当し、ブラックホールが周囲の銀河環境に及ぼす影響の大きさが改めて示された。成果は<strong>2026</strong>年<strong>7</strong>月<strong>28</strong>日付の学術誌『Nature Astronomy』に掲載されており、ブラックホールと銀河の共進化メカニズムの理解に新たな知見をもたらす。",
+          "sourceName": "Mynavi TechPlus",
+          "sourceUrl": "https://news.mynavi.jp/techplus/article/20260806-4784855/",
+          "tags": ["科学", "宇宙", "物理学"]
+        }
+      ]
+    }
+  ]
+}
