@@ -1,0 +1,84 @@
+{
+  "date": "2026-08-12",
+  "label": "2026年8月12日 (水)",
+  "intro": "OpenAI・GitHub・Microsoft等<strong>6</strong>社がAIエージェントプラグイン共通規格「Agent Plugins 1.0.0」を発表し、Claude Codeの「auto mode」が<strong>8</strong>月<strong>14</strong>日からPro/Max/Teamプランでデフォルト化（危険コマンド<strong>89</strong>%ブロック）。リクルートは新卒エンジニア研修資料<strong>13</strong>本を無料公開、ナレッジワークはシリーズCで<strong>35</strong>億円を調達しセールスAIエージェントOSを発表。H3ロケット<strong>9</strong>号機が昨日8月11日早朝にみちびき7号機を所定軌道へ投入成功した。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "AIエージェントプラグイン共通規格「Agent Plugins 1.0.0」発表 — OpenAI・AWS・GitHub・Microsoft・Vercel等6社が参加、ChatGPT・Copilot・Cursorなど6クライアントが対応",
+          "summary": "Vercelが提案し、AWS・Anysphere（Cursor）・GitHub・Microsoft・OpenAIと共同で策定した「Agent Plugins 1.0.0」が<strong>2026</strong>年<strong>8</strong>月<strong>6</strong>日に発表された。AIエージェントの拡張機能（スキル）を1つのフォルダにパッケージ化し、複数クライアントが横断的に利用できるオープン規格で、plugin.jsonマニフェスト・skills/フォルダ・mcp.jsonで構成される。発表時点でChatGPT・Codex・Cursor・GitHub Copilot・Kiro・VS Codeの<strong>6</strong>クライアントが対応し、エンジニアが1つのプラグインを開発するだけでこれら全てのAIツールから呼び出せる環境が整いつつある。現時点ではワーキングドラフトであり、プラグインストアやセキュリティ仕様は今後策定予定。",
+          "sourceName": "gihyo.jp",
+          "sourceUrl": "https://gihyo.jp/article/2026/08/agent-plugins",
+          "tags": ["技術トレンド", "AIエージェント", "規格"]
+        },
+        {
+          "position": 2,
+          "title": "Claude Code、AIが危険コマンドを自動判定する「auto mode」を8月14日からPro/Max/Teamプランでデフォルト化 — 人間の確認より89%の検出率を達成",
+          "summary": "Anthropicは<strong>2026</strong>年<strong>8</strong>月<strong>7</strong>日、AIコーディングツール「Claude Code」において、コマンド実行前の権限確認をAIが自動判定する「auto mode」を<strong>8</strong>月<strong>14</strong>日からPro・Max・Teamプランでデフォルトにすると発表した。専用の分類器が実行予定コマンドを1件ずつ評価し、取り消し不能・破壊的・ユーザー環境外に影響する操作を自動でブロックする仕組みで、対照実験では危険コマンドの検出率が人間による確認の<strong>13</strong>.<strong>6</strong>%に対し<strong>89</strong>%に達した。分類器の実行に伴う追加課金は<strong>8</strong>月<strong>7</strong>日付で撤廃された。EnterpriseやAPI利用者はまだオプトインのままで、Anthropicは<strong>1</strong>カ月以内にデフォルト化する方針を示している。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260810-claude-code-auto-mode/",
+          "tags": ["技術トレンド", "AIコーディング", "Claude"]
+        },
+        {
+          "position": 3,
+          "title": "Cloudflare、ダッシュボードの設定一つでWebサイトをAIエージェント対応にする「WebMCP」機能を開発者プレビュー公開 — オリジン側の改修不要",
+          "summary": "Cloudflareが<strong>2026</strong>年<strong>8</strong>月<strong>6</strong>日、ブラウザ上のAIエージェントからWebサイトの操作を可能にするWebMCPインターフェースを、オリジン（自社サーバー）のコード改修なしに追加できる機能を開発者プレビューとして公開した。Cloudflareのダッシュボードでスイッチを入れるだけで配信HTMLにAIエージェント用のブリッジが付加され、WebサイトがAIエージェントから呼び出せるツールを公開できるようになる。WebMCPは「このサイトで実行できる操作」をWebページ側がブラウザ内のツールとして公開する仕組みで、MCP（Model Context Protocol）のWeb拡張として位置づけられる。この機能はCloudflareが開催した「Agents Week」の一環として発表された。",
+          "sourceName": "gihyo.jp",
+          "sourceUrl": "https://gihyo.jp/article/2026/08/cloudflare-webmcp-interface",
+          "tags": ["技術トレンド", "MCP", "AIエージェント"]
+        },
+        {
+          "position": 4,
+          "title": "リクルート、2026年度新卒エンジニア研修資料13本をSpeaker Deckで無料公開 — サバイバルガイド・制約理論・ブラウザ研修など多彩",
+          "summary": "リクルートが<strong>2026</strong>年<strong>8</strong>月、同年度の新卒エンジニア向けBootCampで使用した研修資料<strong>13</strong>本をSpeaker Deckで無料公開した。「ソフトウェアエンジニア人生サバイバルガイド」をはじめ、ブラウザ研修・JavaScriptモダンフロントエンド・制約理論（ToC）入門・事業価値とEngineering・モバイルアプリ開発概論など多様なテーマをカバーする。AIによるソフトウェア開発の考え方の変化や、AI時代のエンジニアとしての生き残り方についての知見も含まれている。毎年公開している恒例コンテンツで、就活生がWebエンジニアのキャリアや実務を具体的にイメージするための一次資料として活用できる内容となっている。",
+          "sourceName": "リクルート テックブログ",
+          "sourceUrl": "https://techblog.recruit.co.jp/article-7222/",
+          "tags": ["技術教育", "リクルート", "27卒"]
+        },
+        {
+          "position": 5,
+          "title": "ナレッジワーク、シリーズC 1stクローズで35億円調達 — セールスAIエージェントOSを発表、3年でFDE含む100〜150人採用へ",
+          "summary": "SaaSスタートアップのナレッジワークが<strong>2026</strong>年<strong>8</strong>月<strong>4</strong>日、シリーズC 1stクローズとして総額<strong>35</strong>億円の資金調達を発表した。引受先はリコージャパン・三井住友銀行等で、同日「セールスAIエージェントOS」の提供も開始した。調達資金を活用し、AI導入を顧客の現場で直接支援する「フォワード・デプロイド・エンジニア（FDE）」を含むコンサル人員を今後<strong>3</strong>年で<strong>100</strong>〜<strong>150</strong>人規模に増やす計画だ。同社はすでに「ナレッジワークX」というAI実装専門部隊を組成しており、自社製品を活用してエンジニアが顧客企業のAI化を直接推進するFDEという職種は、SaaS系スタートアップの新たなエンジニア職種として注目されている。",
+          "sourceName": "PR TIMES",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000148.000063428.html",
+          "tags": ["採用", "スタートアップ", "資金調達"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "AIが実装まで担う時代、エンジニアに残るのは「問題発見・仮説設定・動かして検証」の思考サイクル",
+          "summary": "「AIが実装までやるようになって、エンジニアとして何が残るのか」（<strong>2026</strong>年<strong>8</strong>月<strong>9</strong>日）では、AIに置き換わりやすいのは「既知の方法で既知の部品を組み合わせる作業」だと指摘する。残る強みとして挙げられるのは「既存の枠組みの中で足りないものを見つける力」「どこに何を加えれば解決できるかを考える力」「新技術を以前の問題に接続しながら差分を見つける力」「実際に動かして仮説を検証し設計前提を更新する力」の<strong>4</strong>点だ。AIに実装を委ねることは実装から離れることではなく、動いた結果を観察し続けることで思考の精度を高められる、という洞察は、手を動かすことを止めた途端に思考の根拠を失うという本質的な警告でもある。",
+          "sourceName": "tsuyuki.makoto",
+          "sourceUrl": "https://www.tsuyukimakoto.com/blog/2026/08/09/engineer_strength_in_the_ai_era_202608/",
+          "tags": ["思考力", "AI時代", "エンジニアリング"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "H3ロケット9号機、みちびき7号機の軌道投入に成功 — 8号機失敗からの改良型でリフトオフ29分04秒後に分離完了",
+          "summary": "JAXAは<strong>2026</strong>年<strong>8</strong>月<strong>11</strong>日午前<strong>4</strong>時<strong>23</strong>分<strong>31</strong>秒、種子島宇宙センター大型ロケット発射場からH3ロケット<strong>9</strong>号機（H3-22S型）を打ち上げ、準天頂衛星システム「みちびき<strong>7</strong>号機」を所定軌道へ投入することに成功した。リフトオフから<strong>29</strong>分<strong>04</strong>秒後に衛星を正常分離した。<strong>2025</strong>年<strong>12</strong>月に失敗した<strong>8</strong>号機では衛星搭載アダプタ内部の剥離が主原因と特定されており、<strong>9</strong>号機ではH-IIAでも実績があるボルトとナットによるファスナー結合方式に改良して対策を施していた。H3ロケットは今回、実用衛星の軌道投入を行う通常運用に本格復帰した形となる。",
+          "sourceName": "JAXA",
+          "sourceUrl": "https://www.jaxa.jp/press/2026/08/20260811-1_j.html",
+          "tags": ["科学", "宇宙", "JAXA"]
+        }
+      ]
+    }
+  ]
+}
