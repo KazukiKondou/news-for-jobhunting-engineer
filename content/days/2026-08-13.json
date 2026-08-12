@@ -1,0 +1,84 @@
+{
+  "date": "2026-08-13",
+  "label": "2026年8月13日 (木)",
+  "intro": "Google Geminiアプリの月間アクティブユーザーが<strong>8</strong>月<strong>11</strong>日に<strong>10</strong>億人を突破し、OpenAIはLinux向けChatGPTデスクトップアプリ（Chat・Work・Codex統合）をプレビュー公開した。NVIDIAはエージェント向けオープンモデル「Nemotron 3.5 Lightning」（最大<strong>100</strong>万トークン・推論<strong>4</strong>倍速）を公開、Mojoも<strong>1</strong>.<strong>0</strong>として安定版リリース。今夜はペルセウス座流星群が新月条件下で極大を迎え、<strong>35</strong>個/時の流星が期待される。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "GeminiアプリのMAUが10億人を突破 — Google史上最速で大台到達、14番目の10億ユーザー製品に",
+          "summary": "GoogleのCEOスンダー・ピチャイ氏は<strong>2026</strong>年<strong>8</strong>月<strong>11</strong>日（現地時間）、AIアシスタント「Gemini」アプリの月間アクティブユーザー（MAU）が<strong>10</strong>億人を超えたとXで発表した。Google検索の「AIモード」やGoogle Workspace、YouTubeにも広く採用されているが、今回の<strong>10</strong>億人はGemini専用アプリのみのMAUであり、その用途から純粋なエンゲージメントが読み取れる。GoogleにとってMAUが<strong>10</strong>億人の大台に達した<strong>14</strong>番目の製品となり、ピチャイ氏は「Google史上最速で成長した製品だ」と述べた。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20260812-google-gemini-1b-mau/",
+          "tags": ["技術トレンド", "AI", "Google"]
+        },
+        {
+          "position": 2,
+          "title": "OpenAI、Linux向けChatGPTデスクトップアプリをプレビュー公開 — Chat・Work・Codexの3機能を統合、主要3OSが出揃う",
+          "summary": "OpenAIは<strong>2026</strong>年<strong>8</strong>月<strong>11</strong>日（現地時間）、ChatGPTのLinux向けデスクトップアプリをプレビュー公開した。Ubuntu<strong>24</strong>.<strong>04</strong> LTSと<strong>26</strong>.<strong>04</strong> LTS、Debian<strong>13</strong>、Fedora<strong>43</strong>/<strong>44</strong>に対応し、x<strong>64</strong>とARM<strong>64</strong>向けの.debおよび.rpmインストーラーが用意されている。アプリは日常会話の「Chat」、複数工程にまたがる長期作業を担う「Work」、ソフトウェア開発に特化した「Codex」を<strong>1</strong>つのデスクトップアプリに統合しており、Windows・macOS・Linuxという主要<strong>3</strong>OSへの展開がこれで出揃った形となる。OpenAIは「Linuxはデスクトップアプリへのリクエストが最も多かったプラットフォームのひとつ」とコメントしている。",
+          "sourceName": "gihyo.jp",
+          "sourceUrl": "https://gihyo.jp/article/2026/08/chatgpt-app-preview-for-linux",
+          "tags": ["技術トレンド", "OpenAI", "開発ツール"]
+        },
+        {
+          "position": 3,
+          "title": "Mojo 1.0が正式リリース — API安定保証を開始、約200人のOSS貢献者と1,100件超のPRで成熟",
+          "summary": "ModularはPythonライクな構文とシステムレベルの性能を兼ね備えるAI向けプログラミング言語「Mojo」の<strong>1</strong>.<strong>0</strong>を<strong>2026</strong>年<strong>8</strong>月<strong>11</strong>日にリリースした。標準ライブラリの一部APIを安定指定し、今後の<strong>1</strong>.x系リリースでの後方互換性を保証する基盤を確立しており、<strong>1</strong>.<strong>0</strong>はMojoの完成ではなく「長期的な開発に使える安定した出発点」と位置づけられている。<strong>2024</strong>年<strong>3</strong>月のオープンソース化以降、約<strong>200</strong>人のコントリビューターが<strong>1</strong>,<strong>100</strong>件超のプルリクエストを取り込み、変更行数は<strong>20</strong>万行を超えた。Mojoを開発するModularは、AI基盤スタックの統合を目指すQualcommによる買収を発表しており、取引は<strong>2026</strong>年後半に完了する見込みだ。",
+          "sourceName": "gihyo.jp",
+          "sourceUrl": "https://gihyo.jp/article/2026/08/mojo-1.0",
+          "tags": ["技術トレンド", "プログラミング言語", "AI", "OSS"]
+        },
+        {
+          "position": 4,
+          "title": "NVIDIAがエージェント向けオープンモデル「Nemotron 3.5 Lightning」を公開 — 推論速度4倍・最大100万トークン・商用無償",
+          "summary": "NVIDIAは<strong>2026</strong>年<strong>8</strong>月<strong>11</strong>日、長時間稼働するAIエージェントに最適化したオープンモデル「Nemotron 3.5 Lightning」と、複数モデルをタスクに応じて自動切り替えするルーター「NeMo Switchyard」を公開した。MoE（混合専門家）アーキテクチャを採用し、総パラメータ数<strong>300</strong>億・推論時の稼働パラメータ数<strong>30</strong>億で、最大<strong>100</strong>万トークンのコンテキストに対応、日本語を含む<strong>6</strong>言語と多数のプログラミング言語をサポートする。同等規模モデルと比較して推論速度を最大<strong>4</strong>倍に向上させたとされ、OpenMDW 1.1ライセンスにより企業・個人を問わず商用利用・改変・再配布が無償で可能だ。Hugging Face、ModelScope、OpenRouterから利用でき、RTX PCやDGX Sparkでのローカル実行にも対応している。",
+          "sourceName": "gihyo.jp",
+          "sourceUrl": "https://gihyo.jp/article/2026/08/nvidia-nemotron-3.5-lightning",
+          "tags": ["技術トレンド", "AI", "NVIDIA", "OSS"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "「知性の本質は予測にあり」— AIが開く脳科学の新地平、人間の脳活動パターンとAI内部表現の驚くべき一致",
+          "summary": "日経サイエンス<strong>2026</strong>年<strong>9</strong>月号の特集「AI・脳・意識」に収録された本稿（出村政彬著、高木優・中井智也協力）は、人間の脳活動パターンとAIの内部表現（ベクトル空間上の膨大な数字列）との間に驚くほどの対応関係が実験で確認されつつある最新研究を紹介する。「知性の本質は次状態の予測にある」という仮説のもと、脳が感覚入力から次の状態を絶えず予測し続けることで認知が成立するというモデルと、大規模言語モデルが次トークンを予測する仕組みが根本的に重なることが、脳神経科学の手法によって裏付けられてきた。AIを解析することが人間の知性の構造そのものを探る手段になり得るという逆転の視点は、「AIと自分はどう違うのか」を問い直すきっかけを与えてくれる。",
+          "sourceName": "日経サイエンス",
+          "sourceUrl": "https://www.nikkei-science.com/202609_042.html",
+          "tags": ["思考力", "脳科学", "認知科学", "AI"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "ペルセウス座流星群2026が今夜極大 — 新月と重なり理想条件、暗い場所で1時間35個の流星",
+          "summary": "国立天文台によると、<strong>2026</strong>年のペルセウス座流星群の活動は<strong>8</strong>月<strong>13</strong>日<strong>11</strong>時頃に極大に達する。極大直前の<strong>12</strong>日深夜から<strong>13</strong>日明け方にかけてが最良の観察タイミングで、<strong>21</strong>時頃から出現し始め夜明けに向けて増加する。今年は新月と重なり月明かりの影響がないため、ペルセウス座流星群として理想的な観察条件が整い、空の暗い場所では<strong>1</strong>時間あたり<strong>35</strong>個程度の流星が期待される。東京では<strong>3</strong>時台が最多出現の見込みで、<strong>14</strong>日の夜明け前にも同様に多くの流星が見られる予測だ。",
+          "sourceName": "国立天文台(NAOJ)",
+          "sourceUrl": "https://www.nao.ac.jp/astro/sky/2026/08-topics03.html",
+          "tags": ["科学", "天文", "自然"]
+        },
+        {
+          "position": 7,
+          "title": "東洋経済「HYBEの野望」— 日本法人売上790億円、Weverse×多重レーベル戦略で熱狂を設計するK-POP帝国の全貌",
+          "summary": "週刊東洋経済<strong>2026</strong>年<strong>8</strong>月<strong>15</strong>日・<strong>22</strong>日合併号の第<strong>1</strong>特集「BTSに続け エンタメ帝国HYBEの野望」は、K-POP最大手HYBEがアーティスト育成・ファンプラットフォーム「Weverse」・多重レーベル構造を組み合わせて「熱狂を繰り返し生み出す」ビジネスモデルの全容を解剖する。日本法人は「稼ぎ頭」として売上高約<strong>790</strong>億円（<strong>2025</strong>年度）、最終利益約<strong>60</strong>億円を記録しており、サザンオールスターズや福山雅治らが所属するアミューズと同規模にまで成長している。特定アーティストへの依存リスクを分散する多重レーベル戦略と、ファンが直接つながれるデジタルプラットフォームの組み合わせは、コンテンツビジネスにおける収益構造設計の実例として読み解くことができる。",
+          "sourceName": "東洋経済オンライン",
+          "sourceUrl": "https://toyokeizai.net/feature/6a29794ba53aef14c2000000",
+          "tags": ["ビジネス", "エンタメ", "韓国"]
+        }
+      ]
+    }
+  ]
+}
