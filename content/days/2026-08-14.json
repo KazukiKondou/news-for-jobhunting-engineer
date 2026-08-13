@@ -1,0 +1,68 @@
+{
+  "date": "2026-08-14",
+  "label": "2026年8月14日 (金)",
+  "intro": "AnthropicはClaude CodeのAuto Modeを<strong>8</strong>月<strong>14</strong>日よりPro・Max・Team向け新規セッションでデフォルト化し、<strong>1</strong>,<strong>053</strong>人実験で危険コマンドの検出率が<strong>89</strong>%（人間は<strong>13</strong>.<strong>6</strong>%）と確認された。OpenAIはサイバー特化モデル「GPT-<strong>5</strong>.<strong>6</strong>-Cyber」（高度サイバーリクエスト応答率<strong>95</strong>%）を発表し、GoogleもGo言語のAI支援開発における優位性を解説した。明日<strong>8</strong>月<strong>15</strong>日にはラグビー日本代表がオーストラリアと第<strong>2</strong>戦を戦う。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Claude CodeのAuto Modeが本日デフォルト化 — 危険コマンド検出率89%、Pro・Max・Team新規セッションから適用",
+          "summary": "AnthropicはClaude CodeのAuto Mode（許可プロンプトを自動承認するモード）を<strong>2026</strong>年<strong>8</strong>月<strong>14</strong>日より、まずPro・Max・Teamプランの新規セッションでデフォルト設定とした。<strong>1</strong>,<strong>053</strong>名を対象とした実験で危険コマンドの自動検出率が<strong>89</strong>%に達し、人間による手動確認の<strong>13</strong>.<strong>6</strong>%を大きく上回ること、そして許可プロンプトの<strong>97</strong>%がすでに手動で承認されていた実態を踏まえての判断だ。EnterpriseプランとAPIアクセスはオプトインのまま据え置かれており、従来の動作に戻す方法としてShift+Tabショートカット・起動オプション --permission-mode default・settings.jsonのdisableAutoModeフラグが用意されている。",
+          "sourceName": "gihyo.jp",
+          "sourceUrl": "https://gihyo.jp/article/2026/08/auto-mode-default-in-claude-code",
+          "tags": ["技術トレンド", "開発ツール", "AI"]
+        },
+        {
+          "position": 2,
+          "title": "Google、「Go言語はAI活用ソフトウェア開発に向いている」と解説 — 人間とAIモデル双方が恩恵を受ける明快さ",
+          "summary": "GoogleのGoogle for Developersブログは<strong>2026</strong>年<strong>8</strong>月<strong>11</strong>日、AIを活用したソフトウェア開発においてGo言語が優位な理由を解説する記事を公開した。AIが生成したコードをレビュー・検証・保守する役割にデベロッパーの重心が移行しつつある中、Goの明快さ・シンプルさ・生産性はAIモデルにとっても人間にとっても同様に恩恵をもたらすと述べている。暗黙の挙動が少なく型システムが明確なGoの特性は、AIが生成するコードの品質向上と人間によるレビューの容易さの両方に貢献するとされており、GoがAI時代のバックエンド開発言語としての地位を確立しつつあることが示されている。",
+          "sourceName": "gihyo.jp",
+          "sourceUrl": "https://gihyo.jp/article/2026/08/go-ai-engineering",
+          "tags": ["技術トレンド", "プログラミング言語", "AI"]
+        },
+        {
+          "position": 3,
+          "title": "OpenAI、Daybreakを2層に再編しサイバー特化モデル「GPT-5.6-Cyber」を発表 — 高度サイバーリクエスト応答率95%",
+          "summary": "OpenAIは<strong>2026</strong>年<strong>8</strong>月<strong>11</strong>日、セキュリティ研究者向けプログラム「Daybreak」をBlue（防御特化）とRed（高度・承認パートナー限定）の<strong>2</strong>層に再編し、サイバーセキュリティに特化したモデル「GPT-<strong>5</strong>.<strong>6</strong>-Cyber」を発表した。GPT-<strong>5</strong>.<strong>6</strong>-Cyberは高度なサイバーリクエストへの応答率が通常版GPT-<strong>5</strong>.<strong>6</strong> Solの<strong>1</strong>.<strong>5</strong>%に対して<strong>95</strong>%に達し、Chrome V<strong>8</strong>エンジンの未知の脆弱性<strong>2</strong>件（CVE-<strong>2026</strong>-<strong>15903</strong>ほか）を独自に発見している。一方でAstraモデルは重大なサイバー能力閾値を超えたとして<strong>8</strong>月<strong>7</strong>日に開発が停止されており、AIの能力向上と安全基準の運用をめぐる緊張が改めて浮き彫りになっている。",
+          "sourceName": "gihyo.jp",
+          "sourceUrl": "https://gihyo.jp/article/2026/08/gpt-5.6-cyber-with-expanding-daybreak",
+          "tags": ["技術トレンド", "AI", "セキュリティ"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 4,
+          "title": "生成AIは人々を豊かにしているのか — 世界の研究者が警鐘を鳴らす「AI依存による思考力低下」の実態",
+          "summary": "東洋経済オンラインは生成AIチャットボットの便利さが人々の思考力と学習意欲を低下させているとする世界各地の研究者の警告を取り上げた特集記事を公開した。AIへの依存が高まる中で「なぜ自分で考えることが必要なのか」という問いを正面から取り上げており、複数の研究者が認知科学・教育学の観点から具体的な弊害を指摘している。便利なツールを使いこなしながらも、批判的思考・仮説立案・メタ認知といった「AIが代替しにくい能力」をいかに意識的に鍛えるかは、エンジニア就活生が長期的なキャリアを設計する上でも本質的なテーマといえる。",
+          "sourceName": "東洋経済オンライン",
+          "sourceUrl": "https://toyokeizai.net/articles/-/951360",
+          "tags": ["思考力", "生成AI", "認知科学"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "ラグビー日本代表、8.15オーストラリア戦メンバー発表 — 上ノ坊駿介がCTBでテストマッチ初先発",
+          "summary": "日本ラグビーフットボール協会は<strong>8</strong>月<strong>13</strong>日、<strong>8</strong>月<strong>15</strong>日にオーストラリア・タウンズビルで行われるテストマッチ第<strong>2</strong>戦のメンバーを発表した。第<strong>1</strong>戦（<strong>8</strong>月<strong>8</strong>日）を<strong>32</strong>対<strong>35</strong>で落とした日本は巻き返しを期し、インサイドCTBに上ノ坊駿介がテストマッチ初先発で抜擢された。<strong>11</strong>か月ぶりに復帰した左ウイング木田晴斗の名もあり、スコッド平均年齢<strong>26</strong>.<strong>7</strong>歳・通算キャップ数合計<strong>440</strong>の若いチームが連敗回避を目指す。",
+          "sourceName": "ラグビーリパブリック",
+          "sourceUrl": "https://rugby-rp.com/2026/08/13/japan/145336",
+          "tags": ["スポーツ", "ラグビー", "代表"]
+        }
+      ]
+    }
+  ]
+}
