@@ -1,0 +1,76 @@
+{
+  "date": "2026-08-15",
+  "label": "2026年8月15日 (土)",
+  "intro": "Sakana AIが「Fugu」を<strong>8</strong>月<strong>13</strong>日に無料公開し、vltがnpmより<strong>38</strong>%速いパッケージマネージャv<strong>1</strong>.<strong>0</strong>をリリース。横浜の織田翔希が甲子園史上最速<strong>156</strong>キロをマークし、<strong>10</strong>対<strong>1</strong>で<strong>2</strong>年連続ベスト<strong>16</strong>入りを決めた。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Sakana AI、チャットに「Fugu」を追加 — メール登録のみで無料、Namazuも新世代Kimi K2.6ベースに刷新",
+          "summary": "Sakana AIは<strong>2026</strong>年<strong>8</strong>月<strong>13</strong>日、無料チャットAIサービス「Sakana Chat」をアップデートし、新たにオーケストレータモデル「Sakana Fugu」を追加した。Fuguはメールアドレス登録のみで無料利用でき、複雑な指示の理解や複数ステップにまたがるタスクを得意とするモデルと説明されている。日本語特化LLM「Sakana Namazu」は中国Moonshot AIのオープンモデル「Kimi K2.6」をベースとした新世代へ刷新され、日本語処理と自律タスク実行の性能が向上した。今回のアップデートではPythonをサンドボックスで実行する機能、HTMLプレビュー、Word・Excel・PDFのファイル添付にも新たに対応している。",
+          "sourceName": "ITmedia AI+",
+          "sourceUrl": "https://www.itmedia.co.jp/aiplus/article/2608/13/2000000524/",
+          "tags": ["技術トレンド", "AI", "開発ツール"]
+        },
+        {
+          "position": 2,
+          "title": "npm 代替「vlt」が v1.0 到達 — クリーンインストールが npm より 38% 速くセキュリティファーストな設計",
+          "summary": "vlt technologyは<strong>2026</strong>年<strong>8</strong>月<strong>6</strong>日、npmの直接代替を目指すパッケージマネージャ「vlt」のバージョン<strong>1</strong>.<strong>0</strong>を正式リリースした。クリーンインストールの速度はnpmより<strong>38</strong>%速く、OSVなど公開マルウェアフィードからデータを取得して既知の不正パッケージをレジストリレベルで遮断するセキュリティファーストな設計が特徴だ。v<strong>1</strong>.<strong>0</strong>のリリースと同時に、npmのミラーレジストリとプライベートレジストリのサービス提供も開始した。npm作者らが参加するプロジェクトであり、開発体制への注目も集めている。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/npmvlt10npm.html",
+          "tags": ["技術トレンド", "開発ツール", "OSS"]
+        },
+        {
+          "position": 3,
+          "title": "CNCF 調査、日本のクラウドネイティブ開発者が初の約 100 万人 — 国内開発者全体の 41%",
+          "summary": "CNCFとSlashDataは<strong>2026</strong>年<strong>7</strong>月<strong>29</strong>日、KubeCon + CloudNativeCon Japan <strong>2026</strong>（横浜）の開催にあわせ「日本におけるクラウドネイティブ開発の現状<strong>2026</strong>」レポートを発表した。<strong>2026</strong>年第<strong>1</strong>四半期時点で日本のクラウドネイティブ開発者を約<strong>95</strong>万人と推計しており、CNCFはこれを「約<strong>100</strong>万人に到達」と発表した。国内開発者全体の<strong>41</strong>%を占め、そのうちAI開発にも携わる人は約<strong>10</strong>万人と推計されている。調査は<strong>95</strong>カ国・<strong>1</strong>万<strong>2</strong>,<strong>500</strong>以上の回答をもとに作成された。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/100cncf.html",
+          "tags": ["技術トレンド", "クラウド", "調査"]
+        },
+        {
+          "position": 4,
+          "title": "Vercel Labs が「scriptc」をOSS公開 — TypeScript を JS エンジン不要の 178KB ネイティブバイナリに変換",
+          "summary": "Vercel Labsは<strong>2026</strong>年<strong>7</strong>月<strong>24</strong>日、TypeScriptをC言語経由でネイティブ実行ファイルにコンパイルする「scriptc」をApache-<strong>2</strong>.<strong>0</strong>ライセンスでオープンソース公開した。コンパイル後のバイナリはJavaScriptエンジンを含まず、シンプルなTypeScript CLIで<strong>178</strong>KBのサイズ・約<strong>2</strong>.<strong>4</strong>msの起動時間を実現する。Node.jsの起動時間（<strong>47</strong>ms）に対し約<strong>20</strong>倍速く、Node SEAと比べてバイナリサイズは約<strong>400</strong>分の<strong>1</strong>になる。通常のTypeScriptコードを変更なしにコンパイルでき、動的コードへはQuickJS-NGへのフォールバックで対応する。",
+          "sourceName": "gihyo.jp",
+          "sourceUrl": "https://gihyo.jp/article/2026/07/scriptc",
+          "tags": ["技術トレンド", "開発ツール", "OSS"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "LLM は「新仮説を生む推論」が構造的に不可能 — DeepMind が ICML 2026 で問題提起",
+          "summary": "DeepMind研究者のTom Zanavyは国際機械学習会議ICML <strong>2026</strong>で論文「LLMs can't jump」を発表し、大規模言語モデルにはアブダクション（新仮説生成推論）が構造的に実行できないと論じた。LLMは帰納（induction）と演繹（deduction）を習得済みだが、アインシュタインが相対性理論を発見した際に用いたような「既存の枠組みを超えた仮説を生み出す推論」には対応できないと指摘する。対比として、AlphaProofがIMO <strong>2024</strong>で銀メダル（<strong>28</strong>/<strong>42</strong>点）、GeminiがIMO <strong>2025</strong>で金メダル（<strong>35</strong>/<strong>42</strong>点）を達成したことを挙げ、演繹的推論の限界と創造的発明の間に横たわる壁を分けて論じた。AIが得意な処理と人間の独自性の境界を理解することは、AI共創時代に自分の思考をどう鍛えるかを考える出発点になる。",
+          "sourceName": "AI新聞（ExaWizards）",
+          "sourceUrl": "https://exawizards.com/column/ai-trend/news-07-29-2026-2/",
+          "tags": ["思考力", "AI", "研究"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "横浜・織田翔希が甲子園史上最速 156 キロ — 無死満塁ピンチを無失点で切り抜け 2 年連続 16 強",
+          "summary": "<strong>8</strong>月<strong>14</strong>日、第<strong>108</strong>回全国高校野球選手権大会<strong>2</strong>回戦で横浜（神奈川）が日南学園（宮崎）に<strong>10</strong>対<strong>1</strong>で圧勝した。<strong>1</strong>対<strong>1</strong>の<strong>6</strong>回に無死二・三塁で登板した織田翔希（<strong>3</strong>年）は申告敬遠で満塁としたのち、カウント<strong>1</strong>―<strong>1</strong>から<strong>156</strong>キロを計測して甲子園の高校生投手として史上最速を更新。続く<strong>155</strong>キロで谷口を見逃し三振に仕留め、最終的に二ゴロ併殺でピンチを無失点で切り抜けた。今秋ドラフト<strong>1</strong>位候補で普段の最速<strong>157</strong>キロを誇る織田の救援で試合の流れが変わり、横浜は<strong>2</strong>年連続でベスト<strong>16</strong>（<strong>3</strong>回戦）進出を決めた。",
+          "sourceName": "高校野球ドットコム",
+          "sourceUrl": "https://www.hb-nippon.com/articles/16267",
+          "tags": ["スポーツ", "高校野球"]
+        }
+      ]
+    }
+  ]
+}
