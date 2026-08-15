@@ -1,0 +1,84 @@
+{
+  "date": "2026-08-16",
+  "label": "2026年8月16日 (日)",
+  "intro": "DeepSeekが全機能プラグイン化のAIエージェント基盤「Harness」をMITライセンスで公開し、DynamoDBのベクトル検索が<strong>8</strong>月<strong>5</strong>日にGAへ。バスケ日本代表は八村塁が<strong>22</strong>得点・河村が<strong>12</strong>得点<strong>6</strong>アシストで韓国に<strong>88</strong>対<strong>68</strong>の快勝を収めた。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "DeepSeek、全機能プラグイン化のAIエージェント基盤「Harness」をv0.1開発者プレビューとしてオープンソース公開",
+          "summary": "DeepSeekは<strong>2026</strong>年<strong>8</strong>月<strong>13</strong>日、AIエージェント基盤「Harness」のv<strong>0</strong>.<strong>1</strong>開発者プレビューをMITライセンスでオープンソース公開した。「すべてがプラグイン」をコンセプトとし、モデル・ツール・スキル・セッション・サンドボックス・ファイルシステム・エージェントループ・オーケストレーション・UIのすべてをプラグインとして差し替え可能な設計になっている。standard・code・minimal・creatorの<strong>4</strong>つの実行モードを備え、WebアプリUIとヘッドレスモードの両方に対応する起動プロファイルを提供する。",
+          "sourceName": "gihyo.jp",
+          "sourceUrl": "https://gihyo.jp/article/2026/08/deepseek-harness-developer-preview",
+          "tags": ["技術トレンド", "AI", "OSS"]
+        },
+        {
+          "position": 2,
+          "title": "Anthropic、Claudeで生成したテキストに電子透かしを導入 — EU AI法対応でグローバル適用",
+          "summary": "Anthropicは<strong>2026</strong>年<strong>8</strong>月<strong>2</strong>日以降のClaudeモデルから、生成テキストに電子透かしを埋め込む機能を適用した。EU AI法第<strong>50</strong>条への対応を目的としているが、EUに限らずグローバルで適用される。API・Claude・Claude Code・Claude Cowork・Claude Tagが対象で、読者には見えない信号を埋め込んで機械システムで検出できる仕組みだ。コピーしても透かしは残り、編集しても消えない場合があるとされている。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2608/12/2000000497/",
+          "tags": ["技術トレンド", "AI"]
+        },
+        {
+          "position": 3,
+          "title": "Cloudflare、組織向けAIエージェントワークスペース「Cloudflare OS」をApache 2.0でOSS公開",
+          "summary": "Cloudflareは<strong>2026</strong>年<strong>8</strong>月<strong>5</strong>日、組織向けAIエージェントワークスペース「Cloudflare OS」をApache <strong>2</strong>.<strong>0</strong>ライセンスでオープンソース公開した。Cloudflare Workers上で動作し、AI Gatewayで複数AIモデルを一元管理、Cloudflare Accessでユーザー制御を行う。リサーチ・データ接続ドキュメント作成・繰り返し作業の自動化に対応し、構築した成果物は組織自身が所有するためベンダーロックインが発生しない設計だ。サンドボックス化された実行環境も提供される。",
+          "sourceName": "gihyo.jp",
+          "sourceUrl": "https://gihyo.jp/article/2026/08/cloudflare-os",
+          "tags": ["技術トレンド", "AI", "OSS"]
+        },
+        {
+          "position": 4,
+          "title": "Microsoft、WindowsアプリのAIパフォーマンス解析ツール「WPA MCP」をアーリープレビュー公開",
+          "summary": "Microsoftは<strong>2026</strong>年<strong>7</strong>月<strong>30</strong>日、Windows Performance Analyzer（WPA）のトレースデータをAIで解析できる「WPA MCP」のアーリープレビューを公開した。GitHub Copilot CLIと連携し、CPU・ファイルI/O・ネットワークI/Oのボトルネックを自然言語で質問して解析できる。トレース処理はローカルのTraceProcessorエンジンで実行され、AIに送られるのは整形済みの結果のみであるためデータがクラウドに漏れない設計になっている。アーリープレビュー段階ではGitHub Copilotのみ対応する。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/aiwindows_performance_analyzer_mcpwpa_mcp.html",
+          "tags": ["技術トレンド", "AI", "開発ツール"]
+        },
+        {
+          "position": 5,
+          "title": "Amazon DynamoDB、ベクトル検索がGA — SearchVectors APIで単桁ミリ秒・99%超のrecallを実現",
+          "summary": "Amazon Web Servicesは<strong>2026</strong>年<strong>8</strong>月<strong>5</strong>日、Amazon DynamoDBのベクトル検索機能を一般提供（GA）した。新しいインデックスタイプ「ベクトルインデックス」を作成してSearchVectors APIを呼び出すことで、近似最近傍（ANN）検索が可能になる。単桁ミリ秒のレイテンシと<strong>99</strong>%超のrecallを実現し、最大<strong>4</strong>,<strong>096</strong>次元・<strong>32</strong>ビット浮動小数点精度に対応する。オンデマンドキャパシティモードのみ対応しており、全AWS商用リージョンで利用可能だ。DynamoDBの運用データと同じテーブルにベクトルを格納できるため、別途ベクターストアを用意する必要がない。",
+          "sourceName": "CodeZine",
+          "sourceUrl": "https://codezine.jp/news/detail/29260",
+          "tags": ["技術トレンド", "クラウド", "データベース"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "AIを10分使うだけで思考力・粘り強さが低下 — カーネギーメロン大ほか4大学の実験結果",
+          "summary": "カーネギーメロン大学・オックスフォード大学・MIT・UCLAの共同研究によると、わずか<strong>10</strong>分のAI使用でも参加者の思考力・粘り強さが低下することが実験で示された。AIでタスクを練習したグループはその後AIなしで取り組む段階で、AIを使わなかったグループより苦労するという結果が得られた。AIチャットボットは学習やブレインストーミングなど論理的思考タスクをサポートする一方、過度な依存は独力での実行能力を損なう可能性がある。AIを道具として使いこなすためには、自分の思考力を意識的に鍛え続けることが重要だと示唆している。",
+          "sourceName": "日経クロステック（xTECH）",
+          "sourceUrl": "https://xtech.nikkei.com/atcl/nxt/column/18/03673/072700005/?ST=singleview",
+          "tags": ["思考力", "AI", "研究"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "バスケ日本代表、八村塁22得点・河村12得点6Astで韓国に88対68の快勝",
+          "summary": "<strong>8</strong>月<strong>15</strong>日、有明アリーナで開催された「買取大吉カップ<strong>2026</strong>（東京大会）」で日本代表が韓国代表に<strong>88</strong>対<strong>68</strong>で快勝した。FIBA W杯<strong>2027</strong>アジア地区予選Window<strong>4</strong>に向けた強化試合で、パリ五輪以来<strong>2</strong>年ぶりに代表復帰した八村塁と河村勇輝が国内初共演を果たした。八村は代表復帰初戦で<strong>22</strong>得点をマークし、河村は<strong>12</strong>得点<strong>6</strong>アシストを記録。両者はスターティング<strong>5</strong>に名を連ねた。",
+          "sourceName": "バスケットボールキング",
+          "sourceUrl": "https://basketballking.jp/news/japan/20260815/627949.html",
+          "tags": ["スポーツ", "バスケットボール"]
+        }
+      ]
+    }
+  ]
+}
