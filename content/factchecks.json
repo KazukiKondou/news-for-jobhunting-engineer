@@ -19,5 +19,12 @@
     "verdict": "unverifiable",
     "detail": "ファクトチェックキューAPIへのアクセスが egressポリシーにより 403 Forbidden で拒否された（CONNECT tunnel failed）。ネットワーク制約によるもの。キューに報告済み記事があったかどうか不明。",
     "action": "キュー取得不可のためスキップ。記事生成は続行。"
+  },
+  {
+    "slug": "2026-08-16-queue",
+    "ranOn": "2026-08-16",
+    "verdict": "unverifiable",
+    "detail": "ファクトチェックキューAPIへのアクセスが egressポリシーにより 403 Forbidden で拒否された。ネットワーク制約によるもの。キューに報告済み記事があったかどうか不明。",
+    "action": "キュー取得不可のためスキップ。記事生成は続行。"
   }
 ]
