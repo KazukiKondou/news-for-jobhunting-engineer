@@ -1,0 +1,76 @@
+{
+  "date": "2026-08-17",
+  "label": "2026年8月17日 (月)",
+  "intro": "Agent Plugins <strong>1</strong>.<strong>0</strong>.<strong>0</strong>をMicrosoftら<strong>6</strong>社超が共同策定しAIエージェント拡張を標準化、クラウドインフラ市場は<strong>2026</strong>年第<strong>2</strong>四半期に前年比<strong>42</strong>%増と過去最高成長。MLBではホワイトソックス村上宗隆が<strong>28</strong>号<strong>2</strong>ランを放ち日本人選手シーズン本塁打首位へ。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Agent Plugins 1.0.0発表 — AIエージェント拡張の共通パッケージ形式をOpenAI・Microsoft・AWSら6社超が策定",
+          "summary": "OpenAI・Microsoft・AWS・Cursor・GitHub・Vercelの<strong>6</strong>社が「Agent Plugins <strong>1</strong>.<strong>0</strong>.<strong>0</strong>」を共同発表し、Googleも同日Core Maintainerとして参加を表明した。AIエージェントのスキル（再利用可能な指示・リソースセット）とMCPサーバー設定を共通パッケージ形式でまとめ、Kiro・VS Code・Cursorなど異なるクライアント間でそのまま使い回せるオープン・ベンダー中立の仕様だ。開発者は拡張機能を一度パッケージ化すれば、仕様を実装した任意のクライアントに配布できる。AnthropicはTechnical Steering Committeeには不参加となっている。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/agent_plugins_100aimcpopenaiawsgoogle.html",
+          "tags": ["技術トレンド", "AI", "標準化"]
+        },
+        {
+          "position": 2,
+          "title": "Go言語がAI支援ソフトウェアエンジニアリングに理想的な理由 — Google開発者ブログで解説",
+          "summary": "<strong>2026</strong>年<strong>8</strong>月<strong>11</strong>日、GoogleのGo言語グループPM・Cameron BalahanとGoogle Cloud Chief Evangelist・Richard SeroterがGoogle開発者ブログに「Why Go is an Ideal Language for AI-Assisted Software Engineering」を公開し、gihyo.jpが紹介した。AIコーディングツールが短時間で大量のコードを生成するようになった現代では、開発者の役割がコードを書くことからレビュー・検証・保守へシフトしていると指摘している。エンジニアが生成AIと向き合う上でのコードレビュー能力の重要性を具体的に論じた内容だ。",
+          "sourceName": "gihyo.jp",
+          "sourceUrl": "https://gihyo.jp/article/2026/08/go-ai-engineering",
+          "tags": ["技術トレンド", "AI", "Go"]
+        },
+        {
+          "position": 3,
+          "title": "クラウドインフラ市場、2026年第2四半期に前年比42%増と過去最高成長 — AWS28%維持、Google Cloud 15%へ",
+          "summary": "Synergy Researchの調査によると、<strong>2026</strong>年第<strong>2</strong>四半期のクラウドインフラ市場は前年同期比<strong>42</strong>%増と過去最高の成長率を記録した。シェアはAWSが<strong>28</strong>%を維持し、Google Cloudが<strong>1</strong>ポイント上昇して<strong>15</strong>%となった。AIワークロードへの旺盛な需要がクラウドインフラ市場の成長を引き続き牽引しており、上昇傾向が継続している。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/aws28google_cloud1154220262synergy_research.html",
+          "tags": ["技術トレンド", "クラウド", "市場データ"]
+        },
+        {
+          "position": 4,
+          "title": "npmの代替を目指すパッケージマネージャ「vlt」がv1.0に到達 — クリーンインストール38%高速化",
+          "summary": "npmの代替を目指すセキュリティファーストなパッケージマネージャ「vlt」がバージョン<strong>1</strong>.<strong>0</strong>に到達した。クリーンインストールのベンチマークではnpmより最大<strong>38</strong>%高速に動作し、既存のツールチェーンを変更せずにそのまま導入できる。あわせてnpmのミラーレジストリとプライベートレジストリソフトウェア「vsr」の有料ホスティングサービスも提供を開始した。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/npmvlt10npm.html",
+          "tags": ["技術トレンド", "開発ツール", "npm"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "従業員のひそかなAI利用を生産性向上につなげる方法 — 成功企業が実践した5原則",
+          "summary": "多くの企業のAI導入プロジェクトが停滞する一方、大規模組織の内部では従業員が業務ツールでは使えないChatGPTやClaudeなどを個人デバイスで使う「シャドーAI」現象が広がっている。AIを活用して生産性を高めた従業員が成果を共有しない背景には、仕事量を増やされることや自己評価の低下への懸念があると指摘される。著者らは成功企業が実践する<strong>5</strong>つの原則を通じて、この隠れたAI活用を組織の生産性向上につなげる方法を論じている。",
+          "sourceName": "DIAMOND ハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/13953",
+          "tags": ["思考力", "AI", "組織行動"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "村上宗隆、28号勝ち越し2ランで2026年シーズン日本人選手本塁打首位に浮上",
+          "summary": "<strong>8</strong>月<strong>16</strong>日（日本時間<strong>17</strong>日）のMLBタイガース戦で、ホワイトソックスの村上宗隆が<strong>7</strong>回無死一塁の場面で<strong>28</strong>号勝ち越し<strong>2</strong>ランを放った。この本塁打により大谷翔平を抜いて<strong>2026</strong>年シーズンの日本人選手本塁打数単独トップに浮上した。年間換算では<strong>36</strong>.<strong>9</strong>本ペースで推移しており、アメリカンリーグ本塁打王争いでは単独<strong>4</strong>位に位置している。",
+          "sourceName": "Yahoo!ニュース（Full-Count）",
+          "sourceUrl": "https://news.yahoo.co.jp/articles/094cbc84065d3e27bf31bc2e12a946c9dfb3ba3d",
+          "tags": ["スポーツ", "野球", "MLB"]
+        }
+      ]
+    }
+  ]
+}
