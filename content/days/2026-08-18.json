@@ -1,0 +1,84 @@
+{
+  "date": "2026-08-18",
+  "label": "2026年8月18日 (火)",
+  "intro": "Zed Industriesが「Delta」を発表し人間とAIの対話・コード変更を全記録、MicrosoftのMAI-Code-<strong>1</strong>.<strong>1</strong>-FlashがGitHub Copilotに展開され前世代比<strong>73</strong>%低価格化。東京科学大が患者自身の細胞で腸を修復する腸オルガノイドの培養成功率<strong>80</strong>%を報告。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Zed「Delta」発表 — 人間とAIの全対話・コード変更履歴をチームで共有",
+          "summary": "Zed Industriesの開発チームは<strong>2026</strong>年<strong>8</strong>月<strong>12</strong>日、コードエディタZedのAI協働開発環境「Delta」を発表し、プライベートベータの招待を開始した。DeltaDBはCRDT（コンフリクトフリー複製データ型）ベースで、文字レベルの粒度で全変更を追跡する設計だ。AIエージェントと人間の開発者が同じ会話・意思決定を共有しながら作業でき、コミット間のすべての編集と対話が記録される。コードがなぜその実装になっているかを後から追えるため、チームでのAI活用の透明性が高まる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/zeddeltaai.html",
+          "tags": ["技術トレンド", "AI", "開発ツール"]
+        },
+        {
+          "position": 2,
+          "title": "MAI-Code-1.1-Flash、GitHub Copilotへ展開 — 前世代比73%安・25%高速化",
+          "summary": "MicrosoftのAIコーディングモデル「MAI-Code-<strong>1</strong>.<strong>1</strong>-Flash」が<strong>2026</strong>年<strong>8</strong>月<strong>11</strong>日よりGitHub Copilotに展開を開始した。前世代のMAI-Code-<strong>1</strong>-Flashと比べてリスト価格が<strong>73</strong>%低く、トークン出力速度は<strong>25</strong>%速く、同一タスクを<strong>25</strong>%少ないトークンで完了する。Terminal-Bench <strong>2</strong>.<strong>1</strong>では<strong>22</strong>%、.NETタスクでは<strong>15</strong>%の性能改善を達成し、画像のネイティブ理解にも対応した。Copilot CLI・クラウドエージェント・VS Code・JetBrains・Eclipse・Xcodeなど広範なプラットフォームで利用できる。",
+          "sourceName": "GitHub Changelog",
+          "sourceUrl": "https://github.blog/changelog/2026-08-11-mai-code-1-1-flash-available-in-github-copilot/",
+          "tags": ["技術トレンド", "AI", "開発ツール"]
+        },
+        {
+          "position": 3,
+          "title": "HashiCorp共同創業者がSuperlogical設立 — 全仕事向けターミナルマルチプレクサ開発へ",
+          "summary": "HashiCorp共同創業者のMitchell Hashimotoが新会社「Superlogical」を設立し、最初のプロダクトとしてターミナルマルチプレクサの開発を表明した。アプリを閉じても長期間セッションが維持され、WebやネイティブのmacOS・iOSアプリから同じセッションに再接続できる設計だ。tmux・Zellijなど既存のマルチプレクサのパフォーマンス課題を解決し、AIエージェントと開発者・インフラが収束するプラットフォームを目指す。Notable Capital・Amplify Partnersが出資し、Aaron Levie・Patrick Collison・Tobias Lütkeらエンジェル投資家も参加している。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/superlogical.html",
+          "tags": ["技術トレンド", "開発ツール", "スタートアップ"]
+        },
+        {
+          "position": 4,
+          "title": "1Password、Claude・Cursor・ChatGPTのAI支出をダッシュボードで一元管理",
+          "summary": "パスワードマネージャで知られる1Passwordが、企業のAIツール支出を一元管理する新機能「AI Spend and Consumption Management」をSaaS Managerに追加した。Anthropic（Claude）・Cursor・OpenAI（ChatGPT）の<strong>3</strong>サービスのトークン消費量を毎日取得し、チーム・ユーザー・ベンダー・モデル別に内訳を表示するダッシュボードを提供する。ベンダーレベルの支出上限設定やSlack・メールへのアラート通知も備えており、現在パブリックプレビューで秋に本格提供を予定している。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/1passwordaiclaudecursorchatgptaii.html",
+          "tags": ["技術トレンド", "AI", "セキュリティ"]
+        },
+        {
+          "position": 5,
+          "title": "Tokioチームが「Topcoat」発表 — Rust製フルスタックWebフレームワーク",
+          "summary": "Rust製非同期ランタイム「Tokio」の開発チームが、フルスタックWebアプリフレームワーク「Topcoat」を発表した。サーバーサイドレンダリング・ルーティング・コンポーネントライブラリをセットで提供し、WebAssemblyを使わずコンパイル時に生成したJavaScriptでクライアント側のリアクティビティを実現する設計だ。Leptos・Dioxusなど既存のRust WebフレームワークとはWebAssemblyバンドル不要という点で異なるアプローチをとる。最新バージョンは<strong>0</strong>.<strong>5</strong>.<strong>0</strong>で、Rust <strong>1</strong>.<strong>95</strong>以上が動作要件となっている。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/rustwebtopcoattokio.html",
+          "tags": ["技術トレンド", "Rust", "フレームワーク"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "「学ぶほど考える力がつく」は勘違い — 科学が積み上げた「考えない」知識の歴史",
+          "summary": "東洋経済オンラインに掲載された記事は、「学べば学ぶほど思考力がつく」という通念を科学の知見から問い直す。知識の発展の歴史は実際には「考えなくてよくするための歩み」であり、天動説から地動説への転換や中世哲学の「オッカムの剃刀」がその具体例として挙げられる。なぜ学びが「考えないこと」に向かうのかを問う構成で、思考と知識の関係を正面から論じた内容だ。",
+          "sourceName": "東洋経済オンライン",
+          "sourceUrl": "https://toyokeizai.net/articles/-/952515",
+          "tags": ["思考力", "認知科学", "学習"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "患者の細胞で腸を修復する腸オルガノイド、潰瘍性大腸炎でも培養成功率80% — 東京科学大",
+          "summary": "東京科学大学の研究チームが、患者自身の細胞から「腸オルガノイド」を培養して腸を修復する再生医療技術を報告した。コラーゲンを培養材料として用いることで、これまで培養が難しいとされてきた潰瘍性大腸炎患者でも約<strong>80</strong>%の成功率で高品質なオルガノイドを安定して作製できることが示された。試験管内で腸の構造と機能を再現したこの微小組織は、薬の効果検証や病態研究に加え、将来は傷ついた腸の粘膜を修復する治療への応用も期待される。",
+          "sourceName": "Science Tokyo（東京科学大学）",
+          "sourceUrl": "https://www.isct.ac.jp/ja/news/uyyu3w3ntdzh",
+          "tags": ["科学", "再生医療", "医療"]
+        }
+      ]
+    }
+  ]
+}
