@@ -1,0 +1,84 @@
+{
+  "date": "2026-08-19",
+  "label": "2026年8月19日 (水)",
+  "intro": "CursorがAI対応コードホスティング「Origin」を発表し、KubeflowがPyPI累計<strong>2億6000万</strong>ダウンロードを記録してCNCF卒業プロジェクトに認定。Agent Plugins <strong>1</strong>.<strong>0</strong>で<strong>6</strong>社がAIエージェント共通仕様を策定、Mojo <strong>1</strong>.<strong>0</strong>もリリース。JAXAはフォボスへのサンプルリターンを目指す火星探査機MMXの機体（約<strong>4.5</strong>トン）を種子島で公開した。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "CursorがAIエージェント向けコードホスティング「Origin」をベータ公開 — GitHub対抗の新サービス",
+          "summary": "AI code editor「Cursor」を開発するAnysphereが2026年8月17日、AIエージェント時代向けに設計したコードホスティングサービス「Origin」の初期ベータ提供を有料プランユーザー向けに開始した。リポジトリ・プルリクエスト・コードブラウジングをCursorエディタ内にネイティブ統合し、数千のAIエージェントが同じリポジトリへ同時にプッシュ・プルできるスループットを設計目標に据えている。GitHub同期機能を備えており、GitHubを引き続き正として使いながらOriginへ切り替える移行も想定している。当初の発表は2026年6月17日のCompile 2026カンファレンスで行われ、当初の「秋リリース予定」を大幅に前倒しての提供開始となった。",
+          "sourceName": "gihyo.jp",
+          "sourceUrl": "https://gihyo.jp/article/2026/08/cursor-origin-code-hosting",
+          "tags": ["技術トレンド", "AI", "開発ツール"]
+        },
+        {
+          "position": 2,
+          "title": "KubeflowがCNCF卒業プロジェクトに — PyPI累計2億6000万ダウンロード、AI/MLの本番基盤標準へ",
+          "summary": "Cloud Native Computing Foundation（CNCF）は2026年8月17日、機械学習ワークロードのKubernetesネイティブ基盤「Kubeflow」の卒業プロジェクト認定を発表した。2017年にGoogleで開始し2023年にCNCFインキュベーション入りしたKubeflowは、貢献者<strong>6600</strong>名超・<strong>1000</strong>以上の組織が参加し、GitHubスター数は<strong>33000</strong>超に達する。PythonパッケージのPyPIダウンロード数は累計<strong>2億6000</strong>万回を超え、Bloomberg・NVIDIA・Red Hat・LinkedIn・Spotifyなどが本番AI/ML基盤として採用している。データ処理から分散学習・ファインチューニング・推論・サービングまで、AIライフサイクル全体をKubernetes上で統合管理できる。",
+          "sourceName": "CNCF",
+          "sourceUrl": "https://www.cncf.io/announcements/2026/08/17/cncf-announces-kubeflows-graduation-solidifying-the-standard-for-cloud-native-ai-operations/",
+          "tags": ["技術トレンド", "AI", "クラウド"]
+        },
+        {
+          "position": 3,
+          "title": "Agent Plugins 1.0公開 — Amazon・Microsoft・OpenAI・Google・Cursorが合意したAIエージェント共通仕様",
+          "summary": "Amazon・Microsoft・OpenAI・Cursor・VercelおよびGoogleが2026年8月12日、AIエージェントのスキルとMCPサーバーをポータブルなプラグインとして配布する標準仕様「Agent Plugins 1.0.0」を公開した。一度作成したプラグインがChatGPT・VS Code・GitHub Copilot・Cursor・Kiroなど複数のプラットフォームで動作する設計で、AnthropicのAgent Skills仕様とLinux Foundation傘下のMCPを土台に構築している。テクニカルステアリングコミッティにはAWS・Cursor・Microsoft・OpenAI・Vercelの担当者が参加し、VS Code・Copilot CLI・Copilot公式アプリでの動作が確認されている。プラグインストアやセキュリティ仕様は今後の策定となり、現段階はWorking Draftである。",
+          "sourceName": "GitHub Changelog",
+          "sourceUrl": "https://github.blog/changelog/2026-08-12-agent-plugins-1-0-in-vs-code-copilot-cli-and-the-copilot-app/",
+          "tags": ["技術トレンド", "AI", "標準化"]
+        },
+        {
+          "position": 4,
+          "title": "PythonライクなAI高速化言語「Mojo」がバージョン1.0に到達 — コンパイラのOSS化も予定",
+          "summary": "ModularはAI処理高速化を目的としたPythonライクな新言語「Mojo」のバージョン<strong>1</strong>.<strong>0</strong>を2026年8月11日にリリースした。<strong>200</strong>名以上のコントリビューターが<strong>1100</strong>件を超えるプルリクエストを通じて開発に関わり、オープンソース化された標準ライブラリコアモジュールへの変更行数は<strong>20</strong>万行超に達する。1.0到達は言語の完成ではなく安定した土台の確立を意味し、ModularのAI開発プラットフォームMAXおよびModular Cloudでの本番活用実績が1.0宣言の根拠とされている。コンパイラとツールチェーンのオープンソース化も2026年中に予定されている。",
+          "sourceName": "gihyo.jp",
+          "sourceUrl": "https://gihyo.jp/article/2026/08/mojo-1.0",
+          "tags": ["技術トレンド", "AI", "プログラミング言語"]
+        },
+        {
+          "position": 5,
+          "title": "VS Code 1.133リリース — AIエージェントを専用プロセスに分離し複数ウィンドウ共有を実現",
+          "summary": "Microsoftは2026年8月12日、Visual Studio Code 1.133をリリースした。最大の変更点はAIエージェントのホスト処理をエディタ本体から独立した専用プロセスへ分離した「Agent Host」アーキテクチャで、複数ウィンドウにまたがるセッション共有やリモート実行が可能になった。AIアシスタント機能ではターン間でモデルプロバイダを再設定なしで切り替えられるようになり、GitHub未サインインの状態でも独自のAPIキーを使ってClaudeなどのエージェントを利用できる。HTMLファイルのオートリロードなど開発者の日常フローを補う改善も加わっている。",
+          "sourceName": "Visual Studio Code",
+          "sourceUrl": "https://code.visualstudio.com/updates/v1_133",
+          "tags": ["技術トレンド", "開発ツール", "AI"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "「AIで時短したのになぜ疲れる？」脳科学者が「情報メタボ」の仕組みを解説",
+          "summary": "ビジネス+ITは2026年8月18日、お茶の水女子大学ヒューマンライフサイエンス研究所の神経科学者による取材記事を公開した。生成AIで情報収集や文章作成が速くなる一方、「以前より脳が疲れる」と感じる人が増えている原因として、受け身で情報を受け取る時間の増加が挙げられている。自分で選んで試して結果を確かめる行為が減ることで「自分が状況を動かしている」という感覚が弱まるという「情報メタボ」の概念を提示し、それが慢性的な脳疲労につながると説明する。AIを使いこなすには読解力と文章力が必要であるという逆説も指摘しており、思考を手放さないためのAI活用法を論じている。",
+          "sourceName": "ビジネス+IT",
+          "sourceUrl": "https://www.sbbit.jp/article/cont1/186309",
+          "tags": ["思考力", "認知科学", "AI"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "JAXA、火星衛星探査機MMXの機体を種子島で公開 — 約4.5トンのH3搭載機、2031年フォボスからサンプルリターンへ",
+          "summary": "JAXAは2026年8月13日、種子島宇宙センターで火星衛星探査計画（MMX: Martian Moons eXploration）の機体を報道向けに公開した。三菱電機が開発した探査機の重量は約<strong>4.5</strong>トンで、JAXAの月・惑星探査機として最大級となる。往路モジュール・探査モジュール・復路モジュールの<strong>3</strong>パーツで構成され、H3ロケットで打ち上げ後に火星の衛星「フォボス」へ着陸してサンプルを採取し、<strong>2031</strong>年度に地球へ帰還させる計画だ。実現すれば火星系天体からのサンプルリターンは世界初となる。",
+          "sourceName": "マイナビニュース",
+          "sourceUrl": "https://news.mynavi.jp/techplus/article/20260813-4814923/",
+          "tags": ["科学", "宇宙", "JAXA"]
+        }
+      ]
+    }
+  ]
+}
