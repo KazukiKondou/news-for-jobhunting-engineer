@@ -1,0 +1,68 @@
+{
+  "date": "2026-08-20",
+  "label": "2026年8月20日 (木)",
+  "intro": "DockerがDesktop v4.<strong>86</strong>で自社製ハイパーバイザVMMをパブリックベータ公開（<strong>10</strong>月末GA予定）、Gartnerが<strong>2029</strong>年に企業の<strong>60</strong>%超が小規模チームでAI活用と予測。GoogleはHEIRで準同型暗号のままAI推論を実現、NASAは欧州本土<strong>27</strong>年ぶりとなる<strong>2026</strong>年スペイン皆既日食の画像を公開した。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Docker VMM パブリックベータ公開 — Docker Desktop v4.86でMac/Windows向け自社製ハイパーバイザが利用可能に",
+          "summary": "DockerはDocker Desktop v4.<strong>86</strong>において自社開発のハイパーバイザ「Docker VMM」のパブリックベータを開始した。MacおよびWindowsで利用でき、現在Linuxには対応していない。従来の仮想化バックエンドの置き換えを目指した設計で、<strong>10</strong>月末の正式リリース（GA）を予定している。",
+          "sourceName": "Docker Blog",
+          "sourceUrl": "https://www.docker.com/blog/docker-vmm-public-beta/",
+          "tags": ["技術トレンド", "開発ツール", "仮想化"]
+        },
+        {
+          "position": 2,
+          "title": "ガートナー予測：2029年に企業の60%超が小規模チームでAI活用展開 — 現在の15%未満から急拡大",
+          "summary": "ガートナーは、<strong>2029</strong>年までに企業の<strong>60</strong>%以上が小規模チームによるAI活用展開を実現すると予測した。現時点で小規模チームがAIを業務展開できている割合は<strong>15</strong>%未満にとどまる。あわせて<strong>2028</strong>年までにジュニアエンジニアの採用を削減した企業は中長期的な人材パイプラインを損なうリスクがあると警告しており、AIによる自動化と人材育成のバランスが問われる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/202960.html",
+          "tags": ["技術トレンド", "AI", "採用・キャリア"]
+        },
+        {
+          "position": 3,
+          "title": "GoogleがHEIRを公開 — 準同型暗号のままAIモデルをコンパイル・推論し、復号なしで処理",
+          "summary": "Googleは<strong>2026</strong>年<strong>8</strong>月<strong>14</strong>日にAI推論フレームワーク「HEIR（Homomorphic Encryption Intermediate Representation）」をPrivate Computing Toolkitに追加した。完全準同型暗号（FHE）を活用し、AIモデルのコンパイルと推論処理を暗号データのまま実行する設計で、復号によるデータ漏洩リスクを根本から排除する。推薦モデル・クレジットカード不正検知・ネットワーク侵入検知・ホットワード検出の<strong>4</strong>用途での動作が実演されている。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/googleaiheirai.html",
+          "tags": ["技術トレンド", "AI", "セキュリティ"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 4,
+          "title": "AIで考えなくなる子、AIでもっと考える子 — OSU研究が示す「認知オフロード」の分岐点",
+          "summary": "オハイオ州立大学（OSU）の研究（Choudhuri・Sarma, <strong>2026</strong>年<strong>5</strong>月）によると、AIを日常的に使用した学習者では自己内省が<strong>66</strong>%、批判的思考が<strong>41</strong>%、理解への欲求が<strong>21</strong>%それぞれ低下したことが示された。この現象は認知科学者のRiskoとGilbertが提唱する「Cognitive Offloading（認知オフロード）」として理解され、思考の外部化が進むほど自分で考える機会が失われるリスクがある。AIの操作が得意な子ほど無意識に思考を手放しやすいという逆説も示唆されており、AI時代に思考力を守る教育設計が問われている。",
+          "sourceName": "NewsPicks",
+          "sourceUrl": "https://newspicks.com/news/17288543/body/",
+          "tags": ["思考力", "認知科学", "AI"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "NASA、2026年スペイン皆既日食の高解像度画像を公開 — 欧州本土27年ぶりの観測でISSも撮影",
+          "summary": "<strong>2026</strong>年<strong>8</strong>月<strong>12</strong>日、スペインやアイスランドなど欧州・北アフリカ各地で皆既日食が観測された。欧州本土での皆既日食は<strong>1999</strong>年以来<strong>27</strong>年ぶりとなる。NASAはSan Millán de los Caballerosで撮影した高解像度の合成画像を<strong>8</strong>月<strong>16</strong>日に公開し、国際宇宙ステーション（ISS）が太陽面を横切る場面を捉えた画像も含まれる。",
+          "sourceName": "sorae.info",
+          "sourceUrl": "https://sorae.info/astronomy/20260816-total-solar-eclipse.html",
+          "tags": ["科学", "宇宙", "天文"]
+        }
+      ]
+    }
+  ]
+}
