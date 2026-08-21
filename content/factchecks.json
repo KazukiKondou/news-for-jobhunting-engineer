@@ -40,5 +40,12 @@
     "verdict": "unverifiable",
     "detail": "ファクトチェックキューAPIへ curl で問い合わせたが HTTP 22（接続失敗）が返った。egressポリシーによるブロックと判断。キューに報告済み記事があったかどうか不明。",
     "action": "キュー取得不可のためスキップ。記事生成は続行。"
+  },
+  {
+    "slug": "2026-08-22-queue",
+    "ranOn": "2026-08-22",
+    "verdict": "unverifiable",
+    "detail": "ファクトチェックキューAPIへ curl で問い合わせたが HTTP 22（exit=22、接続失敗）が返った。FACTCHECK_TOKEN 未設定によるものと判断。キューに報告済み記事があったかどうか不明。",
+    "action": "キュー取得不可のためスキップ。記事生成は続行。"
   }
 ]

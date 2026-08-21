@@ -1,0 +1,68 @@
+{
+  "date": "2026-08-22",
+  "label": "2026年8月22日 (土)",
+  "intro": "FindyがGitHub連携でエンジニア就活生向け「Findy Student」β版を開始。Geminiが月間<strong>10</strong>億ユーザーを突破しGoogleで最速成長製品に。OpenAIは<strong>13</strong>〜<strong>17</strong>歳向けChatGPT for Teensを発表し、アシックスは創業以来初の売上高<strong>1</strong>兆円台を記録した。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Findy Student β版開始 — GitHubの活動から「コミットレポートカード」を自動生成、9月にTech文化祭も",
+          "summary": "ファインディは学生エンジニア向け新サービス「Findy Student」のβ版提供を開始した。GitHubアカウントと連携すると公開リポジトリの活動をもとにコミットレポートカードが自動生成され、月間のプログラミング言語ランキングやコミット数・連続活動日数などを<strong>1</strong>枚のカードで可視化・共有できる。<strong>9</strong>月<strong>26</strong>日には参加<strong>150</strong>名規模の「Tech文化祭 2026」を開催予定で、現役エンジニアによる登壇・学生LT大会・企業との交流プログラムが設けられる。スポンサーにDip・Timee・Sansan・freeeなどWeb系IT企業が参加している。",
+          "sourceName": "ファインディ株式会社 公式ニュース",
+          "sourceUrl": "https://findy.co.jp/4434/",
+          "tags": ["就活サービス", "学生", "GitHub"]
+        },
+        {
+          "position": 2,
+          "title": "Gemini、月間アクティブユーザー10億人を突破 — Googleで最速成長の14番目の大台製品に",
+          "summary": "<strong>2026</strong>年<strong>8</strong>月<strong>11</strong>日、Google CEOサンダー・ピチャイがX上でGeminiアプリの月間アクティブユーザー数が<strong>10</strong>億人を超えたと発表した。Googleで<strong>14</strong>番目となる<strong>10</strong>億人達成製品となり、同社の全製品・サービスの中で最速の成長を記録した。ユーザーの<strong>63</strong>%が音声を通じてGeminiとやりとりしており、月間<strong>1</strong>億<strong>5000</strong>万枚以上の画像が生成されている。翌日の「Made by Google」ハードウェアイベントに先立つ発表で、Pixel 11シリーズへのGemini深度統合が期待されていた。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2608/12/2000000500/",
+          "tags": ["技術トレンド", "AI", "Google"]
+        },
+        {
+          "position": 3,
+          "title": "OpenAI、13〜17歳向け「ChatGPT for Teens」発表 — 宿題の丸投げ検知・自傷領域の保護も標準化",
+          "summary": "OpenAIは<strong>2026</strong>年<strong>8</strong>月<strong>18</strong>日、<strong>13</strong>〜<strong>17</strong>歳の未成年向け利用環境「ChatGPT for Teens」を発表した。学習支援機能「Study Mode」をはじめとする複数の機能を提供するとともに、自傷行為・摂食障害などの高リスク領域への制限をデフォルトで有効にする。宿題の答えを直接提示するのではなく問題を解く過程へ導くリマインダー機能も新たに導入された。年齢推定システムが18歳未満と判断した場合、またはユーザーが<strong>13</strong>〜<strong>17</strong>歳と申告した場合に自動で適用される仕組みで、<strong>90</strong>分ごとに休憩を促す通知も備える。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2608/19/2000000606/",
+          "tags": ["技術トレンド", "AI", "OpenAI"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 4,
+          "title": "AIが実装まで担う時代、エンジニアとして何が残るのか — 問題設定と仮説化に価値の重心が移る",
+          "summary": "AIが自律的にコードを書き、アーキテクチャを最適化し、運用計画まで提示するようになった今、非エンジニアでも自身の問題を自力で解決できる場面が増えている。エンジニアの価値はどこへ移るかを筆者は問い直す。既存のフレームワークには収まらない問題を発見し、新しい思考の層や薄い仕組みを仮説として立て、実装と検証でそれを確かめるプロセスが、AIには代替しにくい領域として残ると筆者は論じる。「道具を使う名手」から「問いを設定できる者」へと自己認識を更新することを、この短い文章は促している。",
+          "sourceName": "tsuyuki.makoto",
+          "sourceUrl": "https://www.tsuyukimakoto.com/blog/2026/08/09/engineer_strength_in_the_ai_era_202608/",
+          "tags": ["思考力", "AI", "エンジニアキャリア"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "アシックス、売上高が初の1兆円台へ — オニツカタイガー全地域2桁成長で業績予想を上方修正",
+          "summary": "アシックスは<strong>2026</strong>年<strong>8</strong>月<strong>14</strong>日、<strong>2026</strong>年<strong>12</strong>月期通期の売上高予想を<strong>1</strong>兆<strong>500</strong>億円（前期比<strong>29.5</strong>%増）に引き上げ、創業以来初の<strong>1</strong>兆円超えを見込むと発表した。上半期（<strong>1</strong>〜<strong>6</strong>月）の売上高は<strong>5344</strong>億円・前年同期比<strong>32.7</strong>%増、営業利益は<strong>48.5</strong>%増の<strong>1204</strong>億円と過去最高を更新した。日常履きのスポーツシューズ需要の拡大に加え、「オニツカタイガー」ブランドが全地域で<strong>2</strong>桁成長を維持し、売上<strong>895</strong>億円（<strong>35.9</strong>%増）を記録した。決算発表後に株価は一時<strong>13</strong>%高の<strong>5389</strong>円を付け、上場来高値を更新した。",
+          "sourceName": "FASHIONSNAP.COM",
+          "sourceUrl": "https://www.fashionsnap.com/article/2026-08-14/asics-2026-2q/",
+          "tags": ["スポーツ", "ビジネス", "グローバル"]
+        }
+      ]
+    }
+  ]
+}
