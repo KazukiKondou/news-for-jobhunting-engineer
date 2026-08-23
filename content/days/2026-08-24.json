@@ -1,0 +1,68 @@
+{
+  "date": "2026-08-24",
+  "label": "2026年8月24日 (月)",
+  "intro": "QualcommがModularを買収した<strong>3</strong>週間後、「Mojo」コンパイラがApache <strong>2.0</strong>でオープンソース化された。ZedはAIとの対話履歴とコード変更を一体管理する「Delta」を発表し、Cloud Native BuildpacksがCNCF卒業プロジェクトに昇格。DIAMOND HBRはAI反復使用が組織の意思決定を「知識の劣化」で蝕むと警告し、JAXAはH3ロケット<strong>10</strong>号機による火星衛星探査機MMXの打ち上げを<strong>10</strong>月<strong>20</strong>日と決定した。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Qualcomm傘下のModular、「Mojo」コンパイラをApache 2.0でオープンソース公開 — 異種AIハードウェアを統一しNVIDIA CUDAに対抗",
+          "summary": "QualcommはModularを約<strong>39</strong>億ドルで買収した<strong>3</strong>週間後の<strong>2026</strong>年<strong>8</strong>月<strong>20</strong>日、ModCon <strong>2026</strong>（サンフランシスコ）でMojoコンパイラとModularプラットフォーム全体をApache <strong>2.0</strong>ライセンス（LLVMフラグメント含む）でオープンソース公開した。コードはGitHubのmodular/modularリポジトリで即座に利用可能となり、CPU・NVIDIA/AMD GPU・AWS Trainium・Google TPU・Qualcomm Cloud AI <strong>100</strong>など異種AIアクセラレータへの統一対応を目指す。MicrosoftのWindowsチームとの協力によるWindows版Mojoの開発も表明されており、NVIDIA CUDAに代わるクロスハードウェアAI実行基盤としての位置付けを鮮明にした。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/pythonmojowindows.html",
+          "tags": ["技術トレンド", "AI", "オープンソース"]
+        },
+        {
+          "position": 2,
+          "title": "Zed開発チームが「Delta」発表 — AIとの全対話とコード変更履歴を共有するマルチプレイヤー開発環境",
+          "summary": "Zed Industriesは<strong>2026</strong>年<strong>8</strong>月<strong>12</strong>日、AIエージェントとの協働に特化したコラボレーションツール「Delta」を発表した。DeltaDBと呼ぶ独自バージョン管理システムを基盤とし、複数の人間とAIが同時に編集しても差分が同期される。ユーザーとAIの会話はドキュメントとして扱われ任意の箇所にコメントを挿入しながら議論を継続できる設計で、ブラウザ上で動作しClaude Codeなど外部エージェントとの連携にも対応している。会話と意思決定の文脈をコードに紐付けて永続保存することで、「なぜこのコードがこうなっているか」を後から追跡可能にする。プライベートベータの招待配布が始まった段階だ。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/zeddeltaai.html",
+          "tags": ["技術トレンド", "開発ツール", "AI"]
+        },
+        {
+          "position": 3,
+          "title": "Cloud Native BuildpacksがCNCF卒業プロジェクトに昇格 — Dockerfileなしでアプリをコンテナ化する技術が成熟",
+          "summary": "Cloud Native Computing Foundation（CNCF）は<strong>2026</strong>年<strong>8</strong>月<strong>11</strong>日、「Cloud Native Buildpacks」の卒業プロジェクト認定を発表した。アプリケーションのソースコードから直接OCI準拠コンテナイメージをビルドする技術で、Dockerfileを記述する必要がない点が特徴。<strong>2018</strong>年<strong>1</strong>月にPivotalとHerokuが主導して開始し、同年<strong>10</strong>月にCNCFへ加入。卒業にあたりQuarkslab・OSTIFによるサードパーティセキュリティ監査を通過し、OpenSSFベストプラクティスバッジも取得した。今後のロードマップとしてOCIアーティファクト拡張・SBOMワークフロー強化・WebAssembly対応が計画されている。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/dockerfileocicloud_native_buildpackscncf.html",
+          "tags": ["技術トレンド", "コンテナ", "DevOps"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 4,
+          "title": "AIが組織にもたらす「知識の劣化」 — 繰り返し使用で誤りが蓄積し、意思決定の質が静かに低下する",
+          "summary": "DIAMOND ハーバード・ビジネス・レビューが<strong>2026</strong>年<strong>8</strong>月<strong>15</strong>〜<strong>21</strong>日に公開した論文が注目されている。AI生成情報を組織内で繰り返し参照すると誤りや不確かな知識が蓄積し、意思決定の質が静かに劣化するという「知識の劣化（Knowledge Degradation）」現象を分析している。従業員がAIへの依存を深めるほど自ら情報を検証する能力が低下する悪循環も指摘されており、対策として出典の明示・専門家による検証・フィードバックの記録といった、組織として知識の信頼性を守る仕組みの整備が必要だとする。AIツールの性能だけでなく業績評価・採用・能力開発の設計が競争力を左右するという視点からも分析している。",
+          "sourceName": "DIAMOND ハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://news.yahoo.co.jp/articles/de8f06e380b105c63e899de03f3e07580e271e76",
+          "tags": ["思考力", "AI", "組織"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "H3ロケット10号機、火星衛星探査機「MMX」を搭載し10月20日早朝に打ち上げへ — 最強型構成H3-24Lの初飛行",
+          "summary": "JAXAは<strong>2026</strong>年<strong>8</strong>月<strong>20</strong>日、火星衛星探査計画「MMX（Martian Moons eXploration）」の探査機を搭載するH3ロケット<strong>10</strong>号機の打ち上げを<strong>10</strong>月<strong>20</strong>日午前<strong>4</strong>時<strong>41</strong>分<strong>03</strong>秒と決定したと発表した。打ち上げ予備期間は<strong>10</strong>月<strong>21</strong>日〜<strong>11</strong>月<strong>7</strong>日で、種子島宇宙センター大型ロケット発射場から行われる。<strong>10</strong>号機はLE-<strong>9</strong>エンジン<strong>2</strong>基・SRB-<strong>3</strong>ブースター<strong>4</strong>基・ロングフェアリングを組み合わせたH3-<strong>24</strong>L形態の初飛行で、「最強型」とも呼ばれる最大推力構成となる。",
+          "sourceName": "sorae 宇宙へのポータルサイト",
+          "sourceUrl": "https://sorae.info/space/20260821-mmx.html",
+          "tags": ["宇宙", "科学技術", "JAXA"]
+        }
+      ]
+    }
+  ]
+}
