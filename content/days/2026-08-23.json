@@ -1,0 +1,68 @@
+{
+  "date": "2026-08-23",
+  "label": "2026年8月23日 (日)",
+  "intro": "AWSが常駐型マルチエージェント基盤「Kiro Crew」をオープンソース公開し、GitHub CopilotにはKimi K3とAgent Plugins <strong>1.0</strong>が一般提供された。エンジニアの現場では「<strong>10</strong>人→<strong>1</strong>人＋AI」の事例が現実となる一方、AI出力への過信が専門家の正答率を<strong>79.7</strong>%から<strong>19.8</strong>%に低下させる実験知見も報告された。北京では Honor 製ヒューマノイドロボット「Lightning」が<strong>100</strong>m走<strong>9</strong>秒<strong>32</strong>を走破しウサイン・ボルト記録に迫った。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "AWS、オープンソースの常駐型マルチエージェント基盤「Kiro Crew」公開 — セッション横断の記憶・スケジューリング・オフライン対応",
+          "summary": "AWSは<strong>2026</strong>年<strong>8</strong>月<strong>4</strong>日、Kiro IDE向けのマルチエージェント実行基盤「Kiro Crew」をApache <strong>2.0</strong>ライセンスでオープンソース公開した。常駐プロセスとして動作し、セッションを跨ぐ作業記憶・長時間タスクのスケジューリング・SlackやDiscordなど多様なチャネルからの操作機能を備える。複数のサブエージェントへの作業委託と並行実行にも対応し、インシデント調査・PRレビュー・チケットトリアージなど開発者不在時でも自律的に動くユースケースを想定している。公開されたのはスケジューリング・メモリ・マルチエージェント連携・セキュリティを担うオーケストレーション層のみ。",
+          "sourceName": "Amazon Web Services ブログ",
+          "sourceUrl": "https://aws.amazon.com/jp/blogs/news/introducing-kiro-crew/",
+          "tags": ["技術トレンド", "AI", "AWS"]
+        },
+        {
+          "position": 2,
+          "title": "「開発の仕事が減るとは思っていたけど、想像よりだいぶ早かった」 — 10人→1人＋AIのリアルと残る領域",
+          "summary": "現役エンジニアyminabeが<strong>2026</strong>年<strong>8</strong>月<strong>14</strong>日にQiitaへ投稿した記事が注目を集めている。かつて<strong>10</strong>人が必要だった開発をAIと<strong>1</strong>人のエンジニアが担う事例を紹介し、AIによる実装スピードの劇的な向上を報告している。一方で金融・宇宙・原子力など安全性・法規制が厳しい領域では引き続き人間の判断が不可欠であることも指摘。AIが高速実装を担う現場では、エンジニアの役割が「実装者」から「設計・検証・判断者」へとシフトしていると論じており、就活生が自身のキャリアをどう組み立てるかを考える上で示唆が多い。",
+          "sourceName": "Qiita",
+          "sourceUrl": "https://qiita.com/yminabe/items/b8330209ba90dd148cdc",
+          "tags": ["技術トレンド", "AI", "エンジニアキャリア"]
+        },
+        {
+          "position": 3,
+          "title": "GitHub Copilot、8月10日週のアップデート — Kimi K3・MAI-Code-1.1-Flash・Agent Plugins 1.0が一斉に一般提供",
+          "summary": "GitHubは<strong>2026</strong>年<strong>8</strong>月<strong>13</strong>日、<strong>8</strong>月<strong>10</strong>日週に発表したCopilot関連アップデートをまとめて公表した。オープンウェイトモデル「Kimi K3」がPro・Pro+・Max・Business・Enterprise全プランで利用可能となり、Microsoftのコーディング特化型「MAI-Code-<strong>1.1</strong>-Flash」もネイティブ画像理解機能付きで展開された。「Agent Plugins <strong>1.0</strong>」はVS Code・Copilot CLI・Copilot SDK・CopilotアプリでGAとなり、外部ツールやサービスとのエージェント連携を標準化する。一週間で<strong>3</strong>件の大型アップデートが重なり、Copilotのエコシステム拡張が加速している。",
+          "sourceName": "CodeZine",
+          "sourceUrl": "https://codezine.jp/news/detail/29345",
+          "tags": ["技術トレンド", "開発ツール", "GitHub"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 4,
+          "title": "「AIに聞きました」の落とし穴 — オーソリティバイアスと知識の空洞化が正答率を79.7%から19.8%に低下させる",
+          "summary": "isvd.or.jpに掲載されたコラムは、AIへの過信が引き起こす<strong>2</strong>つの認知的問題を解説する。電卓・GPS・検索エンジン・LLMと続く「認知のアウトソーシング」の歴史的パターンを辿りながら、AI出力を無批判に受け入れる「オーソリティバイアス」と、思考スキルを外部化することで生じる「知識の空洞化」を分析する。実験データとして、自動化バイアスが専門家であっても正答率を<strong>79.7</strong>%から<strong>19.8</strong>%まで低下させることが示されており、能力の高い人ほど過信のリスクが高い点が指摘されている。対策として個人の意識改善ではなく「AIフリータイムの制度化」や「照合を習慣とする仕組み」など構造的介入を推奨する。",
+          "sourceName": "isvd.or.jp",
+          "sourceUrl": "https://isvd.or.jp/columns/ai-authority-bias-knowledge-hollowing",
+          "tags": ["思考力", "AI", "認知科学"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "Honor製ヒューマノイドロボット「Lightning」が100m走9秒32 — 北京・世界ヒューマノイドロボットゲームズでボルト記録を超える",
+          "summary": "<strong>2026</strong>年<strong>8</strong>月<strong>22</strong>日、北京で開幕した「世界ヒューマノイドロボットゲームズ」（<strong>8</strong>月<strong>22</strong>〜<strong>26</strong>日）でHonor製ヒューマノイドロボット「Lightning」が<strong>100</strong>メートル走を<strong>9</strong>秒<strong>32</strong>で走破した。ウサイン・ボルトの世界記録<strong>9</strong>秒<strong>58</strong>を上回るペースで、ピーク速度は<strong>14.5</strong>m/sに達した。脚を<strong>10</strong>センチ延長した設計改良が高速走行を可能にしており、北京ハーフマラソンでも<strong>50</strong>分<strong>26</strong>秒の好タイムで優勝している。ゴール後に転倒・炎上するハプニングがあったものの競技は成立し、人間の身体能力を特定競技で超え始めたヒューマノイドロボットの進化速度を象徴する出来事となった。",
+          "sourceName": "Yahoo!ニュース",
+          "sourceUrl": "https://news.yahoo.co.jp/articles/26ff5e56c50f8b87d7641d9270f01a4cddd400ae",
+          "tags": ["テクノロジー", "ロボット", "グローバル"]
+        }
+      ]
+    }
+  ]
+}

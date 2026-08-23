@@ -1,0 +1,76 @@
+{
+  "date": "2026-08-21",
+  "label": "2026年8月21日 (金)",
+  "intro": "MojoコンパイラとMAXライブラリがApache <strong>2</strong>.<strong>0</strong>でOSS化され、PyCon JP 2026が本日広島国際会議場で開幕（<strong>4</strong>トラック<strong>45</strong>本トーク）。Anthropicは<strong>8</strong>月<strong>2</strong>日以降のClaudeモデルから不可視テキストウォーターマークを導入し、リクルートは研修資料<strong>13</strong>本を無料公開した。理研は韓国RAONと連携し超中性子過剰核の国際共同実験を<strong>2026</strong>年<strong>5</strong>月から開始した。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "MojoコンパイラとMAXライブラリがApache 2.0でOSS化 — ModCon 2026でWindowsサポートとModular Cloudも発表",
+          "summary": "ModularはModCon 2026において、AI処理高速化言語「Mojo」のコンパイラおよびツールチェーンをApache <strong>2</strong>.<strong>0</strong>ライセンスでGitHubに公開した。MAXライブラリのコアも同時にオープンソース化された。Microsoft協業によるWindowsサポートも表明され、これまでmacOS・Linuxに限られていたサポートが拡張される予定だ。あわせてAI開発インフラ基盤「Modular Cloud」の提供も発表された。なお、Mojoバージョン<strong>1</strong>.<strong>0</strong>は<strong>8</strong>月<strong>11</strong>日に既にリリース済みであり、今回のOSS化はそれに続く開発体制のオープン化に当たる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/pythonmojowindows.html",
+          "tags": ["技術トレンド", "AI", "プログラミング言語"]
+        },
+        {
+          "position": 2,
+          "title": "PyCon JP 2026 本日広島で開幕 — 4トラック45本のトーク、Carol WillingとPyxel作者がキーノート登壇",
+          "summary": "PyCon JP 2026が<strong>2026</strong>年<strong>8</strong>月<strong>21</strong>日・<strong>22</strong>日の<strong>2</strong>日間、広島国際会議場で開催される。<strong>4</strong>トラック<strong>45</strong>本のトークセッションが予定されており、初日のキーノートはCPythonコア開発者のCarol Willing、<strong>2</strong>日目は日本発レトロゲームライブラリ「Pyxel」作者の北尾崇が担当する。Python利用者が集まる国内最大級のカンファレンスで、AI時代のPython活用に関するセッションも多く予定されている。",
+          "sourceName": "gihyo.jp",
+          "sourceUrl": "https://gihyo.jp/article/2026/08/pycon-jp-2026-highlights",
+          "tags": ["技術トレンド", "Python", "イベント"]
+        },
+        {
+          "position": 3,
+          "title": "Anthropic、Claude生成テキストに不可視ウォーターマークを導入 — 8月2日以降の新モデルから適用、検出APIも提供予定",
+          "summary": "Anthropicは<strong>2026</strong>年<strong>8</strong>月<strong>2</strong>日以降にリリースする新しいClaudeモデルから、AIが生成したテキストに機械検出可能な不可視ウォーターマークを埋め込む取り組みを開始した。人間には視認できない形でテキストに情報を付加し、AI生成コンテンツかどうかを識別できる設計だ。検出用APIの提供も予定されており、既存モデルへの導入作業も進められている。AI生成コンテンツの識別・透明性確保に向けた業界の取り組みが加速している。",
+          "sourceName": "gihyo.jp",
+          "sourceUrl": "https://gihyo.jp/article/2026/08/claude-text-watermarks",
+          "tags": ["技術トレンド", "AI", "セキュリティ"]
+        },
+        {
+          "position": 4,
+          "title": "リクルート、2026年度新卒エンジニア研修資料13本を無料公開 — 「人生サバイバルガイド」からAI活用スキルまで収録",
+          "summary": "リクルートは<strong>2026</strong>年度の新卒エンジニア向け研修で使用した資料<strong>13</strong>本を無料で公開した。「ソフトウェアエンジニア人生サバイバルガイド」をはじめ、AI活用スキルの育成を推奨するコンテンツも含まれており、エンジニアとして長く活躍するための考え方や実践知識が学べる。就活生やエンジニア志望者が実際の現場で使われている研修資料を無料で参照できる点で注目される。",
+          "sourceName": "ITmedia AI+",
+          "sourceUrl": "https://www.itmedia.co.jp/aiplus/article/2608/06/2000000418/",
+          "tags": ["採用・キャリア", "学習", "AI"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "「考える力を鍛えるだけでは危ない」 — プラトンが見抜いた思考技術の両義性",
+          "summary": "東洋経済オンラインに掲載された吉田幸司氏の記事は、プラトンの洞察をもとに「強力な思考技術を若者に教えることの危険」を論じる。「考える力がある」だけでは不十分で、「何を考えるべきか」という問いが欠けると思考が武器として誤用されるリスクがあることを指摘する。AIが思考を強化できる時代だからこそ、思考技術の方向性を問い直すことの重要性を説く内容で、エンジニアとして何を解くべき問題を選ぶかという視点にもつながる。",
+          "sourceName": "東洋経済オンライン",
+          "sourceUrl": "https://toyokeizai.net/articles/-/951923",
+          "tags": ["思考力", "哲学", "学習"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "理研、「原子番号ゼロ」の世界を探求 — 韓国RAONと連携し超中性子過剰核の国際共同実験を開始",
+          "summary": "理化学研究所（理研）は韓国の重イオン加速器施設RAONおよびIBS（基礎科学研究院）と連携し、多数の中性子だけで構成される超中性子過剰核の探索に向けた国際共同実験を<strong>2026</strong>年<strong>5</strong>月から開始した。韓国LAMPS施設の中性子検出器「NDA」を理研に移設してRIBFのビームと組み合わせることで、純粋な中性子の塊（原子番号ゼロ）が存在するかという核物理学の根本的な問いに挑む。日韓の大型加速器施設が相互補完することで実現した取り組みだ。",
+          "sourceName": "理化学研究所",
+          "sourceUrl": "https://www.riken.jp/pr/closeup/2026/20260819_1/index.html",
+          "tags": ["科学", "物理学", "国際連携"]
+        }
+      ]
+    }
+  ]
+}
