@@ -47,5 +47,12 @@
     "verdict": "unverifiable",
     "detail": "ファクトチェックキューAPIへ curl で問い合わせたが HTTP 22（exit=22、接続失敗）が返った。FACTCHECK_TOKEN 未設定によるものと判断。キューに報告済み記事があったかどうか不明。",
     "action": "キュー取得不可のためスキップ。記事生成は続行。"
+  },
+  {
+    "slug": "2026-08-25-queue",
+    "ranOn": "2026-08-25",
+    "verdict": "unverifiable",
+    "detail": "ファクトチェックキューAPIへ curl で問い合わせたが空レスポンスが返った。FACTCHECK_TOKEN が未設定のため API 認証不可と判断。キューに報告済み記事があったかどうか不明。",
+    "action": "キュー取得不可のためスキップ。記事生成は続行。"
   }
 ]

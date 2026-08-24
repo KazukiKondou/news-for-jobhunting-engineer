@@ -1,0 +1,76 @@
+{
+  "date": "2026-08-25",
+  "label": "2026年8月25日 (火)",
+  "intro": "OpenAI主導の「Agent Plugins <strong>1.0.0</strong>」でAIエージェント拡張機能の業界標準が確立し、AWSはBlack Hat USAでClaude CodeとCodexへの脆弱性検出統合「Continuum」を発表。GoogleはAIモデルを暗号化したままで推論させるOSSコンパイラ「HEIR」を公開し、クラウド市場Q2成長率は年率<strong>42</strong>%と過去最高を更新した。一方CMUらの実験ではAIを<strong>10</strong>分使うだけで思考力が低下すると示され、SPring-8-IIでは世界初の水素エネルギー専用ビームラインの建設が決まった。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Agent Plugins 1.0.0 発表 — AIエージェントのスキルとMCP設定を業界横断で共通化する初の仕様",
+          "summary": "OpenAIは<strong>2026</strong>年<strong>8</strong>月<strong>6</strong>日、AIエージェントの拡張機能を統一形式でパッケージ化する仕様「Agent Plugins <strong>1.0.0</strong>」を公開した。Agent Skills（エージェント単体で動くスキル）とMCPサーバ設定（mcp.json）の<strong>2</strong>種類を標準化したオープン仕様で、Microsoft・AWS・Anysphere（Cursor）・Vercel・GitHubが発表時から参加し、Googleも対応を表明した。異なるAIエージェント間でプラグインを使い回せるようになり、ツールを切り替えるたびにMCP設定を再構成する手間がなくなる。v<strong>1</strong>が標準化するのは「何を・どこに置くか」という梱包規則のみで、認証・配布・UIなどはエージェント側の実装に委ねる設計だ。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/agent_plugins_100aimcpopenaiawsgoogle.html",
+          "tags": ["技術トレンド", "AIエージェント", "MCP"]
+        },
+        {
+          "position": 2,
+          "title": "AWS Continuum、Claude Code・Codex・Kiroに統合 — コード脆弱性をAIと同じ画面で検出・修正",
+          "summary": "AWSは<strong>2026</strong>年<strong>8</strong>月のBlack Hat USAで、コード脆弱性検出ツール「AWS Continuum」をAnthropicのClaude Code・OpenAIのCodex・AWS独自のKiro IDEの<strong>3</strong>つのAIコーディングアシスタントへ統合すると発表した。開発者がコードを書く現場で脆弱性を発見・優先付け・検証・修正まで完結できる設計で、セキュリティチームへのエスカレーションなしに対応できるようになる。AWS環境のIAMポリシーやネットワーク設定のコンテキストを参照して修正案を提示する仕組みで、使用するAIモデルを問わずAWSのセキュリティツールが適用される。現時点はプレビュー段階として提供されている。",
+          "sourceName": "CodeZine",
+          "sourceUrl": "https://codezine.jp/news/detail/29308",
+          "tags": ["技術トレンド", "セキュリティ", "開発ツール"]
+        },
+        {
+          "position": 3,
+          "title": "Google「HEIR」発表 — 暗号化を解かずにAIを動かすOSSコンパイラで医療・金融に道",
+          "summary": "Googleは<strong>2026</strong>年<strong>8</strong>月<strong>19</strong>日、AIモデルを完全準同型暗号に対応した形式へコンパイルするOSSツール「HEIR（Homomorphic Encryption Intermediate Representation）」を発表した。学習済みモデルをコンパイルするだけで暗号化データへの推論処理に変換できる設計で、医療・金融など機密データを扱う分野でデータを復号せずにAI推論を適用できるようになる。Belfort・Niobium・Cornami・Optalysysなど完全準同型暗号向けハードウェアアクセラレータ各社も連携しており、暗号の専門家でなくても利用できる「ワンクリック」ソリューションを目指すとGoogleは説明している。プライバシー保護とAI推論の両立を実現する実用的な基盤として注目されている。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/googleaiheirai.html",
+          "tags": ["技術トレンド", "AI", "プライバシー"]
+        },
+        {
+          "position": 4,
+          "title": "クラウド市場Q2 2026、前年比42%増で過去最高成長 — AWSが28%維持、Google Cloudは15%に上昇",
+          "summary": "Synergy Researchが発表した<strong>2026</strong>年第<strong>2</strong>四半期のクラウドインフラ市場で、AWSが<strong>28</strong>%のシェアを維持して首位に立ち、Google Cloudは前四半期比<strong>1</strong>ポイント上昇して<strong>15</strong>%に達した。市場全体の前年比成長率は<strong>42</strong>%と過去最高を更新しており、AIワークロードへの需要増が主要な牽引役となっている。クラウド各社がGPUクラスタの増設を急ぐ中、大規模AI学習と推論のための計算基盤整備がクラウド市場の拡大ペースをさらに押し上げている。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/aws28google_cloud1154220262synergy_research.html",
+          "tags": ["市場動向", "クラウド", "AI"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "AIをわずか10分使うだけで思考力と粘り強さが低下 — CMU・Oxford・MIT・UCLAが実験で確認",
+          "summary": "カーネギーメロン大学・オックスフォード大学・MIT・UCLAの研究チームが実施した実験で、AIをわずか<strong>10</strong>分間使うだけで思考力と粘り強さが低下することが示された。割り算の計算問題を用いた実験では、AI利用グループはAI非利用グループと比べて正解率が約<strong>20</strong>%低く、問題を途中で諦めて飛ばす頻度は約<strong>2</strong>倍に達した。AI使用中は高いパフォーマンスを出せるが、AIが使えなくなると急にスコアが落ちる「道具依存」が短時間でも形成される。日経クロステック「ダークサイドAI」連載は、自分で考える機会を奪われることで思考筋が弱まる悪循環のリスクを指摘している。",
+          "sourceName": "日経クロステック",
+          "sourceUrl": "https://xtech.nikkei.com/atcl/nxt/column/18/03673/072700005/?ST=singleview",
+          "tags": ["思考力", "AI", "認知科学"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "SPring-8-IIに水素エネルギー専用の世界初ビームライン — 解析速度30倍、2029年度利用開始へ",
+          "summary": "NEDOと京都大学は、次世代大型放射光施設「SPring-8-II」に水素エネルギー分野に特化した専用ビームライン「BL34XU」を建設すると発表した。燃料電池・水電解の材料を動作させたまま複数の異なる手法で同時計測できる世界初の設備で、解析速度は現行施設の約<strong>30</strong>倍になる見込みだ。SPring-8-IIは現行SPring-8と比べて放射光の輝度が約<strong>100</strong>倍の世界最高水準で、<strong>2027</strong>年度後半に着工し<strong>2029</strong>年度の利用開始を目指す。水素エネルギー材料の研究が飛躍的に加速するとみられており、ゼロエミッション実現に向けた基盤整備の一環として推進される。",
+          "sourceName": "共同通信",
+          "sourceUrl": "https://news.yahoo.co.jp/articles/b55b0e0c6165879e5f5c26947cd13e72751f6513",
+          "tags": ["科学技術", "エネルギー", "研究"]
+        }
+      ]
+    }
+  ]
+}
