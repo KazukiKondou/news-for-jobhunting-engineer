@@ -1,0 +1,84 @@
+{
+  "date": "2026-08-26",
+  "label": "2026年8月26日 (水)",
+  "intro": "Qualcommが<strong>39</strong>億ドルで買収したModularがMojoコンパイラをオープンソース化し、BunはZigからRustへ全面移植してアイドルCPU使用率を<strong>5</strong>倍改善。SlackはAIエージェントが開発チームの会話を把握してコーディングする「Slack Code」を発表し、デジタル庁はさくらのクラウドで国産LLM<strong>3</strong>種の試用評価を開始した。英国研究者はデジタルへの早期依存が認知発達を妨げると警告し、JAXAが火星衛星探査機MMXの打ち上げを<strong>10</strong>月<strong>20</strong>日に確定した。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "「Findy Student」β版公開 — GitHub連携でエンジニア志望学生のコミット活動を可視化",
+          "summary": "ファインディは<strong>2026</strong>年<strong>8</strong>月<strong>6</strong>日、エンジニア志望の学生向けサービス「Findy Student」のβ版提供を開始した。GitHubアカウントと連携すると、公開リポジトリの活動実績をもとに「コミット通知簿」を自動生成し、月次の開発活動を可視化できる設計だ。企業エンジニアとの直接交流の場として、<strong>9</strong>月<strong>26</strong>日には参加者約<strong>150</strong>名の「Tech Culture Festival 2026」をオンラインで開催する予定で、現役エンジニアによるプレゼン・学生LT大会・企業との交流プログラムを含む。",
+          "sourceName": "PR TIMES / ファインディ",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000256.000045379.html",
+          "tags": ["採用", "就活", "28卒"]
+        },
+        {
+          "position": 2,
+          "title": "デジタル庁が国産LLM3種を「さくらのクラウド」で試用開始 — ガバメントAI「源内」の評価基盤に",
+          "summary": "デジタル庁は<strong>2026</strong>年<strong>8</strong>月から、ガバメントAI「源内」向けに採用を検討する国産大規模言語モデルとして、NTTデータの「tsuzumi 2」・富士通の「Takane <strong>32</strong>B」・Preferred Networksの「PLaMo <strong>2.0</strong> Prime」の<strong>3</strong>モデルを「さくらのクラウド」で試用評価すると発表した。ガバメントクラウドにさくらのクラウドが利用されるのは初めてであり、外局を含む全<strong>39</strong>府省庁機関の職員約<strong>18</strong>万人に源内アカウントを順次付与している。<strong>2027</strong>年<strong>1</strong>月頃に評価結果の一部を公表する予定で、国産モデルの性能が社会に可視化されることが期待される。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/3ai.html",
+          "tags": ["技術トレンド", "AI", "クラウド"]
+        },
+        {
+          "position": 3,
+          "title": "Bun 1.4 正式リリース — Rustへの全面移植でアイドルCPUを5倍改善・起動50%高速化",
+          "summary": "JavaScriptランタイム「Bun」がバージョン<strong>1.4</strong>を正式リリースした（<strong>2026</strong>年<strong>8</strong>月<strong>24</strong>日）。ZigからRustへ約<strong>100</strong>万行を書き直した初のRust実装版で、Node.jsテストスイートから<strong>1,517</strong>件のテストを新たに追加してPlaywrightやvitestなどのNode.jsエコシステムのツールが動作するようになった。パフォーマンス面ではアイドル時のCPU使用率を<strong>5</strong>倍削減・メモリ最大<strong>35</strong>%削減・Linux起動<strong>50</strong>%高速化を達成しており、Bun.Image・Bun.WebView・Bun.cron()・bun run --parallelなど多数の新機能も追加された。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/rustbun_14nodejsplaywrightvitestcpu.html",
+          "tags": ["技術トレンド", "JavaScript", "Rust"]
+        },
+        {
+          "position": 4,
+          "title": "Mojo v1.0のコンパイラをOSS化 — Qualcomm傘下のModularがApache 2.0で公開",
+          "summary": "PythonライクなAI向けプログラミング言語「Mojo」の開発元Modularは、<strong>2026</strong>年<strong>8</strong>月<strong>18</strong>日の「ModCon 2026」でコンパイラとツールチェーンをGitHubにオープンソース公開した（Apache <strong>2.0</strong>ライセンス）。バージョン<strong>1.0</strong>への到達と同時のオープンソース化で、AI推論を高速化するMAXライブラリのソースコードも合わせて公開された。Qualcommが約<strong>39</strong>億ドルでModularを買収した<strong>3</strong>週間後の発表であり、Qualcommのヘテロジニアスハードウェアとの組み合わせによる展開加速が背景にある。Windows版の開発も表明しており、クロスプラットフォーム対応が進む見通しだ。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/pythonmojowindows.html",
+          "tags": ["技術トレンド", "AI", "プログラミング言語"]
+        },
+        {
+          "position": 5,
+          "title": "「Slack Code」登場 — チームの会話を把握したAIエージェントがコーディングとドキュメント作成を担う",
+          "summary": "Slack社は<strong>2026</strong>年<strong>8</strong>月<strong>24</strong>日、開発チームのSlack上での議論を理解してコーディングを行う「Slack Code」の提供を発表した。AnthropicのClaude Code・Claude Tag、CognitionのDevin、GitHub Copilot、ChatGPT、Vercelエージェントなど主要なAIコーディングエージェントが統合されており、Slack内でコードの作成・レビュー・リリースをAIと協力して進められる。チームの過去の会話コンテキストをAIが把握した状態でコーディングタスクを実行するため、都度指示を与える手間が省けるのが特徴で、ドキュメント作成の自動化にも対応している。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/slackaislack_code.html",
+          "tags": ["技術トレンド", "AIエージェント", "開発ツール"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "デジタル早期依存が認知発達を妨げる — 英国研究者がAI時代の「フィジカル学習」の重要性を指摘",
+          "summary": "英国の研究者らの警告によれば、乳幼児がデジタル画面にさらされることは認知的・身体的・社会的・情緒的な発達に甚大なリスクをもたらす一方、メリットは極めて限られるとされる。また、フィジカルAI（ロボットなど現実世界で動くAI）と大規模言語モデルの根本的な違いは「現実世界での試行錯誤」にあり、インターネット上のデータだけを学習するLLMとは異なり、人間も現実世界での直接体験なしでは本質的な学習が成立しないという。AI時代だからこそ、実際に手を動かし考え続けるフィジカルな経験が思考力の深い土台を築くという観点から議論が広がっている。",
+          "sourceName": "NewsPicks",
+          "sourceUrl": "https://newspicks.com/news/17332337/body/",
+          "tags": ["思考力", "認知科学", "AI"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "JAXAが火星衛星探査機「MMX」の打ち上げを10月20日に決定 — 世界初の火星衛星サンプル回収へ",
+          "summary": "JAXA（宇宙航空研究開発機構）は<strong>2026</strong>年<strong>8</strong>月<strong>20</strong>日、火星衛星探査機「MMX」を搭載したH3ロケット<strong>10</strong>号機の打ち上げを<strong>10</strong>月<strong>20</strong>日午前<strong>4</strong>時<strong>41</strong>分に予定すると発表した。強化型「H3-<strong>24</strong>L」構成（LE-<strong>9</strong>エンジン<strong>2</strong>基・SRB-<strong>3</strong>固体ブースター<strong>4</strong>基・長フェアリング）を採用し、種子島宇宙センターから打ち上げる。MMXは<strong>2027</strong>年に火星に到着し、直径<strong>20</strong>〜<strong>30</strong>kmの火星の衛星「フォボス」にサンプル採取装置を降ろして<strong>2031</strong>年にオーストラリアでカプセルを回収する計画で、成功すれば世界初の火星衛星サンプルリターンとなる。",
+          "sourceName": "JAXA",
+          "sourceUrl": "https://www.jaxa.jp/press/2026/08/20260820-1_j.html",
+          "tags": ["宇宙", "科学技術"]
+        }
+      ]
+    }
+  ]
+}
