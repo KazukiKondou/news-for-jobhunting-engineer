@@ -1,0 +1,84 @@
+{
+  "date": "2026-08-27",
+  "label": "2026年8月27日 (木)",
+  "intro": "Next.js <strong>16.3</strong>がTurbopackのメモリ使用量を最大<strong>90</strong>%削減し、DuckDB <strong>2.0</strong>プレビューがクライアント/サーバモードを追加。消費者庁がダークパターン規制の中間取りまとめを公表し、ソニーCSLが折り紙着想の眼科手術ロボット「Origanoid」を発表した。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Next.js 16.3正式リリース — TurbopackのRAM最大90%削減・TypeScript 7対応",
+          "summary": "Vercelは<strong>2026</strong>年<strong>8</strong>月<strong>3</strong>日、ReactフレームワークNext.jsのバージョン<strong>16.3</strong>を正式リリースした。バンドルツールTurbopackのメモリ使用量が最大<strong>90</strong>%削減され、Vercelのダッシュボードでは<strong>50</strong>ルートコンパイル後のメモリが<strong>21.5</strong>GBから<strong>2</strong>GBへと大幅に改善した。サーバサイドレンダリングの処理速度は高負荷時に最大<strong>22</strong>%向上し、TypeScript <strong>7</strong>による型チェック高速化も同梱された。SPA並みの即座のページ遷移を実現する「Instant Navigations」もオプトイン機能として追加されている。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/nextjs_163turbopack90ssr22typescript_7.html",
+          "tags": ["技術トレンド", "フロントエンド", "JavaScript"]
+        },
+        {
+          "position": 2,
+          "title": "Docker、コンテナ向け独自ハイパーバイザ「Docker VMM」をパブリックベータ公開",
+          "summary": "Docker社はコンテナ向けに最適化した独自ハイパーバイザ「Docker VMM」のパブリックベータを公開した。Docker Desktop <strong>v4.86</strong>以降でWindowsとmacOSの両方から利用でき、これまでサードパーティのハイパーバイザを利用していた仮想化レイヤーをDocker独自実装に置き換える。コンテナ起動速度の向上、コンテナとホスト間のファイルI/Oの高速化、アイドル時のメモリ回収効率の改善が特徴だ。GA（一般提供）は<strong>2026</strong>年<strong>10</strong>月末を目標としており、その時点でMac版・Windows版・Linux版のDocker Desktopにおけるデフォルトエンジンとなる予定。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/dockerdocker_vmm.html",
+          "tags": ["技術トレンド", "インフラ", "コンテナ"]
+        },
+        {
+          "position": 3,
+          "title": "消費者庁、ダークパターン規制へ — 解約妨害・誘導UI設計を特商法改正で規律",
+          "summary": "消費者庁は<strong>2026</strong>年<strong>8</strong>月<strong>24</strong>日、有識者会議「デジタル取引・特定商取引法等検討会」の第<strong>8</strong>回会合で、消費者の意思決定をゆがめる表示・UI、いわゆる「ダークパターン」への規制を盛り込んだ中間取りまとめ案を公表した。特定商取引法の改正を視野に入れており、悪質なパターン（ブラックリスト）と適法なパターンを下位法令やガイドラインで例示する方向で検討が進む。「お試し」と表示しながら実際は定期購入が条件になるUI、解約フローを意図的に複雑にする設計が規制対象となる見通しで、Web・アプリ開発者のUI設計に直接影響する動きとなっている。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2608/24/2000000728/",
+          "tags": ["法規制", "UX", "eコマース"]
+        },
+        {
+          "position": 4,
+          "title": "DuckDB 2.0プレビュー公開 — クライアント/サーバモード・VARIANT型・非同期I/O追加",
+          "summary": "DuckDB Labsは<strong>2026</strong>年<strong>8</strong>月<strong>17</strong>日、シングルバイナリのOLAPデータベース「DuckDB」の次期メジャーバージョン<strong>2.0</strong>のプレビューを公開した。クライアント/サーバ機能が安定版として追加されたことでネットワーク経由での接続が可能になり、スキーマレスなデータを扱えるVARIANT型、トリガー、非同期I/Oも導入される。今回のプレビューは<strong>1</strong>万件超のコミットを含む大規模なリリースで、SQLパーサや拡張性も強化された。GAは<strong>2026</strong>年秋を予定しており、各主要プラットフォームとLanguageクライアント向けのナイトリーパッケージが試験提供されている。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/olap_dbduckdb_20variantio.html",
+          "tags": ["技術トレンド", "データベース", "OLAP"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "組織変革が失敗する本当の理由 — HBRが「見せかけの合意」トラップを解剖",
+          "summary": "HBR（ハーバード・ビジネス・レビュー）<strong>2026</strong>年<strong>7</strong>月/<strong>8</strong>月号の表紙論文で、BCGのジュリア・ダー氏らは「見せかけの合意（False Alignment）」という概念を提唱した。ほとんどの組織変革は実行力の問題ではなく、リーダーたちが「なぜ変えるか・何を変えるか・どう変えるか」に合意していると思い込んでいる状態で始まることに原因があるという。曖昧な議論と異論回避、スピード重視の姿勢が見せかけの合意を生み、先送り・空転・妥協案への収束を招く。真の合意に到達するには、具体性の追求・早期かつ安全な異論の表明・厳密な議論・明確な意思決定権・正式なコミットメントが必要だと論じている。",
+          "sourceName": "Harvard Business Review",
+          "sourceUrl": "https://hbr.org/2026/07/the-false-alignment-trap",
+          "tags": ["組織論", "意思決定", "思考力"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "ソニーCSL、折り紙着想の手のひらサイズ眼科手術ロボット「Origanoid」を開発",
+          "summary": "ソニーコンピュータサイエンス研究所（ソニーCSL）は<strong>2026</strong>年<strong>8</strong>月<strong>25</strong>日、折り紙の構造設計に着想を得た手のひらサイズの手術支援ロボット「Origanoid」を開発したと発表した。ソニーグループのビジョンケア子会社VC Cell Therapyとの共同研究で開発されたもので、眼科における網膜下投与への適用を目的としている。ウサギの動物モデルを用いた検証では、網膜下への液体投与を高い成功率で確認したと報告されている。折り紙の幾何学的構造を医療用ロボット設計に応用することで小型化と精密動作を両立させており、眼科以外の低侵襲手術への展開も期待される。",
+          "sourceName": "MONOist",
+          "sourceUrl": "https://monoist.itmedia.co.jp/mn/articles/2608/26/news029.html",
+          "tags": ["医療", "ロボット", "研究開発"]
+        },
+        {
+          "position": 7,
+          "title": "H3ロケット9号機、みちびき7号機の軌道投入に成功 — 前回失敗から約8か月で本格復帰",
+          "summary": "JAXA（宇宙航空研究開発機構）と三菱重工業は<strong>2026</strong>年<strong>8</strong>月<strong>11</strong>日午前<strong>4</strong>時<strong>23</strong>分、種子島宇宙センターからH3ロケット<strong>9</strong>号機を打ち上げ、打ち上げから約<strong>29</strong>分後に準天頂衛星「みちびき<strong>7</strong>号機（QZS-<strong>7</strong>）」を予定軌道へ正常に投入した。<strong>2025</strong>年<strong>12</strong>月の<strong>8</strong>号機打ち上げでみちびき5号機の軌道投入に失敗してから原因究明と対策を施した上での実施であり、今回の成功によりH3は日本の基幹ロケットとしての本格的な運用に復帰した。みちびき7号機は内閣府が整備する準天頂衛星システム（QZSS）を構成する測位衛星で、米国のGPSを補完して日本国内に高精度な位置情報を提供する。",
+          "sourceName": "JAXA",
+          "sourceUrl": "https://www.jaxa.jp/press/2026/08/20260811-1_j.html",
+          "tags": ["宇宙", "科学技術"]
+        }
+      ]
+    }
+  ]
+}
