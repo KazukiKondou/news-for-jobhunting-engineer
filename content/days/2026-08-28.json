@@ -1,0 +1,84 @@
+{
+  "date": "2026-08-28",
+  "label": "2026年8月28日 (金)",
+  "intro": "Bun <strong>1.4</strong>のRust全面移植でメモリ最大<strong>35</strong>%削減・CPU待機<strong>5</strong>倍改善、Flutter <strong>3.47</strong>のUIライブラリ独立化とWebAssembly移行方針、Slack CodeがAIエージェント<strong>4</strong>種とのチャネル共同開発を開始、MojoコンパイラのGitHubオープンソース化とMCP <strong>5</strong>重点ロードマップ公開が相次いだ1日。DHBR<strong>8</strong>月号では「スーパーファシリテーター」が集合知を高める仕組みを特集。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Bun 1.4正式リリース — Rust全面移植でメモリ最大35%削減・CPU待機5倍改善",
+          "summary": "JavaScriptランタイムBunの<strong>1.4</strong>がZigからRustへのコードベース全面移植を完了して正式リリースされた。メモリ使用量は最大<strong>35</strong>%削減、アイドル時のCPU使用量は<strong>5</strong>倍改善、Linux上の起動時間は<strong>50</strong>%高速化した。Node.js互換テストは<strong>1,517</strong>件が新たに合格し、PlaywrightやvitestなどNode.jsエコシステムのツールが動作するようになった。GitHubのissue修正は<strong>2,900</strong>件超に上り、今回のRust移植はClaude Codeを活用して完成させたと開発元のOven社が明かしている。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/rustbun_14nodejsplaywrightvitestcpu.html",
+          "tags": ["技術トレンド", "JavaScript", "Rust"]
+        },
+        {
+          "position": 2,
+          "title": "Flutter 3.47正式リリース — UIライブラリ独立更新・WebAssembly移行方針・Dart 3.13",
+          "summary": "GoogleはFlutterバージョン<strong>3.47</strong>を正式リリースした。MaterialおよびCupertinoのUIライブラリが本体から分離されて独立したバージョン管理・個別アップデートが可能になり、両ライブラリは<strong>2026</strong>年<strong>11</strong>月に正式非推奨（deprecated）となる予定。デスクトップ向けレンダラにはImpellerがデフォルト採用され、Flutter WebはWebAssemblyを標準出力方向へ移行する。Dart <strong>3.13</strong>を同梱し、iOS対応の最低バージョンは<strong>13</strong>から<strong>15</strong>へ、macOSは<strong>10.15</strong>から<strong>12</strong>へと引き上げられた。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/fluter_347uiwebassembly.html",
+          "tags": ["技術トレンド", "モバイル", "フロントエンド"]
+        },
+        {
+          "position": 3,
+          "title": "Slack Code開始 — AIエージェント4種と開発チームが専用チャネルで共同開発",
+          "summary": "Salesforceは<strong>2026</strong>年<strong>8</strong>月<strong>20</strong>日、Slack上でAIコーディングエージェントと人間の開発チームが同一専用チャネル内で共同開発できる新機能「Slack Code」の提供を開始した。Slackのチャット履歴やドキュメントをAIエージェントが把握した上でコーディングやドキュメント作成を担う仕組みで、ローンチ時点でAnthropicのClaude Code、Cognition AIのDevin、GitHub Copilot、Vercelエージェントの<strong>4</strong>種に対応する。OpenAIのChatGPTも近日対応予定とされており、AIと人間が同一スレッド上で協働する開発環境の標準化が加速している。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/slackaislack_code.html",
+          "tags": ["技術トレンド", "AI", "開発ツール"]
+        },
+        {
+          "position": 4,
+          "title": "Mojoのコンパイラとツールチェーンをオープンソース化 — ModCon 2026でGitHub公開",
+          "summary": "Modular社は<strong>2026</strong>年<strong>8</strong>月<strong>20</strong>日に開催したイベント「ModCon 2026」で、Pythonライクな高速プログラミング言語「Mojo」のコンパイラとツールチェーンをGitHubでオープンソース公開した。AI推論向けMAXライブラリのソースコードも同時公開され、Windows版の開発も正式に表明された。Mojoは同月<strong>11</strong>日にバージョン<strong>1.0</strong>をリリースして標準ライブラリの一部APIを安定化させており、合わせてGPUクラウド実行基盤「Modular Cloud」も発表された。NVIDIAとAMDのGPUに加え、今後はAWS TrainiumやGoogle TPUへの対応も予定されている。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/pythonmojowindows.html",
+          "tags": ["技術トレンド", "AI", "プログラミング言語"]
+        },
+        {
+          "position": 5,
+          "title": "MCPが2026年版ロードマップを公開 — AIエージェント対応・HTTP統一など5重点分野",
+          "summary": "AIツール連携の標準プロトコルMCP（Model Context Protocol）の策定機関であるLinux Foundation傘下のAAIF（Agentic AI Foundation）が、<strong>2026</strong>年版の新ロードマップを公開した。重点分野は「AIエージェント対応」「HTTP通信への統一」「IDマネジメント」など<strong>5</strong>つで、長時間処理を扱う「Tasks」と非同期更新を受信する「subscriptions/listen」の整備によってエージェント間通信を強化する方針が示された。従来の多方式混在から一本化が進むHTTP通信は、すでに<strong>2026</strong>年<strong>7</strong>月<strong>28</strong>日の仕様更新でリモートMCPサーバーへの統一が実施されており、ステートレスなアーキテクチャへの移行でスケールも容易になっている。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2608/27/2000000831/",
+          "tags": ["技術トレンド", "AI", "プロトコル"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "スーパーファシリテーターが集合知を高める — DHBR8月号「強いチームをつくる」特集",
+          "summary": "スタンフォード大学心理学部のJamil Zaki教授は、DIAMOND ハーバード・ビジネス・レビュー<strong>2026</strong>年<strong>8</strong>月号特集「強いチームをつくる」で、他のメンバーのパフォーマンスを底上げする「スーパーファシリテーター」という概念を論じた。個人の出力が高いだけでなくチーム全体の成果を大幅に改善させる存在の例として、NBAのクリス・ポール選手を取り上げ分析する。「集合知を創出する<strong>3</strong>つの戦術」を通じて、特定のスター人材や上意下達の管理に頼らず、メンバーが自律的に動いてともに成長するチームが結果を出し続ける仕組みを解説している。",
+          "sourceName": "DIAMOND ハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14485",
+          "tags": ["チームマネジメント", "集合知", "思考力"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "初期宇宙の謎「リトル・レッド・ドット」、ブラックホール星仮説を支持する観測成果がNature掲載",
+          "summary": "ハワイ大学天文学研究所のRohan P. Naidu率いる国際研究チームは、ジェームズ・ウェッブ宇宙望遠鏡（JWST）が発見した初期宇宙の謎の天体「リトル・レッド・ドット（LRD）」について、正体が「ブラックホール星」であるとする仮説を支持する成果を発表し学術誌Natureに掲載された。くじら座方向の約<strong>131</strong>億年前の天体「MoM-BH*-1」で、バルマー不連続（バルマーブレイク）が観測史上最大級の強さで検出されたという。LRDはビッグバンの約<strong>6</strong>億年後に存在したとされ、その起源をめぐっては数百本もの論文が提出されるほど注目を集めており、今回の成果はその解明への大きな前進と評価されている。",
+          "sourceName": "sorae 宇宙へのポータルサイト",
+          "sourceUrl": "https://sorae.info/astronomy/20260826-lrd.html",
+          "tags": ["宇宙", "科学", "研究"]
+        }
+      ]
+    }
+  ]
+}
