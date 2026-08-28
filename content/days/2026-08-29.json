@@ -1,0 +1,84 @@
+{
+  "date": "2026-08-29",
+  "label": "2026年8月29日 (土)",
+  "intro": "AWSがOLAPデータベース「DuckDB」開発元DuckLabsを買収し、Google Gemini Omni <strong>1.1</strong> Flashが最長<strong>40</strong>秒の動画延長生成を公開。ランスタッドの調査では日本のIT人材が給与を<strong>63.9</strong>%の割合で最重視（世界より<strong>9.8</strong>ポイント高）することが明らかになり、GitHubは<strong>9</strong>月<strong>28</strong>日以降にCopilotの統合体験を再設計すると発表。DHBR<strong>8</strong>月号ではキーガン教授が強いチームほど「弱さを見せ合う」逆説を論じた。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "DuckDBの開発元DuckLabsがAWSの子会社に — OSSとMITライセンスは継続",
+          "summary": "OLAPデータベース「DuckDB」の開発元であるオランダ・アムステルダム拠点のDuckLabsが、Amazon Web Services（AWS）の子会社となることで合意したと発表した。DuckDBはDuckDB Foundationのもとでオープンソースのまま<strong>MIT</strong>ライセンスを維持し、共同創業者のHannes MühleisenとMark Raasveltkが引き続き技術方針を主導する。エンジニアチームはアムステルダムを拠点に存続し、ライセンス・ガバナンス・ロードマップは変更されない。AWSはDuckLabsの合流により、S3・Redshift・Athenaなど既存サービスとDuckDBの組み込み分析技術を統合し、エンタープライズ向け分析の高速化・低コスト化を目指す方針を示している。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/duckdbducklabsawsduckdbmit.html",
+          "tags": ["技術トレンド", "データベース", "クラウド"]
+        },
+        {
+          "position": 2,
+          "title": "日本のIT人材、給与・福利厚生重視が世界平均より9.8ポイント高い — ランスタッド2026年調査",
+          "summary": "ランスタッドが公表した「エンプロイヤーブランドリサーチ <strong>2026</strong>（IT版）」によると、日本のITプロフェッショナルが企業選びで最重視する条件は「給与と福利厚生」で<strong>63.9</strong>%が選択。世界のITプロフェッショナル平均（<strong>54.1</strong>%）を<strong>9.8</strong>ポイント、日本の全業種平均（<strong>59.2</strong>%）を<strong>4.7</strong>ポイント上回った。調査は日本のIT人材が就職・転職先選びで「<strong>2</strong>番目に重視する条件」が世界と大きく異なる点も明らかにしており、報酬偏重の背景にある日本特有のキャリア観を浮き彫りにしている。",
+          "sourceName": "@IT",
+          "sourceUrl": "https://atmarkit.itmedia.co.jp/ait/articles/2608/28/news038.html",
+          "tags": ["採用", "IT人材", "リサーチ"]
+        },
+        {
+          "position": 3,
+          "title": "Google、動画生成AI「Gemini Omni 1.1 Flash」公開 — 最長40秒の動画を延長生成",
+          "summary": "Googleは動画生成AIモデル「Gemini Omni <strong>1.1</strong> Flash」を公開し、Gemini APIおよびGoogle AI Studio経由で開発者向けに提供を開始した。<strong>10</strong>秒分のコンテキストを参照して既存動画を最長<strong>40</strong>秒まで延長生成できるのが特徴で、映像の一貫性を保ちながら追加シーンを生成する。マルチモーダル対応の動画編集・延長機能を新たに備えており、<strong>2026</strong>年<strong>8</strong>月<strong>28</strong>日に公開された。",
+          "sourceName": "ITmedia AI+",
+          "sourceUrl": "https://www.itmedia.co.jp/aiplus/article/2608/28/2000000878/",
+          "tags": ["技術トレンド", "AI", "動画生成"]
+        },
+        {
+          "position": 4,
+          "title": "GitHub Copilot、9月末に単一統合体験へ — チャット履歴も28日制限を撤廃",
+          "summary": "GitHubは<strong>2026</strong>年<strong>9</strong>月<strong>28</strong>日以降、GitHub.com上のCopilot Chat・GitHub MobileアプリのCopilot Chat・GitHub Copilotクラウドエージェントを単一の統合体験として再ローンチすると発表した。会話履歴の保持期間もこれまでの<strong>28</strong>日間からアカウント存続期間中へと変更され、クラウドエージェントとの履歴管理が一本化される。AIコーディング支援の複数製品を一体化する今回の再設計は、競合する各社のエージェント統合と同じ方向性を示している。",
+          "sourceName": "GitHub Changelog",
+          "sourceUrl": "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing/",
+          "tags": ["技術トレンド", "開発ツール", "AI"]
+        },
+        {
+          "position": 5,
+          "title": "Cursorが独自コードホスティング「Origin」β開始 — GitHubとの双方向同期に対応",
+          "summary": "AI開発環境Cursorを開発するAnysphereが、独自のGitコードホスティングサービス「Origin」の初期ベータ版を有料プランユーザーへの順次展開として開始した。OriginはCursorエディタと深く統合されており、リポジトリの作成・クローン・プッシュ・プル・プルリクエストのレビューとマージがCursor内から完結する。既存のGitHubリポジトリとの双方向同期機能も備え、「脱GitHub」の受け皿となるかが注目されている。<strong>2026</strong>年<strong>8</strong>月<strong>17</strong>日より全有料プランへの段階的展開が始まっており、Pro・Pro+・Ultra・Teams・Enterpriseの各プランユーザーが対象となっている。",
+          "sourceName": "@IT",
+          "sourceUrl": "https://atmarkit.itmedia.co.jp/ait/articles/2608/20/news026.html",
+          "tags": ["技術トレンド", "開発ツール", "AI"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "強いチームほど「弱さを見せ合う」— ハーバード教授キーガンが語る組織論",
+          "summary": "ハーバード大学教育学部のロバート・キーガン教授は、DIAMOND ハーバード・ビジネス・レビュー<strong>2026</strong>年<strong>8</strong>月号の特集「強いチームをつくる」に登場し、「強いチームほど弱さを見せ合う」という逆説的テーゼについてインタビューで語った。全員が成長できる組織のつくり方として、メンバー同士が互いの弱さや限界を開示し合う文化が基盤になるという構造を示している。「能力の高さ」ではなく「成長を支え合う関係の質」でチームを評価するこの視点は、組織観が固まる前の就活生に新鮮な問いかけを与える。",
+          "sourceName": "DIAMOND ハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14366",
+          "tags": ["チームマネジメント", "成長", "思考力"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "ドナウ川、熱波で観測史上最低水位 — ハンガリー唯一の原発停止・ルーマニア2基も",
+          "summary": "連続する熱波の影響で欧州第<strong>2</strong>位の長さを誇るドナウ川の水位がルーマニア・スロバキアで過去<strong>30</strong>年間の最低値、ハンガリーでは観測史上最低を記録した。ハンガリーはドナウ川の冷却水に依存する同国唯一の原子力発電所を停止し、ルーマニアもチェルナボダ原発の<strong>2</strong>基を稼働停止させた。水位低下で船舶は満載での航行が不能となり、コンテナ輸送に深刻な影響が出ている。またセルビアではドイツ軍の沈没船が川底から露出するなど、気候変動がインフラ・エネルギー・物流に連鎖的打撃を与える構造が改めて示された。",
+          "sourceName": "AFPBB News",
+          "sourceUrl": "https://www.afpbb.com/articles/-/3647271",
+          "tags": ["環境", "気候変動", "国際"]
+        }
+      ]
+    }
+  ]
+}
