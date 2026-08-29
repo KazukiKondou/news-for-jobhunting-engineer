@@ -1,0 +1,76 @@
+{
+  "date": "2026-08-30",
+  "label": "2026年8月30日 (日)",
+  "intro": "Google「Expert Intelligence」が購入済み電子書籍<strong>10</strong>万冊超をGemini Notebookに統合し、AnthropicはAIが顕微鏡やロボットアームを操作する共通規格「MHS」を発表。メルカリはClaude Code全社展開の二層MDM戦略を詳細公開し、非エンジニア<strong>1,000</strong>人超への配布体制も示した。氷河の中に<strong>63</strong>年間眠ったバックパックが<strong>86</strong>歳男性に返還されたニュースも注目を集めた。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Google「Expert Intelligence」— 購入済み電子書籍10万冊超をGemini Notebookに統合",
+          "summary": "Googleは<strong>2026</strong>年<strong>8</strong>月<strong>27</strong>日（現地時間）、購入済みGoogle Play Booksの電子書籍をGemini Notebookの情報源として追加できる「Expert Intelligence」を発表した。<strong>10</strong>万冊超の書籍が対象で、ユーザーは「ソースを追加」からPlay Books書籍を選択してノートブックに取り込み、著者・専門家の知識を基に質問への回答を得られる。現時点では英語の電子書籍のみ対応しており、今後GeminiアプリおよびGoogle SearchのAI Modeへの拡大が計画されている。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2608/28/2000000893/",
+          "tags": ["技術トレンド", "AI", "ツール"]
+        },
+        {
+          "position": 2,
+          "title": "Anthropic「Model Hardware Standard」— AIが顕微鏡・ロボットアームを直接制御する共通規格",
+          "summary": "Anthropicは<strong>2026</strong>年<strong>8</strong>月<strong>27</strong>日、AIエージェントが顕微鏡・液体ハンドラ・ロボットアームなどの物理機器を安全に操作するための共通規格「Model Hardware Standard（MHS）」のリサーチプレビューを公開した。HHMI Janelia Research Campusと共同開発されており、MHS対応機器はネットワーク上に標準フォーマットで公開されてAIエージェントが並行で複数機器を制御できる。HW統合作業を従来の数週間から数時間に短縮できるとしており、AWS・Tecan・Universal Robots・Hugging Face・Raspberry Piが対応を表明。将来的にオープンソース化を予定している。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2608/28/2000000897/",
+          "tags": ["技術トレンド", "AI", "ロボティクス"]
+        },
+        {
+          "position": 3,
+          "title": "メルカリ、Claude Code全社展開の二層MDM戦略とセキュリティ設定6項目を詳細公開",
+          "summary": "メルカリは<strong>2026</strong>年<strong>5</strong>月よりClaude CodeおよびClaude Coworkの全社展開を開始し、その配布戦略とセキュリティ設定を詳細に公開した。エンジニアと非エンジニアで異なる設定セットを適用する「二層MDM戦略」を採用し、非エンジニア全員（<strong>1,000</strong>人超）にも利用可能にした。セキュリティ設定は<strong>6</strong>項目からなり、バイパスモードの禁止・環境変数ファイルの読み込み禁止・サンドボックスによる制限などが含まれる。AIエージェントを前提とした働き方を学ぶ「AI Agent Day」を全社で開催しており、大規模Web系企業のAIコーディングツール本格導入の実例として注目される。",
+          "sourceName": "@IT",
+          "sourceUrl": "https://atmarkit.itmedia.co.jp/ait/articles/2608/04/news002.html",
+          "tags": ["技術トレンド", "AI", "組織"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 4,
+          "title": "AIをわずか10分使うだけで思考力と粘り強さが低下 — カーネギーメロン大の実験結果",
+          "summary": "米カーネギーメロン大学の研究チームが実施した実験で、AIツールをわずか<strong>10</strong>分間使用するだけで人間の思考力や困難な課題への粘り強さが低下するという結果が示された。AI利用後は難しい問いへの取り組み意欲が弱まり、短時間の利用でも認知能力への影響が現れることが確認されている。AIへの過度な依存が独自の判断力・批判的思考力を徐々に弱める懸念が研究者から指摘されており、便利なツールを活用しながら人間固有の思考力を鍛え続けるかが課題として浮上している。",
+          "sourceName": "日経クロステック",
+          "sourceUrl": "https://xtech.nikkei.com/atcl/nxt/column/18/03673/072700005/",
+          "tags": ["AI", "認知科学", "思考力"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "氷河の中に63年間眠ったバックパック、86歳男性に返還 — 1963年の転落事故の遺品",
+          "summary": "オーストリア・チロル地方のズルツタルフェルナー氷河（標高約<strong>3,000</strong>メートル）で今月、登山者が古いバックパックを発見した。書類に記されていた名前から、<strong>1963</strong>年<strong>8</strong>月に氷河横断中にクレバスへ転落した際に残していったものと判明した。当時は仲間たちにロープで引き上げられたが、身を軽くするためにバックパックを放棄していた。中にはピッケル・カメラ・ホイッスル・書類入れが氷の中で保存されており、<strong>86</strong>歳となった持ち主は体調不良で直接受け取ることができなかったため、息子を通じて<strong>63</strong>年ぶりに返還された。",
+          "sourceName": "CNN.co.jp",
+          "sourceUrl": "https://www.cnn.co.jp/world/35252015.html",
+          "tags": ["人物", "自然", "科学"]
+        },
+        {
+          "position": 6,
+          "title": "週刊ダイヤモンド、2027年3月で紙版終了 — 1913年創刊の経済誌が完全デジタル化へ",
+          "summary": "ダイヤモンド社は<strong>2026</strong>年<strong>8</strong>月<strong>27</strong>日、<strong>1913</strong>年（大正<strong>2</strong>年）創刊の経済誌「週刊ダイヤモンド」について、<strong>2027</strong>年<strong>3</strong>月で紙での発行を終了し、同<strong>4</strong>月から「完全デジタル雑誌」へ移行すると発表した。デジタル版の有料会員数が順調に増加したことを踏まえた判断で、紙版は<strong>2025</strong>年<strong>4</strong>月から書店販売をやめ定期購読のみとしていた。<strong>113</strong>年の歴史を持つ老舗ビジネス誌の完全デジタル移行は、日本の紙メディア全体における構造変化の象徴的な出来事として受け止められている。",
+          "sourceName": "日本経済新聞",
+          "sourceUrl": "https://www.nikkei.com/article/DGXZQOUC2788H0X20C26A8000000/",
+          "tags": ["メディア", "デジタル化"]
+        }
+      ]
+    }
+  ]
+}
