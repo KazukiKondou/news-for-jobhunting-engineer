@@ -1,0 +1,84 @@
+{
+  "date": "2026-08-31",
+  "label": "2026年8月31日 (月)",
+  "intro": "Docker Desktop <strong>v4.86</strong>が新VMM「Docker VMM」でmacOSのファイル共有を最大<strong>25</strong>倍高速化し、Go言語<strong>1.27</strong>がジェネリックメソッドを正式導入。CyberAgentがABEMAの大規模モノレポでの影響を検証公開し、VS Code <strong>1.133</strong>はClaude・Copilotの混在利用を実現。メルカリはMySQL→TiDB移行のインデックス非互換問題を詳細公開し、Cloud Native BuildpacksはCNCFグラジュエーション到達。東洋経済オンラインは生成AI時代に「高偏差値の価値は大暴落」と論じ、<strong>9</strong>月<strong>1</strong>日から生活道路の法定速度が<strong>30</strong>km/hへ引き下げとなる。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Docker Desktop v4.86ベータ — 新VMM「Docker VMM」でmacOSのファイル共有を最大25倍高速化",
+          "summary": "Dockerは、macOS向けの新しい仮想マシンモニター「Docker VMM」をDocker Desktop <strong>v4.86</strong>のベータ版に搭載した。Apple仮想化フレームワーク（Apple VF）をベースに構築されており、virtiofを活用したファイル共有が初回（コールド）時で最大<strong>2</strong>倍、繰り返しアクセス（ウォーム）時で最大<strong>25</strong>倍高速化する。現行のDockerVMよりメモリ効率も改善されており、一般提供（GA）は<strong>2026</strong>年<strong>10</strong>月を予定している。Dockerが自社の仮想化基盤をAppleのネイティブ技術へ移行する取り組みで、macOSを使う開発者のローカル環境体験が大幅に向上する見通しだ。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/dockerdocker_vmm.html",
+          "tags": ["技術トレンド", "開発ツール", "コンテナ"]
+        },
+        {
+          "position": 2,
+          "title": "Visual Studio Code 1.133正式リリース — HTMLの自動リロードとClaude・Copilotの混在利用が可能に",
+          "summary": "MicrosoftはVisual Studio Code（VS Code）のバージョン<strong>1.133</strong>を正式リリースした。チャット・プロンプト入力エリアでのスティッキースクロール対応により、コードコンテキストを保持したまま対話しやすくなった。HTMLファイルの変更を保存時に自動リロードする機能が追加され、ブラウザでの確認工程を省略できる。また、GitHub CopilotとAnthropicのClaude両モデルを同一ワークスペース内で混在利用できるマルチモデルサポートも実現し、用途に応じてAIモデルを使い分けられる開発環境になった。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/visual_studio_code_1133htmlclaudecopilot.html",
+          "tags": ["技術トレンド", "開発ツール", "AI"]
+        },
+        {
+          "position": 3,
+          "title": "Go 1.27正式リリース — ジェネリックメソッド・JSON v2・ML-DSA追加、CyberAgentがABEMAで影響検証",
+          "summary": "Go言語の新バージョン「<strong>1.27</strong>」が正式リリースされた。最大の新機能はジェネリックメソッド（generic methods）の正式導入で、これまでパッケージレベル関数としてしか書けなかった汎用操作を型のメソッドとして定義できるようになった。encoding/json v<strong>2</strong>・goroutineリーク検出プロファイラ・ポスト量子暗号署名ML-DSAも追加されている。CyberAgentは国内最大規模の動画配信サービスABEMAの広告配信システムのモノレポでGo <strong>1.27</strong>へのバージョンアップ影響をCI環境でビルド・テスト・Lint実行して検証した事例をエンジニアブログで公開しており、大規模Webサービスでの移行時の知見として参考になる。",
+          "sourceName": "CyberAgent Developers Blog",
+          "sourceUrl": "https://developers.cyberagent.co.jp/blog/archives/65492",
+          "tags": ["技術トレンド", "Go", "プログラミング言語"]
+        },
+        {
+          "position": 4,
+          "title": "メルカリ、MySQL→TiDB移行でのインデックス非互換問題を詳細公開 — プレフィックスインデックス等",
+          "summary": "メルカリはMySQLからTiDBへのデータベース移行プロジェクトで発見した、インデックスの動作差異に起因する非互換問題の詳細と解決策をエンジニアブログで公開した。プレフィックスインデックスの取り扱いなど、MySQL固有の動作がTiDBでは異なるケースを複数特定し、実際に直面した問題と対処法をコード例とともに解説している。MySQLから分散データベースへの移行は大規模サービスの課題として広く共有されており、メルカリの実践的な知見は類似の移行を検討するエンジニアチームにとって参考となる事例だ。",
+          "sourceName": "Mercari Engineering Blog",
+          "sourceUrl": "https://engineering.mercari.com/blog/entry/20260820-4f9e501769/",
+          "tags": ["技術トレンド", "データベース", "エンジニアリング"]
+        },
+        {
+          "position": 5,
+          "title": "Cloud Native BuildpacksがCNCFグラジュエーション達成 — Dockerfileなしのコンテナビルドが業界標準に",
+          "summary": "Cloud Native Computing Foundation（CNCF）は、ソースコードからDockerfileを書かずにコンテナイメージを自動生成するオープンソースプロジェクト「Cloud Native Buildpacks（CNB）」のグラジュエーション（卒業）を発表した。インキュベーションステージから正式グラジュエーションプロジェクトへ昇格したことで、コンテナビルドの業界標準として広く認定されたことになる。Heroku・Google Cloud・Salesforceなど主要クラウドサービスで採用されており、Dockerfileを記述する負担を削減しセキュリティのベストプラクティスを自動適用できるため、DevSecOpsの観点からも注目される技術だ。",
+          "sourceName": "CNCF",
+          "sourceUrl": "https://www.cncf.io/announcements/2026/08/11/cncf-announces-graduation-of-cloud-native-buildpacks-advancing-the-standard-for-container-builds/",
+          "tags": ["技術トレンド", "コンテナ", "OSS"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "生成AI時代に「高偏差値の価値は大暴落」— 企業と大学が求める「頭のいい人」の新基準とは",
+          "summary": "東洋経済オンラインは、生成AIが瞬時に正解を提示できる時代において「高偏差値」や「正解を早く出せる能力」という従来の評価基準が急速に価値を失っていると論じた。企業と大学が今後求める「頭のいい人」の新基準として、AIが代替できない「自ら意味のある問いを設定し判断を下す力」が重要になる構造を示している。試験で高得点を取る能力よりも、問題そのものを定義し自分で結論を導く思考力が就活市場でも問われ始めており、学歴やスコアを主な武器としてきた就活生に新たな視点を提供する論考となっている。",
+          "sourceName": "東洋経済オンライン",
+          "sourceUrl": "https://toyokeizai.net/articles/-/953538",
+          "tags": ["AI", "教育", "思考力"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "生活道路の法定速度、9月1日から30km/hへ — 中央線のない道路全域が対象、標識なしでも即適用",
+          "summary": "道路交通法施行令の改正により、<strong>2026</strong>年<strong>9</strong>月<strong>1</strong>日から中央線や車両通行帯がない一般道路（生活道路）の法定速度が従来の<strong>60</strong>km/hから<strong>30</strong>km/hへ引き下げられる。道路標識がなくても自動的に<strong>30</strong>km/h制限が適用されるため、知らずに走ると速度超過違反となる。対象は住宅地の路地・生活道路など比較的狭い道路全般で、歩行者や自転車の安全確保が主な目的。<strong>2024</strong>年<strong>7</strong>月の改正公布から<strong>2</strong>年間の周知期間を経て施行されるもので、通勤・通学ルートを持つドライバーは本日より対応が必要だ。",
+          "sourceName": "レスポンス（Response.jp）",
+          "sourceUrl": "https://response.jp/article/2026/08/30/415900.html",
+          "tags": ["法律", "交通", "生活"]
+        }
+      ]
+    }
+  ]
+}
