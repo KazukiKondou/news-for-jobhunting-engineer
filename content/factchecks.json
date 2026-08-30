@@ -68,5 +68,12 @@
     "verdict": "unverifiable",
     "detail": "ファクトチェックキューAPIへ curl で問い合わせたが空レスポンスが返った。FACTCHECK_TOKEN が未設定のため API 認証不可と判断。キューに報告済み記事があったかどうか不明。",
     "action": "キュー取得不可のためスキップ。記事生成は続行。"
+  },
+  {
+    "slug": "2026-08-31-queue",
+    "ranOn": "2026-08-31",
+    "verdict": "unverifiable",
+    "detail": "ファクトチェックキューAPIへ curl で問い合わせたが空レスポンスが返った。FACTCHECK_TOKEN が未設定のため API 認証不可と判断。キューに報告済み記事があったかどうか不明。",
+    "action": "キュー取得不可のためスキップ。記事生成は続行。"
   }
 ]
