@@ -1,0 +1,84 @@
+{
+  "date": "2026-09-01",
+  "label": "2026年9月1日 (火)",
+  "intro": "Bun <strong>1.4</strong>がRust完全移植版でNode.js互換テスト合格率<strong>97</strong>%に到達し、GitHubがCopilotに組織カスタムエージェントと思考力レベル調整を追加。SalesforceがSlack上でAIエージェントと共同開発できる「Slack Code」を提供開始し、Flutter <strong>3.47</strong>がImpellerをmacOS・Windows・Linuxのデフォルトレンダラーに昇格させた。Forbes JAPANは「AIの答えを疑う力」を含む<strong>5</strong>つの人間固有の価値を解説し、ドナウ川の歴史的水位低下でハンガリー・ルーマニアの原発が冷却水不足で相次ぎ停止した。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "GitHub Copilot in Visual Studio August 2026 — 組織カスタムエージェントと思考力レベル調整を追加",
+          "summary": "GitHubは<strong>2026</strong>年<strong>8</strong>月<strong>28</strong>日、Visual Studio向けGitHub Copilotの<strong>8</strong>月アップデートを公開した。GitHub組織・エンタープライズの管理者が組織全体のリポジトリ向けにカスタムエージェントを公開できるようになり、Visual Studioはこれらのエージェントを自動検出してエージェントピッカーに説明と組織ソースを表示する。対応するCopilotモデルに対してLow・Medium・Highの思考力レベルを選択できる設定も追加され、コードレビューの依頼タイミングや使用モデルの制御機能も強化された。",
+          "sourceName": "GitHub Changelog",
+          "sourceUrl": "https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2/",
+          "tags": ["技術トレンド", "AI", "開発ツール"]
+        },
+        {
+          "position": 2,
+          "title": "Bun 1.4正式リリース — Rust完全移植でCPU使用率5倍低下・Node.js互換テスト97%通過",
+          "summary": "JavaScriptランタイム「Bun」がZigからRustへの完全移植版であるv<strong>1.4</strong>を正式リリースした。アイドル時のCPU使用率が約<strong>5</strong>倍低下、メモリ使用量が最大<strong>35</strong>%削減、Linux上の起動時間が約<strong>50</strong>%短縮された。Node.js自身のテストスイートから<strong>1,517</strong>件の追加テストが合格するようになり、PlaywrightとVitestがBun上で動作可能になった。http・fs・cluster・timers等のモジュールのテスト合格率は<strong>97</strong>%に達し、Windows ARM64のネイティブサポートと<strong>2,900</strong>件超のGitHub Issue修正も含まれている。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/rustbun_14nodejsplaywrightvitestcpu.html",
+          "tags": ["技術トレンド", "JavaScript", "ランタイム"]
+        },
+        {
+          "position": 3,
+          "title": "Slack Code提供開始 — SlackチャンネルでClaudeやDevinをメンションしてチーム共同開発",
+          "summary": "Salesforce傘下のSlackは、開発チームとAIエージェントが同一Slackチャンネル内で共同開発できる新機能「Slack Code」の提供を開始した。ClaudeやDevinなどのコーディングエージェントをチャンネル内でメンションするだけで、エージェントがタスク専用のコードチャンネルを自動作成する。開発チームの議論や会話の内容をAIがコンテキストとして把握し、コード生成・レビュー・動作確認をチーム全体でリアルタイムに共有しながら進められる設計になっている。プロジェクトリーダー・デザイナー・プログラマなど役割の異なるメンバーがAIと同じチャンネルで協働できる点が特徴だ。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/slackaislack_code.html",
+          "tags": ["技術トレンド", "AI", "開発ツール"]
+        },
+        {
+          "position": 4,
+          "title": "Flutter 3.47 / Dart 3.13正式リリース — ImpellerがデスクトップOSのデフォルトに、UIライブラリがSDKから独立",
+          "summary": "Googleは<strong>2026</strong>年<strong>8</strong>月<strong>12</strong>日にFlutter <strong>3.47</strong>とDart <strong>3.13</strong>を正式リリースした。次世代レンダリングエンジン「Impeller」がmacOS・Windows・Linuxのデフォルトレンダラーとなり、Skiaからの置き換えが完了した。MaterialとCupertinoのデザインライブラリがFlutter SDKから切り離されてスタンドアロンパッケージに移行し、独自のリリースサイクルを持てるようになった。Widget PreviewツールがStableに昇格して個別ウィジェットのプレビューが高速化し、最小サポートバージョンはiOS <strong>15</strong>・macOS <strong>12</strong>に引き上げられた。",
+          "sourceName": "The Flutter Blog",
+          "sourceUrl": "https://flutter.dev/blog/whats-new-in-flutter-3-47",
+          "tags": ["技術トレンド", "モバイル", "フレームワーク"]
+        },
+        {
+          "position": 5,
+          "title": "Agent Plugins 1.0.0発表 — Microsoft・OpenAI・AWS・GoogleらがAIエージェント横断の共通仕様を策定",
+          "summary": "Microsoft・OpenAI・AWS・Google・Anysphere・VercelらがAIエージェント間の相互運用仕様「Agent Plugins <strong>1.0.0</strong>」を<strong>2026</strong>年<strong>8</strong>月に発表した。AIエージェントのスキル（再利用可能な指示・リソース）とMCPサーバ設定を共通フォーマットでパッケージ化・配布できるオープン仕様で、ChatGPT・Codex・Cursor・GitHub Copilot・Kiroの<strong>5</strong>クライアントおよびVS Codeが初期対応を表明した。異なるエージェントを組み合わせて使う開発現場でのツール設定コストを下げることを目的としており、Anthropicは参加していない。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/agent_plugins_100aimcpopenaiawsgoogle.html",
+          "tags": ["技術トレンド", "AI", "オープン標準"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "AIの答えを疑う力が武器に — 2030年に向けて磨くべき5つの人間の価値",
+          "summary": "Forbes JAPANは<strong>2026</strong>年<strong>8</strong>月<strong>20</strong>日、生成AIが高度化する時代に磨くべき<strong>5</strong>つの人間固有の価値を解説した。判断力・コミュニケーション・好奇心・批判的思考・対人知性が、かつて「ソフトスキル」と呼ばれた能力から採用・キャリア評価の中心に移行しつつあると論じている。生成AIは文脈を生成できず、問いが少しずれるだけでハルシネーションが増加するという構造的制約が「AIの答えを疑う力」の価値を押し上げていると指摘する。AIの能力・限界の理解、プロンプト作成、誤り評価、AI活用の判断といったAIリテラシーも今後の重要スキルとして挙げられている。",
+          "sourceName": "Forbes JAPAN",
+          "sourceUrl": "https://forbesjapan.com/articles/detail/102706",
+          "tags": ["AI", "思考力", "キャリア"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "ドナウ川が観測史上最低水位 — 原発の冷却水不足で中東欧エネルギー危機が表面化",
+          "summary": "欧州で<strong>2</strong>番目に長いドナウ川が<strong>2026</strong>年<strong>8</strong>月、5月以降の熱波による渇水で歴史的な水位低下を記録した。ルーマニア・スロバキアでは過去<strong>30</strong>年の最低水準に、ハンガリーでは観測史上最低となり、ハンガリー唯一の原子力発電所（パクシュ原発）は<strong>4</strong>基中<strong>3</strong>基を停止した。ルーマニアも冷却水不足を理由にチェルナボダ原発の<strong>2</strong>基を同時停止させた。気候変動による渇水が電力インフラに直接影響するリスクを示した事例で、水資源とエネルギー安全保障の関係が改めて問われている。",
+          "sourceName": "AFPBB News",
+          "sourceUrl": "https://www.afpbb.com/articles/-/3647271",
+          "tags": ["環境", "エネルギー", "国際"]
+        }
+      ]
+    }
+  ]
+}

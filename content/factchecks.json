@@ -1,5 +1,12 @@
 [
   {
+    "slug": "2026-09-01-queue",
+    "ranOn": "2026-09-01",
+    "verdict": "unverifiable",
+    "detail": "ファクトチェックキューAPIがHTTP 22（curl終了コード）を返した。FACTCHECK_TOKEN未設定またはネットワーク制約による。キューに報告済み記事があったかどうか不明。",
+    "action": "キュー取得不可のためスキップ。記事生成は続行。"
+  },
+  {
     "slug": "2026-08-12-queue",
     "ranOn": "2026-08-12",
     "verdict": "unverifiable",
