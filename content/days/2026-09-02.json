@@ -1,0 +1,92 @@
+{
+  "date": "2026-09-02",
+  "label": "2026年9月2日 (水)",
+  "intro": "JetBrainsが<strong>27</strong>BモデルをM5 Mac上でローカル実行するコーディングエージェント「Junie Local」を公開し、Amazon RedshiftがAIエージェントとのDWH操作統合を発表。DuckDBの開発元DuckLabsがAWSの子会社化を発表し、VS Code <strong>1.135</strong>がセカンドオピニオン機能「Rubber Duck」を実験的に搭載した。オードリー・タンが「AIを親友にしてはいけない」と警鐘を鳴らし、JAXAは火星衛星探査機MMXをH3ロケット<strong>10</strong>号機で<strong>10</strong>月<strong>20</strong>日に打ち上げると発表した。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Amazon RedshiftがAgent Toolkit for AWSと統合 — AIエージェントからDWH構築・集計分析が直接可能に",
+          "summary": "AmazonはAIコーディングエージェント統合基盤「Agent Toolkit for AWS」とAmazon Redshiftを統合した。Claude Code・Kiro・Cursorなどのコーディングエージェントから直接RedshiftのDWH構築・クエリ・トラブルシュート・移行が可能になる。統合はAWS MCPサーバとRedshiftスキル（SQL構文リファレンス・メタデータ探索・データロードパターン・マテリアライズドビューのベストプラクティス等）の組み合わせで動作する。agent内でaws-data-analyticsプラグインをインストールするだけで使い始められる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/airedshiftdwhamazon_redshiftagent_toolkit_for_aws.html",
+          "tags": ["技術トレンド", "AI", "クラウド"]
+        },
+        {
+          "position": 2,
+          "title": "VS Code 1.135にRubber Duck機能が実験的実装 — 別AIモデルがコード・計画にセカンドオピニオン",
+          "summary": "MicrosoftはVS Code <strong>1.135</strong>で「Rubber Duck」機能を実験的に搭載した。開発中のコードや計画・テストに対して、メインのAIエージェントとは異なるモデルにセカンドオピニオンを求められる機能で、/rubber-duckと入力することで起動する。別モデルが見落としやエッジケースを探し出すよう設計されており、AIエージェント主導の開発における盲点を補う役割を担う。同一エージェントセッションに複数のVS Codeウィンドウから接続できるエージェントホストの改善も含まれた。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/vs_codeairubber_duck.html",
+          "tags": ["技術トレンド", "AI", "開発ツール"]
+        },
+        {
+          "position": 3,
+          "title": "DHH版Linux OS「Omarchy Quattro」リリース — AIエージェントとOSをスキルで統合",
+          "summary": "Ruby on RailsのDHH氏が開発するLinux OS「Omarchy」の最新版「Quattro（4.0）」がリリースされた。Arch Linux・Hyprlandタイリングウィンドウマネージャー・Quickshellデスクトップシェル（今回フルリライト）の組み合わせで構成される。最大の特徴はAIエージェントとOSの統合で、スキルと呼ばれる仕組みを介してAIエージェントがOSの設定変更・操作・プラグイン作成まで支援できるようになった。DHH氏はこのコンセプトを「Omacom（おまかせコンピューティング）」と呼んでいる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/dhhlinux_osomarchy_quattroaiosaios.html",
+          "tags": ["技術トレンド", "Linux", "AI"]
+        },
+        {
+          "position": 4,
+          "title": "DuckDB開発元DuckLabsがAWS子会社化を発表 — MITオープンソースは継続",
+          "summary": "オープンソース分析データベース「DuckDB」の開発元DuckLabs（アムステルダム拠点）がAWSの子会社になると発表した。DuckDBはMITライセンスのオープンソースとして引き続き独立したFoundationの下で維持され、DuckLabsチームもアムステルダムに留まりDuckDB・DuckLake・Quackなどの開発を継続する。Amazonにとってはインプロセス型の高速分析エンジンとしてAWSデータサービス全体に組み込める基盤を確保する意味合いがある。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/duckdbducklabsawsduckdbmit.html",
+          "tags": ["技術トレンド", "データベース", "オープンソース"]
+        },
+        {
+          "position": 5,
+          "title": "JetBrains「Junie Local」提供開始 — 27Bモデルを64GB M5 Mac上で完全ローカル実行",
+          "summary": "JetBrainsが完全ローカル実行のAIコーディングエージェント「Junie Local」を無償提供開始した。Qwen3.6-<strong>27</strong>Bパラメータモデルを<strong>4</strong>ビット量子化して動作し、Apple M5 Mac（メモリ<strong>64</strong>GB必須）上で稼働する。クラウドエンドポイント不要・トークンクォータなし・ソースコードがローカルから出ないため、機密性の高い業務にも使いやすい設計になっている。JetBrains社内テストではClaude Sonnet 4.5と同等の能力と評価されている。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/jetbrainsmacjunie_localclaude_sonnet_45rtx5909.html",
+          "tags": ["技術トレンド", "AI", "開発ツール"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "オードリー・タンが警鐘「AIを親友にしてはいけない」 — 逆ケンタウロスの罠と思考力の維持",
+          "summary": "日経xTECHは元台湾デジタル担当大臣オードリー・タン氏のインタビューを掲載し、AIを「親友」と錯覚することの危険性を伝えた。「あなたは100%正しい」「素晴らしいアイデアだ」と答えるAIを多用する経営幹部は、人に肯定されているかのような感覚に陥りやすく、自ら考えることをやめてしまうリスクがあると指摘する。AI時代の落とし穴を「AIが考え人が従う逆ケンタウロス」と表現し、「馬は速さを与えるが、方向と旅の意味を決めるのは人間」という比喩で人間主体の思考の重要性を説いた。",
+          "sourceName": "日経xTECH",
+          "sourceUrl": "https://xtech.nikkei.com/atcl/nxt/column/18/00157/082500110/",
+          "tags": ["AI", "思考力", "テクノロジー"]
+        },
+        {
+          "position": 7,
+          "title": "スマホ1時間で学習効果の数時間分が消失 — 東北大の7万人MRI調査が示す脳機能への影響",
+          "summary": "東洋経済オンラインは東北大学の川島隆太教授らによる仙台市の小中学生<strong>7</strong>万人を対象とした<strong>10</strong>年間の調査結果を報告した。スマートフォンの利用が<strong>1</strong>時間に及ぶと、それに見合う学習効果の数時間分が消失することが脳のMRI解析で判明したという。脳画像を<strong>3</strong>年ごとに解析した結果、スマホ利用時間が長い子どもほど脳の発達が停滞する傾向が示された。量的な利用管理だけでなく利用の質・場面を問い直す必要を提起している。",
+          "sourceName": "東洋経済オンライン",
+          "sourceUrl": "https://toyokeizai.net/articles/-/955693",
+          "tags": ["認知科学", "学習", "脳"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 8,
+          "title": "JAXAがMMX搭載H3ロケット10号機の打ち上げを10月20日に決定 — 世界初の火星圏サンプルリターンへ",
+          "summary": "JAXAは火星衛星探査機「MMX」を搭載するH3ロケット<strong>10</strong>号機の打ち上げを<strong>10</strong>月<strong>20</strong>日（予備期間<strong>10</strong>月<strong>21</strong>日〜<strong>11</strong>月<strong>7</strong>日）に設定したと発表した。SRB-3固体ロケットブースタ<strong>4</strong>本を装備した24L形態で種子島宇宙センターから打ち上げられる予定だ。MMXは火星の衛星フォボスへの軟着陸とサンプル採取を目指す世界初の火星圏サンプルリターン計画で、<strong>2027</strong>年に火星圏に到達し<strong>2031</strong>年に地球へ帰還する予定。",
+          "sourceName": "sorae.info",
+          "sourceUrl": "https://sorae.info/space/20260821-mmx.html",
+          "tags": ["宇宙", "科学", "JAXA"]
+        }
+      ]
+    }
+  ]
+}
