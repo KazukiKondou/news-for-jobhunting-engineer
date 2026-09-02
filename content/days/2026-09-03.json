@@ -1,0 +1,84 @@
+{
+  "date": "2026-09-03",
+  "label": "2026年9月3日 (木)",
+  "intro": "AnthropicがClaude新モデル「Fable 5.1」をリリースし、キャッシュ読み取りコスト<strong>75</strong>%削減・エージェンティックタスクで最大<strong>45</strong>%コスト削減を達成した。Python 3.15.0 RC2が<strong>144</strong>件のバグ修正と<strong>76</strong>人のコントリビューターで公開され正式リリースは10月1日予定。AWSとAzureが最大<strong>100</strong>Gbpsのプライベート相互接続を開始し、Googleは「Android September Drop」で<strong>11</strong>機能を追加した。楽器練習を<strong>4</strong>年継続した高齢者は脳機能の低下がなかったとする研究も報告された。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "AnthropicがClaude「Fable 5.1」「Mythos 5.1」を発表 — キャッシュ読み取りコスト75%削減・エージェンティックタスク最大45%コスト削減",
+          "summary": "Anthropicは新モデル「Claude Fable 5.1」と「Claude Mythos 5.1」を発表した。キャッシュ読み取りコストが<strong>75</strong>%削減、エージェンティックタスクでは最大<strong>45</strong>%のコスト削減を実現している。コンテキストウィンドウは<strong>1</strong>Mトークン、最大出力は<strong>128</strong>kトークン。Anthropicは同時に「監視の難しさ」に関するリスクも開示しており、AIエージェントが増加する中でのモデルの透明性確保への姿勢を示した。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/02/2000001048/",
+          "tags": ["技術トレンド", "AI"]
+        },
+        {
+          "position": 2,
+          "title": "Python 3.15.0 RC2リリース — 144件のバグ修正・JITでApple Silicon上13%高速化・正式版は10月1日",
+          "summary": "Python Software Foundationは「Python 3.15.0 RC2」を公開した。<strong>144</strong>件のバグ修正に<strong>76</strong>人のコントリビューターが参加した。主な新機能として遅延インポートキーワード・frozendict型・UTF-<strong>8</strong>デフォルトエンコーディングを搭載。JITコンパイラによりApple Silicon環境で<strong>13</strong>%の速度向上を達成しており、正式リリースは2026年<strong>10</strong>月<strong>1</strong>日に予定されている。",
+          "sourceName": "Python Insider",
+          "sourceUrl": "https://blog.python.org/2026/09/python-3150-rc2/",
+          "tags": ["技術トレンド", "Python"]
+        },
+        {
+          "position": 3,
+          "title": "AWSとAzureが最大100Gbpsで直接相互接続を開始 — パブリッククラウド間マルチクラウド統合が加速",
+          "summary": "AWSとMicrosoftが「AWS Interconnect – multicloud」と「Azure Multicloud Interconnect」を同時発表し、最大<strong>100</strong>Gbpsのプライベート接続でクラウド間の直接通信が可能になった。現時点ではパブリックプレビューで、対応リージョンは米国東部（バージニア北部）・米国西部（北カリフォルニア）・アジア太平洋（シドニー）・欧州（フランクフルト）の<strong>4</strong>リージョン。今後Google CloudやOracle Cloudへの拡張も示唆されている。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/awsazure100gbpsawsazuregoogle_cloudoracle_cloud.html",
+          "tags": ["技術トレンド", "クラウド"]
+        },
+        {
+          "position": 4,
+          "title": "Rust 1.98.0リリース — f32/f64への代数的浮動小数点メソッド追加とNumBufferで整数シリアライズ標準化",
+          "summary": "Rust Foundationは「Rust 1.98.0」を正式リリースした。最大の変更点はf32/f64型への代数的浮動小数点メソッド（加減乗除）の追加で、浮動小数点演算の最適化が容易になる。NumBufferとformat_intoが標準ライブラリに追加され、整数のシリアライズ処理が標準化された。substr_range/subslice_rangeも新たに導入。次バージョンRust 1.99は2026年<strong>10</strong>月<strong>1</strong>日リリース予定。",
+          "sourceName": "Rust Blog",
+          "sourceUrl": "https://blog.rust-lang.org/2026/08/20/Rust-1.98.0/",
+          "tags": ["技術トレンド", "プログラミング言語"]
+        },
+        {
+          "position": 5,
+          "title": "Google「Android September Drop」発表 — Motion Assistや視覚障害支援Guided Visionなど11機能追加",
+          "summary": "Googleは「Android September Drop」として<strong>11</strong>の新機能を発表した。乗り物酔い対策「Motion Assist」（Android 17対応）、GeminiのFind Hubへのオブジェクト記憶機能、音声で周囲の状況を説明する視覚障害者向け機能「Guided Vision」、Google KeepとMessagesの統合が主な追加機能となる。Pixel端末を中心に順次提供され、Android 17搭載端末からいくつかの機能が先行して利用できる。",
+          "sourceName": "HelenTech",
+          "sourceUrl": "https://helentech.jp/news-android-drop-2026-09-90751/",
+          "tags": ["技術トレンド", "Android", "モバイル"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "DHBR9月号「好奇心という筋肉を鍛える方法」— 好奇心は才能でなく鍛えられる能力",
+          "summary": "ダイヤモンド・ハーバード・ビジネス・レビュー<strong>2026</strong>年<strong>9</strong>月号はThomas Chamorro-Premuzic氏による「好奇心という筋肉を鍛える方法」を掲載した。EI（感情的知性）シリーズの一環として、「好奇心」を生まれ持った才能でなく筋肉のように意図的に鍛えられる能力として位置づける。既知のことに安住せず未知を積極的に探す姿勢が求められるAI時代において、学び続ける力の根幹が「好奇心」にあるという主張を展開している。",
+          "sourceName": "DIAMOND ハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://www.fujisan.co.jp/product/5772/new/",
+          "tags": ["思考力", "EI", "自己成長"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "楽器練習を4年続けた高齢者は脳の老化が止まっていた — ワーキングメモリ低下・被殻萎縮も防ぐ",
+          "summary": "ナゾロジーは高齢者（平均年齢<strong>73</strong>歳）を対象に楽器練習の継続効果を調べた研究を報告した。<strong>4</strong>年間継続したグループは脳機能の低下がみられなかった一方、途中でやめたグループはワーキングメモリの低下・被殻の萎縮・小脳機能の低下が確認された。特筆すべきは、演奏技術が高い人ではなく「やめずに続けた人」に効果が出た点であり、継続そのものが脳の老化抑制につながるという。",
+          "sourceName": "ナゾロジー",
+          "sourceUrl": "https://nazology.kusuguru.co.jp/archives/180666",
+          "tags": ["科学", "脳", "音楽"]
+        }
+      ]
+    }
+  ]
+}
