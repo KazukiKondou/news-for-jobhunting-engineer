@@ -89,5 +89,12 @@
     "verdict": "unverifiable",
     "detail": "ファクトチェックキューAPIへ curl で問い合わせたが空レスポンスが返った。FACTCHECK_TOKEN が未設定のため API 認証不可と判断。キューに報告済み記事があったかどうか不明。",
     "action": "キュー取得不可のためスキップ。記事生成は続行。"
+  },
+  {
+    "slug": "2026-09-03-queue",
+    "ranOn": "2026-09-03",
+    "verdict": "unverifiable",
+    "detail": "ファクトチェックキューAPI (https://news.kazukikondo.com/api/factcheck/queue) への接続がegressプロキシにより拒否された。FACTCHECK_TOKEN も未設定。キューに報告済み記事があったかどうか不明。",
+    "action": "キュー取得不可のためスキップ。記事生成は続行。"
   }
 ]
