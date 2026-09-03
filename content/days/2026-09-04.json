@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-04",
+  "label": "2026年9月4日 (金)",
+  "intro": "Google「Gemini 3.8 Flash」が9月2日リリースでTerminal-Bench 2.1スコア<strong>90.8</strong>%を記録し、Vue.js 3.6 RC.6がVirtual DOMを廃した「Vapor Mode」を機能完成として公開した。SalesforceとAnthropicは<strong>37</strong>の営業スキルを持つ「Claudeforce」を発表し、SmartHRはAIエージェントに問い合わせを一次対応させる「DESK AIエージェント」を<strong>5</strong>製品へ展開予定。Natureが<strong>114</strong>万人対象の研究を発表し、<strong>1,260</strong>の遺伝子変異がビッグファイブ性格特性と関連することを示した。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Google「Gemini 3.8 Flash」リリース — Terminal-Bench 2.1スコア90.8%、前モデル比+9.2pt",
+          "summary": "Googleは9月2日、「Gemini 3.8 Flash」を正式リリースした。ソフトウェアエンジニアリング・エージェンティックタスク・専門分野の多段階推論でGemini 3.7 Flashを大幅に上回り、Terminal-Bench 2.1でのスコアは<strong>90.8</strong>%（3.7 Flashの<strong>81.6</strong>%から向上）。開発者向け価格は入力<strong>0.75</strong>ドル/百万トークン・出力<strong>3.75</strong>ドル/百万トークンで2026年12月31日まで据え置き。Google AI ProおよびUltraのGeminiアプリ・AI Studio・Gemini API（モデルID: gemini-3.8-flash）から利用可能。脆弱性発見とパッチ作成を自律的に行うセキュリティ研究者向け限定バリアント「Gemini 3.8 Flash Cyber」も同時公開された。",
+          "sourceName": "9to5Google",
+          "sourceUrl": "https://9to5google.com/2026/09/02/gemini-3-8-flash-launch/",
+          "tags": ["技術トレンド", "AI"]
+        },
+        {
+          "position": 2,
+          "title": "SalesforceとAnthropicが「Claudeforce」発表 — 37の営業スキルでClaudeからSalesforceを操作",
+          "summary": "SalesforceとAnthropicは8月26日、戦略的パートナーシップ「Claudeforce」を発表した。「Salesforce in Claude」プラグインは<strong>37</strong>の営業スキルを内蔵し、Claude上でSalesforceのリアルタイム売上データへのアクセス・パイプライン更新の自動化・ガバナンス付きアクションの実行が可能になる。企業のデータ・ワークフロー・業務ロジックをMCPサーバー・API・CLIでAIエージェントに接続する「AIforce」も提供。今後はClaude・Salesforce・Slackにまたがる追加統合を順次公開予定とされている。",
+          "sourceName": "Salesforce",
+          "sourceUrl": "https://www.salesforce.com/news/press-releases/2026/08/26/salesforce-and-anthropic-announce-claudeforce/",
+          "tags": ["技術トレンド", "AI", "エンタープライズ"]
+        },
+        {
+          "position": 3,
+          "title": "Vue 3.6.0 RC.6公開 — Vapor ModeがVirtual DOM廃止で機能完成、秋に正式版予定",
+          "summary": "Vue.jsのコアチームは8月28日にVue 3.6.0-rc.6を公開した。最大の新機能「Vapor Mode」が機能完成段階に達し、シングルファイルコンポーネントをVirtual DOMのdiffingをバイパスして直接DOMへコンパイルする。ベンチマーク値はSolid.jsやSvelte 5と同水準。新しいalien-signalsベースのリアクティビティシステムにより、複雑な再レンダリング時のピークメモリ使用量が約<strong>22</strong>%削減された。正式安定版は2026年秋を予定している。",
+          "sourceName": "GitHub vuejs/core",
+          "sourceUrl": "https://github.com/vuejs/core/releases",
+          "tags": ["技術トレンド", "Vue.js", "フロントエンド"]
+        },
+        {
+          "position": 4,
+          "title": "SmartHR CREが「DESK AIエージェント」を開発 — 5製品の問い合わせ一次対応をAIが担当",
+          "summary": "SmartHRのCRE（Customer Reliability Engineering）チームは、顧客の技術的問い合わせにAIエージェントが一次対応し人間が結果を評価する仕組み「DESK AIエージェント」を開発している。2026年下半期をめどに、労務管理を含む<strong>5</strong>製品のサポートDESKへ導入予定。エージェントが実際の問い合わせに継続的に対応し、必要な知識・検索手段へアクセスし、回答結果を評価・モニタリングできる共通プラットフォームを整備する。CREの仕事を置き換えるのではなく変えていくという姿勢で取り組んでいる。",
+          "sourceName": "SmartHR Tech Blog",
+          "sourceUrl": "https://tech.smarthr.jp/entry/2026/08/21/155452",
+          "tags": ["技術トレンド", "AI", "カスタマーサポート"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "日経サイエンス9月号「知性の本質は予測にあり？」— AIと脳科学の交差点から知性を問い直す",
+          "summary": "日経サイエンス2026年9月号は「AI・脳・意識」を特集し、AIの内部処理と人間の脳活動パターンが驚くほど対応することが判明したという研究成果を紹介している。「知性の本質は『予測』にあり？ AIが開く脳科学の新たな地平」では、人間の脳を探るのと似た方法でAIの内部処理を把握できると論じる。「カオスから舞い上がる知能」「アンソロピックが迫るAIの思考」「正念場を迎えた意識の科学」など複数の記事を通じて、AIと脳科学の接点から知性の本質を問い直す構成になっている。",
+          "sourceName": "日経サイエンス",
+          "sourceUrl": "https://www.nikkei-science.com/202609_042.html",
+          "tags": ["思考力", "脳科学", "AI"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "114万人のDNA研究で性格の遺伝的基盤が判明 — ビッグファイブと1,260の遺伝子変異が関連",
+          "summary": "ミシガン州立大学のTed Schwaba氏を筆頭著者とする研究チームが、13か国・<strong>46</strong>の研究に参加した<strong>114</strong>万人のDNAと性格アンケートを分析し、9月2日にNatureで発表した。ビッグファイブ性格特性（協調性・開放性・誠実性・外向性・神経症的傾向）と<strong>1,260</strong>の一般的な遺伝子変異が関連することが判明した。単一の「性格遺伝子」は存在せず、多数の変異が組み合わさって性格を形成する。また、性格と関連する遺伝子変異は健康・職業・居住地域・夜型か朝型かといった生活パターンとも重なることが示された。",
+          "sourceName": "TIME",
+          "sourceUrl": "https://time.com/article/2026/09/02/personality-is-linked-to-genes-study/",
+          "tags": ["科学", "遺伝学", "心理学"]
+        }
+      ]
+    }
+  ]
+}
