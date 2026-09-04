@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-05",
+  "label": "2026年9月5日 (土)",
+  "intro": "Python 3.15.0rc2が9月1日公開で<strong>76</strong>人による<strong>144</strong>件のバグ修正とJIT<strong>13</strong>%高速化を含み、microsoft/typescript-goが同日アーカイブされTypeScript 7系の開発が本家リポジトリに統合。LayerXが第2回「Bet AI Day 2026」をハイブリッド開催してAIエージェント活用の実践知を共有し、Gartnerが「過度な期待」のピーク期に<strong>7</strong>技術を置く2026年版日本インフラハイプサイクルを発表した。旭川医科大学の故・海野徳二名誉教授が「鼻のかみ方」研究で第<strong>36</strong>回イグ・ノーベル医学賞を受賞し日本<strong>20</strong>年連続の快挙を達成した。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Python 3.15.0rc2リリース — JITが最大13%高速化、lazy import・frozendictを本導入",
+          "summary": "Pythonコア開発チームは9月1日、Python 3.15.0の最終リリース候補（RC2）を公開した。<strong>76</strong>人のコントリビューターによる<strong>144</strong>件のバグ修正・ビルド改善・ドキュメント更新を含む。目玉機能は「lazy import」キーワード・組み込み型「frozendict」・プラットフォーム非依存のデフォルトエンコーディングをUTF-8とした3点で、JITコンパイラはApple Siliconで最大<strong>13</strong>%の速度向上を実現。ABI変更はこの時点で凍結されており、正式版のリリース日は2026年10月1日が予定されている。",
+          "sourceName": "Python Insider",
+          "sourceUrl": "https://blog.python.org/2026/09/python-3150-rc2/",
+          "tags": ["技術トレンド", "Python"]
+        },
+        {
+          "position": 2,
+          "title": "typescript-goリポジトリがアーカイブ — TypeScript 7の開発が本家リポジトリへ統合完了",
+          "summary": "Microsoftは9月1日、TypeScript 7.0のGoネイティブ移植作業に使ってきたステージングリポジトリ「typescript-go」をアーカイブし、PR #63763 を通じて全コードをmicrosoft/TypeScriptへ統合した。git履歴・blame・コミット著者情報を保持しながらコードをtsc/サブディレクトリに再現し、TypeScript 7系の開発とissueバックログを単一リポジトリへ集約。TypeScript 7.0本体は2026年7月8日にGAリリース済みで、Goネイティブコンパイラによりフルビルドが旧来比おおむね<strong>8</strong>〜<strong>12</strong>倍高速になっている。",
+          "sourceName": "GitHub (microsoft/TypeScript)",
+          "sourceUrl": "https://github.com/microsoft/TypeScript/pull/63763",
+          "tags": ["技術トレンド", "TypeScript"]
+        },
+        {
+          "position": 3,
+          "title": "LayerXが第2回「Bet AI Day 2026」開催 — AIエージェント前提の業務設計の実践知を共有",
+          "summary": "LayerXは9月3日、東京ポートシティ竹芝ポートホールで「Bet AI Day 2026」をハイブリッド形式で開催した（12時〜18時、オンライン配信あり）。テーマは「AIエージェントと働く未来に、Betしよう」で、開発・運用・セキュリティ・コーポレートの各領域エキスパートが登壇。「Production-Ready AI Agents —エンタープライズの実務を任せる設計と運用」「Agentは金融という巨大産業の何を変えられるのか」「AIを使うからAIが働くへ：組織AIの社会実装」などのセッションが行われ、資料はSpeaker Deckで公開されている。本編前に8月31日〜9月2日のオンラインプレイベント「AI Agent Talks」も実施された。",
+          "sourceName": "LayerX",
+          "sourceUrl": "https://layerx.co.jp/events/2026/bet-ai-day/",
+          "tags": ["技術トレンド", "AI"]
+        },
+        {
+          "position": 4,
+          "title": "Gartnerが2026年版日本インフラハイプサイクル発表 — 7技術が「過度な期待」のピーク期",
+          "summary": "ガートナージャパンは9月2日、「2026年版日本における未来志向型インフラ・テクノロジのハイプ・サイクル」を発表した。AIの急速な進化を受けて「インフラテクノロジー」の分析対象範囲を拡大した今回の版では、「フィジカルAI」「エージェント型AI」「マシンカスタマー」「自動運転トラック」を含む<strong>7</strong>項目が「過度な期待」のピーク期に位置付けられた。エージェント型AIに特化した「Hype Cycle for Agentic AI」も別途公開されており、AIが企業のビジネスの在り方に与える影響を各技術の成熟度から分析している。",
+          "sourceName": "@IT (ITmedia)",
+          "sourceUrl": "https://atmarkit.itmedia.co.jp/ait/articles/2609/04/news030.html",
+          "tags": ["技術トレンド", "AI"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "DHBR 2026年9月号「上司をマネジメントする」— Kotterの古典論文を再録、権限なき影響力を解く",
+          "summary": "DIAMONDハーバード・ビジネス・レビュー2026年9月号の特集「上司をマネジメントする」は、John P. Kotterらによる古典的HBR論文の再録と、Jeffrey Yip（サイモン・フレーザー大学）らによる「不安定なリーダーと良好な関係を築く3つのステップ」を中心に構成されている。日本製鉄の橋本英二代表取締役会長へのインタビューも収録。「Managing Your Boss」はハーバード・ビジネス・スクールの古典的論文で、組織における相互依存と影響力の非対称性を論じている。創刊50周年記念連載として東京大学名誉教授・藤本隆宏による「面倒くさいものづくりにこそ勝ち筋がある」も掲載されている。",
+          "sourceName": "DIAMONDハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://www.fujisan.co.jp/product/5772/new/",
+          "tags": ["思考力", "マネジメント"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "日本人20年連続受賞達成 — イグ・ノーベル医学賞に「鼻のかみ方」気体動力学研究",
+          "summary": "第<strong>36</strong>回イグ・ノーベル賞の授賞式が2026年9月4日に行われ、旭川医科大学の故・海野徳二名誉教授が「正しい鼻のかみ方を特定した気体動力学的研究」で医学賞を受賞した。日本人の受賞は<strong>20</strong>年連続。海野氏は4年前に死去しているため、大学の別の教授が代理で受賞した。受賞者には本家ノーベル賞受賞者から<strong>10</strong>兆ジンバブエドルと独特なトロフィーが贈られた。研究は「片方ずつかむ」「勢いよくかむ」方法が最も効果的であることを世界で初めて理論的に証明したもので、和歌山県立医科大学在籍時に取り組んだ研究に基づく。",
+          "sourceName": "旭川医科大学",
+          "sourceUrl": "https://www.asahikawa-med.ac.jp/newstopics/single/post_886.html",
+          "tags": ["科学", "医学"]
+        }
+      ]
+    }
+  ]
+}
