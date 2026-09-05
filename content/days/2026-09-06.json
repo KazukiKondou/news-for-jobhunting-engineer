@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-06",
+  "label": "2026年9月6日 (日)",
+  "intro": "Helpfeelらが共同設立した第1回「Product Engineering Conference 2026」が9月5日に中野セントラルパークで初開催し<strong>40</strong>人超が<strong>3</strong>トラックで登壇、来週は生成AIカンファレンス2026（東大伊藤謝恩ホール、9/8）とデブサミ2026福岡（ONE FUKUOKA、9/11）が続き、GitHub Copilotは9月1日に<strong>6</strong>モデルを廃止してClaude Sonnet 5・Gemini 3.6 Flashへ切り替えを完了し、MITがAI過用で1カ月超消えない「認知負債」を証明し、日欧共同のベピコロンボが太陽から<strong>6300</strong>万kmの地点でMTMを分離し11月21日の水星軌道投入へ向かった。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Product Engineering Conference 2026が初開催——40人超が登壇しプロダクトエンジニアリングの知見を共有",
+          "summary": "Helpfeel・アセンド・hacomono・Neally の<strong>4</strong>社が共同設立した「Product Engineering Conference 2026」（PdE Conf）が9月5日、東京・中野セントラルパークカンファレンスで初開催された。フロントエンド・バックエンド・SRE・デザインなど職域を横断する<strong>40</strong>人超が<strong>3</strong>トラックで登壇し、参加者は300〜400名規模。「技術をプロダクト価値に転換する」というテーマのもと、テイラー(YC S22) VPoE による「クロスボーダーデット」、Lumilinks による「AI生成デザインの品質保証」など多様なセッションが行われた。事前登録チケットは完売で、セッション資料は後日公開予定。",
+          "sourceName": "Product Engineering Conference 2026",
+          "sourceUrl": "https://product-engineering.jp/2026/",
+          "tags": ["技術トレンド", "カンファレンス"]
+        },
+        {
+          "position": 2,
+          "title": "生成AIカンファレンス2026が9月8日に東大で開催——JDLA後援の国内最大級GenAIイベント",
+          "summary": "日本ディープラーニング協会（JDLA）が後援する「生成AIカンファレンス2026」が9月8日（火）10:00〜18:25、東京大学伊藤謝恩ホールおよびオンラインで開催される。エンジニア・PM・BizDev・生成AI導入の意思決定者を対象とした日本最大級の生成AIカンファレンスで、株式会社overflowがゴールドスポンサーとして協賛するなど産業界の注目が高い。生成AIを「実際に動かす」立場の実践者が登壇し、最新の活用事例・技術動向を共有する。",
+          "sourceName": "日本ディープラーニング協会（JDLA）",
+          "sourceUrl": "https://www.jdla.org/events/20260821003/",
+          "tags": ["技術トレンド", "AI", "カンファレンス"]
+        },
+        {
+          "position": 3,
+          "title": "デブサミ2026福岡が9月11日開催——「AIがコードを書く時代のエンジニア生存戦略」を討論",
+          "summary": "翔泳社主催の九州最大級ITカンファレンス「Developers Summit 2026 FUKUOKA」が9月11日（金）13:00〜、ONE FUKUOKA CONFERENCE HALLで開催される。事前登録制で、KDDIアジャイル開発センターの御田稔氏（みのるん）による「2026年後半のAIエージェント構築とこれから」（13:00）、セゾンテクノロジー松山祐己氏による「AI推進室がAI審査室になりかけた話」（16:10）、GMOペパボ西田貴之氏らによる「AIがコードを書く時代、エンジニアは次に何をするべきか？」パネル（18:15）など複数セッションが予定されている。",
+          "sourceName": "翔泳社 DeveloperZine",
+          "sourceUrl": "https://event.shoeisha.jp/devsumi/20260911/",
+          "tags": ["技術トレンド", "キャリア", "AI"]
+        },
+        {
+          "position": 4,
+          "title": "GitHub Copilotが9月1日に6モデルを廃止——Claude Sonnet 5・Gemini 3.6 Flashへ移行完了",
+          "summary": "GitHubは9月1日、GitHub CopilotのGemini 3.1 Pro・Claude Opus 4.5/4.6・Claude Sonnet 4.5/4.6・Raptor Mini の計<strong>6</strong>モデルを廃止した。後継はGemini 3.6 Flash（Gemini 3.1 Pro 代替）、Claude Opus 4.7/4.8/5（Opus系代替）、Claude Sonnet 5（Sonnet 4.5/4.6 代替）、MAI-Code-1-Flash（Raptor Mini 代替）となる。個人年間プランのサブスクライバーはClaude Sonnet 4.6 を引き続き利用可能だが、組織・エンタープライズプランでは例外なく廃止となった。なお10月2日にも第2弾の廃止波が予告されている。",
+          "sourceName": "GitHub Changelog",
+          "sourceUrl": "https://github.blog/changelog/2026-08-31-selected-github-copilot-models-deprecated/",
+          "tags": ["技術トレンド", "AI", "ツール"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "MITがAI依存による「認知負債」を証明——使用をやめても1カ月以上脳活動が低下",
+          "summary": "MITメディアラボのNataliya Kosmyna氏らは、論文「Your Brain on ChatGPT」でAIアシスタントを使って文章を書かせる実験（被験者<strong>54</strong>名）を実施し、ChatGPT使用者は認知処理・注意・創造性に関わる脳内ネットワークの活動が著しく低下することを示した。さらに、AI使用をやめてもこの「認知負債」は<strong>1</strong>カ月以上消えないと東洋経済オンラインが報じた。研究チームが推奨するのは「遅延統合モデル」——先にAIに頼らず自分で考え仮説を立ててから、補完手段としてAIを使うアプローチだ。AIを便利な代替として扱う習慣が、長期的な思考力の劣化につながることを示す。",
+          "sourceName": "東洋経済オンライン",
+          "sourceUrl": "https://toyokeizai.net/articles/-/955690",
+          "tags": ["思考力", "認知科学", "AI"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "日欧探査機ベピコロンボが推進モジュールを分離——8年かけ11月21日に水星軌道投入へ",
+          "summary": "ESAとJAXAが共同で進める水星探査ミッション「ベピコロンボ」は9月3日、太陽から約<strong>6300</strong>万kmの地点で水星転送モジュール（MTM）の分離に成功した。MTMは<strong>8</strong>年にわたる惑星間飛行を支え続けた部品で、ESAのオペレーションチームは分離を「新たな探査機の打ち上げに匹敵するリスク」と表現した。分離後はESAの水星惑星周回機（MPO）とJAXAの水星磁気圏探査機「みお」（MMO）が連結されたまま進み、2026年11月21日に水星軌道へ投入される。同年12月9〜10日に両機は分離し、科学観測は2027年4月から始まる予定。",
+          "sourceName": "sorae 宇宙へのポータルサイト",
+          "sourceUrl": "https://sorae.info/space/20260904-bepicolombo-farewell-mtm.html",
+          "tags": ["科学", "宇宙"]
+        }
+      ]
+    }
+  ]
+}
