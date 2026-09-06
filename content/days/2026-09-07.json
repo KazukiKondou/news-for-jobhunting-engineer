@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-07",
+  "label": "2026年9月7日 (月)",
+  "intro": "Linux Foundationが東京渋谷で<strong>9</strong>月<strong>10</strong>〜<strong>11</strong>日にAIエージェント標準カンファレンス「AGNTCon + MCPCon Japan」を開催、生成AIカンファレンス2026も<strong>9</strong>月<strong>8</strong>日に東京大学で開幕する。エン株式会社の<strong>8</strong>月度調査ではフリーランスエンジニア月額単価が<strong>78.9</strong>万円でコンサルタント職が<strong>7</strong>カ月連続上昇中。DHBRはAI自動化が若手の判断力育成機会を奪う組織リスクを指摘し、日経サイエンス<strong>9</strong>月号は「知性の本質は予測」と論じ、NASAのローマン宇宙望遠鏡が<strong>8</strong>月<strong>30</strong>日に打ち上げ成功した。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Linux Foundation「AGNTCon + MCPCon Japan 2026」を東京渋谷で2日間開催 — AIエージェントとMCP標準の実践に40本超のセッション",
+          "summary": "Linux FoundationはAIエージェントのオープン標準推進を目的とした年次カンファレンス「AGNTCon + MCPCon Japan 2026」を<strong>2026</strong>年<strong>9</strong>月<strong>10</strong>〜<strong>11</strong>日、東京渋谷のベルサール渋谷ガーデンで開催する。マルチエージェント協調・ツール連携・サンドボックス・評価・オブザーバビリティ・セキュリティ・エンタープライズガバナンスなど<strong>40</strong>本以上のセッションを予定している。参加者には割引価格でModel Context Protocol Associate（MCPA）認定資格の受験パスが提供され、AIエージェント技術の標準的な資格取得を体系的に学べる機会も設けられる。AIエージェント基盤の設計と運用に携わるエンジニアや企業担当者が世界規模で集う場として、日本での開催となる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/linux_foundationaiagntcon_mcpcon910112.html",
+          "tags": ["技術トレンド", "AIエージェント", "MCP"]
+        },
+        {
+          "position": 2,
+          "title": "生成AIカンファレンス2026、9月8日に東京大学で開催 — 「AIエージェント時代の実装戦略」をテーマに累計3,000名超が参加",
+          "summary": "日本ディープラーニング協会（JDLA）後援の「生成AIカンファレンス2026」が<strong>2026</strong>年<strong>9</strong>月<strong>8</strong>日（火）<strong>10</strong>時から東京大学伊藤謝恩ホールとオンライン配信で開催される。今年のテーマは「AIエージェント時代の実装戦略 ─ 先駆者に学ぶ、産業・開発・知能の新たなかたち」で、<strong>2024</strong>年の初回開催以来累計<strong>3,000</strong>名超が参加してきた国内最大級の生成AIカンファレンスとなっている。エンジニア・プロダクトマネージャー・BizDevなど生成AIを実際に動かす立場の人々を主な対象とし、企業でのAIエージェント活用事例やアーキテクチャ設計の実践的な知見が共有される。プログラムは<strong>18</strong>時<strong>25</strong>分まで複数セッションが設けられ、<strong>19</strong>時から懇親会も予定されている。",
+          "sourceName": "JDLA（日本ディープラーニング協会）",
+          "sourceUrl": "https://www.jdla.org/events/20260821003/",
+          "tags": ["技術トレンド", "AIエージェント", "カンファレンス"]
+        },
+        {
+          "position": 3,
+          "title": "フリーランスエンジニア月額平均単価78.9万円 — コンサルタント職が7カ月連続上昇",
+          "summary": "エン株式会社が発表した<strong>2026</strong>年<strong>8</strong>月度のフリーランスエンジニア月額平均単価は<strong>78.9</strong>万円となった。職種別では「コンサルタント」の平均単価が<strong>7</strong>カ月連続で上昇しており、職種間で単価水準の差が続いている。コンサルタント職の需要が<strong>7</strong>カ月にわたって増加傾向にあることが最新データで示された。フリーランスエンジニア市場において、職種によって需要と報酬水準に差が生じている実態が今月も報告されている。",
+          "sourceName": "PR TIMES（エン株式会社）",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000001263.000000725.html",
+          "tags": ["市場動向", "フリーランス", "採用"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 4,
+          "title": "AI自動化で若手の判断力育成機会が失われる — DHBRが指摘するリーダー不足の組織リスク",
+          "summary": "DIAMOND ハーバード・ビジネス・レビューが<strong>2026</strong>年<strong>8</strong>月<strong>29</strong>日〜<strong>9</strong>月<strong>4</strong>日に公開した必読記事<strong>7</strong>選では、AIによる初級業務の自動化が若手社員の判断力育成機会を奪うという組織リスクを複数の観点から論じている。初級業務をAIに任せることは短期的なコスト削減につながる一方、若手が業務を通じて判断力を培うプロセスが失われ、将来のリーダー候補を減らしてしまう可能性があると指摘する。また人はAIの判断根拠を必ずしも知りたいわけではなく、適切な場面で説明を確認させる仕組みの設計が必要だという議論も提示されている。AI自動化がもたらす組織の判断力への影響と、リーダー育成の機会損失という視点から企業の設計ミスを問う内容となっている。",
+          "sourceName": "DIAMOND ハーバード・ビジネス・レビュー（Yahoo!ニュース）",
+          "sourceUrl": "https://news.yahoo.co.jp/articles/111e0466fff4f82959b320b77bf11d0eadc0345d",
+          "tags": ["思考力", "AI", "マネジメント"]
+        },
+        {
+          "position": 5,
+          "title": "知性の本質は「予測」にあり — AIが開く脳科学の新たな地平",
+          "summary": "日経サイエンス<strong>2026</strong>年<strong>9</strong>月号の特集「AI・脳・意識」に収録された本稿では、知性の本質を「予測」と捉える理論的枠組みを紹介し、AI研究が脳科学に新たな地平を開いていると論じている。人間の脳がどのように未来を予測し行動を制御しているかというメカニズムと、大規模言語モデルの内部処理との間に驚くほど多くの共通点が最新研究で示されつつある。AIを理解しようとすることが同時に人間の知性そのものを理解する糸口となるという逆説的な状況が生まれており、「私たちの脳とAIは何が似ていて何が違うのか」という問いが脳科学・認知科学・AI研究の融合を加速させている。知性の成り立ちを構造的に把握することが、AI時代の自己理解や思考力の鍛え方にも直結する視点を提供する。",
+          "sourceName": "日経サイエンス",
+          "sourceUrl": "https://www.nikkei-science.com/202609_042.html",
+          "tags": ["思考力", "認知科学", "AI"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "NASAのローマン宇宙望遠鏡、打ち上げ成功 — ハッブルの100倍の視野で数十億の銀河を観測へ",
+          "summary": "NASAのナンシー・グレース・ローマン宇宙望遠鏡が日本時間<strong>2026</strong>年<strong>8</strong>月<strong>30</strong>日<strong>20</strong>時<strong>26</strong>分、スペースXのファルコンヘビーロケットでケネディ宇宙センターから打ち上げられ、リフトオフから約<strong>30</strong>分<strong>40</strong>秒後に分離成功が確認された。太陽電池パネルの展開もリフトオフから約<strong>1</strong>時間<strong>23</strong>分後に成功しており、望遠鏡は正常な姿勢制御状態に入った。主鏡の口径<strong>2.4</strong>mはハッブル宇宙望遠鏡と同じながら、視野はハッブルの<strong>100</strong>倍という広大な範囲を一度に撮像できる設計で、数十億の銀河や数万の太陽系外惑星を観測することが期待されている。L2軌道への巡航に約<strong>3</strong>カ月かかる見通しで、当初予定より約<strong>8</strong>カ月前倒しでの打ち上げ実現となった。",
+          "sourceName": "アストロアーツ",
+          "sourceUrl": "https://www.astroarts.co.jp/article/hl/a/14633_roman",
+          "tags": ["科学技術", "宇宙", "NASA"]
+        }
+      ]
+    }
+  ]
+}
