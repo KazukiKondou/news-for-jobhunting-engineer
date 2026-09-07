@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-08",
+  "label": "2026年9月8日 (火)",
+  "intro": "DuckLabsのAWS傘下入り・DHHのOmarchy Quattroリリース・Node.jsの年次LTS移行とエンジニアツールの転換が重なり、NewspicksはAI依存と脳の認知機能を問い直した。旭川医科大学の「鼻のかみ方」研究が第<strong>36</strong>回イグ・ノーベル医学賞で日本人<strong>20</strong>年連続受賞となった。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "DuckDBの開発元DuckLabsがAWSの子会社に — MITライセンス維持、日次ダウンロード300万超",
+          "summary": "インメモリ分析用オープンソースDBの「DuckDB」を開発するDuckLabsが、AWSの子会社になると発表した。DuckDB・DuckLake・QuackなどのプロジェクトはオープンソースのMITライセンスを維持し、DuckDB Foundationが引き続き管理する。共同創業者のHannes Mühleisen氏とMark Raasveldt氏はアムステルダム拠点のままAmazonへ移籍し、技術方針を指揮する。現在DuckDBは日次ダウンロード数が<strong>300万</strong>本を超えており、データエンジニアリング分野でのプレゼンスが急上昇している。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/duckdbducklabsawsduckdbmit.html",
+          "tags": ["技術トレンド", "オープンソース", "データ基盤"]
+        },
+        {
+          "position": 2,
+          "title": "VS Code、別のAIがセカンドオピニオンをくれる「Rubber Duck」機能を実験的実装",
+          "summary": "VS Code 1.135に、コーディングエージェントの作業を別のAIモデルが批評する「Rubber Duck」機能が実験的に組み込まれた。Copilot Agentセッション中に「/rubber-duck」コマンドを入力すると起動し、メインモデルが見落とした盲点・エッジケース・誤った前提を第三者的視点で指摘する。4月にGitHub Copilot CLIで先行実装されたものをVS Codeに移植したもので、よりアクセスしやすい形での提供となった。AIエージェントを単体で使うのではなく、複数モデルによるクロスレビューを開発ワークフローに組み込む方向性を示す機能だ。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/vs_codeairubber_duck.html",
+          "tags": ["技術トレンド", "AI開発ツール", "VS Code"]
+        },
+        {
+          "position": 3,
+          "title": "DHHのLinux OS「Omarchy Quattro」リリース — AIエージェント統合・ISO 30%縮小・800万ドル調達",
+          "summary": "Ruby on RailsのDHH氏が開発するArch系LinuxディストリビューションのOmarchyが「Quattro（4.0）」として2026年9月1日にリリースされた。AIエージェントとOSを「スキル」経由で統合し、エージェントがOSの設定・操作・プラグイン作成まで支援するアーキテクチャに全面再設計した。ISOサイズを<strong>30%</strong>削減しインストール時間を<strong>40%</strong>短縮、同時にOmacom Foundationを設立してMichael Dell・Jack Dorsey氏らから計<strong>800万ドル</strong>の出資を集めた。コミュニティのプラグインリポジトリには公開後まもなく約<strong>1,000</strong>本が揃い、Linuxデスクトップ普及への新たな取り組みとして注目を集めている。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/dhhlinux_osomarchy_quattroaiosaios.html",
+          "tags": ["技術トレンド", "オープンソース", "Linux"]
+        },
+        {
+          "position": 4,
+          "title": "Node.jsが年1回リリースに変更、全バージョンがLTSに — 10年以上続いた年2回体制を刷新",
+          "summary": "Node.jsのリリースチームは、これまで年2回だったメジャーリリースを年1回（毎年4月）に変更し、全バージョンがLTS（長期サポート）版になると発表した。新スケジュールでは4月に正式リリース（Current）、10月にLTS昇格、その後<strong>36か月</strong>間のサポートが続く。現行の年2回体制は<strong>10年</strong>以上続いてきたが、奇数バージョンの採用率が極めて低い実態を受けて刷新する。2026年10月から移行を開始し、年次リリースとアルファチャネルの新設により開発サイクルを大きく整理する。",
+          "sourceName": "Codezine",
+          "sourceUrl": "https://codezine.jp/news/detail/23631",
+          "tags": ["技術トレンド", "JavaScript", "Node.js"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "【認知科学】AI任せにすることで、脳は縮んでいくのか",
+          "summary": "生成AIへの「丸投げ」が日常化した今、人間の仮説生成力や知識統合力はどうなるのかを認知科学の観点から論じた記事。外国語学習や子供の学習発達における「9歳の壁」を例に、AIを補助として使うことが習慣化した場合の認知機能への影響を検討している。「AIを使いながら愚かにならない」ための方策として、単に使いこなすスキルではなくAIに頼りきりにならない知的習慣の重要性を指摘する。エンジニアとして技術を使う立場だからこそ、ツールへの依存と自分の思考力の関係を意識しておくべき問いが提示されている。",
+          "sourceName": "NewsPicks",
+          "sourceUrl": "https://newspicks.com/news/17363843/body/",
+          "tags": ["認知科学", "思考力", "AI時代"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "「鼻のかみ方」で第36回イグ・ノーベル医学賞 — 日本人の受賞20年連続",
+          "summary": "旭川医科大学名誉教授の故・海野徳二氏らが1977年に発表した「正しい鼻のかみ方」を特定した気体動力学的研究が、第<strong>36</strong>回イグ・ノーベル賞の医学賞を受賞した。「まず笑わせ、次に考えさせる」を旨とする同賞への日本人受賞は<strong>20</strong>年連続となった。片側ずつ十分な勢いでかむのが効果的であり、耳への悪影響もないことを気体動力学で証明した研究で、約<strong>50</strong>年前の発見が改めて国際的な評価を得た形だ。海野氏は2022年に逝去しているため、高原幹教授が代理で授賞式に出席しスピーチを行った。",
+          "sourceName": "日本経済新聞",
+          "sourceUrl": "https://www.nikkei.com/article/DGXZQOGR01AOG0R00C26A9000000/",
+          "tags": ["科学", "受賞", "医学"]
+        }
+      ]
+    }
+  ]
+}
