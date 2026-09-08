@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-09",
+  "label": "2026年9月9日 (水)",
+  "intro": "Metaがパーソナルエージェント<strong>Muse</strong>を発表し、Amazonは<strong>4</strong>年ぶりに<strong>Amazon Linux 2027</strong>プレビューでSELinux強制モードをデフォルト化。HTMX <strong>4.0</strong>とEVE Onlineの<strong>240</strong>万行Python 3移行が同時進行し、DHBRはリーダーシップを「意味づくりの地図」と再定義、ルーヴル美術館展ルネサンスが本日国立新美術館で開幕した。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Meta、パーソナルAIエージェント「Muse」を発表 — メール送信・買い物代行までAIが実行、二層アーキテクチャで隔離実行",
+          "summary": "Metaは<strong>2026</strong>年<strong>9</strong>月<strong>8</strong>日、質問応答にとどまらず実タスクを実行するパーソナルAIエージェント「Muse」を発表した。iOS・Android・Webブラウザ（muse.ai）とAIスマートグラスに対応し、まず米国で無料提供を開始、後日サブスク上位プランを追加する。メール送信・出張予約・フォーム入力・交渉代行まで内部推論モデル「Muse Spark 1.3」で処理し、Stripe Link・Shopify Shop Pay・1Passwordと連携して支払いや認証を横断する。「Muse Secure VM」でユーザーデータを隔離し、外部通信は別の監視エージェント「Sentinel」が精査する二層アーキテクチャを採用しており、ザッカーバーグCEOが掲げる「個人向け超知能」の第一歩と位置づけている。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/09/2000001294/",
+          "tags": ["企業動向", "AIエージェント", "外資テック"]
+        },
+        {
+          "position": 2,
+          "title": "Amazon Linuxが4年ぶりメジャー版 —「Amazon Linux 2027」パブリックプレビュー、SELinux強制モードがデフォルトに",
+          "summary": "AWSは<strong>2026</strong>年<strong>9</strong>月<strong>9</strong>日、Amazon Linuxの<strong>4</strong>年ぶりとなるメジャーバージョンアップ「Amazon Linux 2027」をパブリックプレビューとして公開した。最大の変更点はSELinuxがデフォルトでenforcing（強制モード）となる点で、管理者権限でもポリシー違反アクセスは拒否される。カーネルは<strong>6.18</strong>から<strong>7.1</strong>以上へ更新され、パッケージ管理はrpmとdnfを継続、x86-64とARMの両アーキテクチャに対応する。AWSのAIアクセラレータTrainium・Inferentia向けNeuronドライバも同梱し、正式リリースは<strong>2027</strong>年予定、現行のAmazon Linux 2023は<strong>2029</strong>年<strong>6</strong>月までサポートされる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/amazon_linux4amazon_linux_2027selinux.html",
+          "tags": ["技術トレンド", "AWS", "セキュリティ"]
+        },
+        {
+          "position": 3,
+          "title": "HTMX 4.0正式リリース — 内部実装をfetch化してStreaming HTMLに対応、属性の子継承は非デフォルトに",
+          "summary": "HTML属性で動的Web機能を実現する軽量ライブラリHTMXが<strong>2026</strong>年<strong>8</strong>月<strong>28</strong>日に<strong>4.0</strong>を正式リリースした。内部通信をXMLHttpRequestからFetch APIへ移行し、AIチャットのようなサーバの連続応答を扱う「Streaming HTML」機能が可能になった。破壊的変更として親要素から子要素への属性継承がデフォルト無効となり、継承したい場合は「:inherited」を明示する必要がある。イベント名も「htmx:eventName」から「htmx:phase:action」形式へ再編され、履歴機能はLocalStorageのスナップショットではなくページ再取得方式に変更、DOM置換を滑らかにするmorphing swapも追加された。<strong>2.x</strong>系からの移行は書き換えが多いため、公式にAI移行スキルが提供されている。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/htmx_40xhrfetchstreaming_html.html",
+          "tags": ["技術トレンド", "Web", "OSS"]
+        },
+        {
+          "position": 4,
+          "title": "巨大MMO「EVE Online」、240万行のPython 2.7コードをPython 3へ移行 — 現在95.9%が3系でコンパイル可",
+          "summary": "CCP Gamesは、<strong>2003</strong>年サービス開始のMMORPG「EVE Online」を支える<strong>240</strong>万行のStackless Python 2.7コードをPython 3へ移行する取り組みを公開した。Python 2.7は<strong>2020</strong>年に公式サポートが終了しており、パフォーマンス改善と現代のライブラリ・デバッガエコシステムへ追いつくことが移行の目的。二段階計画で、まず自動変換ツールで3系のコンパイル互換性を確保し（現在<strong>95.9%</strong>）、次に手動レビューで挙動差を潰していく。特に注意されるのが除算演算の変更で、戦闘ダメージ計算や座標処理に直結するためだ。開発チームは「プレイヤーには変化が見えないこと」を目標に、Python 2.7と3の実行差を報告する運用を始めた。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/eve_online240python_27python_3.html",
+          "tags": ["技術トレンド", "Python", "レガシー移行"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "「センスメイキング」は正解なき世界で前進するための地図をつくる力 — MITアンコナ教授インタビュー",
+          "summary": "DIAMONDハーバード・ビジネス・レビュー<strong>2026</strong>年<strong>10</strong>月号は、MITスローン経営大学院のデボラ・アンコナ教授にインタビューし、組織論家カール・ワイクが提唱した「センスメイキング（意味づけ）」を、リーダーが不確実な世界を前進するための「地図をつくる行為」として位置づけた。信頼性や説得力あるビジョンといったリーダーシップの中核要素は不変だが、AI・技術的破壊・地政学的複雑性の同時進行によって、リーダーの仕事の重心が「方向づけ」から「変化する現実の解釈と応答を組織に促すこと」へ大きくシフトしていると論じる。地図がまだない状況で試行錯誤しながら意味を編み出す姿勢は、指示待ちではなく自ら状況を読む思考習慣として日常判断にも通じる論考だ。",
+          "sourceName": "DIAMOND ハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14781",
+          "tags": ["思考力", "リーダーシップ", "認知科学"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "「ルーヴル美術館展 ルネサンス」本日開幕 — ダ・ヴィンチ《美しきフェロニエール》がモナ・リザ以来52年ぶり来日",
+          "summary": "「ルーヴル美術館展 ルネサンス」が<strong>2026</strong>年<strong>9</strong>月<strong>9</strong>日から<strong>12</strong>月<strong>13</strong>日まで東京・六本木の国立新美術館で開催される。<strong>15</strong>〜<strong>16</strong>世紀のイタリアで花開き欧州全域に広がったルネサンス美術を、選び抜かれた<strong>50</strong>点余の作品を通して立ち上げる構成となっている。最大の見どころはレオナルド・ダ・ヴィンチの真筆《美しきフェロニエール》（女性の肖像）で、ルーヴル所蔵のダ・ヴィンチ作品の来日は<strong>1974</strong>年の「モナ・リザ」以来<strong>52</strong>年ぶり。前売券は一般<strong>2,200</strong>円・大学生<strong>1,300</strong>円・高校生<strong>900</strong>円で中学生以下は無料、当日券は各<strong>200</strong>円増となる。",
+          "sourceName": "美術展ナビ",
+          "sourceUrl": "https://artexhibition.jp/topics/news/20260828-AEJ2980419/",
+          "tags": ["文化", "美術", "展覧会"]
+        }
+      ]
+    }
+  ]
+}
