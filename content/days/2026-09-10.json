@@ -1,0 +1,84 @@
+{
+  "date": "2026-09-10",
+  "label": "2026年9月10日 (木)",
+  "intro": "サイバーエージェントが<strong>15</strong>名限定・内定直結の<strong>2028</strong>卒クリエイターインターンを開講。AWSは<strong>Nx Plugin for AWS 1.0</strong>を公開しReactとTypeScriptのフルスタックコードを一括生成、メルカリは<strong>GENIAC</strong>のロボット基盤モデル研究に本年度<strong>2</strong>回目の採択。LINEヤフーの美容室特化SaaS「LINEビューティープラス」が始動した。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "サイバーエージェント、2028卒向け内定直結クリエイターインターン「世界観を、体験にする」開講 — 定員15名、9月14日〜27日",
+          "summary": "サイバーエージェントは<strong>2028</strong>年<strong>4</strong>月以降入社可能な学生を対象に、ゲームクリエイティブインターンシップ「世界観を、体験にする」を<strong>2026</strong>年<strong>9</strong>月<strong>14</strong>日から<strong>27</strong>日にかけて開催する。定員は<strong>15</strong>名の少数精鋭で、オリエンテーション（<strong>9</strong>月<strong>14</strong>日または<strong>18</strong>日、約<strong>4</strong>時間）とDAY1・DAY2（<strong>9</strong>月<strong>26</strong>・<strong>27</strong>日）の<strong>3</strong>日間参加が必須となる。架空ゲームを題材にビジュアル・言葉・導線・インタラクションを設計してティザーサイトに落とし込むワークで、優秀者は本選考の一部が免除される内定直結型。学部学年不問で<strong>28</strong>・<strong>29</strong>・<strong>30</strong>卒までが応募可能、交通費支給・遠方者は宿泊手配ありで制作物はポートフォリオ利用が認められる。",
+          "sourceName": "サイバーエージェント",
+          "sourceUrl": "https://www.cyberagent.co.jp/careers/students/event/detail/id=33483",
+          "tags": ["採用ニュース", "インターン", "クリエイター"]
+        },
+        {
+          "position": 2,
+          "title": "AWS、AIがフルスタックAWSアプリを一気に生成する「Nx Plugin for AWS 1.0」をオープンソース公開",
+          "summary": "AWSは<strong>2026</strong>年<strong>9</strong>月<strong>10</strong>日、フロントエンド・バックエンド・インフラ・可観測性・セキュリティまで揃ったAWSアプリの基本コードをAIが数分で生成する「Nx Plugin for AWS <strong>1.0</strong>」をオープンソースで公開した。フロントはReact、バックエンドは複数フレームワーク、インフラは<strong>AWS CDK</strong>または<strong>Terraform</strong>、開発言語はTypeScriptとPythonに対応。Nxモノレポ管理ツールの上で動作し、Amazon Bedrock AgentやMCPサーバとのAI統合も雛形として組み込まれる。生成後は本プラグインへの依存なしで自由に編集でき、AIコード生成の出発点を「動く土台まで含めた1コマンド」へ引き上げた形だ。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/awsaiawsnx_plugin_for_aws_10.html",
+          "tags": ["技術トレンド", "AWS", "OSS"]
+        },
+        {
+          "position": 3,
+          "title": "メルカリ、GENIACの「ロボット基盤モデル」研究開発事業に採択 — 出品・検品の自動化へVLAモデルを拡張、年度2回目",
+          "summary": "メルカリは<strong>2026</strong>年<strong>9</strong>月<strong>9</strong>日、経済産業省とNEDOによる国家プロジェクト「GENIAC」のロボット基盤モデルの研究開発支援事業に採択されたと発表した。同社にとっては本年度<strong>2</strong>回目の採択で、テーマは「AIロボットを活用した出品および検品作業の自動化に関わる研究開発」。マルチモーダルVision-Language-Actionモデルの拡張、カメラ位置を考慮した<strong>Camera Aware VLA</strong>、触覚・力覚を統合したAI技術、人間の作業感覚を学習データ化する収集基盤の構築などが盛り込まれる。フリマアプリの越境取引拡大に伴うオペレーション負荷をロボットで吸収し、事業会社発のフィジカルAI研究として国のバックアップを得た形になる。",
+          "sourceName": "メルカリ",
+          "sourceUrl": "https://about.mercari.com/ai/news/articles/20260909_geniac/",
+          "tags": ["企業動向", "AI", "フィジカルAI"]
+        },
+        {
+          "position": 4,
+          "title": "LINEヤフー、美容室向けSaaS「LINEビューティープラス」提供開始 — LINE公式で予約・電子カルテ・自動配信までワンストップ化",
+          "summary": "LINEヤフーは<strong>2026</strong>年<strong>9</strong>月<strong>8</strong>日、ヘアサロン向けの新サービス「LINEビューティープラス」を提供開始した。<strong>LINE</strong>公式アカウントのオプション機能を組み合わせ、<strong>24</strong>時間の予約受付、カウンセリングシートのオンライン記入、施術履歴とBefore/After写真の電子カルテ、リマインドと空席お知らせの自動通知、経過日数や悩みに応じたメッセージ配信、売上・リピート率の可視化、専用スマホアプリまでを<strong>1</strong>本にまとめる。少人数運営のサロンでも既存顧客との継続的な関係づくりと再来店促進ができる構成で、業種特化SaaSに向かうLINE公式アカウントの方針を象徴する第一弾となる。",
+          "sourceName": "LINEヤフー",
+          "sourceUrl": "https://www.lycorp.co.jp/ja/news/release/020784/",
+          "tags": ["企業動向", "SaaS", "LINEヤフー"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "「迷いながらも方向性を示すのがリーダーの役割」 — ソニーグループ吉田憲一郎会長が語る不確実性下の意思決定 (DHBR2026年10月号)",
+          "summary": "DIAMOND ハーバード・ビジネス・レビュー<strong>2026</strong>年<strong>10</strong>月号は、ソニーグループ会長・吉田憲一郎氏へのインタビューを掲載し、<strong>2000</strong>年代後半の経営危機からエレクトロニクス企業をエンタテインメント中心の企業へと転換した舵取りの内実を語らせている。当時のCFOとして向き合ったのは「デジタル化」と「メディア変化」という<strong>2</strong>つの構造変化で、吉田氏は「その時にはクリエイションへのシフトを念頭に置いていなかった」と正直に振り返り、まずは止血が急務だったと明かす。地図のない中で仮説を持ちながら組織に方向性を示し続けることこそがリーダーの職責だ、というセンスメイキング特集の中核メッセージが、経営当事者の言葉として立ち上がる論考になっている。",
+          "sourceName": "DIAMOND ハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14782",
+          "tags": ["思考力", "リーダーシップ", "経営"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "上賀茂神社「重陽神事・烏相撲」 — 世界文化遺産で九が重なる9月9日、菊花を献じ烏跳びと相撲で無病息災を祈願",
+          "summary": "京都・世界文化遺産の上賀茂神社（賀茂別雷神社）では、毎年<strong>9</strong>月<strong>9</strong>日に「重陽神事」と「烏相撲」が続けて執り行われる。重陽は五節句の一つで、陽の極数「九」が重なる日を長寿と厄除けの節目とする中国由来の風習で、<strong>2026</strong>年も御神前に菊花を供え、無病息災と長寿を祈願する神事が<strong>10</strong>時から行われた。神事に続く<strong>10</strong>時<strong>15</strong>分頃からの「烏相撲」では、烏帽子・白装束の刀祢が横跳びや「カーカーカー」の烏鳴きで神前に奉仕したのち、地元の少年による相撲が奉納される。菊酒の授与もあり、平安以来の宮中行事が神社神事として今も生き続けていることを体感できる一日となる。",
+          "sourceName": "京都観光旅行ガイド",
+          "sourceUrl": "https://blog.kanko.jp/kyoto-sightseeing/event9/kamigamo-chouyou2026",
+          "tags": ["文化", "伝統行事", "京都"]
+        },
+        {
+          "position": 7,
+          "title": "第1回「WAアルティメット選手権」がブダペストで明日開幕 — 世界陸連が新種目・アルティメットの世界一を初決定",
+          "summary": "世界陸連 (World Athletics) が主催する第<strong>1</strong>回「WAアルティメット選手権大会」が、<strong>2026</strong>年<strong>9</strong>月<strong>11</strong>日から<strong>13</strong>日にかけてハンガリー・ブダペストで開幕する。アルティメットは<strong>7</strong>人制でフライングディスクをエンドゾーンへ運ぶノーコンタクトの団体競技で、フェアプレイをプレーヤー自身が担う「スピリット・オブ・ザ・ゲーム」を根幹に置く点でもユニークだ。世界陸連が既存の陸上種目を離れて<strong>新種目</strong>の世界大会を自ら立ち上げるのは異例で、ディスクスポーツをオリンピック競技化する布石として国際発信の場を築く狙いがある。日本陸上競技連盟も公式サイトで大会情報を掲載し、日本代表の戦いに注目が集まる。",
+          "sourceName": "日本陸上競技連盟",
+          "sourceUrl": "https://www.jaaf.or.jp/competition/detail/2112/",
+          "tags": ["スポーツ", "国際大会", "アルティメット"]
+        }
+      ]
+    }
+  ]
+}
