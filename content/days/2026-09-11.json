@@ -1,0 +1,92 @@
+{
+  "date": "2026-09-11",
+  "label": "2026年9月11日 (金)",
+  "intro": "<strong>.NET 11</strong> RCが非同期ネイティブと1024プロセッサ上限撤廃で登場、外資就活 AI Challengeが<strong>10月31日</strong>に初開催、メルカリ整備済みスマホは開始2ヶ月で<strong>3万台</strong>流通、Googleはフィンランドに<strong>2.3</strong>兆円を投じる。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "外資就活ドットコム、AI活用ワーク型イベント「外資就活 AI Challenge」を10月31日に初開催 — 27・28卒向け、賞金1位10万円で無料参加",
+          "summary": "ハウテレビジョンは<strong>2026</strong>年<strong>9</strong>月<strong>10</strong>日、就活サイト「外資就活ドットコム」でAI活用ワークショップ型イベント「外資就活 AI Challenge」を<strong>10</strong>月<strong>31</strong>日に初開催すると発表した。対象は<strong>2027</strong>年<strong>4</strong>月〜<strong>2028</strong>年<strong>3</strong>月卒業予定の学部・大学院生(文理不問)で、参加費は無料。<strong>2</strong>人<strong>1</strong>組で複数のAIツールを使い「要件定義・リサーチ・企画・AIプロトタイプ制作」までを<strong>1</strong>日で完走し、企業の現場社員から直接フィードバックを受ける構成となる。表彰は<strong>1</strong>位<strong>10</strong>万円・<strong>2</strong>位<strong>5</strong>万円・<strong>3</strong>位<strong>3</strong>万円で、応募締切は<strong>10</strong>月<strong>29</strong>日<strong>23</strong>時<strong>59</strong>分。AIを前提とした選考の疑似体験を、就活サイト側が企画するかたちで提示している。",
+          "sourceName": "外資就活ドットコム / ハウテレビジョン",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000167.000026700.html",
+          "tags": ["採用イベント", "AI", "外資就活"]
+        },
+        {
+          "position": 2,
+          "title": ".NET 11 リリース候補版が公開 — ランタイムが非同期ネイティブ対応、論理プロセッサ数1024個の上限を撤廃、11月10日にGA予定",
+          "summary": "マイクロソフトは<strong>2026</strong>年<strong>9</strong>月<strong>11</strong>日、開発プラットフォーム「<strong>.NET 11</strong>」のリリース候補版RC1を公開した。ランタイムが非同期処理をネイティブで実行できるようになりオーバーヘッドが削減され、これまで<strong>1024</strong>個までとされていた論理プロセッサ数の上限が撤廃されて超大規模サーバでもコア数をフル活用できる。JITは境界チェック削減と最適化がさらに進み、AOTコンパイラは共有ディスパッチ導入で実行速度向上とファイルサイズ縮小を両立、WebAssembly上のCoreCLRも標準版との互換性が上がった。正式リリースは<strong>11</strong>月<strong>10</strong>日開催の「.NET Conf 2026」に合わせて予定され、STS版として<strong>2</strong>年間サポートされる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/net_11netaot.html",
+          "tags": ["技術トレンド", ".NET", "リリース"]
+        },
+        {
+          "position": 3,
+          "title": "生成AI電話サービス「nocall.ai」、シリーズAで新規8億円・累計10億円調達 — JAFCOとArchetype Venturesが共同リード",
+          "summary": "生成AI電話サービス「nocall.ai」を提供するnocall株式会社は<strong>2026</strong>年<strong>9</strong>月<strong>11</strong>日、シリーズAとして新規約<strong>8</strong>億円を調達し累計調達額が<strong>10</strong>億円を超えたと発表した。共同リード投資家はJAFCOとArchetype Venturesの<strong>2</strong>社で、既存投資家のCoreline Venturesも継続参加している。自動車・金融・人材・IT分野の電話業務自動化に用いられており、自動車情報サイトMOTAでは車査定の一次対応をnocall.aiに置き換えたことでキャンセル率が約<strong>15</strong>%から<strong>5.7</strong>%へ約<strong>3</strong>分の<strong>1</strong>まで低下したという導入成果を報告する。調達資金はエンジニアとAIリサーチャーの採用およびプロダクト機能拡張に充てる。",
+          "sourceName": "PR TIMES (nocall)",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000034.000076585.html",
+          "tags": ["資金調達", "生成AI", "スタートアップ"]
+        },
+        {
+          "position": 4,
+          "title": "メルカリ「m department」の整備済みスマホ、開始2ヶ月で約3万台流通 — 平均販売価格2.9万円、購入者の84.5%はメルカリ初のスマホ購入者",
+          "summary": "メルカリは<strong>2026</strong>年<strong>9</strong>月<strong>10</strong>日、<strong>7</strong>月に開始した専門業者による整備・真贋鑑定と保証付きのリユース専用マーケット「m department」の初期実績を公開した。<strong>8</strong>月<strong>18</strong>日時点で整備済みスマホの取扱いは約<strong>150</strong>モデル・約<strong>3</strong>万台に到達。人気<strong>1</strong>位はiPhone SE (第<strong>3</strong>世代) で平均販売価格は<strong>2</strong>万<strong>9,306</strong>円、TOP<strong>10</strong>のうち<strong>9</strong>モデルが<strong>5</strong>万円未満で、発売から数年経った機種が主に選ばれている。購入者の<strong>84.5</strong>%はメルカリでスマホを買ったことがない層または<strong>1</strong>年以上購入していない層で、物価高と新品スマホ価格の上昇を背景に、リユースを「新品・中古に続く第3の市場」として掘り起こしている。",
+          "sourceName": "メルカリ",
+          "sourceUrl": "https://about.mercari.com/press/news/articles/20260910_newsletter/",
+          "tags": ["企業動向", "メルカリ", "リユース"]
+        },
+        {
+          "position": 5,
+          "title": "Google、フィンランドに約2.3兆円を投資 — AIデータセンター増設と原発22年電力購入契約、建設期は年3万7000人の雇用を支援",
+          "summary": "Googleは<strong>2026</strong>年<strong>9</strong>月<strong>9</strong>日、フィンランドに<strong>130</strong>億ユーロ (約<strong>2.3</strong>兆円) を投じてAI基盤となるデータセンター群を増強すると発表した。投資期間は<strong>2027</strong>〜<strong>2028</strong>年の<strong>2</strong>年間で、ハミナ・カヤーニ・ムホス・ヴァーラの<strong>4</strong>地域で建設・拡張を進める。電力はエネルギー大手Fortumと締結したロビーサ原子力発電所の運転延長プログラムを含む<strong>22</strong>年間の購入契約で長期確保する形だ。建設期間中は年<strong>3</strong>万<strong>7000</strong>人以上の雇用を支援(建設分野が約<strong>1</strong>万<strong>6000</strong>人)、稼働後も年<strong>7000</strong>人の雇用を創出する見込み。欧州でAIインフラ拡張とAI人材育成を並行させる大型投資となる。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/10/2000001345/",
+          "tags": ["企業動向", "Google", "AIインフラ"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "「センスメイキングとは、正解なき世界で前進するための『地図をつくること』である」 — MITアンコーナ教授、DHBR2026年10月号特集で",
+          "summary": "DIAMOND ハーバード・ビジネス・レビュー<strong>2026</strong>年<strong>10</strong>月号は、特集「センスメイキング」の中核記事としてMITスローンスクール教授デボラ・アンコーナへのインタビューを掲載した。アンコーナは、心理学者カール・ワイクが提唱したセンスメイキング概念を実践のリーダーシップ論に接続し、不確実性の高い環境で組織が「混沌に意味を与え方向性を示す」プロセスとして再定義する。リーダーの不変要素として「信頼性と言行一致」「人を惹きつけるビジョン提示」「人間関係スキル」の<strong>3</strong>点を挙げつつ、テクノロジーリテラシーと、メンバーの現実理解を支援する役割の重要性が現代では増したと語る。地図の存在しない世界で自ら地図をつくる姿勢は、目の前の判断が正解かどうかを保留にしたまま前へ進む力とも言い換えられる。",
+          "sourceName": "DIAMOND ハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14781",
+          "tags": ["思考力", "リーダーシップ", "センスメイキング"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "水星、半径10km以上縮んでいた — 北海道大学が地表の「しわ」新解析で判明、太陽系最小惑星の熱進化に迫る",
+          "summary": "北海道大学の研究チームは、太陽系最小の惑星・水星が長い年月をかけて半径を<strong>10</strong>km以上縮ませていた可能性が高いことを、地表を走る「しわ」と呼ばれる断層状の地形の新しい解析で示した。水星は内部の冷却によって収縮する過程で地殻が押し縮められ逆断層(しわ)を形成する仕組みだが、しわの数と広がりを再集計した結果、これまでの推定より収縮量が大きく見積もられた。解析にはNASAの探査機メッセンジャーが取得した画像データが用いられた。惑星内部の構造と熱進化を理解する重要な手がかりとなり、日欧の水星探査機「ベピコロンボ」が今後もたらす観測データの解釈にも影響を与える成果となる。",
+          "sourceName": "時事通信",
+          "sourceUrl": "https://www.jiji.com/jc/article?k=2026091001186&g=soc",
+          "tags": ["科学", "宇宙", "惑星"]
+        },
+        {
+          "position": 8,
+          "title": "古代ポリネシア人、1700年止めていた大洋航海を「復活」させていた — 西暦900年頃、トゥブアイ島の堆積物コアが痕跡",
+          "summary": "英サウサンプトン大学の地理学者デイビッド・シアと、ハワイ大学マノア校の考古学者パトリック・カーチのチームは、フランス領ポリネシアのトゥブアイ島で堆積物のコアサンプルを採取し、ポリネシア人が約<strong>1700</strong>年にわたって中断していた長距離航海を西暦<strong>900</strong>年頃に再開させていた証拠を突き止めた。カヌーとスターナビゲーションで太平洋の広大な島々を結んできた民族が、なぜ大洋航海を止め、なぜ再び動き出したのかは今も明らかになっていない。研究チームは堆積物中の植物遺骸や年代情報から人の到達時期を精密に推定し、航海術復活のタイミングをこれまでより細かく特定。ハワイやニュージーランドへの拡散シナリオの再構成につながる可能性がある発見となっている。",
+          "sourceName": "ナショナルジオグラフィック日本版",
+          "sourceUrl": "https://natgeo.nikkeibp.co.jp/atcl/news/26/082800481/",
+          "tags": ["歴史", "考古学", "文化"]
+        }
+      ]
+    }
+  ]
+}
