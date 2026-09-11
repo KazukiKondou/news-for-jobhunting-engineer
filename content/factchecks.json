@@ -1,5 +1,12 @@
 [
   {
+    "slug": "2026-09-12-queue",
+    "ranOn": "2026-09-12",
+    "verdict": "unverifiable",
+    "detail": "ファクトチェックキューAPI（news.kazukikondo.com）へのcurlがegressポリシーによりCONNECT 403で拒否された。FACTCHECK_TOKENも未設定のため認証不可。キューに報告済み記事があったかどうか不明。",
+    "action": "キュー取得不可のためスキップ。本日の記事生成（2026-09-12）は続行。"
+  },
+  {
     "slug": "2026-09-11-queue",
     "ranOn": "2026-09-11",
     "verdict": "unverifiable",
