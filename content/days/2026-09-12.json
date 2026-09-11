@@ -1,0 +1,92 @@
+{
+  "date": "2026-09-12",
+  "label": "2026年9月12日 (土)",
+  "intro": "<strong>LINEヤフー</strong>「<strong>Agent i</strong>」がタスク自律実行を<strong>9月11日</strong>提供開始、AWSが<strong>Nx Plugin 1.0</strong>を公開し要件から<strong>AWS CDK</strong>まで自動生成、テスラ<strong>Cybercab</strong>が東京・青山で日本初お披露目、筑波大<strong>柳沢正史</strong>教授が米<strong>ラスカー賞</strong>基礎医学研究部門を受賞。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "LINEヤフー「Agent i」にタスク機能追加 — 情報収集・値下がり監視・イベント通知を自律実行、Yahoo! JAPAN/LINEアプリで9月11日提供開始",
+          "summary": "LINEヤフーは<strong>2026</strong>年<strong>9</strong>月<strong>11</strong>日、AIエージェント「<strong>Agent i</strong>」にタスク機能を追加し、Yahoo! JAPANアプリ/LINEアプリ/スマートフォンブラウザ版で提供開始した。ユーザーが登録したキーワードの最新情報を継続的にチェックして配信、複数ECサイトを横断した商品値下がり通知、地域指定でのイベント情報を毎週配信する<strong>3</strong>種のタスクを自律的に実行し、結果をプッシュ通知する仕組みだ。バックエンドは<strong>Gemini Enterprise Agent Platform</strong>(旧Vertex AI)または<strong>OpenAI API</strong>を用途に応じて使い分け、マイページから登録タスクを一覧管理できる。業界情報の追跡、企業・芸能人ニュースの監視、購入検討中商品の価格追跡といったユースケースを想定する。",
+          "sourceName": "LINEヤフー",
+          "sourceUrl": "https://www.lycorp.co.jp/ja/news/release/020805/",
+          "tags": ["企業動向", "LINEヤフー", "AIエージェント"]
+        },
+        {
+          "position": 2,
+          "title": "AWS、「Nx Plugin for AWS 1.0」をOSSで公開 — 自然言語の要件からAWS CDK/Terraformを含むフルスタックコードをAIが数分で生成",
+          "summary": "AWSは<strong>2026</strong>年<strong>9</strong>月<strong>10</strong>日、フルスタックAWSアプリケーションのスキャフォールドを<strong>AI</strong>で自動生成するオープンソースツール「<strong>Nx Plugin for AWS 1.0</strong>」を公開した。ワークスペースを作成して自然言語で要件(たとえば「AIエージェント連携」「利用するDBの種類」)を伝えると、アプリケーションコードとインフラのコード(<strong>AWS CDK</strong>または<strong>Terraform</strong>)、セキュリティ・可観測性の設定まで数分で生成する。バックエンド/フロントエンドを同時に扱い、React・TypeScript・Pythonなどの主要フレームワークと、Amazon Bedrock Agent、MCPサーバ、DynamoDB、AWS X-Ray、CloudWatchなどAWSサービス群を組み合わせる。生成後のコードはツールと独立して自由に改変でき、モノレポ管理ツールNx上で複数プロジェクトを一元管理する構成となる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/awsaiawsnx_plugin_for_aws_10.html",
+          "tags": ["技術トレンド", "AWS", "OSS"]
+        },
+        {
+          "position": 3,
+          "title": "Google、Windows向け「Gemini」デスクトップアプリを提供開始 — Alt+Spaceでオーバーレイ呼び出し、Windows 10/11で日本語対応済み",
+          "summary": "Googleは<strong>2026</strong>年<strong>9</strong>月<strong>10</strong>日、Windows向け専用の「<strong>Gemini</strong>」デスクトップアプリを世界同時に提供開始した。<strong>Windows 10</strong>/<strong>11</strong>のPCに対応し日本語もサポート、キーボードショートカット「<strong>Alt+Space</strong>」でオーバーレイ形式で呼び出せる。既存の作業画面を中断せず、開いているドキュメントのファクトチェックやプレゼン用タイトルの案出しなどをその場で実行できるのが特徴だ。ログイン後は<strong>24</strong>時間稼働のAIアシスタント「Gemini Spark」、Gmail・Google Driveとの連携、画像・動画生成といった主要機能にアクセスできる。Gemini Sparkなどの高度機能は「Google AI」有料サブスクリプションが必要で、<strong>18</strong>歳以上向け。同種のMac版は<strong>2026</strong>年<strong>4</strong>月に先行提供されていた。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/11/2000001399/",
+          "tags": ["企業動向", "Google", "生成AI"]
+        },
+        {
+          "position": 4,
+          "title": "Anthropic、AI悪用検知レポートを公開 — 中国4社「産業規模の隠密キャンペーン」でClaude能力を抽出、監視・世論操作・生物兵器研究含む7分野の実例を列挙",
+          "summary": "Anthropicは<strong>2026</strong>年<strong>9</strong>月<strong>10</strong>日、「Detecting and countering misuse of AI: September 2026」と題した悪用検知レポートを公開した。<strong>2025</strong>年<strong>12</strong>月〜<strong>2026</strong>年<strong>8</strong>月に検知・遮断した事案を<strong>7</strong>分野に整理し、事例ごとの遮断理由を明かす異例の透明性運用だ。「蒸留(模倣)」の分野では中国のAlibaba・DeepSeek・Moonshot AI・Xiaomiの<strong>4</strong>社を名指し、産業規模の隠密キャンペーンでClaudeの能力を無断抽出したと指摘。Xiaomiはユーザー会話を密かにClaudeへ転送し学習データを生成していたという。監視・世論操作では中国の国家安全機関が香港民主派やウイグル活動家の抑制に利用、ロシア・イランの影響工作<strong>9</strong>件も列挙。生物学的悪用では鳥インフル機能獲得研究や毒素ペプチドDB作成など<strong>5</strong>件を報告し、正当研究との判別困難ケースは安全側に倒して遮断したとしている。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/11/2000001390/",
+          "tags": ["企業動向", "Anthropic", "AI倫理"]
+        },
+        {
+          "position": 5,
+          "title": "テスラ、自動運転タクシー「Cybercab」を日本初お披露目 — 東京・青山からツアー開始、ハンドル・ペダルなしの2人乗り、9月28日まで大阪・名古屋巡回",
+          "summary": "テスラジャパンは<strong>2026</strong>年<strong>9</strong>月<strong>11</strong>日、自動運転タクシー専用車両「<strong>Cybercab</strong>」を東京・青山で日本初公開した。「Cybercab Japan Tour」として<strong>9</strong>月<strong>28</strong>日まで東京・大阪・名古屋の<strong>3</strong>都市を巡回する。ハンドルとペダルを備えない<strong>2</strong>人乗り専用車で、環境認識はLiDARを用いず<strong>8</strong>基のカメラのみで完結する構成。ボディはプラスチックパネル一体成形の「Gleaming Gold」で塗装工程を廃止し、蝶のように上へ開くバタフライドアと前<strong>18</strong>インチ・後<strong>21</strong>インチのフルカバードホイールを採用する。ギガキャストと「アンボックス」並列組立で製造コストを抑える設計だ。今回はスタティック展示のみで試乗や乗車はなく、日本市場での商用展開時期は未定と説明された。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/11/2000001424/",
+          "tags": ["企業動向", "テスラ", "自動運転"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "「上司と『うまく付き合う』必要はない」 — 日本製鉄 橋本英二会長、DHBR2026年9月号特集「上司をマネジメントする」でボスマネジメント論を語る",
+          "summary": "DIAMONDハーバード・ビジネス・レビュー<strong>2026</strong>年<strong>9</strong>月号は特集「上司をマネジメントする」を組み、日本製鉄代表取締役会長兼CEOの橋本英二へのインタビューを冒頭に据えた。橋本は「『上司とうまく付き合う』という発想はまったくなかった」と述べ、権限がない立場だからこそ上司を動かす必要があると原則を打ち出す。ボスマネジメントの核として<strong>3</strong>点、①権限と責任の関係を切り分ける、②直属上司に限らず意思決定権を持つ人物を多次元で見極める、③自分の<strong>2</strong>段階上の視点で物事を考える(部長なら社長視点で)を挙げた。意見対立と人間関係を分離し「かわいくないと評価を下げるようなことは厳に慎むべき」と管理職側の姿勢にも釘を刺す。上司との関係を「うまくやる技術」ではなく「大義を実現するための構造問題」として捉え直す視点が示されている。",
+          "sourceName": "DIAMONDハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14571",
+          "tags": ["思考力", "リーダーシップ", "ボスマネジメント"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "筑波大・柳沢正史教授にラスカー賞 — 睡眠制御因子「オレキシン」1998年発見、日本人受賞は12年ぶり、ノーベル賞への登竜門",
+          "summary": "米国最高峰の医学賞ラスカー賞の基礎医学研究部門<strong>2026</strong>年受賞者に、筑波大学国際統合睡眠医科学研究所の柳沢正史教授(<strong>66</strong>)が選ばれた。柳沢氏は<strong>2026</strong>年<strong>9</strong>月<strong>10</strong>日筑波大で会見し、「睡眠の基礎研究がやっと日の目を見る時代になった」と喜びを語った。柳沢氏は<strong>1998</strong>年、睡眠と覚醒を制御する神経ペプチド「<strong>オレキシン</strong>」を発見。オレキシンを欠損させたマウスが突然眠り込む睡眠障害「ナルコレプシー」に酷似した症状を示すことを突き止め、覚醒維持のメカニズム解明に決定的な貢献をした。ラスカー賞はノーベル賞受賞者を多数輩出する登竜門とされ、日本人の基礎医学研究部門受賞は<strong>2014</strong>年以来<strong>12</strong>年ぶり。<strong>2026</strong>年は日本人研究者<strong>4</strong>名が同賞に選ばれた。",
+          "sourceName": "時事通信",
+          "sourceUrl": "https://www.jiji.com/jc/article?k=2026091001036&g=soc",
+          "tags": ["科学", "医学", "研究者"]
+        },
+        {
+          "position": 8,
+          "title": "UNEP「1.5℃オーバーシュートは避けられない」報告書 — 残された炭素予算1,300億トン、削減・除去・適応の3本柱で復帰を",
+          "summary": "国連環境計画(<strong>UNEP</strong>)は<strong>2026</strong>年<strong>9</strong>月<strong>2</strong>日、報告書「オーバーシュートの抑制(Limiting Overshoot)」を発表した。地球平均気温は既に産業革命前比で約<strong>1.4</strong>℃上昇し、直近<strong>10</strong>年間で<strong>0.25</strong>℃ずつ上がり続けている。<strong>2026</strong>年〜<strong>2030</strong>年の<strong>5</strong>年平均が<strong>1.5</strong>℃を超える確率は<strong>4</strong>分の<strong>3</strong>で、超過(オーバーシュート)は事実上避けられないというのが報告書の現状認識だ。<strong>1.5</strong>℃以内に抑える確率を<strong>50</strong>%確保するためには<strong>2026</strong>年以降の温室効果ガス排出量が約<strong>1,300</strong>億トンまでしか残されておらず、現在の年間<strong>400</strong>億トンペースなら約<strong>3</strong>年で使い切る計算になる。報告書はオーバーシュートを「目標の失敗」と捉えず、削減・除去・適応の<strong>3</strong>つを同時並行で進めて<strong>1.5</strong>℃へ復帰させる道筋を提示する。",
+          "sourceName": "Sustainable Japan",
+          "sourceUrl": "https://sustainablejapan.jp/2026/09/04/unep-limiting-overshoot/130229",
+          "tags": ["環境", "気候変動", "UNEP"]
+        }
+      ]
+    }
+  ]
+}
