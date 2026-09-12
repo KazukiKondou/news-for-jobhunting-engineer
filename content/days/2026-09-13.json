@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-13",
+  "label": "2026年9月13日 (日)",
+  "intro": "React <strong>19.3</strong>がView Transitionsを安定版に昇格、VS Code <strong>1.137</strong>がAIエージェントのスケジュール自動実行をプレビュー提供、HTMX <strong>4.0</strong>が内部実装をXHRからfetchへ刷新、Amazon QuickがノーコードのデータアプリをGA。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "React 19.3リリース — View TransitionsとFragment Refsが安定版に、Trusted Types対応でXSS防御も強化",
+          "summary": "Metaは<strong>2026</strong>年<strong>9</strong>月<strong>9</strong>日、React <strong>19.3</strong>をnpmに公開した。最大の変更はView Transitionsの安定化で、新コンポーネントViewTransitionを使うと要素のマウント・アンマウント・移動・リサイズ時にブラウザのView Transition APIを通じてアニメーションを付与できる。Fragment RefsもFragmentInstanceとして安定版となり、getClientRects・getRootNode・compareDocumentPosition・scrollIntoViewなど限定されたDOMメソッドをコンポーネント種別を問わず呼び出せる。セキュリティ面ではブラウザのTrusted Types APIと統合し、DOM型XSS攻撃の抑止を図る。またTransitionの実行が独立化され、重いTransitionが無関係なTransitionをブロックしなくなった。",
+          "sourceName": "React公式ブログ",
+          "sourceUrl": "https://react.dev/blog/2026/09/09/react-19-3",
+          "tags": ["技術トレンド", "React", "フロントエンド"]
+        },
+        {
+          "position": 2,
+          "title": "VS Code 1.137リリース — AIエージェントの定期自動実行「Automations」と音声対話「Voice Mode」をプレビュー提供",
+          "summary": "Microsoftは<strong>2026</strong>年<strong>9</strong>月<strong>9</strong>日、Visual Studio Code <strong>1.137</strong>をリリースした。目玉はAIエージェントのタスクを時間単位・日単位・週単位のスケジュールで自動実行する「Automations」（プレビュー）で、変更の追跡・issue整理・バグ発見といったテンプレートを用意する。「Voice Mode」（実験的）ではエージェントが動作中でも音声で指示や割り込みができ、手を止めずにコードを修正させられる。クイックチャットをワークスペースに引き継ぐ機能も追加され、会話履歴とリクエストを保持したままローカルフォルダを添付できる。GitHubのissuesとPR詳細もAgentsウィンドウ内で直接確認可能になった。",
+          "sourceName": "Visual Studio Code",
+          "sourceUrl": "https://code.visualstudio.com/updates/v1_137",
+          "tags": ["技術トレンド", "VS Code", "AIエージェント"]
+        },
+        {
+          "position": 3,
+          "title": "HTMX 4.0正式リリース — 内部実装をXHRからfetchへ移行、Streaming HTMLが標準対応、属性継承のデフォルトを廃止",
+          "summary": "HTMLに属性を追加するだけでサーバー連動の動的UIを実現するJavaScriptライブラリHTMXが、<strong>2026</strong>年<strong>8</strong>月<strong>28</strong>日にバージョン<strong>4.0</strong>を正式リリースした（バージョン番号は<strong>2</strong>.xから<strong>4</strong>.0へスキップし、<strong>3</strong>は存在しない）。内部実装がXMLHttpRequestからfetch()へ移行し、Streaming ResponseとSSE（サーバー送信イベント）がデフォルトで有効になった。一方でこれまで暗黙的に親から子要素へ受け継がれていた属性継承が廃止され、明示的な指定が必要になった。履歴キャッシュとエラー応答のサイレント無視も削除されており、<strong>2</strong>.x系からの移行には破壊的変更への対応が必要となる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/htmx_40xhrfetchstreaming_html.html",
+          "tags": ["技術トレンド", "JavaScript", "フロントエンド"]
+        },
+        {
+          "position": 4,
+          "title": "Amazon Quick、自然言語でカスタムデータアプリをGA — プロジェクト管理・顧客ダッシュボード・研修ポータルをノーコードで作成",
+          "summary": "AWSはBIツール「Amazon Quick」において、自然言語の指示だけでデータ分析・可視化のカスタムアプリケーションを構築できる機能を一般提供（GA）した。Amazon S3・Aurora・Redshift・Google BigQuery・Salesforce・Microsoft OneDrive・Adobe Analytics・Jiraなど多様なデータソースに接続でき、プロジェクトトラッカー・顧客ダッシュボード・研修ポータルといったアプリをコードなしで数分で作成できる。従来はBI担当者やエンジニアが構築していた機能を、プロダクトマネージャー・財務・HR・オペレーション担当者が自力で用意できるようになる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/awsamazon_quick.html",
+          "tags": ["技術トレンド", "AWS", "データ分析"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "「気づけばAI任せ。オレの脳は縮んでいくのか？」— NewsPicks認知科学特集",
+          "summary": "NewsPicks（<strong>2026</strong>年<strong>9</strong>月<strong>1</strong>日公開）が「AIへの過度な依存が認知能力に何をもたらすか」を認知科学・言語の専門家への取材でまとめた特集記事。AIが本当に思考力を弱体化させるのか断言せず、「使わない筋肉がやがて衰える」という類比を提示しながら、脳への影響の検証は現在進行中であると説明する。AIが「たぶんこうだろう」という仮説生成のステップをすっ飛ばすことで、人間が本来持つ「仮説力」が鍛えられる機会が失われる懸念を指摘。知識を単なる検索結果ではなく「血肉化する」プロセスを意識的に維持することが、AI時代にこそ重要だという視点が示されている。",
+          "sourceName": "NewsPicks",
+          "sourceUrl": "https://newspicks.com/news/17363843/body/",
+          "tags": ["思考力", "認知科学", "AI"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "「圧縮しても崩壊しない」自己伸縮性単分子膜を開発 — 東大・山形大・理研、最大16層に可逆的に折り畳まれる界面分子膜",
+          "summary": "東京大学大学院工学系研究科・山形大学・理化学研究所の共同研究グループは<strong>2026</strong>年<strong>9</strong>月<strong>10</strong>日、自律的に折り畳まれる自己伸縮性単分子膜を開発したと発表した。新たに合成した両親媒性分子「HP-BTBT-C10」を水面上に展開し側面から圧縮すると、従来の単分子膜のように不可逆的に崩壊せず、しわ状の多層構造へ自律的に折り畳まれて応力を分散する。折り畳み構造は最大約<strong>16</strong>分子層に達し、圧縮を解放すると元の単分子膜状態に戻る可逆性を示す。生体膜の動的な構造変化を模した機能を持ちつつ、ウェアラブルデバイスや柔軟センサ向けの材料としての応用が期待される。",
+          "sourceName": "理化学研究所",
+          "sourceUrl": "https://www.riken.jp/press/2026/20260910_1/index.html",
+          "tags": ["科学", "材料工学", "研究"]
+        }
+      ]
+    }
+  ]
+}
