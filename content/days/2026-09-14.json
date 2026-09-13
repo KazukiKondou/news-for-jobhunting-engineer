@@ -1,0 +1,84 @@
+{
+  "date": "2026-09-14",
+  "label": "2026年9月14日 (月)",
+  "intro": "DeepSeekがオープンウェイト「V4.1 Flash」（<strong>552</strong>B MoE）でV4-Proを超える性能を示した日、TailwindがAI起因の収益<strong>80</strong>%減でShopifyに買収され、AWSは日米を結ぶ初の自社海底ケーブル「Sta'O'Nuk」（<strong>420</strong>Tbps）を発表した。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "DeepSeek V4.1 Flash リリース — 552B MoE がV4-Proを上回り、マルチモーダル対応・MITライセンスで公開",
+          "summary": "中国AIスタートアップDeepSeekは<strong>2026</strong>年<strong>9</strong>月<strong>10</strong>日、新モデル「V4.1 Flash」をリリースした。パラメータ数は<strong>552</strong>億（MoE構成）、コンテキスト長は最大<strong>100</strong>万トークン、テキストと画像を同一モデルで処理するマルチモーダルに対応する。自社および複数の第三者テストで旗艦モデルV4-Proを性能・コスト・速度の全面で上回ったとされ、KVキャッシュは前世代V4 Flashの<strong>8</strong>分の<strong>1</strong>に削減されている。MITライセンスでオープンウェイト公開、API単価は入力<strong>0.30</strong>ドル/百万トークン・出力<strong>1.20</strong>ドルで、本日<strong>9</strong>月<strong>14</strong>日からAPIでV4-Proに送ったリクエストはV4.1 Flashへ自動転送される。",
+          "sourceName": "SiliconAngle",
+          "sourceUrl": "https://siliconangle.com/2026/09/10/deepseek-releases-v4-1-flash-says-it-outperforms-flagship-v4-pro/",
+          "tags": ["技術トレンド", "AI", "オープンソース"]
+        },
+        {
+          "position": 2,
+          "title": "ShopifyがTailwind Labsを買収 — AI普及でドキュメントトラフィック40%減・収益80%減、エンジニア75%削減後に事業継続困難",
+          "summary": "CSSフレームワーク「Tailwind CSS」の開発元Tailwind Labsは<strong>2026</strong>年<strong>9</strong>月<strong>9</strong>日、Shopifyによる買収を発表した。創業者Adam Wathanは<strong>2026</strong>年<strong>1</strong>月、AIによるコード生成・ドキュメント代替の影響でドキュメントサイトのトラフィックが2023年初比で約<strong>40</strong>%減、収益は<strong>80</strong>%近く落ち込んだと報告しており、エンジニアリングチームの<strong>75</strong>%を削減していた。AIがTailwindを世界最大規模のCSSフレームワークに押し上げながら、同時にドキュメント閲覧ニーズを代替することで商業モデルを破壊した格好だ。Shopifyはオープンソースコミュニティの安定継続を目的に買収し、Tailwind CSSはMITライセンスを維持するが、商用プロダクトのTailwind Plusとui.shは新規受け付けを停止する。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/ai75csstailwindshopify.html",
+          "tags": ["技術トレンド", "フロントエンド", "AI"]
+        },
+        {
+          "position": 3,
+          "title": "Rider 2026.3 EAP 開始 — レインボーブラケット・データブレークポイント改善・コード補完フィルターを搭載",
+          "summary": "JetBrainsは<strong>2026</strong>年<strong>9</strong>月<strong>7</strong>日、.NET・C#向けIDE「Rider」の次期バージョン2026.3の早期アクセスプログラム（EAP）を開始した。最大の目玉はレインボーブラケット機能で、ネスト深度に応じて対応する括弧を色分けすることで、インデントガイドが効かない1行コードの可読性を高める（デフォルト無効、Settings → Editor → General → Apparanceで有効化）。データブレークポイントの設定がシンプルになり、コード補完にフィルター機能が加わった。ゲーム開発向けの新プラグインカテゴリ「Game Development」も追加されており、JetBrains WebサイトまたはToolbox Appからビルドを取得できる。",
+          "sourceName": "JetBrains Blog",
+          "sourceUrl": "https://blog.jetbrains.com/dotnet/2026/09/07/rider-2026-3-eap/",
+          "tags": ["技術トレンド", "開発ツール", ".NET"]
+        },
+        {
+          "position": 4,
+          "title": "AWSが日米間の自社初専用海底ケーブル「Sta'O'Nuk」を発表 — 設計容量420Tbps・20ファイバーペア、2029年稼働予定",
+          "summary": "AWSは<strong>2026</strong>年<strong>9</strong>月<strong>4</strong>日、ワシントン州と日本を結ぶ自社初の専用太平洋横断海底ケーブル「Sta'O'Nuk」を発表した。設計容量は<strong>420</strong>テラビット毎秒（Tbps）、<strong>20</strong>ファイバーペアを備え、<strong>2029</strong>年の稼働を予定する。名称はQuinaultインディアン国家の言語で「雷の蛇」を意味し、同部族から命名の許可を得ている。分散型LLMトレーニング・金融取引・エッジコンピューティング・ストリーミングなど大容量かつ低遅延を要するワークロードを主なターゲットに位置づけており、AWSが端点の選定からケーブルシステム全体を直接管理する初めての海底ケーブルとなる。",
+          "sourceName": "AWS Blog",
+          "sourceUrl": "https://aws.amazon.com/blogs/infrastructure-sustainability/staonuk-how-a-new-transpacific-subsea-cable-will-reshape-cloud-connectivity-between-north-america-and-japan/",
+          "tags": ["技術トレンド", "AWS", "インフラ"]
+        },
+        {
+          "position": 5,
+          "title": "GitHub CopilotにGemini 3.8 Flashが追加 — 複雑なターミナルコーディングに強く、Pro・Business・Enterprise向けに段階展開",
+          "summary": "GitHubは<strong>2026</strong>年<strong>9</strong>月<strong>3</strong>日、GitHub CopilotのモデルピッカーにGoogleの「Gemini 3.8 Flash」を追加したと発表した。Copilot Pro・Pro+・Max・Business・Enterpriseのユーザーが対象で、VS Code・Visual Studio・JetBrains IDE・Xcode・EclipseおよびCopilot CLIとクラウドエージェントで選択できる。Gemini 3.8 Flashは複雑なターミナルベースのコーディングタスクで高いパフォーマンスを発揮し、厳密な検証と持続的なエラー回復が得意とされている。利用料金は usage-based billing で<strong>2026</strong>年<strong>12</strong>月<strong>31</strong>日まで入力<strong>0.75</strong>ドル/百万トークン・出力<strong>3.75</strong>ドルの導入特別価格が適用される。",
+          "sourceName": "GitHub Changelog",
+          "sourceUrl": "https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot/",
+          "tags": ["技術トレンド", "AI", "開発ツール"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "知性の本質は「予測」にあり？ — AIが開く脳科学の新たな地平（日経サイエンス2026年9月号）",
+          "summary": "日経サイエンス<strong>2026</strong>年<strong>9</strong>月号（特集「AI・脳・意識」）に掲載された本稿は、「知性の本質は予測にある」という仮説を脳科学とAI研究の両面から検証する。近年の研究で、人間の脳活動パターンとAI内部の数値表現が対応することが判明し、AIの内部処理は人間の脳を探るのと類似した方法で把握できるようになってきた。AIモデルと脳機能の構造的な類似を手がかりに、人間の認知の仕組みを改めて問い直す内容で、脳と機械の「知性」を共通の枠組みで捉える視点を提示する。テクノロジーを道具として使いこなすだけでなく、自分の知性そのものの仕組みを理解することが、AI時代に不可欠な教養として浮かび上がってくる。",
+          "sourceName": "日経サイエンス",
+          "sourceUrl": "https://www.nikkei-science.com/202609_042.html",
+          "tags": ["思考力", "脳科学", "認知科学"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "機械学習でトマト生育を促進する微生物群集を設計・実証 — 東北大・京都大・理研が「探す」から「設計する」へ転換",
+          "summary": "東北大学・京都大学・理化学研究所の研究グループは<strong>2026</strong>年<strong>9</strong>月<strong>9</strong>日、機械学習を用いてトマトの生育を促進する微生物コミュニティを設計・実証したと発表した。微生物の種の組み合わせに加えて遺伝子情報・植物由来成分・栽培温度といったデータを機械学習で統合することで、最適な微生物群集を予測・設計する手法を確立した。設計した微生物コミュニティは実験室内の高温条件下と屋外農地の両環境でトマト生育を向上させることを実証し、マルチオミクス解析によって効果に関連する植物遺伝子と微生物種を同定した。有用微生物を「探す」従来の試行錯誤型アプローチから、データに基づいて「設計する」アプローチへの転換を示した成果で、食料安全保障や持続可能農業への応用が期待される。",
+          "sourceName": "理化学研究所",
+          "sourceUrl": "https://www.riken.jp/press/2026/20260909_1/index.html",
+          "tags": ["科学", "農業", "機械学習"]
+        }
+      ]
+    }
+  ]
+}
