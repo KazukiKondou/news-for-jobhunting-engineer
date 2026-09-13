@@ -1,7 +1,7 @@
 {
   "date": "2026-09-14",
   "label": "2026年9月14日 (月)",
-  "intro": "DeepSeekがオープンウェイト「V4.1 Flash」（<strong>552</strong>B MoE）でV4-Proを超える性能を示した日、TailwindがAI起因の収益<strong>80</strong>%減でShopifyに買収され、AWSは日米を結ぶ初の自社海底ケーブル「Sta'O'Nuk」（<strong>420</strong>Tbps）を発表した。",
+  "intro": "MicrosoftがRustを社内Tier 1言語に認定、TailwindがShopifyに買収、PeopleXがシリーズAで<strong>54.5</strong>億円調達。",
   "sections": [
     {
       "key": "it",
@@ -10,43 +10,43 @@
       "articles": [
         {
           "position": 1,
-          "title": "DeepSeek V4.1 Flash リリース — 552B MoE がV4-Proを上回り、マルチモーダル対応・MITライセンスで公開",
-          "summary": "中国AIスタートアップDeepSeekは<strong>2026</strong>年<strong>9</strong>月<strong>10</strong>日、新モデル「V4.1 Flash」をリリースした。パラメータ数は<strong>552</strong>億（MoE構成）、コンテキスト長は最大<strong>100</strong>万トークン、テキストと画像を同一モデルで処理するマルチモーダルに対応する。自社および複数の第三者テストで旗艦モデルV4-Proを性能・コスト・速度の全面で上回ったとされ、KVキャッシュは前世代V4 Flashの<strong>8</strong>分の<strong>1</strong>に削減されている。MITライセンスでオープンウェイト公開、API単価は入力<strong>0.30</strong>ドル/百万トークン・出力<strong>1.20</strong>ドルで、本日<strong>9</strong>月<strong>14</strong>日からAPIでV4-Proに送ったリクエストはV4.1 Flashへ自動転送される。",
-          "sourceName": "SiliconAngle",
-          "sourceUrl": "https://siliconangle.com/2026/09/10/deepseek-releases-v4-1-flash-says-it-outperforms-flagship-v4-pro/",
-          "tags": ["技術トレンド", "AI", "オープンソース"]
+          "title": "DeNA、2028卒エンジニア早期選考を9月末で終了 — 通年年収は改定後の初任給600万円スタート",
+          "summary": "DeNAは<strong>2028</strong>年4月入社対象の新卒エンジニア職・ビジネス職について、<strong>2026</strong>年<strong>9</strong>月末で早期選考を締め切ると告知している。早期選考を通過した学生は選考直結型のインターン参加権を得られる仕組みで、通過しなかった応募者も10月開始の本選考ラウンドに再エントリー可能だ。<strong>2026</strong>年<strong>3</strong>月改定の給与テーブルにより、エンジニア職とビジネス職の標準初年度年収は<strong>600</strong>万円、AIジェネラリスト職は<strong>600</strong>万円、AIスペシャリスト職は<strong>700</strong>万円からのスタートに引き上げられている。AIスペシャリスト職とデザイナー職は今年の早期選考の対象外で、10月開始の本選考へ直接進む形になる。",
+          "sourceName": "DeNA新卒採用",
+          "sourceUrl": "https://student.dena.com/earlyselection/",
+          "tags": ["採用ニュース", "DeNA", "早期選考"]
         },
         {
           "position": 2,
-          "title": "ShopifyがTailwind Labsを買収 — AI普及でドキュメントトラフィック40%減・収益80%減、エンジニア75%削減後に事業継続困難",
-          "summary": "CSSフレームワーク「Tailwind CSS」の開発元Tailwind Labsは<strong>2026</strong>年<strong>9</strong>月<strong>9</strong>日、Shopifyによる買収を発表した。創業者Adam Wathanは<strong>2026</strong>年<strong>1</strong>月、AIによるコード生成・ドキュメント代替の影響でドキュメントサイトのトラフィックが2023年初比で約<strong>40</strong>%減、収益は<strong>80</strong>%近く落ち込んだと報告しており、エンジニアリングチームの<strong>75</strong>%を削減していた。AIがTailwindを世界最大規模のCSSフレームワークに押し上げながら、同時にドキュメント閲覧ニーズを代替することで商業モデルを破壊した格好だ。Shopifyはオープンソースコミュニティの安定継続を目的に買収し、Tailwind CSSはMITライセンスを維持するが、商用プロダクトのTailwind Plusとui.shは新規受け付けを停止する。",
+          "title": "Microsoft、Rustを社内「Tier 1」言語に認定 — C++・C#・TypeScriptと同格、rustc_codegen_utcで本番稼働",
+          "summary": "Microsoftは<strong>2026</strong>年<strong>9</strong>月<strong>14</strong>日、Rustを社内で正式に「Tier 1」言語として認定したと明かした。Tier 1は「安全なツールチェーン、ビルド、開発環境、ワークフロー」が揃った言語区分で、これまでC++・C#・TypeScriptが該当していた枠にRustが加わる。Windowsから業務アプリまでファームウェア〜アプリケーション層でRustが正式スタックとして利用可能になる。同社は独自コンパイラバックエンド「rustc_codegen_utc」を開発してMSVCとの相互運用性を確保しており、<strong>2026</strong>年初頭からすでに本番環境で稼働している。Microsoft社内では<strong>100</strong>以上のプロジェクトでRustが採用され、毎週採用プロジェクト数が増え続けている。",
           "sourceName": "Publickey",
-          "sourceUrl": "https://www.publickey1.jp/blog/26/ai75csstailwindshopify.html",
-          "tags": ["技術トレンド", "フロントエンド", "AI"]
+          "sourceUrl": "https://www.publickey1.jp/blog/26/rustcctstier_1.html",
+          "tags": ["技術トレンド", "Rust", "Microsoft"]
         },
         {
           "position": 3,
-          "title": "Rider 2026.3 EAP 開始 — レインボーブラケット・データブレークポイント改善・コード補完フィルターを搭載",
-          "summary": "JetBrainsは<strong>2026</strong>年<strong>9</strong>月<strong>7</strong>日、.NET・C#向けIDE「Rider」の次期バージョン2026.3の早期アクセスプログラム（EAP）を開始した。最大の目玉はレインボーブラケット機能で、ネスト深度に応じて対応する括弧を色分けすることで、インデントガイドが効かない1行コードの可読性を高める（デフォルト無効、Settings → Editor → General → Apparanceで有効化）。データブレークポイントの設定がシンプルになり、コード補完にフィルター機能が加わった。ゲーム開発向けの新プラグインカテゴリ「Game Development」も追加されており、JetBrains WebサイトまたはToolbox Appからビルドを取得できる。",
-          "sourceName": "JetBrains Blog",
-          "sourceUrl": "https://blog.jetbrains.com/dotnet/2026/09/07/rider-2026-3-eap/",
-          "tags": ["技術トレンド", "開発ツール", ".NET"]
+          "title": "AWS、Nx Plugin for AWS 1.0をGA — 要件を伝えるとフルスタックAWSアプリの雛形をAIが数分で生成",
+          "summary": "AWSはAIを活用したコード生成ツール「Nx Plugin for AWS <strong>1.0</strong>」をオープンソースで一般提供した。要件をAIに伝えるだけで、Node.jsやPythonのバックエンド、Reactフロントエンド、AWS CDKまたはTerraformのインフラ定義、Amazon Bedrock AgentとMCPサーバのAI連携までを含むフルスタック構成を数分で自動生成する。データベースやWebサーバなどのリソース、AWS X-RayとCloudWatchによる可観測性、ファイアウォールなどのセキュリティ設定も生成物に含まれる。従来はチームで数日〜数週かけて用意していたスキャフォルドを、要件確定から数分で立ち上げられるようになる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/awsaiawsnx_plugin_for_aws_10.html",
+          "tags": ["技術トレンド", "AWS", "AIコード生成"]
         },
         {
           "position": 4,
-          "title": "AWSが日米間の自社初専用海底ケーブル「Sta'O'Nuk」を発表 — 設計容量420Tbps・20ファイバーペア、2029年稼働予定",
-          "summary": "AWSは<strong>2026</strong>年<strong>9</strong>月<strong>4</strong>日、ワシントン州と日本を結ぶ自社初の専用太平洋横断海底ケーブル「Sta'O'Nuk」を発表した。設計容量は<strong>420</strong>テラビット毎秒（Tbps）、<strong>20</strong>ファイバーペアを備え、<strong>2029</strong>年の稼働を予定する。名称はQuinaultインディアン国家の言語で「雷の蛇」を意味し、同部族から命名の許可を得ている。分散型LLMトレーニング・金融取引・エッジコンピューティング・ストリーミングなど大容量かつ低遅延を要するワークロードを主なターゲットに位置づけており、AWSが端点の選定からケーブルシステム全体を直接管理する初めての海底ケーブルとなる。",
-          "sourceName": "AWS Blog",
-          "sourceUrl": "https://aws.amazon.com/blogs/infrastructure-sustainability/staonuk-how-a-new-transpacific-subsea-cable-will-reshape-cloud-connectivity-between-north-america-and-japan/",
-          "tags": ["技術トレンド", "AWS", "インフラ"]
+          "title": "PeopleX、シリーズAで54.5億円調達 — 人事特化MotherAI OS「Athena」を発表、累計調達額は78.2億円に",
+          "summary": "AI面接・AIロープレを提供するPeopleXは<strong>2026</strong>年<strong>9</strong>月<strong>2</strong>日、シリーズAラウンドで<strong>54.5</strong>億円をエクイティとデットで調達したと発表した。エン、Angel Bridge、Open Up Group、WiL、One Capitalが引受先で、<strong>2024</strong>年<strong>4</strong>月の創業から2年で累計調達額は<strong>78.2</strong>億円に到達した。同時に人事特化の「MotherAI OS」と位置付ける新基盤「Athena」を公開。国内で完結する「ソブリンAI」設計で、社員・組織・顧客の課題に対しAIが自律的に解を出す「Personal Brain」「Strategic Brain」「Customer Brain」の<strong>3</strong>プロダクトが載る構成となる。中期計画では<strong>2031</strong>年に売上<strong>100</strong>億円・IPOを掲げる。",
+          "sourceName": "PeopleX プレスリリース",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000290.000139786.html",
+          "tags": ["資金調達", "PeopleX", "HR-Tech"]
         },
         {
           "position": 5,
-          "title": "GitHub CopilotにGemini 3.8 Flashが追加 — 複雑なターミナルコーディングに強く、Pro・Business・Enterprise向けに段階展開",
-          "summary": "GitHubは<strong>2026</strong>年<strong>9</strong>月<strong>3</strong>日、GitHub CopilotのモデルピッカーにGoogleの「Gemini 3.8 Flash」を追加したと発表した。Copilot Pro・Pro+・Max・Business・Enterpriseのユーザーが対象で、VS Code・Visual Studio・JetBrains IDE・Xcode・EclipseおよびCopilot CLIとクラウドエージェントで選択できる。Gemini 3.8 Flashは複雑なターミナルベースのコーディングタスクで高いパフォーマンスを発揮し、厳密な検証と持続的なエラー回復が得意とされている。利用料金は usage-based billing で<strong>2026</strong>年<strong>12</strong>月<strong>31</strong>日まで入力<strong>0.75</strong>ドル/百万トークン・出力<strong>3.75</strong>ドルの導入特別価格が適用される。",
-          "sourceName": "GitHub Changelog",
-          "sourceUrl": "https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot/",
-          "tags": ["技術トレンド", "AI", "開発ツール"]
+          "title": "Tailwind Labs、Shopifyが買収 — AI流入減で有償製品の売上40%減、チーム75%削減の後にオープンソース維持へ",
+          "summary": "Tailwind CSSを開発するTailwind Labsは<strong>2026</strong>年<strong>9</strong>月<strong>14</strong>日、Shopifyによる買収に同意したと発表した。共同創業者のAdam Wathan氏は、AIがコードを直接書くようになり公式ドキュメントへのアクセスが<strong>2023</strong>年初頭比で約<strong>40</strong>%減少、有償製品「Tailwind UI」「Tailwind App」の売上が急落したためチームの<strong>75</strong>%を解雇する事態となり、独立継続が難しくなったと説明した。ShopifyはTailwind CSSの大規模ユーザーであり、Ruby on Rails基盤の店舗テンプレートで多用してきた経緯がある。買収後もTailwind CSS本体のオープンソース開発は継続、有償製品は新規申込を停止する。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/ai75csstailwindshopify.html",
+          "tags": ["企業動向", "Shopify", "Tailwind CSS"]
         }
       ]
     },
@@ -57,11 +57,11 @@
       "articles": [
         {
           "position": 6,
-          "title": "知性の本質は「予測」にあり？ — AIが開く脳科学の新たな地平（日経サイエンス2026年9月号）",
-          "summary": "日経サイエンス<strong>2026</strong>年<strong>9</strong>月号（特集「AI・脳・意識」）に掲載された本稿は、「知性の本質は予測にある」という仮説を脳科学とAI研究の両面から検証する。近年の研究で、人間の脳活動パターンとAI内部の数値表現が対応することが判明し、AIの内部処理は人間の脳を探るのと類似した方法で把握できるようになってきた。AIモデルと脳機能の構造的な類似を手がかりに、人間の認知の仕組みを改めて問い直す内容で、脳と機械の「知性」を共通の枠組みで捉える視点を提示する。テクノロジーを道具として使いこなすだけでなく、自分の知性そのものの仕組みを理解することが、AI時代に不可欠な教養として浮かび上がってくる。",
-          "sourceName": "日経サイエンス",
-          "sourceUrl": "https://www.nikkei-science.com/202609_042.html",
-          "tags": ["思考力", "脳科学", "認知科学"]
+          "title": "「なぜリーダーはいま哲学を学ぶ必要があるのか」— DHBRが説く、AI時代の意思決定を支える存在論・認識論・倫理学",
+          "summary": "DIAMONDハーバード・ビジネス・レビュー<strong>2026</strong>年<strong>9</strong>月号の巻頭論文（Faisal Hoque他、<strong>2026</strong>年<strong>9</strong>月<strong>11</strong>日公開）は、AIの普及と社会的コンセンサスの揺らぎによって、経営判断を支える哲学的リテラシーが財務リテラシーと同格の重要性を持つようになったと主張する。論文が扱うのは「物事の本質を問う存在論」「知識の定義と検証を問う認識論」「正邪の判断を問う倫理学」の<strong>3</strong>領域で、意思決定の根底にある暗黙の前提を可視化・検証する力こそ、AIに委ねられない人間側のコアだとする。Claudeが<strong>30</strong>万社に導入されているにもかかわらず、その背後の哲学的前提が議論されていない現状を批判し、AIを使う側の思考の型を鍛え直すよう促す構成となっている。",
+          "sourceName": "DIAMONDハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14396",
+          "tags": ["思考力", "哲学", "意思決定"]
         }
       ]
     },
@@ -72,11 +72,11 @@
       "articles": [
         {
           "position": 7,
-          "title": "機械学習でトマト生育を促進する微生物群集を設計・実証 — 東北大・京都大・理研が「探す」から「設計する」へ転換",
-          "summary": "東北大学・京都大学・理化学研究所の研究グループは<strong>2026</strong>年<strong>9</strong>月<strong>9</strong>日、機械学習を用いてトマトの生育を促進する微生物コミュニティを設計・実証したと発表した。微生物の種の組み合わせに加えて遺伝子情報・植物由来成分・栽培温度といったデータを機械学習で統合することで、最適な微生物群集を予測・設計する手法を確立した。設計した微生物コミュニティは実験室内の高温条件下と屋外農地の両環境でトマト生育を向上させることを実証し、マルチオミクス解析によって効果に関連する植物遺伝子と微生物種を同定した。有用微生物を「探す」従来の試行錯誤型アプローチから、データに基づいて「設計する」アプローチへの転換を示した成果で、食料安全保障や持続可能農業への応用が期待される。",
+          "title": "多発性硬化症の遺伝的背景を多様な人種集団とオミクス解析で解明 — 東大・阪大・九大・理研が日本人特有のリスク領域を同定",
+          "summary": "東京大学・大阪大学・九州大学・理化学研究所生命医科学研究センターの共同研究グループは<strong>2026</strong>年<strong>9</strong>月<strong>10</strong>日、多発性硬化症（MS）の遺伝的背景を多様な人種集団のゲノムとオミクスから解明したと発表した。国内外の患者データを統合する「日本多発性硬化症/視神経脊髄炎スペクトラム障害バイオバンク」を活用し、これまで欧米集団中心の研究では見えていなかった日本人集団に特有のリスク領域を新たに同定した。あわせて、脳病変の内部にリスクが集積する部位も明らかにしている。人種横断のオミクス解析でMSの発症メカニズムを立体的に捉えたもので、日本人患者向けの診断精度向上と治療標的の探索を加速させる基盤となる。",
           "sourceName": "理化学研究所",
-          "sourceUrl": "https://www.riken.jp/press/2026/20260909_1/index.html",
-          "tags": ["科学", "農業", "機械学習"]
+          "sourceUrl": "https://www.riken.jp/press/2026/20260910_2/index.html",
+          "tags": ["科学", "医療", "ゲノム"]
         }
       ]
     }
