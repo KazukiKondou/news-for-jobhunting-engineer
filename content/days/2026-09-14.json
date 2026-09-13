@@ -1,0 +1,84 @@
+{
+  "date": "2026-09-14",
+  "label": "2026年9月14日 (月)",
+  "intro": "MicrosoftがRustを社内Tier 1言語に認定、TailwindがShopifyに買収、PeopleXがシリーズAで<strong>54.5</strong>億円調達。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "DeNA、2028卒エンジニア早期選考を9月末で終了 — 通年年収は改定後の初任給600万円スタート",
+          "summary": "DeNAは<strong>2028</strong>年4月入社対象の新卒エンジニア職・ビジネス職について、<strong>2026</strong>年<strong>9</strong>月末で早期選考を締め切ると告知している。早期選考を通過した学生は選考直結型のインターン参加権を得られる仕組みで、通過しなかった応募者も10月開始の本選考ラウンドに再エントリー可能だ。<strong>2026</strong>年<strong>3</strong>月改定の給与テーブルにより、エンジニア職とビジネス職の標準初年度年収は<strong>600</strong>万円、AIジェネラリスト職は<strong>600</strong>万円、AIスペシャリスト職は<strong>700</strong>万円からのスタートに引き上げられている。AIスペシャリスト職とデザイナー職は今年の早期選考の対象外で、10月開始の本選考へ直接進む形になる。",
+          "sourceName": "DeNA新卒採用",
+          "sourceUrl": "https://student.dena.com/earlyselection/",
+          "tags": ["採用ニュース", "DeNA", "早期選考"]
+        },
+        {
+          "position": 2,
+          "title": "Microsoft、Rustを社内「Tier 1」言語に認定 — C++・C#・TypeScriptと同格、rustc_codegen_utcで本番稼働",
+          "summary": "Microsoftは<strong>2026</strong>年<strong>9</strong>月<strong>14</strong>日、Rustを社内で正式に「Tier 1」言語として認定したと明かした。Tier 1は「安全なツールチェーン、ビルド、開発環境、ワークフロー」が揃った言語区分で、これまでC++・C#・TypeScriptが該当していた枠にRustが加わる。Windowsから業務アプリまでファームウェア〜アプリケーション層でRustが正式スタックとして利用可能になる。同社は独自コンパイラバックエンド「rustc_codegen_utc」を開発してMSVCとの相互運用性を確保しており、<strong>2026</strong>年初頭からすでに本番環境で稼働している。Microsoft社内では<strong>100</strong>以上のプロジェクトでRustが採用され、毎週採用プロジェクト数が増え続けている。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/rustcctstier_1.html",
+          "tags": ["技術トレンド", "Rust", "Microsoft"]
+        },
+        {
+          "position": 3,
+          "title": "AWS、Nx Plugin for AWS 1.0をGA — 要件を伝えるとフルスタックAWSアプリの雛形をAIが数分で生成",
+          "summary": "AWSはAIを活用したコード生成ツール「Nx Plugin for AWS <strong>1.0</strong>」をオープンソースで一般提供した。要件をAIに伝えるだけで、Node.jsやPythonのバックエンド、Reactフロントエンド、AWS CDKまたはTerraformのインフラ定義、Amazon Bedrock AgentとMCPサーバのAI連携までを含むフルスタック構成を数分で自動生成する。データベースやWebサーバなどのリソース、AWS X-RayとCloudWatchによる可観測性、ファイアウォールなどのセキュリティ設定も生成物に含まれる。従来はチームで数日〜数週かけて用意していたスキャフォルドを、要件確定から数分で立ち上げられるようになる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/awsaiawsnx_plugin_for_aws_10.html",
+          "tags": ["技術トレンド", "AWS", "AIコード生成"]
+        },
+        {
+          "position": 4,
+          "title": "PeopleX、シリーズAで54.5億円調達 — 人事特化MotherAI OS「Athena」を発表、累計調達額は78.2億円に",
+          "summary": "AI面接・AIロープレを提供するPeopleXは<strong>2026</strong>年<strong>9</strong>月<strong>2</strong>日、シリーズAラウンドで<strong>54.5</strong>億円をエクイティとデットで調達したと発表した。エン、Angel Bridge、Open Up Group、WiL、One Capitalが引受先で、<strong>2024</strong>年<strong>4</strong>月の創業から2年で累計調達額は<strong>78.2</strong>億円に到達した。同時に人事特化の「MotherAI OS」と位置付ける新基盤「Athena」を公開。国内で完結する「ソブリンAI」設計で、社員・組織・顧客の課題に対しAIが自律的に解を出す「Personal Brain」「Strategic Brain」「Customer Brain」の<strong>3</strong>プロダクトが載る構成となる。中期計画では<strong>2031</strong>年に売上<strong>100</strong>億円・IPOを掲げる。",
+          "sourceName": "PeopleX プレスリリース",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000290.000139786.html",
+          "tags": ["資金調達", "PeopleX", "HR-Tech"]
+        },
+        {
+          "position": 5,
+          "title": "Tailwind Labs、Shopifyが買収 — AI流入減で有償製品の売上40%減、チーム75%削減の後にオープンソース維持へ",
+          "summary": "Tailwind CSSを開発するTailwind Labsは<strong>2026</strong>年<strong>9</strong>月<strong>14</strong>日、Shopifyによる買収に同意したと発表した。共同創業者のAdam Wathan氏は、AIがコードを直接書くようになり公式ドキュメントへのアクセスが<strong>2023</strong>年初頭比で約<strong>40</strong>%減少、有償製品「Tailwind UI」「Tailwind App」の売上が急落したためチームの<strong>75</strong>%を解雇する事態となり、独立継続が難しくなったと説明した。ShopifyはTailwind CSSの大規模ユーザーであり、Ruby on Rails基盤の店舗テンプレートで多用してきた経緯がある。買収後もTailwind CSS本体のオープンソース開発は継続、有償製品は新規申込を停止する。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/ai75csstailwindshopify.html",
+          "tags": ["企業動向", "Shopify", "Tailwind CSS"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "「なぜリーダーはいま哲学を学ぶ必要があるのか」— DHBRが説く、AI時代の意思決定を支える存在論・認識論・倫理学",
+          "summary": "DIAMONDハーバード・ビジネス・レビュー<strong>2026</strong>年<strong>9</strong>月号の巻頭論文（Faisal Hoque他、<strong>2026</strong>年<strong>9</strong>月<strong>11</strong>日公開）は、AIの普及と社会的コンセンサスの揺らぎによって、経営判断を支える哲学的リテラシーが財務リテラシーと同格の重要性を持つようになったと主張する。論文が扱うのは「物事の本質を問う存在論」「知識の定義と検証を問う認識論」「正邪の判断を問う倫理学」の<strong>3</strong>領域で、意思決定の根底にある暗黙の前提を可視化・検証する力こそ、AIに委ねられない人間側のコアだとする。Claudeが<strong>30</strong>万社に導入されているにもかかわらず、その背後の哲学的前提が議論されていない現状を批判し、AIを使う側の思考の型を鍛え直すよう促す構成となっている。",
+          "sourceName": "DIAMONDハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14396",
+          "tags": ["思考力", "哲学", "意思決定"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "多発性硬化症の遺伝的背景を多様な人種集団とオミクス解析で解明 — 東大・阪大・九大・理研が日本人特有のリスク領域を同定",
+          "summary": "東京大学・大阪大学・九州大学・理化学研究所生命医科学研究センターの共同研究グループは<strong>2026</strong>年<strong>9</strong>月<strong>10</strong>日、多発性硬化症（MS）の遺伝的背景を多様な人種集団のゲノムとオミクスから解明したと発表した。国内外の患者データを統合する「日本多発性硬化症/視神経脊髄炎スペクトラム障害バイオバンク」を活用し、これまで欧米集団中心の研究では見えていなかった日本人集団に特有のリスク領域を新たに同定した。あわせて、脳病変の内部にリスクが集積する部位も明らかにしている。人種横断のオミクス解析でMSの発症メカニズムを立体的に捉えたもので、日本人患者向けの診断精度向上と治療標的の探索を加速させる基盤となる。",
+          "sourceName": "理化学研究所",
+          "sourceUrl": "https://www.riken.jp/press/2026/20260910_2/index.html",
+          "tags": ["科学", "医療", "ゲノム"]
+        }
+      ]
+    }
+  ]
+}
