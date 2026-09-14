@@ -1,0 +1,84 @@
+{
+  "date": "2026-09-15",
+  "label": "2026年9月15日 (火)",
+  "intro": "サイバー新設のエキスパート枠は年棒<strong>720</strong>万〜、MCP累計<strong>10</strong>億呼び出し、Agent RouterがLinux Foundation傘下入り。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "サイバーエージェント、新卒「エキスパート認定」枠を新設 — 特定領域の高スキル学生に年棒720万円〜、希望部署配属を保証",
+          "summary": "サイバーエージェントは<strong>2026</strong>年<strong>9</strong>月<strong>14</strong>日、<strong>2028</strong>年<strong>4</strong>月以降入社の新卒学生を対象とした「エキスパート認定」制度の募集を開始した。AI等の要素技術での研究成果、論文・学会発表・採択実績、特定領域における高度な専門知識・実績を持つ学生を査定対象とし、最低年棒<strong>720</strong>万円〜のオファーと希望部署への配属保証を用意する。学年・学科不問で既卒も対象。募集職種にはリサーチサイエンティスト、SRE、XRエンジニア、セキュリティエンジニアなどが並び、選考期間は約<strong>2</strong>カ月、職種別選考は<strong>3</strong>〜<strong>4</strong>回程度で組まれる。通常選考との併願も可能で、エキスパート認定がおりなかった場合も通常枠での内定チャンスが残る二段構えの設計となっている。",
+          "sourceName": "サイバーエージェント新卒採用",
+          "sourceUrl": "https://www.cyberagent.co.jp/careers/news/detail/id=33823",
+          "tags": ["採用ニュース", "サイバーエージェント", "新卒2028"]
+        },
+        {
+          "position": 2,
+          "title": "AnthropicのMCP共同作者が初来日、AGNTCon＋MCPCon Japan 2026基調講演 — Claude上のMCP呼び出しは累計10億件、SDKダウンロードは月5億件",
+          "summary": "Linux Foundationは<strong>2026</strong>年<strong>9</strong>月<strong>10</strong>日に東京渋谷で「AGNTCon＋MCPCon Japan <strong>2026</strong>」を開催し、AnthropicでMCPを立ち上げたDavid Soria Parra氏が来日して基調講演を行った。Claude上でのMCP経由のツール呼び出しは累計<strong>10</strong>億件を突破、MCP SDKのダウンロード数は月間<strong>5</strong>億件以上に達したことが公表された。今後<strong>12</strong>カ月の注力領域として、数分〜数月単位の長期処理を扱う「MCP Tasks」、AIスキルをMCPサーバ経由で提供する「Skills over MCP」、エージェント識別・可観測性・ポリシー整備を含む認可とアイデンティティの<strong>3</strong>点が示された。過去<strong>2</strong>年間ではリモート接続、認可、MCP Appsが追加され、直近ではステートレス仕様への完全移行も業界リーダーの協力で完了している。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/anthropicmcpmcpagntconmcpcon_japan_2026.html",
+          "tags": ["カンファレンス", "MCP", "AIエージェント"]
+        },
+        {
+          "position": 3,
+          "title": "Envoy AI Gatewayが「Agent Router」に改名しLinux Foundation傘下入り — OpenAI・Anthropic・Bedrock含む15超のAIサービスをOpenAI互換APIで一元化",
+          "summary": "「Envoy AI Gateway」プロジェクトがAgentic AI Foundation (AAIF) に加盟し、名称を「Agent Router」に改めたと<strong>2026</strong>年<strong>9</strong>月<strong>10</strong>日に発表された。OpenAI、Anthropic、Amazon Bedrock、Google Gemini、Microsoft Azure OpenAIなど<strong>15</strong>以上の主要AIサービスに対する差異をOpenAI互換APIで吸収し、MCP Gateway機能でツール呼び出しのセキュリティも一元化する。フォールバック、トラフィック管理、リアルタイムメトリクスに基づくルーティング最適化はバージョン<strong>1.1</strong>で本番運用向けに整備された。すでにBloomberg、Tetrate、Tencent Cloud、Nutanixなど<strong>11</strong>社が公開採用を明らかにしており、Linux Foundation傘下入りで事実上の業界標準を目指す構図となる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/openaianthropicapiagent_routerlinux_foundation.html",
+          "tags": ["技術トレンド", "OSS", "AIゲートウェイ"]
+        },
+        {
+          "position": 4,
+          "title": "Tailscale、AIエージェント向けVPNゲートウェイ「Aperture」を正式リリース — MCP経由でノード追加やSSH実行まで、承認と監査ログ付きで委任可能に",
+          "summary": "TailscaleはAIエージェントに対して同社VPN (Tailnet) 上の「モデル、ツール、インフラ」を安全に提供するゲートウェイ機能「Aperture」を正式リリースした。APIキーを個別に配布する運用を不要にしつつ、コスト管理、ガードレール、監査ログといった企業運用向け機能を<strong>1</strong>つのレイヤに束ねる。MCP Proxyに加えて Tailscale MCP と Tailscale SSH MCP を同梱しており、AIエージェントは自らノードをTailnetに追加したり、SSHで踏み込んでコマンドを実行したりできる。ただし新規マシンの追加操作は人間による承認が必須、すべての操作は監査ログに記録される設計で、実運用でのゼロトラスト原則を崩さず自動化を進められる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/tailscalevpnaiapertureaitailscale.html",
+          "tags": ["技術トレンド", "Tailscale", "AIエージェント"]
+        },
+        {
+          "position": 5,
+          "title": "pnpm 12.4リリース、JS依存にRustクレートとPyPIパッケージを混在で並列インストール可能に — 実験機能pipelineで影響範囲を自動抽出",
+          "summary": "パッケージマネージャpnpm <strong>12.4</strong>が<strong>2026</strong>年<strong>9</strong>月<strong>8</strong>日にリリースされ、モノリポでJSパッケージ、Rustのcrate、Pythonのpypiパッケージを混在させて並列ダウンロードできる多言語依存管理が実験機能として加わった。`pnpm-workspace.yaml`に言語サポートを有効化し、依存名に`crate:`または`pypi:`のプレフィックスを付けるだけで宣言できる。あわせて`pnpm pipeline`コマンドが実験提供され、変更の影響を受けるプロジェクトとその下流を自動抽出、依存関係に沿ってタスクを実行し、透過的なキャッシュで再現性も担保する。バイナリはAndroid arm64/x64、FreeBSD x64ほかを追加サポートし、レジストリメタデータの分離改善によりソース違いのバージョン衝突も抑えられている。",
+          "sourceName": "gihyo.jp",
+          "sourceUrl": "https://gihyo.jp/article/2026/09/pnpm-12.4",
+          "tags": ["技術トレンド", "pnpm", "OSS"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "「学び直せば高収入」でも人が動かない理由 — DHBRが職業アイデンティティの壁を分析、イタリアの44億ユーロ投資でも受講率は10%止まり",
+          "summary": "DIAMONDハーバード・ビジネス・レビュー<strong>2026</strong>年<strong>9</strong>月<strong>14</strong>日公開の論文（エイブリー・フォーマン著）は、職業訓練の受講率が構造的に低いままである原因を、経済的インセンティブでは動かせない「職業アイデンティティ」の壁に置く。ハーバードのラファエラ・サドゥン氏の言葉として、労働者は自分を「単なるスキルの塊ではなく、社会的な役割の持ち主」と考えており、自己認識と矛盾する職種への転職を給与向上だけでは選ばないと指摘する。イタリア失業者約<strong>1,100</strong>人調査ではリスキリング講座への受講意思は求職者の<strong>3</strong>分の<strong>1</strong>にとどまり、政府が<strong>2021</strong>年に<strong>44</strong>億ユーロを投じても<strong>2</strong>年後の受講率は<strong>10</strong>%、未熟練労働者受講率は<strong>7</strong>%（OECD平均<strong>18</strong>%）に張り付いた。制度側への示唆は、待遇改善よりも先に「新しい職業を通じてどのような自分になれるのか」というアイデンティティのビジョンを提示することにある。",
+          "sourceName": "DIAMONDハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14438",
+          "tags": ["思考力", "キャリア論", "認知科学"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "東北大、津波リスク評価から「パラメトリック型保険」設計手法を高度化 — 東北電力の火力発電所防潮堤データを取り込み沿岸電力インフラを想定",
+          "summary": "東北大学災害科学国際研究所のサッパシー・アナワット准教授と大学院工学研究科の三木優志大学院生らの研究チームは<strong>2026</strong>年<strong>9</strong>月<strong>14</strong>日、スイスの損害保険会社との共同研究に東北電力からのデータ提供を加え、津波向け「パラメトリック型保険」の設計手法を高度化したと発表した。パラメトリック型保険は、実損害を査定するのではなく浸水深などの事前に決めた指標が閾値を超えた時点で自動的に保険金を支払う仕組みで、確率論的津波リスク評価（PTRA）を組み合わせることで指標と実損害の乖離（ベーシスリスク）を最小化する。今回のアップデートでは、東北電力の火力発電所の防潮堤に関するデータを反映し、沿岸部の発電インフラを想定した指標設計を検証。津波リスクを社会実装する保険商品の設計に、実在の重要施設データを組み込んだ点が新規性となる。",
+          "sourceName": "東北大学",
+          "sourceUrl": "https://www.tohoku.ac.jp/japanese/2026/09/press20260914-01-parametric.html",
+          "tags": ["科学", "災害", "金融"]
+        }
+      ]
+    }
+  ]
+}
