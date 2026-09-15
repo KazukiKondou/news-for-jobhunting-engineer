@@ -1,0 +1,84 @@
+{
+  "date": "2026-09-16",
+  "label": "2026年9月16日 (水)",
+  "intro": "Java <strong>27</strong>で全環境がG1 GC統一、Yoomが初の外部調達で<strong>7</strong>億円、freee AIエージェントは記帳作業を<strong>50</strong>%削減。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Java 27正式リリース — 全環境でG1 GCがデフォルトに、TLS 1.3で耐量子暗号のハイブリッドキー交換を実装",
+          "summary": "Oracleは<strong>2026</strong>年<strong>9</strong>月<strong>15</strong>日、Javaの新バージョン「Java <strong>27</strong>」を正式リリースした。JEP <strong>523</strong>により、これまでシングルコアやメモリ<strong>2</strong>GB以下の環境ではSerialガベージコレクタが選ばれていたところ、G1 GCが全環境でデフォルトに統一された。JEP <strong>527</strong>ではTLS <strong>1.3</strong>用に耐量子暗号のハイブリッドキー交換が実装され、既存コードの変更なしでネットワーク通信の量子計算耐性が引き上がる。オブジェクトヘッダを<strong>96</strong>ビットから<strong>64</strong>ビットに縮小するCompact Object Headers（JEP <strong>534</strong>）も同梱された。Java <strong>27</strong>はLTS版ではなく、直近のLTSはJava <strong>25</strong>のまま据え置かれる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/java_27g1_gctls_13.html",
+          "tags": ["技術トレンド", "Java", "OSS"]
+        },
+        {
+          "position": 2,
+          "title": ".NET 11リリース候補版が登場 — ランタイムが非同期をネイティブ対応、論理プロセッサ1024個の上限を撤廃",
+          "summary": "Microsoftは<strong>2026</strong>年<strong>9</strong>月<strong>11</strong>日、次期メジャーバージョン「.NET <strong>11</strong>」のリリース候補版を公開した。最大の変化はランタイムが非同期処理をネイティブに実行するようになった点で、コンパイラで生成していた継続処理をランタイム側で扱うためオーバーヘッドが小さく高速な非同期実行が可能になる。従来<strong>1024</strong>個を超える論理プロセッサでは初期化に失敗していた制約も撤廃し、動的CPU割り当てで大規模ホストにも追従する。AOTコンパイラの最適化でネイティブバイナリの実行速度向上と生成物のサイズ縮小が同時に進み、WebAssembly向けCoreCLRの互換性も本格強化された。正式版は<strong>2026</strong>年<strong>11</strong>月の.NET Conf <strong>2026</strong>で公開予定で、STSとしてサポートは<strong>2028</strong>年<strong>11</strong>月までの<strong>2</strong>年間となる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/net_11netaot.html",
+          "tags": ["技術トレンド", ".NET", "Microsoft"]
+        },
+        {
+          "position": 3,
+          "title": "Yoom、初の外部調達で7億円を獲得 — AIとルールベースを組み合わせた業務自動運転基盤、連携サービス750超",
+          "summary": "Yoom株式会社は<strong>2026</strong>年<strong>9</strong>月<strong>15</strong>日、初の外部資金調達で総額<strong>7</strong>億円を獲得したと発表した。引受先はDUAL BRIDGE CAPITAL、みずほキャピタル、静岡キャピタル、ハリズリー、キヤノンマーケティングジャパンの<strong>5</strong>社。同社の業務自動化基盤は登録ユーザーが<strong>7</strong>万人を超え、月間タスク実行数は<strong>500</strong>万回、連携可能なSaaS・システムは<strong>750</strong>以上に達している。AIの柔軟性とルールベースの確実性を組み合わせ、単なる支援ツールではなく部門横断のオペレーション自体を「自動運転」する設計が特徴で、担当者の業務プロセスを理解したAIエージェントに自律実行させる。調達資金はプロダクト開発、システム連携機能の拡充、採用・営業・マーケティング体制の強化に充てる。",
+          "sourceName": "Yoom プレスリリース",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000116.000104415.html",
+          "tags": ["資金調達", "Yoom", "AIエージェント"]
+        },
+        {
+          "position": 4,
+          "title": "freee、「顧問先管理AIエージェント」と「Agent Hub」を正式提供 — 記帳作業を50%削減、月次チェックは40分から5分以下に",
+          "summary": "freeeは<strong>2026</strong>年<strong>9</strong>月<strong>15</strong>日、会計・税理士事務所向けの「freee顧問先管理 | AIエージェント」と、独自ノウハウをノーコードで組み込める「freee Agent Hub」の正式提供を開始した。先行導入事例では記帳作業が<strong>50</strong>%削減、仕訳ルールの初期構築は約<strong>2</strong>時間から<strong>10</strong>分以下に短縮、月次チェックは<strong>40</strong>分から<strong>5</strong>分以下に落ちた。Agent Hubは導入<strong>5</strong>カ月で全記帳業務の約<strong>74</strong>%を自動処理できた事例を持ち、事務所固有の業務手順を組み込めるカスタム開発基盤として位置づけられる。エントリープランは顧問先あたり月額<strong>1,000</strong>円、Agent Hub基本利用は月額<strong>5,000</strong>円で、<strong>10</strong>月<strong>15</strong>日までの契約は初月<strong>50</strong>%オフのキャンペーンが付く。",
+          "sourceName": "freee プレスリリース",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000002151.000006428.html",
+          "tags": ["企業動向", "freee", "AIエージェント"]
+        },
+        {
+          "position": 5,
+          "title": "C#エンジニアの平均年収は831万円・月単価69.2万円 — フリーランスボード28,395件分析、リモート案件比率70.8%",
+          "summary": "INSTANTROOMは<strong>2026</strong>年<strong>9</strong>月<strong>7</strong>日、同社「フリーランスボード」の掲載案件<strong>28,395</strong>件を分析したC#エンジニア市場レポートを公開した。C#案件の平均月額単価は<strong>69.2</strong>万円、想定年収は<strong>831</strong>万円で、言語別の年収ランキングでは<strong>15</strong>位、案件数比率は<strong>4.67</strong>%で<strong>6</strong>位につけた。稼働形態はフルリモート<strong>17.5</strong>%＋一部リモート<strong>53.3</strong>%で、リモート合計は<strong>70.8</strong>%に達し、常駐案件<strong>29.2</strong>%を大きく上回る。主要職種はバックエンド<strong>13.61</strong>%、アプリ<strong>9.57</strong>%、サーバサイド<strong>8.42</strong>%で、フロント寄りではなくバックエンド寄りの需要構造が数字に表れている。",
+          "sourceName": "INSTANTROOM プレスリリース",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000150.000116595.html",
+          "tags": ["キャリア", "フリーランス", "C#"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "「成果主義マネジメント」を成功させる3つのポイント — ピープルファーストの限界と、AI統合時代の管理職の再定義",
+          "summary": "DIAMONDハーバード・ビジネス・レビュー<strong>2026</strong>年<strong>9</strong>月<strong>16</strong>日公開の論文（トニー・グアダニ、テス・ローレンス、カルパナ・トカス、キャロライナ・バレンシア共著／翻訳：石原薫）は、コロナ禍以降広がった「従業員満足度を最優先する人中心型マネジメント」の限界を指摘する。経済的不確実性とAI統合が同時進行するいま、共感を保ちながらも成果を中軸に据える「成果主義マネジメント」への転換が必要だと主張し、管理職の役割を「従業員のケア」から「成果の支援」へ再定義する<strong>3</strong>つのポイントを提示する。ピープルファーストが生んだ善意の空回りを目的合理性で立て直す実践論で、AIに任せる領域と人が握るべき領域の切り分けにも踏み込む。「働きがい」と「成果」を二項対立にしないマネジメント設計を、共感倒れさせずに具体化する視座が得られる。",
+          "sourceName": "DIAMONDハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14442",
+          "tags": ["思考力", "マネジメント", "組織論"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "北大西洋の海流弱化が南半球パタゴニア氷床の融解を促す — 東大・JAMSTECらが最終氷期の千年規模イベントで実証",
+          "summary": "海洋研究開発機構（JAMSTEC）地球表層システム研究センターの粕谷拓人研究員と、東京大学大気海洋研究所の國吉優太大学院生を中心とする国際共同研究チーム（九州大学、東京大学、高知大学、北海道大学、JAMSTEC）は<strong>2026</strong>年<strong>9</strong>月<strong>15</strong>日、北大西洋の海洋大循環（AMOC）の弱化が遠く離れた南半球パタゴニア氷床の融解を促すことを実証したと発表した。<strong>2016</strong>年度に南東太平洋チリ沖で採取した深海底堆積物の分析と数値モデルを組み合わせ、最終氷期に繰り返された千年規模のAMOC弱化が南半球の海水温上昇と降水量増加を通じて融け水流出を加速させる機構を示した。北半球の海流変動が海洋と大気を経由して遠隔の氷床に伝わるという「地球規模の気候システムのつながり」を実測データから裏付けたもので、将来のAMOC弱化予測に組み込むべき経路として重要な意味を持つ。",
+          "sourceName": "東京大学 大気海洋研究所",
+          "sourceUrl": "https://www.aori.u-tokyo.ac.jp/research/news/2026/20260915.html",
+          "tags": ["科学", "気候", "地球科学"]
+        }
+      ]
+    }
+  ]
+}
