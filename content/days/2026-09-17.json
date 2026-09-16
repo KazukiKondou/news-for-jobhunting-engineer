@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-17",
+  "label": "2026年9月17日 (木)",
+  "intro": "Devinが仮想macOSを開放してiOSアプリまで自動生成、Androidはパスキーを<strong>4</strong>社間で移行可能、諸田実咲は棒高跳<strong>4m51</strong>で日本新。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Devinが仮想macOSを提供開始 — Macの実機なしでiOSアプリを生成・テスト・TestFlightベータ配信まで実行",
+          "summary": "Cognition AIは<strong>2026</strong>年<strong>9</strong>月<strong>16</strong>日（現地時間）、AIソフトウェアエンジニア「Devin」が仮想環境上でmacOSを提供する新機能を発表した。ユーザーは物理的なMacを持たなくても、DevinにmacOS/iOS対応コードの生成、テスト、デバッグ、実行までを任せられる。デモではSlack経由で「Flappy Birdのカワウソ版を作って」と指示するとDevinがコードを生成し、iOSシミュレータを自動起動してテストプレイまで実行、そのままTestFlightのベータ配信リンクを返す一連のフローが披露された。従来はiOS開発でMacが事実上必須だったが、AIエージェントの側にmacOS環境を持たせることで開発者側のOS依存が消え、モバイル領域が本格的にAIエージェントの守備範囲に組み込まれた。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/devinmacosmacdevinappstore.html",
+          "tags": ["技術トレンド", "AIエージェント", "Devin"]
+        },
+        {
+          "position": 2,
+          "title": "Android、パスキーをパスワードマネージャ間で転送可能に — Google/1Password/Bitwarden/Dashlaneなど4社が対応",
+          "summary": "Googleは<strong>2026</strong>年<strong>9</strong>月<strong>16</strong>日、Android上でパスワードマネージャ間のパスキー・パスワードの安全な転送を可能にすると発表した。これまでは移行時に各サービスで再登録する必要があったが、Googleパスワードマネージャ、<strong>1Password</strong>、Bitwarden、Dashlaneの<strong>4</strong>社間で数クリックの操作だけで既存認証情報を持ち出せる。転送はローカル端末上のOSレイヤで暗号化されたまま行われ、クラウド経由の一時保管を挟まない設計で、ベンダーロックインが解消される。パスキーが普及局面に入ってからマネージャ移行のハードルが最後の関門として残っていたが、これで乗り換え自由度が段階的に上がる。今後さらに対応マネージャは拡大予定。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/androidgoogle1passwordbitwardendashlane.html",
+          "tags": ["技術トレンド", "セキュリティ", "パスキー"]
+        },
+        {
+          "position": 3,
+          "title": "Oracle、Javaのセキュリティパッチを毎月提供へ — 従来3カ月ごとのCPUに月次CSPUを追加、AIによる脆弱性発見加速が背景",
+          "summary": "Oracleは<strong>2026</strong>年<strong>9</strong>月<strong>16</strong>日、Javaのセキュリティ更新を従来の四半期ごとから毎月提供に切り替える方針を明らかにした。新形式はCSPU（Critical Security Patch Updates）と呼ばれ、<strong>2026</strong>年<strong>8</strong>月に最初のCSPUがすでに提供済み。従来のCPU（<strong>1</strong>/<strong>4</strong>/<strong>7</strong>/<strong>10</strong>月）と半期ごとの新バージョン（<strong>3</strong>/<strong>9</strong>月）は維持され、企業は月次CSPUを選ぶか従来サイクルを続けるか個別に判断できる。切り替えの理由は「AIによって脆弱性の発見と修復のペースが以前より速まった」ためで、脆弱性発見側とベンダー側の双方でAI活用が進んだ結果、リリース間隔そのものが変わり始めた事例となる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/javaai.html",
+          "tags": ["企業動向", "Oracle", "Java"]
+        },
+        {
+          "position": 4,
+          "title": "Qiitaが15周年 — 会員180万人・累計投稿120万記事、2011年9月16日から日本最大級のエンジニアコミュニティに成長",
+          "summary": "Qiita株式会社は<strong>2026</strong>年<strong>9</strong>月<strong>16</strong>日、同社のエンジニア向けナレッジ共有プラットフォーム「Qiita」が同日でサービス開始から<strong>15</strong>周年を迎えたと発表した。<strong>2026</strong>年<strong>9</strong>月<strong>1</strong>日時点で会員数は<strong>180</strong>万人以上、累計投稿記事数は<strong>120</strong>万記事以上に到達。エンジニアが技術知見を書き残す場として日本国内では事実上の標準となっており、就活時にアウトプットの実績として提出されるケースも多い。<strong>2026</strong>年に入ってからはスライド機能のベータ提供や「Qiita AI Summit」開催などAI普及局面への対応を進めており、<strong>10</strong>月開催予定の「Qiita Conference <strong>2026</strong> Autumn」と<strong>12</strong>月のAdvent Calendarで<strong>15</strong>周年記念企画を順次展開する。",
+          "sourceName": "Qiita プレスリリース",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000002790.000001348.html",
+          "tags": ["企業動向", "Qiita", "コミュニティ"]
+        },
+        {
+          "position": 5,
+          "title": "サイバーエージェント、若者の生成AI利用実態を調査 — 高校生83.3%が日常利用、小中→高で急伸し社会人で低下する「山型」",
+          "summary": "サイバーエージェント次世代生活研究所は<strong>2026</strong>年<strong>9</strong>月<strong>15</strong>日、小学生からZ世代社会人までを対象とした生成AI利用実態調査の第<strong>1</strong>回結果を公開した。スクリーニング<strong>10,000</strong>サンプル、本調査<strong>1,648</strong>サンプル、実施期間は<strong>7</strong>月<strong>13</strong>日〜<strong>31</strong>日。日常利用率は小学生<strong>29.0</strong>%、中学生<strong>47.6</strong>%、高校生<strong>83.3</strong>%、大学生<strong>82.4</strong>%、Z世代社会人<strong>56.7</strong>%と、高校生でピークに達し社会人で下がる「山型」の分布が確認された。学校でのAI活用が社会実装より先行している構造が数字に表れており、いま学生の側から採用側にAIリテラシーを持ち込む形が定着しつつある。",
+          "sourceName": "サイバーエージェント",
+          "sourceUrl": "https://www.cyberagent.co.jp/news/detail/id=33785",
+          "tags": ["調査", "生成AI", "Z世代"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "腹立たしい部下の言動に、『器の大きい』リーダーはどう対処しているのか — 成人発達学者・加藤洋平が示す「前提の客体化」",
+          "summary": "成人発達学者の加藤洋平氏がDIAMONDハーバード・ビジネス・レビュー<strong>2026</strong>年<strong>9</strong>月<strong>17</strong>日公開の論考で、リーダーの「器の大きさ」とは感情を抑え込む力ではなく、湧き上がった感情を自分自身を知るための情報として扱える態度だと定義する。部下から報告がない場面で「責任感がない」と人格を評価する反応と、「進め方に認識のズレがあるのかも」と状況を確認する反応の差は、その人が持つ「認識のレンズ」に由来する。器を広げる鍵は自分の前提を客体化することにあり、「責任感のある部下なら報告すべき」といった無意識の前提を言語化した瞬間に、他のふるまい方が視野に入ってくる。ロバート・キーガンの成人発達理論を実務の怒りの場面に落とし込んだ内容で、認識の外側から自分を眺める練習として応用できる。",
+          "sourceName": "DIAMONDハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14754",
+          "tags": ["思考力", "成人発達理論", "メタ認知"]
+        },
+        {
+          "position": 7,
+          "title": "採用担当者は『返信が早い人』を無意識に高く評価する — 1100万件超のデータで判明、1時間遅れるごとに採用確率46%低下",
+          "summary": "バンダービルト大学のエリック・M・バンエップス准教授らがDIAMONDハーバード・ビジネス・レビュー<strong>2026</strong>年<strong>9</strong>月<strong>16</strong>日公開の記事で、<strong>1,100</strong>万件超の求人プラットフォーム取引データを解析した結果を紹介している。返信が<strong>1</strong>時間遅れるごとに採用確率は<strong>46</strong>%低下し、<strong>24</strong>時間以上遅れた候補者は即時返信の候補者より採用確率が<strong>90</strong>%低い。<strong>3</strong>時間の平均遅延は、過去評価が<strong>20</strong>%低い候補者と同等の不利をもたらす。採用担当は候補者の実力よりも「即応性」という関係のない属性に反応してしまっており、応募者にとっては速さのシグナル、面接官にとってはバイアス補正の材料になる。認知バイアスが実データ<strong>1,100</strong>万件の規模で可視化された点も、判断の裏側を考える題材として重い。",
+          "sourceName": "DIAMONDハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14514",
+          "tags": ["思考力", "認知バイアス", "行動経済学"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 8,
+          "title": "諸田実咲、女子棒高跳で4m51の日本新記録 — 全日本実業団で自らの記録を1cm更新、通算4回目の日本新",
+          "summary": "アットホーム所属の諸田実咲選手が<strong>2026</strong>年<strong>9</strong>月<strong>11</strong>〜<strong>13</strong>日に行われた全日本実業団対抗陸上競技選手権で、女子棒高跳<strong>4m51</strong>を跳び日本新記録を更新した。今年<strong>5</strong>月に自身が樹立した<strong>4m50</strong>を<strong>1</strong>cm上回る記録で、今季<strong>2</strong>回目・通算<strong>4</strong>回目の日本新となる。最終試技では<strong>4m61</strong>にも挑戦しバー落下となったが「身体がわずかに触れた程度」で通過寸前だったと報告されており、記録の伸びしろは大きい。<strong>9</strong>月<strong>23</strong>〜<strong>29</strong>日の愛知・名古屋<strong>2026</strong>アジア大会が近づく中、女子跳躍種目で日本記録の更新が続いている流れを象徴する跳躍となった。",
+          "sourceName": "日本陸上競技連盟",
+          "sourceUrl": "https://www.jaaf.or.jp/news/article/24148/",
+          "tags": ["スポーツ", "陸上", "日本記録"]
+        },
+        {
+          "position": 9,
+          "title": "理研とJASRI、マルチバンチ構造のX線自由電子レーザー光発生に成功 — 8.4ナノ秒間隔の2バンチで合計1mJ、SACLA施設で世界初",
+          "summary": "理化学研究所と高輝度光科学研究センター（JASRI）は<strong>2026</strong>年<strong>9</strong>月<strong>16</strong>日、X線自由電子レーザー施設SACLAで、電子ビームを任意の時間構造に加工する新開発のビームチョッパーを用い、<strong>8.4</strong>ナノ秒間隔の<strong>2</strong>バンチ構造でXFEL光を発生させることに成功したと発表した。<strong>1</strong>バンチあたりのパルスエネルギーは<strong>0.5</strong>ミリジュール、合計で<strong>1</strong>ミリジュールに到達し、時間幅<strong>1</strong>ナノ秒のバンチ内で安定したビーム特性を<strong>2</strong>バンチとも維持できた。これまでSACLAは<strong>1</strong>ショットで<strong>1</strong>バンチという運用が基本だったが、複数バンチを同時照射することで各ビームラインのパルス繰り返しが増強でき、化学反応・生体分子の時系列観測など「動きを撮る」実験の解像度を上げる基盤となる。",
+          "sourceName": "理化学研究所",
+          "sourceUrl": "https://www.riken.jp/press/2026/20260916_1/index.html",
+          "tags": ["科学", "物理", "X線レーザー"]
+        }
+      ]
+    }
+  ]
+}
