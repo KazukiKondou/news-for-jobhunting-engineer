@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-18",
+  "label": "2026年9月18日 (金)",
+  "intro": "ゲーム業界の<strong>91</strong>%がAIスキル重視、PlanetScaleがPostgreSQLを<strong>1.18</strong>億QPSまで水平分散、DeNAは工数最大<strong>9</strong>割減でも社員は帰らない。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "ゲーム業界、採用側の91%が『AIスキル重視』 — アシスタント級プログラマ枠は37.2%減、QA/デバッグ枠も28.8%減",
+          "summary": "ゲーム業界特化の人材紹介サービスを運営するHiraku agentは<strong>2026</strong>年<strong>9</strong>月<strong>16</strong>日、ゲーム業界の採用担当者<strong>1,008</strong>名を対象とした<strong>2026</strong>年最新の採用実態調査を公開した。実施期間は<strong>8</strong>月<strong>26</strong>〜<strong>28</strong>日。応募者に求めるAIスキルを「非常に重視する」が<strong>34.1</strong>%、「やや重視する」が<strong>57.0</strong>%で、合わせて約<strong>91</strong>%が採用判断でAIスキルを加味している。一方、採用枠が縮小した職種は背景・小物などの単能アート/グラフィックが<strong>44.6</strong>%、アシスタント級プログラマが<strong>37.2</strong>%、QA・デバッグ担当が<strong>28.8</strong>%と続き、AIで代替しやすい定型業務ほど採用が絞られている。給与への不満は<strong>2024</strong>年の<strong>38.8</strong>%から<strong>2026</strong>年<strong>48.0</strong>%へ上昇し、複数スキルの組み合わせと新技術への適応力が採用側から重視されている。",
+          "sourceName": "Hiraku agent プレスリリース",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000022.000138842.html",
+          "tags": ["採用", "ゲーム業界", "AIスキル"]
+        },
+        {
+          "position": 2,
+          "title": "PlanetScaleがPostgreSQL向け新DB『Neki』プレビュー公開 — 自動シャーディングで1.18億QPS/1.22PiBを実測",
+          "summary": "PlanetScaleは<strong>2026</strong>年<strong>9</strong>月<strong>18</strong>日、PostgreSQL互換のシャーディング分散DBサービス「Neki」をプレビュー公開した。同社ベンチマークでは<strong>512</strong>シャード構成で秒間<strong>1</strong>億<strong>1,853</strong>万<strong>8,803</strong>クエリ、扱ったデータ量は<strong>1.22</strong>PiBに達し、シャードを増やした分だけほぼリニアに性能が伸びる設計とされる。既存のPostgreSQLドライバやツールをそのまま使いつつ、「Neki Router」が分散クエリプランナとして各シャードに問い合わせをルーティングし、結果を集約してクライアントへ返す。プライマリ<strong>1</strong>台＋<strong>2</strong>レプリカ以上を可用性ゾーンに分散配置する構成が標準で、単一プライマリから始めて需要増に応じてシャーディングに切り替える段階的な移行モデルを取れる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/planetscalepostgresql11800qpsdbneki.html",
+          "tags": ["技術トレンド", "データベース", "PostgreSQL"]
+        },
+        {
+          "position": 3,
+          "title": "ドコモのiPhoneもRCS対応 — iOS 27公開に合わせて3キャリア横断で高画質画像・既読が利用可能に",
+          "summary": "NTTドコモは<strong>2026</strong>年<strong>9</strong>月<strong>16</strong>日、iOS <strong>27</strong>の一般公開に合わせて自社回線のiPhoneをRCS（Rich Communication Services）対応にしたと案内した。ドコモはAndroid向けRCSを<strong>2026</strong>年<strong>8</strong>月<strong>24</strong>日から先行提供しており、今回のiPhone対応で楽天モバイルを除く大手<strong>3</strong>社（ドコモ・KDDI・SoftBank）でAndroidとiPhoneの相互RCSメッセージがそろって使えるようになる。RCSはSMSの後継規格で、高画質な写真・動画、ステッカー、既読表示、タイピング表示などを電話番号ベースで扱える。iPhone側はメッセージアプリの設定でRCSをオンにするだけ、Androidは「Google メッセージ」から利用する。国内の音声通話回線ベースのメッセージング体験がiOSとAndroidで初めてフラットになる転換点となる。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/17/2000001577/",
+          "tags": ["技術トレンド", "RCS", "iOS"]
+        },
+        {
+          "position": 4,
+          "title": "NVIDIA・Google・Emerald AIが『AI電力管理アライアンス』設立 — Anthropic含む18社連合、データセンター電力を需要に応じて動的調整",
+          "summary": "NVIDIA、Google、Emerald AIの<strong>3</strong>社は<strong>2026</strong>年<strong>9</strong>月<strong>16</strong>日、AIデータセンターの電力消費を送電網の状況に応じて動的に調整する「AI Energy Management Alliance（AEMA）」を発足させた。発足時点でAnthropic、National Grid、AESなど計<strong>18</strong>社が参加する。掲げるのは「フレキシブルデータセンター」構想で、計算処理の実行タイミングをずらす／併設発電を組み合わせるといった方法でピーク電力を抑える。Emerald AIはOracleのアリゾナ拠点で実測ベースのAIクラスタピーク電力を<strong>25</strong>%削減した実績を示し、Googleも米国内の電力契約で計<strong>1</strong>GWの需要調整枠を確保済み。年間<strong>100</strong>時間未満の電力調整で「数十GB相当の系統容量が新たに解放される」との研究も引用されており、AI基盤の急拡大で問題化する電力供給の側から解決を試みる産業横断の取り組みになる。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/18/2000001599/",
+          "tags": ["企業動向", "AIインフラ", "電力"]
+        },
+        {
+          "position": 5,
+          "title": "DeNA、工数最大9割減のAI効率化でも社員が帰らない — 『40時間の枠』に新しい仕事が乗るAI時代の労働パラドックス",
+          "summary": "DeNAはAIファースト戦略の下で業務工数の削減事例を蓄積しており、部門によっては最大<strong>9</strong>割の工数削減も達成する一方で、社員の労働時間が短くならない現象に直面していると南場智子会長がITmediaの取材で語った。パーソル総合研究所の調査でも生成AIによる個人タスクの時短効果は平均<strong>16.7</strong>%（週<strong>26.4</strong>分）に達するが、AIツール利用者のうち総労働時間が減ったと感じたのは<strong>25.4</strong>%にとどまり、時短分を業務に再投入した層が<strong>61.2</strong>%を占める。問題は、業務量が依然として週<strong>40</strong>時間の枠を前提に設計されていること。個々のタスクが速く終わっても、企業側は新しい業務を追加してしまい、価値創出量ではなく所要時間だけが減る「見かけの生産性」に留まる構造だという。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/18/2000001484/",
+          "tags": ["キャリア", "AI活用", "DeNA"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "超一流チームは『邪魔されない静かな時間』を持つ — 6,000人調査、超一流チームは静かな作業空間へのアクセス率が平均比+52%",
+          "summary": "心理学者ロン・フリードマン氏の新刊『Superteams』の要旨がDIAMONDハーバード・ビジネス・レビュー<strong>2026</strong>年<strong>9</strong>月<strong>17</strong>日公開の論考で紹介されている。<strong>20</strong>種類超のオフィス環境を対象に<strong>6,000</strong>人以上のナレッジワーカーを調べたところ、成果を上げる「超一流チーム」のメンバーは静かで妨げられない作業空間にアクセスできる比率が平均チームより<strong>52</strong>%高かった。優れた協働は常時一緒にいる密度からではなく、議論・意思決定の場と、個人が集中して考え実行する時間の両方があって初めて生まれる。対面/ハイブリッド/リモートといった働き方の形式論よりも、「静かな時間を意図的につくれているか」が実際の成果と直接結びついているという指摘は、AIで会話量が増える時代に自分の職場を設計し直す視点になる。",
+          "sourceName": "DIAMONDハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14515",
+          "tags": ["思考力", "組織論", "生産性"]
+        },
+        {
+          "position": 7,
+          "title": "AI時代の人事評価は『速さ』を測ってはいけない — 91%がAI投資拡大でも、事業価値を実感できたのは18%だけ",
+          "summary": "DIAMONDハーバード・ビジネス・レビュー<strong>2026</strong>年<strong>9</strong>月<strong>18</strong>日公開の論考で、Randy Bean氏らが従来の人事評価をAI時代向けに再設計する必要性を論じる。組織の<strong>91</strong>%はAI投資を拡大しているが、十分な事業価値を得られたと答えたのは<strong>18</strong>%だけで、優先度としてAI投資を挙げる企業は<strong>99</strong>%にのぼる。速度で評価する仕組みはAIに丸投げした従業員を高く評価し、出力を検証して品質を担保する熟練者を「遅い」と誤診する。ハーバードの研究ではAI依存グループはAIの守備範囲を超えるタスクで正答率が<strong>19</strong>%低く、Fortune <strong>500</strong>のCHROで自社の評価制度が成長を促進すると強く同意したのは<strong>2</strong>%にとどまる。判断・検証・エラー抑止など「AIに置き換えられない仕事」を測る三層評価と、リスク低減へのインセンティブ設計への転換が提案される。",
+          "sourceName": "DIAMONDハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14443",
+          "tags": ["思考力", "人事評価", "AI時代"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 8,
+          "title": "次のパンデミックでワクチンを打ちますか — 東大・千葉大が日本人2万4,577人を分析、既接種者の35.8%が『次は打たない』",
+          "summary": "東京大学新興感染症国際研究所と千葉大学の合同チームが日本人<strong>2</strong>万<strong>4,577</strong>人（<strong>15</strong>〜<strong>84</strong>歳、当初のサンプリング<strong>2</strong>万<strong>8,000</strong>人）を解析した結果を、Nature系列誌npj Vaccinesに<strong>2026</strong>年<strong>9</strong>月に発表した。調査期間は<strong>2024</strong>年<strong>12</strong>月〜<strong>2025</strong>年<strong>1</strong>月。将来のパンデミック（COVID-<strong>19</strong>同等の致死率を想定）で「打つ」「たぶん打つ」と答えたのは<strong>53.1</strong>%にとどまり、COVID-<strong>19</strong>時に接種した<strong>1</strong>万<strong>9,027</strong>人のうち<strong>35.8</strong>%が「次は打たない」と回答した。逆に未接種者では<strong>15.1</strong>%が「次は打ちたい」に転じている。無料接種と臨床試験の科学的根拠が全ての層で重視される因子で、若い世代・低所得・低学歴・偽情報への感受性が接種意向低下に関係していた。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/17/2000001533/",
+          "tags": ["公衆衛生", "科学", "調査"]
+        },
+        {
+          "position": 9,
+          "title": "日本陸連アスリート委員会、SNS誹謗中傷への声明 — 名古屋アジア大会前に選手・家族・関係者への攻撃を『いかなる場合も許されない』",
+          "summary": "日本陸上競技連盟のアスリート委員会は<strong>2026</strong>年<strong>9</strong>月<strong>17</strong>日、愛知・名古屋<strong>2026</strong>アジア競技大会（<strong>9</strong>月<strong>23</strong>〜<strong>29</strong>日）を前に、SNS上での選手・家族・関係者への誹謗中傷に対する声明を公表した。「不用意な一言が時に選手の心を深く傷つける一方、あたたかい一言は何よりの力になる」「画面の向こう側の選手はかけがえのない一人の人間である」といった委員会自身の言葉で、パフォーマンスへの正当な批評と、人格・家族・関係者への攻撃や差別的発言を明確に線引きし、後者はいかなる場合も許容されないと表明した。相談窓口・ハラスメント通報窓口を併記したのも特徴で、大会前に競技界の内側から発信された点で、SNS運営や視聴者側の姿勢を含め、大規模スポーツイベントとオンライン環境の関係を考える題材となる。",
+          "sourceName": "日本陸上競技連盟",
+          "sourceUrl": "https://www.jaaf.or.jp/news/article/24143/",
+          "tags": ["スポーツ", "社会", "アジア大会"]
+        }
+      ]
+    }
+  ]
+}
