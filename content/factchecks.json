@@ -1,5 +1,12 @@
 [
   {
+    "slug": "2026-09-18-queue",
+    "ranOn": "2026-09-18",
+    "verdict": "unverifiable",
+    "detail": "ファクトチェックキューAPI（news.kazukikondo.com/api/factcheck/queue）はegressプロキシにより拒否された。FACTCHECK_TOKEN も未設定のため認証済みキュー取得は不可。キューに報告済み記事があったかどうか不明。",
+    "action": "キュー取得不可のためスキップ。本日の記事生成（2026-09-18）は続行。"
+  },
+  {
     "slug": "2026-09-14-queue",
     "ranOn": "2026-09-14",
     "verdict": "unverifiable",
