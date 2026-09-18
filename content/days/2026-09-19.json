@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-19",
+  "label": "2026年9月19日 (土)",
+  "intro": "akippa東証スタンダード上場で初値<strong>2.2</strong>倍、メルカリの新AI「持ち物査定」、楽天市場が出店料<strong>4</strong>割値上げを予告。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "メルカリ、写真を撮るだけで相場価格が分かる新機能『持ち物査定』を公開 — 家庭内『隠れ資産』90兆円市場を掘り起こす",
+          "summary": "メルカリは<strong>2026</strong>年<strong>9</strong>月<strong>17</strong>日、AIで持ち物の相場価格を推定する新機能「持ち物査定」を提供開始した。ユーザーが商品を撮影するかバーコードをスキャンすると、AIが商品を特定し、メルカリの実取引データをもとに現在の想定売却価格を返す。査定結果は個人の持ち物リストに自動保存され、そのまま出品画面に進める設計。同社の調査によると、家庭で使われていない持ち物「隠れ資産」は年間<strong>90</strong>兆円規模と試算されており、CtoC市場拡大の起点として「まず自分の持ち物の価値を知る体験」を提供する狙い。ホームタブ／出品タブから査定バナーで導線を敷き、初回利用のハードルを下げる。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/18/2000001611/",
+          "tags": ["技術トレンド", "AI活用", "メルカリ"]
+        },
+        {
+          "position": 2,
+          "title": "akippa、東証スタンダード市場に新規上場 — 公募価格568円→初値1,244円で2.2倍、駐車場マーケットプレイス国内最大手",
+          "summary": "駐車場マーケットプレイス「アキッパ」を運営するakippa株式会社は<strong>2026</strong>年<strong>9</strong>月<strong>18</strong>日、東京証券取引所スタンダード市場（証券コード<strong>627</strong>A）に新規上場した。公募価格<strong>568</strong>円に対し初値は<strong>1,244</strong>円と約<strong>2.2</strong>倍を付け、SBI証券を主幹事とするいわゆるスモールIPOとしても注目された。同社は全国で常時<strong>55,000</strong>件超の駐車場を掲載し、累計会員数は<strong>550</strong>万人。<strong>2026</strong>年<strong>12</strong>月期の連結売上高は<strong>43.0</strong>億円（前期比<strong>12.3</strong>%増）、営業利益<strong>3.4</strong>億円（同<strong>66.9</strong>%増）を計画しており、遊休駐車場のシェアリング事業として黒字定着フェーズに入った。",
+          "sourceName": "akippa プレスリリース",
+          "sourceUrl": "https://akippa.co.jp/news/12520/",
+          "tags": ["企業動向", "IPO", "スタートアップ"]
+        },
+        {
+          "position": 3,
+          "title": "楽天市場、2027年2月から出店料を4割値上げ — がんばれ25,000円→34,000円、スタンダード65,000→90,000円",
+          "summary": "楽天グループは<strong>2026</strong>年<strong>9</strong>月<strong>18</strong>日、楽天市場の出店プランを<strong>2027</strong>年<strong>2</strong>月<strong>1</strong>日から順次値上げすると出店企業向けに通知した。月額の出店料は「がんばれプラン」（掲載商品上限1万点）が<strong>25,000</strong>円→<strong>34,000</strong>円（<strong>36</strong>%増）、「スタンダードプラン」（同5万点）が<strong>65,000</strong>円→<strong>90,000</strong>円（<strong>38</strong>%増）、「メガショッププラン」（無制限）が<strong>130,000</strong>円→<strong>181,000</strong>円（<strong>39</strong>%増）と、全ラインで約<strong>4</strong>割の引き上げになる。「物価高やエネルギーコスト上昇」を理由に挙げ、あわせてCSV一括編集機能（従来<strong>10,000</strong>円/月）を<strong>2027</strong>年<strong>1</strong>月から無料化するとした。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/18/2000001608/",
+          "tags": ["企業動向", "楽天", "EC"]
+        },
+        {
+          "position": 4,
+          "title": "ゲーム開発者の生成AI利用が85.8%に到達 — CESA初調査、業務効率化への期待が首位、非生成AIも約7割に浸透",
+          "summary": "コンピュータエンターテインメント協会（CESA）は<strong>2026</strong>年<strong>9</strong>月<strong>18</strong>日、業界として初となる生成AI利用実態調査の結果を公表した。有効回答は開発者<strong>1,349</strong>件・会員企業<strong>48</strong>社。ゲーム開発現場で生成AIを使う開発者は<strong>85.8</strong>%に達し、内訳は「日常的に使う」<strong>63.0</strong>%、「時々使う」<strong>22.8</strong>%。会員企業に導入で期待する効果を聞くと「業務効率化・生産性向上」（<strong>38</strong>社）、「開発期間の短縮」（<strong>30</strong>社）、「コスト削減」（<strong>29</strong>社）が上位を占めた。生成AI以外のAI活用も従来の約<strong>50</strong>%から約<strong>70</strong>%まで拡大しており、多くの企業が「人による確認・修正・レビュー」を運用の柱に置くと回答している。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/18/2000001618/",
+          "tags": ["企業動向", "生成AI", "ゲーム業界"]
+        },
+        {
+          "position": 5,
+          "title": "フリーランスエンジニア月額平均75.4万円、Rust案件は84.9万円で最高単価 — フリーランスボード9月調査",
+          "summary": "案件検索サービス「フリーランスボード」を運営するINSTANTROOMは<strong>2026</strong>年<strong>9</strong>月<strong>14</strong>日、掲載中の<strong>608,400</strong>件を対象にした<strong>9</strong>月の市場動向レポートを公開した。フリーランスエンジニア案件の月額平均単価は<strong>75.4</strong>万円で、最高単価は<strong>300</strong>万円。開発言語別ではRustが<strong>84.9</strong>万円で首位を維持し、Scalaが<strong>84.2</strong>万円で続く。フレームワーク別ではRuby on Railsが<strong>83.4</strong>万円で最高。稼働形態はフルリモートが<strong>23</strong>%（前月比-0.3pt）、一部リモートが<strong>52.9</strong>%（同+0.4pt）、常駐が<strong>24.1</strong>%（同-0.1pt）で、リモート比率は約<strong>76</strong>%に膠着している。",
+          "sourceName": "フリーランスボード / PR TIMES",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000152.000116595.html",
+          "tags": ["キャリア", "フリーランス", "年収"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "AIで加速する業務に追い立てられるマネジャーへ — 89%のリーダーが『常に遅れている感覚』、30分ごとに承認待ちが積み上がる新しいボトルネック",
+          "summary": "DIAMONDハーバード・ビジネス・レビュー<strong>2026</strong>年<strong>9</strong>月<strong>19</strong>日公開の論考で、Liz Fosslien氏らはAIによる出力の高速化がマネジメント側を新たなボトルネックにしていると指摘する。リーダーの<strong>89</strong>%が「AIで仕事が速くなったが、自分は常に遅れている気がする」と答え、ナレッジワーカーの<strong>87</strong>%はチーム連携の時間が奪われていると回答。Atlassianの調査では「<strong>30</strong>分おきに承認すべきものが上がってくる」との声もあり、成果物単位のレビューは限界を迎えている。著者は、マネジャーの役割を「編集者」から「戦略ガイド」に転換し、タスクではなくミッション・成果指標（例: 解約率を<strong>50</strong>%削減）で方向づけることを提案する。",
+          "sourceName": "DIAMONDハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14166",
+          "tags": ["思考力", "マネジメント", "AI時代"]
+        },
+        {
+          "position": 7,
+          "title": "AIに選ばれるブランドを築く3つの方策 — 716ブランド調査で3AIに同時掲載されたのはわずか8.4%、感情訴求より属性の構造化が効く",
+          "summary": "DIAMONDハーバード・ビジネス・レビュー<strong>2026</strong>年<strong>9</strong>月<strong>18</strong>日公開の論考で、John Gale氏らは「消費者の注意を奪う競争」から「AIに解釈可能である競争」への移行を論じる。<strong>716</strong>ブランドを対象にした調査では、ChatGPT・Claude・Geminiの<strong>3</strong>つのAIすべてで一貫して推奨されたブランドはわずか<strong>8.4</strong>%。走行靴カテゴリでは中堅Brooksが継続的に登場する一方、世界最大のNikeは推奨に一貫性がなかった。理由は、AIが物語や広告量ではなく「用途に紐づく明示的な属性・エビデンス」を優先するため。探索型クエリ（「ランニングシューズを勧めて」）と目的型クエリ（「膝の痛みに合う靴」）では重なるブランドは<strong>11</strong>%しかなく、AIの目に映るブランド定義そのものを設計し直す必要があると説く。",
+          "sourceName": "DIAMONDハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14394",
+          "tags": ["思考力", "ブランド", "AI時代"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 8,
+          "title": "理化学研究所、500%伸ばしても電気が流れる『通気導電フィルム』を開発 — 厚さ300nm、汗が抜ける皮膚センサ実装へ道",
+          "summary": "理研の李成薫研究員・染谷隆夫チームリーダーらは<strong>2026</strong>年<strong>9</strong>月<strong>19</strong>日、加熱・加圧・UV照射なしで貼り付けられる新しい異方性導電フィルム（ACF）を発表した。厚さは約<strong>300</strong>ナノメートルで、<strong>500</strong>%以上まで伸ばしても厚み方向の導電性を維持し、横方向は絶縁したまま。水蒸気透過度は<strong>1,200</strong>g/㎡・日と汗を通しやすい設計で、<strong>1,000</strong>回の伸縮サイクル後も電気抵抗が安定する。手首の皮膚上で動作検証も実施済みで、ウェアラブル生体センサ、ソフトロボティクス、人工皮膚、埋め込み型医療機器などへの応用を想定。早稲田大学と共同で発表した。",
+          "sourceName": "理化学研究所",
+          "sourceUrl": "https://www.riken.jp/press/2026/20260919_1/index.html",
+          "tags": ["科学", "材料工学", "ウェアラブル"]
+        },
+        {
+          "position": 9,
+          "title": "『ムーンアートナイト下北沢2026』開幕 — 9月18日〜10月4日、直径7mの巨大満月『Museum of the Moon』ほか約100企画が街全体に展開",
+          "summary": "月をテーマにしたアートフェスティバル「ムーンアートナイト下北沢<strong>2026</strong>」が<strong>2026</strong>年<strong>9</strong>月<strong>18</strong>日から<strong>10</strong>月<strong>4</strong>日まで、下北沢エリア全域で開催されている。今年で<strong>5</strong>回目、下北線路街を中心に約<strong>100</strong>企画が集結する街体験型のフェスで、英アーティスト、ルーク・ジェラムの直径約<strong>7</strong>メートルの巨大満月インスタレーション「Museum of the Moon」、金氏徹平「A Thousand Faces of the Moon」、松田将英「The Big Flat Now」などが夜間に浮かび上がる。無料鑑賞できる作品と有料チケットを組み合わせた地域参加型で、駅前商店街と鉄道跡地の遊歩道が舞台になる。",
+          "sourceName": "下北線路街",
+          "sourceUrl": "https://senrogai.com/event/moonartnightshimokitazawa_2026/",
+          "tags": ["文化", "アート", "都市"]
+        }
+      ]
+    }
+  ]
+}
