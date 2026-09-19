@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-20",
+  "label": "2026年9月20日 (日)",
+  "intro": "Java <strong>27</strong>が全環境でG1をデフォルト化、PlanetScale Nekiは<strong>512</strong>シャードで<strong>1.19</strong>億QPS、8月の中途採用求人倍率は<strong>2.86</strong>倍に。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "「Java 27」正式リリース、全環境でG1 GCがデフォルトに — TLS 1.3にポスト量子暗号のハイブリッド鍵交換、オブジェクトヘッダーは96→64bit",
+          "summary": "Oracleは<strong>2026</strong>年<strong>9</strong>月<strong>15</strong>日にJDK 27を一般提供開始した。JEP 523により、あらゆるデプロイ環境でG1が既定のガベージ・コレクタとなり、これまで低リソース環境で既定だったシリアルGCを置き換える。JEP 534では64bit環境のオブジェクトヘッダーを<strong>96</strong>bitから<strong>64</strong>bitに縮小する「Compact Object Headers」が既定化され、ヒープサイズ削減とデータ局所性の向上を狙う。TLS 1.3では耐量子計算機暗号（PQC）のハイブリッド鍵交換に対応し、既存コードを変更せずにPQC鍵交換が使えるようになった。実装されたJEPは合計<strong>9</strong>本で、Java 27は非LTS、次のLTSは<strong>29</strong>が予定されている。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/java_27g1_gctls_13.html",
+          "tags": ["技術トレンド", "Java", "セキュリティ"]
+        },
+        {
+          "position": 2,
+          "title": "PlanetScale、PostgreSQLのシャーディングを自動化する新DB「Neki」をプレビュー公開 — 512シャードで1.19億QPS、1.4PBの負荷を捌く",
+          "summary": "PlanetScaleは<strong>2026</strong>年<strong>9</strong>月<strong>18</strong>日、PostgreSQLのシャーディングを自動化するデータベースサービス「Neki」をプラットフォームプレビュー公開した。ベンチマークでは<strong>512</strong>シャード構成で最大<strong>1</strong>億<strong>1875</strong>万QPS、約<strong>1.4</strong>ペタバイトのデータを扱える性能を確認したと発表している。各シャードはプライマリと<strong>2</strong>つ以上のレプリカで構成し、異なるアベイラビリティゾーンに分散。「Nekiルーター」がクエリを解析して適切なシャードへ振り分けるため、標準のPostgreSQLドライバやツールをそのまま使える。単一プライマリからシャーディング構成へ段階的に移行できる設計とした。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/planetscalepostgresql11800qpsdbneki.html",
+          "tags": ["技術トレンド", "データベース", "PlanetScale"]
+        },
+        {
+          "position": 3,
+          "title": "NTTドコモビジネス、1GPUから使える従量課金クラウド「GPUaaS」を9月30日提供開始 — B300は月145万円、A100は月40万円から",
+          "summary": "NTTドコモビジネスは<strong>2026</strong>年<strong>9</strong>月<strong>17</strong>日、AI開発向けクラウドサービス「GPUaaS」を<strong>9</strong>月<strong>30</strong>日から提供すると発表した。GPUリソースを<strong>1</strong>GPU単位で借りられる従量課金型で、小規模PoCから本格的な学習・推論まで対応する。価格はNVIDIA A100搭載モデルが月額<strong>40</strong>万円から、NVIDIA B300搭載モデルが月額<strong>145</strong>万円から（いずれも税別）。用途はAIモデルの開発・学習・推論のほか、モデル・検証履歴・データセットの管理を想定する。負荷が大きくなれば専有GPU環境へ拡張し、GPUコストを最適化できるようにしたという。",
+          "sourceName": "NTTドコモビジネス プレスリリース",
+          "sourceUrl": "https://www.ntt.com/about-us/press-releases/news/article/2026/0917.html",
+          "tags": ["企業動向", "クラウド", "AI基盤"]
+        },
+        {
+          "position": 4,
+          "title": "東京ゲームショウ2026、AIベンダーが商談を狙って続々出展 — HEROZやアドビ「Firefly」、開発者の8割超がAI利用",
+          "summary": "幕張メッセで<strong>2026</strong>年<strong>9</strong>月<strong>17</strong>日に開幕した東京ゲームショウ2026では、AI関連ベンダーが商談を狙って続々出展している。ITmediaが<strong>9</strong>月<strong>19</strong>日に伝えたところでは、HEROZが中堅・中小企業への生成AI導入支援を、ジールがシナリオ評価ツール「STORYAI」を、アドビが「Firefly Creative Production」「Firefly Graph」を紹介し、午前中からブースが埋まった。Metanomalyの画像生成AI「PixAI」も企業とのコミュニケーションの場になった。CESA調査ではゲーム開発者の<strong>8</strong>割超が既に生成AIを使用していると回答している。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/19/2000001639/",
+          "tags": ["企業動向", "生成AI", "ゲーム業界"]
+        },
+        {
+          "position": 5,
+          "title": "doda転職求人倍率、8月は2.86倍で前月から+0.15pt上昇 — 求人数は前年同月比+18.7%、転職希望者数はほぼ横ばい",
+          "summary": "パーソルキャリアが<strong>2026</strong>年<strong>9</strong>月<strong>17</strong>日発表した「doda転職求人倍率レポート」によると、<strong>2026</strong>年<strong>8</strong>月の中途採用求人倍率は<strong>2.86</strong>倍と、前月から<strong>0.15</strong>ポイント、前年同月から<strong>0.44</strong>ポイント上昇した。求人数は前月比+<strong>0.3</strong>%、前年同月比+<strong>18.7</strong>%と拡大が続く一方、転職希望者数は前月比-<strong>5.1</strong>%、前年同月比+<strong>0.3</strong>%とほぼ横ばいで、売り手市場が一段と強まっている。業種別ではレジャー・外食が前月比<strong>101.6</strong>%と最大の伸び、職種別では専門職（コンサル・金融）や事務・アシスタントの求人増加が目立ったという。",
+          "sourceName": "パーソルキャリア / PR TIMES",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000001093.000022215.html",
+          "tags": ["キャリア", "転職市場", "求人倍率"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "ドラッカー『経営者の条件』が説く「知識を成果に結びつける」5つの行動 — 時間管理・貢献・強み・集中・意思決定",
+          "summary": "DIAMONDハーバード・ビジネス・レビュー<strong>2026</strong>年<strong>9</strong>月<strong>19</strong>日公開の連載「実践するドラッカー［思考編］」第<strong>1</strong>回で、上田惇生・佐藤等の両氏はP.F.ドラッカーが『経営者の条件』で示した「成果をあげるための<strong>5</strong>つの行動」を整理し直した。<strong>5</strong>つとは(1)時間を管理すること、(2)貢献に焦点を合わせること、(3)強みを生かすこと、(4)重要なことに集中すること、(5)成果をあげる意思決定をすること、である。ドラッカーは「知識とは、個人や組織が何らかの成果をもたらすような行動を可能にし、何かあるいは誰かを変えるもの」と定義しており、成果に結び付かない知識は知識と呼ばないという厳しい基準を置いている。",
+          "sourceName": "DIAMONDハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14810",
+          "tags": ["思考力", "ドラッカー", "実践論"]
+        },
+        {
+          "position": 7,
+          "title": "リーダーの最初の一歩は「計画」ではなく「ありたい姿」 — 児玉教仁が示す高校野球部・工場長のビジョン設計法",
+          "summary": "DIAMONDハーバード・ビジネス・レビュー<strong>2026</strong>年<strong>9</strong>月<strong>20</strong>日公開の児玉教仁氏（グローバルアストロラインズ代表）の論考は、リーダーシップの初期段階で最優先すべきは計画立案ではなく「方向性の設定」だと指摘する。義務感で「あるべき姿」を掲げるのではなく、チームが実現したい「ありたい姿」を言葉にすることで、初めて自発性が引き出されるという。学校ビジョンが「自由と本気を両立する学校」の高校で野球部主将が「世界一諦めの悪いチーム」を掲げた例、「感謝に溢れる工場」を打ち出した工場長が従業員から具体的な施策提案を得てチーム結束が強まった例を挙げる。「ありたい姿」を先に設計するという発想は、いま自分が抱えているタスクの意味づけをやり直す起点になる。",
+          "sourceName": "DIAMONDハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14807",
+          "tags": ["思考力", "リーダーシップ", "ビジョン"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 8,
+          "title": "北海道大学、220Kまで局在するクーパー対を発見 — 高温超伝導の前駆にあたる『ボースグラス状態』を実証",
+          "summary": "北海道大学大学院理学研究院の延兼啓純助教らは<strong>2026</strong>年<strong>9</strong>月<strong>18</strong>日、Ca₂RuO₄のナノ薄膜で電子対（クーパー対）が「局在した状態」で存在し続ける「ボースグラス状態」を約<strong>220</strong>K（摂氏マイナス<strong>53</strong>度）まで実証したと発表した。従来の理論予測を大きく上回る温度で、超伝導ではなくクーパー対が動く能力を失いつつ超伝導的性質を保つ中間状態を示す。銅酸化物などで謎の多い高温超伝導の「前駆状態」を理解する新しい視点を提供するとしている。関連論文は<strong>9</strong>月<strong>16</strong>日に公開済み。",
+          "sourceName": "北海道大学 プレスリリース",
+          "sourceUrl": "https://www.hokudai.ac.jp/news/2026/09/220-k.html",
+          "tags": ["科学", "物理学", "超伝導"]
+        },
+        {
+          "position": 9,
+          "title": "『ルーヴル美術館展 ルネサンス』開幕、レオナルド・ダ・ヴィンチ《美しきフェロニエール》が初来日 — 国立新美術館で12月13日まで",
+          "summary": "国立新美術館で<strong>2026</strong>年<strong>9</strong>月<strong>9</strong>日に開幕した「ルーヴル美術館展 ルネサンス」は、ルーヴル美術館の膨大なコレクションから絵画・彫刻・版画・素描・工芸まで<strong>50</strong>点余りを紹介する企画展。「旅」「技法の革新と洗練」「古代へのまなざし」「肖像芸術の隆盛」の<strong>4</strong>つのテーマで、<strong>15</strong>〜<strong>16</strong>世紀のヨーロッパで隆盛を極めたルネサンス美術の本質に光を当てる。目玉はレオナルド・ダ・ヴィンチの《女性の肖像》、通称《美しきフェロニエール》の初来日。会期は<strong>12</strong>月<strong>13</strong>日まで。",
+          "sourceName": "国立新美術館",
+          "sourceUrl": "https://www.nact.jp/exhibition_special/2026/louvre2026/",
+          "tags": ["文化", "アート", "美術館"]
+        }
+      ]
+    }
+  ]
+}
