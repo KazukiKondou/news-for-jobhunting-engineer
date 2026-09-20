@@ -1,0 +1,92 @@
+{
+  "date": "2026-09-21",
+  "label": "2026年9月21日 (月)",
+  "intro": "2027卒の8月末内々定率は<strong>85.6</strong>%、Devinが仮想macOSを提供開始、AnthropicのMCPは累計<strong>10</strong>億件を突破。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "マイナビ「2027年卒 8月末」内々定率は85.6% — 前年比-2.0pt、活動継続率23.4%、就活を表す漢字1位は「苦」",
+          "summary": "マイナビは<strong>2026</strong>年<strong>9</strong>月<strong>14</strong>日、「2027年卒 大学生キャリア意向調査8月＜就職活動・進路決定＞」を発表した。<strong>8</strong>月末時点の内々定保有率は<strong>85.6</strong>%で、前月から<strong>1.9</strong>ポイント上昇したが、前年同月比では<strong>2.0</strong>ポイントの減少となった。文系は<strong>83.5</strong>%（前年比-<strong>3.1</strong>pt）、理系は<strong>88.9</strong>%（前年比-<strong>0.2</strong>pt）と差が開いた。就職活動を続けている学生の割合は<strong>23.4</strong>%（前年比+<strong>1.6</strong>pt）で、活動長期化がうかがえる。就活を表す漢字は「苦」「耐」「迷」がトップ3を占めた。調査は<strong>8</strong>月<strong>25</strong>〜<strong>31</strong>日、大学・大学院生<strong>1,557</strong>名に実施。",
+          "sourceName": "マイナビキャリアリサーチLab",
+          "sourceUrl": "https://career-research.mynavi.jp/reserch/20260914_114702/",
+          "tags": ["採用", "27卒", "内定率"]
+        },
+        {
+          "position": 2,
+          "title": "Cognition「Devin」が仮想macOSを提供開始 — 実機Mac不要でiOSシミュレータ実行やTestFlight配信まで自動化",
+          "summary": "Publickeyは<strong>2026</strong>年<strong>9</strong>月<strong>17</strong>日、Cognition AIの自律型コーディングエージェント「Devin」が仮想環境内でmacOSの提供を開始したと伝えた。ユーザーは実機のMacを用意せずに、Devinにコード生成、テスト・デバッグ、実行、iOSシミュレータでのテストプレイ、TestFlightによるベータ配信までを任せられる。これまでDevinは仮想環境としてUbuntu LinuxとWindowsを提供しており、macOSの追加でモバイル・デスクトップの3プラットフォームが揃った。Cognition AIは実際にDevin上でmacOSを立ち上げ、iOSアプリを開発してTestFlightにアップロードするデモ動画も公開している。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/devinmacosmacdevinappstore.html",
+          "tags": ["技術トレンド", "AIエージェント", "Devin"]
+        },
+        {
+          "position": 3,
+          "title": "Anthropic MCP共同作者が来日、AGNTCon+MCPCon Japan 2026基調講演 — Claude経由のツール呼び出しが累計10億件、SDK月5億DL",
+          "summary": "Linux Foundation主催のカンファレンス「AGNTCon+MCPCon Japan 2026」が<strong>2026</strong>年<strong>9</strong>月<strong>10</strong>日に東京・渋谷で開催され、AnthropicでMCP（Model Context Protocol）の共同作者を務めるDavid Soria Parra氏が基調講演に登壇した。Parra氏は「AIモデルが十分に長いタスクをこなせるようになった」ことでエージェント型システムが実用化に入ったと解説し、Claude経由のMCPツール呼び出しが累計約<strong>10</strong>億件、MCP SDKのダウンロードが月間<strong>5</strong>億件を超えた実績を紹介。今後<strong>12</strong>カ月の注力領域として、「MCP Tasks」による長期処理対応、「Skills over MCP」でのセマンティクス拡張、認可・アイデンティティ管理の強化を挙げた。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/anthropicmcpmcpagntconmcpcon_japan_2026.html",
+          "tags": ["技術トレンド", "MCP", "Anthropic"]
+        },
+        {
+          "position": 4,
+          "title": "「Envoy AI Gateway」がLinux Foundation傘下で「Agent Router」に改称 — 17のLLM APIを1つに集約、Bloombergなど11社が本番採用",
+          "summary": "Publickeyが<strong>2026</strong>年<strong>9</strong>月<strong>15</strong>日に伝えたところによると、「Envoy AI Gateway」がLinux Foundation傘下のAgentic AI Foundation（AAIF）に加わり、「Agent Router」へ改称した。OpenAI互換の統一APIとMCPツール向けの単一ルーターを提供し、OpenAI/Anthropic/Amazon Bedrock/Google Gemini/Vertex AI/Azure OpenAI/xAI Grok/Groq/Mistral/Cohere/DeepSeek/Together AI/DeepInfra/Hunyuan/Tencent LLM/SambaNovaに加えセルフホストを含む計<strong>17</strong>のバックエンドに対応する。バージョン<strong>1.1</strong>で本番運用可能となり、Bloomberg、Tetrate、Tencent Cloud、Nutanixなど<strong>11</strong>社が公開採用企業として名を連ねる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/openaianthropicapiagent_routerlinux_foundation.html",
+          "tags": ["企業動向", "AIゲートウェイ", "Linux Foundation"]
+        },
+        {
+          "position": 5,
+          "title": "Android、パスワードマネージャ間でパスキーを転送可能に — Googleパスワードマネージャ・1Password・Bitwarden・Dashlaneが対応",
+          "summary": "Publickeyは<strong>2026</strong>年<strong>9</strong>月<strong>17</strong>日、Androidでパスワードマネージャ間の安全なパスワード・パスキー転送機能が動き出したと伝えた。ユーザーが新しいパスワードマネージャを開くと、数クリックで既存のマネージャから登録済みパスワードとパスキーを受け渡せる仕組みで、切り替えの手間が大きく減る。対応するのはGoogleパスワードマネージャ、<strong>1</strong>Password、Bitwarden、Dashlaneで、Googleは今後も対応先を拡大していくとしている。パスキーはFIDOアライアンスが標準化した鍵ペアベースの認証方式で、フィッシング耐性の高さから業界での採用が進んでいる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/androidgoogle1passwordbitwardendashlane.html",
+          "tags": ["技術トレンド", "認証", "パスキー"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "AIに追い立てられるマネジャーに必要な視点 — 「何をするか」から「どこへ向かうか」への転換をHBRが提言",
+          "summary": "DIAMONDハーバード・ビジネス・レビュー<strong>2026</strong>年<strong>9</strong>月<strong>19</strong>日公開の記事で、リズ・フォスリエンとモリー・ウェスト・ダフィーは、AIによって業務スピードが跳ね上がった結果、マネジャーが「30分おきに確認が必要」というレビュー作業のボトルネックと化していると指摘する。アトラシアンの調査では、リーダーの<strong>89</strong>%がAIによる業務の加速を実感し、知識労働者の<strong>87</strong>%はチーム連携に割く時間が足りていないと答えた。著者らは、管理者は具体的なタスク管理から離れ、目指す方向性を明確に示す「戦略的ガイド」へと役割を移す必要があるとし、数値指標を軸にした説明責任の設計を提案する。個別のタスク処理をAIに任せられる時代に、自分自身の仕事の意義をどこに置き直すかを問い直す論考である。",
+          "sourceName": "DIAMONDハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14166",
+          "tags": ["思考力", "AI時代", "マネジメント"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "JAXAと東京大など、小天体サンプルリターン計画の3候補を発表 — 「ネレウス」など3天体、2030年代前半打ち上げ目指す",
+          "summary": "JAXAや東京大学などで構成するワーキンググループは<strong>2026</strong>年<strong>9</strong>月<strong>16</strong>日、新潟市で開催中の日本惑星科学会秋季講演会で、小天体から試料を持ち帰る新しい探査計画の概要を発表した。目的地の候補は、直径約<strong>330</strong>メートルの小惑星「ネレウス」、中心部直径約<strong>320</strong>メートルの「ブランペイン彗星」、直径<strong>0.8</strong>〜<strong>1.9</strong>キロの小惑星「2001SK162」の<strong>3</strong>天体。探査機は宇宙を航行する親機と、小天体に降下して試料を採取する小型着陸機で構成し、「はやぶさ」「はやぶさ<strong>2</strong>」や火星衛星探査計画「MMX」の技術を発展させる。<strong>2030</strong>年代前半の打ち上げを目指しており、地球帰還までは<strong>5</strong>〜<strong>13</strong>年を見込む。",
+          "sourceName": "日本経済新聞",
+          "sourceUrl": "https://www.nikkei.com/article/DGXZQOUD169VL0W6A910C2000000/",
+          "tags": ["科学", "宇宙探査", "JAXA"]
+        },
+        {
+          "position": 8,
+          "title": "「第一回 前橋国際芸術祭 2026」開幕、70組が集結 — アーツ前橋・白井屋ホテルなど市街地20か所以上に作品、12月20日まで",
+          "summary": "第一回「前橋国際芸術祭 2026」が<strong>2026</strong>年<strong>9</strong>月<strong>19</strong>日、群馬県前橋市の中心市街地で開幕した。会期は<strong>12</strong>月<strong>20</strong>日までの<strong>80</strong>日間で、テーマは「めぶく。Where good things grow.」。マルタン・マルジェラ、蜷川実花、渋谷慶一郎、川俣正、和田彩花、最果タヒら国内外の<strong>70</strong>組のアーティストが、市立現代美術館「アーツ前橋」、藤本壮介設計の「白井屋ホテル」、平田晃久設計の「まえばしガレリア」など<strong>20</strong>か所以上の会場で作品を披露する。現代アートに加えて建築・音楽・詩・演劇・食まで扱い、地元のクリエイターと連携する<strong>20</strong>以上のプログラムも走る。",
+          "sourceName": "Koubo（公募/コンテスト情報）",
+          "sourceUrl": "https://koubo.jp/article/81625",
+          "tags": ["文化", "現代アート", "群馬"]
+        }
+      ]
+    }
+  ]
+}
