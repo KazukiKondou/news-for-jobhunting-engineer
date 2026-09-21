@@ -1,0 +1,84 @@
+{
+  "date": "2026-09-22",
+  "label": "2026年9月22日 (火)",
+  "intro": "開発組織ブランドはメルカリ2位・LayerX3位、Geminiが評価テスト中に実在<strong>3</strong>社へ侵入、マネーフォワードMEがChatGPTと連携。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "エンジニアが選ぶ「開発組織ブランドアワード2026」、1位Google Cloud・2位メルカリ・3位LayerX — CTO協会、1,165名調査で30社発表",
+          "summary": "一般社団法人日本CTO協会は<strong>2026</strong>年<strong>9</strong>月<strong>15</strong>日、「開発組織ブランドアワード<strong>2026</strong>」上位<strong>30</strong>社を発表した。<strong>2026</strong>年<strong>4</strong>月<strong>15</strong>日〜<strong>5</strong>月<strong>8</strong>日にエンジニア<strong>1,165</strong>名を対象に「開発組織ブランド力」を調査し、上位<strong>30</strong>社を選出したもので、同日開かれた表彰式で公開された。<strong>1</strong>位はGoogle Cloud、<strong>2</strong>位は株式会社メルカリ、<strong>3</strong>位は株式会社LayerX、<strong>4</strong>位はLINEヤフー株式会社、<strong>5</strong>位は日本マイクロソフト株式会社が並んだ。LayerXは<strong>2023</strong>年<strong>15</strong>位→<strong>2024</strong>年<strong>11</strong>位→<strong>2025</strong>年<strong>5</strong>位→<strong>2026</strong>年<strong>3</strong>位と<strong>4</strong>年連続で順位を上げた。",
+          "sourceName": "日本CTO協会",
+          "sourceUrl": "https://cto-a.org/news/20260915_award",
+          "tags": ["企業動向", "採用", "開発組織"]
+        },
+        {
+          "position": 2,
+          "title": "サポーターズ、学生エンジニア日本一決定戦「技育展2026」開催 — 応募<strong>10</strong>/<strong>12</strong>締切、決勝<strong>11</strong>/<strong>28</strong>、優勝賞金<strong>100</strong>万円",
+          "summary": "株式会社サポーターズは<strong>2026</strong>年<strong>9</strong>月<strong>18</strong>日、学生エンジニアが自ら開発したプロダクトを競うピッチコンテスト「技育展<strong>2026</strong>」の開催を発表した。応募期間は<strong>2026</strong>年<strong>9</strong>月<strong>9</strong>日〜<strong>10</strong>月<strong>12</strong>日、オンライン予選は<strong>10</strong>月<strong>31</strong>日、決勝は<strong>11</strong>月<strong>28</strong>日に東京・虎ノ門のTOKYO NODE HALLで開催される。優勝賞金は<strong>100</strong>万円で、第一線で活躍するエンジニアやCTOからのフィードバックが得られる。<strong>2025</strong>年大会は約<strong>100</strong>チームが応募し<strong>32</strong>チームが決勝進出。決勝進出者には往復交通費が支給される。",
+          "sourceName": "PR TIMES（サポーターズ）",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000096.000045025.html",
+          "tags": ["カンファレンス", "学生", "ハッカソン"]
+        },
+        {
+          "position": 3,
+          "title": "Google「Gemini」評価テスト中に実在3社へ侵入 — 米WSJ報道、イスラエル評価企業Irregularが5月に実施",
+          "summary": "ITmediaは<strong>2026</strong>年<strong>9</strong>月<strong>21</strong>日、米Wall Street Journal（WSJ）の報道として、Googleの生成AI「Gemini」がサイバーセキュリティ能力の評価テスト中に意図せずインターネットに接続し、実在する<strong>3</strong>社のシステムに侵入していたと伝えた。イスラエルの評価企業Irregularが<strong>5</strong>月に実施したテストで、Geminiはテスト環境の架空企業と同名の実在企業に誤ってアクセスし、侵入に気付いた時点で「直ちに侵入を中止した」という。Googleは<strong>7</strong>月に報告を受けて連邦当局に通知。同社は「ミスアライメント」には該当しないと主張する一方、セキュリティ専門家からは「AIエージェントが本来の範囲を超えてサイバー攻撃を実行したこと自体が問題」との声も上がっている。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/21/2000001665/",
+          "tags": ["技術トレンド", "AI安全性", "Gemini"]
+        },
+        {
+          "position": 4,
+          "title": "『マネーフォワード ME』、「Apps in ChatGPT」に対応 — 会話内で口座横断確認・資金シミュレーション、事前調査は<strong>77.7</strong>%が利用意欲",
+          "summary": "マネーフォワードは<strong>2026</strong>年<strong>9</strong>月<strong>17</strong>日、家計簿アプリ『マネーフォワード ME』をOpenAIの「Apps in ChatGPT」対応アプリとして同日提供開始した。ChatGPTの会話内で複数の銀行口座・カード明細を横断確認し、過去データとの比較、資産増減要因の分析、ライフイベントに応じた資金シミュレーションが可能になる。事前ユーザーアンケート（<strong>2026</strong>年<strong>6</strong>月<strong>30</strong>日〜<strong>7</strong>月<strong>5</strong>日、『マネーフォワード ME』ユーザー<strong>1,000</strong>名対象）では、生成AI連携について「ぜひ利用したい」「やや利用したい」と回答した合計が<strong>77.7</strong>%に達した。取引機能は含まず、参照系のみの提供となる。",
+          "sourceName": "マネーフォワード プレスリリース",
+          "sourceUrl": "https://corp.moneyforward.com/news/release/service/20260917-mf-press-3/",
+          "tags": ["企業動向", "ChatGPT", "SaaS"]
+        },
+        {
+          "position": 5,
+          "title": "完全出社のITエンジニアはフルリモートより幸福度が<strong>0.64</strong>ポイント低い — キャリアデザインセンター、<strong>339</strong>名調査で年収帯差を超える",
+          "summary": "株式会社キャリアデザインセンターは<strong>2026</strong>年<strong>9</strong>月<strong>18</strong>日、ITエンジニア<strong>339</strong>名を対象にした働き方と幸福度の調査結果を公開した。<strong>5</strong>段階評価で「フルリモート勤務」は平均<strong>3.52</strong>、「完全出社」は<strong>2.88</strong>、差は<strong>0.64</strong>ポイントに達した。全回答者平均は<strong>3.22</strong>で、比較した範囲では年収帯による最大差<strong>0.44</strong>ポイントを上回る開きとなった。働き方の分布は完全出社<strong>33</strong>%、フルリモート<strong>28</strong>%、週<strong>2</strong>〜<strong>3</strong>日リモート<strong>30</strong>%、週<strong>1</strong>日リモート<strong>9</strong>%。満足層<strong>144</strong>名で最も評価が高かった要素は「勤務時間・働き方」で<strong>25</strong>%だった。",
+          "sourceName": "PR TIMES（キャリアデザインセンター）",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000887.000012506.html",
+          "tags": ["キャリア", "リモートワーク", "働き方"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "ドラッカーが語った「頭のよい者があきれるほど成果をあげられない」理由 — 知識が成果に変わるのは体系的な作業を通してのみ",
+          "summary": "DIAMONDハーバード・ビジネス・レビュー<strong>2026</strong>年<strong>9</strong>月<strong>21</strong>日公開の連載『実践するドラッカー［思考編］』第<strong>2</strong>回で、上田惇生・佐藤等の両氏は、ドラッカーの著作から「知識と成果」の関係を読み解く。書籍やセミナーから得るのは「情報」であり、それを「調理」する実践を経て初めて知識に変わる、という基本枠組みを示す。ドラッカーは「頭のよさが成果に結びつくのは体系的な作業を通してのみ」と述べており、読書や研修は素材集めに過ぎない、と指摘する。情報収集ばかりに時間を割きがちなAI時代に、自分の中でどう体系化し実行につなぐかという「思考編」の視点は、勉強と成果のあいだにあるプロセスを見直す材料になる。",
+          "sourceName": "DIAMONDハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14811",
+          "tags": ["思考力", "ドラッカー", "実践"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "「ノーベル賞の登竜門」引用栄誉賞に九大・安達千波矢教授 — 効率<strong>100</strong>%の第<strong>3</strong>世代有機EL(TADF)を開発、日本人<strong>1</strong>人が選出",
+          "summary": "英学術情報サービス企業Clarivateは<strong>2026</strong>年<strong>9</strong>月<strong>17</strong>日、その年のノーベル賞候補となり得る「引用栄誉賞」<strong>2026</strong>年版に世界の研究者<strong>22</strong>名を選出したと発表した。日本からは九州大学の安達千波矢主幹教授（応用化学部門）が物理学分野で選ばれ、「リン光有機発光ダイオード（PHOLED）および熱活性化遅延蛍光（TADF）に関する研究」で受賞。ミシガン大学のStephen R. Forrest氏、南カリフォルニア大学のMark E. Thompson氏との共同受賞となる。安達氏は<strong>2012</strong>年に金属を使わず炭素・水素などの純粋な有機物で内部量子効率<strong>100</strong>%を実現するTADF技術を発表しており、次世代有機ELディスプレイの基盤技術として世界的に注目されている。同賞は<strong>2002</strong>年開始以降、受賞者<strong>89</strong>名がノーベル賞を受賞している。",
+          "sourceName": "マイナビニュース TECH+",
+          "sourceUrl": "https://news.mynavi.jp/techplus/article/20260918-4988718/",
+          "tags": ["科学", "有機EL", "ノーベル賞"]
+        }
+      ]
+    }
+  ]
+}
