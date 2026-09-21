@@ -1,5 +1,12 @@
 [
   {
+    "slug": "2026-09-22-queue",
+    "ranOn": "2026-09-22",
+    "verdict": "unverifiable",
+    "detail": "ファクトチェックキューAPI（news.kazukikondo.com/api/factcheck/queue）はegressプロキシにより拒否された（HTTP 403）。キューに報告済み記事があったかどうか不明。本日は別セッションで生成されたコンテンツ（bc6da91）が既にremoteに存在し、そちらの内容を採用した。",
+    "action": "キュー取得不可のためスキップ。remoteに既存コンテンツあり。LINE配信は成功（HTTP 200）。"
+  },
+  {
     "slug": "2026-09-18-queue",
     "ranOn": "2026-09-18",
     "verdict": "unverifiable",
