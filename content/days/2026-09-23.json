@@ -1,0 +1,84 @@
+{
+  "date": "2026-09-23",
+  "label": "2026年9月23日 (水)",
+  "intro": "Java <strong>27</strong>正式版でG1 GCがデフォルト化、DevinがmacOS対応、TailwindはShopifyが買収。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Cognition AI「Devin」がmacOS仮想環境に対応 — 実機のMacなしでiOS/macOSアプリを生成・テスト・TestFlight配信まで自動化",
+          "summary": "米Cognition AIは<strong>2026</strong>年<strong>9</strong>月<strong>15</strong>日、コーディングAIエージェント「Devin」の仮想環境にmacOSを追加したと発表した。従来のUbuntu Linux・Windowsに加え、実機のMacを用意することなくiOS/macOS向けアプリのコード生成・テスト・デバッグ・実行までDevin内で完結する。デモではDevinが生成したFlappy Bird風ゲームを自動でTestFlightへアップロードし、ベータ配信リンクの共有まで一気通貫で行われた。Publickeyが<strong>9</strong>月<strong>17</strong>日に報じた。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/devinmacosmacdevinappstore.html",
+          "tags": ["技術トレンド", "AIエージェント", "iOS/macOS"]
+        },
+        {
+          "position": 2,
+          "title": "Java <strong>27</strong>正式リリース — 全環境でG1 GCがデフォルトに、TLS <strong>1</strong>.<strong>3</strong>には耐量子暗号のハイブリッドキー交換",
+          "summary": "Oracleは<strong>2026</strong>年<strong>9</strong>月<strong>16</strong>日、Java <strong>27</strong>を一般提供開始した。全実行環境でG1ガベージコレクタがデフォルトとなり、従来小規模環境で用いられていたSerial GCから統一される。TLS <strong>1</strong>.<strong>3</strong>にはNIST標準の耐量子暗号ML-KEMを用いたハイブリッドキー交換が実装され、既存コード無変更のまま量子計算機時代を見据えた通信保護を得られる。オブジェクトヘッダーは<strong>96</strong>ビットから<strong>64</strong>ビットへ縮小され、大量オブジェクトを扱うサービスのメモリ効率が改善する。Java <strong>27</strong>はLTS版ではなくサポートは<strong>6</strong>か月間。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/java_27g1_gctls_13.html",
+          "tags": ["技術トレンド", "Java", "OSS"]
+        },
+        {
+          "position": 3,
+          "title": "PlanetScale、Postgres自動シャーディング「Neki」プレビュー公開 — <strong>512</strong>シャード構成で<strong>1.18</strong>億QPSを達成",
+          "summary": "米PlanetScaleは<strong>2026</strong>年<strong>9</strong>月<strong>18</strong>日、PostgreSQLをシャーディングによって自動的にスケールさせるデータベースサービス「Neki」のプレビュー公開を発表した。同社がMySQLで提供してきたVitess由来のスケーラビリティ技術をPostgres向けに移植したもので、既存のPostgresプロトコル用ドライバーからそのまま接続できる。Publickeyの報道では、約<strong>1.4</strong>ペタバイトのデータを<strong>512</strong>シャードに分割した検証で単一ベンチマーク<strong>118,538,803</strong>クエリ/秒（約<strong>1.18</strong>億QPS）を計測。単一構成から段階的にシャード構成へ移行できる設計で、Postgresを採用するSaaSのスケーリング手段が広がる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/planetscalepostgresql11800qpsdbneki.html",
+          "tags": ["技術トレンド", "Postgres", "スケーリング"]
+        },
+        {
+          "position": 4,
+          "title": "Tailwind Labs、Shopifyが買収 — AI普及で公式ドキュメント参照が<strong>40</strong>%減、チームを<strong>75</strong>%解雇したのちOSSは継続開発",
+          "summary": "米Shopifyは<strong>2026</strong>年<strong>9</strong>月<strong>14</strong>日、CSSフレームワーク「Tailwind CSS」の開発元Tailwind Labsを買収したと発表した。創業者Adam Wathan氏によれば、生成AIの普及でTailwind公式ドキュメントへのアクセスが<strong>2023</strong>年初頭比で約<strong>40</strong>%減少し、有償製品への流入も落ちた結果、チームの約<strong>75</strong>%を解雇せざるを得ない状況になっていた。買収後もTailwind CSSはオープンソースとして継続開発され、Shopifyが数百万ユーザー向けの長期メンテナンスを担う。既存の有償プロダクトTailwind UIは既存顧客のみ利用可能で、新規申込は締め切られた。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/ai75csstailwindshopify.html",
+          "tags": ["企業動向", "M&A", "OSS"]
+        },
+        {
+          "position": 5,
+          "title": "AnthropicのMCP共同作者が来日 — 「AGNTCon＋MCPCon Japan <strong>2026</strong>」で今後の<strong>3</strong>注力領域を提示",
+          "summary": "エージェント関連イベント「AGNTCon＋MCPCon Japan <strong>2026</strong>」が<strong>2026</strong>年<strong>9</strong>月<strong>10</strong>日、東京・渋谷で開催された。基調講演にはAnthropicのDavid Soria Parra氏（Model Context Protocol共同作者）が登壇し、MCPが今後注力する<strong>3</strong>領域として「エージェント間メッセージング／オーケストレーションの標準プロトコル化」「Skills over MCPによる豊かなセマンティックの提供」「エージェントの認可・アイデンティティ整備」を挙げた。Claude／Devinなどエージェント活用を検討する国内現場に向け、標準プロトコルの方向性を直接共有する場となった。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/anthropicmcpmcpagntconmcpcon_japan_2026.html",
+          "tags": ["カンファレンス", "MCP", "AIエージェント"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "AIが引き起こした問題の責任は、ベンダーではなく導入企業に降りかかる — DHBRが説く<strong>4</strong>つのリスク領域",
+          "summary": "DIAMONDハーバード・ビジネス・レビューは<strong>2026</strong>年<strong>9</strong>月<strong>23</strong>日、M. アレハンドラ・パラ＝オルランドーニ／パウロ・カルバオ両氏によるAIガバナンス論考を公開した。外部AIツールを導入した企業では、開発元ベンダーよりもまず「影響を受けた当事者に最も近い」導入企業に法的・社会的責任が問われるとし、Pelotonのチャットボット集団訴訟やiTutorGroupの採用差別事件を例に挙げる。企業が対処すべきリスクとして<strong>4</strong>領域—上流の不透明性／カスタマイズに伴う法的責任／ベンダー依存／規制の断片化—を提示。「AIはベンダー製品」と切り離して考える発想では自社を守れない、と説く。",
+          "sourceName": "DIAMONDハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14521",
+          "tags": ["思考力", "AIガバナンス", "責任"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "深海魚と<strong>10</strong>年の\"かくれんぼ\" — 北大・田城助教らがホラアナゴ科の新種「ホソオホラアナゴ」を記載（学名 Ilyophis fukuii）",
+          "summary": "北海道大学と東海大学の研究グループは<strong>2026</strong>年<strong>9</strong>月<strong>18</strong>日、水深<strong>1,500</strong>メートル以深に生息するホラアナゴ科の新種を発見したと発表した。総合博物館の田城文人助教らが、南日本沿岸から小笠原諸島・八丈島・奄美大島近海で採集した<strong>80</strong>個体超の標本を<strong>10</strong>年以上にわたり比較。これまで「リュウキュウホラアナゴ」<strong>1</strong>種とされていた個体群のなかに、尾部の太さ・脊椎骨数・鱗の形状・側線管の長さで明瞭に区別できる隠蔽種が含まれていたことを確認し、細尾型をホソオホラアナゴ（Ilyophis fukuii）として新種記載した。論文は<strong>2026</strong>年<strong>9</strong>月<strong>16</strong>日にIchthyological Research誌へオンライン掲載。",
+          "sourceName": "北海道大学 プレスリリース",
+          "sourceUrl": "https://www.hokudai.ac.jp/news/2026/09/10-18.html",
+          "tags": ["科学", "深海生物", "新種記載"]
+        }
+      ]
+    }
+  ]
+}
