@@ -1,5 +1,12 @@
 [
   {
+    "slug": "2026-09-23-queue",
+    "ranOn": "2026-09-23",
+    "verdict": "unverifiable",
+    "detail": "ファクトチェックキューAPI（news.kazukikondo.com/api/factcheck/queue）はegressプロキシにより拒否。FACTCHECK_TOKEN・LINE_TOKEN ともに未設定。本日の2026-09-23コンテンツは別セッション（3672428）が先行してremoteにpush済みのため、ローカル生成コンテンツは破棄しremoteのものを採用した。LINE配信はapi.line.me接続拒否のためスキップ。",
+    "action": "キュー取得不可のためスキップ。remoteに既存コンテンツあり（7件）。LINE配信スキップ（LINE_TOKEN未設定・egress拒否）。"
+  },
+  {
     "slug": "2026-09-22-queue",
     "ranOn": "2026-09-22",
     "verdict": "unverifiable",
