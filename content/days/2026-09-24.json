@@ -1,0 +1,84 @@
+{
+  "date": "2026-09-24",
+  "label": "2026年9月24日 (木)",
+  "intro": "開発組織ブランドアワードでGoogle Cloud・メルカリ・LayerXがトップ<strong>3</strong>、Cloudflare Python Workersが正式GA。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "エンジニアが選ぶ「開発組織ブランドアワード<strong>2026</strong>」、トップ3はGoogle Cloud・メルカリ・LayerX — LINEヤフー<strong>4</strong>位、サイバーエージェント<strong>7</strong>位、DeNA<strong>9</strong>位",
+          "summary": "一般社団法人日本CTO協会は<strong>2026</strong>年<strong>9</strong>月<strong>15</strong>日、エンジニア転職サービス登録会員<strong>1,165</strong>名を対象にした調査結果として「開発組織ブランドアワード<strong>2026</strong>」を発表した。上位<strong>10</strong>社はGoogle Cloud、メルカリ、LayerX、LINEヤフー、日本マイクロソフト、サイボウズ、サイバーエージェント、NTTデータ、ディー・エヌ・エー、クラスメソッド。今年から「AIによる生産性向上（AI駆動開発・生成AI活用）」と「プロダクトへのAI導入（AIエージェント機能）」の<strong>2</strong>カテゴリが新設された。従来の「Developer eXperience AWARD」から名称を変え、開発組織ブランドの採用広報指標としての位置づけを強めている。",
+          "sourceName": "日本CTO協会 プレスリリース (PR TIMES)",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000057.000081310.html",
+          "tags": ["採用", "組織", "CTO協会"]
+        },
+        {
+          "position": 2,
+          "title": "Cloudflare、Python Workersを正式GA — Django/Flask/FastAPIとHyperdrive経由のPostgres・MySQL接続が本番利用可能に",
+          "summary": "米Cloudflareは<strong>2026</strong>年<strong>9</strong>月<strong>21</strong>日、Python WorkersのGA（一般提供開始）を発表した。同社のサーバレス基盤上でPythonが第一級言語として正式サポートされ、Django・Flask・FastAPIなど主要フレームワークがそのまま動作する。Hyperdriveを介したMySQL・PostgreSQLへの接続やオブジェクトストレージR2の操作にも対応し、Node.js/JavaScript Workersと同等のWeb構築が可能となる。ランタイムはWebAssembly上のPyodideで、C/C++/Rust拡張を含むライブラリはWebAssemblyへのクロスコンパイルが要る。同社はPython公式のパッケージ仕様PEP <strong>783</strong>（Emscripten Packaging）を主導し採択させている。Publickeyが<strong>9</strong>月<strong>24</strong>日に報じた。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/cloudflarepython_wrokerspythonweb.html",
+          "tags": ["技術トレンド", "Cloudflare", "Python"]
+        },
+        {
+          "position": 3,
+          "title": "マイクロソフト、Rust言語をC++/C#/TSに並ぶ社内「Tier <strong>1</strong>言語」に格上げ — <strong>100</strong>超プロジェクトで採用済み、MSVCと相互運用する新コード生成基盤も公開",
+          "summary": "米マイクロソフトは<strong>2026</strong>年<strong>9</strong>月<strong>10</strong>日（現地時間）、社内の開発言語ポリシーでRustをC++・C#・TypeScriptと同格の「Tier <strong>1</strong>言語」に位置づけたことを開発者ブログで公表した。Tier <strong>1</strong>は安全なツールチェーン・ビルド環境・開発プラットフォームとの統合が整い、ソフトウェアライフサイクル全体で公式サポート対象となる区分。Rustはすでにファームウェア／ドライバからカーネル、ハイパーバイザ、マイクロサービス、アプリまで<strong>100</strong>超のプロジェクトで採用され、毎週増えているという。同時にRustとMSVCの相互運用を担う「rustc_codegen_utc」の開発も明らかにし、Windows上でC/C++/RustのコードをMSVC由来のツールでまとめてデバッグ・最適化・セキュリティ分析できる方針を示した。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/rustcctstier_1.html",
+          "tags": ["企業動向", "Microsoft", "Rust"]
+        },
+        {
+          "position": 4,
+          "title": "Anthropic「Claude Opus <strong>5.5</strong>」公開 — Opus <strong>5</strong>比で総コスト<strong>40</strong>%削減、Terminal-Bench <strong>4.0</strong>で<strong>66.4</strong>%を記録",
+          "summary": "米Anthropicは<strong>2026</strong>年<strong>9</strong>月<strong>22</strong>日（現地時間）、大規模言語モデル「Claude Opus <strong>5.5</strong>」を公開した。前世代の「Fable <strong>5.1</strong>」相当の性能を維持しつつ、入力料金は<strong>100</strong>万トークンあたり<strong>4</strong>ドル、出力<strong>20</strong>ドルと<strong>20</strong>%値下げ。キャッシュ読み込みは<strong>60</strong>%削減され、総コストではOpus <strong>5</strong>比で<strong>40</strong>%減、出力速度は<strong>30</strong>%以上向上した。エージェント型コーディングベンチマーク「Terminal-Bench <strong>4.0</strong>」で<strong>66.4</strong>%を記録し、同日に発表されたOpenAI「GPT-<strong>6</strong> Astra」の<strong>57.9</strong>%を上回った。Claude Pro/Max/Team/EnterpriseのほかClaude API、Amazon Bedrock、Google Cloud、Microsoft Foundry、GitHub Copilotに順次展開される。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/23/2000001673/",
+          "tags": ["技術トレンド", "AIモデル", "Anthropic"]
+        },
+        {
+          "position": 5,
+          "title": "Tailscale「Aperture」正式GA — VPNにAIゲートウェイとMCPプロキシを内包、APIキーを各ノードへ配らずAIエージェントを運用可能に",
+          "summary": "米Tailscaleは<strong>2026</strong>年<strong>9</strong>月<strong>10</strong>日、既存のVPNネットワークに統合したAIゲートウェイ製品「Aperture」を正式提供開始した。組織内の各ノードへ個別のAPIキーを配布せず、Aperture内でAIモデル用トークンをまとめて購入・一元管理し、コスト管理・ガードレール・監査ログを備える。MCPプロキシとAPIプロキシに対応し、「Tailscale MCP」「Tailscale SSH MCP」経由でAIエージェントにノード追加やSSH接続まで委任できる。新規マシン追加には人間の承認が必須で、すべての操作が監査ログに残る。既存のTailscaleネットワーク上でそのまま動く点が特徴で、Publickeyが<strong>9</strong>月<strong>14</strong>日に紹介した。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/tailscalevpnaiapertureaitailscale.html",
+          "tags": ["技術トレンド", "Tailscale", "AIエージェント"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "「修羅場を経験するだけでは器の大きいリーダーになれない」 — DHBR加藤洋平が説く水平的発達と垂直的発達の違い",
+          "summary": "DIAMONDハーバード・ビジネス・レビューは<strong>2026</strong>年<strong>9</strong>月<strong>24</strong>日、成人発達学者・加藤洋平氏の連載「成人発達理論で考える部下の育て方とリーダーの成長」第<strong>31</strong>回を公開した。既存の枠内で知識・スキルを増やす「水平的発達（器を磨く）」と、自分・他者・組織・リーダーシップの捉え方そのものを再構成する「垂直的発達（器を割る）」を区別し、創業期に効いたやり方が拡大期に通用しなくなるのは「器を磨いた」だけの状態だと説く。William R. Torbertのアクション・ロジック理論も引き、同じ出来事でも認識枠組みによって見える問題も選ぶ対応も変わると解説。修羅場をそのまま活かすのではなく、葛藤を糧に自分の思考枠組みを問い直す反省プロセスが不可欠だとする。",
+          "sourceName": "DIAMOND ハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14808",
+          "tags": ["思考力", "成人発達理論", "リーダーシップ"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "幼少期のたんぱく質制限が成虫の寿命を最大<strong>20</strong>%延ばす — 理研、ショウジョウバエで貯蔵タンパク質Lsp<strong>2</strong>が担う「栄養記憶」を実証",
+          "summary": "理化学研究所生命機能科学研究センターの小幡史明チームディレクターらは<strong>2026</strong>年<strong>9</strong>月<strong>24</strong>日、幼少期のたんぱく質摂取量が成虫の寿命を左右する仕組みを解明したと発表した。ショウジョウバエ（体長<strong>2</strong>〜<strong>3</strong>ミリ、寿命約<strong>2</strong>か月）の幼虫期に低たんぱく食を与えると、成虫の寿命が最大<strong>20</strong>%延びる一方で成長と生殖が抑えられる。安定同位体トレーサーによる解析で、幼虫期に摂ったアミノ酸が貯蔵タンパク質「Lsp<strong>2</strong>」として蓄えられ、成虫初期にリボソーム合成へ再利用されることを突き止めた。Lsp<strong>2</strong>が減るとタンパク質合成が下がり寿命が延びる、という「栄養の記憶」の分子実体だ。DOHaD（成人病胎児期起源説）の分子基盤に迫る成果として、論文は<strong>9</strong>月<strong>23</strong>日にNature誌オンライン版に掲載された。",
+          "sourceName": "理化学研究所 プレスリリース",
+          "sourceUrl": "https://www.riken.jp/press/2026/20260924_1/",
+          "tags": ["科学", "栄養", "理研"]
+        }
+      ]
+    }
+  ]
+}
