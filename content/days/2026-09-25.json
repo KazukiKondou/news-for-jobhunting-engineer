@@ -1,0 +1,84 @@
+{
+  "date": "2026-09-25",
+  "label": "2026年9月25日 (金)",
+  "intro": "Go製IDE「Rune」OSS公開、Meta Connectで「Muse Charm」披露、EdgeCortix RAIDENが<strong>3.36</strong>PFLOPS。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Go言語製の高速IDE「Rune」がオープンソース公開 — GPU描画UI、TypeScript/Go/Python/Rust/Zigに対応、SSHワークスペースで複数マシンをローカル操作可能",
+          "summary": "米Unstablebuildは<strong>2026</strong>年<strong>9</strong>月<strong>25</strong>日、Go言語で書かれたネイティブIDE「Rune」をオープンソースで公開したとPublickeyが報じた。GPU描画による高速UI、Language Server Protocol対応、複数ターミナルのマルチプレクサ機能を備え、TypeScript・Go・Python・Rust・Zigの<strong>5</strong>言語をTier<strong>1</strong>で優先サポートする。OpenAI Codex、Anthropic Claude、Google Geminiの各AIエージェントに加えローカルAIモデルも統合。目玉の「SSH workspace」は複数リモートノードをまるでローカルマシンのように操作でき、無料は<strong>2</strong>ノード、月<strong>10</strong>ドルの有料プランで<strong>10</strong>ノードまで利用できる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/goiderune.html",
+          "tags": ["技術トレンド", "IDE", "OSS"]
+        },
+        {
+          "position": 2,
+          "title": "Claude Codeが「AGENTS.md」対応 — CLAUDE.md不在時に自動読込、ベンダ横断のエージェント設定共通化へ",
+          "summary": "米Anthropicは<strong>2026</strong>年<strong>9</strong>月<strong>18</strong>日、コーディングエージェント「Claude Code」の<strong>2.1.277</strong>で共通仕様「AGENTS.md」への対応を追加した。従来はリポジトリ内の「CLAUDE.md」だけをコンテキストとして読み込む仕組みだったが、CLAUDE.mdが存在しない場合にAGENTS.mdを自動で読み込むようになる。AGENTS.mdはOpenAIのCodex、Cursor、Devinなど複数のコーディングエージェントが採用しつつある事実上の共通ファイル形式で、AIベンダを跨いだツール移行や複数エージェント併用時の設定共有が容易になる。Publickeyが<strong>9</strong>月<strong>24</strong>日に報じた。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/claude_codeagentsmdclaudemd.html",
+          "tags": ["技術トレンド", "AIエージェント", "Anthropic"]
+        },
+        {
+          "position": 3,
+          "title": "Meta「Muse Charm」お披露目 — Meta Connect <strong>2026</strong>「ワンモアシング」で公開、たまごっち大のAIキーホルダーが<strong>12</strong>月出荷",
+          "summary": "米Metaは<strong>2026</strong>年<strong>9</strong>月<strong>23</strong>日（現地時間）、年次カンファレンス「Meta Connect <strong>2026</strong>」の締めくくりでキーホルダー型AIデバイス「Muse Charm」を発表した。手のひらサイズの筐体に約<strong>2</strong>インチのOLEDスクリーンとカメラを搭載、指紋センサーを軽くタップするだけでMeta独自AI「Muse」との音声対話を起動できる。スマホのロック解除もアプリ起動も不要で、Metaのメガネを外している間の同社AIへの最速アクセス手段と位置づける。当初は限定生産で<strong>2026</strong>年末のホリデーシーズンに発売予定。同日にはRay-Ban Meta（第<strong>3</strong>世代）や薄型VR眼鏡なども発表され、ザッカーバーグCEOがハードウェア戦略を一挙に打ち出した。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/24/2000001688/",
+          "tags": ["企業動向", "Meta", "AIデバイス"]
+        },
+        {
+          "position": 4,
+          "title": "Google、次期LLM「Gemini <strong>4</strong>」を年末までに投入と開発責任者が言及 — 同日、音声合成モデル「Gemini <strong>3.8</strong> Flash TTS」も公開",
+          "summary": "米Googleの生成AI「Gemini」開発責任者は<strong>2026</strong>年<strong>9</strong>月<strong>24</strong>日までに、次期LLM「Gemini <strong>4</strong>」を<strong>2026</strong>年末までに発表すると公の場で示唆した。ITmediaが同日報じている。同社は同日、テキストからゼロベースで話者音声を生成できる音声合成モデル「Gemini <strong>3.8</strong> Flash TTS」を公開し、GoogleのAIサブスクに「Colab」有料特典をバンドルする施策も発表。OpenAIのGPT-<strong>6</strong> AstraやAnthropicのClaude Opus <strong>5.5</strong>など主要LLMが立て続けに刷新される中、Web系プロダクト企業のAI基盤選定はここ数か月で再度動く可能性が高い。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/aiplus/article/2609/24/2000001701/",
+          "tags": ["企業動向", "Google", "生成AI"]
+        },
+        {
+          "position": 5,
+          "title": "日本発エッジAIチップ「RAIDEN」、FP<strong>4</strong>で<strong>3.36</strong>PFLOPSを実現 — EdgeCortixがNVIDIA Jetson AGX Thor比<strong>1.6</strong>倍を打ち出し、<strong>2027</strong>年サンプル出荷へ",
+          "summary": "エッジAI半導体を開発する日本発スタートアップEdgeCortix（東京・港）は<strong>2026</strong>年<strong>9</strong>月<strong>24</strong>日、スケーラブルなAIチップレット基盤「RAIDEN（ライデン）」を発表した。<strong>1</strong>・<strong>2</strong>・<strong>4</strong>チップの構成に対応し、FP<strong>4</strong>精度で最大<strong>3.36</strong>PFLOPS（<strong>3,360</strong>TFLOPS）を叩き出す。NVIDIAのJetson AGX Thorの<strong>2,070</strong>TFLOPSと比較して約<strong>1.6</strong>倍にあたる。同社はNEDO「ポスト<strong>5</strong>G通信システムの実装技術開発」事業の成果を活用し、サンプル出荷を<strong>2027</strong>年、量産を同年中盤以降に予定。ロボット・自動運転・産業機械などエッジ推論の需要拡大を狙う。",
+          "sourceName": "MONOist",
+          "sourceUrl": "https://monoist.itmedia.co.jp/mn/articles/2609/25/news063.html",
+          "tags": ["スタートアップ", "エッジAI", "半導体"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "「リーダーは、従業員に期待する変革をみずから体現せよ」 — マッキンゼー調査でリーダーが模範を示すと成功可能性が<strong>5.3</strong>倍、実践するのは<strong>43</strong>%だけ",
+          "summary": "DIAMONDハーバード・ビジネス・レビューは<strong>2026</strong>年<strong>9</strong>月<strong>25</strong>日、プロジェクツ＆コー創業CEOアントニオ・ニエト＝ロドリゲス氏の論考を公開した。変革が停滞する主因は従業員の抵抗ではなく、リーダー自身が「変わる姿」を見せていないためだとする。マッキンゼーが<strong>1,000</strong>件超の変革プロジェクトを分析した調査では、シニアリーダーが率先して行動を変えると成功可能性は約<strong>5.3</strong>倍に跳ね上がるが、実際にそれを行うリーダーはわずか<strong>43</strong>%。プロサイの<strong>12</strong>年研究でも、経営陣の強い支援がある変革の目標達成率は<strong>79</strong>%、支援なしでは<strong>27</strong>%と大差がついている。シンガポールDBS銀行のピユシュ・グプタ元CEOは自らを顧客に見立てて支店を訪れ、年<strong>1,000</strong>件超の実験をKPIに組み込むことで実験文化を根づかせたと紹介する。組織は「言葉」ではなく「上の人間が何を捨てて何を担ぐか」を見て動く、という指摘は就活生が企業選び・カルチャーフィットを見る目にも通じる。",
+          "sourceName": "DIAMONDハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14581",
+          "tags": ["思考力", "リーダーシップ", "組織変革"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "線状降水帯、日本海の小さな低気圧が「雨量」も「発生位置」も左右 — 東北大がJGR掲載、<strong>2022</strong>年<strong>8</strong>月の山形・新潟豪雨も再現",
+          "summary": "東北大学の田原亮太郎大学院生と平賀優介助教は<strong>2026</strong>年<strong>9</strong>月<strong>24</strong>日、線状降水帯の雨量と発生位置を決めるカギが日本海上の小さな低気圧の位置と発達にあることを明らかにしたと発表した。<strong>2011</strong>年<strong>7</strong>月と<strong>2022</strong>年<strong>8</strong>月に東北〜北陸で起きた線状降水帯を数値実験で再現し、低気圧のわずかな位置ずれで水蒸気の流入経路が変わり、雨のエリアが少しずれるだけで河川流域の<strong>24</strong>時間降水量が大きく変わることを示した。「どこに」降るかを予測することの重要性が、「どれだけ」降るかの予測と同格に扱われるべきだと結論づけている。論文はJournal of Geophysical Research: Atmospheres誌に<strong>9</strong>月<strong>18</strong>日に掲載された。",
+          "sourceName": "東北大学 プレスリリース",
+          "sourceUrl": "https://www.tohoku.ac.jp/japanese/2026/09/press20260924-02-rainband.html",
+          "tags": ["科学", "気象", "防災"]
+        }
+      ]
+    }
+  ]
+}
