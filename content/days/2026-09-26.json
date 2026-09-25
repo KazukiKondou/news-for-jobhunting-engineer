@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-26",
+  "label": "2026年9月26日 (土)",
+  "intro": "Google Live Avatarが<strong>97</strong>言語で正式提供、freeeが給料日朝に<strong>15</strong>サービス障害、Gyazoで<strong>1.74</strong>億件流出続報。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Google、リアルタイム映像アバターと会話できる「Gemini <strong>3.8</strong> Live with Live Avatar」を法人向けGA — <strong>97</strong>言語対応、画像<strong>1</strong>枚で独自アバター",
+          "summary": "米Googleは<strong>2026</strong>年<strong>9</strong>月<strong>24</strong>日（現地時間）、法人向け「Gemini Enterprise」で音声対話モデル「Gemini <strong>3.8</strong> Live」に映像生成を組み合わせた「Live Avatar」の一般提供を開始したとITmediaが<strong>25</strong>日報じた。リップシンクや表情、間の取り方をリアルタイム生成しながら会話する映像アバターで、<strong>97</strong>言語をサポートし、日本語と英語を混在させて話しても口の動きが追従する。既定アバターのライブラリに加え、参照画像<strong>1</strong>枚から独自アバターも作れ、Webサイトやモバイルアプリ、店舗のキオスク端末での接客・案内を主なユースケースに据える。料金はアバター発話時のみ課金で、映像出力は<strong>100</strong>万トークンあたり<strong>1</strong>ドル。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/25/2000001730/",
+          "tags": ["技術トレンド", "Google", "生成AI"]
+        },
+        {
+          "position": 2,
+          "title": "freeeが給料日朝に一時障害、<strong>15</strong>サービスがログイン不能に — 復旧まで約<strong>2</strong>時間、月末処理と重なり悲鳴",
+          "summary": "クラウド会計・労務ソフトのfreeeは<strong>2026</strong>年<strong>9</strong>月<strong>25</strong>日<strong>8</strong>時<strong>51</strong>分ごろから、freee会計、freee人事労務、freee経費精算、freee販売、freeeサインを含む<strong>15</strong>サービスでログインやサインアップが不安定になる障害に見舞われた。同社は<strong>10</strong>時台後半までに回復を告知し、実害はおよそ<strong>2</strong>時間強で復旧している。<strong>25</strong>日は給料日でかつ月末処理と重なった企業が多く、SNSでは「振り込みできない」「勤怠が打てない」との報告が相次いだ。中小事業者の給与・請求・契約締結を丸ごと預かるバーティカルSaaSにとって、可用性設計は依然としてプロダクト評価の中核である現実が改めて示された。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/25/2000001739/",
+          "tags": ["企業動向", "freee", "SaaS"]
+        },
+        {
+          "position": 3,
+          "title": "Gyazoの不正アクセス続報、削除済み画像のメタデータ約<strong>1.74</strong>億件も流出 — 影響ユーザー約<strong>2,362</strong>万件、うち登録は約<strong>562</strong>万件",
+          "summary": "画像共有サービス「Gyazo」を運営するHelpfeelは<strong>2026</strong>年<strong>9</strong>月<strong>25</strong>日、<strong>9</strong>月<strong>11</strong>日に公表した不正アクセス事案の第二報を発表した。既発表の画像メタデータ約<strong>4.9</strong>億件に加え、ユーザーが過去に削除した画像のメタデータ約<strong>1.74</strong>億件（主に<strong>2023</strong>年<strong>2</strong>月以前）も外部へ流出したことが新たに判明した。影響ユーザーは約<strong>2,362</strong>万件で、そのうち登録ユーザーが約<strong>562</strong>万件、匿名ユーザーが約<strong>180</strong>万件。アップロード画像そのものの喪失やX連携トークンによるアカウント不正アクセスは無いとしつつ、サービス再開の見通しは<strong>9</strong>月<strong>29</strong>日までに改めて説明するとしている。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/25/2000001772/",
+          "tags": ["企業動向", "セキュリティ", "Helpfeel"]
+        },
+        {
+          "position": 4,
+          "title": "「日経ソフトウエア」が休刊、<strong>29</strong>年の歴史に幕 — 入門系プログラミング紙媒体はWebと書籍へ集約",
+          "summary": "日経BPは<strong>2026</strong>年<strong>9</strong>月<strong>24</strong>日発売の「日経ソフトウエア <strong>2026</strong>年<strong>11</strong>月号」をもって同誌を休刊すると発表し、<strong>25</strong>日にITmediaが報じた。<strong>1998</strong>年創刊で約<strong>29</strong>年の歴史を持つプログラミング入門系の紙媒体で、最終号は「生成AIは人間の感情を理解できるか？」を特集し、付録には生成AI時代のデータベースアプリ開発小冊子を付けた。休刊理由は「メディアを取り巻く環境の変化」で、以降の入門コンテンツはWebメディア「日経クロステック」と書籍に集約する。個人PCで動くローカルLLMやAIコード生成が学びの入口を書き換えつつある中での終刊となった。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/25/2000001735/",
+          "tags": ["業界動向", "プログラミング", "日経BP"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "ドラッカーが警鐘「成功するほど、外の世界への貢献を忘れていく」 — DHBR連載、成果は組織の外にしか存在しないと説く",
+          "summary": "DIAMONDハーバード・ビジネス・レビューは<strong>2026</strong>年<strong>9</strong>月<strong>25</strong>日、上田惇生・佐藤等による連載「実践するドラッカー[思考編]」第<strong>4</strong>回を公開した。ドラッカーは「成果は組織の外の世界にしか存在せず、組織の内部にはコストがあるだけだ」と説き、組織が成長・成功するほど社員は内向きの調整に時間を吸われ、貢献すべき「外」への視座を失っていくと警告する。対顧客の部署だけでなく管理・研究・開発を含む全員が、「自分の顧客は誰か」「その顧客は何を価値とするか」を問い続け、自らの仕事を貢献の言葉で書き換えなければコストセンター化する、というシンプルで強い指針を提示している。組織の売上・待遇・肩書ではなく「自分の仕事が誰の何を価値に変えているか」を主語に置く思考の型は、企業選び・キャリア設計の物差しとしても効く。",
+          "sourceName": "DIAMONDハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14813",
+          "tags": ["思考力", "ドラッカー", "貢献"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "国と民間のGNSS観測網を統合、日本列島の地殻ひずみを超高解像度で可視化 — 東北大＋北大、GEONET約<strong>1,300</strong>点にソフトバンク約<strong>3,300</strong>点超を接続",
+          "summary": "東北大学と北海道大学の研究チームは<strong>2026</strong>年<strong>9</strong>月<strong>25</strong>日、国土地理院のGEONETに設置された約<strong>1,300</strong>点の観測点と、ソフトバンクが独自運用する<strong>3,300</strong>点超の民間GNSS基準局を統合し、日本列島の地殻ひずみを超高解像度で可視化したと発表した。<strong>2019</strong>年<strong>11</strong>月から<strong>2023</strong>年<strong>12</strong>月のデータを解析し、新潟-神戸ひずみ集中帯、奥羽脊梁付近、山陰せん断帯といった内陸地震や火山活動に対応する特徴的なひずみ集中域を高精細に描き出した。論文は国際誌 Earth, Planets and Space に<strong>9</strong>月<strong>22</strong>日掲載。個別の活断層帯や火山領域の詳細解析が可能になり、内陸地震の発生場理解に新たな基盤情報を与える。",
+          "sourceName": "東北大学 プレスリリース",
+          "sourceUrl": "https://www.tohoku.ac.jp/japanese/2026/09/press20260925-03-integrated.html",
+          "tags": ["科学", "地震・防災", "GNSS"]
+        }
+      ]
+    }
+  ]
+}
