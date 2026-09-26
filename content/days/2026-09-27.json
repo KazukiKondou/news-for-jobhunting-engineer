@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-27",
+  "label": "2026年9月27日 (日)",
+  "intro": "Go言語IDE「Rune」がGPLv3でOSS公開、Node.js <strong>26.10.0</strong>にutil.throttle/debounce追加、JAMSTECが<strong>1.2</strong>万枚の深海映像で学習した海洋プラゴミ検出AI「DeepLitterAI」を発表。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Go言語製IDE「Rune」がGPLv3でオープンソース公開 — GPUレンダリング×ターミナルマルチプレクサ、<strong>5</strong>言語Tier1対応でAIエージェントも統合",
+          "summary": "ツールベンダのUnstablebuildは、Go言語でネイティブ実装したIDE「Rune」をGPLv3ライセンスでオープンソース公開した。GPU描画による高速UIと複数ターミナルを束ねるマルチプレクサ機能を一体化した開発環境で、複数のリモートノードをローカルと同感覚で扱えるように設計されている。TypeScript・Go・Python・Rust・ZigをTier<strong>1</strong>言語としてLSP経由でサポートし、OpenAI CodexやAnthropic Claude、Google GeminiなどのAIコーディングエージェントをAPIキー経由で組み込める。GPLv3を採用することで、コントリビューターは自身が提出したコードの著作権を保持する仕組みになっている。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/goiderune.html",
+          "tags": ["技術トレンド", "IDE", "OSS"]
+        },
+        {
+          "position": 2,
+          "title": "Node.js <strong>26.10.0</strong>リリース — util.throttle/debounceを標準搭載、crypto.parsePKCS12で証明書操作が簡素化",
+          "summary": "Node.js開発チームは<strong>2026</strong>年<strong>9</strong>月<strong>22</strong>日、Node.js <strong>26.10.0</strong>（Current）をリリースした。主な追加APIはutil.debounce()とutil.throttle()で、これまでLodashなどの外部ライブラリで実装していたデバウンスとスロットルの処理がプラットフォーム標準で書けるようになる。また、.p12/.pfxバンドルから鍵と証明書を取り出すcrypto.parsePKCS12()が追加されたほか、node:ffiへの実験的仮想ファイルシステム対応の拡張、同期的Blobサポートも含まれている。暗号処理の堅牢化を含む各種修正も行われた。",
+          "sourceName": "Node.js Blog",
+          "sourceUrl": "https://nodejs.org/en/blog/release/v26.10.0",
+          "tags": ["技術トレンド", "Node.js", "JavaScript"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 3,
+          "title": "「思考の外注割合を増やし、理解は外注しない」 — エンジニアKonifarが論じるAI時代の思考と理解の線引き",
+          "summary": "エンジニアのKonifarが<strong>2026</strong>年<strong>9</strong>月<strong>22</strong>日に公開したブログ記事。「思考の外注割合を増やし、理解は外注しない」というタイトルが主張を端的に示している。AIへの思考作業の委託を積極的に増やすことを認める一方、思考を通じて得られる理解——何がなぜそうなるかを把握すること——は外注できないという立場をとる。思考プロセスそのものが理解の生成と結びついているため、思考を完全に外注すると理解の機会も失われるという論点を展開しており、はてなブックマークのAIカテゴリに登録されるなどエンジニアコミュニティで広く読まれた。",
+          "sourceName": "Konifar's ZATSU",
+          "sourceUrl": "https://konifar-zatsu.hatenadiary.jp/entry/2026/09/22/112134",
+          "tags": ["思考力", "AI活用", "メタ認知"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 4,
+          "title": "JAMSTEC、深海プラゴミを映像から自動検出するAI「DeepLitterAI」開発 — <strong>40</strong>年超の深海映像<strong>1</strong>万<strong>2,029</strong>枚で学習、検出速度は人間の約<strong>2</strong>倍",
+          "summary": "海洋研究開発機構（JAMSTEC）は、深海底に沈むプラスチックなどマクロごみを映像から自動で検出・計数するAI「DeepLitterAI」を開発し、NHKが<strong>2026</strong>年<strong>9</strong>月<strong>27</strong>日に報じた。過去<strong>40</strong>年超にわたる深海映像から収集した<strong>1</strong>万<strong>2,029</strong>枚の画像データセット「J-Litter」を最新の物体検出技術に学習させ、同じごみを重複カウントしない物体追跡アルゴリズムを実装した。処理速度は人間による目視確認の約<strong>2</strong>倍で、画面横幅の<strong>5</strong>〜<strong>10</strong>%ほどの小さなゴミでも種類を判定できる。ペットボトルやポリ袋など主要なごみは<strong>8</strong>割の検出に成功しており、リアルタイムの海洋プラゴミ監視への応用が期待される。",
+          "sourceName": "NHKニュース",
+          "sourceUrl": "https://news.web.nhk/newsweb/na/nd-20260927de52636",
+          "tags": ["科学", "海洋環境", "AI"]
+        }
+      ]
+    }
+  ]
+}
