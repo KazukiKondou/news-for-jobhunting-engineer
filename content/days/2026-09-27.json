@@ -1,7 +1,7 @@
 {
   "date": "2026-09-27",
   "label": "2026年9月27日 (日)",
-  "intro": "Go言語IDE「Rune」がGPLv3でOSS公開、Node.js <strong>26.10.0</strong>にutil.throttle/debounce追加、JAMSTECが<strong>1.2</strong>万枚の深海映像で学習した海洋プラゴミ検出AI「DeepLitterAI」を発表。",
+  "intro": "Microsoft Copilotを「仕事のOS」に大刷新、サカナAIがSchmidhuber氏を招聘、Facilo<strong>64</strong>億円調達。",
   "sections": [
     {
       "key": "it",
@@ -10,19 +10,43 @@
       "articles": [
         {
           "position": 1,
-          "title": "Go言語製IDE「Rune」がGPLv3でオープンソース公開 — GPUレンダリング×ターミナルマルチプレクサ、<strong>5</strong>言語Tier1対応でAIエージェントも統合",
-          "summary": "ツールベンダのUnstablebuildは、Go言語でネイティブ実装したIDE「Rune」をGPLv3ライセンスでオープンソース公開した。GPU描画による高速UIと複数ターミナルを束ねるマルチプレクサ機能を一体化した開発環境で、複数のリモートノードをローカルと同感覚で扱えるように設計されている。TypeScript・Go・Python・Rust・ZigをTier<strong>1</strong>言語としてLSP経由でサポートし、OpenAI CodexやAnthropic Claude、Google GeminiなどのAIコーディングエージェントをAPIキー経由で組み込める。GPLv3を採用することで、コントリビューターは自身が提出したコードの著作権を保持する仕組みになっている。",
-          "sourceName": "Publickey",
-          "sourceUrl": "https://www.publickey1.jp/blog/26/goiderune.html",
-          "tags": ["技術トレンド", "IDE", "OSS"]
+          "title": "Microsoft、「Copilot」を「仕事のためのOS」に大刷新 — Home／Code／Autopilotの<strong>3</strong>機能に再構築、料金は<strong>USL</strong>と従量課金<strong>UBB</strong>に分離",
+          "summary": "米Microsoftは<strong>2026</strong>年<strong>9</strong>月<strong>25</strong>日（現地時間）、AIアシスタント「Microsoft Copilot」を大規模再構築すると発表し、<strong>26</strong>日にITmediaが報じた。サティア・ナデラCEOは「仕事のための新しいOS」と位置づけ、質問への回答からアプリ構築、業務代行までを網羅する。柱は<strong>3</strong>つで、質問と<strong>3</strong>月発表の「Cowork」を統合する「Home」、自然言語でアプリ・ダッシュボード・自動化を構築する「Code」（GitHub Copilot技術基盤で開発者以外も利用可）、<strong>24</strong>時間クラウドで自律稼働する「Autopilot」（旧Scout）。料金はユーザー課金型<strong>USL</strong>と、Cowork／Code／AutopilotとフロンティアモデルAstra／Fable向けの従量課金<strong>UBB</strong>に分離。<strong>11</strong>月<strong>2</strong>日以降、CSP経由の「M365 Copilot Business」はUBBが既定になる。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/26/2000001773/",
+          "tags": ["企業動向", "Microsoft", "生成AI"]
         },
         {
           "position": 2,
-          "title": "Node.js <strong>26.10.0</strong>リリース — util.throttle/debounceを標準搭載、crypto.parsePKCS12で証明書操作が簡素化",
-          "summary": "Node.js開発チームは<strong>2026</strong>年<strong>9</strong>月<strong>22</strong>日、Node.js <strong>26.10.0</strong>（Current）をリリースした。主な追加APIはutil.debounce()とutil.throttle()で、これまでLodashなどの外部ライブラリで実装していたデバウンスとスロットルの処理がプラットフォーム標準で書けるようになる。また、.p12/.pfxバンドルから鍵と証明書を取り出すcrypto.parsePKCS12()が追加されたほか、node:ffiへの実験的仮想ファイルシステム対応の拡張、同期的Blobサポートも含まれている。暗号処理の堅牢化を含む各種修正も行われた。",
-          "sourceName": "Node.js Blog",
-          "sourceUrl": "https://nodejs.org/en/blog/release/v26.10.0",
-          "tags": ["技術トレンド", "Node.js", "JavaScript"]
+          "title": "GitHub Copilot週次リリース、Claude Opus <strong>5.5</strong>／GPT-<strong>6</strong> Sol・Luna／Grok <strong>4.7</strong>を追加、ローカルサンドボックスがパブリックプレビュー",
+          "summary": "米GitHubは<strong>2026</strong>年<strong>9</strong>月<strong>25</strong>日、Copilotの週次リリース（<strong>9</strong>月<strong>21</strong>週）を公開した。新規追加モデルはClaude Opus <strong>5.5</strong>（Pro+／Max／Business／Enterprise）、GPT-<strong>6</strong> Sol（同）、GPT-<strong>6</strong> Luna（Pro含む全プラン）、Grok <strong>4.7</strong>（Pro含む全プラン）の<strong>4</strong>種で、有料プランで即日選択可能になった。目玉はローカルサンドボックスのパブリックプレビュー投入で、AIエージェントがローカルで触れるファイル・ネットワーク・認証情報を制限できる。加えてSlack／Teams向けにモデル切り替えの永続化・重複イシュー自動検出・作業リンクの往復共有、JetBrains向けに自動承認プレビュー、VS Code <strong>1.139</strong>ではDev Containerのリモートホスト実行とセッション管理UI改善も投入された。",
+          "sourceName": "GitHub Changelog",
+          "sourceUrl": "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21/",
+          "tags": ["技術トレンド", "GitHub Copilot", "AIエージェント"]
+        },
+        {
+          "position": 3,
+          "title": "サカナAI、「現代AIの父」シュミットフーバー氏を招聘 — 新設「RSI Lab」のチーフ・サイエンティスト・アドバイザーに、フィジカルAIの世界モデル研究へ",
+          "summary": "サカナAIは<strong>2026</strong>年<strong>9</strong>月<strong>25</strong>日、LSTM共同開発者で「現代AIの父」と称されるユルゲン・シュミットフーバー氏を新設組織「RSI Lab（再帰的自己改善ラボ）」のチーフ・サイエンティスト・アドバイザーとして招聘したと発表した。RSIは「科学的発見が次の発見を呼ぶ再帰的サイクル」で機械知能を高める研究領域で、同氏の<strong>1987</strong>年学位論文が源流にある。同社は行動が物理世界に与える影響をシミュレートする「世界モデル」の開発を進め、製造業やロボティクス向けフィジカルAIの実装を狙う。シュミットフーバー氏は「日本はニューラルネットワークの基盤アーキテクチャと高度なロボティクスを生み出してきた国」と語り、定期的に東京で研究チームと協働する。国内AIスタートアップが世界最高峰の研究者を長期アドバイザーで確保した点で人材市場のシグナルは大きい。",
+          "sourceName": "ITmedia AI+",
+          "sourceUrl": "https://www.itmedia.co.jp/aiplus/article/2609/25/2000001742/",
+          "tags": ["スタートアップ", "Sakana AI", "AI人材"]
+        },
+        {
+          "position": 4,
+          "title": "OpenAI「Codex」が約<strong>1</strong>時間の全面障害、全機能停止 — 復旧後は全有料ユーザーの使用量制限を一斉リセット、他OpenAI製品は影響なし",
+          "summary": "米OpenAIのコーディングAIエージェント「Codex」が<strong>2026</strong>年<strong>9</strong>月<strong>26</strong>日、日本時間<strong>8</strong>時前から約<strong>1</strong>時間にわたり全面障害となり、Web版・API・CLI・VS Code拡張機能のすべてが利用不可になった。<strong>7</strong>時<strong>58</strong>分に障害確認、<strong>8</strong>時<strong>19</strong>分にAPIキー経由のアクセスを案内、<strong>8</strong>時<strong>54</strong>分に全面復旧という<strong>1</strong>時間強の対応となった。ChatGPT本体など他OpenAIサービスへの影響は無い。復旧後、Codex責任者のティボ・ソティオ氏は「CodexとChatGPT全体で全有料ユーザーの使用制限をリセットする」と宣言。原因は「内部の問題」としか説明していない。Web系開発現場のAIエージェント依存度が上がるほど、単一ベンダの短時間障害でも実測ダウンタイムの影響が広がる構図が改めて示された。",
+          "sourceName": "ITmedia AI+",
+          "sourceUrl": "https://www.itmedia.co.jp/aiplus/article/2609/26/2000001774/",
+          "tags": ["企業動向", "OpenAI", "障害"]
+        },
+        {
+          "position": 5,
+          "title": "不動産DXのFacilo、シリーズBで総額<strong>64</strong>億円を調達 — グロービスCPリードで累計<strong>83</strong>億円、導入<strong>2,300</strong>店舗・営業<strong>1.3</strong>万名超に「AI共創エコシステム」を投入",
+          "summary": "不動産仲介向けSaaS「Facilo」を提供する株式会社Faciloは<strong>2026</strong>年<strong>9</strong>月<strong>17</strong>日、シリーズBラウンドで総額<strong>64</strong>億円（エクイティ<strong>39</strong>億円・デット<strong>18</strong>億円・融資枠<strong>7</strong>億円）を調達したと発表した。累計調達額は約<strong>83</strong>億円に達する。リード投資家はグロービス・キャピタル・パートナーズ、新規にDBJキャピタル・電通ベンチャーズ・i-nest capital・三菱UFJキャピタルが参加し、Coral Capitalなど既存投資家も追加出資した。<strong>2023</strong>年<strong>2</strong>月のサービス開始以来、導入仲介会社は<strong>2,300</strong>店舗、利用営業担当は<strong>1</strong>万<strong>3,000</strong>名を突破。資金はCRM・コンバーター・AIエージェントの開発、エンジニア／PdM採用、AI査定「HowMa」を持つコラビットのグループ化などM&Aに投じ、「AI共創エコシステム」の構築を掲げる。",
+          "sourceName": "PR TIMES（株式会社Facilo）",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000043.000113384.html",
+          "tags": ["スタートアップ", "資金調達", "不動産DX"]
         }
       ]
     },
@@ -32,12 +56,12 @@
       "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
       "articles": [
         {
-          "position": 3,
-          "title": "「思考の外注割合を増やし、理解は外注しない」 — エンジニアKonifarが論じるAI時代の思考と理解の線引き",
-          "summary": "エンジニアのKonifarが<strong>2026</strong>年<strong>9</strong>月<strong>22</strong>日に公開したブログ記事。「思考の外注割合を増やし、理解は外注しない」というタイトルが主張を端的に示している。AIへの思考作業の委託を積極的に増やすことを認める一方、思考を通じて得られる理解——何がなぜそうなるかを把握すること——は外注できないという立場をとる。思考プロセスそのものが理解の生成と結びついているため、思考を完全に外注すると理解の機会も失われるという論点を展開しており、はてなブックマークのAIカテゴリに登録されるなどエンジニアコミュニティで広く読まれた。",
-          "sourceName": "Konifar's ZATSU",
-          "sourceUrl": "https://konifar-zatsu.hatenadiary.jp/entry/2026/09/22/112134",
-          "tags": ["思考力", "AI活用", "メタ認知"]
+          "position": 6,
+          "title": "「ビジョンを描くうえで必要なのは、想像力より情報収集である」 — DHBR連載、コッター理論を援用し「計画は演繹、方向性設定は帰納」と切り分ける",
+          "summary": "DIAMONDハーバード・ビジネス・レビューは<strong>2026</strong>年<strong>9</strong>月<strong>27</strong>日、児玉教仁氏（グローバルアストロラインズ代表、HBS MBA）の連載「『北風と太陽』のリーダーシップ論」第<strong>6</strong>回を公開した。ビジョンづくりは通常の計画立案と違い、そもそも「ゴール自体が未決定の状態」から始まるため、想像力ではなく「情報収集」こそが起点になると説く。ジョン・コッター教授の理論を引き、「計画」は既知情報から結論を導く演繹的作業、「方向性設定」は多様な情報から概念を立ち上げる帰納的作業と切り分けたうえで、工業機械メーカーの社長が他社の先進事例に触れて「世界No.1志向」へ目標を拡張した事例、忙しいマネジャーが週<strong>1</strong>回「書店訪問」をルーチンにしてSNSの最適化から逃れた事例を紹介する。就活生・若手にとっての含意は、いま業務に使えない情報こそ将来のビジョンの素材になる、という一点に集約される。",
+          "sourceName": "DIAMONDハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14829",
+          "tags": ["思考力", "リーダーシップ", "ビジョン"]
         }
       ]
     },
@@ -47,12 +71,12 @@
       "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
       "articles": [
         {
-          "position": 4,
-          "title": "JAMSTEC、深海プラゴミを映像から自動検出するAI「DeepLitterAI」開発 — <strong>40</strong>年超の深海映像<strong>1</strong>万<strong>2,029</strong>枚で学習、検出速度は人間の約<strong>2</strong>倍",
-          "summary": "海洋研究開発機構（JAMSTEC）は、深海底に沈むプラスチックなどマクロごみを映像から自動で検出・計数するAI「DeepLitterAI」を開発し、NHKが<strong>2026</strong>年<strong>9</strong>月<strong>27</strong>日に報じた。過去<strong>40</strong>年超にわたる深海映像から収集した<strong>1</strong>万<strong>2,029</strong>枚の画像データセット「J-Litter」を最新の物体検出技術に学習させ、同じごみを重複カウントしない物体追跡アルゴリズムを実装した。処理速度は人間による目視確認の約<strong>2</strong>倍で、画面横幅の<strong>5</strong>〜<strong>10</strong>%ほどの小さなゴミでも種類を判定できる。ペットボトルやポリ袋など主要なごみは<strong>8</strong>割の検出に成功しており、リアルタイムの海洋プラゴミ監視への応用が期待される。",
-          "sourceName": "NHKニュース",
-          "sourceUrl": "https://news.web.nhk/newsweb/na/nd-20260927de52636",
-          "tags": ["科学", "海洋環境", "AI"]
+          "position": 7,
+          "title": "「ナッツを多く食べる人ほど認知テストの成績が高い」 — モナシュ大が<strong>1,742</strong>人＋脳卒中生存者<strong>28</strong>人を<strong>10</strong>年追跡、生活習慣リスク層で効果が顕著",
+          "summary": "オーストラリアのモナシュ大学の研究チームは<strong>2026</strong>年<strong>9</strong>月<strong>26</strong>日までに、米国「フラミンガム心臓研究」の脳卒中未経験者<strong>1,742</strong>人と脳卒中生存者<strong>28</strong>人を対象に、ナッツ摂取量（<strong>1</strong>日<strong>0</strong>〜<strong>94.3</strong>g）と認知機能・脳画像・血中因子の関係を解析した論文を公開したとITmediaが報じた。年齢・性別・肥満度などを統計調整した結果、脳卒中未経験者ではナッツ摂取量が多いほど全体的な認知機能スコアが高い傾向が確認され、食事の質が低い層や運動不足の層で効果はより顕著だった。脳卒中生存者では、ナッツ摂取が多いほど血中の血管内皮増殖因子（VEGF）濃度が高く、新生血管による脳組織の修復に関与する可能性を示した。ただし<strong>10</strong>年追跡では新規脳卒中や認知症の発症リスクとの関連は見出されず、長期の疾病予防効果は限定的と結論した。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/26/2000001711/",
+          "tags": ["科学", "認知機能", "栄養学"]
         }
       ]
     }
