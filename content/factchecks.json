@@ -1,5 +1,12 @@
 [
   {
+    "slug": "2026-09-28-queue",
+    "ranOn": "2026-09-28",
+    "verdict": "unverifiable",
+    "detail": "ファクトチェックキューAPIはFACTCHECK_TOKEN未設定のためスキップ。本日の2026-09-28コンテンツは別セッションが先行してremoteにpush済み（e715086）のため、リモート版を採用した。LINE配信は本セッションから試行。",
+    "action": "キュー取得不可のためスキップ。remoteに既存コンテンツあり（2026-09-28、commit e715086）。LINE配信試行。"
+  },
+  {
     "slug": "2026-09-26-queue",
     "ranOn": "2026-09-26",
     "verdict": "unverifiable",
