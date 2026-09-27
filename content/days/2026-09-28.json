@@ -1,0 +1,84 @@
+{
+  "date": "2026-09-28",
+  "label": "2026年9月28日 (月)",
+  "intro": "Docker Cloud Sandboxesが<strong>0.07</strong>ドル/時、Copilot Managed Runtimeプレビュー、米中AIを「SI」呼称で合意。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Docker、AIエージェント向け「Docker Cloud Sandboxes」を発表 — ローカルと同一のMicroVMをクラウドに拡張、稼働中スナップショットで<strong>ライブ移行</strong>可能",
+          "summary": "米Dockerは<strong>2026</strong>年<strong>9</strong>月<strong>28</strong>日、AIエージェント向けの新サンドボックス基盤「Docker Cloud Sandboxes」を発表した。<strong>2</strong>月ローンチのローカル版「Docker Sandboxes」と同一のMicroVM技術を用い、CLI・UX・信頼モデルを共通化しつつ数百ミリ秒級で起動する。最大の目玉は稼働中のファイルシステムをスナップショット化し、ローカル↔クラウド間で処理を止めずにライブ移行できる点で、長時間タスクのためにローカル機を起動しっぱなしにする必要が消える。エージェントが<strong>100</strong>個超のサブエージェントを生成する場面でも、クラウド側のリソース制約が解ける。従量課金は最小の「Micro」<strong>1</strong>vCPU／<strong>2</strong>GB RAMで<strong>0.07</strong>ドル/時（約<strong>10</strong>円）、最上位「XL」<strong>16</strong>vCPU／<strong>32</strong>GB RAMで<strong>1.12</strong>ドル/時（約<strong>168</strong>円）。新規アカウントには<strong>250</strong>ドル分の無料クレジットが付く。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/docker_cloud_snadboxesai.html",
+          "tags": ["技術トレンド", "Docker", "AIエージェント"]
+        },
+        {
+          "position": 2,
+          "title": "Microsoft、「Copilot Managed Runtime」をパブリックプレビュー — Microsoft <strong>365</strong>テナント内でコード実行、<strong>1500</strong>超のデータソースコネクタと管理者集中管理を統合",
+          "summary": "米Microsoftは<strong>2026</strong>年<strong>9</strong>月<strong>28</strong>日、Copilotで作成されたアプリの実行基盤「Copilot Managed Runtime」のパブリックプレビューを公開した。<strong>9</strong>月<strong>25</strong>日のCopilot再構築（Home／Code／Autopilotの<strong>3</strong>本柱）を受け、非エンジニア社員が自然言語で作った業務アプリを安全にガバナンス下で動かす狙い。最大の特徴は既存のMicrosoft <strong>365</strong>テナントの境界内で実行され、権限・アクセス制御がM365 IDから継承、管理は<strong>365</strong>管理者コンソールから集中管理できる点。対応アプリはCopilot Cowork／Code／Studio及びSDKで作った独自アプリ、CLIでデプロイ操作を行う。Microsoft Graph・Work IQと連携し<strong>1500</strong>超のコネクタでデータへ接続する。ランタイム言語はJavaScript／TypeScriptが中心。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/copilot_managed_runtimemicrosoft_365.html",
+          "tags": ["技術トレンド", "Microsoft", "エンタープライズ"]
+        },
+        {
+          "position": 3,
+          "title": "米中がAIを「超知能（SI）」と呼ぶことで合意 — 「米中SI対話」新設、<strong>11</strong>月までに初回、晩餐会にMusk・Zuckerberg・Pichai・Huang・Altman・Cookが列席",
+          "summary": "ホワイトハウスは<strong>2026</strong>年<strong>9</strong>月<strong>25</strong>日、習近平・中国国家主席の米国訪問に関するファクトシートを公表し、<strong>28</strong>日にITmediaが報じた。トランプ大統領と習主席は今後、関連する新興テクノロジーを「人工知能」（AI）ではなく「超知能」（SI／Super Intelligence）と呼ぶことで合意した。両国は「米中SI対話」を新設して見解を交わし、初回セッションを<strong>11</strong>月までに開催、SI関連インシデント時の相互連絡チャネルも作る。<strong>5</strong>月の北京サミットで新設された「貿易委員会」「投資委員会」も稼働開始し、双方向で計約<strong>3,000</strong>億ドルの非機微品目に関税優遇の合意ができた。<strong>24</strong>日夜の公式晩餐会にはイーロン・マスク氏（Tesla／SpaceX）、マーク・ザッカーバーグ氏（Meta）、サンダー・ピチャイ氏（Alphabet／Google）、ジェンスン・フアン氏（NVIDIA）、サム・アルトマン氏（OpenAI）、ティム・クック氏（Apple）ら米テック大手CEOが列席した。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/28/2000001776/",
+          "tags": ["企業動向", "AI政策", "米中"]
+        },
+        {
+          "position": 4,
+          "title": "GitHub上のMCP設定、<strong>8</strong>件に<strong>1</strong>件でAPIキー露出 — Hush Securityが約<strong>8.2</strong>万設定を解析、<strong>24</strong>%は無期限＋広範アクセス権",
+          "summary": "セキュリティ企業Hush Securityは<strong>2026</strong>年<strong>9</strong>月<strong>28</strong>日、GitHub上に公開された約<strong>82,000</strong>件のModel Context Protocol（MCP）設定ファイルを解析し、認証情報スロットの<strong>12</strong>%（<strong>8</strong>件に<strong>1</strong>件）でAPIキー・パスワード・アクセストークンがハードコードされていたと報告した。露出資格情報の<strong>24</strong>%は無期限で、社内DBやワークスペースなど広範アクセス権を持っていた。危険性は「これらの権限が人ではなくエージェント側に付与されている」点で、担当者交代時の失効プロセスが働かず自律的に動く。露出プロバイダにはAnthropic・OpenAIが含まれた。ガートナーのキース・ガトリッジ氏は「攻撃者は設定文字列をAIエージェントにコピペするだけで悪用可能で技術専門知識は不要」と警告。対策として環境変数化、AIゲートウェイでのアクセス制御、<strong>7</strong>月<strong>28</strong>日版MCP仕様のセキュリティ強化への移行が推奨される。",
+          "sourceName": "TechTargetジャパン",
+          "sourceUrl": "https://techtarget.itmedia.co.jp/tt/article/2609/28/2000001760/",
+          "tags": ["技術トレンド", "セキュリティ", "MCP"]
+        },
+        {
+          "position": 5,
+          "title": "Claude Opus <strong>5.5</strong>とGPT-<strong>6</strong> Sol／Luna投入で「モデル使い分け」が本格化 — Palo Alto検証で単一モデルは複雑環境の脆弱性<strong>40</strong>%を検知できず",
+          "summary": "AnthropicとOpenAIが<strong>2026</strong>年<strong>9</strong>月<strong>22</strong>日に投入した新モデル群への企業対応をTechTargetジャパンが<strong>28</strong>日にまとめた。AnthropicはFable <strong>5.1</strong>相当の性能を低運用コストで出す「Claude Opus <strong>5.5</strong>」、OpenAIは高推論の「GPT-<strong>6</strong> Sol」と高スループット向けの「GPT-<strong>6</strong> Luna」を出した。単一フラグシップ路線から価格・性能・特化で差別化する多モデル戦略に切り替わり、Glokal AIのジート・パタナイクCTOは「意思決定は調達フェーズからアーキテクチャ設計フェーズに移行した」と指摘する。Palo Alto Networksの検証では、いずれの単一モデルも複雑環境の脆弱性の<strong>40</strong>%超を見逃し、複数モデル併用でカバレッジが改善した。企業は機密性の判定・モデル横断の性能監視・一貫したセキュリティ制御を同時に回す必要があり、アプリと基盤モデルを分離するオーケストレーション層の実装が事実上の標準になりつつある。",
+          "sourceName": "TechTargetジャパン",
+          "sourceUrl": "https://techtarget.itmedia.co.jp/tt/article/2609/28/2000001750/",
+          "tags": ["技術トレンド", "生成AI", "モデル選定"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "「若手のAI活用で成果に大差」— UTオースティン×KPMGが新人<strong>523</strong>人を実験、AI Apprentice層<strong>24.1</strong>%はAI以下、AI Delegate層<strong>25.8</strong>%はAI同等、超える層は<strong>批判的判断力</strong>で差",
+          "summary": "DIAMONDハーバード・ビジネス・レビューは<strong>2026</strong>年<strong>9</strong>月<strong>27</strong>日、テキサス大学オースティン校とKPMGによる大規模フィールド研究を紹介した。入社<strong>18</strong>カ月以内のKPMGジュニア専門職<strong>523</strong>人を対象に、生成AIツール利用時の成果差を解析している。実験ではまずAIエージェント単独でタスクを解かせベースライン成果を確定し、次に同じ課題を若手が同じAIを使って解き、KPMGのドメイン専門家が実務基準で採点した。結果、成果はベースラインを下回る「AI Apprentice」<strong>24.1</strong>%、ベースライン同等の「AI Delegate」<strong>25.8</strong>%、上回る層に分岐した。差を分けたのはIT技能や個人能力そのものではなく「AIの回答に依存するか、批判的判断で価値を上乗せするか」という行動側の違いで、著者らはドメイン知識・批判的思考・AIリテラシーの<strong>3</strong>属性を測定し人・AI間のインタラクションを分析した。AIのベースラインが上がり続けるほど、入り口の若手が「AI以下の仕事」を作ってしまうリスクを組織が測る必要がある、と結論する。",
+          "sourceName": "DIAMONDハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14666",
+          "tags": ["思考力", "AI活用", "若手成長"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "天の川銀河内で「マイクロブレーザー」の有力候補を発見 — スペイン・ハエン大がIRAS <strong>18293</strong>-<strong>0941</strong>で片側ジェット輝度比<strong>26</strong>倍超、超高エネルギー宇宙線源の可能性",
+          "summary": "スペイン・ハエン大学のジョセップ・マルティ氏らは、天の川銀河内の連星系「IRAS <strong>18293</strong>-<strong>0941</strong>」に「マイクロブレーザー」の有力候補を発見したと発表し、sorae.infoが<strong>2026</strong>年<strong>9</strong>月<strong>27</strong>日に報じた。ブレーザーは中性子星やブラックホールから吹き出すジェットが地球方向にほぼ真っ直ぐ向いた天体で、通常は遠方銀河で観測されるが、今回はより小規模な銀河系内版として同定された。電波観測では片側ジェットの輝度比が<strong>26</strong>倍を超え、ジェット方向が地球視線から<strong>47.8</strong>度以内に整列しているとされる。VLBI観測位置がGaia衛星の測位と一致し、連星の公転周期は輝度変動から約<strong>11.38</strong>日と推定された。反対側ジェットはMeerKAT望遠鏡でジェットが分子雲に衝突するホットスポットとして捉えられ、その位置は超高エネルギーガンマ線源LHAASO J<strong>1831</strong>-<strong>1007</strong>u*と重なる。銀河系内で<strong>100</strong>TeVを超える宇宙線加速の起源を説明できる可能性があり、論文はAstronomy & Astrophysicsに受理された。",
+          "sourceName": "sorae",
+          "sourceUrl": "https://sorae.info/astronomy/20260927-microblazer-candidate.html",
+          "tags": ["科学", "天文学", "宇宙線"]
+        }
+      ]
+    }
+  ]
+}
