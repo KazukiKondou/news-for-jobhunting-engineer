@@ -1,0 +1,84 @@
+{
+  "date": "2026-09-29",
+  "label": "2026年9月29日 (火)",
+  "intro": "AWS Strandsが<strong>5</strong>モデル対応でOSS化、Claude Sonnet <strong>5.5</strong>がTerminal-Bench <strong>70.6</strong>%、Excelが<strong>40</strong>年ぶり複数値セル解禁。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "AWS、AIエージェント構築ツール「Strandsハーネス」をOSS公開 — Claude／GPT／Gemini／Ollama／LiteLLMの<strong>5</strong>系統に対応、LLMを後から入れ替え自由",
+          "summary": "米AWSは<strong>2026</strong>年<strong>9</strong>月<strong>29</strong>日、AIエージェントを数行で作れるオープンソースツール「Strandsハーネス」を公開した。Publickeyが同日報じた。特定のLLMプロバイダに縛られない設計で、Claude／GPT／Gemini／Ollama／LiteLLMの<strong>5</strong>系統をあとから差し替えられる。シェル実行・ファイル読み書き・Web検索の各ツールが標準装備で、任意のLinuxコンテナ環境にそのままデプロイできる。ベンチマーク「SWE-bench Verified」で同じベースモデルを載せたClaude Codeと比べ、スコア<strong>69.7</strong>／コスト<strong>56.29</strong>ドルと「同等以上の性能を低コストで」達成。同じタスクを解くのに必要なトークン数は平均で<strong>28</strong>%少ないという。企業内のエージェント基盤を特定モデル依存から解き放つ狙いで、ライセンスはApache <strong>2.0</strong>。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/awsaistrandsllm.html",
+          "tags": ["技術トレンド", "AWS", "AIエージェント"]
+        },
+        {
+          "position": 2,
+          "title": "Anthropic、「Claude Sonnet <strong>5.5</strong>」を一般公開 — Terminal-Bench 4.0で前世代<strong>10.3</strong>%から<strong>70.6</strong>%へ大幅向上、料金は据え置きで<strong>30</strong>%高速化",
+          "summary": "米Anthropicは<strong>2026</strong>年<strong>9</strong>月<strong>28</strong>日（現地時間）、Claude 5.5ファミリー<strong>2</strong>本目の「Claude Sonnet <strong>5.5</strong>」を発表し、同日から提供を始めた。ITmediaが<strong>29</strong>日に報じた。エージェント型コーディング能力を測る「Terminal-Bench 4.0」で、前世代Sonnet 5の<strong>10.3</strong>%から<strong>70.6</strong>%へ跳ね上がり、<strong>44</strong>職種の実務を模した「GDPval-AA」でも約<strong>400</strong>ポイント上回った。処理速度は前世代比<strong>30</strong>%以上向上し、同じタスクの所要トークンも削減されるため「タスク当たりコストは最大<strong>30</strong>%下がる」。API料金は入力<strong>100</strong>万トークン<strong>2</strong>ドル／出力<strong>10</strong>ドル／キャッシュ読込<strong>0.2</strong>ドルで据え置き。Claude公式アプリの全プランに加え、AWS Bedrock／Google Cloud Vertex AI／Microsoft Azureで同日提供開始。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/29/2000001823/",
+          "tags": ["技術トレンド", "生成AI", "Anthropic"]
+        },
+        {
+          "position": 3,
+          "title": "Excel、<strong>40</strong>年続いた「<strong>1</strong>セル<strong>1</strong>値」原則を転換 — 新機能「Lists」でカンマ区切り複数値を独立検索・フィルター、Ctrl+Jで挿入",
+          "summary": "米Microsoftは<strong>2026</strong>年<strong>9</strong>月<strong>24</strong>日（現地時間）、Excelに新機能「Lists」を投入し、<strong>1985</strong>年の初代Excel以来<strong>40</strong>年守られてきた「<strong>1</strong>セル<strong>1</strong>値」の原則を初めて崩した。ITmediaが<strong>28</strong>日にまとめた。カンマ（地域設定によってはセミコロン）で区切って複数の名前や数値を<strong>1</strong>セルに入れると、セル内アイコンから項目一覧を展開でき、各項目が独立に検索・フィルター・並べ替えの対象になる。担当者<strong>2</strong>名やアンケート複数回答を列を増やさず<strong>1</strong>セルで扱える。挿入は「挿入→リスト」または「Ctrl+J」。まずWindows／Mac版の一部ユーザーにプレビュー提供し、正式版までに仕様は変わり得る。表計算の「基本の型」が動く事例で、CSV／ETL側の設計にも影響しうる。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/28/2000001820/",
+          "tags": ["技術トレンド", "Microsoft", "Excel"]
+        },
+        {
+          "position": 4,
+          "title": "カカクコム、KDDIとの資本提携を解消 — KDDI保有<strong>3,501</strong>万<strong>6,000</strong>株（<strong>17.67</strong>%）の位置付けを「主要株主」から降格、業務提携は継続",
+          "summary": "カカクコムは<strong>2026</strong>年<strong>9</strong>月<strong>28</strong>日、KDDIとの資本業務提携契約を合意解約すると発表した。KDDIが保有するカカクコム株<strong>3,501</strong>万<strong>6,000</strong>株（発行済株式の<strong>17.67</strong>%）はそのまま維持するが、KDDIの位置付けが「主要株主かつその他の関係会社」から「その他の関係会社」に変わり、KDDIが指名する取締役候補の受け入れ義務も失効する。背景にはスウェーデンの投資ファンドEQT陣営によるTOBが進行中で、LINEヤフー・米ベインキャピタル連合が対抗提案を出す資本構造の流動化がある。データ共有や新サービス共同開発などの業務面での連携は続けるとし、<strong>2027</strong>年<strong>3</strong>月期の連結業績への直接影響は「軽微」としている。Web系事業会社の資本構造がプラットフォーム再編で動く典型例。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/28/2000001821/",
+          "tags": ["企業動向", "カカクコム", "KDDI"]
+        },
+        {
+          "position": 5,
+          "title": "IBM「<strong>2026</strong>データ侵害コスト」調査、世界平均<strong>499</strong>万ドルで過去最高 — フィッシングは<strong>529</strong>万ドル、AI悪用攻撃は前年比<strong>56</strong>%増",
+          "summary": "IBMとPonemon Instituteは<strong>2026</strong>年<strong>9</strong>月<strong>29</strong>日、恒例の「データ侵害のコストに関する調査レポート」<strong>2026</strong>年版を公開した。TechTargetジャパンが同日報じた。<strong>16</strong>の国と地域の<strong>602</strong>組織、情報セキュリティ担当者・経営幹部<strong>3,558</strong>人を<strong>2025</strong>年<strong>3</strong>月〜<strong>2026</strong>年<strong>2</strong>月に調査。世界平均の侵害コストは<strong>499</strong>万ドルで前年比<strong>12</strong>%増と過去最高を更新した。手口別ではフィッシング<strong>529</strong>万ドル、シャドーAI関連<strong>539</strong>万ドル、サードパーティAIモデル侵害<strong>563</strong>万ドルとAIがらみが上位に並ぶ。AIを利用した攻撃は前年比<strong>56</strong>%増、社内での未承認AI使用によるインシデントは<strong>20</strong>%から<strong>43</strong>%へ倍増、SOCへのAIエージェント導入検討率は<strong>74</strong>%。攻撃者からの通告で気付いた組織は<strong>512</strong>万ドル、内部検知は<strong>501</strong>万ドル、MSSP経由は<strong>486</strong>万ドルとなり、検知経路の差が数百万ドル規模のコスト差を生んでいる。",
+          "sourceName": "TechTargetジャパン",
+          "sourceUrl": "https://techtarget.itmedia.co.jp/tt/article/2609/29/2000001806/",
+          "tags": ["技術トレンド", "セキュリティ", "IBM"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "「多様性を活かせないリーダーがはまる<strong>4</strong>つの落とし穴」— DHBR、第一の罠は「確信」で自分の認識だけを正解とし対立見解を「誤り」と決めつける認知バイアス",
+          "summary": "DIAMONDハーバード・ビジネス・レビュー日本版は<strong>2026</strong>年<strong>9</strong>月<strong>28</strong>日、スーザン・マッケンティ・ブレイディら<strong>3</strong>氏の共著論文「チームの多様性を活かせないリーダーがはまる<strong>4</strong>つの落とし穴」を掲載した。論旨は「多様性そのものではなく、違いへの対処が価値創出か価値喪失かを分ける」というもの。冒頭で示される第一の罠が「確信」で、自分の認識を唯一の正解と見なし、対立する見解を「誤り」と決めつける傾向を指す。善意で知的なリーダーでも、同じ状況について異なる情報に注目し、異なる経験と思考様式によって別の結論に達し得る、というのが出発点。記事は残る<strong>3</strong>つの落とし穴と、対処するための<strong>6</strong>つの実践行動を提示する構成。AIが「もっともらしい単一解」を返しやすくなる時代に、自分と他者の視点差をどう扱うかを鍛え直すための素材として、就活面接の「多様性」「チーム」問答に対する自分の型を持つ手がかりになる。",
+          "sourceName": "DIAMONDハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14517",
+          "tags": ["思考力", "リーダーシップ", "認知バイアス"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "地球から<strong>73</strong>光年、「反抗する惑星」GJ <strong>3090</strong> bを発見 — 主星の自転と<strong>136</strong>度傾く逆行公転、ジュネーブ大がA&A誌で報告",
+          "summary": "スイス・ジュネーブ大学の博士課程学生ヤン・カルテレ氏らが率いるチームは、地球から約<strong>73</strong>光年離れた赤色矮星GJ <strong>3090</strong>を公転する系外惑星「GJ <strong>3090</strong> b」が、主星の自転と反対向きに公転する「逆行公転」の惑星であることを突き止め、sorae.infoが<strong>2026</strong>年<strong>9</strong>月<strong>28</strong>日に報じた。論文はAstronomy & Astrophysics誌に掲載された。惑星は公転周期約<strong>2.9</strong>日、半径は地球の<strong>2.2</strong>倍、質量は<strong>4.5</strong>倍で、主星の自転軸に対し<strong>136</strong>度傾いた軌道を回る。観測はチリ・ラ・シヤ天文台のESO <strong>3.6</strong>m望遠鏡で、トランジット中の視線速度の乱れを捉える「ロシター・マクローリン効果」を使った。通常こうした軌道異常は伴星の重力で説明されるが、この系では伴星が見つからず、チームは「主星が誕生後に傾いた原始惑星系円盤を新たに獲得し、その円盤の中で惑星が形成された」という新シナリオを提示。惑星形成理論に「片付いていない多様性」が残ることを示す一例となった。",
+          "sourceName": "sorae",
+          "sourceUrl": "https://sorae.info/astronomy/20260928-gj-3090-b.html",
+          "tags": ["科学", "天文学", "系外惑星"]
+        }
+      ]
+    }
+  ]
+}
