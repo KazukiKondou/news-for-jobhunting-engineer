@@ -1,0 +1,84 @@
+{
+  "date": "2026-09-30",
+  "label": "2026年9月30日 (水)",
+  "intro": "OpenAI DevDayで<strong>20</strong>件超・GPT-<strong>6.1</strong> Solが従来比コスト<strong>1/5</strong>、Vite+が安定版<strong>1.0</strong>で週間DL<strong>200</strong>万突破、IIJが研修<strong>31</strong>講義中<strong>20</strong>超を無料公開。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "OpenAI、「DevDay 2026」で<strong>20</strong>件超を発表 — 常時稼働エージェント「dots」、GPT-<strong>6.1</strong> Solは従来比<strong>1/5</strong>コスト、Agents APIがパブリックベータ",
+          "summary": "米OpenAIは<strong>2026</strong>年<strong>9</strong>月<strong>29</strong>日（現地時間）、サンフランシスコで年次開発者カンファレンス「DevDay 2026」を開催し、ChatGPT・Codex・モデル・APIにまたがる<strong>20</strong>件以上の新製品・機能を発表した。ITmediaが<strong>30</strong>日にまとめた。新モデル面では、APIコストを従来比<strong>5</strong>分の<strong>1</strong>に抑えた軽量高性能モデル「GPT-<strong>6.1</strong> Sol」を投入し、最大<strong>8</strong>倍の処理速度（毎秒<strong>300</strong>トークン超）を実現する「Ultrafast」モードも同時提供を開始した。エージェント分野の目玉は「dots」（ドッツ）と呼ぶ常時稼働型エージェントで、GPT-<strong>6</strong> Astraをベースにユーザーのデスクトップやスマートフォンと常時接続し、カレンダー管理・情報収集・ファイル操作などを自律実行する。開発者向けには「Agents API」がパブリックベータとして公開され、コンピューター操作（CUA）に対応したことでデスクトップUIを含むあらゆるソフトウェアをエージェントが直接操作できる。AmazonとのジョイントベンチャーによりAWS上でOpenAIエージェントを運用できる「Bedrock Managed Agents」も発表され、クラウド展開の選択肢が拡大した。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/30/2000001868/",
+          "tags": ["技術トレンド", "OpenAI", "生成AI"]
+        },
+        {
+          "position": 2,
+          "title": "IIJ、社内エンジニア研修「Bootcamp 2026」の<strong>20</strong>講義超を無料一般公開 — <strong>9</strong>カテゴリ<strong>31</strong>講義にGit・Docker・Kubernetes・React収録",
+          "summary": "インターネットイニシアティブ（IIJ）は<strong>2026</strong>年<strong>9</strong>月<strong>29</strong>日、毎年社内向けに実施しているエンジニア新人研修「IIJ Bootcamp 2026」の動画コンテンツのうち<strong>20</strong>講義超を一般向けに無料公開したと発表した。ITmediaが同日報じた。全<strong>31</strong>講義を<strong>9</strong>カテゴリに分類しており、Git、Docker、Kubernetes、React、Linux基礎、ネットワーク技術などを体系的にカバーする。IIJは毎年この研修を社内向けに実施しており、<strong>2026</strong>年版は外部公開規模を従来より拡大した。動画は特別なアカウント登録なしで閲覧でき、「DockerとKubernetesが研修初期から登場する」構成は、IIJの技術組織が前提スキルとして置くラインを具体的に示している。年間<strong>300</strong>人超の新卒を採用するインフラ・ネットワーク系大手が公開する研修カリキュラムとして、業界標準の技術スタックを把握する一次資料となる。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/29/2000001854/",
+          "tags": ["企業動向", "IIJ", "エンジニア研修"]
+        },
+        {
+          "position": 3,
+          "title": "Cloudflare、全APIを操作できる新CLI「cf」をオープンベータ公開 — TypeScriptで設定記述、wrangler.tomlをcloudflare.config.tsへ自動変換",
+          "summary": "米Cloudflareは<strong>2026</strong>年<strong>9</strong>月<strong>28</strong>日、Cloudflare APIのほぼ全機能をコマンドラインから操作できる新しいCLIツール「cf」をオープンベータとして公開した。gihyo.jpが同日報じた。従来のツール「Wrangler」がWorkers開発に特化していたのに対し、「cf」はKV・R2・D1・Pages・AI Gateway など数百のAPIエンドポイントを単一コマンドで管理できる設計になっている。設定ファイルの記述にTypeScriptを採用しており、既存の「wrangler.toml」形式から新形式の「cloudflare.config.ts」への自動変換コマンド「cf migrate」も提供される。型チェックの恩恵を受けながらCloudflare上のインフラ全体をコードで管理（Infrastructure as Code）できる体制が整い、大規模プロジェクトでの設定ミスを静的解析で事前に検出できる。公式ドキュメントでは既存Wranglerとの共存も案内しており、段階的な移行を想定した展開となっている。",
+          "sourceName": "gihyo.jp",
+          "sourceUrl": "https://gihyo.jp/article/2026/09/cloudflare-cf-cli",
+          "tags": ["技術トレンド", "Cloudflare", "開発ツール"]
+        },
+        {
+          "position": 4,
+          "title": "VoidZero、フロントエンド統合ツールチェーン「Vite+ <strong>1.0</strong>」を正式リリース — 週間DL<strong>200</strong>万突破、単一コマンド「vp」でNode.js・ビルド・テストを一括管理",
+          "summary": "米VoidZeroは<strong>2026</strong>年<strong>9</strong>月<strong>28</strong>日、JavaScriptフロントエンド開発の統合ツールチェーン「Vite+ <strong>1.0</strong>」を正式リリースした。Publickeyが同日報じた。<strong>2026</strong>年<strong>3</strong>月<strong>16</strong>日のオープンソース化、<strong>7</strong>月<strong>16</strong>日のベータ開幕を経て約<strong>6</strong>カ月半で安定版に到達し、週間ダウンロード数は<strong>200</strong>万に迫る。単一コマンド「vp」でNode.jsランタイム、パッケージマネージャー、Rolldownによるビルド、Vitest、Oxlint、Oxfmtを一括管理する設計で、従来は別々に用意していた複数の設定ファイルを一本化できる。新規プロジェクトは「vp create」、既存プロジェクトの移行は「vp migrate」で対応し、tsdownでのTypeScriptビルドにも対応している。Rustベースのバンドラー「Rolldown」を核に据えることで、大規模プロジェクトでもメモリ効率の高いビルドを実現する。MITライセンスで提供され、Vite本体のエコシステムとの互換性を維持したまま単一ツールへの集約を実現した。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/vite.html",
+          "tags": ["技術トレンド", "VoidZero", "フロントエンド"]
+        },
+        {
+          "position": 5,
+          "title": "JetBrains、「Kotlin <strong>2.4.20</strong>」リリース — Swift Exportが新登場でKotlin MultiplatformのiOS対応強化、Gradle <strong>9.7</strong>サポートとWasmtime連携も",
+          "summary": "JetBrainsは<strong>2026</strong>年<strong>9</strong>月<strong>7</strong>日、Kotlin言語の最新版「Kotlin <strong>2.4.20</strong>」を正式リリースした。主要な強化点はKotlin/Nativeの「Swift Export」機能で、KotlinコードをSwiftが直接呼び出せる形式にエクスポートできる。SwiftPM（Swift Package Manager）向けの「Package.swift」ファイルが自動生成されるため、iOSアプリのKotlin Multiplatform対応のセットアップ手順が大幅に短縮される。インクリメンタルコンパイルの改善により再ビルド時間も削減された。標準ライブラリにはコルーチンスタックトレース復元のサポートと、コレクション要素の等価性・一意性チェック用の新関数が追加されている。Kotlin/Wasmではウェブランタイム「Wasmtime」のGradleプラグインサポートが追加され、Wasm向けアプリのテスト実行が標準化された。Kotlin/JSでは新しいブラウザテスト用DSLとサスペンド関数をAsync関数としてエクスポートする機能が加わり、Gradle <strong>9.7.0</strong>のサポートも含まれている。",
+          "sourceName": "JetBrains Blog",
+          "sourceUrl": "https://blog.jetbrains.com/kotlin/2026/09/kotlin-2-4-20-released/",
+          "tags": ["技術トレンド", "JetBrains", "Kotlin"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "SHIFT、新卒<strong>364</strong>人の研修に「<strong>5</strong>分のAI禁止タイム」 — AIより先に人間同士で問題を考える時間を設け「課題設定力」と「仮説思考力」を鍛える",
+          "summary": "ソフトウェアテスト・品質保証大手のSHIFTは<strong>2026</strong>年<strong>4</strong>月入社の新卒<strong>364</strong>人を対象にした新人研修を刷新し、最初の<strong>5</strong>分間だけAI使用を禁じる「AI禁止タイム」を設けた。日経ビジネスが<strong>2026</strong>年<strong>9</strong>月<strong>3</strong>日に報じた。課題を提示されたとき、即座にAIに尋ねるのではなく、人間同士で問題の本質を話し合う時間を確保することで「課題設定力」と「仮説思考力」を鍛える狙いがある。AIがすぐに整った答えを返す環境では、「何を問うべきか」自体を考えるプロセスが省略されやすく、こうした構造的な思考の省略がAIネイティブ世代特有のパラドックスとして現れているという。SHIFTは毎年<strong>300</strong>人超の新卒を採用する上場企業で、今回の研修刷新は「技術スキルよりも先に課題を設定する力を鍛える」という育成方針の転換を示す。<strong>5</strong>分という短さは「AIを完全に排除する」のではなく「最初だけ自分で問いを立てる習慣をつくる」意図で設計されており、AI活用と自律思考のバランスを模索する企業の実践例として注目される。",
+          "sourceName": "日経ビジネス",
+          "sourceUrl": "https://business.nikkei.com/atcl/gen/19/00636/090300115/",
+          "tags": ["思考力", "AI活用", "エンジニア研修"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "三浦龍司、<strong>8</strong>分<strong>17</strong>秒<strong>36</strong>大会新で金メダル — 愛知・名古屋アジア大会3000m障害、<strong>28</strong>年ぶり日本人制覇・青木涼真も銀で<strong>56</strong>年ぶりワンツー",
+          "summary": "<strong>2026</strong>年<strong>9</strong>月<strong>28</strong>日、愛知・名古屋アジア大会の陸上競技・男子<strong>3000</strong>メートル障害決勝が行われ、三浦龍司（スバル）が<strong>8</strong>分<strong>17</strong>秒<strong>36</strong>の大会新記録で優勝した。デイリースポーツが同日報じた。日本選手としては<strong>1998</strong>年バンコク大会で内富恭則が制して以来<strong>28</strong>年ぶりの金メダル。同種目で青木涼真（Honda）も<strong>8</strong>分<strong>17</strong>秒<strong>60</strong>と大会新水準で続いて銀メダルを獲得し、日本勢のワンツーフィニッシュは<strong>1970</strong>年以来<strong>56</strong>年ぶりとなった。三浦はスタートから先頭集団を離れ、終始独走に近い形でレースを支配した。<strong>3000</strong>m障害はハードルの間を飛び越え水濠も越える複合種目で、瞬発力・持久力・技術の三要素が求められる。日本のアスリートが国際舞台の開催地国として地元で結果を出した形となり、アジア大会期間中の国内の注目を集めた。",
+          "sourceName": "デイリースポーツ",
+          "sourceUrl": "https://www.daily.co.jp/general/2026/09/28/0020870560.shtml",
+          "tags": ["スポーツ", "陸上競技", "アジア大会"]
+        }
+      ]
+    }
+  ]
+}
