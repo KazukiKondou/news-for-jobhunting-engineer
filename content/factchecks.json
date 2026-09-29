@@ -180,5 +180,12 @@
     "verdict": "unverifiable",
     "detail": "ファクトチェックキューAPI (https://news.kazukikondo.com/api/factcheck/queue) への接続がegressプロキシにより拒否された。FACTCHECK_TOKEN も未設定。キューに報告済み記事があったかどうか不明。",
     "action": "キュー取得不可のためスキップ。記事生成は続行。"
+  },
+  {
+    "slug": "2026-09-30-queue",
+    "ranOn": "2026-09-30",
+    "verdict": "unverifiable",
+    "detail": "ファクトチェックキューAPI (https://news.kazukikondo.com/api/factcheck/queue) は認証トークン (FACTCHECK_TOKEN) 未設定で HTTP 404 を返した。仕様 (routine-prompt.txt section 6.5 step1) に従い記事生成は続行。キューに報告済み記事があったかは不明。",
+    "action": "キュー取得不可のためスキップ。本日分 (2026-09-30) の記事7件を新規生成。"
   }
 ]
