@@ -1,0 +1,84 @@
+{
+  "date": "2026-09-30",
+  "label": "2026年9月30日 (水)",
+  "intro": "「GPT-<strong>6.1</strong> Sol」がAstra並みを<strong>5</strong>分の<strong>1</strong>で、AMDはフェイフェイ・リー氏のWorld Labsを<strong>82</strong>億ドル買収。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "OpenAI「GPT-<strong>6.1</strong> Sol」を投入 — 一部Astra並みの性能をトークン単価<strong>5</strong>分の<strong>1</strong>で、Ultrafast層はCodex最大<strong>8</strong>倍速",
+          "summary": "米OpenAIは<strong>2026</strong>年<strong>9</strong>月<strong>29</strong>日（現地時間）、DevDay 2026の初日基調講演でChatGPTと開発者API向けの上位モデル「GPT-<strong>6.1</strong> Sol」を投入した。ITmediaが<strong>30</strong>日早朝に報じた。エージェント型コーディングとコンピュータ操作でGPT-<strong>6</strong> Solを大きく上回り、フラッグシップ「Astra」相当の一部性能をトークン単価<strong>5</strong>分の<strong>1</strong>で提供する。API料金は入力<strong>100</strong>万トークン<strong>2</strong>ドル／出力<strong>10</strong>ドル、キャッシュ入力は<strong>0.1</strong>ドル（標準入力比<strong>95</strong>%減、GPT-<strong>6</strong> Solのキャッシュ比<strong>50</strong>%減）。ChatGPT Work／Codexでは同日からPlus・Pro・Business・Enterprise・Edu向けに提供、APIでは「gpt-<strong>6.1</strong>-sol」として呼び出す。同時発表の高速化オプション「Ultrafast」はCodexで従来比最大<strong>8</strong>倍のトークン生成速度を掲げ、月<strong>500</strong>ドルの最上位「Pro <strong>500</strong>」プランで利用できる。",
+          "sourceName": "ITmedia AI＋",
+          "sourceUrl": "https://www.itmedia.co.jp/aiplus/article/2609/30/2000001867/",
+          "tags": ["技術トレンド", "生成AI", "OpenAI"]
+        },
+        {
+          "position": 2,
+          "title": "Google Cloud、AIエージェント専用の隔離PostgreSQLを「PostgreSQL for agents in AlloyDB」として提供 — 数秒で払い出し、同時<strong>1,000</strong>読者超に自動スケール",
+          "summary": "米Google Cloudは<strong>2026</strong>年<strong>9</strong>月<strong>30</strong>日、AIエージェントの大量アクセスをプライマリDBから切り離す新サービス「PostgreSQL for agents in AlloyDB」を発表した。Publickeyが同日報じた。エージェントが要求するたびにサンドボックス化されたPostgreSQLインスタンスを数秒でプロビジョニングし、プライマリ／スタンバイ／リードレプリカのいずれからも完全に分離。処理が終わればゼロまで縮退する仕組みで、料金は稼働中だけ発生する。SQL全機能、全種インデックス、ベクトル検索・全文検索・空間検索が利用でき、同時<strong>1,000</strong>を超える読者への自動スケールも可能。「AIエージェントに本番DBへ直接クエリを投げさせるとサービスが劣化する」という運用課題に対する回答で、別途ETLで解析用DBを組む手間も省ける。現在はプレビュー提供で登録受付を開始した。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/google_cloudaipostgresqldbpostgresql_for_agents_in_alloydb.html",
+          "tags": ["技術トレンド", "Google Cloud", "PostgreSQL"]
+        },
+        {
+          "position": 3,
+          "title": "AMD、「空間知能」のWorld Labsを約<strong>82</strong>億ドルで買収 — フェイフェイ・リー氏がAMDのEVP兼チーフサイエンティスト就任、ロボティクス／フィジカルAI基盤へ",
+          "summary": "米AMDは<strong>2026</strong>年<strong>9</strong>月<strong>29</strong>日（現地時間）、フェイフェイ・リー氏率いるAI企業World Labsを株式交換で買収すると発表した。ITmediaが同日報じた。買収額は約<strong>82</strong>億ドル（約<strong>1.3</strong>兆円）、<strong>2026</strong>年内の完了を予定する（当局承認要）。World Labsはテキスト・画像・映像から<strong>3</strong>D環境を生成／再構成／シミュレーションする「空間知能（Spatial Intelligence）」モデルと、ロボット学習用シミュレータを開発している。買収後、リー氏はAMDのエグゼクティブVP兼チーフサイエンティストとしてリサ・スーCEO直下に就任、共同創業者のジャスティン・ジョンソン、ベン・ミルデンホール両氏はAMD傘下でWorld Labsチームを継続指揮する。狙いは推論・ロボティクス・フィジカルAIまで広がるAI活用の中身をハードウェア／ソフトウェア／システムのロードマップに取り込むこと。NVIDIA一強のAIハードウェア市場でAMDが「モデル理解」に踏み込む格好となる。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/29/2000001826/",
+          "tags": ["企業動向", "AMD", "M&A"]
+        },
+        {
+          "position": 4,
+          "title": "Anthropic、IPO目論見書<strong>261</strong>ページ中<strong>80</strong>ページを「リスク要因」に — 「モデルが停止に抵抗」など存亡リスクを明記、想定時価総額<strong>2</strong>兆ドル超",
+          "summary": "米AnthropicがIPO目論見書を提出し、<strong>2026</strong>年<strong>9</strong>月<strong>29</strong>日にロイターとITmediaが報じた。<strong>261</strong>ページの本文のうち事業説明<strong>48</strong>ページに対し、リスク要因は<strong>80</strong>ページと約<strong>1.7</strong>倍のボリュームを割く異例の構成で、AIが人類に「壊滅的な損害または存亡リスク」をもたらす可能性を明記した。具体リスクとして「モデルが停止に抵抗する」「情報を隠す・操作する」「自己保存的な振る舞いを見せる」を挙げ、より高性能なモデルと用途拡大により損害リスクは高まると論じる。<strong>2025</strong>年度売上は<strong>46</strong>億ドル（前年比<strong>12</strong>倍）、営業損失は<strong>80</strong>億ドル超、今後数年で<strong>5,180</strong>億ドルのインフラ投資を計画。想定時価総額はロイターによると<strong>2</strong>兆ドル超で、<strong>5</strong>月の調達時の<strong>9,650</strong>億ドルから倍以上になる可能性がある。安全性への責任を経営戦略の中核に据える立ち位置を、株式市場向けの一次資料で自ら宣言した形。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/29/2000001860/",
+          "tags": ["企業動向", "Anthropic", "IPO"]
+        },
+        {
+          "position": 5,
+          "title": "IIJ、新人エンジニア研修「IIJ Bootcamp」<strong>2026</strong>年版教材を無料公開 — Web基礎から生成AI活用まで<strong>20</strong>超の講義、GitHubでCC BY-SA配布",
+          "summary": "IIJ（インターネットイニシアティブ）は<strong>2026</strong>年<strong>9</strong>月<strong>29</strong>日、社内新人エンジニア向け研修「IIJ Bootcamp」の<strong>2026</strong>年版教材を無料公開した。ITmediaが同日報じた。開発ツール、モニタリング、DB、認証、セキュリティ、Git、Docker、Kubernetes、Reactの<strong>9</strong>カテゴリで<strong>20</strong>を超える講義を含み、「LLMでWebアプリケーションを作ろう」というチャットAIと対話しながら開発を進めるモジュールも含む。今年の対象は約<strong>70</strong>〜<strong>80</strong>名の新人エンジニアで、講師は社内ボランティア。教材はhttps://iij.github.io/bootcamp/ で閲覧でき、GitHubリポジトリにはCC BY-SAで置かれるため、出典表示と同ライセンス継承を条件に改変・再配布が可能。IIJ Bootcampは<strong>2019</strong>年から毎年の公開を続けている。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/29/2000001854/",
+          "tags": ["キャリア・働き方", "IIJ", "教育・研修"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "DHBR<strong>10</strong>月号「センスメイキング」特集の解説動画公開 — 早大・入山章栄氏、「世界標準の経営理論」連載最終回で日本発の視点を提示",
+          "summary": "DIAMONDハーバード・ビジネス・レビュー編集部は<strong>2026</strong>年<strong>9</strong>月<strong>29</strong>日、早稲田大学ビジネススクール教授の入山章栄氏による解説動画「マネジメント・トピックス入門セミナー」を公開した。<strong>9</strong>月<strong>16</strong>日収録。<strong>10</strong>月号特集「センスメイキング：リーダーは正解なき時代の『地図』をつくる」と、氏の看板連載「世界標準の経営理論」の最終回を同時に扱う。中核メッセージは「複雑化した組織課題では『正解のない意思決定』が常態化するため、リーダーは多様な専門性を束ねる意味づけ（センスメイキング）を通じてチームの合意形成と行動選択を促す必要がある」というもの。連載最終回では「世界標準の経営理論が日本発の視点でコペルニクス的転回を起こしうる」という視座を示す。センスメイキング理論の系譜には組織心理学者カール・ワイクの研究があり、情報量ではなく解釈のフレームで組織が動く条件を扱う議論として、AI時代の意思決定に読み替える手がかりとなる。",
+          "sourceName": "DIAMONDハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14887",
+          "tags": ["思考力", "経営理論", "センスメイキング"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "東京国立博物館、歌川広重の三大シリーズを全期揃えで見せる初の特別展 — 内山晋コレクション<strong>1,025</strong>点の受贈記念、<strong>12</strong>月<strong>20</strong>日まで",
+          "summary": "東京国立博物館は<strong>2026</strong>年<strong>9</strong>月<strong>29</strong>日、特別展「歌川広重 江戸のベストアングル」を本館A室で開幕した。会期は<strong>12</strong>月<strong>20</strong>日まで。同館初の本格的な広重展で、浮世絵研究者・内山晋氏（<strong>1893</strong>〜<strong>1980</strong>）から近年受贈した<strong>1,025</strong>点のコレクションが下敷きになる。広重の代表作である三大シリーズ「東海道五拾三次」（<strong>9</strong>/<strong>29</strong>〜<strong>10</strong>/<strong>25</strong>）、「木曽海道六拾九次」（<strong>10</strong>/<strong>27</strong>〜<strong>11</strong>/<strong>23</strong>）、「名所江戸百景」（<strong>11</strong>/<strong>25</strong>〜<strong>12</strong>/<strong>20</strong>）を各期に完全入替でそろえるのは国内外でも極めて稀。ゴッホやモネら西洋画家に影響を与えた広重が、季節・時刻・光の変化を「ベストアングル」でどう捉えたかを、保存状態のよい版で確認できる構成。一般<strong>1,500</strong>円（前売<strong>1,300</strong>円）、大学生<strong>500</strong>円。",
+          "sourceName": "美術手帖",
+          "sourceUrl": "https://bijutsutecho.com/magazine/news/exhibition/32401",
+          "tags": ["文化", "美術", "浮世絵"]
+        }
+      ]
+    }
+  ]
+}
