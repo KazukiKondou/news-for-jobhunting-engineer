@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-01",
+  "label": "2026年10月1日 (木)",
+  "intro": "Vite+／VinextでJS基盤の主導権が<strong>Cloudflare</strong>へ、Windowsは<strong>WSL Containers</strong>正式化、LINE VOOMは<strong>5</strong>年で幕。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "「Vite+ <strong>1.0</strong>」正式リリース — Vite／Vitest／Rolldown／Oxc／tsdown／pnpm型パッケージ管理を<strong>1</strong>コマンド「vp」に統合、CloudflareがJS基盤の主導権を握る",
+          "summary": "VoidZeroは<strong>2026</strong>年<strong>9</strong>月<strong>28</strong>日（現地時間）、JavaScriptの統合ツールチェーン「Vite+ <strong>1.0</strong>」を正式公開した。Publickeyが<strong>10</strong>月<strong>1</strong>日に報じた。ビルドツール「Vite」、テストランナー「Vitest」、Rust製バンドラ「Rolldown」、リンター「Oxc」、フォーマッター「tsdown」、Node.jsランタイムとパッケージマネージャまでを単一の<code>vp</code>コマンド／単一設定で扱える構成で、<code>vp create</code>で新規プロジェクト作成と既存プロジェクトの移行が可能。ライセンスはMIT。VoidZeroは<strong>2026</strong>年<strong>6</strong>月にCloudflareへ買収されており、この統合はAstro／Vite／VitestといったJS実行系がCloudflare傘下でひとまとまりに整備される流れの起点になる。「Web系のフロント側は結局どこの製品を使えばいいのか」という就活面接向けの整理に、Cloudflare×VoidZero軸で答えが立ちやすくなった。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/javascriptvite_10.html",
+          "tags": ["技術トレンド", "JavaScript", "Vite"]
+        },
+        {
+          "position": 2,
+          "title": "Cloudflare、Next.jsを他社サーバレスへ載せる「Vinext <strong>1.0</strong>」公開 — Next.js機能の<strong>99</strong>%対応、Cloudflare Workers／AWS Lambda／Netlifyへデプロイ可能、TurbopackをViteに置換",
+          "summary": "米Cloudflareは<strong>2026</strong>年<strong>9</strong>月<strong>28</strong>日（現地時間）、Next.jsアプリを複数のサーバレス基盤へデプロイできるビルドツール「Vinext <strong>1.0</strong>」を公開した。Publickeyが<strong>10</strong>月<strong>1</strong>日に報じた。Next.jsの主要機能の<strong>99</strong>%に対応し、App Router／Pages Router／SSG／SSR／ISRを含むハイブリッド構成をサポート。Cloudflare Workers、AWS Lambda、Netlifyに同一コードでデプロイできる。ビルドエンジンはVercelの「Turbopack」ではなくViteに置き換えられ、Cloudflare Workers上ではHyperdriveデータベース接続や画像最適化にも対応。<strong>6</strong>月のVoidZero買収に続く動きで、「Next.js＝Vercelでしか本来性能が出ない」という前提を崩す。事業会社側は<strong>2</strong>種類以上のクラウドを併用してもフロント基盤を統一しやすくなる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/vercelnextjscloudflare_workersaws_lambdavercelvinext_10.html",
+          "tags": ["技術トレンド", "Next.js", "Cloudflare"]
+        },
+        {
+          "position": 3,
+          "title": "Microsoft、「WSL Containers」を正式リリース — Windowsに標準でLinuxコンテナ実行、Docker等の追加インストール不要で<code>wslc</code>コマンドとAPIから操作",
+          "summary": "米Microsoftは<strong>2026</strong>年<strong>9</strong>月<strong>29</strong>日（現地時間）、Windows Subsystem for Linuxの新機能「WSL Containers」を正式リリースした。Publickeyが<strong>30</strong>日に報じた。DockerやPodmanなどのサードパーティ製ソフトを別途入れなくても、Windows上でLinuxコンテナを作成・実行できる。操作はコマンドライン「<code>wslc</code>」またはAPIから可能で、正式版では起動中コンテナの再起動「<code>wslc container restart</code>」、コンテナ環境参照「<code>wslc system info</code>」、ネットワークの接続・切断「<code>wslc network connect／disconnect</code>」が新たに追加。<strong>1</strong>つの設定ファイルで複数コンテナを定義する「<code>wslc compose</code>」も開発中。企業向けにはMicrosoft Intune／Microsoft Defender for Endpoint連携で一括管理が可能で、就活生が業務PCで最初に触るコンテナ環境がDocker Desktop以外にも広がる。導入は<code>wsl --update</code>またはGitHubから最新版を取得する。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/windowslinuxwsl_containersapi.html",
+          "tags": ["技術トレンド", "Microsoft", "WSL"]
+        },
+        {
+          "position": 4,
+          "title": "LINE VOOM、<strong>2026</strong>年<strong>9</strong>月<strong>30</strong>日午前<strong>11</strong>時にサービス終了 — 約<strong>5</strong>年で幕、跡地の「VOOM」タブは「ショッピング」タブに置換済み",
+          "summary": "LINEヤフーは<strong>2026</strong>年<strong>9</strong>月<strong>30</strong>日午前<strong>11</strong>時ごろ、LINEアプリ内のショート動画プラットフォーム「LINE VOOM」を終了した。ITmediaが同日報じた。<strong>2021</strong>年に旧「タイムライン」機能を刷新する形で始まり、約<strong>5</strong>年の歴史に幕。理由は「サービス提供体制の見直しおよび体験価値の再編」で、投稿の新規作成・閲覧、ストーリー、バースデーカード、フォロー機能が同時廃止。データバックアップの申請期間も<strong>9</strong>月<strong>30</strong>日で締め切られた。LINE公式アカウントの一部コンテンツは既存の「ホーム」タブで継続提供される。アプリ上の「VOOM」タブは<strong>9</strong>月<strong>1</strong>日から順次「ショッピング」タブへ置き換えられており、LINEギフトとYahoo!ショッピングの購買導線が主役になった。日本のスーパーアプリが「動画SNS」から「コマース」へ舵を切った象徴的な閉幕。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/30/2000001905/",
+          "tags": ["企業動向", "LINEヤフー", "サービス終了"]
+        },
+        {
+          "position": 5,
+          "title": "東京地裁、声優・津田健次郎さんのAI声模倣訴訟で「声もパブリシティー権の保護対象」と判断 — 無断使用動画は<strong>188</strong>本超・月収<strong>50〜75</strong>万円、生成AI時代の司法先例",
+          "summary": "東京地方裁判所は<strong>2026</strong>年<strong>9</strong>月<strong>30</strong>日、声優・津田健次郎さんが投稿者不明のTikTok動画運営に対し起こしていた訴訟で、「人の声も肖像と同様に個人の人格の象徴であり、パブリシティー権の保護対象になり得る」との判断を示した。ITmediaが同日報じた。氏名不詳の投稿者は<strong>2024</strong>年<strong>7</strong>月〜<strong>2025</strong>年<strong>9</strong>月、津田さんの声質に似せたナレーション付きショート動画を<strong>188</strong>本以上投稿し、<strong>21</strong>万人以上のフォロワーから月<strong>50</strong>万〜<strong>75</strong>万円の収益を得ていた。裁判所は「実演家の声を無断利用する行為が商業的な顧客吸引力を持つ場合、権利侵害に該当する」と述べる一方、該当動画がすでに削除されているため削除請求そのものは棄却した。日本では声の権利が明確に法定されておらず司法判断もほぼ無かったため、生成AIによる音声クローン利用に対する明確な先例となる。Web／SaaSの音声UI開発、AIボイスサービス、動画配信プラットフォームの利用規約はこの判断を踏まえた見直しが必要になる。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2609/30/2000001892/",
+          "tags": ["企業動向", "生成AI", "パブリシティー権"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "DHBR新連載「成人発達理論で考える部下の育て方」第<strong>32</strong>回 — 加藤洋平氏「同じ研修でも成果が割れるのは『意味づけの枠組み』の違い、人は『スキル×器』の<strong>2</strong>軸で見る」",
+          "summary": "DIAMONDハーバード・ビジネス・レビューは<strong>2026</strong>年<strong>10</strong>月<strong>1</strong>日、成人発達学者・加藤洋平氏による連載「成人発達理論で考える部下の育て方とリーダーの成長」第<strong>32</strong>回「研修後も変わらない新任マネジャーを成長させる、効果的な支援の進め方」を公開した。中核の主張は<strong>3</strong>点。第<strong>1</strong>に、同じ研修を受けても成長に差が出るのは、受講者が持つ「意味づけの枠組み（意識構造）」が違うからで、研修設計だけを磨いても解決しない。第<strong>2</strong>に、年次や役職が同じなら発達課題も同じという前提そのものが誤っており、年次別研修は限界を抱える。第<strong>3</strong>に、人材育成では業務知識・技術としての「スキル」と、物事を認識する「器（意識構造）」の<strong>2</strong>軸で現在地を見立て、個別に成長機会を設計する必要がある。就活生の目線で読み替えれば、「年次や職種が同じ相手＝自分と同じ思考をする」と決めつけない癖と、自分の「器」を意識的に太くする問いの持ち方を鍛える素材になる。",
+          "sourceName": "DIAMONDハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14850",
+          "tags": ["思考力", "成人発達理論", "人材育成"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "ESAの木星氷衛星探査機「Juice」、地球スイングバイに成功 — インド洋上空<strong>8,640</strong>kmを通過、進路を約<strong>20</strong>度変更・秒速<strong>3.5</strong>km加速、木星到着は<strong>2031</strong>年<strong>7</strong>月",
+          "summary": "欧州宇宙機関（ESA）の木星氷衛星探査機「Juice（JUpiter ICy moons Explorer）」は、日本時間<strong>2026</strong>年<strong>9</strong>月<strong>28</strong>日<strong>20</strong>時<strong>45</strong>分、インド洋上空<strong>8,640</strong>kmを最接近点に地球スイングバイを実施した。sorae.infoが<strong>30</strong>日に報じた。進行方向を約<strong>20</strong>度変更し、対地相対速度を秒速約<strong>3.5</strong>km加速。事前に用意された<strong>4</strong>週間の軌道修正機会<strong>6</strong>回のうち、実際に必要だったのはわずかな修正<strong>1</strong>回のみで、推進剤消費を最小限に抑えた「極めて精密な航法」だった。通過中は搭載<strong>10</strong>台の観測機器のテストと、地球磁気圏尾部の観測（中国との共同ミッション「Smile」衛星との連携観測）も併せて実施。最後の地球スイングバイは<strong>2029</strong>年<strong>1</strong>月、木星系到着は<strong>2031</strong>年<strong>7</strong>月、氷衛星ガニメデ周回軌道への投入は<strong>2034</strong>年<strong>12</strong>月以降を予定する。惑星科学の主戦場が「火星の次は木星系（生命探査）」へ動く長期プロジェクトの節目となった。",
+          "sourceName": "sorae",
+          "sourceUrl": "https://sorae.info/space/20260930-juice.html",
+          "tags": ["科学", "宇宙探査", "ESA"]
+        }
+      ]
+    }
+  ]
+}
