@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-02",
+  "label": "2026年10月2日 (金)",
+  "intro": "Spanner <strong>Omni</strong>がオンプレGA、AWS <strong>Strands</strong>でAIエージェント基盤がOSS化、ソフトバンクGがOpenAIに<strong>100</strong>億ドル追加投資。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Google Cloud、分散型マルチモデルDB「Spanner Omni」正式リリース — オンプレ・<strong>AWS</strong>・<strong>Kubernetes</strong>でも動作、単一リージョンで秒間数百万QPS、ベクトル検索も標準対応",
+          "summary": "Google Cloudは<strong>2026</strong>年<strong>9</strong>月<strong>30</strong>日（現地時間）、Google Cloud Spannerをクラウド外で動かせる「Spanner Omni」正式版をリリースした。Publickeyが<strong>10</strong>月<strong>2</strong>日に報じた。Paxosコンセンサス・自動シャーディング・同期レプリケーションを継承しつつ、ColossusやTrueTimeをソフトウェアで等価実装し、リレーショナル／グラフ／キーバリュー／ベクトル検索／テキスト検索を単一エンジンで扱える。単一リージョンで秒間数百万QPS、ペタバイト級データに対応し、AIワークロード向けの<code>kNN</code>／<code>ANN</code>検索も標準搭載。対応環境はLinux（RHEL <strong>9</strong>、Ubuntu <strong>22</strong>）／macOS（M1／M2／M3）／GCP・AWSのVM／Kubernetes Pod。無料Developer Editionは<strong>90</strong>日限定、Commercial Editionは年間vCPUサブスクで提供。<strong>6</strong>月のVoidZero買収に続く、「クラウド固有要素を外に持ち出す」Google側の一手で、マルチクラウド前提のWeb系事業会社でも「Spannerの一貫性＋オンプレ運用」が選択肢に入る。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/google_clouddbspanner_omni.html",
+          "tags": ["技術トレンド", "Google Cloud", "データベース"]
+        },
+        {
+          "position": 2,
+          "title": "AWS、AIエージェント構築ハーネス「Strands」をオープンソース公開 — Bedrock・Claude・GPT・Gemini・Ollama・LiteLLMに差し替え可、Linuxコンテナならどこでもデプロイ",
+          "summary": "米AWSは<strong>2026</strong>年<strong>9</strong>月<strong>29</strong>日（現地時間）、AIエージェントを自作できるツール「Strandsハーネス」をオープンソースで公開した。Publickeyが同日報じた。目標やコンテキストを長期的に記憶する「ハーネス」部分とLLM本体を分離した設計で、Amazon Bedrock・Anthropic Claude・OpenAI GPT・Google Gemini・Ollama・LiteLLMを後から差し替え可能。Linuxコンテナを備えた環境であればどこでも動かせる。社内ベンチマーク「Fable <strong>5</strong>」ではClaude Codeと同じ<strong>69.7</strong>のスコアを低コストで達成したとする。公式サイトは <code>strandsagents.com</code>。特定LLMにロックインされずエージェント基盤を自前で持ちたいWeb／SaaS企業が、「どのモデルを使い続けるか」を後から選べる構図になる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/awsaistrandsllm.html",
+          "tags": ["技術トレンド", "AWS", "OSS", "AIエージェント"]
+        },
+        {
+          "position": 3,
+          "title": "ソフトバンクG、OpenAIへ<strong>100</strong>億ドル追加出資を実行 — 累計<strong>646</strong>億ドル・株式約<strong>13</strong>%保有、総額<strong>300</strong>億ドル追加出資契約の最終弾",
+          "summary": "ソフトバンクグループは<strong>2026</strong>年<strong>10</strong>月<strong>1</strong>日、米OpenAIの営利部門に<strong>100</strong>億ドルの追加出資を実行したと発表した。ITmediaが同日報じた。ソフトバンク・ビジョン・ファンド<strong>2</strong>経由で総額<strong>300</strong>億ドルを追加出資する契約の最終第<strong>3</strong>弾で、原資は社債発行による調達分を充当。累計出資額は<strong>646</strong>億ドル（約<strong>10.2</strong>兆円）に達し、OpenAIの発行済株式の約<strong>13</strong>％を保有することになる。契約上は上場見込みがあれば前倒し支払いの可能性もあったが、OpenAIが「AIの安全性対応を優先する」として<strong>2026</strong>年中の上場を見送ったため、予定通りの実行となった。日本発テック勢で最大規模のAIインフラ投資ポジションが固まる。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2610/01/2000001944/",
+          "tags": ["企業動向", "ソフトバンクG", "OpenAI"]
+        },
+        {
+          "position": 4,
+          "title": "Yahoo!ショッピング、PayPay残高支払いの付与率を<strong>10</strong>月<strong>1</strong>日から<strong>3.5</strong>％→<strong>2.5</strong>％に引き下げ — PayPayカード決済側は<strong>5</strong>％維持、クレカ経済圏へ誘導鮮明",
+          "summary": "LINEヤフーは<strong>2026</strong>年<strong>10</strong>月<strong>1</strong>日<strong>0</strong>時、Yahoo!ショッピングの「LINEと連携で毎日もらえる」キャンペーンにおけるPayPay残高等支払いの付与率を<strong>3.5</strong>％から<strong>2.5</strong>％に引き下げた。<strong>8</strong>月<strong>12</strong>日のお知らせで事前告知済み。一方でPayPayカード・PayPayクレジット・PayPayカード ゴールド経由の支払いは付与率<strong>5</strong>％を維持しており、残高払いユーザーをクレカ発行側へ誘導する設計がより鮮明になった。<strong>2026</strong>年夏に始まったLINE月間利用者<strong>1</strong>億人×PayPay登録<strong>7,400</strong>万人のアカウント連携でユーザー基盤を広げた直後に、課金単価の高いクレカ経済圏へ寄せる位置取り。日本のスーパーアプリが「送金・ポイント」から「与信・決済」で稼ぐモデルへ軸足を移す動き。",
+          "sourceName": "Yahoo!ショッピング 公式",
+          "sourceUrl": "https://topics.shopping.yahoo.co.jp/notice/archives/202608121855.html",
+          "tags": ["企業動向", "LINEヤフー", "PayPay"]
+        },
+        {
+          "position": 5,
+          "title": "freee、エンジニア向け無料テックカンファレンス「freee 技術の日 <strong>2026</strong>」を<strong>10</strong>月<strong>3</strong>日に開催 — <strong>4</strong>回目、現地＋YouTube Live、MCPサーバーハンズオンと海外企業クロストーク",
+          "summary": "freeeは<strong>2026</strong>年<strong>9</strong>月<strong>3</strong>日、エンジニア向けテックカンファレンス「freee 技術の日 <strong>2026</strong>」を<strong>10</strong>月<strong>3</strong>日（金）に大崎本社とYouTube Liveのハイブリッドで無料開催すると発表した。今年で<strong>4</strong>回目で、前回「freee 技術の日 2025」の参加者満足度は<strong>10</strong>点中<strong>8.9</strong>点。セッション、ポスターセッション、MCPサーバーハンズオン、AI時代の世界的企業とのクロストーク、オフィスツアーを提供する。学生には交通費補助あり。会場は東京都品川区大崎<strong>1-2-2</strong> アートヴィレッジ大崎セントラルタワー<strong>19</strong>F／<strong>21</strong>F。公式サイトは <code>freee-tech-day.freee.co.jp/2026/</code>。前日のうちに開発に興味がある学生の視線を集められる、国内Web系の年次イベント。",
+          "sourceName": "PR TIMES (freee)",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000002143.000006428.html",
+          "tags": ["カンファレンス", "freee", "エンジニア向け"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "DHBR「AIエージェントの本当の価値は『時短』ではない」 — ジェレミー・ヤンら、「情報を返すAI」から「成果物を返すエージェント」へ、人間の役割は『実行から委任と監督へ』",
+          "summary": "DIAMONDハーバード・ビジネス・レビュー電子版は<strong>2026</strong>年<strong>10</strong>月<strong>2</strong>日、ジェレミー・ヤン／ケイト・ジコウスキー／ノア・ヨナック／ジェリー・マ共著の論考「AIエージェントの本当の価値は『時短』ではない」（翻訳：矢羽野薫）を公開した。中核の主張は、AIエージェントの意義は作業時間の削減ではなく、人間が「取り組める仕事の範囲そのもの」を広げる点にあるというもの。たとえば競合調査では、従来型のAIツールは「関連リンクの一覧を返す」までに留まり、人がそれを資料化していた。一方エージェントは「完成したスプレッドシート、グラフ、メモ草案」を返す。管理者の課題もシフトし、「削減時間を別業務に振り向ける効率化」から、「仕事内容そのものを再設計し、人は実行者ではなく委任と監督を担う」ことへと焦点が移る。日々の業務を『どのタスクを委ねられるか／監督の勘所はどこか』で読み替えるフレームが得られる。",
+          "sourceName": "DIAMONDハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14664",
+          "tags": ["思考力", "AI", "組織"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "モロッコ国王、初の女性首相にファティマ・マンスーリ氏（<strong>50</strong>）を任命 — <strong>9</strong>月下院選で第1党になった真正現代党（PAM）共同代表、弁護士出身・マラケシュ市長を経験、連立組閣へ",
+          "summary": "モロッコのモハメド<strong>6</strong>世国王は<strong>2026</strong>年<strong>9</strong>月<strong>29</strong>日、同国初の女性首相にファティマ・マンスーリ氏（<strong>50</strong>）を任命し組閣を命じた。時事通信は<strong>30</strong>日に報じた。マンスーリ氏は<strong>9</strong>月に実施された下院選で第1党となった中道右派のリベラル系「真正現代党（PAM）」の共同代表で、弁護士出身。これまで都市計画相やマラケシュ市長を務めた。PAMの獲得議席は<strong>97</strong>で過半数には届かないため、他党と連立政権を組む必要がある。マンスーリ氏は「全員に誇り」とコメントした。北アフリカ・アラブ圏で女性が最高行政職に就く例は依然として少なく、民主化が緩やかに進むモロッコで王制下の立憲君主制が「女性首相」を初めて受け入れた歴史的な節目になる。",
+          "sourceName": "時事通信",
+          "sourceUrl": "https://www.jiji.com/jc/article?k=2026093000507&g=int&m=rss",
+          "tags": ["国際情勢", "モロッコ", "ジェンダー"]
+        }
+      ]
+    }
+  ]
+}
