@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-03",
+  "label": "2026年10月3日 (土)",
+  "intro": "JS統合ツール<strong>Vite+ 1.0</strong>とCloudflare版Next.jsの<strong>Vinext 1.0</strong>が揃って登場、国内では<strong>Claude Sonnet 5.5</strong>とGPT-6.1 Solが商用利用解禁。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "VoidZero、JavaScript統合ツールチェーン「Vite+ <strong>1.0</strong>」を正式リリース — ランタイム・パッケージ管理・ビルド・リンター・フォーマッターを<code>vp</code>1コマンドに統合、週次DL<strong>200</strong>万・公開リポジトリ<strong>2,600</strong>件で始動",
+          "summary": "Cloudflare傘下のVoidZeroは<strong>2026</strong>年<strong>9</strong>月<strong>28</strong>日（現地時間）、JavaScriptの統合ツールチェーン「Vite+ <strong>1.0</strong>」を正式リリースした。Publickeyが<strong>10</strong>月<strong>1</strong>日に報じた。Vite／Vitest／Rolldown／Oxc／tsdownを束ね、Node.jsランタイム・パッケージマネージャー・ビルドツール・リンター・フォーマッターをすべて単一の<code>vp</code>コマンドから操作できる。設定も1本に統一され、プロジェクトごとにツール別のconfigを書き分ける必要がなくなる。すでに週間ダウンロード数は約<strong>200</strong>万、GitHub上で<strong>2,600</strong>以上の公開リポジトリで利用済み。MITライセンスで、<strong>2026</strong>年<strong>6</strong>月にVoidZeroを買収したCloudflareが長期サポートを担う。Web系フロントで「ツール選びと設定地獄」を就活生に代わってベンダー側が引き受ける流れが明確になった。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/javascriptvite_10.html",
+          "tags": ["技術トレンド", "JavaScript", "OSS", "Vite"]
+        },
+        {
+          "position": 2,
+          "title": "Cloudflare、Next.jsをVercel以外のサーバーレスにデプロイする「Vinext <strong>1.0</strong>」をリリース — Cloudflare Workers／AWS Lambda／Netlifyに対応、Hyperdrive＋画像最適化込みで切替可能",
+          "summary": "Cloudflareは<strong>2026</strong>年<strong>10</strong>月<strong>1</strong>日（現地時間）、Next.jsアプリをVercel以外のサーバーレス基盤へデプロイできるオープンソースツール「Vinext <strong>1.0</strong>」をリリースした。Publickeyが同日報じた。対応先はCloudflare Workers、AWS Lambda、Netlify。Cloudflare Workersへデプロイした場合は、同社のHyperdriveによる外部DB接続、画像最適化、エッジキャッシュがそのまま使える。<strong>6</strong>月のVoidZero買収に続く「フロントエンドを特定ベンダーに閉じ込めない」方向の一手で、Vercelロックインを嫌うSaaS系スタートアップが実運用の選択肢を増やす格好。<strong>Vite+ 1.0</strong>と同じ週に揃って出たことで、「どのホスティングで動かすか」を就活後に自分で選びやすい時代が加速する。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/vercelnextjscloudflare_workersaws_lambdavercelvinext_10.html",
+          "tags": ["技術トレンド", "Next.js", "Cloudflare", "OSS"]
+        },
+        {
+          "position": 3,
+          "title": "FlashLabs、AI推論ゲートウェイ「OrcaRouter」で「GPT-6.1 Sol」「Claude Sonnet 5.5」の提供を開始 — 100万トークン文脈・128K出力、入力<strong>$2</strong>/出力<strong>$10</strong>（100万トークン）、国内請求書対応",
+          "summary": "AIプラットフォームのFlashLabsは<strong>2026</strong>年<strong>10</strong>月<strong>2</strong>日、米Continuum AIが提供するAI推論ゲートウェイ「OrcaRouter」経由で、OpenAI最新「GPT-<strong>6.1</strong> Sol」とAnthropic最新「Claude Sonnet <strong>5.5</strong>」の国内提供を開始した。両モデルはそれぞれ<strong>9</strong>月<strong>29</strong>日と<strong>9</strong>月<strong>28</strong>日にリリースされた直後の商用解禁。コンテキスト長<strong>100</strong>万トークン、最大出力<strong>128,000</strong>トークン、テキスト・画像・ファイル入力に対応し、推論レベルは<strong>5</strong>段階で調整できる。価格は共通で入力<strong>$2.00</strong>／出力<strong>$10.00</strong>（<strong>100</strong>万トークン）。GPT-6.1 Solは<strong>272,000</strong>トークン超で入力$4／出力$15へスライド。<strong>200</strong>以上のモデルをOpenAI互換APIで切り替えでき、国内企業は日本円の請求書払いで最先端モデルを単一ゲートウェイで横断利用できる。",
+          "sourceName": "PR TIMES (FlashLabs)",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000104.000138449.html",
+          "tags": ["企業動向", "AI", "FlashLabs", "LLM"]
+        },
+        {
+          "position": 4,
+          "title": "LayerX、営業組織向けAI「バクラク セールスAI」クローズドβを公開 — 商談情報の蓄積・分析からAIロープレまでワンストップ、<strong>3</strong>年の社内実践を反映、Google Workspace企業対象",
+          "summary": "LayerXは<strong>2026</strong>年<strong>10</strong>月<strong>2</strong>日、営業組織向けAIサービス「バクラク セールスAI」のクローズドβ版の事前登録受付を開始した。約<strong>3</strong>年にわたる同社の営業組織での内製運用をベースに外販化したもので、商談情報の蓄積・分析から、実案件を想定したAIによるロールプレイング（AIロープレ）までを単一プロダクトで提供する。クローズドβは無料で、約<strong>2</strong>週間の無料トライアル枠を設定。対象企業はGoogle Workspaceを利用していることが条件で、事前登録企業からのフィードバックを順次反映しながら正式提供を目指す。バクラクシリーズは経費精算・請求書・カード・契約管理に続いて「売る側のオペレーション」まで領域を拡大、SaaS事業会社志望者が「全職種にAIが浸透する現場」を具体像で描ける題材になる。",
+          "sourceName": "PR TIMES (LayerX)",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000650.000036528.html",
+          "tags": ["企業動向", "LayerX", "SaaS", "営業AI"]
+        },
+        {
+          "position": 5,
+          "title": "「Kaigi on Rails <strong>2026</strong>」が<strong>10</strong>月<strong>16</strong>〜<strong>17</strong>日に渋谷で開催決定 — 基調講演にRails生みの親DHHと、Ruby生みの親まつもとゆきひろ氏が同時登壇、オンライン併用のハイブリッド",
+          "summary": "Rails開発者コミュニティによる技術カンファレンス「Kaigi on Rails <strong>2026</strong>」が<strong>2026</strong>年<strong>10</strong>月<strong>16</strong>日（金）・<strong>17</strong>日（土）、東京・渋谷のベルサール渋谷ガーデンで開催される。公式サイトで発表された。基調講演はRuby on Rails作者のDavid Heinemeier Hansson（DHH）氏と、Ruby作者のまつもとゆきひろ氏が同時に登壇する目玉構成。会場参加とオンライン配信のハイブリッド形式で、スポンサー枠は募集終了済み。参加申込みは <code>ti.to/kaigionrails/2026</code> から受付中。Shopify・GitHub・freee・MoneyForwardなどのRails採用企業が集中するイベントで、Rails系Web事業会社への就職を考える学生にとっては、二大作者を一度に見られる珍しい機会になる。",
+          "sourceName": "Kaigi on Rails 公式",
+          "sourceUrl": "https://kaigionrails.org/2026/",
+          "tags": ["カンファレンス", "Ruby on Rails", "Ruby"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "DHBR「ドラッカーが説く『時間と労力と資源』を集中させる重要性」 — 上田惇生×佐藤等、「集中するほど、やれる仕事の数と種類はむしろ増える」の逆説と、知識投資による“未来の資源”の作り方",
+          "summary": "DIAMONDハーバード・ビジネス・レビュー電子版は<strong>2026</strong>年<strong>10</strong>月<strong>1</strong>日、上田惇生氏（故ドラッカー公認・日本語版翻訳者）と佐藤等氏（ドラッカー学会）による連載「ドラッカーが説く『時間と労力と資源』を集中させる重要性」を公開した。核になる主張は、ドラッカーの「時間と労力と資源を集中するほど、実際にやれる仕事の数と種類はむしろ多くなる」というパラドックス。やみくもに手を広げると結局どれも中途半端になり、絞ったほうが「対応できる仕事の範囲」が広がるという構造を示す。もう一つの柱が「知識は未来の資源」で、現時点で成果に直結しない学びでも、幅広く深くストックしておくことで、将来扱えるタスクの集合そのものが広がると説く。日々の勉強・サークル・バイトを「今の成果」ではなく「数年後に自分が引き受けられる仕事の面積」で評価し直すレンズが得られる。",
+          "sourceName": "DIAMONDハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14816",
+          "tags": ["思考力", "ドラッカー", "キャリア"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "日本科学未来館、「科学コミュニケーターと楽しむノーベル賞<strong>2026</strong>」を<strong>10</strong>月<strong>5</strong>〜<strong>7</strong>日にライブ配信 — 医学・物理・化学の自然科学<strong>3</strong>賞を発表直後に専門家が解説、ニコ生・YouTube無料視聴",
+          "summary": "日本科学未来館は<strong>2026</strong>年<strong>10</strong>月<strong>5</strong>日（月）〜<strong>7</strong>日（水）、ノーベル自然科学<strong>3</strong>賞（生理学・医学賞／物理学賞／化学賞）の発表に合わせたオンライン番組「科学コミュニケーターと楽しむノーベル賞<strong>2026</strong>」を各日<strong>17</strong>時<strong>30</strong>分〜<strong>19</strong>時<strong>00</strong>分に配信する。会場はなく、ニコニコ生放送とYouTube Liveの同時配信で、視聴は無料。発表直後の受賞テーマを、未来館の科学コミュニケーターがその日のうちに平易な日本語で読み解く構成で、受賞研究が社会やくらしとどうつながっているかまで追う。普段<strong>IT</strong>・ソフトウェア中心に情報を取っている就活生にとって、科学トップ領域の「どんな問いに賞が付くか」を数日間追体験できる、年に一度の視野拡張の機会になる。",
+          "sourceName": "日本科学未来館 公式",
+          "sourceUrl": "https://www.miraikan.jst.go.jp/news/press/202609144742.html",
+          "tags": ["科学", "ノーベル賞", "教養"]
+        }
+      ]
+    }
+  ]
+}
