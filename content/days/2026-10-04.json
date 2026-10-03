@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-04",
+  "label": "2026年10月4日 (日)",
+  "intro": "Google<strong>Gemini 4 Argon</strong>・Microsoft<strong>MAI-Transcribe-2-Streaming</strong>・Meta<strong>Muse Gadgets</strong>がAI基盤・音声・自作デバイス向けに同週で出揃った。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Google、フロンティア新モデル「Gemini <strong>4</strong> Argon」発表 — 出力上限<strong>100</strong>万トークン、DeepSWE <strong>77.9</strong>％・CWE-bench <strong>68</strong>％、サイバー防御組織に先行提供",
+          "summary": "Googleは<strong>2026</strong>年<strong>9</strong>月<strong>30</strong>日（現地時間）、フロンティアモデルの新顔「Gemini <strong>4</strong> Argon」を発表した。ITmediaが<strong>10</strong>月<strong>1</strong>日に報じた。最大出力は従来の<strong>64,000</strong>トークンから一気に<strong>100</strong>万トークンへ拡大し、長時間ワークフローに特化。ソフトウェア開発能力の「DeepSWE v1.1」で<strong>77.9</strong>％、業務自動化「AutomationBench」で<strong>51.3</strong>％、脆弱性修正の「CWE-bench v1」で<strong>68</strong>％を記録し、いずれも首位水準。初期は「Fairwind Program」経由でサイバー防御組織と米政府に限定提供し、安全対策を積み増しながら段階的に拡大する。APIの導入期間価格は入力<strong>2</strong>ドル／出力<strong>10</strong>ドル（<strong>100</strong>万トークン）。<strong>9</strong>月末のOpenAI「GPT-6.1 Sol」投入に続く形で、Web系の長文業務／コーディング／セキュリティ領域で基盤モデル競争の軸がはっきりしてきた。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2610/01/2000001912/",
+          "tags": ["技術トレンド", "AI", "Google", "Gemini"]
+        },
+        {
+          "position": 2,
+          "title": "Microsoft、初のストリーミング文字起こしモデル「MAI-Transcribe-<strong>2</strong>-Streaming」公開 — <strong>60</strong>言語自動判別・<strong>100</strong>ミリ秒応答、精度1位（Artificial Analysis評価）",
+          "summary": "Microsoftは<strong>2026</strong>年<strong>10</strong>月<strong>1</strong>日（現地時間）、同社初のストリーミング型音声認識モデル「MAI-Transcribe-<strong>2</strong>-Streaming」を公開した。ITmediaが<strong>10</strong>月<strong>2</strong>日に報じた。<strong>60</strong>言語に対応し、話者の言語を自動で判別。音声受信から約<strong>100</strong>ミリ秒で暫定の認識結果を返す低遅延設計で、AI評価機関「Artificial Analysis」の精度評価で<strong>1</strong>位を獲得した。Microsoft FoundryでパブリックプレビューされるほかMAI PlaygroundとVercelでも利用でき、年末まで導入価格として音声<strong>1</strong>時間あたり<strong>0.54</strong>ドル。音声エージェント向けデモ「Chatter」も同時公開。<strong>23</strong>言語対応の合成音声「MAI-Voice-<strong>2.1</strong>」（<strong>100</strong>万文字<strong>22</strong>ドル）と高速版「MAI-Voice-<strong>2.1</strong>-Flash」（同<strong>15</strong>ドル）もラインアップに並び、カスタマーサポート／議事録／字幕まわりのSaaSを設計する就活生にとって「どのレイヤを自作し、どこをモデルAPIに任せるか」の線引きが具体化した。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2610/02/2000001950/",
+          "tags": ["技術トレンド", "AI", "Microsoft", "音声"]
+        },
+        {
+          "position": 3,
+          "title": "Meta、AIエージェント「Muse」連携の自作ガジェットSDK「Muse Gadgets」を<strong>Apache 2.0</strong>で公開 — ESP32・<strong>Raspberry Pi 5</strong>対応、Device SDK２本をGitHub配布",
+          "summary": "Metaは<strong>2026</strong>年<strong>10</strong>月<strong>2</strong>日（現地時間）、AIエージェント「Muse」と接続する自作デバイス向けプロジェクト「Muse Gadgets」を発表した。ITmediaが<strong>10</strong>月<strong>3</strong>日に報じた。ESP32系ボードと<strong>Raspberry Pi 5</strong>／Linux環境を対象に、「ESP32 Device SDK」と「Linux Device SDK」の<strong>2</strong>本を<strong>Apache License 2.0</strong>でGitHubに公開。Waveshareの円形タッチディスプレイ搭載基板「ESP32-S3-Touch-AMOLED-<strong>1.75</strong>C」などのリファレンス機、HDMI接続型スティックデバイスも近日提供予定。純正ハブ「Muse Home Link」も用意され、米国の<strong>Muse</strong>契約者には<strong>1</strong>人<strong>1</strong>台無料で<strong>10</strong>月から先着順配布。Discordに開発者コミュニティを設置し、工作例を <code>#projects</code> で共有する運用。<strong>LLM</strong>がついに「スマホ以外のハード」に素のSDKで降りてきた日と言えて、SaaSだけでなくIoT／ハード統合プロダクトを志望する学生にも題材が増える。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2610/03/2000001984/",
+          "tags": ["技術トレンド", "OSS", "Meta", "AIエージェント"]
+        },
+        {
+          "position": 4,
+          "title": "SIE、PS5向けAIアップスケーラ「QSSR」発表 — AMD共同「Project Amethyst」の成果、「Marvel's Wolverine」「Ghost of Yōtei」で<strong>10</strong>月<strong>1</strong>日からパッチ配信、通常PS5にも展開",
+          "summary": "ソニー・インタラクティブエンタテインメント（SIE）は<strong>2026</strong>年<strong>10</strong>月<strong>1</strong>日（現地時間）、PlayStation <strong>5</strong>向けのAI画質向上技術「QSSR（Quality Super Sampling Resolution）」を発表した。ITmediaが<strong>10</strong>月<strong>2</strong>日に報じた。AMDとの共同プロジェクト「Project Amethyst」から派生し、ニューラルネットワーク構造の簡素化とPS5専用のチューニングで、これまでPS <strong>5</strong> Pro限定だったAIアップスケーリングを通常のPS <strong>5</strong>にも降ろす。初対応はInsomniac Gamesの「Marvel's Wolverine」とSucker Punch Productionsの「Ghost of Yōtei」で、同日からパッチ配信を開始。Insomniacの技術責任者は「街並みや路地がピクセルレベルで鮮明かつ安定した描画になる」とコメントした。SIEは今後、QSSRをすべてのPlayStation向けデベロッパーに提供予定。コンソールゲーム・ライブサービス運営企業を志望する学生には「AIがランタイム側に組み込まれる現場」の具体例になる。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2610/02/2000001946/",
+          "tags": ["技術トレンド", "AI", "SIE", "PlayStation"]
+        },
+        {
+          "position": 5,
+          "title": "Apple、macOSの「フルディスクアクセス」に追加の明示的制御を導入へ — AIエージェントの自律実行時代に向け、ファイル・メール・ブラウザ履歴の一括開放を抑止",
+          "summary": "Appleは<strong>2026</strong>年<strong>10</strong>月<strong>2</strong>日、macOSのプライバシー設定にある「フルディスクアクセス」権限について、追加の制御を導入すると発表した。ITmediaが<strong>10</strong>月<strong>3</strong>日に報じた。これまでチェックひとつで渡していた「ユーザーのホーム全部に触れる権限」を、より明示的な操作ステップとリスク告知を経ないと付与できないよう改める。狙いは、ファイル／メール／メッセージ／ブラウザ閲覧履歴へ横断的にアクセスするAIエージェント・アプリの登場で、「気付かぬうちに全部覗ける状態」を作らせないこと。Appleは「AIエージェントの能力と自律性が高まるにつれ、この種のアクセスに伴うリスクは大幅に増す」と説明する。対象はすべてのmacOSアプリで、具体的な導入バージョンや時期は未発表。SaaS・デスクトップエージェント・RPAを作る側は、権限モデルを「全部よこせ」から「必要スコープのみ」に書き替える前提で設計する時代に入る。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2610/03/2000001983/",
+          "tags": ["技術トレンド", "セキュリティ", "Apple", "macOS"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "DHBR「正しさだけでは人は動かないのか — ビジョンに必要な<strong>2</strong>つの要素」 — 児玉教仁氏、ベニスの「マネジャーは物事を正しく、リーダーは正しいことを」を軸に、「したたかさ」と「正しさ」の両立を説く",
+          "summary": "DIAMONDハーバード・ビジネス・レビュー電子版は<strong>2026</strong>年<strong>10</strong>月<strong>4</strong>日、グローバルアストロラインズ代表の児玉教仁氏による論考「正しさだけでは人は動かないのか — ビジョンに必要な<strong>2</strong>つの要素」を公開した。中核は、人を動かすビジョンには相反する<strong>2</strong>軸が同時に要るという主張。ひとつは「したたかさ（実利性）」、つまり頭を納得させるビジネス上の競争優位と確実な利益。もうひとつは「正しさ（価値観）」、組織が本気で守ると言い切れる倫理的・道徳的正当性。ウォレン・ベニスの「マネジャーは物事を正しく行い、リーダーは正しいことを行う」という古典的区別を引きながら、両者はトレードオフではなく、両立していないとビジョンは迫力を失うと説く。具体例として海外拠点のシフト改革が挙げられ、生産性という実利と「最高の環境を同僚に与えたい」という価値観の合わせ技が、現場を動かした要因だったと示す。就活のES・面接で「自分がやりたいこと」を語るとき、きれいごとと数字の片方だけで組み立てていないか、を点検するレンズになる。",
+          "sourceName": "DIAMONDハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14851",
+          "tags": ["思考力", "リーダーシップ", "ビジョン", "DHBR"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "東京都、新文化芸術祭「ARTE TOKYO」が<strong>10</strong>月<strong>10</strong>日開幕 — <strong>12</strong>月<strong>31</strong>日まで約<strong>3</strong>カ月、臨海／日比谷・丸の内／代々木・渋谷の<strong>3</strong>コアエリアで展開、六本木アートナイト等が参画",
+          "summary": "東京都および東京国際文化芸術祭実行委員会（委員長：青柳正規氏）は、都市型の国際文化芸術祭「ARTE TOKYO（東京国際文化芸術祭）」のプログラム・ラインアップを発表した。<strong>2026</strong>年<strong>10</strong>月<strong>10</strong>日（土）から<strong>12</strong>月<strong>31</strong>日（木）までの約<strong>3</strong>カ月間、臨海エリア／日比谷・丸の内エリア／代々木・渋谷エリアの<strong>3</strong>つを「コアエリア」として、街そのものを会場に展開する初開催のフェスティバル。構成は「コアプログラム（実行委主催）」「ハイライトプログラム（官民団体主催）」「パートナープログラム（公募）」の<strong>3</strong>層で、六本木アートナイト・アートウィーク東京・東京国際映画祭などが参画。現代サーカス「ARTE TOKYO CIRCUS」や、夜の浜離宮恩賜庭園を会場にしたアートプロジェクトも組まれる。<strong>IT</strong>・ソフトウェア中心に情報を取っていると触れにくい都市デザイン／パブリックアート／観光政策のレイヤを、通勤・通学ついでに体感できる秋になる。",
+          "sourceName": "東京都 公式",
+          "sourceUrl": "https://www.metro.tokyo.lg.jp/information/press/2026/07/2026070205",
+          "tags": ["文化", "アート", "東京"]
+        }
+      ]
+    }
+  ]
+}
