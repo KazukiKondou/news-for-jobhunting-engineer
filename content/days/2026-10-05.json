@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-05",
+  "label": "2026年10月5日 (月)",
+  "intro": "Rust <strong>1.99.0</strong>が<strong>10</strong>月<strong>1</strong>日公開、Supabaseが<strong>10</strong>月<strong>5</strong>日にTurso買収を発表、ノーベル生理学・医学賞は<strong>10</strong>月<strong>5</strong>日<strong>18</strong>:<strong>30</strong>発表。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Rust <strong>1.99.0</strong>、<strong>10</strong>月<strong>1</strong>日に正式リリース — extern \"C\" variadics安定化、<strong>13</strong> APIを安定化、生ポインタからsize/alignを取得可能に",
+          "summary": "Rust Projectは<strong>2026</strong>年<strong>10</strong>月<strong>1</strong>日、Rust <strong>1.99.0</strong>を正式リリースした。目玉は<code>extern \"C\"</code> variadicsの安定化で、Rustから C-ABI互換の可変長引数関数を直接定義できるようになる(従来は <code>c_variadic</code> feature gate が必要だった)。raw pointer から size/align を安全に取り出せる<strong>3</strong>関数も安定化され、sized/unsizedの両方に対応。<code>IntoIterator for Box&lt;[T; N]&gt;</code>、<code>VecDeque::retain_back</code>、<code>Vec::into_parts</code>／<code>from_parts</code>、ファイルシステム時刻設定の<code>set_times</code>など計<strong>13</strong>個のAPIが安定化された。<code>Box::leak</code>のドキュメントも更新され、未来のコンパイラ最適化と干渉するためround-trip unleakパターンは非推奨になった。",
+          "sourceName": "The Rust Programming Language Blog",
+          "sourceUrl": "https://blog.rust-lang.org/2026/10/01/Rust-1.99.0/",
+          "tags": ["技術トレンド", "Rust", "OSSリリース"]
+        },
+        {
+          "position": 2,
+          "title": "Hono <strong>v4.13.13</strong>、<strong>10</strong>月<strong>4</strong>日公開 — <code>app.all()</code>で登録できる Mount Middleware を導入、従来の <code>app.mount()</code>は<strong>v5</strong>で削除予定",
+          "summary": "軽量Webフレームワーク Hono は<strong>2026</strong>年<strong>10</strong>月<strong>4</strong>日、<strong>v4.13.13</strong>をリリースした。目玉はルーティングの一等市民として扱える Mount Middleware(<code>hono/mount</code>)で、<code>app.all('/path', mount(subApp))</code>のように通常のミドルウェアとしてサブアプリを合流できる。従来の <code>app.mount()</code>メソッドは非推奨となり、次期<strong>v5</strong>で削除される予定。同リリースには JSX の修正と内部テストの改善も含まれる。<strong>v4.13.0</strong>系ではコアのrequest/response経路が最大<strong>1.25</strong>倍高速化しており、HTTP QUERY メソッド(RFC <strong>10008</strong>)の一等サポートや Method Not Allowed ミドルウェアも段階的に加わっている。",
+          "sourceName": "GitHub Releases",
+          "sourceUrl": "https://github.com/honojs/hono/releases/tag/v4.13.13",
+          "tags": ["技術トレンド", "フレームワーク", "Hono"]
+        },
+        {
+          "position": 3,
+          "title": "Supabase、<strong>10</strong>月<strong>5</strong>日にTurso買収を発表 — <strong>1</strong>サーバで数百万SQLiteをホスト、AIエージェント時代のDB需要に対応",
+          "summary": "PostgreSQLベースのBaaS Supabase は<strong>2026</strong>年<strong>10</strong>月<strong>5</strong>日、SQLite互換DBサービスを提供するTursoの買収を発表した。TursoはlibSQL(SQLiteのフォーク)をベースに、<strong>1</strong>台のサーバで数百万のDBをホストできる Turso Cloud を展開しており、MVCCによる並行書き込み・非同期I/O・ベクトル検索・暗号化を加えつつSQL互換性を維持してきた。買収の狙いは、プロトタイプやダッシュボード・分析用途でAIエージェントが大量の軽量DBを要求する動向への対応。買収後も Turso は現行サービスを継続し、Rust実装の Turso Database と、Copy-on-Write分離で AI エージェント用FSを実現する AgentFS の開発を並行して進める。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/supabase1sqlitetursoaidb.html",
+          "tags": ["企業動向", "SaaS", "AI", "データベース"]
+        },
+        {
+          "position": 4,
+          "title": "FlutterKaigi <strong>2026</strong>、<strong>10</strong>月<strong>29</strong>-<strong>30</strong>日に浜松町コンベンションホールで開催 — <strong>4</strong>トラック並行、FlutterNinjasと合流し英語セッション枠を新設",
+          "summary": "モバイルアプリ開発フレームワーク Flutter の国内最大カンファレンス FlutterKaigi <strong>2026</strong>が、<strong>2026</strong>年<strong>10</strong>月<strong>29</strong>日(木)〜<strong>30</strong>日(金)の<strong>2</strong>日間、浜松町コンベンションホールで開催される。テーマは「会って、話して、熱くなる。〜Assemble〜」で、JTCCホール／UPSIDERホール／Material／Cupertino の<strong>4</strong>トラックが並行し、通常セッション・LT・スポンサーステージ・学生支援セッション・クイズ大会・懇親会を展開する。<strong>2026</strong>年は FlutterNinjas と合流して約<strong>1</strong>/<strong>3</strong>が英語セッション(Ninjas Track)となり、国内外の Flutter トップエンジニアが登壇する。チケットは<strong>7</strong>月<strong>27</strong>日から販売中。",
+          "sourceName": "FlutterKaigi 2026 公式",
+          "sourceUrl": "https://2026.flutterkaigi.jp/",
+          "tags": ["カンファレンス", "Flutter", "モバイル"]
+        },
+        {
+          "position": 5,
+          "title": "「State of Devs <strong>2026</strong>」調査公開、回答<strong>5,463</strong>人 — 米国中央値<strong>$262,500</strong>・日本<strong>$50,000</strong>、約<strong>49</strong>%が「コードの<strong>75</strong>%以上をAIが生成」",
+          "summary": "開発者コミュニティ調査「State of Devs <strong>2026</strong>」の結果が<strong>2026</strong>年<strong>10</strong>月<strong>5</strong>日に公開された。全回答者<strong>5,463</strong>人のうち首位は米国の<strong>1,051</strong>人で、日本は<strong>21</strong>位の<strong>50</strong>人。年齢中央値<strong>36</strong>歳・経験年数中央値<strong>12</strong>年・男性<strong>84</strong>%／女性<strong>12</strong>%／その他<strong>4</strong>%。グローバル年収中央値は<strong>$90,000</strong>(約<strong>1,350</strong>万円)で、トップは米国とイスラエルの<strong>$262,500</strong>相当、日本は<strong>$50,000</strong>にとどまる。AI利用では約<strong>49</strong>%が「生成コードの<strong>75</strong>%以上をAIが書く」と回答、うち<strong>21</strong>%は「<strong>90</strong>%近くをAIが書く」とした。デュアルモニター<strong>50</strong>%、睡眠不足<strong>41</strong>%、動画ゲーム<strong>63</strong>%といった生活実態も明らかになった。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/state_of_devs_2026_ai.html",
+          "tags": ["キャリア", "年収", "調査"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "DHBR「正しさだけでは人は動かないのか」 — 児玉教仁、ビジョンに必要な<strong>2</strong>要素「したたかさ」と「正しさ」",
+          "summary": "DIAMONDハーバード・ビジネス・レビューに<strong>2026</strong>年<strong>10</strong>月<strong>4</strong>日、児玉教仁氏「正しさだけでは人は動かないのか ビジョンに必要な<strong>2</strong>つの要素」が公開された。マネジャーは「ものごとを正しく行う」、リーダーは「正しいことを行う」とした上で、組織のビジョンは実務的なしたたかさ(business pragmatism)と価値観の整合(moral alignment)という<strong>2</strong>要素が揃って初めて人を動かすと説く。製造業チームのシフト再設計を事例に、生産性向上と外国人同僚への公平な処遇を同時に示すことで、形式的なコンプライアンスを超えた本物のエンゲージメントが生まれた過程を解説する。自分の職場での合意形成を、どちらか片方の論理だけで押し切っていないか点検する素材になる。",
+          "sourceName": "DIAMONDハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14851",
+          "tags": ["思考力", "リーダーシップ", "ビジョン"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "ノーベル生理学・医学賞、<strong>10</strong>月<strong>5</strong>日<strong>18</strong>:<strong>30</strong>発表 — 日本勢は森和俊・名城大教授(タンパク質品質管理)、柳沢正史・筑波大教授(睡眠)が有力視",
+          "summary": "<strong>2026</strong>年のノーベル生理学・医学賞が日本時間<strong>10</strong>月<strong>5</strong>日午後<strong>6</strong>時<strong>30</strong>分、ストックホルムのカロリンスカ研究所から発表される。日本勢ではタンパク質の品質管理の仕組み(ERストレス応答・UPR)を解明した森和俊・名城大学教授、睡眠を司るオレキシンや睡眠負債の分子メカニズムを研究する柳沢正史・筑波大学国際統合睡眠医科学研究機構機構長が有力視されている。日本出身者の受賞となれば<strong>2</strong>年連続。NHKによれば、ノーベル賞は<strong>10</strong>月<strong>5</strong>日から<strong>12</strong>日にかけて物理学・化学・文学・平和・経済学賞と順次発表される。",
+          "sourceName": "NHK NEWS WEB",
+          "sourceUrl": "https://news.web.nhk/newsweb/na/nd-20261004de54368",
+          "tags": ["科学", "ノーベル賞", "日本人研究者"]
+        }
+      ]
+    }
+  ]
+}
