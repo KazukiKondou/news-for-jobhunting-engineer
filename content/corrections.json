@@ -1,1 +1,57 @@
-[]
+[
+  {
+    "date": "2026-10-06",
+    "slug": "2026-10-06-1",
+    "kind": "retraction",
+    "headline": "Vite+ 1.0 記事を取り下げ（2026-10-01 との重複）",
+    "detail": "同一 sourceUrl (publickey1.jp/blog/26/javascriptvite_10.html) の記事が 2026-10-01 にも掲載済み。ルール「本日のニュース」要件の重複につき取り下げ。",
+    "before": "position:1 active",
+    "after": "status: retracted",
+    "evidenceUrl": "https://voidzero.dev/posts/announcing-vite-plus-1-0",
+    "correctedOn": "2026-10-06"
+  },
+  {
+    "date": "2026-10-06",
+    "slug": "2026-10-06-2",
+    "kind": "retraction",
+    "headline": "Vinext 1.0 記事を取り下げ（2026-10-01 との重複）",
+    "detail": "同一 Publickey URL の記事が 2026-10-01 position:2 にも掲載済み。重複につき取り下げ。",
+    "before": "position:2 active",
+    "after": "status: retracted",
+    "evidenceUrl": "https://blog.cloudflare.com/vinext-nextjs-on-vite/",
+    "correctedOn": "2026-10-06"
+  },
+  {
+    "date": "2026-10-06",
+    "slug": "2026-10-06-3",
+    "kind": "url_fix",
+    "headline": "Cloudflare Containers 記事の sourceUrl を公式ブログに修正",
+    "detail": "元の Publickey URL (publickey1.jp/blog/26/cloudflare_containersai6.html) は WebSearch 未確認。公式 Cloudflare Blog URL を確認済み。",
+    "before": "https://www.publickey1.jp/blog/26/cloudflare_containersai6.html",
+    "after": "https://blog.cloudflare.com/faster-agent-sandboxes/",
+    "evidenceUrl": "https://blog.cloudflare.com/faster-agent-sandboxes/",
+    "correctedOn": "2026-10-06"
+  },
+  {
+    "date": "2026-10-06",
+    "slug": "2026-10-06-4",
+    "kind": "url_fix",
+    "headline": "gVisor CNCF 記事の sourceUrl を gVisor 公式ブログに修正",
+    "detail": "元の Publickey URL (publickey1.jp/blog/26/googlegvisorcncf.html) は WebSearch 未確認。gVisor 公式ブログ URL を確認済み。",
+    "before": "https://www.publickey1.jp/blog/26/googlegvisorcncf.html",
+    "after": "https://gvisor.dev/blog/2026/10/02/gvisor-cncf/",
+    "evidenceUrl": "https://gvisor.dev/blog/2026/10/02/gvisor-cncf/",
+    "correctedOn": "2026-10-06"
+  },
+  {
+    "date": "2026-10-06",
+    "slug": "2026-10-06-6",
+    "kind": "retraction",
+    "headline": "DHBR 社会階層・交渉記事を取り下げ（URL 未確認）",
+    "detail": "dhbr.diamond.jp/articles/-/14670 が WebSearch 結果に出現せず、記事の存在を確認できない。ルール2.5(a) により取り下げ。",
+    "before": "position:6 active, sourceUrl: https://dhbr.diamond.jp/articles/-/14670",
+    "after": "status: retracted",
+    "evidenceUrl": "",
+    "correctedOn": "2026-10-06"
+  }
+]

@@ -1,5 +1,40 @@
 [
   {
+    "slug": "2026-10-06-queue",
+    "ranOn": "2026-10-06",
+    "verdict": "unverifiable",
+    "detail": "ファクトチェックキューAPI（FACTCHECK_TOKEN未設定）は401を返したためスキップ。本日の2026-10-06コンテンツは前セッションが生成済みだが未push状態（detached HEAD）。WebSearchにより手動検証を実施：pos3(Cloudflare Containers)→blog.cloudflare.com/faster-agent-sandboxes/で確認、pos4(gVisor CNCF)→gvisor.dev/blog/2026/10/02で確認、pos5(Hono Conference)→fortee.jp/honoconf-2026で確認、pos7(JAXA MMX)→kumanichi.com記事で確認。pos1,2はOct-01重複でretracted。pos6(DHBR)はURL未確認でretracted。",
+    "action": "pos1,2,6 retracted。pos3,4 sourceUrl修正。pos5,7 verified ok。corrections.jsonに記録済み。"
+  },
+  {
+    "slug": "2026-10-06-3",
+    "ranOn": "2026-10-06",
+    "verdict": "ok",
+    "detail": "Cloudflare Containers 6x speedup: blog.cloudflare.com/faster-agent-sandboxes/ にて4049ms→648ms（~6倍）の数値を確認。sourceUrlをPublickey URLから公式ブログURLへ修正。",
+    "action": "sourceUrl修正: publickey1.jp → blog.cloudflare.com/faster-agent-sandboxes/"
+  },
+  {
+    "slug": "2026-10-06-4",
+    "ranOn": "2026-10-06",
+    "verdict": "ok",
+    "detail": "gVisor CNCF寄贈: gvisor.dev/blog/2026/10/02/gvisor-cncf/ にて確認。2026-09-28にSandbox採択、2026-10-02にブログ公開。sourceUrlをPublickey URLから公式gVisorブログURLへ修正。",
+    "action": "sourceUrl修正: publickey1.jp → gvisor.dev/blog/2026/10/02/gvisor-cncf/"
+  },
+  {
+    "slug": "2026-10-06-5",
+    "ranOn": "2026-10-06",
+    "verdict": "ok",
+    "detail": "Hono Conference 2026 in Tokyo: fortee.jp/honoconf-2026 および hono.connpass.com/event/401554/ にて10月11日・LINEヤフー紀尾井町オフィス・12:30-18:30・2トラック構成を確認。未検証のv4.13.13に関する記述をsummaryから削除。",
+    "action": "summary末尾のv4.13.13記述を削除（WebSearch未確認）"
+  },
+  {
+    "slug": "2026-10-06-7",
+    "ranOn": "2026-10-06",
+    "verdict": "ok",
+    "detail": "JAXA MMX打ち上げ: kumanichi.com/articles/2027144 および sakigake.jp記事にて10月20日・午前4時41分・種子島・H3・2031年度帰還を確認。mmx.jaxa.jp URLは公式サイトで安定。",
+    "action": "verified ok, no changes"
+  },
+  {
     "slug": "2026-09-28-queue",
     "ranOn": "2026-09-28",
     "verdict": "unverifiable",

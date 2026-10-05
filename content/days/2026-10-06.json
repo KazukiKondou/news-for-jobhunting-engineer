@@ -1,7 +1,7 @@
 {
   "date": "2026-10-06",
   "label": "2026年10月6日 (火)",
-  "intro": "Vite+ <strong>1.0</strong>が<strong>10</strong>月<strong>1</strong>日公開、Cloudflare ContainersはAIエージェント向け起動<strong>6</strong>倍速化、Google gVisorがCNCFに寄贈。",
+  "intro": "Cloudflare ContainersがAIエージェント向けに起動中央値<strong>648</strong>ms（従来比約<strong>6</strong>倍）、gVisorがCNCFにSandbox採択、Hono Conference <strong>2026</strong>は<strong>10</strong>月<strong>11</strong>日LINEヤフーで開催。",
   "sections": [
     {
       "key": "it",
@@ -10,6 +10,7 @@
       "articles": [
         {
           "position": 1,
+          "status": "retracted",
           "title": "JavaScript統合ツールチェーン「Vite+ <strong>1.0</strong>」正式リリース — <code>vp</code>コマンドでランタイム・パッケージマネージャ・ビルド・リンタ・テストを<strong>1</strong>本化",
           "summary": "VoidZero(<strong>2026</strong>年<strong>6</strong>月にCloudflareが買収)が<strong>2026</strong>年<strong>10</strong>月<strong>1</strong>日、「Vite+ <strong>1.0</strong>」を正式リリースした。従来は Node.js、npm/pnpm/yarn、Vite、Vitest、ESLint、Prettier、tsdown など別々に導入・設定していたフロントエンド開発ツール群を、単一の<code>vp</code>コマンドと<strong>1</strong>つの設定ファイルで扱えるようにする。中核のバンドラにはRust製のRolldownを採用し、既存のVite / Vitest / Oxc / tsdown と組み合わせて提供する。設定の分散や依存関係の肥大化、ツール間のバージョン整合といった定番の悩みを一掃する狙い。買収後も開発体制が安定しており、現時点で最も注目度の高いJavaScriptツールチェーンの一つになっている。",
           "sourceName": "Publickey",
@@ -18,6 +19,7 @@
         },
         {
           "position": 2,
+          "status": "retracted",
           "title": "「Vinext <strong>1.0</strong>」公開、<strong>10</strong>月<strong>1</strong>日 — Next.jsをCloudflare Workers / AWS Lambda / Netlifyへそのままデプロイ可能に、Next.js機能の約<strong>99</strong>%をカバー",
           "summary": "<strong>2026</strong>年<strong>10</strong>月<strong>1</strong>日、Next.jsアプリをVercel以外のサーバレス基盤へデプロイできるビルドツール「Vinext <strong>1.0</strong>」が公開された。VercelのTurbopackに代わりViteをビルドシステムに採用し、Cloudflare Workers、AWS Lambda、Netlifyなどに同じコードを載せ替えられる。App Router / Pages Router、SSG / SSR / ISR、認証、画像最適化、フォント連携など、Next.jsの主要機能の約<strong>99</strong>%に対応すると発表されている。Cloudflare Workers 向けには Hyperdrive や画像最適化との統合も強化されており、「VercelロックインなしでNext.jsを使いたい」というWeb系の実務ニーズに正面から応える。",
           "sourceName": "Publickey",
@@ -28,22 +30,22 @@
           "position": 3,
           "title": "Cloudflare Containersが<strong>10</strong>月<strong>6</strong>日に大幅刷新 — コンテナ起動の中央値が<strong>4,049</strong>msから<strong>648</strong>msへ、ファイルシステムのスナップショットも導入",
           "summary": "Cloudflareは<strong>2026</strong>年<strong>10</strong>月<strong>6</strong>日、エッジ上でコンテナを動かせる「Cloudflare Containers」をAIエージェント向けに刷新したと発表した。コンテナ起動時間の中央値は従来の<strong>4,049</strong>msから<strong>648</strong>msまで短縮され、約<strong>6</strong>倍の高速化を達成。実行時にコード側からコンテナイメージとインスタンスタイプを指定でき、ベースイメージとして Debian Trixie Slim と Node.js <strong>24</strong> LTS を新たに用意した。ファイルシステムのスナップショット機能(beta)も追加され、エージェントが使い捨ての開発・テスト環境を立ち上げる用途を強く意識した設計になっている。Durable Objectベースの制御系は従来通り。",
-          "sourceName": "Publickey",
-          "sourceUrl": "https://www.publickey1.jp/blog/26/cloudflare_containersai6.html",
+          "sourceName": "Cloudflare Blog",
+          "sourceUrl": "https://blog.cloudflare.com/faster-agent-sandboxes/",
           "tags": ["企業動向", "Cloudflare", "AI"]
         },
         {
           "position": 4,
           "title": "Google、サンドボックス型コンテナランタイム「gVisor」をCNCFに寄贈 — <strong>2026</strong>年<strong>9</strong>月にSandboxプロジェクト採択済み",
           "summary": "Googleは<strong>2026</strong>年<strong>10</strong>月<strong>6</strong>日、Go製のサンドボックス型コンテナランタイム「gVisor」をCloud Native Computing Foundation(CNCF)に寄贈したと発表した。CNCFには<strong>2026</strong>年<strong>9</strong>月にSandboxプロジェクトとして採択済み。gVisorはOCI互換でありながら、ゲストカーネルを介してシステムコールを横取りすることで通常のコンテナより強い隔離性を提供するランタイムで、Google社内でも長く本番運用されてきた。寄贈の背景には、Linuxカーネル側のメンテナが「Google所有」を理由に性能改善パッチを拒んできたこと、macOS対応などGoogle単独では手が足りない領域があること、ハイブリッドな性質ゆえ価値の伝達が難しかったことがある。コミュニティ所有になることで、エージェントが生成したコードを安全に動かすランタイムとして普及が進むかが焦点。",
-          "sourceName": "Publickey",
-          "sourceUrl": "https://www.publickey1.jp/blog/26/googlegvisorcncf.html",
+          "sourceName": "gVisor Blog",
+          "sourceUrl": "https://gvisor.dev/blog/2026/10/02/gvisor-cncf/",
           "tags": ["技術トレンド", "OSS", "セキュリティ"]
         },
         {
           "position": 5,
           "title": "Hono Conference <strong>2026</strong> in Tokyo、<strong>10</strong>月<strong>11</strong>日にLINEヤフー紀尾井町オフィスで開催 — ユーザーセッションとディープセッションの<strong>2</strong>トラック構成",
-          "summary": "軽量Webフレームワーク Hono のコミュニティカンファレンス「Hono Conference <strong>2026</strong> in Tokyo」が、<strong>2026</strong>年<strong>10</strong>月<strong>11</strong>日(日)<strong>12</strong>:<strong>30</strong>〜<strong>18</strong>:<strong>30</strong>、LINEヤフー紀尾井町オフィスで開催される。Hono を実務で使うユーザーの事例を中心にした「ユーザーセッション」と、コントリビュータや海外ゲストが登壇する「ディープセッション」の<strong>2</strong>トラック構成。<strong>30</strong>分のレギュラートークと<strong>10</strong>分のショートトークを織り交ぜる。参加登録は<strong>7</strong>月<strong>25</strong>日に開始済みで、当日<strong>12</strong>:<strong>00</strong>まで受け付ける。<strong>10</strong>月<strong>4</strong>日公開の v<strong>4.13.13</strong>で Mount Middleware が入ったばかりで、話題のバージョンがそのまま議論の題材になる。",
+          "summary": "軽量Webフレームワーク Hono のコミュニティカンファレンス「Hono Conference <strong>2026</strong> in Tokyo」が、<strong>2026</strong>年<strong>10</strong>月<strong>11</strong>日(日)<strong>12</strong>:<strong>30</strong>〜<strong>18</strong>:<strong>30</strong>、LINEヤフー紀尾井町オフィスで開催される。Hono を実務で使うユーザーの事例を中心にした「ユーザーセッション」と、コントリビュータや海外ゲストが登壇する「ディープセッション」の<strong>2</strong>トラック構成。<strong>30</strong>分のレギュラートークと<strong>10</strong>分のショートトークを織り交ぜる。参加登録は<strong>7</strong>月<strong>25</strong>日に開始済みで、当日<strong>12</strong>:<strong>00</strong>まで受け付ける。",
           "sourceName": "fortee.jp",
           "sourceUrl": "https://fortee.jp/honoconf-2026",
           "tags": ["カンファレンス", "Hono", "TypeScript"]
@@ -57,6 +59,7 @@
       "articles": [
         {
           "position": 6,
+          "status": "retracted",
           "title": "DHBR「社会階層が低い働き手は交渉を避け、主張すれば強い逆風に直面する」 — ジャクソン・ルーら、「クラスの天井」を打破する<strong>4</strong>つのリーダー行動",
           "summary": "DIAMONDハーバード・ビジネス・レビューに<strong>2026</strong>年<strong>10</strong>月<strong>5</strong>日、ジャクソン G. ルー、イン・リン、ミシェル J. ゲルファンドの論考「社会階層が低い働き手は交渉を避け、主張すれば強い逆風に直面する」が公開された。社会階層が低い労働者は賃金・昇進の不利に加え、要求を主張すると「気難しい」「協調性に欠ける」と評価されるダブルバインドに陥り、交渉自体を避ける合理性が働くと指摘。個人の意識改革では解決できず、組織側が交渉プロセスを再設計する必要があるとして、リーダーが取るべき<strong>4</strong>つの行動を提示する。採用面接・年収交渉・配属希望を目前にする就活生にとって、自分の「交渉回避の合理性」がどこから来ているのかを言語化する素材になる。",
           "sourceName": "DIAMONDハーバード・ビジネス・レビュー",
