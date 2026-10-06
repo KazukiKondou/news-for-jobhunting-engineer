@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-07",
+  "label": "2026年10月7日 (水)",
+  "intro": "MicrosoftがVS Codeに「HydraFusion」実装、noteが<strong>3</strong>Q営業益<strong>6.7</strong>倍、SupabaseがSQLiteの「Turso」買収。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "マイクロソフト、VS Code <strong>1.140</strong>にAIモデルのオーケストレーション「HydraFusion」をプレビュー実装 — Single/Cascade/Critiqueの<strong>3</strong>種類の実行パターンで高品質と低コストを両立",
+          "summary": "Microsoftは<strong>2026</strong>年<strong>10</strong>月<strong>7</strong>日、VS Code <strong>1.140</strong>(<strong>9</strong>月<strong>30</strong>日リリース)に実装されたAIモデルのオーケストレーション機能「HydraFusion」をリサーチプレビューとして提供開始したと発表した。複数のAIモデルを組み合わせることで、単一モデル利用に比べて品質とコスト効率を両立する。実行パターンは「Single(単一モデルで解決)」「Cascade(効率的なモデルが提案し、品質確認モデルが検証)」「Critique(<strong>1</strong>つのモデルがドラフト作成、別モデルが独立レビュー)」の<strong>3</strong>種類を切り替えられる。GitHub Copilot Pro / Pro+ / Business / Enterpriseプラン利用者が対象で、タスクの性質に応じて最適なモデル配分を自動化する試み。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/vs_codeaiaihydrafusion.html",
+          "tags": ["技術トレンド", "AI", "VS Code"]
+        },
+        {
+          "position": 2,
+          "title": "Supabase、SQLiteフォーク「libSQL」の「Turso」を買収 — <strong>1</strong>サーバで数百万個のDBをホスト、AIエージェント向けDB需要に照準",
+          "summary": "Supabaseは<strong>2026</strong>年<strong>10</strong>月<strong>5</strong>日、SQLiteのフォーク版「libSQL」をベースにしたデータベースサービス「Turso Cloud」を提供するTurso社の買収を発表した。買収金額は非開示。Tursoは<strong>1</strong>台のサーバで数百万個のデータベースをホストでき、MVCCによる並列書き込みやベクトルサーチにも対応する。背景にあるのはAIエージェントの普及で、プロトタイプ・ダッシュボード・分析用途に大量のDBを立ち上げるようになったことから、初期段階では小規模・低コストで高速なSQLite系の需要が急伸している。SupabaseはPostgresを主軸にしつつ、エッジ寄りのDBレイヤを取りに来る形の買収。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/supabase1sqlitetursoaidb.html",
+          "tags": ["技術トレンド", "DB", "Supabase"]
+        },
+        {
+          "position": 3,
+          "title": "note、<strong>3</strong>Q累計営業利益<strong>8.49</strong>億円で前年同期の<strong>6.7</strong>倍 — 従業員<strong>10</strong>人減らしつつ売上<strong>33.2</strong>%増、人件費率は<strong>30.1</strong>→<strong>19.9</strong>%",
+          "summary": "noteは<strong>2026</strong>年<strong>10</strong>月<strong>6</strong>日、<strong>2026</strong>年<strong>11</strong>月期<strong>3</strong>Q累計(<strong>2025</strong>年<strong>12</strong>月〜<strong>2026</strong>年<strong>8</strong>月)の決算を発表した。売上高は前年同期比<strong>33.2</strong>%増の<strong>40.58</strong>億円、営業利益は<strong>567</strong>%増の<strong>8.49</strong>億円で、前年同期の<strong>6.7</strong>倍となった。従業員数は<strong>161</strong>人から<strong>151</strong>人へ<strong>10</strong>人減らしつつ、売上高人件費率は<strong>30.1</strong>%から<strong>19.9</strong>%へ約<strong>3</strong>割改善。「AIを全社で積極的に活用しながら、必要ポジションに限り厳選して採用」する方針を明示している。新設のAI関連事業はコンテンツDB構築の国家調査事業で<strong>2.5</strong>億円の売上を計上。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2610/06/2000002051/",
+          "tags": ["企業動向", "SaaS", "AI活用"]
+        },
+        {
+          "position": 4,
+          "title": "Google、Constellationと<strong>20</strong>年の原子力電力購入契約 — <strong>890</strong>MWをPJM送電網に新規追加、Constellation側投資は<strong>43</strong>億ドル超",
+          "summary": "Googleは<strong>2026</strong>年<strong>10</strong>月<strong>7</strong>日、米電力大手Constellation Energyと<strong>20</strong>年間の電力購入契約(PPA)を結んだと発表した。契約により新たな発電容量<strong>890</strong>MWをPJM送電網に追加する。Constellation側は投資額<strong>43</strong>億ドル超で、イリノイ・ペンシルベニア・ニュージャージーの<strong>6</strong>カ所の原発にある<strong>11</strong>基の原子炉で出力増強(アップレート)を実施予定。既存約<strong>4,400</strong>人の雇用を維持しつつ、建設期間中に約<strong>7,200</strong>人の雇用を創出する見込み。Googleが米電力網にもたらす原子力の新規容量は累計<strong>1.5</strong>GWを超え、米エネルギー省が掲げる<strong>2030</strong>年までの<strong>5</strong>GW拡大目標の約<strong>25</strong>%に相当。AI需要がデータセンター電源の調達戦略を変えつつある典型例。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2610/07/2000002068/",
+          "tags": ["企業動向", "Google", "AIインフラ"]
+        },
+        {
+          "position": 5,
+          "title": "ガートナー、FDEで開発されたAIエージェントの<strong>7</strong>割は<strong>2028</strong>年までに企業から放棄されると予測 — 顧客ニーズをコア製品に取り込めるベンダーは<strong>20</strong>%未満",
+          "summary": "ガートナーは<strong>2026</strong>年<strong>10</strong>月<strong>7</strong>日公表の最新予測で、ベンダーのFDE(フォワードデプロイドエンジニアリング)によって開発されたAIエージェントの<strong>70</strong>%が、<strong>2028</strong>年までに企業ユーザーから放棄されるとの見通しを示した。継続的な顧客ニーズを自社のコア製品に反映できるベンダーは全体の<strong>20</strong>%未満にとどまる試算。FDEは本来「ベンダーのエンジニアが顧客現場に入り、深い製品知識と密な統合で共同開発する」モデルだが、実態としては「フォワードデプロイド」の呼称が単なる実装・コンサルティング販売のラベルとして流用される「FDE洗浄」の広がりを警戒している。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/fdeai7fde.html",
+          "tags": ["キャリア", "AI", "ガートナー"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "DHBR「リーダーが『やらないこと』を決めるための<strong>3</strong>つの問い」 — 緊急タスクに追われる忙しさは時間管理ではなく、何もかもが重要に見える環境でのトレードオフ決定の問題",
+          "summary": "DIAMONDハーバード・ビジネス・レビューに<strong>2026</strong>年<strong>10</strong>月<strong>6</strong>日、カレン・ウォーカーの論考「リーダーが『やらないこと』を決めるための<strong>3</strong>つの問い」(池村千秋訳)が公開された。経験豊富なリーダーですら「空気に充満する切迫感」で本来優先すべき業務から外れていくと指摘し、問題の本質は時間管理ではなく「何もかもが重要に思える環境でのトレードオフ決定」にあると主張する。ワークショップ参加者からは「緊急課題に追われ」「部下育成に手が回らない」といった声が共有されたという。質の高い意思決定を下すための「<strong>3</strong>つのテスト」を提示する内容で、<strong>24</strong>時間が誰にも平等だからこそ「やる仕事」の選別が成果を決めるという前提の立て直しが骨子。",
+          "sourceName": "DIAMONDハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14667",
+          "tags": ["思考力", "リーダーシップ", "意思決定"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "<strong>2026</strong>年ノーベル物理学賞、米ウィスコンシン大のフランシス・ハルツェン氏(<strong>82</strong>) — 南極氷床深<strong>1,450</strong>〜<strong>2,450</strong>mに検出器<strong>5,160</strong>個を埋める「アイスキューブ」で高エネルギー宇宙ニュートリノを観測",
+          "summary": "スウェーデン王立科学アカデミーは<strong>2026</strong>年<strong>10</strong>月<strong>6</strong>日、同年のノーベル物理学賞を米ウィスコンシン大学マディソン校のフランシス・ハルツェン教授(<strong>82</strong>)に授与すると発表した。授賞理由は「アイスキューブ・ニュートリノ観測所への決定的な貢献と、天体起源の超高エネルギーニュートリノの発見」。南極の氷床深度<strong>1,450</strong>〜<strong>2,450</strong>mに<strong>5,160</strong>個の光検出器を埋め込み、氷<strong>1</strong>km³そのものを巨大な検出器に見立てる手法を<strong>1988</strong>年に提唱、<strong>2011</strong>年に本格観測を開始した。<strong>2013</strong>年に太陽系外からの高エネルギーニュートリノを初検出、<strong>2017</strong>年には発生源を特定した。日本からは千葉大学ハドロン宇宙国際研究センターが唯一参加している。賞金は<strong>1,200</strong>万スウェーデン・クローナ(約<strong>1.9</strong>億円)。",
+          "sourceName": "科学技術振興機構 Science Portal",
+          "sourceUrl": "https://scienceportal.jst.go.jp/newsflash/20261006_n01/",
+          "tags": ["科学", "物理", "ノーベル賞"]
+        },
+        {
+          "position": 8,
+          "title": "京都国立博物館で特別展「源氏物語 王朝のかがやき」が<strong>51</strong>年ぶりに開幕 — <strong>10</strong>月<strong>6</strong>日〜<strong>11</strong>月<strong>29</strong>日、国宝<strong>6</strong>件・重文<strong>28</strong>件を含む<strong>144</strong>件を展示",
+          "summary": "京都国立博物館で<strong>2026</strong>年<strong>10</strong>月<strong>6</strong>日、特別展「源氏物語 王朝のかがやき」が開幕した(<strong>11</strong>月<strong>29</strong>日まで)。京都での大規模な源氏物語展は<strong>51</strong>年ぶり。全<strong>144</strong>件のうち国宝<strong>6</strong>件・重要文化財<strong>28</strong>件、京都のみ独占展示が<strong>55</strong>件。国宝「源氏物語絵巻」は場面を<strong>2</strong>週間ごとに替えて全会期出品し、藤原定家の写本「定家本」は現存<strong>5</strong>帖すべてが並ぶ。米国ハーバード美術館蔵の土佐光信筆「源氏物語画帖」も里帰り展示。<strong>2027</strong>年<strong>1</strong>月<strong>19</strong>日〜<strong>3</strong>月<strong>14</strong>日に東京国立博物館へ巡回し、両館合計<strong>257</strong>件の「決定版」。写本・工芸・能・浮世絵と千年にわたる「源氏」の影響を網羅する。",
+          "sourceName": "美術展ナビ",
+          "sourceUrl": "https://artexhibition.jp/topics/news/20261005-AEJ3013312/",
+          "tags": ["文化", "美術", "日本史"]
+        }
+      ]
+    }
+  ]
+}
