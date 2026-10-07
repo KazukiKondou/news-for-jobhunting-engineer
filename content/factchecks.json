@@ -1,5 +1,12 @@
 [
   {
+    "slug": "2026-10-08-queue",
+    "ranOn": "2026-10-08",
+    "verdict": "unverifiable",
+    "detail": "ファクトチェックキューAPI（news.kazukikondo.com/api/factcheck/queue）はegressプロキシにより403で拒否。本日の6件（IT就活4件・思考力1件・視野1件）はWebSearchで取得したURLのみを使用し手動検証済み。pos1 AWS Aurora+DuckDB→aws.amazon.com/blogs公式確認。pos2 Cloudflare Containers→blog.cloudflare.com/faster-agent-sandboxes/確認。pos3 GitHub ReviewBench→github.blog確認。pos4 Gemini 4 Argon→aipicks.jp/news/20261001確認。pos5 DHBR 2026年10月号→diamond.co.jp/magazine/059691026確認。pos6 ノーベル化学賞→chem-station.com/blog/2026/10確認。デプロイ確認はnews.kazukikondo.comへのegressブロックにより不可。LINE配信成功（message id: 635157260523798906）。",
+    "action": "キュー取得不可のためスキップ。本日の記事6件を生成・push済み（commit 1b7510b）。LINE配信成功。"
+  },
+  {
     "slug": "2026-10-06-queue",
     "ranOn": "2026-10-06",
     "verdict": "unverifiable",
