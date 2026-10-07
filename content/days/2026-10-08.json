@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-08",
+  "label": "2026年10月8日 (木)",
+  "intro": "AWSがDuckDBをAurora PostgreSQLに統合してIceberg直接クエリを実現、CloudflareのAIコンテナが起動<strong>6</strong>倍速化、東京理科大・硤合憲三氏が<strong>2026</strong>年ノーベル化学賞を受賞。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "AWSがDuckDBをAurora PostgreSQLに統合 — ETL不要でS3上のIceberg/Parquetを直接クエリ可能に",
+          "summary": "AWSは<strong>2026</strong>年<strong>9</strong>月<strong>30</strong>日、Aurora PostgreSQLにDuckDBを統合し、S3上のApache IcebergテーブルおよびParquetファイルをETLなしで直接クエリできる機能を発表した。aurora_analytics拡張を有効化するだけで利用でき、追加料金はかからない。コミット済みのアーカイブデータだけでなく、未コミットの書き込みを含む運用データとの横断クエリも可能で、データを移動せずにOLTPとOLAPを組み合わせられる。背景にはAWSによる<strong>9</strong>月のDuckDB開発元DuckLabs B.V.買収があり、SnowflakeなどのデータウェアハウスサービスとのPostgreSQLエコシステムでの競合が加速している。",
+          "sourceName": "AWS News Blog",
+          "sourceUrl": "https://aws.amazon.com/blogs/aws/amazon-aurora-postgresql-now-supports-direct-querying-of-apache-iceberg-and-parquet-data-in-your-data-lake/",
+          "tags": ["技術トレンド", "AWS", "DB"]
+        },
+        {
+          "position": 2,
+          "title": "Cloudflare Containers、AIエージェント向けに刷新 — 起動<strong>6</strong>倍速、スナップショット公開ベータ",
+          "summary": "Cloudflareは<strong>2026</strong>年<strong>10</strong>月<strong>6</strong>日、AIエージェントのサンドボックス実行基盤「Cloudflare Containers」を全面刷新したと発表した。新スケジューリングポリシー「durable_object」の採用により、コンテナの起動時間中央値が<strong>4.049</strong>秒から<strong>648</strong>ミリ秒へ約<strong>6</strong>倍短縮した。同時にファイルシステムのスナップショット機能が公開ベータとして提供開始し、npm installなどの初期セットアップ済み状態を保存して数秒で複数のサンドボックスを起動できる。エージェントが並行して異なるアプローチを試す「フォーク型」ワークフローに対応し、各サンドボックスが独立ファイルシステムを持ちながら同一スナップショットから出発する構成。",
+          "sourceName": "Cloudflare Blog",
+          "sourceUrl": "https://blog.cloudflare.com/faster-agent-sandboxes/",
+          "tags": ["技術トレンド", "Cloudflare", "AIエージェント"]
+        },
+        {
+          "position": 3,
+          "title": "GitHub、AIコードレビューのオープンベンチマーク「ReviewBench」を公開 — <strong>187</strong>リポジトリ・<strong>219</strong>件のPRで評価",
+          "summary": "GitHubは、AIコードレビューエージェントを客観的に比較・評価するためのオープンベンチマーク「ReviewBench」を公開した。<strong>187</strong>の公開オープンソースリポジトリから収集した<strong>219</strong>件のプルリクエストで構成され、<strong>19</strong>言語に対応する。評価の正解セット（ゴールドセット）は、人間のレビュー指摘・後続コミットから推定される問題・決定論的解析ツール・複数フロンティアLLMの組み合わせで構築されており、単一人間評価への依存を避けた設計。GitHubは自社の「Copilot code review（CCR）」の開発指標にもReviewBenchを活用しており、外部チームも自分のレビューエージェントのスコアを測定・提出できる。",
+          "sourceName": "GitHub Blog",
+          "sourceUrl": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
+          "tags": ["技術トレンド", "GitHub", "AI"]
+        },
+        {
+          "position": 4,
+          "title": "Google DeepMind、フロンティアモデル「Gemini 4 Argon」発表 — <strong>18</strong>項目中<strong>12</strong>項目でトップ、最大<strong>100</strong>万トークン出力",
+          "summary": "Google DeepMindは<strong>2026</strong>年<strong>9</strong>月<strong>30</strong>日、新フロンティアモデル「Gemini 4 Argon」を発表した。ソフトウェア開発・法務・金融などの企業ナレッジワーク・サイバーセキュリティ防御の<strong>3</strong>分野に特化した設計で、<strong>1</strong>回の応答で最大<strong>100</strong>万トークンを出力できる。Googleが公表したベンチマーク比較では<strong>18</strong>項目中<strong>12</strong>項目で競合モデルを上回り、ソフトウェアエンジニアリング指標「DeepSWE v1.1」では<strong>77.9</strong>%を記録したとGoogleは主張する。価格は入力<strong>100</strong>万トークンあたり<strong>2</strong>ドル・出力<strong>10</strong>ドル。現時点ではFairwind Programを通じてサイバーセキュリティ担当者に限定提供中で、一般API顧客への展開は順次拡大の予定。",
+          "sourceName": "aipicks.jp",
+          "sourceUrl": "https://aipicks.jp/news/20261001-google-deepmind-gemini-4-argon",
+          "tags": ["技術トレンド", "Google", "AI"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "DHBR <strong>2026</strong>年<strong>10</strong>月号「センスメイキング」特集 — 正解なき時代にリーダーが「地図」を描く思考とは",
+          "summary": "DIAMONDハーバード・ビジネス・レビュー<strong>2026</strong>年<strong>10</strong>月号（<strong>9</strong>月<strong>10</strong>日発売）の第<strong>1</strong>特集は「センスメイキング」。MITスローン経営大学院のデボラ・アンコーナ教授は「目の前の現実に意味を与える」行為としてセンスメイキングを定義し、正解が存在しない時代にリーダーが「地図」を描く役割を担うと論じる。ミシガン大学ロス・スクール名誉教授カール・ワイクは「センスメイキングの欠如が招いたチームの崩壊」を事例に取り上げる。AIが情報処理を肩代わりするいま、人間に求められるのは答えを生成する速度ではなく、文脈を読んで問いを設計し意味を構造化する能力——それがセンスメイキングの本質だという示唆が特集全体に通底している。",
+          "sourceName": "DIAMONDハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://www.diamond.co.jp/magazine/059691026.html",
+          "tags": ["思考力", "センスメイキング", "リーダーシップ"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "<strong>2026</strong>年ノーベル化学賞に東京理科大・硤合憲三氏 — 不斉自己触媒「ソアイ反応」で生命のホモキラリティー起源の解明に貢献",
+          "summary": "スウェーデン王立科学アカデミーは<strong>2026</strong>年<strong>10</strong>月<strong>7</strong>日、同年のノーベル化学賞を東京理科大学名誉教授の硤合憲三氏（<strong>76</strong>）とフランス・パリ・サクレー大学名誉教授のアンリ・カガン氏（<strong>95</strong>）に授与すると発表した。授賞理由は「不斉有機合成における非線形効果と自己触媒反応の発見」。カガン氏は触媒のわずかなキラルな偏りが生成物の偏りをより大きくする「非線形効果」を発見し、硤合氏は生成物自身が触媒となる「不斉自己触媒」（ソアイ反応）を<strong>1995</strong>年のNature論文で発表した。地球の生体分子が一方の立体異性体に偏る「ホモキラリティー」の起源を化学的に説明するこの反応は、生命の起源研究に直結する成果として評価が高い。日本人の化学賞受賞は昨年の北川進氏に続き<strong>2</strong>年連続。",
+          "sourceName": "Chem-Station",
+          "sourceUrl": "https://www.chem-station.com/blog/2026/10/nobel2026.html",
+          "tags": ["科学", "化学", "ノーベル賞"]
+        }
+      ]
+    }
+  ]
+}
