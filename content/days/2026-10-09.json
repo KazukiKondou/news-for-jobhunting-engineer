@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-09",
+  "label": "2026年10月9日 (金)",
+  "intro": "GitHub CopilotのHydraFusionが複数AIモデル制御でコスト<strong>67</strong>%削減、VoidZeroがVite+ <strong>1</strong>.0をMITライセンスで正式公開、東洋経済がMITの「認知負債」研究を報告。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "GitHub Copilot「HydraFusion」公開ベータ — <strong>3</strong>モデルパターン制御でTerminal-Benchコスト<strong>67</strong>%削減",
+          "summary": "GitHubは、GitHub Copilotに複数AIモデルを自動的に組み合わせる「HydraFusion」を研究プレビューとして公開した。Single・Cascade・Critiqueの<strong>3</strong>つの実行パターンをリクエストごとに自動選択し、Critiqueパターンでは異なるモデルファミリーの独立した批評者モデルが下書きをレビューして改訂する仕組み。GitHubが実施したオフライン評価では、Terminal-Bench 2.1において高品質を維持しながら推定コストを<strong>67</strong>%削減したとGitHubは報告している。Copilot Pro・Pro+・Business・Enterprise向けに提供中で、VS Code 1.140から利用可能。",
+          "sourceName": "GitHub Blog",
+          "sourceUrl": "https://github.blog/ai-and-ml/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
+          "tags": ["技術トレンド", "GitHub", "AIエージェント"]
+        },
+        {
+          "position": 2,
+          "title": "Microsoft「WSL Containers」が一般提供 — Docker Desktop不要でLinuxコンテナ",
+          "summary": "Microsoftは<strong>2026</strong>年<strong>9</strong>月<strong>29</strong>日、WindowsでLinuxコンテナをネイティブに動かす「WSL Containers」を一般提供（GA）した。Docker Desktopのインストールなしにwslc.exeコマンドでコンテナのビルド・実行・デプロイができ、WSL 2.9.3以降で動作する。GAではコンテナ再起動・ファイルコピー・ヘルスチェック・リアルタイムイベント監視などが追加され、Microsoft Defender for Endpointとの統合でコンテナ内の活動をWindowsホストと紐づけて監視できる。Docker Desktopの完全代替にはまだならないが、LinuxコンテナをWindowsのWSL基盤へ直接組み込む設計上の転換を示している。",
+          "sourceName": "BleepingComputer",
+          "sourceUrl": "https://bleepingcomputer.com/news/microsoft/microsoft-is-rolling-out-linux-container-support-to-wsl",
+          "tags": ["技術トレンド", "Microsoft", "開発環境"]
+        },
+        {
+          "position": 3,
+          "title": "VoidZero「Vite+ 1.0」正式リリース — vp単一コマンドでJS開発ツール一括管理",
+          "summary": "VoidZeroは<strong>2026</strong>年<strong>9</strong>月<strong>28</strong>日、JavaScriptの統合ツールチェーン「Vite+ 1.0」をMITライセンスで正式リリースした。Vite・Vitest・Rolldown・Oxc・tsdownを<strong>1</strong>つにまとめ、単一コマンド「vp」でNode.jsバージョン管理・依存インストール・開発サーバー・型チェック・テスト・ビルドを一括実行できる。設定はすべてvite.config.tsに集約し、既存のパッケージマネージャーはそのまま使う設計。<strong>2026</strong>年<strong>3</strong>月のアルファ版公開・<strong>7</strong>月のベータを経て正式版となった。",
+          "sourceName": "besthub.dev",
+          "sourceUrl": "https://www.besthub.dev/articles/vite-1-0-released-unified-frontend-toolchain-via-vp-cli-0a99e431c484",
+          "tags": ["技術トレンド", "JavaScript", "フロントエンド"]
+        },
+        {
+          "position": 4,
+          "title": "Sonar調査「AI生成コードがコミット済みの<strong>42</strong>%」 — 検証するのは<strong>48</strong>%のみ",
+          "summary": "Sonarが1,100名超の開発者を調査した「2026 State of Code Developer Survey」によると、コミット済みコードに占めるAI生成の割合はすでに<strong>42</strong>%に達し、<strong>2027</strong>年には<strong>65</strong>%になると開発者自身が予測する。一方、AI生成コードを完全に信頼している開発者は<strong>4</strong>%のみで、コミット前に必ず検証するのは<strong>48</strong>%にとどまる。<strong>38</strong>%の開発者はAIコードのレビューが人間の書いたコードより手間がかかると回答し、平均チームが使うAIコーディングツールは<strong>4</strong>種類に増加した。<strong>64</strong>%が自律型AIエージェントの利用を開始しており、AIの普及に伴い「生成よりもレビュー・検証」の重要性が増す実態を示している。",
+          "sourceName": "Sonar Blog",
+          "sourceUrl": "https://www.sonarsource.com/blog/state-of-code-developer-survey-report-the-current-reality-of-ai-coding/",
+          "tags": ["技術トレンド", "AI", "開発調査"]
+        },
+        {
+          "position": 5,
+          "title": "IBM Bobがセルフホスト型を発表 — オンプレ・エアギャップ環境でAI開発",
+          "summary": "IBMは<strong>2026</strong>年<strong>10</strong>月<strong>1</strong>日、AIエージェント型ソフトウェア開発プラットフォーム「IBM Bob」のセルフホスト型デプロイを発表した。オンプレミス・プライベートクラウド・ソブリンクラウド・エアギャップ環境に対応し、センシティブなソースコードや規制対象データを外部AIサービスに送れない企業向けの選択肢となる。コードの構造理解・開発計画立案・変更実行・テスト検証という開発ライフサイクル全体をカバーする設計で、IBMはエンタープライズAIの「主権とガバナンス」を確立する戦略の一環と位置づけている。AIコーディングツールがクラウドホスト型から自社管理型へ拡張されるトレンドを示す。",
+          "sourceName": "IT Brief",
+          "sourceUrl": "https://itbrief.com.au/story/ibm-bob-gains-self-hosted-deployment-for-enterprise-ai",
+          "tags": ["技術トレンド", "AI開発", "エンタープライズ"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "東洋経済「AIバカになる」はMITが証明 — <strong>1</strong>カ月後も消えない「脳の認知負債」",
+          "summary": "東洋経済オンラインは、MITの研究が「AIへの丸投げが脳の認知負債につながる」ことを証明したと伝えている。AIを業務ツールとして使い続けるほど自力で思考する機会が減り、その影響は使用をやめた後<strong>1</strong>カ月が経っても残るという。AIが業務効率化の必須ツールとなった現代に、AI任せにすることで本当にパフォーマンスを高められているのかを問い直す研究内容だ。自力で考える習慣を意識的に保つことがAI時代の知的能力維持につながるという、研究から導かれる示唆を紹介している。",
+          "sourceName": "東洋経済オンライン",
+          "sourceUrl": "https://toyokeizai.net/articles/-/955690",
+          "tags": ["思考力", "認知科学", "AI"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "はやぶさ2、全<strong>4</strong>基エンジン不調 — 初代と同じ「クロス運転」で継続へ",
+          "summary": "JAXAの探査機「はやぶさ2」は、唯一正常に作動していたイオンエンジンにも<strong>8</strong>月中旬から不調が発生し、全<strong>4</strong>基のエンジンがすべて機能しない状態となった。JAXAは初代はやぶさが用いた「クロス運転」と同じ方法で運用を継続する方針で、故障した<strong>2</strong>基のエンジンから使える部品を組み合わせてイオン推進を再生する。今月後半にも運転再開を計画しており、<strong>2031</strong>年に目標の小惑星「1998 KY26」に到達する計画への影響についてはJAXAが評価中としている。エンジン障害を乗り越えた初代はやぶさの前例を踏まえた粘り強い対応が試みられている。",
+          "sourceName": "熊本日日新聞",
+          "sourceUrl": "https://kumanichi.com/articles/2042126",
+          "tags": ["科学", "宇宙", "JAXA"]
+        }
+      ]
+    }
+  ]
+}
