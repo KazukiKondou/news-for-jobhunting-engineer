@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-10",
+  "label": "2026年10月10日 (土)",
+  "intro": "GitHub Copilot「Computer Use」が<strong>10</strong>月<strong>1</strong>日からAPIなしのデスクトップアプリ操作に対応開始、SupabaseがSQLiteベースのTursoを買収し<strong>1</strong>億<strong>5000</strong>万ドルを調達、DHBR<strong>11</strong>月号で意思決定ルールでも組織が動かない<strong>4</strong>つの要因を解説。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "GitHub Copilot「Computer Use」パブリックプレビュー — APIなしのGUIアプリをAIが直接操作",
+          "summary": "GitHubは<strong>2026</strong>年<strong>10</strong>月<strong>1</strong>日、GitHub CopilotのCLIとアプリ（macOS・Windows）でデスクトップアプリを直接操作できる「Computer Use」をパブリックプレビュー公開した。APIもCLI連携もないレガシーGUIアプリへの自動化を主な用途として位置づけており、画面読み取り・クリック・入力・スクロールなどマルチアプリにまたがるワークフローに対応する。macOSでは「アクセシビリティ」と「画面録画」の権限が必要で、デフォルト無効。CLIでは「/computer on」、アプリではSettings &gt; Computer Useから有効化できる。",
+          "sourceName": "GitHub Changelog",
+          "sourceUrl": "https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps/",
+          "tags": ["技術トレンド", "GitHub", "AIエージェント"]
+        },
+        {
+          "position": 2,
+          "title": "JetBrains「Air」早期アクセス開始 — IDEでCopilot・Claude・Geminiなど複数エージェントを統合",
+          "summary": "JetBrainsは、複数のAIコーディングエージェントをIDE上で統合管理する「Air」の早期アクセスプログラムを開始した。JetBrains Marketplace経由のプラグインとして、または2026.3 EAPビルドのIDEでネイティブに利用できる。Codex・GitHub Copilot・Junie・Cursor・Claude Agent・GeminiなどACPプロトコル対応エージェントを組み合わせて使え、無料の「Junie Lite」エージェントで試せる。Airはモデルプロバイダーではなく既存エージェントのハブとして機能し、サインインするまでデータを外部に送らない設計。",
+          "sourceName": "JetBrains Blog",
+          "sourceUrl": "https://blog.jetbrains.com/ai/2026/10/air-in-ides-eap/",
+          "tags": ["技術トレンド", "JetBrains", "AIエージェント"]
+        },
+        {
+          "position": 3,
+          "title": "OpenAI「Dots」発表 — チャット終了後もバックグラウンドで稼働し続ける常時接続型エージェント",
+          "summary": "OpenAIは<strong>2026</strong>年<strong>9</strong>月<strong>29</strong>日、サンフランシスコのDevDayで常時稼働型AIエージェント「Dots」を発表した。チャット終了後も専用クラウド環境で動き続け、<strong>4000</strong>以上のアプリへのプラグイン接続やSlack・Microsoft Teamsへのメッセージ送信に対応する。待機中は読み取り専用ツールによる「プロアクティブリサーチ」を実行し、メール送信やファイル変更など外部への作用をともなうアクションには別途の権限設定を要求する設計。Pro・Business Premiumユーザーから段階的に提供が開始されている。",
+          "sourceName": "9to5Google",
+          "sourceUrl": "https://9to5google.com/2026/09/29/openai-dots-agent/",
+          "tags": ["技術トレンド", "OpenAI", "AIエージェント"]
+        },
+        {
+          "position": 4,
+          "title": "Supabase、Tursoを買収し<strong>1</strong>億<strong>5000</strong>万ドル調達 — AIエージェント向けSQLiteデータベース強化",
+          "summary": "Supabaseは<strong>2026</strong>年<strong>10</strong>月<strong>2</strong>日、シンガポールのGIC・Alphabet CapitalG・IronArc・SquarePegから合計<strong>1</strong>億<strong>5000</strong>万ドルを調達すると同時に、SQLiteベースのデータベーススタートアップ「Turso」の買収に合意したと発表した。AIエージェントが大量の小規模データベースを必要とするユースケースに対応するのが狙いで、Supabaseは新規データベースの<strong>70</strong>%がAIツールで作成されていると述べている。Tursoのプラットフォームとコードベースはオープンソースのまま維持され、共同創業者のGlauber CostaがSupabaseのHead of Agentic Servicesとして合流する。",
+          "sourceName": "RuntimeWire",
+          "sourceUrl": "https://runtimewire.com/article/supabase-raises-150m-acquires-turso",
+          "tags": ["技術トレンド", "Supabase", "データベース"]
+        },
+        {
+          "position": 5,
+          "title": "Python 3.10が<strong>10</strong>月<strong>31</strong>日にEOL — セキュリティ修正も終了、移行先は3.14",
+          "summary": "Python Software Foundation（PSF）は<strong>2026</strong>年<strong>10</strong>月<strong>31</strong>日をもってPython 3.10のサポートを終了（EOL）する。終了後はセキュリティ修正・バグ修正・ソースのみのアップデートがすべて停止となり、3.10系のコードベースを維持している開発者には移行が急務となる。AWSもLambdaのpython3.10ランタイムを同日付で廃止予定で、DynatraceなどクラウドサービスもPython 3.14への切り替えを進めている。現在の推奨移行先はバグ修正が<strong>2027</strong>年<strong>10</strong>月<strong>1</strong>日まで続くPython 3.14。",
+          "sourceName": "endoflife.ai",
+          "sourceUrl": "https://endoflife.ai/article-python-310-eol",
+          "tags": ["技術トレンド", "Python", "開発環境"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "DHBR<strong>11</strong>月号本日発売 — 「意思決定のルールを定めても組織が動かない<strong>4</strong>つの要因」翻訳掲載",
+          "summary": "ダイヤモンド社は<strong>2026</strong>年<strong>10</strong>月<strong>9</strong>日、DIAMOND ハーバード・ビジネス・レビュー<strong>11</strong>月号を発売した。同号にはHBR翻訳論文「意思決定のルールを定めても組織が動かない<strong>4</strong>つの要因」が収録されており、ルールや手順を整備しても組織の意思決定が機能しない<strong>4</strong>つの要因を分析する内容。あわせてDHBR創刊<strong>50</strong>周年記念連載として、アージリスによる「経営幹部の言行不一致」をテーマにした論考も掲載されている。",
+          "sourceName": "DIAMOND ハーバード・ビジネス・レビュー 2026年11月号",
+          "sourceUrl": "https://www.fujisan.co.jp/product/5772/b/2580618/",
+          "tags": ["意思決定", "組織論", "HBR"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "安宿の一室で「複雑生命の起源」への手がかり — モーテルで<strong>2</strong>新種パウリネラを発見",
+          "summary": "学術誌Journal of Phycologyに、単細胞藻類パウリネラの<strong>2</strong>新種を報告する論文「Crawling under the radar」が掲載された。ニューヨーク・タイムズが報じたこの発見は高価な研究施設でなく安価なモーテルの一室で行われており、GIGAZINEが<strong>2026</strong>年<strong>10</strong>月<strong>2</strong>日に「安ホテルの一室で植物の歴史に関わる重大な生物学的発見がされていた」として紹介した。パウリネラは現在知られるすべての植物の葉緑体が古代シアノバクテリアの細胞内共生に由来するという進化過程を研究するうえで重要な生物とされており、この発見は複雑生命の起源解明につながる可能性があるとされている。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20261002-motel-room-life-history-discovery/",
+          "tags": ["科学", "生物学"]
+        }
+      ]
+    }
+  ]
+}
