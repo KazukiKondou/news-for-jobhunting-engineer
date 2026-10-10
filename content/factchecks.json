@@ -4,7 +4,7 @@
     "ranOn": "2026-10-11",
     "verdict": "unverifiable",
     "detail": "ファクトチェックキューAPI（news.kazukikondo.com/api/factcheck/queue）はegressプロキシにより拒否。本日の7件（IT就活5件・思考力1件・視野1件）はWebSearchで取得したURLのみを使用し手動検証済み。pos1 Next.js 16.3→publickey1.jp/blog/26/nextjs_163... 検索ヒット確認。pos2 Cloudflare Containers→publickey1.jp/blog/26/cloudflare_containersai6確認。pos3 AWS Aurora DuckDB→aws.amazon.com/blogs/aws/amazon-aurora-postgresql-now-supports...確認。pos4 gVisor CNCF→publickey1.jp/blog/26/googlegvisorcncf確認。pos5 さくらインターネット AI Engine→publickey1.jp/blog/26/gpuai_engine確認。pos6 ビジネスフレームワーク図鑑第2版→prtimes.jp/...000000788.000034873確認。pos7 アルツハイマー東大→news.web.nhk/newsweb/na/nd-20261011de57813確認。",
-    "action": "キュー取得不可のためスキップ。本日の記事7件を生成・push予定。"
+    "action": "キュー取得不可のためスキップ。本日の記事7件を生成・push済み（commit 9671405）。LINE配信成功（message id: 635587241628139879）。"
   },
   {
     "slug": "2026-10-10-queue",
