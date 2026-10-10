@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-11",
+  "label": "2026年10月11日 (日)",
+  "intro": "Next.js 16.3がTurbopackのメモリ使用量を最大<strong>90</strong>%削減してリリース、Cloudflareがコンテナ起動を<strong>6</strong>倍高速化しAIエージェント向けに刷新、東大などがアルツハイマー病の原因物質をマウス実験で薬により減少させることに成功と発表。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Next.js 16.3正式リリース — TurbopackメモリをSSR22%高速化も",
+          "summary": "Next.js 16.3の正式版が<strong>2026</strong>年<strong>10</strong>月<strong>8</strong>日にリリースされた。ビルドツールTurbopackのメモリ使用量が最大<strong>90</strong>%削減され、サーバーサイドレンダリング（SSR）が最大<strong>22</strong>%高速化している。型チェックエンジンにTypeScript 7が採用されており、型チェック速度も向上した。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/nextjs_163turbopack90ssr22typescript_7.html",
+          "tags": ["技術トレンド", "Next.js", "フロントエンド"]
+        },
+        {
+          "position": 2,
+          "title": "Cloudflare ContainersがAIエージェント向けに刷新 — 起動が6倍速に",
+          "summary": "Cloudflareは<strong>2026</strong>年<strong>9</strong>月<strong>30</strong>日、AIエージェント向けにContainersを刷新した。コンテナ起動時間の中央値が4.049秒から<strong>648</strong>ミリ秒へ<strong>6</strong>倍高速化し、ファイルシステムのスナップショット機能がパブリックベータで利用可能になった。エージェントが各サンドボックスのイメージとインスタンスタイプを実行時に選べる設計で、ctx.containerから利用する。従来のContainerクラス・Sandboxクラスの更新サポートは<strong>2026</strong>年<strong>12</strong>月<strong>31</strong>日まで。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/cloudflare_containersai6.html",
+          "tags": ["技術トレンド", "Cloudflare", "AIエージェント"]
+        },
+        {
+          "position": 3,
+          "title": "AWS Aurora PostgreSQLにDuckDB組み込み — データレイクをETLなしで直接クエリ",
+          "summary": "AWSは<strong>2026</strong>年<strong>9</strong>月<strong>30</strong>日、Aurora PostgreSQLにDuckDBのエンジンを組み込み、IcebergやParquetファイルをETLなしに直接クエリできる機能を一般提供した。aurora_analyticsエクステンションを有効化し、S3とGlueへのアクセス権限を持つIAMロールを設定するだけで利用できる。対応バージョンはAurora PostgreSQL 17（17.11以降）と18（18.6以降）で、追加ライセンス料は不要。AWSは<strong>2026</strong>年<strong>8</strong>月にDuckDB開発元DuckLabsの買収に合意している。",
+          "sourceName": "AWS Blog",
+          "sourceUrl": "https://aws.amazon.com/blogs/aws/amazon-aurora-postgresql-now-supports-direct-querying-of-apache-iceberg-and-parquet-data-in-your-data-lake/",
+          "tags": ["技術トレンド", "AWS", "データベース"]
+        },
+        {
+          "position": 4,
+          "title": "GoogleがgVisorをCNCFに寄贈 — OpenAI・Anthropicも採用のサンドボックスランタイム",
+          "summary": "Googleは<strong>2026</strong>年<strong>10</strong>月<strong>6</strong>日、サンドボックス型コンテナランタイム「gVisor」をCloud Native Computing Foundation（CNCF）に寄贈したと発表した。gVisorはGoで実装されたユーザー空間カーネルで、LinuxシステムコールをエミュレートするOCIランタイム「runsc」を通じてDockerやKubernetesと連携する。<strong>2018</strong>年にApache 2.0ライセンスで公開され、Google・OpenAI・Anthropicなど大企業やModal・Tinesなどのスタートアップが採用している。Google独占プロジェクトのままでは上流のLinuxカーネルへの取り込みが困難なため、CNCF寄贈によりコミュニティ主導の開発体制に移行する。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/googlegvisorcncf.html",
+          "tags": ["技術トレンド", "Google", "コンテナ"]
+        },
+        {
+          "position": 5,
+          "title": "さくらインターネット「AI Engineプライベートエディション」 — GPU専有で定額・トークン上限なし",
+          "summary": "さくらインターネットは<strong>2026</strong>年<strong>10</strong>月<strong>9</strong>日、GPUを専有してトークン消費量を気にせず定額で利用できる「さくらのAI Engineプライベートエディション」の提供開始を発表した。共有型のパブリックエディションとは異なり、GPUを企業が専有して利用する形態で、推論リソースを安定確保できる。さくらのAI Engineは国内GPUサーバーで基盤モデルを動かし結果をAPIで返すサービス。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/gpuai_engine.html",
+          "tags": ["技術トレンド", "さくらインターネット", "AI"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "『ビジネスフレームワーク図鑑 第2版』発売 — 8年ぶり改訂、AI活用プロンプト例を追加",
+          "summary": "翔泳社は<strong>2026</strong>年<strong>10</strong>月<strong>6</strong>日、累計<strong>20</strong>万部を突破した『ビジネスフレームワーク図鑑』の<strong>8</strong>年ぶり改訂版を発売した。収録フレームワーク数が<strong>70</strong>から<strong>75</strong>に増え、各フレームワークで生成AIを活用する際のプロンプト例が新たに加わった。問題解決・アイデア発想の思考ツールを体系的に学べる構成で、PowerPointテンプレートも付属する。",
+          "sourceName": "PR TIMES（翔泳社）",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000788.000034873.html",
+          "tags": ["思考フレームワーク", "書籍", "問題解決"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "東大など、アルツハイマー病の原因物質をマウス実験で減少 — 脳の排出機能を薬で活性化",
+          "summary": "東京大学などの研究グループが、脳の老廃物排出機能を薬で活性化することで、アルツハイマー病の原因とされるたんぱく質の蓄積をマウス実験で抑えることに成功したとNHKが<strong>2026</strong>年<strong>10</strong>月<strong>11</strong>日付で報じた。アルツハイマー病は脳内への異常たんぱく質の蓄積が発症に関わる疾患で、今回の研究は薬による機能活性化でその蓄積を制御できる可能性をマウス実験で示した。動物実験段階の基礎研究成果。",
+          "sourceName": "NHKニュース",
+          "sourceUrl": "https://news.web.nhk/newsweb/na/nd-20261011de57813",
+          "tags": ["科学", "医療", "東京大学"]
+        }
+      ]
+    }
+  ]
+}
