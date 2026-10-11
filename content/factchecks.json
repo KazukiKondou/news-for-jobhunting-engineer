@@ -1,5 +1,12 @@
 [
   {
+    "slug": "2026-10-12-queue",
+    "ranOn": "2026-10-12",
+    "verdict": "unverifiable",
+    "detail": "ファクトチェックキューAPI（news.kazukikondo.com/api/factcheck/queue）はegressプロキシにより拒否。本日の5件（IT就活3件・思考力1件・視野1件）はWebSearchで取得したURLのみを使用し手動検証済み。pos1 GitHub非同期マージAPI→github.blog/changelog/2026-10-01-github-async-merge-api-generally-available 検索ヒット確認。pos2 Claude Code mods→gigazine.net/news/20261002-claude-code-customize-mod/ 検索ヒット確認。pos3 Node.js 26.11.0→warp2search.net記事タイトルで確認。pos4 DHBR センスメイキング→diamond.co.jp/magazine/059691026.html 検索ヒット確認。pos5 世界柔道混合団体→niigata-nippo.co.jp/articles/-/922709 検索ヒット確認。",
+    "action": "キュー取得不可のためスキップ。本日の記事5件を生成・push済み。"
+  },
+  {
     "slug": "2026-10-11-queue",
     "ranOn": "2026-10-11",
     "verdict": "unverifiable",

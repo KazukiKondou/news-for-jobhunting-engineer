@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-12",
+  "label": "2026年10月12日 (月)",
+  "intro": "GitHubが非同期マージAPIを一般提供してスタックPRに対応。Claude Code v2.1.287でMod機能が追加。バクー世界柔道選手権で日本が混合団体<strong>2</strong>大会ぶり<strong>8</strong>度目の優勝。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "GitHubが非同期マージAPIを一般提供 — スタックPRにも対応",
+          "summary": "GitHubは<strong>2026</strong>年<strong>10</strong>月<strong>1</strong>日、非同期マージAPIを一般提供（GA）した。個別のプルリクエストとスタックされたプルリクエストのマージ、マージキューへの追加に対応する。PUTリクエストでマージを依頼し、返却されたリクエストIDをGETでポーリングして結果を確認する非同期方式を採用しており、GitHubはこのAPIをプログラムからPRをマージする推奨手段に位置づけている。権限を持つユーザーによるルールバイパスのオプションも含まれる。",
+          "sourceName": "GitHub Changelog",
+          "sourceUrl": "https://github.blog/changelog/2026-10-01-github-async-merge-api-generally-available",
+          "tags": ["技術トレンド", "GitHub", "API"]
+        },
+        {
+          "position": 2,
+          "title": "AnthropicがClaude Code Modを公開 — TypeScriptでエージェントをカスタマイズ",
+          "summary": "Anthropicは<strong>2026</strong>年<strong>10</strong>月<strong>1</strong>日（Claude Code v2.1.287）、TypeScript関数をプラグイン内に記述してClaudeの挙動とUIをカスタマイズできる「mod」機能を公開した。modを使うとプロンプトの書き換え、ツール呼び出しのガード、UIコンポーネントの追加が可能になる。Claude Code自身にmodの作成・インストールを依頼でき、起動後すぐにホットリロードされる。modはサンドボックス外で動作するため、Anthropicは信頼できるソースからのみインストールするよう呼びかけている。",
+          "sourceName": "GIGAZINE",
+          "sourceUrl": "https://gigazine.net/news/20261002-claude-code-customize-mod/",
+          "tags": ["技術トレンド", "Anthropic", "AIツール"]
+        },
+        {
+          "position": 3,
+          "title": "Node.js 26.11.0リリース — ネイティブのプロセスタイムアウトとSQLite命名を更新",
+          "summary": "Node.jsプロジェクトは<strong>2026</strong>年<strong>10</strong>月<strong>7</strong>日、Node.js 26.11.0をリリースした。ネイティブのプロセスタイムアウト機能の追加、テキスト処理の高速化、SQLiteのクラス名刷新が主な変更点。同日には26.11.1もリリースされ、こちらはドキュメントビルド関連の変更<strong>3</strong>件をリバートするパッチのみで構成されている。Node.js 26系は現在「Current」ステータスにあり、<strong>2026</strong>年<strong>10</strong>月にLTS（長期サポート版）へ昇格予定とされている。",
+          "sourceName": "warp2search",
+          "sourceUrl": "https://www.warp2search.net/story/nodejs-26110-ships-with-native-process-timeout-faster-text-tools-and-sqlite-rename/",
+          "tags": ["技術トレンド", "Node.js"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 4,
+          "title": "HBR10月号「センスメイキング」特集 — 不確実時代の意味構築を論じる",
+          "summary": "DIAMOND ハーバード・ビジネス・レビュー<strong>2026</strong>年<strong>10</strong>月号（<strong>9</strong>月<strong>10</strong>日発売）の特集テーマは「センスメイキング」。センスメイキングとは、曖昧な状況で人がどのように意味を見出し判断につなげるかを扱う認知科学・組織論の概念。ミシガン大学のカール・ワイク名誉教授の理論を中心に、MITスローン経営大学院のデボラ・アンコーナ教授やソニーグループ会長の吉田憲一郎氏らの寄稿・インタビューを収録する。「正解なき時代の地図をつくる」という観点から、不確実な環境での意思決定プロセスを考える内容。創刊<strong>50</strong>周年記念号として第<strong>2</strong>特集「経営戦略<strong>50</strong>年の進化」も収録。",
+          "sourceName": "DIAMONDハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://www.diamond.co.jp/magazine/059691026.html",
+          "tags": ["思考フレームワーク", "認知科学", "センスメイキング"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "世界柔道バクー大会 日本が混合団体を制覇 — 2大会ぶり8度目の優勝",
+          "summary": "<strong>2026</strong>年<strong>10</strong>月<strong>11</strong>日、アゼルバイジャン・バクーで開催された世界柔道選手権の最終日に混合団体戦が行われ、日本が優勝した。<strong>2</strong>大会ぶり<strong>8</strong>度目の制覇。大会は<strong>10</strong>月<strong>4</strong>日から<strong>11</strong>日の日程で行われ、個人戦でも日本勢が活躍した。混合団体は男子<strong>3</strong>名・女子<strong>3</strong>名の計<strong>6</strong>名で構成され、階級ごとに<strong>1</strong>名が出場する形式。",
+          "sourceName": "新潟日報",
+          "sourceUrl": "https://www.niigata-nippo.co.jp/articles/-/922709",
+          "tags": ["スポーツ", "柔道", "世界選手権"]
+        }
+      ]
+    }
+  ]
+}
