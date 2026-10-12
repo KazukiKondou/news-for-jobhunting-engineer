@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-13",
+  "label": "2026年10月13日 (火)",
+  "intro": "Deno開発チームの全メンバーがCloudflareに合流しランタイムは<strong>1</strong>年後に開発終了へ。OracleはAIによる脆弱性発見の加速を理由にJavaのセキュリティパッチを月次提供へ移行。<strong>2026</strong>年ノーベル経済学賞はマクロ経済安定化モデルを構築したスタンフォード・コロンビア両教授に。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Deno開発チームがCloudflareに全員合流 — ランタイムは<strong>1</strong>年後に終了、JSRも移行",
+          "summary": "Deno開発チームの全メンバーがCloudflareに合流した。Denoランタイムは<strong>1</strong>年後に開発終了、Deno Deployは<strong>6</strong>ヶ月後に終了する予定。JSR（JavaScriptレジストリ）もCloudflareへ移行し、DenoのコアエンジンcelldはCloudflareのworkerdに統合される予定。Ryan Dahl氏とBart Belder氏が主導するこの動きにより、DenoのエコシステムはCloudflare WorkersおよびDurable Objectsのエコシステムに統合される方向となった。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/denocloudflaredenocloudflare_workersdurable_objects.html",
+          "tags": ["技術トレンド", "Deno", "Cloudflare"]
+        },
+        {
+          "position": 2,
+          "title": "OracleがJavaのセキュリティパッチを月次提供へ — AIによる脆弱性発見の加速に対応",
+          "summary": "Oracleは、AIによる脆弱性発見の加速を理由に、JavaのクリティカルなセキュリティパッチをCPU（Critical Patch Update）の四半期提供に加え、月次のCSPU（CPU Security Patch Update）でも提供する方式へ移行した。Java SE、GraalVM、WebLogic Serverなど主要製品が対象となる。AzulもJava <strong>8</strong>・<strong>11</strong>・<strong>17</strong>・<strong>21</strong>・<strong>25</strong>のLTS版を含む月次セキュリティパッチを提供すると発表しており、JavaエコシステムでのAI時代のセキュリティ強化が加速している。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/javaai.html",
+          "tags": ["技術トレンド", "Java", "セキュリティ"]
+        },
+        {
+          "position": 3,
+          "title": "Node.jsが年<strong>1</strong>回リリース・全メジャーLTS化へ — <strong>2026</strong>年<strong>10</strong>月から新サイクル開始",
+          "summary": "Node.jsプロジェクトは<strong>2026</strong>年<strong>10</strong>月から新しいリリースサイクルへ移行する。従来の奇数・偶数バージョンによる区分を廃止し、年<strong>1</strong>回（<strong>4</strong>月）のメジャーリリースに集約。全メジャーリリースがLTS（Long-Term Support）の対象となり、開発者はすべてのメジャーリリースを安心して本番環境に採用できるようになる。移行期のAlphaチャネルが<strong>2026</strong>年<strong>10</strong>月から開始し、Node.js <strong>26</strong>は<strong>10</strong>月<strong>28</strong>日にActive LTSへ昇格予定。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/nodejslts.html",
+          "tags": ["技術トレンド", "Node.js"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 4,
+          "title": "DHBR<strong>11</strong>月号特集「任せる技術」— 権限委譲で直面する<strong>4</strong>つの課題をMITスローン講師が解説",
+          "summary": "DIAMONDハーバード・ビジネス・レビュー<strong>2026</strong>年<strong>11</strong>月号（<strong>10</strong>月<strong>9</strong>日発売）の第<strong>1</strong>特集「任せる技術 みずから考え、行動する人を育てる」に収録されたMITスローン経営大学院のエリザベス・ジョンソン講師の論文「リーダーは権限委譲の難しさをどうすれば乗り越えられるのか 誰もが直面しうる<strong>4</strong>つの課題」が注目される。権限委譲はリーダーが習得すべき最重要スキルの一つでありながら、何を任せるかの判断は難しく、委譲が機能しない場合に生じる<strong>4</strong>つの課題を分析する。同号にはキヤノン会長兼社長CEOの御手洗冨士夫氏、P&Gジャパン社長の木場新介氏のインタビューも収録される。AIが業務の多くを自動化するなかで、人間の主体性と判断力をどう育てるかという組織設計の問いを考える内容。",
+          "sourceName": "DIAMONDハーバード・ビジネス・レビュー 2026年11月号",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14901",
+          "tags": ["リーダーシップ", "権限委譲", "組織論"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "<strong>2026</strong>年ノーベル経済学賞にスタンフォード・コロンビア両教授 — 中央銀行モデルの理論的基盤を構築",
+          "summary": "スウェーデン王立科学アカデミーは<strong>2026</strong>年<strong>10</strong>月<strong>12</strong>日、同年のノーベル経済学賞をスタンフォード大学のロバート・ホール教授とコロンビア大学のマイケル・ウッドフォード教授に授与すると発表した。授賞理由は「マクロ経済安定化の微視的基礎」。家計・企業の意思決定から出発してマクロ経済を説明する「新ケインズ派」アプローチの理論的基盤を構築した業績が評価された。委員会のジョン・ハッスラー委員長は「世界中の中央銀行や政府が実際に用いているモデルに安定した理論的根拠を与えた」と述べた。賞金は各人に<strong>600</strong>万スウェーデン・クローナ（約<strong>598</strong>千ドル）。<strong>2026</strong>年のノーベル賞は<strong>10</strong>月<strong>5</strong>日〜<strong>12</strong>日にかけて各賞が発表された。",
+          "sourceName": "Axios",
+          "sourceUrl": "https://www.axios.com/2026/10/12/nobel-prize-economics-2026-hall-woodford",
+          "tags": ["経済学", "ノーベル賞", "国際"]
+        }
+      ]
+    }
+  ]
+}
