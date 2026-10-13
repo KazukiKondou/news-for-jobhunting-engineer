@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-14",
+  "label": "2026年10月14日 (水)",
+  "intro": "SvelteKit <strong>3</strong>がVite <strong>8</strong>採用で正式リリース。GitHubがAIコードレビューベンチマーク「ReviewBench」を<strong>219</strong>件のPRで公開。なでしこジャパンはドイツに<strong>1</strong>対<strong>2</strong>で逆転負けし、欧州遠征を<strong>1</strong>勝<strong>1</strong>敗で終えた。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "SvelteKit <strong>3</strong>正式リリース — 設定をVite <strong>8</strong>に一本化、型安全な環境変数が標準に",
+          "summary": "SvelteKit 3の正式版がリリースされた。Vite <strong>8</strong>が必須となり、フレームワーク設定はsvelte.config.jsからvite.config.tsのViteプラグインに移行。型安全な環境変数はsrc/env.tsで公開可否とビルド時/起動時の解決タイミングを宣言する方式が安定版に。$libエイリアスはNodeのサブパスインポートを使う#libに変更され、大半の変更はnpx sv migrate sveltekit-3コマンドで自動移行できる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/websveltekit_3vite.html",
+          "tags": ["技術トレンド", "SvelteKit", "Vite"]
+        },
+        {
+          "position": 2,
+          "title": "Python <strong>3.15</strong>正式リリース — 遅延importとAArch64でJIT <strong>12</strong>%改善",
+          "summary": "Python 3.15.0が2026年<strong>10</strong>月<strong>9</strong>日に正式リリースされた。<strong>1,012</strong>人の貢献者による<strong>5,643</strong>件のコミットを含む。遅延インポート(PEP 810)でモジュールを実際に使うまで読み込みを遅らせ起動時間を短縮。変更不可の辞書型frozendict(PEP 814)とsentinel型が組み込みに追加。デフォルト文字エンコーディングがUTF-8に統一され、実験的JITはAArch64 macOSで<strong>11〜12</strong>%の速度改善を達成した。",
+          "sourceName": "Python学習チャンネル by PyQ",
+          "sourceUrl": "https://blog.pyq.jp/entry/python_news_261009",
+          "tags": ["技術トレンド", "Python"]
+        },
+        {
+          "position": 3,
+          "title": "GitHub、AIコードレビュー評価「ReviewBench」公開 — <strong>219</strong>件のPRで精度を測定",
+          "summary": "GitHubが<strong>219</strong>件の実際のプルリクエストを用いたAIコードレビューエージェント向けオープンベンチマーク「ReviewBench」を公開した。<strong>187</strong>のオープンソースリポジトリから収集したPRで、有用な問題の検出率と誤検知の低減力を両面評価する。ベンチマーク参加にはGitHubアカウントでサインインしコンテナイメージと設定を提供する必要があり、スコアはメンテナー承認まで非公開。現時点ではGitHub Copilot Code Reviewが首位。",
+          "sourceName": "GitHub Blog",
+          "sourceUrl": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
+          "tags": ["技術トレンド", "AI", "コードレビュー"]
+        },
+        {
+          "position": 4,
+          "title": "Microsoft CEO NadellaがAIに「緊急ブレーキ」を提唱 — 人間の制御権を確保せよ",
+          "summary": "MicrosoftのCEO Satya NadellaがXへの投稿で、高度なAIモデルを「潜在的インサイダー脅威」として封じ込める必要があると主張した。認可された担当者が常にモデルを一時停止・終了できる緊急ブレーキ機能を求め、重要な意思決定への単一モデル依存排除と、エージェントの行動履歴の改ざん不可能な記録化も呼びかけた。AIモデル開発者の自己申告に頼らず独立した監査を実施するよう業界全体に促している。",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+          "tags": ["技術トレンド", "AI", "セキュリティ"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "人間はどの意思決定をAIに手放せるのか — 「正解の定義」は委ねられない",
+          "summary": "AIへ意思決定の何を委任できるかを整理した技術者向けの発表資料。作業の実行や選択肢の絞り込みは委ねられても、「何が正解か」を定義する行為は高次の意思決定の本質的な出力であり、AIに委ねることはできないと論じる。基準や価値観の設定は人間が担い続ける必要がある。エンジニアが自分の判断軸をどう鍛えるかという問いに直結する内容で、AIツールが普及した現在も議論が続いている。",
+          "sourceName": "Speaker Deck",
+          "sourceUrl": "https://speakerdeck.com/kawasima/ningen-ha-dono-ishi-kettei-o-tebanaseru-no-ka",
+          "tags": ["意思決定", "AI", "思考フレームワーク"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "なでしこジャパン、ドイツに<strong>1</strong>対<strong>2</strong>逆転負け — 谷川萌々子の先制弾も力及ばず",
+          "summary": "なでしこジャパン（世界ランク<strong>5</strong>位）がドイツ・ブレーメンのヴェーザーシュタディオンで行われた国際親善試合で、ランク<strong>3</strong>位のドイツに<strong>1</strong>対<strong>2</strong>で逆転負けした。前半<strong>15</strong>分に谷川萌々子が先制したが、同<strong>28</strong>分と後半<strong>73</strong>分に失点。欧州遠征は初戦のハイチ戦で<strong>5</strong>対<strong>1</strong>の勝利に続き、<strong>1</strong>勝<strong>1</strong>敗で終えた。",
+          "sourceName": "マイナビニュース",
+          "sourceUrl": "https://news.mynavi.jp/article/20261014-5124860/",
+          "tags": ["スポーツ", "サッカー", "女子サッカー"]
+        }
+      ]
+    }
+  ]
+}
