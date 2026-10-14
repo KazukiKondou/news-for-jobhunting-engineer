@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-15",
+  "label": "2026年10月15日 (木)",
+  "intro": "GitHub CopilotのマルチモデルAI機能「HydraFusion」がVS Codeに提供開始。MicrosoftがAIエージェント隔離技術「Microsoft Execution Containers（MXC）」を正式リリース。資生堂陸上部が<strong>2027</strong>年<strong>3</strong>月末での活動休止を発表。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "GitHub Copilot「HydraFusion」でマルチモデル協調 — 3モードで品質とコストを最適化",
+          "summary": "GitHubはCopilotの新機能「HydraFusion」を<strong>2026</strong>年<strong>9</strong>月<strong>30</strong>日にVS Codeへ提供を開始した。複数のAIモデルを連携させる<strong>3</strong>つのモードを提供する。「Single」は<strong>1</strong>つのモデルを使う従来型、「Cascade」は軽量モデルで試行し難しい場合のみ高性能モデルへ切り替える段階的実行、「Critique」は<strong>2</strong>つのモデルが並行して出力しお互いをレビューし合う二重検証方式。TerminalBench 2.1の評価ではClaude Opus <strong>5</strong>比で推定コスト<strong>67</strong>%削減が示されており、品質を保ちつつコストを抑える設計になっている。VS Code 1.140以降でCopilot Pro・Pro+・Business・Enterpriseが利用可能。",
+          "sourceName": "GitHub Changelog",
+          "sourceUrl": "https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app/",
+          "tags": ["技術トレンド", "GitHub Copilot", "AIツール"]
+        },
+        {
+          "position": 2,
+          "title": "MicrosoftのAIエージェント隔離機能「MXC」が正式リリース — JSONポリシーでファイル・ネット制御",
+          "summary": "Microsoftは<strong>2026</strong>年<strong>10</strong>月<strong>7</strong>日、AIエージェントの実行環境をサンドボックスで保護する「Microsoft Execution Containers（MXC）」の一般提供（GA）を開始した。<strong>2026</strong>年<strong>4</strong>月のBuild 2026で予告されていた機能。開発者が定義したJSONポリシーに従い、エージェントがアクセスできるファイルとネットワーク先をプラットフォーム側が強制し、エージェント自身はポリシーを変更できない。バックエンドはプロセスコンテナ（Windows/macOS/Linux対応）、セッション、WSL、MicroVM（いずれもWindows専用、MicroVMは実験的）の<strong>4</strong>種類。GitHub Copilot・OpenAI Codex・Replit・LM Studio・Unsloth AIがMXCへの対応を表明している。",
+          "sourceName": "InfoWorld",
+          "sourceUrl": "https://www.infoworld.com/article/4215416/running-ai-agents-in-sandboxes-with-microsoft-execution-containers.html",
+          "tags": ["技術トレンド", "Microsoft", "セキュリティ"]
+        },
+        {
+          "position": 3,
+          "title": "元メルカリCTO連載 — AIがコードを書く時代、「職人気質」は強みか足かせか",
+          "summary": "@IT連載「元メルカリCTOが語る、AI時代のグローバル開発」（<strong>2026</strong>年<strong>9</strong>月<strong>30</strong>日公開）。AIがコードを大量生成できる今、コードを書く行為そのものが「新しいアセンブリ言語」—つまり下位レイヤの実装手段—になるという観点から、日本のエンジニア文化に根付く「職人気質」がグローバルなソフトウェア開発の現場で足かせになりうる理由を論じる。高い技術習熟度が強みとされてきた時代から、ビジネス理解・課題定義・設計判断が問われる時代への転換は、就活前に自分の強みを棚卸しする際の問いとして参考にしたい。",
+          "sourceName": "@IT",
+          "sourceUrl": "https://atmarkit.itmedia.co.jp/ait/spv/2609/30/news019_2.html",
+          "tags": ["技術トレンド", "キャリア", "エンジニアリング文化"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 4,
+          "title": "AI駆動開発をトヨタ生産方式で見直す — ムダ・自働化・ジャストインタイムをソフトウェア開発に",
+          "summary": "「AI駆動開発勉強会 名古屋支部#<strong>2</strong>」（<strong>2026</strong>年<strong>10</strong>月<strong>9</strong>日）での発表資料。AIがコードを書く時代になったことを機に、製造業の思考体系「トヨタ生産方式（TPS）」を起点としてAI駆動開発のプロセスを見直す。TPSの「ムダの排除」「自働化（異常を即検知し止める）」「ジャストインタイム（必要なものを必要なときに最小限で）」という原則は、AIツールが生みがちな過剰生成・検証省略・技術的負債にどう向き合うかを考える枠組みになりうる。特定のフレームワークや言語の知識でなく、本質から設計を問い直す思考力を鍛えるヒントとして、製造業由来の原則をエンジニアが学ぶ意義を考えられる内容。",
+          "sourceName": "Speaker Deck",
+          "sourceUrl": "https://speakerdeck.com/terurou/ai-kudou-kaihatsu-no-jidai-ni-nata-node-toyota-seisan-houshiki-kara-minaosu",
+          "tags": ["思考フレームワーク", "AI駆動開発", "トヨタ生産方式"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "資生堂陸上部、2027年3月末で活動休止 — 1979年創部、五輪選手多数輩出の名門チームが幕",
+          "summary": "資生堂は<strong>2026</strong>年<strong>10</strong>月<strong>14</strong>日、女子陸上競技部を<strong>2027</strong>年<strong>3</strong>月末をもって活動休止すると発表した。<strong>1979</strong>年創部で、全日本実業団対抗女子駅伝を<strong>2</strong>度制覇した名門チーム。オリンピック<strong>3</strong>大会出場の弘山晴美さんをはじめ多くのオリンピアンを輩出してきた。現役部員にはパリ五輪女子<strong>1</strong>万m代表の五島莉乃選手が在籍している。休止理由として「本業とのシナジー効果が高い領域へ取り組みを集中するため」と説明している。事業環境の変化により企業スポーツチームの維持が難しくなる事例が近年続いており、名門チームの消滅はその一つ。",
+          "sourceName": "時事通信",
+          "sourceUrl": "https://www.jiji.com/jc/article?k=2026101400870&g=spo",
+          "tags": ["スポーツ", "企業スポーツ", "陸上"]
+        }
+      ]
+    }
+  ]
+}
