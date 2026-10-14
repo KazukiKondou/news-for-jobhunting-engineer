@@ -4,7 +4,7 @@
     "ranOn": "2026-10-15",
     "verdict": "unverifiable",
     "detail": "ファクトチェックキューAPI（news.kazukikondo.com/api/factcheck/queue）はegressプロキシにより拒否（curl終了コード22）。本日の5件（IT就活3件・思考力1件・視野1件）はWebSearchで取得したURLのみを使用し手動検証済み。pos1 HydraFusion→github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app/ 検索ヒット確認。pos2 MXC GA→infoworld.com/article/4215416/running-ai-agents-in-sandboxes-with-microsoft-execution-containers.html 検索ヒット確認（thestack.technology/microsoft-takes-mxc-its-agent-management-layer-ga/でも多重確認）。pos3 元メルカリCTO連載→atmarkit.itmedia.co.jp/ait/spv/2609/30/news019_2.html 検索ヒット確認（シリーズページatmarkit.itmedia.co.jp/ait/series/46463/でも確認）。pos4 terurou TPS×AI駆動開発→speakerdeck.com/terurou/ai-kudou-kaihatsu-no-jidai-ni-nata-node-toyota-seisan-houshiki-kara-minaosu 検索ヒット確認（イベント名「AI駆動開発勉強会 名古屋支部#2」2026-10-09確認）。pos5 資生堂陸上部→jiji.com/jc/article?k=2026101400870&g=spo 検索ヒット確認。",
-    "action": "キュー取得不可のためスキップ。本日の記事5件を生成・push済み。LINE配信実行予定。"
+    "action": "キュー取得不可のためスキップ。本日の記事5件を生成・push済み（commit 56cc622）。LINE配信成功（message id: 636168320470483445）。"
   },
   {
     "slug": "2026-10-13-queue",
