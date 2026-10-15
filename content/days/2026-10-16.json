@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-16",
+  "label": "2026年10月16日 (金)",
+  "intro": "Deno開発元がCloudflareに合流しJavaScriptランタイムの再編が進む中、SvelteKit <strong>3</strong>が正式リリース。さくらインターネットはGPU専有・定額制のAIサービング基盤を<strong>10</strong>月<strong>8</strong>日に提供開始し、ゴルフ男子メジャー「第<strong>91</strong>回日本オープン」も滋賀・タラオカントリークラブで開幕。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Deno開発元がCloudflareに合流 — Denoは1年後にサポート終了へ",
+          "summary": "JavaScriptランタイム「Deno」の開発元Deno Landが、Cloudflareに合流すると発表した（Deno公式告知は<strong>2026</strong>年<strong>10</strong>月<strong>9</strong>日付）。合流後<strong>1</strong>年間はバグ修正とセキュリティ更新が毎月提供されるが、その後Deno本体の開発は終了する予定。Deno Deployは<strong>6</strong>カ月後に終了しCloudflare Workersへの移行サービスが提供される。JSRはCloudflareのインフラに移して継続される見込みで、Ryan Dahl氏らはCloudflare WorkersとDurable Objectsのセルフホスト対応に注力する。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/denocloudflaredenocloudflare_workersdurable_objects.html",
+          "tags": ["技術トレンド", "JavaScript", "Deno"]
+        },
+        {
+          "position": 2,
+          "title": "SvelteKit 3正式リリース — 設定をViteに集約し移行スクリプト完備",
+          "summary": "Webアプリフレームワーク「SvelteKit <strong>3</strong>」が正式リリースされた（Publickey記事は<strong>2026</strong>年<strong>10</strong>月<strong>14</strong>日付）。従来のsvelte.config.jsを廃止し、設定をVite側に集約するのが最大の変更点。SvelteKit <strong>2</strong>からの大きな機能追加はなく、設定の整理と型安全性・エラー処理の改善が中心のバージョンアップとなる。公式の移行スクリプトが多くの作業を自動化し、残った作業はToDoリストとして開発者に示される仕組みが用意されている。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/websveltekit_3vite.html",
+          "tags": ["技術トレンド", "JavaScript", "フロントエンド"]
+        },
+        {
+          "position": 3,
+          "title": "さくらのAI Engine専有版 — GPU専有・定額制でサービング基盤を提供",
+          "summary": "さくらインターネットは<strong>2026</strong>年<strong>10</strong>月<strong>8</strong>日、生成AIモデルをGPU専有環境で運用できるフルマネージドサービス「さくらのAI Engine プライベートエディション」の提供を開始した。<strong>2025</strong>年<strong>9</strong>月に一般提供が始まった「さくらのAI Engine」をベースに、GPUを専有できる環境と定額制を採用した上位サービス。従量課金型と異なり利用費を事前に見通せ、社内業務や特定顧客向けサービスなどアクセスを制限した環境での使用を想定している。API経由で外部ユーザー向けサービスとして提供するといった用途にも対応する。",
+          "sourceName": "aipicks",
+          "sourceUrl": "https://aipicks.jp/news/20261009-ai-engine-release",
+          "tags": ["技術トレンド", "さくらインターネット", "AIインフラ"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 4,
+          "title": "AI時代の経営をサイバネティクスで問い直す — 早稲田BS斉藤教授の講義資料",
+          "summary": "早稲田大学ビジネススクールの斉藤賢爾教授が、<strong>2026</strong>年<strong>10</strong>月<strong>7</strong>日の「経営戦略コアリテラシー講座<strong>2026</strong>」第<strong>10</strong>回で使用した全<strong>72</strong>ページのスライドをSpeakerDeckで公開している。AIとビジネス・メガトレンドをサイバネティクス的経営観から考察する内容で、冒頭で「人間が果たすべき役割は何か」を主軸の問いに据えている。『きかんしゃトーマス』の台詞「You're a Really Useful Engine」を引きながら「それって人間がやることだろうか?」と繰り返し問い直す構成。デモやグループワーク用のDiscordサーバーも設置された参加型講義の資料として公開されている。",
+          "sourceName": "Speaker Deck",
+          "sourceUrl": "https://speakerdeck.com/ks91/ai-and-business-megatrends-a-cybernetic-perspective-on-management",
+          "tags": ["思考フレームワーク", "AI時代", "経営", "サイバネティクス"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "第91回日本オープンゴルフ開幕 — 滋賀・高原コースで初開催",
+          "summary": "男子ゴルフのメジャー大会「第<strong>91</strong>回日本オープンゴルフ選手権」が<strong>2026</strong>年<strong>10</strong>月<strong>15</strong>日から<strong>18</strong>日まで滋賀県のタラオカントリークラブ西コースで開催される。標高約<strong>600</strong>メートルの高原に位置する同コースでの日本オープン初開催。主催は公益財団法人日本ゴルフ協会、共催はNHKで、優勝者には<strong>5</strong>年シードに加え翌年の「マスターズ」と「全英オープン」への出場権が与えられる。前回大会は片岡尚之が原敏之とのプレーオフを制し初制覇を果たしている。",
+          "sourceName": "ゴルフダイジェスト",
+          "sourceUrl": "https://www.golfdigest-minna.jp/_ct/17869849",
+          "tags": ["スポーツ", "ゴルフ", "国内大会"]
+        }
+      ]
+    }
+  ]
+}
