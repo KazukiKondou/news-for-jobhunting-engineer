@@ -264,5 +264,12 @@
     "verdict": "unverifiable",
     "detail": "ファクトチェックキューAPI (https://news.kazukikondo.com/api/factcheck/queue) は認証トークン (FACTCHECK_TOKEN) 未設定で HTTP 404 を返した。仕様 (routine-prompt.txt section 6.5 step1) に従い記事生成は続行。キューに報告済み記事があったかは不明。",
     "action": "キュー取得不可のためスキップ。本日分 (2026-09-30) の記事7件を新規生成。"
+  },
+  {
+    "slug": "2026-10-17-queue",
+    "ranOn": "2026-10-17",
+    "verdict": "unverifiable",
+    "detail": "ファクトチェックキューAPI (https://news.kazukikondo.com/api/factcheck/queue) へ curl で問い合わせたが空レスポンスが返った。FACTCHECK_TOKEN が未設定のため API 認証不可と判断。キューに報告済み記事があったかどうか不明。",
+    "action": "キュー取得不可のためスキップ。本日分 (2026-10-17) の記事6件を新規生成。"
   }
 ]

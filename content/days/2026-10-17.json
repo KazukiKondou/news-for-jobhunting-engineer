@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-17",
+  "label": "2026年10月17日 (土)",
+  "intro": "Python <strong>3.15.0</strong>がUTF-8デフォルト化と遅延インポートを引っさげて正式リリース、GitHub CopilotのローカルサンドボックスがCLI・アプリ・VS Codeで追加費用なしにGA化。JAXA火星衛星探査機「MMX」はH3ロケット<strong>10</strong>号機で<strong>10</strong>月<strong>20</strong>日午前<strong>4</strong>時<strong>41</strong>分に打ち上げ予定。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Python 3.15.0 正式リリース — UTF-8デフォルト化と遅延インポートを実装",
+          "summary": "Python Software Foundationは<strong>2026</strong>年<strong>10</strong>月<strong>9</strong>日、Python <strong>3.15.0</strong>を正式リリースした。最大の変更点はPEP 686によるデフォルトエンコーディングのUTF-8化で、Windowsユーザーは既存コードの動作に影響が出る可能性がある。PEP 810で追加された<code>lazy</code>キーワードによる明示的な遅延インポートは起動時間の短縮を狙ったもので、リリース直前にバグが発見され予定より<strong>1</strong>週間遅れて公開となった。このほかPEP 814の<code>frozendict</code>型・PEP 661の<code>sentinel</code>型がビルトインに加わり、実験的JITはx86-64 Linuxで<strong>7</strong>〜<strong>8</strong>%、AArch64 macOSで<strong>11</strong>〜<strong>12</strong>%の性能向上を達成した。",
+          "sourceName": "python.org",
+          "sourceUrl": "https://python.org/downloads/release/python-3150/",
+          "tags": ["技術トレンド", "Python", "言語アップデート"]
+        },
+        {
+          "position": 2,
+          "title": "GitHub Copilot ローカルサンドボックスがGA — Claude Haiku 5.5も同日追加",
+          "summary": "GitHubは<strong>2026</strong>年<strong>10</strong>月<strong>7</strong>日、Copilot CLIとCopilotアプリ、VS CodeのAgent Hostセッションに対するローカルサンドボックスを一般提供（GA）した。エージェントがアクセスできるファイル・ネットワーク・Git認証情報を制限できる機能で、Microsoftのコンテナ技術MXCを基盤にWindows・macOS・Linuxに対応しており、追加費用はかからない。同日、Anthropicの軽量モデル「Claude Haiku 5.5」もGitHub Copilotに追加され、Pro・Business・Enterpriseプランで利用できる。Haiku 5.5はサブエージェントや軽微な編集、ターミナル作業向けの高速モデルとして位置づけられており、プロバイダー定価に基づく従量課金が適用される。",
+          "sourceName": "GitHub Changelog",
+          "sourceUrl": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-gitHub-copilot-now-generally-available",
+          "tags": ["技術トレンド", "GitHub", "AI開発ツール"]
+        },
+        {
+          "position": 3,
+          "title": "Node.js 24.22.0 LTS と 26.12.0 が同日リリース — 暗号機能を強化",
+          "summary": "OpenJS Foundationは<strong>2026</strong>年<strong>10</strong>月<strong>14</strong>日、アクティブLTSの「Krypton」ラインとなるNode.js <strong>24</strong>.<strong>22</strong>.<strong>0</strong>と、Currentラインの<strong>26</strong>.<strong>12</strong>.<strong>0</strong>を同日にリリースした。<strong>24</strong>.<strong>22</strong>.<strong>0</strong>ではPKCS12パースやSIV暗号モードといった暗号関連の機能強化が中心で、スロットリングとデバウンス用のネイティブユーティリティも追加された。両バージョンとも後方互換性を保っており、Krypton（v24）のEOLは<strong>2028</strong>年<strong>4</strong>月を予定している。",
+          "sourceName": "warp2search",
+          "sourceUrl": "https://www.warp2search.net/story/nodejs-26120-and-24220-krypton-what-changed-and-how-to-upgrade/",
+          "tags": ["技術トレンド", "Node.js", "JavaScript"]
+        },
+        {
+          "position": 4,
+          "title": "Zed 1.24.2 リリース — Gitタグ作成とLinuxビルドの軽量化",
+          "summary": "コードエディタ「Zed」の<strong>1</strong>.<strong>24</strong>.<strong>2</strong>が<strong>2026</strong>年<strong>10</strong>月<strong>12</strong>日にリリースされた。<strong>90</strong>件超の変更が含まれており、ローカルでのGitタグ作成機能の追加と、ターミナルタブをAIエージェントのAgent Panelへドラッグ&ドロップできる機能が主な新機能として挙げられている。Linuxビルドのサイズが<strong>23</strong>%削減されたことも特徴で、絵文字の表示改善や.envファイルの修正も盛り込まれている。",
+          "sourceName": "warp2search",
+          "sourceUrl": "https://www.warp2search.net/story/zed-editor-1242-release-git-tags-agent-terminal-draganddrop-and-a-smaller-linux-build/",
+          "tags": ["技術トレンド", "エディタ", "開発ツール"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "AI駆動開発をトヨタ生産方式で問い直す — 「生産性」の誤用に警鐘",
+          "summary": "AI駆動開発がもたらす変化をトヨタ生産方式の視点で再考するスライド資料が、<strong>2026</strong>年<strong>10</strong>月<strong>9</strong>日のAI駆動開発勉強会 名古屋支部#2で発表され、SpeakerDeckで公開された。著者の核心的な主張は「『生産性』を誤用するな、コードを速く生産できること自体が生産性ではない」という一点に集約される。AIがコード生成を高速化する時代において、「速さ」を「生産性」と混同することへの問題提起として、トヨタ生産方式の概念を軸に問い直している。エンジニアとして「何を最大化すべきか」を立ち止まって考える機会を与える内容。",
+          "sourceName": "Speaker Deck",
+          "sourceUrl": "https://speakerdeck.com/terurou/ai-kudou-kaihatsu-no-jidai-ni-nata-node-toyota-seisan-houshiki-kara-minaosu",
+          "tags": ["思考フレームワーク", "AI駆動開発", "生産性"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "JAXA火星衛星探査機「MMX」10月20日に打ち上げ — 8K・4Kカメラでフォボス記録",
+          "summary": "JAXAの火星衛星探査機「MMX（Martian Moons eXploration）」が<strong>2026</strong>年<strong>10</strong>月<strong>20</strong>日午前<strong>4</strong>時<strong>41</strong>分に、種子島宇宙センターからH3ロケット<strong>10</strong>号機で打ち上げられる予定。NHKとJAXAが共同開発した<strong>8</strong>K・<strong>4</strong>Kスーパーハイビジョンカメラを搭載しており、火星の衛星フォボスへの接近・着陸を高精細映像で記録する計画。打ち上げ後約<strong>1</strong>年で火星周回軌道に到達し、フォボス表面から試料採取を行い<strong>2031</strong>年度に地球へ帰還する。フォボスから試料を持ち帰ることに成功すれば世界初となる。",
+          "sourceName": "drone.jp",
+          "sourceUrl": "https://drone.jp/news/20261016162258129962.html",
+          "tags": ["宇宙", "JAXA", "科学"]
+        }
+      ]
+    }
+  ]
+}
