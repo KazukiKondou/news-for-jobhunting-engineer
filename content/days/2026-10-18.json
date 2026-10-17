@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-18",
+  "label": "2026年10月18日 (日)",
+  "intro": "DenoチームがCloudflareへ合流しランタイムは約<strong>1</strong>年後に開発終了、Bun v<strong>1</strong>.<strong>4</strong>.<strong>3</strong>が内蔵型チェッカー「bun check」をリリースしtsc比最大<strong>7</strong>倍速。AWSはDuckDBをAurora PostgreSQL <strong>17</strong>・<strong>18</strong>に統合し、愛知・名古屋で第<strong>5</strong>回アジアパラ競技大会が<strong>45</strong>カ国・地域、約<strong>2,700</strong>名で本日開幕。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "DenoチームがCloudflareに合流 — ランタイムは約1年後に開発終了",
+          "summary": "Cloudflareは<strong>2026</strong>年<strong>10</strong>月<strong>9</strong>日、Node.js作者のRyan Dahlを含むDeno開発チーム全員の参加を発表した。Denoのオープンソースプロジェクト「celld」を核にCloudflare WorkersのDurable Objectsをセルフホスト可能にする取り組みに加わる形。Denoランタイムの公式開発は約<strong>12</strong>ヶ月後に終了し、ホスティングのDeno Deployは<strong>6</strong>ヶ月後にサービスを停止する予定。パッケージレジストリJSRは運営を継続し、インフラをCloudflareへ移管する。ランタイムのオープンソースコードは引き続き公開される。",
+          "sourceName": "SBクリエイティブ BizSPA!",
+          "sourceUrl": "https://www.sbbit.jp/article/cont1/187401",
+          "tags": ["技術トレンド", "JavaScript", "Cloudflare"]
+        },
+        {
+          "position": 2,
+          "title": "Bun v1.4.3に高速型チェッカー搭載 — tsc 7より最大7倍速い「bun check」",
+          "summary": "Oven Inc.は<strong>2026</strong>年<strong>10</strong>月<strong>10</strong>日、Bun v<strong>1</strong>.<strong>4</strong>.<strong>3</strong>をリリースし、組み込み型チェッカー「bun check」を追加した。typescript-goの移植版でTypeScript <strong>7</strong>.<strong>0</strong>.<strong>2</strong>の適合性テストを<strong>100</strong>%通過。VS Codeソース（<strong>10,947</strong>ファイル）では<strong>1.75</strong>秒でチェックを完了し、tsc <strong>7</strong>のデフォルト設定（<strong>12.58</strong>秒）比で最大<strong>7</strong>倍速い。JavaScriptや.d.tsファイルの出力・言語サーバー機能は持たないため、エディタは引き続きTypeScript本体を使用する。",
+          "sourceName": "Bun Blog",
+          "sourceUrl": "https://bun.com/blog/bun-v1.4.3",
+          "tags": ["技術トレンド", "TypeScript", "JavaScript"]
+        },
+        {
+          "position": 3,
+          "title": "AWSがDuckDBをAurora PostgreSQLに統合 — S3データ湖と運用DBを単一クエリで",
+          "summary": "AWSはAurora PostgreSQL <strong>17</strong>・<strong>18</strong>にDuckDBエンジンを組み込み、S3に格納されたIceberg・ParquetデータとライブのDB運用データを単一のSQLクエリで結合できる機能を追加した。未コミットのwriteを含むライブデータにもアクセス可能で、AWS Glue Data Catalog・連携IcebergカタログのIcebergテーブルをサポート。追加ソフトウェアライセンス料なしで全商用リージョンとGovCloudで利用可能。AWSは今年DuckDBの開発元DuckLabs B.V.を買収しており、今回の統合はその成果。",
+          "sourceName": "AWS Blog",
+          "sourceUrl": "https://aws.amazon.com/blogs/aws/amazon-aurora-postgresql-now-supports-direct-querying-of-apache-iceberg-and-parquet-data-in-your-data-lake/",
+          "tags": ["技術トレンド", "AWS", "データベース"]
+        },
+        {
+          "position": 4,
+          "title": "SvelteKit 3 正式版リリース — 設定はvite.config.ts一本化、$libは#libへ",
+          "summary": "SvelteチームはSvelteKit <strong>3</strong>の正式版を<strong>2026</strong>年<strong>10</strong>月<strong>1</strong>日にリリースし、Netlifyも同日に対応を発表した。設定ファイルがsvelte.config.jsからvite.config.tsへ統一、$libエイリアスが#libに変更された。最低動作環境はNode.js <strong>22.17</strong>、TypeScript <strong>6</strong>、Svelte <strong>5.57.1</strong>、Vite <strong>8</strong>。`npx sv migrate sveltekit-3`コマンドで大部分の機械的な変更を自動処理できる。Remote Functions（リモート関数）は正式版では未完成で、チームは次の最優先課題として対応を進める。",
+          "sourceName": "Netlify Changelog",
+          "sourceUrl": "https://www.netlify.com/changelog/2026-10-01-sveltekit-3/",
+          "tags": ["技術トレンド", "フロントエンド", "Svelte"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "DHBR10月号「センスメイキング」— 正解なき時代の地図をつくる思考技術",
+          "summary": "ダイヤモンド・ハーバード・ビジネス・レビュー<strong>2026</strong>年<strong>10</strong>月号（<strong>9</strong>月<strong>10</strong>日発売）の特集1は「センスメイキング：リーダーは正解なき時代の地図をつくる」。先が読みにくい状況で状況の意味を解釈・構築する思考技術をテーマとし、「世界を理解することから未来は始まる」という編集長の論考を冒頭に置く。ソニーグループ会長・吉田憲一郎氏へのインタビューと、オックスフォード大学サイード・ビジネススクールの琴坂将広氏・ジョナサン・トレバー氏との対話を掲載。特集2は「戦略フレームワーク」。",
+          "sourceName": "ダイヤモンド社",
+          "sourceUrl": "https://www.diamond.co.jp/magazine/059691026.html",
+          "tags": ["センスメイキング", "リーダーシップ", "思考フレームワーク"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "第5回アジアパラ競技大会、愛知・名古屋で本日開幕 — 日本初開催",
+          "summary": "第<strong>5</strong>回アジアパラ競技大会（主催：アジアパラリンピック委員会）が<strong>2026</strong>年<strong>10</strong>月<strong>18</strong>日（日）、愛知・名古屋で開幕する。アジア<strong>45</strong>カ国・地域から約<strong>2,700</strong>名のアスリートが参加し、全<strong>18</strong>競技を<strong>10</strong>月<strong>24</strong>日（土）まで実施する。日本でのアジアパラ開催は今回が初めて。メイン会場は名古屋市瑞穂公園陸上競技場で、一部競技は<strong>10</strong>月<strong>16</strong>日から先行して開始されている。",
+          "sourceName": "名古屋市 アジアパラ2026",
+          "sourceUrl": "https://www.city.nagoya.jp/aichi-nagoya2026/index.html",
+          "tags": ["スポーツ", "パラスポーツ", "愛知・名古屋"]
+        }
+      ]
+    }
+  ]
+}
