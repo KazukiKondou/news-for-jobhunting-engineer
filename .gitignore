@@ -31,3 +31,5 @@ pnpm-debug.log*
 # SQLite (実行時データ。コンテナのボリュームに置く)
 data/
 deploy-warn.log
+research_notes/
+reports/

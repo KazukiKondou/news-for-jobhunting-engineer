@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-19",
+  "label": "2026年10月19日 (月)",
+  "intro": "GitHubがPR向けAI Scanを<strong>10</strong>月<strong>15</strong>日GA化しCodeQLカバー外のPHP・Terraform等に対応、Next.jsが<strong>2</strong>件のunauthenticated RCEを修正した<strong>16</strong>.<strong>4</strong>.<strong>1</strong>を緊急リリース。MicrosoftはAIエージェント隔離機能MXCをWindows <strong>11</strong>でGA、さくらはNVIDIA Blackwell GPU約<strong>1,100</strong>基専有の「AI Engineプライベートエディション」を提供開始。DHBR<strong>11</strong>月号「任せる技術」が<strong>10</strong>月<strong>9</strong>日発売、硤合憲三氏が<strong>2026</strong>年ノーベル化学賞受賞で日本人<strong>31</strong>人目。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "GitHub AI Scan、PR向けにGA — PHP・Bash・Terraform等のCodeQL対象外言語をカバー",
+          "summary": "GitHubは<strong>2026</strong>年<strong>10</strong>月<strong>15</strong>日、「AI Scan for pull requests」を正式リリース（GA）した。CodeQLが対応しないPHP・Bash（Shell）・Terraform（HCL）・Dockerfile・JSP・Blazor（C#）のコード変更をAIが解析し脆弱性を検出する機能で、CodeQL defaultセットアップが有効な状態で動作する。発見事項はコードスキャンのチェック失敗扱いにならないためマージブロックのルールセットには利用できない。パブリックリポジトリは無料で利用可能、プライベート・内部リポジトリにはGitHub Code SecurityまたはAdvanced Securityが必要で、利用量はCode Security AI Creditsから消費される。",
+          "sourceName": "GitHub Changelog",
+          "sourceUrl": "https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available/",
+          "tags": ["技術トレンド", "GitHub", "セキュリティ"]
+        },
+        {
+          "position": 2,
+          "title": "Next.js 16.4.1、未認証RCE 2件に対処した緊急セキュリティパッチ",
+          "summary": "Vercelは<strong>2026</strong>年<strong>10</strong>月<strong>14</strong>日、帯域外パッチとしてNext.js <strong>16</strong>.<strong>4</strong>.<strong>1</strong>と<strong>15</strong>.<strong>5</strong>.<strong>28</strong>をリリースした。修正された主な脆弱性は<strong>2</strong>件の未認証リモートコード実行（RCE）：use cacheが型付き配列を返すキャッシュコンポーネントのRCEと、glibc Linux上でsharpがSVGを処理するImage Optimization RCE（CVE-<strong>2026</strong>-<strong>96889</strong>）。高深刻度のServer Actions DoSも同時修正。<strong>16</strong>.<strong>4</strong>.<strong>0</strong>および<strong>15</strong>.<strong>5</strong>.<strong>27</strong>が対象バージョンで、<strong>10</strong>月<strong>15</strong>日時点で実際の攻撃への悪用は報告されていない。",
+          "sourceName": "The Hacker News",
+          "sourceUrl": "https://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html",
+          "tags": ["技術トレンド", "セキュリティ", "Next.js"]
+        },
+        {
+          "position": 3,
+          "title": "Microsoft MXC、AIエージェント向けOS隔離機能がWindows 11でGA",
+          "summary": "Microsoftは<strong>2026</strong>年<strong>10</strong>月<strong>7</strong>日、AIエージェントの動作をポリシーで制限するOS隔離機能「Microsoft Execution Containers（MXC）」をWindows <strong>11</strong>で正式リリースした。プロセス隔離・セッション隔離・マイクロVM・Linuxコンテナ・Windows <strong>365</strong>クラウドの<strong>5</strong>段階で隔離レベルを選択でき、エージェントにはWindowsローカルIDまたはEntraバックドのクラウドIDが割り当てられる。OpenAI Codex・GitHub Copilot・Replit・NVIDIA OpenShell・LM Studio・Unsloth AIがすでに対応を表明しており、Claude Codeも対応予定として記載されている。",
+          "sourceName": "Windows Developer Blog",
+          "sourceUrl": "https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence/",
+          "tags": ["技術トレンド", "AI", "Windows"]
+        },
+        {
+          "position": 4,
+          "title": "さくらのAI Engine PE提供開始 — Blackwell GPU約1,100基専有で定額推論",
+          "summary": "さくらインターネットは<strong>2026</strong>年<strong>10</strong>月<strong>8</strong>日、企業が自社生成AIモデルをGPU専有環境で運用できるフルマネージドサービス「さくらのAI Engineプライベートエディション」の提供を開始した。約<strong>1,100</strong>基のNVIDIA Blackwell GPUを搭載した「高火力」インフラ上でモデルをホスティングし、API経由で利用する形式。料金はGPU単位の月額定額制のためトークン消費量を気にせず推論コストを予測しやすい一方、料金は問い合わせ制のため利用頻度が低い段階では従量課金型との比較試算が必要になる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/gpuai_engine.html",
+          "tags": ["技術トレンド", "AI", "クラウド"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "DHBR11月号「任せる技術」— みずから考え行動する人を育てる権限委譲論",
+          "summary": "ダイヤモンド・ハーバード・ビジネス・レビュー<strong>2026</strong>年<strong>11</strong>月号（<strong>10</strong>月<strong>9</strong>日発売、定価<strong>2,900</strong>円）の特集は「任せる技術 ─ みずから考え、行動する人を育てる」。キヤノン会長・御手洗冨士夫氏とP&Gジャパン社長・木葉慎介氏へのインタビューのほか、MIT Sloan スクールのエルズベス・ジョンソン氏による論考と「トップを任せる人間は性格で見極める」と題したインタビューを掲載する。ミシガン大学ロスBスクール教授リンディ・グリーア氏らによる意思決定ルールに関する研究論考も収録されている。",
+          "sourceName": "楽天ブックス（ダイヤモンド社）",
+          "sourceUrl": "https://books.rakuten.co.jp/rb/18824344/",
+          "tags": ["権限委譲", "意思決定", "DHBR"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "ノーベル化学賞に硤合憲三氏 — 日本人31人目、不斉自己触媒の発見",
+          "summary": "スウェーデン王立科学アカデミーは<strong>2026</strong>年<strong>10</strong>月<strong>7</strong>日、東京理科大学名誉教授の硤合憲三氏とフランス・パリ・サクレー大学名誉教授のアンリ・カガン氏に<strong>2026</strong>年ノーベル化学賞を授与すると発表した。受賞理由は「不斉有機合成における非線形効果と自己触媒作用の発見」で、硤合氏が発見した「硤合反応」は生成物自身が同じ反応の触媒となる不斉自己触媒反応。生体分子がなぜ一方の鏡像型に偏っているかという生命の起源の謎の解明につながるとして化学界で評価されており、創薬など医薬品製造への応用も期待される。日本人ノーベル賞受賞者は<strong>31</strong>人目となる。",
+          "sourceName": "東京理科大学",
+          "sourceUrl": "https://www.tus.ac.jp/today/archive/20261007_3541.html",
+          "tags": ["科学", "ノーベル賞", "化学"]
+        }
+      ]
+    }
+  ]
+}
