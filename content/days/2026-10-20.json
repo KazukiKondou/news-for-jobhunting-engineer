@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-20",
+  "label": "2026年10月20日 (火)",
+  "intro": "DenoチームがCloudflareに合流しDeno Deployが<strong>6</strong>か月後閉鎖予定、Bun <strong>1</strong>.<strong>4</strong>.<strong>3</strong>にtsc比最大<strong>7</strong>倍速の型チェッカー「bun check」搭載。VS Code <strong>1</strong>.<strong>142</strong>でAI Canvasesプレビュー公開、LinuxカーネルPwnEscapeはCVSS <strong>9</strong>.<strong>3</strong>で全<strong>7</strong>系統の保守対象カーネルに修正済み。AI時代の「懐疑的インテリジェンス」が批判的思考の次に問われるスキルとして浮上、西山朋佳白玲が白玲通算<strong>5</strong>期で女性初の棋士資格を獲得。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "DenoチームがCloudflareに合流 — Deno Deployは6か月後閉鎖、JSRは継続",
+          "summary": "<strong>2026</strong>年<strong>10</strong>月<strong>9</strong>日、Node.js作者のRyan Dahl氏らDenoの開発チーム全員がCloudflareに合流すると両社が発表した。Cloudflare WorkersとDurable ObjectsをセルフホストできるようにするOSSのcelldプロジェクトをworkerdランタイムに統合することを主な目的としており、Dahl氏とBert Belder氏がこの統合を主導する。ホスティングサービスDeno Deployは約<strong>6</strong>か月後に停止予定で、有料ユーザーはCloudflare Workersへの移行支援を受けられる。Denoランタイムは今後<strong>1</strong>年間、月次でバグ修正とセキュリティ更新が続いた後にCloudflareによる開発が終了するが、OSSとして公開され続け、パッケージレジストリJSRはCloudflareインフラに移り継続される。",
+          "sourceName": "SBクリエイティブ（SB Biz）",
+          "sourceUrl": "https://www.sbbit.jp/article/cont1/187401",
+          "tags": ["技術トレンド", "JavaScript", "Cloudflare"]
+        },
+        {
+          "position": 2,
+          "title": "Bun 1.4.3、型チェッカー「bun check」搭載 — TypeScript 7比最大7倍速",
+          "summary": "JavaScriptランタイム「Bun」の開発元Ovenは<strong>2026</strong>年<strong>10</strong>月<strong>10</strong>日、Bun <strong>1</strong>.<strong>4</strong>.<strong>3</strong>をリリースした。新機能「bun check」はMicrosoftのTypeScript Go実装（typescript-go）をベースにした型チェッカーで、公式ベンチマークではVS Codeの<strong>10,947</strong>ファイルをtsc <strong>7</strong>比<strong>7</strong>倍速（<strong>1</strong>.<strong>75</strong>秒 対 <strong>12</strong>.<strong>58</strong>秒）、メモリ使用量は約<strong>3</strong>分の<strong>1</strong>で処理した。TypeScript適合テストに<strong>100</strong>%合格するとしているが、JavaScriptの出力や.d.tsファイルの生成には対応しないため、エディタのLanguage Serverはそのままtscを使う。`bun run --check`と組み合わせれば型エラー検出時に実行を停止でき、`bun test --check`でテスト前に型チェックを走らせることもできる。",
+          "sourceName": "Bun Blog",
+          "sourceUrl": "https://bun.com/blog/bun-v1.4.3",
+          "tags": ["技術トレンド", "TypeScript", "JavaScript"]
+        },
+        {
+          "position": 3,
+          "title": "VS Code 1.142、AI Canvasesをプレビュー公開 — 開発者とエージェントの共有ワークスペース",
+          "summary": "Microsoftは<strong>2026</strong>年<strong>10</strong>月<strong>14</strong>日、Visual Studio Code <strong>1</strong>.<strong>142</strong>をリリースした。最大の新機能はプレビュー段階の「Canvases」で、開発者とAIエージェントがリアルタイムで共同作業できるインタラクティブなワークスペース機能を提供する。MicrosoftはKanbanボードを例として開発者がカードを操作しながらエージェントが機能分解・進捗更新を行う使い方を紹介しており、設定でchat.canvases.enabledを有効化すると使え、拡張機能から独自のCanvas UIを定義することもできる。同リリースではCopilotエージェントハーネスのデフォルト化が進められ、管理者ポリシーで「Allow All」などの権限モードを制限できる企業向けセキュリティ設定も強化された。",
+          "sourceName": "Visual Studio Magazine",
+          "sourceUrl": "https://visualstudiomagazine.com/articles/2026/10/15/vs-code-1.142-brings-ai-canvases-tighter-agent-controls-and-a-new-model-picker.aspx",
+          "tags": ["技術トレンド", "AI", "開発ツール"]
+        },
+        {
+          "position": 4,
+          "title": "Linux PwnEscape、KVM仮想マシン脱獄 — CVSS 9.3、全7系統LTSカーネルに修正済み",
+          "summary": "セキュリティ研究者は<strong>2026</strong>年<strong>10</strong>月<strong>15</strong>日、LinuxカーネルのKVMネットワーク処理にCVSS <strong>9</strong>.<strong>3</strong>の重大な脆弱性「PwnEscape（CVE-<strong>2026</strong>-<strong>99999</strong>）」を公開した。virtio-net/TAP経路のIPv<strong>4</strong>チェックサム検証の不備を悪用すると、KVMベースの仮想マシンのゲストからホストのメモリを読み取ることができ、研究者はVercelが実施した賞金<strong>100</strong>万ドル規模のサンドボックス脱獄コンテスト中にVercel本番サンドボックスとFirecrackerで再現に成功した。保守対象の全<strong>7</strong>系統の安定版カーネルには<strong>10</strong>月<strong>15</strong>日に修正版が公開済みで、AWS EC<strong>2</strong>・Lambda・Fargateなどマネージドのクラウドサービスは影響を受けないとされている。自前でKVMホストを運用している場合はホスト側カーネルの更新が必要。",
+          "sourceName": "The Hacker News",
+          "sourceUrl": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
+          "tags": ["技術トレンド", "セキュリティ", "Linux"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "AIに必要な「検証プロセス」 — 批判的思考の先の「懐疑的インテリジェンス」",
+          "summary": "Forbes Japanは<strong>2026</strong>年<strong>9</strong>月<strong>11</strong>日、AI時代に求められるスキルとして「懐疑的インテリジェンス（Skeptical Intelligence）」を論じた記事を公開した。AIの優位性は情報を生成する能力にあるのではなく、いつその情報を疑うべきかを知る能力にあると指摘する。単にAI出力を批判的に見るだけでなく、自分の問題とAIの解釈が噛み合っているかという「整合性の問い」を立てることが重要だとしている。AI利用で批判的思考が低下するという研究が相次ぐなか、AI出力を受け取る際に検証プロセスを習慣化することを具体的なスキルとして示している。",
+          "sourceName": "Forbes Japan",
+          "sourceUrl": "https://forbesjapan.com/articles/detail/104564",
+          "tags": ["AI", "思考力", "批判的思考"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "西山朋佳白玲、女性初の棋士資格を獲得 — 権利行使は2週間以内に判断",
+          "summary": "<strong>2026</strong>年<strong>10</strong>月<strong>10</strong>日、西山朋佳白玲が第<strong>6</strong>期白玲戦<strong>7</strong>番勝負の第<strong>5</strong>局で福間香奈女流四冠を破り、白玲通算<strong>5</strong>期目を達成した。これにより<strong>2025</strong>年の日本将棋連盟通常総会で過半数の賛成で承認された「白玲通算<strong>5</strong>期で棋士編入」規定が初めて適用され、女性として初めて将棋の棋士資格を得た。これまで女性棋士誕生には奨励会三段リーグ突破か棋士編入試験の合格が求められており、今回の新規定とは仕組みが異なる。西山白玲は「盤上に集中していたのですぐに答えを出せる状況ではない」と述べて権利行使の判断を保留し、規定による<strong>2</strong>週間以内の判断が求められる。",
+          "sourceName": "熊本日日新聞（共同通信）",
+          "sourceUrl": "https://kumanichi.com/articles/2045387",
+          "tags": ["将棋", "文化", "女性活躍"]
+        }
+      ]
+    }
+  ]
+}

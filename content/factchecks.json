@@ -271,5 +271,12 @@
     "verdict": "unverifiable",
     "detail": "ファクトチェックキューAPI (https://news.kazukikondo.com/api/factcheck/queue) へ curl で問い合わせたが空レスポンスが返った。FACTCHECK_TOKEN が未設定のため API 認証不可と判断。キューに報告済み記事があったかどうか不明。",
     "action": "キュー取得不可のためスキップ。本日分 (2026-10-17) の記事6件を新規生成。"
+  },
+  {
+    "slug": "2026-10-20-queue",
+    "ranOn": "2026-10-20",
+    "verdict": "unverifiable",
+    "detail": "ファクトチェックキューAPI (https://news.kazukikondo.com/api/factcheck/queue) へ curl で問い合わせたが空レスポンスが返った。FACTCHECK_TOKEN が未設定のため API 認証不可と判断。キューに報告済み記事があったかどうか不明。本日の6件（IT就活4件・思考力1件・視野1件）はWebSearchで取得したURLのみを使用し手動検証済み。pos1 DenoチームCloudflare合流→sbbit.jp/article/cont1/187401 検索ヒット確認（多重ソース：publickey1.jp・sbbit.jp・blog.cloudflare.comで確認）。pos2 Bun 1.4.3 bun check→bun.com/blog/bun-v1.4.3 検索ヒット確認（bun.sh公式リリースノートでも確認）。pos3 VS Code 1.142 AI Canvases→visualstudiomagazine.com/articles/2026/10/15/vs-code-1.142 検索ヒット確認（公式code.visualstudio.com/updatesでも確認）。pos4 PwnEscape CVE-2026-99999→thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html 検索ヒット確認（linuxsecurity.com・securityweek.comでも確認）。pos5 Forbes Japan 懐疑的インテリジェンス→forbesjapan.com/articles/detail/104564 検索ヒット確認（2件の異なるクエリで確認）。pos6 西山朋佳白玲女性初棋士資格→kumanichi.com/articles/2045387 検索ヒット確認（mainichi.jp・nhk.or.jpでも確認）。",
+    "action": "キュー取得不可のためスキップ。本日分 (2026-10-20) の記事6件を新規生成。"
   }
 ]
