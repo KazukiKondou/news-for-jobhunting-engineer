@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-21",
+  "label": "2026年10月21日 (水)",
+  "intro": "C# Dev Kit <strong>11</strong>.<strong>0</strong>がNative AOT化で最大<strong>180</strong>倍高速、.NET <strong>11</strong> RC<strong>2</strong>に耐量子暗号ML-KEM APIが追加。Python <strong>3</strong>.<strong>10</strong>は<strong>10</strong>月末にEOLを迎えPyTorch <strong>2</strong>.<strong>15</strong>も<strong>3</strong>.<strong>10</strong>サポートを終了。OECDが警告する「メタ認知的怠惰」がAI就活生に問うもの、石川・中能登で本州<strong>2</strong>例目のトキ<strong>9</strong>羽が放鳥。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "C# Dev Kit <strong>11</strong>.<strong>0</strong>、Native AOT化で最大<strong>180</strong>倍高速 — プレビューで公開中",
+          "summary": "Microsoftは<strong>2026</strong>年<strong>10</strong>月<strong>7</strong>日、C# Dev Kit <strong>11</strong>.<strong>0</strong>をプレビュー公開した。従来の<strong>6</strong>つのマネージドプロセスを<strong>1</strong>つのNative AOTバイナリと永続キャッシュに統合したことで、<strong>407</strong>プロジェクトを抱えるAspireソリューションでのアクティブファイル表示までの時間が<strong>84</strong>.<strong>1</strong>秒から<strong>0</strong>.<strong>47</strong>秒（約<strong>180</strong>倍）、フルロードでも約<strong>28</strong>倍に短縮されたと報告されている。メモリ使用量も大幅に削減。現在はプレビューチャンネル向けで、.NET <strong>11</strong>に対応している。",
+          "sourceName": "Visual Studio Magazine",
+          "sourceUrl": "https://visualstudiomagazine.com/articles/2026/10/07/microsoft-rebuilds-c-dev-kit-110-for-faster-loads-lower-memory-use.aspx",
+          "tags": ["技術トレンド", "C#", "開発ツール"]
+        },
+        {
+          "position": 2,
+          "title": ".NET <strong>11</strong> RC<strong>2</strong>リリース — 耐量子暗号ML-KEM APIとNuGetサプライチェーン保護を追加",
+          "summary": "Microsoftは<strong>2026</strong>年<strong>10</strong>月<strong>13</strong>日、.NET <strong>11</strong> RC<strong>2</strong>をリリースした。本番環境での使用を許可するGo-Liveライセンスが付与されており、実験的APIとして耐量子暗号のML-KEMとHPKEが追加されている。NuGetには公開後一定時間が経過したパッケージのみを依存関係として使用できる「--min-publish-age-hours」オプションが追加され、サプライチェーン攻撃への対策が強化された。正式リリース（GA）は.NET Conf <strong>2026</strong>（<strong>11</strong>月<strong>10</strong>日）を予定。同日に.NET <strong>8</strong>/<strong>9</strong>/<strong>10</strong>のセキュリティパッチも提供された。",
+          "sourceName": "Microsoft .NET Blog",
+          "sourceUrl": "https://devblogs.microsoft.com/dotnet/dotnet-11-rc-2/",
+          "tags": ["技術トレンド", ".NET", "セキュリティ"]
+        },
+        {
+          "position": 3,
+          "title": "Python <strong>3</strong>.<strong>10</strong>が<strong>10</strong>月末にEOL — PyTorch <strong>2</strong>.<strong>15</strong>も<strong>3</strong>.<strong>10</strong>サポートを終了",
+          "summary": "Python <strong>3</strong>.<strong>10</strong>は<strong>2026</strong>年<strong>10</strong>月<strong>31</strong>日にEOL（サポート終了）を迎え、PSF（Python Software Foundation）によるセキュリティパッチ提供が終了する。PyTorchは<strong>10</strong>月<strong>28</strong>日リリース予定のPyTorch <strong>2</strong>.<strong>15</strong>をPython <strong>3</strong>.<strong>10</strong>ホイールを提供する最後のバージョンとすると告知しており、<strong>2</strong>.<strong>14</strong>が<strong>3</strong>.<strong>10</strong>対応の最終安定版となる。HerokuもPython <strong>3</strong>.<strong>10</strong>のサポートを<strong>2027</strong>年<strong>1</strong>月<strong>6</strong>日に終了予定。移行先としてPython <strong>3</strong>.<strong>11</strong>は<strong>2027</strong>年<strong>10</strong>月まで、Python <strong>3</strong>.<strong>12</strong>/<strong>3</strong>.<strong>13</strong>はより長期のサポートが続く。",
+          "sourceName": "PyTorch Dev Discuss",
+          "sourceUrl": "https://dev-discuss.pytorch.org/t/notice-python-3-10-support-is-being-removed-from-pytorch-2-15-2-14-is-the-last-release-with-3-10-wheels/3440",
+          "tags": ["技術トレンド", "Python"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 4,
+          "title": "OECDが警告する「メタ認知的怠惰」— AI依存で課題成績は上がるが本当の力は失われる",
+          "summary": "OECDが<strong>2026</strong>年に公開した「Digital Education Outlook <strong>2026</strong>」を取り上げた記事が注目される。レポートによると、AIを使って課題に取り組む学生は成績が上昇するが、AIを使わない評価では非使用者より成績が低下する「偽りの習得（metacognitive laziness）」現象が確認されている。AIが思考の代替を担うことで、学習者が自分の理解度を正確に把握するメタ認知能力が低下するという。OECDは、解答を直接提供するのではなく問いかけによって学習者を導く教育専用AIの設計を推奨している。就活生にとっては、AIに頼るほど「わかった気」になるリスクを示す警告だ。",
+          "sourceName": "イノベトピア",
+          "sourceUrl": "https://innovatopia.jp/tech-social/tech-social-news/78009/",
+          "tags": ["AI", "思考力", "メタ認知"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "石川・中能登でトキ<strong>9</strong>羽を放鳥 — 本州<strong>2</strong>例目、能登復興のシンボルに",
+          "summary": "<strong>2026</strong>年<strong>10</strong>月<strong>7</strong>日、石川県中能登町でトキ<strong>9</strong>羽のソフトリリース（段階的放鳥）が始まり、ケージが開放されて<strong>2</strong>羽が飛び立った。放鳥された<strong>9</strong>羽は<strong>1</strong>〜<strong>13</strong>歳で、東京都・新潟県・島根県などの施設で生まれた個体。本州での放鳥は<strong>5</strong>月<strong>31</strong>日に石川県羽咋市で行われた事例に次ぐ<strong>2</strong>例目で、<strong>2024</strong>年能登半島地震からの復興のシンボルと位置づけられている。<strong>9</strong>月末時点で先行して放鳥された<strong>18</strong>羽は石川県内<strong>4</strong>市町・富山県内<strong>3</strong>市への拡散が確認されている。",
+          "sourceName": "熊本日日新聞（共同通信）",
+          "sourceUrl": "https://kumanichi.com/articles/2043974",
+          "tags": ["自然保護", "復興", "石川"]
+        }
+      ]
+    }
+  ]
+}
