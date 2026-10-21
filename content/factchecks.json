@@ -1,5 +1,12 @@
 [
   {
+    "slug": "2026-10-22-queue",
+    "ranOn": "2026-10-22",
+    "verdict": "unverifiable",
+    "detail": "ファクトチェックキューAPI（https://news.kazukikondo.com/api/factcheck/queue）はFACTCHECK_TOKEN未設定のため認証不可（空レスポンス）。キュー内容不明のためスキップ。本日分5件（IT就活3件・思考力1件・視野1件）はWebSearchで取得したURLのみを使用し手動検証済み。pos1 GPT-6全ユーザー展開→gori.me/?p=171043 複数ソース（book.st-hakky.com/news/chatgpt-gpt-6-intelligent-ui、dot-ai.myuuu.co.jp/times/articles/1433）でも確認。pos2 JetBrains Mellum2.1→tech-insider.org/jetbrains-mellum-2-1-open-coding-model-2026/ kucoin.comほか複数英語ソースでも確認。pos3 GitHub Copilot VS Code Sep2026→github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases 検索ヒット確認。pos4 認知オフローディング研究→prtimes.jp/main/html/rd/p/000000005.000181785.html 複数クエリで確認（webtan.impress.co.jp でも同記事確認）。pos5 世界体操男子団体金メダル→jiji.com/jc/article?k=2026102100226&g=spo nippon.com/ja/news/yjj2026102100226/でも確認。",
+    "action": "キュー取得不可のためスキップ。本日分 (2026-10-22) の記事5件を新規生成。"
+  },
+  {
     "slug": "2026-10-15-queue",
     "ranOn": "2026-10-15",
     "verdict": "unverifiable",
