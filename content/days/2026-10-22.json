@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-22",
+  "label": "2026年10月22日 (木)",
+  "intro": "GPT-<strong>6</strong>が<strong>10</strong>月<strong>7</strong>〜<strong>8</strong>日に全プラン展開、JetBrains Mellum<strong>2</strong>.<strong>1</strong>のSWE-bench<strong>47</strong>%・LiveCodeBench<strong>82</strong>%、GitHub CopilotエージェントがPRマージ自律化。認知オフローディング研究がAI依存と思考力低下の相関<strong>−0</strong>.<strong>75</strong>を警告。世界体操男子団体で日本が<strong>251</strong>.<strong>928</strong>点の連覇金メダル。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "OpenAI、GPT-<strong>6</strong>を全プランに展開 — 無料ユーザーへも「Luna」、Intelligent UIで回答がアプリ化",
+          "summary": "OpenAIは<strong>10</strong>月<strong>7</strong>日から有料プラン（Plus・Pro・Business・Enterprise）向けに「GPT-<strong>6</strong> Sol」を、翌<strong>8</strong>日から無料プランとGoプラン向けに「GPT-<strong>6</strong> Luna」を段階的に展開し始めた。同時に導入された「Intelligent UI」は、テキスト回答にグラフィック・ボタン・フォーム・チャートを動的に組み込む機能で、回答が対話型アプリのように表示される。WorkとCodexを動かすモデルは今回の変更対象外。Enterprise利用は管理者設定に依存し、全アカウントへの即時提供は保証されていない段階的な展開となっている。",
+          "sourceName": "gori.me",
+          "sourceUrl": "https://gori.me/?p=171043",
+          "tags": ["技術トレンド", "AI", "ChatGPT"]
+        },
+        {
+          "position": 2,
+          "title": "JetBrains、コーディングAI「Mellum<strong>2</strong>.<strong>1</strong>」をApache<strong>2</strong>.<strong>0</strong>で公開 — SWE-bench<strong>47</strong>%・LiveCodeBench<strong>82</strong>%",
+          "summary": "JetBrainsは<strong>10</strong>月<strong>8</strong>日、コーディングエージェント向けに最適化したオープンウェイトモデル「Mellum<strong>2</strong>.<strong>1</strong>」をApache<strong>2</strong>.<strong>0</strong>ライセンスで公開した。<strong>12</strong>BパラメータのMoE構成で推論時の実動作は約<strong>2</strong>.<strong>5</strong>B、コンテキスト長は<strong>131</strong>K。構造を変えず強化学習による事後学習でSWE-bench Verifiedを<strong>2</strong>%から<strong>47</strong>%へ向上させ、LiveCodeBench v<strong>6</strong>ではQwen<strong>3</strong>.<strong>5</strong>-<strong>9</strong>Bの<strong>75</strong>.<strong>4</strong>%を上回る<strong>82</strong>%を記録（いずれもJetBrains自己申告値）。モデルの重みとGGUF量子化版はHugging Faceで公開されローカル展開が可能。",
+          "sourceName": "tech-insider.org",
+          "sourceUrl": "https://tech-insider.org/jetbrains-mellum-2-1-open-coding-model-2026/",
+          "tags": ["技術トレンド", "AI", "OSS", "開発ツール"]
+        },
+        {
+          "position": 3,
+          "title": "GitHub Copilot for VS Code、エージェントがPRマージ・CI対応を自律処理 — <strong>9</strong>月版リリースノート",
+          "summary": "GitHubは<strong>10</strong>月<strong>1</strong>日、VS Code向けGitHub Copilotの<strong>2026</strong>年<strong>9</strong>月分リリースノート（v<strong>1</strong>.<strong>136</strong>〜v<strong>1</strong>.<strong>140</strong>）を公開した。アクティブなセッション内で、エージェントがレビューフィードバック・CI失敗・マージコンフリクト・ワークフロー再実行を処理してPRマージまで担う「agent merge」がプレビューとして追加された。スケジュール実行などの繰り返しタスクを自律化する「automations」もプレビューとして導入されており、開発の定型作業をエージェントに委譲できる範囲が広がっている。",
+          "sourceName": "GitHub Blog",
+          "sourceUrl": "https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases",
+          "tags": ["技術トレンド", "AI", "GitHub", "開発ツール"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 4,
+          "title": "「AIが賢くなるほど人間は考えなくなる」——認知オフローディング研究が示す企業研修の盲点",
+          "summary": "AIへの信頼度が高まるほど人が自ら考えることをやめる「認知オフローディング」が進む。<strong>319</strong>名・<strong>936</strong>件の業務事例を分析した研究（Lee et al.<strong>2025</strong>ほか）では、AI利用頻度と認知オフローディングの相関係数は<strong>+0</strong>.<strong>72</strong>、オフローディングと批判的思考力の相関係数は<strong>−0</strong>.<strong>75</strong>を示した。Bloomの認知<strong>6</strong>段階すべてで過半数がAI利用後に認知的努力が低下したと回答しており、AIに作業を委ねるほど自分で深く考えない習慣が形成されるという。企業研修においてAIを使いながらも「考えさせる」設計を意識的に残す重要性を指摘する内容。",
+          "sourceName": "PR TIMES（GTF）",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000005.000181785.html",
+          "tags": ["認知科学", "思考力", "AI"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "世界体操、日本が男子団体<strong>2</strong>連覇 — <strong>251</strong>.<strong>928</strong>点でロサンゼルス五輪出場権も獲得",
+          "summary": "<strong>10</strong>月<strong>21</strong>日、オランダ・ロッテルダムで行われた第<strong>54</strong>回世界体操競技選手権男子団体総合決勝で、日本は<strong>251</strong>.<strong>928</strong>点を記録し<strong>2023</strong>年大会に続く連覇を達成した。<strong>3</strong>種目終了時点では<strong>3</strong>位だったが平行棒で逆転し、最終ローテーションまで中国との差は<strong>0</strong>.<strong>1</strong>点の接戦が続いた。<strong>2</strong>位ロシアとの点差は<strong>1</strong>.<strong>599</strong>点。上位<strong>3</strong>チーム（日本・ロシア・中国）が<strong>2028</strong>年ロサンゼルス五輪の団体出場権を獲得。代表は橋本大輝、岡慎之助、川上翔平、土井陵輔、前田楓丞の<strong>5</strong>名。",
+          "sourceName": "時事通信社",
+          "sourceUrl": "https://www.jiji.com/jc/article?k=2026102100226&g=spo",
+          "tags": ["スポーツ", "体操", "五輪"]
+        }
+      ]
+    }
+  ]
+}
