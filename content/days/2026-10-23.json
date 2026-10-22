@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-23",
+  "label": "2026年10月23日 (金)",
+  "intro": "CloudflareがTypeScriptコンパイラのRust移植「tsrs」を発表（最大<strong>8</strong>倍高速）。AnthropicのClaude Code ReviewがTeam・Enterpriseで一般提供（<strong>6</strong>〜<strong>10</strong>分）開始。GitHubのGitプッシュが月間<strong>33</strong>.<strong>5</strong>億件に急増しインフラを再設計中。Forbes Japanがリーダーの認知バイアスと選択設計を解説。大阪のiPS心筋シート保険適用後初移植患者が<strong>10</strong>月<strong>22</strong>日に退院。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Cloudflare、TypeScriptコンパイラのRust移植「tsrs」を発表 — 最大<strong>8</strong>倍高速・メモリ<strong>70</strong>%削減",
+          "summary": "Cloudflareは<strong>2026</strong>年<strong>10</strong>月<strong>22</strong>日、VoidZero（Oxcプロジェクト）と共同でTypeScriptコンパイラをRustへ移植した「tsrs」を公式ブログで発表した。Cloudflare公式発表によると最大<strong>8</strong>倍高速・メモリ使用量<strong>70</strong>%削減（いずれもTypeScript <strong>7</strong>.<strong>0</strong>との比較でCloudflare計測値）。「TypeScriptをフォークせず、言語設計とガバナンスはMicrosoftのTypeScriptチームが継続して主導する」という立場を明確にしており、Oxcツールチェーンの中でインキュベート中の段階であるため安定版リリースはまだ出ていない。",
+          "sourceName": "Cloudflare Blog",
+          "sourceUrl": "https://blog.cloudflare.com/typescript-rust-port/",
+          "tags": ["技術トレンド", "TypeScript", "Rust", "開発ツール"]
+        },
+        {
+          "position": 2,
+          "title": "Claude CodeのコードレビューがTeam・Enterpriseで一般提供 — <strong>6</strong>〜<strong>10</strong>分・<strong>3</strong>段階深度",
+          "summary": "Anthropicは<strong>2026</strong>年<strong>10</strong>月<strong>15</strong>日、Claude Codeのコードレビュー機能がTeam・Enterprise向けに研究プレビューを終了し一般提供（GA）を開始したと発表した。レビュー完了時間はプレビュー期間中の約<strong>20</strong>分から<strong>6</strong>〜<strong>10</strong>分に短縮され、管理者はリポジトリごとにQuick・Standard・Deepの<strong>3</strong>段階深度を設定できる。インラインコメントを投稿するがマージはブロックしない設計で、Zero Data Retention有効化組織やHIPAA構成適用組織は対象外。Enterpriseは<strong>2027</strong>年<strong>1</strong>月<strong>15</strong>日までに最低<strong>1</strong>万ドル分のクレジットを申請できる。",
+          "sourceName": "Anthropic",
+          "sourceUrl": "https://claude.com/resources/articles/code-review-is-now-generally-available",
+          "tags": ["技術トレンド", "AI", "コードレビュー", "開発ツール"]
+        },
+        {
+          "position": 3,
+          "title": "GitHubのGitインフラを稼働停止なしに再設計 — AIエージェント急増で月間プッシュが<strong>33</strong>.<strong>5</strong>億件に",
+          "summary": "GitHubは公式ブログで、サービスを停止せずにGitインフラを再設計中であると発表した。AIエージェントの普及でGit活動量は<strong>2025</strong>年<strong>9</strong>月から<strong>2026</strong>年<strong>8</strong>月の<strong>1</strong>年間で倍増し月間<strong>4,733</strong>億件に達し、<strong>2026</strong>年<strong>9</strong>月単月では開発者とエージェントが<strong>74</strong>億件のコミットを作成してプッシュ数が月間<strong>6</strong>.<strong>9</strong>億件から<strong>33</strong>.<strong>5</strong>億件へ急増した。内部ベンチマークでは書き込みスループットが最大<strong>35</strong>倍に向上（GitHub社内計測値）し、リポジトリコピーの<strong>99</strong>.<strong>99999</strong>%はすでにAzureへ移行済みでストレージとコンピュートの分離を推進している。",
+          "sourceName": "GitHub Blog",
+          "sourceUrl": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/",
+          "tags": ["技術トレンド", "AI", "GitHub", "開発インフラ"]
+        },
+        {
+          "position": 4,
+          "title": "さくらインターネット、GPU専有型AI基盤「AI Engineプライベートエディション」を<strong>10</strong>月<strong>8</strong>日に提供開始",
+          "summary": "さくらインターネットは<strong>2026</strong>年<strong>10</strong>月<strong>8</strong>日、GPUを専有して利用できる定額制AIサービス「さくらのAI Engineプライベートエディション」の提供を開始した。共有型とは異なりGPUを占有するため、トークン消費量を気にせず定額で利用できる設計となっている。企業が社内データをクラウド上の他テナントから切り離して管理したい用途を想定した製品で、料金は問い合わせ制。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/gpuai_engine.html",
+          "tags": ["技術トレンド", "クラウド", "AI", "GPU"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "専門性が高まるほどヒューリスティックが増える — リーダーの認知バイアスと「選択設計」という対策",
+          "summary": "Forbes Japanの記事は、専門性が高まるほど脳は処理時間を節約する思考の近道（ヒューリスティック）を多用するようになり、それが意思決定の誤りを生む仕組みを解説する。カーネマンの「速く感情的なシステム（System <strong>1</strong>）」と「遅く分析的なシステム（System <strong>2</strong>）」の概念を引き、バイアスによる誤りの多くはSystem <strong>2</strong>が必要な場面でSystem <strong>1</strong>に頼ることで生じると論じる。対策として「選択設計（チョイス・アーキテクチャ）」、すなわち意思決定に至るまでの具体的な手順を事前に組み立てることが挙げられている。",
+          "sourceName": "Forbes Japan",
+          "sourceUrl": "https://forbesjapan.com/articles/detail/104394",
+          "tags": ["思考力", "意思決定", "認知バイアス"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "保険適用後初のiPS心筋シート移植、患者が「深呼吸が深くできる」と回復を語り<strong>10</strong>月<strong>22</strong>日に退院",
+          "summary": "大阪けいさつ病院は<strong>2026</strong>年<strong>10</strong>月<strong>21</strong>日の記者会見で、クオリプスが開発したiPS細胞由来心筋細胞シート「リハート」の移植を<strong>9</strong>月<strong>29</strong>日に実施したと発表した。<strong>2026</strong>年<strong>9</strong>月に公的保険が適用されてから初の症例で、リハートは大阪大学発ベンチャー「クオリプス」が開発した重症心不全治療製品。手術を受けた女性は「術後<strong>1</strong>週間ほどで深呼吸が深くできるようになった」と回復を語り、<strong>10</strong>月<strong>22</strong>日に退院する予定と報じられた。病院は今後<strong>10</strong>名への手術を検討しているとも発表した。",
+          "sourceName": "日本経済新聞",
+          "sourceUrl": "https://www.nikkei.com/article/DGXZQOUF2118P0R21C26A0000000/",
+          "tags": ["科学・医療", "iPS細胞", "医療技術"]
+        }
+      ]
+    }
+  ]
+}
