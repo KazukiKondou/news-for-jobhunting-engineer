@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-24",
+  "label": "2026年10月24日 (土)",
+  "intro": "GitHubがAI PRスキャンをGA移行し、PHP重大脆弱性「php2shell」（CVSS <strong>9</strong>.<strong>2</strong>）の緊急パッチが<strong>10</strong>月<strong>21</strong>日に公開。AnthropicはAIエージェント「Claude Duet」をリサーチプレビューで発表し、小田凱人選手がアジアパラ車いすテニスで<strong>2</strong>冠を達成し<strong>2028</strong>年ロサンゼルスパラリンピック内定<strong>1</strong>号となった。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "GitHub、AI Scan for Pull RequestsをGA — PHP・Shell・Terraform等CodeQL非対応言語の脆弱性を検出",
+          "summary": "GitHubは<strong>2026</strong>年<strong>10</strong>月<strong>15</strong>日、プルリクエスト向けAIセキュリティスキャン「AI Scan for pull requests」を一般提供（GA）に移行した。PHP・Shell/Bash・Terraform(HCL)・Dockerfile・JSP・Blazorなど、CodeQLがカバーしていない言語・構成ファイルの変更差分を対象に脆弱性を検出する仕組みで、指摘結果は助言的扱いでありマージをブロックしない。組織・個人アカウントが所有する公開リポジトリは無料で利用できるが、非公開・内部リポジトリにはGitHub Code SecurityまたはGitHub Advanced Securityが必要で、利用量はCode Security AI Creditsで課金される。同日、既存コードスキャンのアラートに修正案付きドラフトPRを作成するAgentic Autofixも一般提供に移行した。",
+          "sourceName": "GitHub Blog",
+          "sourceUrl": "https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available/",
+          "tags": ["技術トレンド", "GitHub", "セキュリティ"]
+        },
+        {
+          "position": 2,
+          "title": "PHPに重大脆弱性「php2shell」発覚、緊急パッチ公開 — CVSS <strong>9</strong>.<strong>2</strong>・mod_phpで認証なしRCE成立",
+          "summary": "PHPコアにリモートコード実行（RCE）が可能な重大脆弱性<strong>2</strong>件「php2shell」（CVE-2026-109618・CVE-2026-109619）が公表され、緊急パッチが<strong>2026</strong>年<strong>10</strong>月<strong>21</strong>日に公開された。CVSS v4.0スコアは両件とも<strong>9</strong>.<strong>2</strong>（最高危険度）で、Apache+mod_php構成では認証なしの外部リクエストで任意コードを実行できる攻撃が研究者により確認されている。修正版はPHP 8.5.12・8.4.27・8.3.36・8.2.35として公開されており、8.1系以前はサポート対象外のため上位系列への移行が必要。GMO Flatt Securityは「session.upload_progress.enabled=0」設定のみでは不十分と警告しており、CloudflareはWAFルールを同日自動適用している。",
+          "sourceName": "@IT（ITmedia）",
+          "sourceUrl": "https://atmarkit.itmedia.co.jp/ait/articles/2610/21/news072.html",
+          "tags": ["技術トレンド", "セキュリティ", "PHP"]
+        },
+        {
+          "position": 3,
+          "title": "Anthropic、常時稼働AIエージェント「Claude Duet」をリサーチプレビューで発表 — メール・カレンダーを自律監視",
+          "summary": "Anthropicは<strong>2026</strong>年<strong>10</strong>月<strong>21</strong>日、常時稼働型のパーソナルAIエージェント「Claude Duet」をリサーチプレビューとして発表した。Claude Opus <strong>5</strong>.<strong>5</strong>が搭載されており、ユーザーのメールやカレンダーなど接続済みアプリを常時監視しながら自律的にタスクを処理し、毎朝のブリーフィングを送る。メール送信・決済・電子署名などの重要な操作の前には確認を求める設計で、iOSおよびAndroidアプリとClaude.aiウェブから利用できる。現在は米国のClaude ProとMaxサブスクライバー向けにウェイトリスト制で提供されており、TeamとEnterpriseへの展開時期は未発表。",
+          "sourceName": "NewsBytesApp",
+          "sourceUrl": "https://www.newsbytesapp.com/news/science/anthropic-announces-claude-duet-ai-assistant-on-october-22-2026/tldr",
+          "tags": ["技術トレンド", "AI", "エージェント"]
+        },
+        {
+          "position": 4,
+          "title": "AIコーディングツールOpenCodeが不正アクセス、APIキー流出か — Console利用者の<strong>1</strong>.<strong>4</strong>%に影響",
+          "summary": "AIコーディングツール「OpenCode」のホスティングサービス「OpenCode Console」が不正アクセスを受け、<strong>2026</strong>年<strong>10</strong>月<strong>17</strong>日に影響を受けた利用者へ通知が送られた。同社は廃止予定だった旧システムへの侵入だったと説明しており、Console利用者の<strong>1</strong>.<strong>4</strong>%が影響を受けたとしている。流出した可能性のあるAPIキーはOpenAI・Anthropic・Google Cloudなど複数プロバイダーにまたがり、一晩で<strong>1</strong>,<strong>700</strong>ドルを超える不正請求が発生したケースも報告されている。影響を受けた可能性のある利用者は各プロバイダーの管理画面でキーを無効化・再発行し、使用状況を確認するよう求められている。",
+          "sourceName": "Bleeping Computer",
+          "sourceUrl": "https://bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks",
+          "tags": ["セキュリティ", "AI", "APIキー"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "正解なき時代の「地図」をつくる — DHBR <strong>2026</strong>年<strong>10</strong>月号「センスメイキング」特集",
+          "summary": "ダイヤモンド・ハーバード・ビジネス・レビュー<strong>2026</strong>年<strong>10</strong>月号（<strong>9</strong>月<strong>10</strong>日発売）は「センスメイキング」を特集し、正解のない時代にリーダーがいかに「地図」をつくるかを問う。MITスローン経営大学院のデボラ・アンコーナ教授は「目の前の現実に意味を与えること」としてセンスメイキングを定義し、環境変化を既存の枠組みに当てはめず観察と実験で新たな地図を構築する重要性を説く。ミシガン大学のカール・ワイク名誉教授は、センスメイキングの欠如がチームの崩壊につながった事例を分析し、「わかった」という確信がかえって判断を誤らせる危うさを示す。ソニーグループ吉田憲一郎会長、アイリスオーヤマ大山健太郎会長、建築家安藤忠雄氏らのインタビューも収録されている。",
+          "sourceName": "DIAMOND ハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://www.diamond.co.jp/magazine/059691026.html",
+          "tags": ["思考力", "リーダーシップ", "センスメイキング"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "小田凱人、愛知アジアパラで車いすテニス<strong>2</strong>冠 — <strong>2028</strong>年ロサンゼルスパラリンピック内定<strong>1</strong>号に",
+          "summary": "<strong>2026</strong>年<strong>10</strong>月<strong>23</strong>日、愛知・名古屋アジアパラ競技大会（<strong>10</strong>月<strong>18</strong>〜<strong>24</strong>日）の車いすテニス男子シングルス決勝で、世界ランキング<strong>1</strong>位の小田凱人選手（東海理化）が中国の紀珍旭選手に<strong>6</strong>−<strong>2</strong>、<strong>6</strong>−<strong>2</strong>で勝利し金メダルを獲得した。<strong>22</strong>日の男子ダブルス（荒井大輔選手と組む）に続く大会<strong>2</strong>冠で、NHKはこの優勝により小田選手が<strong>2028</strong>年ロサンゼルスパラリンピックへの内定<strong>1</strong>号になったと伝えた。中日スポーツは、小田選手が地元・愛知で連覇を果たし「今悩んでいる子たちへ…」と声を詰まらせながらエールを送ったと報じた。",
+          "sourceName": "NHKニュース",
+          "sourceUrl": "https://news.web.nhk/newsweb/na/nd-20261023de64364",
+          "tags": ["スポーツ", "パラリンピック", "車いすテニス"]
+        }
+      ]
+    }
+  ]
+}
