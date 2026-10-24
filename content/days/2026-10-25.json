@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-25",
+  "label": "2026年10月25日 (日)",
+  "intro": "CloudflareとVoidZeroがTypeScript 7.0比最大<strong>8</strong>倍高速な「tsrs」をOxc向けに発表。Node.jsに<strong>10</strong>件の脆弱性修正版（v22.23.4 / v24.22.1 / v26.12.1）が公開され、Findy調査でフリーランスエンジニアの平均月単価が約<strong>80</strong>万円・AI活用者は約<strong>10</strong>万円高いことが判明。世界体操選手権では日本男子団体が<strong>251</strong>.<strong>928</strong>点で連覇し<strong>2028</strong>年ロス五輪出場権を獲得した。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "CloudflareとVoidZeroがTypeScriptコンパイラをRustへ移植した「tsrs」発表 — TypeScript 7.0比最大8倍高速・メモリ70%削減",
+          "summary": "CloudflareとVoidZeroは<strong>2026</strong>年<strong>10</strong>月<strong>20</strong>日、TypeScriptコンパイラをRustで再実装した「tsrs」をOxc JavaScriptツールチェーンの一部として発表した。初期ベンチマークではTypeScript 7.0と比べて最大<strong>8</strong>倍高速で、メモリ使用量は約<strong>70</strong>%削減されるという。tsrsはTypeScriptの公式リリースではなくTypeScriptのフォークでもない独立した実装として位置づけられており、Oxcエコシステムとして開発が進められている。実験的なnpmリリースが公開されており、手元で試すことが可能になっている。",
+          "sourceName": "St.Hakky (技術解説)",
+          "sourceUrl": "https://book.st-hakky.com/news/introducing-tsrs-a-port-of-typescript-to-rust",
+          "tags": ["技術トレンド", "TypeScript", "Rust"]
+        },
+        {
+          "position": 2,
+          "title": "Node.jsに脆弱性10件修正、High評価4件にBrotli RCEも — v22.23.4 / v24.22.1 / v26.12.1",
+          "summary": "<strong>2026</strong>年<strong>10</strong>月<strong>21</strong>日、Node.jsのセキュリティリリースが公開され、サポート中の全系列（v22・v24・v26）で計<strong>10</strong>件の脆弱性が修正された。深刻度の内訳はHigh <strong>4</strong>件・Medium <strong>3</strong>件・Low <strong>3</strong>件で、Highの最重大はBrotli展開処理のメモリ範囲外書き込みによるリモートコード実行（RCE）の恐れがある問題。他にIPv4アドレス処理に起因する証明書検証の迂回やPermission Modelの回避なども修正対象に含まれる。修正版はv22.23.4・v24.22.1・v26.12.1で、v18・v20など旧系列にはパッチが提供されないため上位系列への移行が必要。",
+          "sourceName": "ウェステリア (セキュリティ解説)",
+          "sourceUrl": "https://westeria.jp/security-incidents/guide/nodejs-security-release-2026-10/",
+          "tags": ["技術トレンド", "Node.js", "セキュリティ"]
+        },
+        {
+          "position": 3,
+          "title": "Anthropic、ClaudeにDashboards・Motion機能を追加 — BIダッシュボード生成とアニメーション動画をベータ提供",
+          "summary": "Anthropicは<strong>2026</strong>年<strong>10</strong>月<strong>8</strong>日、Claudeに新機能「Dashboards」と「Motion」を発表した。Dashboardsは自然言語で社内データを分析しリアルタイム更新のダッシュボードを作成する機能で、Team・EnterpriseプランでBeta提供される。Motionはアニメーションを用いたExplainer動画を作成できる機能で同じくTeam・Enterpriseプランのベータとなる。同日、既存の「Docs」「Slides」「Design」機能はベータを終了し、無料プランを含む全プランで利用できるようになった。また小型モデルの新版「Claude Haiku 5.5」も発表され、無料プランでも選択可能となっている。",
+          "sourceName": "窓の杜",
+          "sourceUrl": "https://forest.watch.impress.co.jp/docs/news/2146954.html",
+          "tags": ["技術トレンド", "AI", "Anthropic"]
+        },
+        {
+          "position": 4,
+          "title": "GitHub Actions、ubuntu-latestがUbuntu 26.04へ段階移行中 — 10月19日〜11月19日、ツールバージョン変更に注意",
+          "summary": "GitHubは<strong>2026</strong>年<strong>10</strong>月<strong>19</strong>日から<strong>11</strong>月<strong>19</strong>日にかけて、GitHub Actionsの「ubuntu-latest」ラベルを段階的にUbuntu 26.04へ移行している。移行は一斉展開ではないため同じワークフローを同日に複数回実行しても異なるランナーイメージで動く場合があり、1回成功しても移行済みとは限らない。Ubuntu 26.04ではPython・Node.js・Docker・OpenSSLなど各種ツールのバージョンが変わっており、既存ワークフローが影響を受ける可能性がある。移行前に「runs-on: ubuntu-26.04」を指定して動作確認を行い、準備が整っていない場合は「ubuntu-24.04」に明示的に固定することが推奨されている。",
+          "sourceName": "GitHub Changelog",
+          "sourceUrl": "https://github.blog/changelog/2026-09-17-ubuntu-26-generally-available-and-latest-migration",
+          "tags": ["技術トレンド", "GitHub Actions", "インフラ"]
+        },
+        {
+          "position": 5,
+          "title": "Findy 2026年10月調査: フリーランスエンジニア平均月単価80万円、AI活用者は約10万円高",
+          "summary": "ファインディが<strong>2026</strong>年<strong>10</strong>月に発表した最新調査によると、フリーランスエンジニアの平均月単価は約<strong>80</strong>万円で、コード生成などに生成AIを活用しているエンジニアは非活用者より月単価が約<strong>10</strong>万円高い傾向にある。同社は「フリーランスエンジニア市場は、単なる労働力の提供から生成AIを活用した高付加価値の提供へのシフトが進んでいる」としている。副業・フリーランスを検討しているエンジニアにとって、生成AIスキルの習得が収入面でも直結する指標として注目される。",
+          "sourceName": "ファインディ",
+          "sourceUrl": "https://findy.co.jp/3922/",
+          "tags": ["採用", "フリーランス", "AI"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "DHBR 2026年11月号「仕事を任せる技術」— 権限委譲でリーダーが直面する4つの課題",
+          "summary": "ダイヤモンド・ハーバード・ビジネス・レビュー<strong>2026</strong>年<strong>11</strong>月号（<strong>10</strong>月<strong>9</strong>日発売）は「仕事を任せる技術 みずから考え、行動する人を育てる」を特集する。MITスローン経営大学院のエルズベス・ジョンソン氏は権限委譲の難しさとリーダーが誰もが直面しうる<strong>4</strong>つの課題を論じ、ミシガン大学ロスのスクール研究者チームは意思決定ルールを定めても組織が動かない<strong>4</strong>要因を分析する。P&Gジャパン社長の木葉慎介氏はリーダー育成の仕組みを語り、キヤノン会長の御手洗冨士夫氏は次世代リーダーの見極め方を解説する。",
+          "sourceName": "DIAMOND ハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://www.diamond.co.jp/magazine/059691126.html",
+          "tags": ["思考力", "リーダーシップ", "組織論"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "世界体操選手権、日本男子団体が2連覇 — ロッテルダムで251.928点、ロス五輪出場権獲得",
+          "summary": "<strong>2026</strong>年<strong>10</strong>月<strong>20</strong>日にオランダ・ロッテルダムで行われた世界体操選手権の男子団体決勝で、日本チームが合計<strong>251</strong>.<strong>928</strong>点で優勝し<strong>2</strong>年連続の金メダルを獲得した。橋本大輝・岡慎之助・川上翔平・土井陵輔・前田楓丞の<strong>5</strong>選手が出場し、<strong>2</strong>位ロシア（<strong>250</strong>.<strong>329</strong>点）・<strong>3</strong>位中国（<strong>249</strong>.<strong>193</strong>点）を上回った。上位<strong>3</strong>か国は<strong>2028</strong>年ロサンゼルス五輪の団体出場枠を確保した。女子団体でも日本は<strong>60</strong>年ぶりの銅メダルを獲得しロス五輪出場権を得ており、同大会で日本が男女ともに五輪切符を手にした。",
+          "sourceName": "熊本日日新聞",
+          "sourceUrl": "https://kumanichi.com/articles/2048829",
+          "tags": ["スポーツ", "体操", "世界選手権"]
+        }
+      ]
+    }
+  ]
+}
