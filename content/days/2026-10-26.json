@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-26",
+  "label": "2026年10月26日 (月)",
+  "intro": "Python 3.15の正式リリースでUTF-8がデフォルト化・遅延インポート追加、GitHubのStacked PRが全プランGAでスタック利用リポジトリのマージ量が<strong>9</strong>%増加。CloudflareがDenoを買収しWorkers強化へ、Deno Deployは<strong>6</strong>カ月後に終了予定。ITエンジニア新規求人倍率は<strong>2026</strong>年<strong>8</strong>月時点で<strong>3</strong>.<strong>1</strong>倍、JAXAのH3ロケット<strong>10</strong>号機が火星衛星探査機MMXを打ち上げ<strong>2031</strong>年<strong>7</strong>月のフォボスサンプルリターンへ出発した。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Python 3.15 正式リリース — UTF-8がデフォルト化、遅延インポートとfrozendictを導入",
+          "summary": "Python Software Foundationは<strong>2026</strong>年<strong>10</strong>月<strong>9</strong>日、Python 3.15の正式版を公開した。主要変更点は<strong>3</strong>点で、まずPEP 686によりWindowsを含む全環境でデフォルトエンコーディングがUTF-<strong>8</strong>に統一された（従来はロケール依存）。次にPEP 810で「lazy」キーワード付き遅延インポートが追加され、初回利用時までモジュールのロードを先送りして起動時間を短縮できる。さらにPEP 814で組み込み型frozendict（変更不可能な辞書型）が追加された。sentinel型の追加や実験的JITコンパイラの強化も含まれる。移行時はUTF-<strong>8</strong>デフォルト化によるエンコーディング動作の変化に注意が必要だ。",
+          "sourceName": "窓の杜",
+          "sourceUrl": "https://forest.watch.impress.co.jp/docs/news/2147319.html",
+          "tags": ["技術トレンド", "Python", "プログラミング言語"]
+        },
+        {
+          "position": 2,
+          "title": "GitHub Stacked Pull Requests が全プランに正式提供 — スタック利用リポジトリでマージ量が9%増加",
+          "summary": "GitHubは<strong>2026</strong>年<strong>10</strong>月<strong>6</strong>日、複数の関連PRを直列に積み上げて並行レビューする「Stacked Pull Requests」をgithub.comの全プランで一般提供（GA）した。<strong>2026</strong>年<strong>7</strong>月<strong>30</strong>日のパブリックプレビュー開始以降、スタックを利用するリポジトリではマージされるコード量が<strong>9</strong>%増加したとGitHubは報告している。GA化の主な変更点として、変更のないファイルへの承認はリベース後も維持される点、スタック全体がひとつのグループとしてmerge queueに投入される点、auto-mergeのスタック対応が段階展開される点がある。gh CLIはGit worktreeサポートを追加済みで、GitHub Enterprise Server（GHES）へのサポートは将来リリースで提供予定。",
+          "sourceName": "GitHub Changelog",
+          "sourceUrl": "https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available",
+          "tags": ["技術トレンド", "GitHub", "開発ワークフロー"]
+        },
+        {
+          "position": 3,
+          "title": "CloudflareがDenoを買収 — Ryan Dahl氏チームがWorkersへ、Denoランタイムは1年・Deno Deployは6カ月後終了",
+          "summary": "Cloudflareは<strong>2026</strong>年<strong>10</strong>月<strong>9</strong>日、JavaScript実行環境「Deno」の共同創業者Ryan Dahl氏らを含む開発チーム全員がCloudflareに参画すると発表した。DahlチームはCloudflare Workersのプログラミングモデル強化に注力する。独立したDenoランタイムのバグ修正・セキュリティ対応は<strong>1</strong>年間継続後に終了し、ホスティングサービス「Deno Deploy」は<strong>6</strong>カ月以内に停止、有料ユーザーはCloudflare Workersへ移行される。<strong>2026</strong>年<strong>8</strong>月にDenoが公開したWorkersオープンソース互換実装「celld」はCloudflareの「workerd」に統合される計画で、DenoはOSSとして維持される。財務条件は非公開。",
+          "sourceName": "book.st-hakky.com",
+          "sourceUrl": "https://book.st-hakky.com/news/cloudflare-acquires-deno",
+          "tags": ["技術トレンド", "JavaScript", "Cloudflare"]
+        },
+        {
+          "position": 4,
+          "title": "2026年10月・ITエンジニア新規求人倍率は3.1倍 — 前月3.3倍から微減、依然高水準",
+          "summary": "typeが<strong>2026</strong>年<strong>10</strong>月に公開したレポートによると、厚生労働省の統計をもとにした<strong>2026</strong>年<strong>8</strong>月のIT・情報処理系エンジニアの新規求人倍率は<strong>3</strong>.<strong>1</strong>倍で、前月（<strong>7</strong>月：<strong>3</strong>.<strong>3</strong>倍）から<strong>0</strong>.<strong>2</strong>pt低下した。ただし全職種平均と比較して依然として高い水準を維持しており、IT人材需要は引き続き旺盛な状況にある。求人倍率が<strong>3</strong>倍を超える状況は就活生にとって有利な環境を意味するが、同時に即戦力・専門スキルへの要求も高まっており、入社前からの技術力底上げが重要度を増している。",
+          "sourceName": "type (エン・ジャパン)",
+          "sourceUrl": "https://topics.type.jp/type-engineer/engineer-job-market-trend/",
+          "tags": ["採用", "求人動向", "市場分析"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": []
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "JAXAのH3ロケット10号機が火星衛星探査機MMXを打ち上げ — 2031年7月フォボスサンプルリターンへ出発",
+          "summary": "JAXAは<strong>2026</strong>年<strong>10</strong>月<strong>20</strong>日午前<strong>4</strong>時<strong>41</strong>分、種子島宇宙センターからH3ロケット<strong>10</strong>号機（H3-24L）を打ち上げ、火星衛星探査機「MMX（Martian Moons eXploration）」の軌道投入に成功した。MMXは打ち上げから約<strong>71</strong>分後に分離され、火星へ向かう軌道に乗った。MMXは火星の衛星フォボスの試料を採取して地球に持ち帰る世界初のサンプルリターンミッションで、<strong>2027</strong>年<strong>8</strong>月に火星周回軌道へ投入、<strong>2031</strong>年<strong>7</strong>月に地球帰還を計画している。H3にとって惑星間ミッションへの参加はこれが初めて。",
+          "sourceName": "sorae.info",
+          "sourceUrl": "https://sorae.info/ssn/20261020-h3f10-mmx.html",
+          "tags": ["宇宙", "科学", "JAXA"]
+        }
+      ]
+    }
+  ]
+}
