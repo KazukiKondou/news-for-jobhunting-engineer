@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-27",
+  "label": "2026年10月27日 (火)",
+  "intro": "CloudflareがTypeScriptをRustに移植した「tsrs」を公開し速度<strong>8</strong>倍・メモリ<strong>70</strong>%削減を発表、DuckDB <strong>2</strong>.<strong>0</strong> LTSがサーバーモード・トリガーを追加して正式リリース。サイバーエージェントは<strong>2028</strong>卒エンジニア採用でAI・データ枠を新設し、将棋の西山朋佳白玲が女性初の棋士資格を取得した。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "CloudflareとVoidZeroがTypeScriptをRustに移植した「tsrs」を公開 — tsc 7比で速度8倍・メモリ70%削減",
+          "summary": "CloudflareとVoidZeroは<strong>2026</strong>年<strong>10</strong>月<strong>20</strong>日、TypeScriptコンパイラをRustに移植した「tsrs」を発表した。Oxc JavaScriptツールチェーンの中でインキュベートされており、ベンチマークではtsc 7と比べ最大<strong>8</strong>倍高速、メモリ使用量<strong>70</strong>%削減とCloudflareは報告している。npmから実験的パッケージとして試用可能。Cloudflareは「TypeScriptをフォークしない」とし、言語設計の制御はMicrosoftチームに残すと表明しており、MicrosoftのDaniel RosenwasserもTypeScript 7.1の一部の高速化がtsrsで発見した最適化に基づくとコメントした。",
+          "sourceName": "Cloudflare Blog",
+          "sourceUrl": "https://blog.cloudflare.com/typescript-rust-port/",
+          "tags": ["技術トレンド", "TypeScript", "Rust", "Cloudflare"]
+        },
+        {
+          "position": 2,
+          "title": "DuckDB 2.0 LTS「Cinnamon Teal」正式リリース — サーバーモード・トリガー・VARIANT型を新規追加",
+          "summary": "DuckDB Foundationは<strong>2026</strong>年<strong>10</strong>月<strong>21</strong>日、バージョン<strong>2</strong>.<strong>0</strong>.<strong>0</strong> LTSを公開した。コードネームは「Cinnamon Teal」で、DuckDB 1.5からの約<strong>2</strong>万コミットに基づく最大のフィーチャーリリースと位置付けている。主な追加機能はクライアント・サーバー通信向けQuackプロトコル、非同期I/O、VARIANT型、エージェントモード、トリガー、新PEGベースSQLパーサーだ。LTSサポートは少なくとも<strong>2027</strong>年<strong>10</strong>月まで継続される。新デフォルトストレージフォーマットを採用しており旧バージョンで読み込めないため、移行ガイドを確認することを推奨している。",
+          "sourceName": "DuckDB公式ブログ",
+          "sourceUrl": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
+          "tags": ["技術トレンド", "データベース", "DuckDB", "OSS"]
+        },
+        {
+          "position": 3,
+          "title": "サイバーエージェント、2028卒エンジニア採用でAI・データ枠を新設 — 「ビジネスリード」「テックリード」の2軸",
+          "summary": "サイバーエージェントは<strong>2026</strong>年<strong>10</strong>月<strong>20</strong>日、<strong>2028</strong>年度エンジニア新卒採用において「機械学習エンジニア」「データサイエンティスト」の枠を再編し、「ビジネスリードエンジニア（AI・データ）」と「テックリードエンジニア（AI・データ）」の<strong>2</strong>軸を新設すると発表した。<strong>2028</strong>年度はまずAI・データ領域での採用からスタートし、今後他のエンジニア職種にも拡大する予定とされている。同社は<strong>2028</strong>年までに全社の開発プロセスを完全自動化する「AIドリブン」な開発組織を掲げており、エンジニアの役割を実装だけでなく課題発見や要件定義段階へ広げる方針を示している。",
+          "sourceName": "CyberAgent採用ニュース",
+          "sourceUrl": "https://www.cyberagent.co.jp/careers/news/detail/id=33912",
+          "tags": ["採用", "28卒", "AI", "サイバーエージェント"]
+        },
+        {
+          "position": 4,
+          "title": "Bun 1.4.3リリース — 組み込みTypeScript型チェッカー「bun check」がtsc 7比で最大7倍高速",
+          "summary": "Oven社は<strong>2026</strong>年<strong>10</strong>月<strong>10</strong>日、JavaScriptランタイム「Bun」のバージョン<strong>1</strong>.<strong>4</strong>.<strong>3</strong>をリリースした。目玉機能は組み込みTypeScript型チェッカー「bun check」で、VS Codeリポジトリ（<strong>1</strong>万<strong>0947</strong>ファイル）のベンチマークではtsc 7と比べ<strong>3</strong>倍〜<strong>7</strong>倍高速だとBunブログは報告している。bun checkはMicrosoftのTypeScript GoポートをベースとしたRust実装で、TypeScript <strong>7</strong>.<strong>0</strong>.<strong>2</strong>のコンフォーマンステストスイートを<strong>100</strong>%パスしているとされる。",
+          "sourceName": "Bun公式ブログ",
+          "sourceUrl": "https://bun.com/blog/bun-v1.4.3",
+          "tags": ["技術トレンド", "TypeScript", "JavaScript", "Bun"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": []
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "将棋・西山朋佳白玲が女性初の棋士資格を取得 — 白玲戦通算5期で2025年新規定が初適用",
+          "summary": "将棋の西山朋佳白玲（<strong>31</strong>歳）は<strong>2026</strong>年<strong>10</strong>月<strong>10</strong>日、第<strong>6</strong>期白玲戦<strong>7</strong>番勝負の第<strong>5</strong>局で福間香奈女流四冠を破り、白玲戦通算<strong>5</strong>期目を獲得したことで女性として初めて棋士資格を得た。日本将棋連盟が<strong>2025</strong>年総会で可決した新規定（女流棋戦で白玲を通算<strong>5</strong>期獲得で棋士資格を取得できる）が初めて適用された事例だ。従来は奨励会突破か編入試験合格が必要で、男女共通の制度だったため女性が棋士になることは非常に難しかった。日本将棋連盟は<strong>10</strong>月<strong>26</strong>日に記者会見を設定し、西山白玲が権利行使の方針を説明するとしていた。",
+          "sourceName": "熊本日日新聞（共同通信）",
+          "sourceUrl": "https://kumanichi.com/articles/2045387",
+          "tags": ["将棋", "文化", "歴史的出来事"]
+        },
+        {
+          "position": 6,
+          "title": "国際度量衡総会がうるう秒廃止を決議 — 2027年5月からUTCとUT1の許容差を最大1時間へ拡大",
+          "summary": "フランス・ヴェルサイユで開催された第<strong>28</strong>回国際度量衡総会（CGPM）は<strong>2026</strong>年<strong>10</strong>月、<strong>1972</strong>年から続いてきた「うるう秒」の廃止を決議した。協定世界時（UTC）と地球の自転に基づく時刻（UT1）の許容差を最大<strong>1</strong>時間まで拡大する方式に変更し、施行は<strong>2027</strong>年<strong>5</strong>月<strong>20</strong>日とされている。地球の自転が速まり負のうるう秒リスクが高まっていたことに加え、<strong>2012</strong>年のうるう秒挿入時に大手ウェブサービスで障害が発生した実績も廃止理由に挙げられている。決定直後にはTimeSyncJapan 2026が開幕し、時刻基盤の移行が議題となった。",
+          "sourceName": "Business Network",
+          "sourceUrl": "https://businessnetwork.jp/?p=37982",
+          "tags": ["科学", "国際", "インターネット基盤"]
+        }
+      ]
+    }
+  ]
+}
