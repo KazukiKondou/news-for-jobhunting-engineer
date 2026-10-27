@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-28",
+  "label": "2026年10月28日 (水)",
+  "intro": "PFNが国産LLM「PLaMo 3.1 Prime」にDeep Research機能を追加し<strong>10</strong>月<strong>27</strong>日にリリース、キャリタス調査で<strong>2027</strong>卒の採用選考終了企業は<strong>42.5</strong>%と<strong>5</strong>年連続で半数割れ、JAXAの火星衛星探査機「MMX」が打ち上げ後の初期運用フェーズを正常完了。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "PFN、Deep Research搭載の「PLaMo 3.1 Prime」を提供開始 — 推論モードでレポート精度が11.1ポイント向上",
+          "summary": "Preferred Networks（PFN）は<strong>10</strong>月<strong>27</strong>日、国産LLM「PLaMo 3.1 Prime」の提供を開始した。主な追加機能はウェブ検索と「Deep Research」で、調査計画の立案から出典付きレポート作成まで自律的に実行しオンプレミス環境にも対応する。PLaMo ChatおよびAPIで利用可能で、<strong>11</strong>月<strong>30</strong>日まで1日<strong>2</strong>回まで無料試用できる。前バージョン比でreasoningモードはウェブ検索QAが平均<strong>2.4</strong>ポイント、レポートが<strong>11.1</strong>ポイント向上し、処理速度は<strong>1.7</strong>倍に改善されている。NICTとの共同研究による国産基盤モデルを採用しており、経済安保要件への対応が特徴の一つ。",
+          "sourceName": "CodeZine",
+          "sourceUrl": "https://codezine.jp/news/detail/30154",
+          "tags": ["技術トレンド", "AI", "国産LLM"]
+        },
+        {
+          "position": 2,
+          "title": "キャリタス調査、2027卒採用選考終了は42.5%で5年連続半数割れ — 7割超が採用「厳しい」",
+          "summary": "キャリタスが<strong>10</strong>月<strong>26</strong>日に公表した「<strong>2027</strong>年卒採用内定動向・<strong>2028</strong>年卒採用計画調査」によると、<strong>2027</strong>年卒の採用選考を「終了した」企業は<strong>42.5</strong>%にとどまり、<strong>5</strong>年連続で半数を割り込んだ。採用活動の手応えを「厳しい」と回答した企業は<strong>7</strong>割超に達しており、内定出しのピークは<strong>12</strong>月の見込みだ。一方で新卒採用業務にAIを活用する企業は<strong>4</strong>割超となり、選考プロセスへのAI導入が広がっている。",
+          "sourceName": "キャリタス（CodeCamp転載）",
+          "sourceUrl": "https://trends.codecamp.jp/blogs/media/news-prt-3965-771",
+          "tags": ["採用", "27卒"]
+        },
+        {
+          "position": 3,
+          "title": "Stack Overflow 2026年開発者調査、65.9%がAIコーディングツール利用 — 78.7%が出典表示を重視",
+          "summary": "Stack Overflowが<strong>10</strong>月<strong>6</strong>日に発表した「<strong>2026</strong>年開発者調査」では、AIコーディングアシスタントを利用する開発者が<strong>65.9</strong>%に達した。毎日AIを使う回答者のうち<strong>80</strong>%が1時間以上、<strong>31</strong>%が<strong>4</strong>時間以上をAIに費やしている。現職に満足しているが向上心が薄い「complacent」な状態の開発者は<strong>45.1</strong>%と最多で、<strong>78.7</strong>%がAI出力の出典表示を信頼の判断基準として重視すると回答した。",
+          "sourceName": "Stack Overflow Blog",
+          "sourceUrl": "https://stackoverflow.blog/2026/10/06/the-results-of-the-2026-developer-survey-are-here/",
+          "tags": ["技術トレンド", "AI", "開発者調査"]
+        },
+        {
+          "position": 4,
+          "title": "GitHub Copilot、10月にComputer useとDynamic workflowsをパブリックプレビュー公開",
+          "summary": "GitHubは<strong>10</strong>月<strong>1</strong>日、Copilot CLIとGitHub Copilotアプリ向けに<strong>2</strong>機能をパブリックプレビューで公開した。PCやMacのGUI操作を自律実行する「Computer use」と、複数ステップのタスクを連鎖実行する「Dynamic workflows」で、どちらも既定オフで提供される。<strong>10</strong>月<strong>7</strong>日にはローカルサンドボックスが追加費用なしで正式リリース（GA）となった。<strong>10</strong>月<strong>22</strong>日からはBusiness・Enterprise向けのグローバルデフォルトポリシーが段階的に変更されており、組織管理者は設定の確認が必要だ。",
+          "sourceName": "CodeZine",
+          "sourceUrl": "https://codezine.jp/news/detail/29998",
+          "tags": ["技術トレンド", "AI", "GitHub"]
+        },
+        {
+          "position": 5,
+          "title": "State of Devs 2026、開発者5,463名が回答 — 4分の1がレイオフ経験、AI観は二極化",
+          "summary": "Devographicsが公開した「State of Devs <strong>2026</strong>」は<strong>5,463</strong>名の開発者が回答した実態調査で、Publickeyが結果を詳報した。回答者の<strong>4</strong>分の<strong>1</strong>が直近でレイオフを経験し、約半数が雇用不安・賃金不足に直面しているとした。AIへの見方は肯定派<strong>49</strong>%・否定派<strong>42</strong>%と拮抗しており、約<strong>3</strong>分の<strong>2</strong>がモチベーション低下や冷笑的な感情を抱えていると回答。AI時代の開発者の疲弊と変化の実態を把握できる調査だ。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/state_of_devs_2026_ai.html",
+          "tags": ["技術トレンド", "開発者調査"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": []
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "JAXA、火星衛星探査機MMXの打ち上げに成功 — 2031年に世界初の火星圏サンプル回収へ",
+          "summary": "JAXAは<strong>10</strong>月<strong>20</strong>日午前<strong>4</strong>時<strong>41</strong>分にH3ロケット<strong>10</strong>号機で火星衛星探査機「MMX」を種子島宇宙センターから打ち上げ、打ち上げに成功した。<strong>10</strong>月<strong>21</strong>日にJAXAは発電・姿勢制御・地上通信など基本機能の正常稼働を確認。MMXは火星の衛星フォボスに着陸してサンプルを採取し<strong>2031</strong>年<strong>7</strong>月の地球帰還を目指す、世界初の火星圏サンプルリターン計画だ。ドイツ（DLR）とフランス（CNES）が共同開発した探査車もフォボスに着陸させる予定で、火星探査の国際連携に日本が貢献する。",
+          "sourceName": "熊本日日新聞（共同通信）",
+          "sourceUrl": "https://kumanichi.com/articles/2048396",
+          "tags": ["科学", "宇宙", "JAXA"]
+        }
+      ]
+    }
+  ]
+}
