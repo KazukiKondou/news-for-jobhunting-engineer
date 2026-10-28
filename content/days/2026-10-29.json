@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-29",
+  "label": "2026年10月29日 (木)",
+  "intro": "DuckDBが約<strong>2</strong>万コミットを積んだバージョン<strong>2</strong>.0 LTSをリリース、Cloudflareがtsrsで最大<strong>8</strong>倍の速度向上を発表、JSTがAFMとSAXSを組み合わせてリサイクルゴムの力学特性の謎を解明。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "DuckDB 2.0.0 LTS「Cinnamon Teal」リリース — 約2万コミット、拡張可能SQLパーサーを搭載",
+          "summary": "DuckDBは<strong>2026</strong>年<strong>10</strong>月<strong>21</strong>日、LTSバージョン「<strong>2</strong>.<strong>0</strong>.<strong>0</strong>」をコードネーム「Cinnamon Teal」でリリースした。バージョン1.5以降の約<strong>2</strong>万コミットを積み上げた過去最大の機能リリースで、拡張可能なSQLパーサー、非同期I/O、ファーストクラスのVARIANT型、エージェントモード、トリガー、精緻化されたQuackプロトコルを新たに備える。LTSとして少なくとも<strong>2027</strong>年<strong>10</strong>月まで保守が保証され、旧バージョン1.4は<strong>2026</strong>年<strong>11</strong>月下旬まで、1.5は<strong>2027</strong>年<strong>3</strong>月まで延長サポートされる。1.4から2.0への移行には破壊的変更があり、公式ブログで移行方法が案内されている。",
+          "sourceName": "DuckDB公式ブログ",
+          "sourceUrl": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
+          "tags": ["技術トレンド", "データベース"]
+        },
+        {
+          "position": 2,
+          "title": "GitHub Copilot、Claude Opus 5など3モデルを11月16日に廃止 — Opus 5.5へ移行",
+          "summary": "GitHubは<strong>2026</strong>年<strong>10</strong>月<strong>15</strong>日、Copilotで利用できる「Claude Opus 4.8」「Claude Opus 5」「GPT-5.6 Terra」の<strong>3</strong>モデルを<strong>11</strong>月<strong>16</strong>日付で廃止すると発表した。Chat・インラインエディット・askおよびagentモード・コード補完など全Copilot機能が対象で、Claude Opus系の移行先はClaude Opus 5.5となる。Claude Opus 5は全プランで例外なく利用不可になる予定だが、Opus 4.8のみ個人向け年額プラン利用者には継続利用が認められている。なおこれはCopilot上の廃止であり、Anthropic API上での提供は<strong>11</strong>月<strong>16</strong>日以降も継続される。",
+          "sourceName": "GitHub Changelog",
+          "sourceUrl": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november",
+          "tags": ["技術トレンド", "AI", "GitHub"]
+        },
+        {
+          "position": 3,
+          "title": "Cloudflare、TypeScriptをRustに移植した「tsrs」発表 — TypeScript 7.0比最大8倍高速",
+          "summary": "Cloudflareは<strong>2026</strong>年<strong>10</strong>月<strong>20</strong>日、TypeScriptコンパイラをRustに移植した「tsrs」をVoidZeroおよびOwner.comのMax Schwenk氏と共同で発表した。CloudflareのベンチマークではTypeScript 7.0比で最大<strong>8</strong>倍高速、メモリ使用量は約<strong>70</strong>%削減されている。Oxcツールチェーン内で開発されておりTypeScriptのフォークではなく、Wasm版も提供してブラウザ上での型チェックが可能（シングルスレッド・言語サービス未対応）。Microsoftはtsrsの最適化をTypeScript 7.1 betaに取り込んでおり、同betaはTypeScript 7.0比で最大<strong>2</strong>.<strong>5</strong>倍高速になったと発表している。",
+          "sourceName": "Socket.dev",
+          "sourceUrl": "https://socket.dev/blog/cloudflare-typescript-rust",
+          "tags": ["技術トレンド", "パフォーマンス", "Rust"]
+        },
+        {
+          "position": 4,
+          "title": "AWS、ECS向けフルマネージドイングレス「Amazon ECS Gateway」を発表",
+          "summary": "AWSは<strong>2026</strong>年<strong>10</strong>月、Amazon ECSサービス向けフルマネージドイングレスソリューション「Amazon ECS Gateway」を発表した。プラットフォームチームがアカウント単位で作成するリソースで、ECSがサービスごとのACM証明書・DNS名・リスナールール・ターゲットグループ・セキュリティグループを自動でプロビジョニングする。ホストベースルーティングにより最大<strong>25</strong>サービスが<strong>1</strong>つのALBを共有でき、ALBやWAFを含むインフラを手動で管理する必要がなくなる。",
+          "sourceName": "AWS News Blog",
+          "sourceUrl": "https://aws.amazon.com/blogs/aws/introducing-amazon-ecs-gateway-a-fully-managed-ingress-solution-for-ecs-services/",
+          "tags": ["技術トレンド", "AWS", "クラウド"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "DIAMOND HBR 10月号「センスメイキング」特集 — 創刊50周年号でワイク、吉田憲一郎氏が寄稿",
+          "summary": "DIAMOND ハーバード・ビジネス・レビュー<strong>2026</strong>年<strong>10</strong>月号は創刊<strong>50</strong>周年記念号で、第1特集「センスメイキング」には吉田憲一郎ソニーグループ会長、MITスローンのデボラ・アンコーナ教授、センスメイキング理論の創始者であるカール・ワイク ミシガン大学ロス・スクール名誉教授、大山健太郎アイリスオーヤマ会長、建築家の安藤忠雄氏が寄稿している。ワイク氏の論考は、状況の意味づけの欠如がチーム崩壊を招いた事例を論じる。第2特集「経営戦略<strong>50</strong>年の進化」では慶應義塾大学の琴坂将広氏が<strong>10</strong>の視点から解説する。",
+          "sourceName": "ダイヤモンド社",
+          "sourceUrl": "https://www.diamond.co.jp/magazine/059691026.html",
+          "tags": ["センスメイキング", "経営", "リーダーシップ"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "JST、水平リサイクル可能なゴムの丈夫さの仕組みをAFMとSAXSで解明",
+          "summary": "科学技術振興機構（JST）は<strong>2026</strong>年<strong>10</strong>月<strong>14</strong>日、水平リサイクルが可能で高い壊れにくさを持つゴムの力学特性の仕組みを解明した研究成果を発表した。一軸伸長機構付きの原子間力顕微鏡（AFM）と小角X線散乱（SAXS）を組み合わせ、ゴムを最大<strong>8</strong>倍まで伸ばした際の微粒子の変形を直接観察した。微粒子内部の架橋が少ない場合は粒子全体がなめらかに変形し、架橋が多い場合は粒子表面に損傷が生じることを示し、硬さと伸びやすさのトレードオフの原因を解明した。成果は科学誌「ACS Applied Materials & Interfaces」にオンライン掲載され、循環型高分子材料の設計指針への応用が期待されている。",
+          "sourceName": "JST プレスリリース",
+          "sourceUrl": "https://www.jst.go.jp/pr/announce/20261014/index.html",
+          "tags": ["科学", "材料工学", "環境"]
+        }
+      ]
+    }
+  ]
+}
