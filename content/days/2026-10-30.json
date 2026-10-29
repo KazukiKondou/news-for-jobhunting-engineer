@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-30",
+  "label": "2026年10月30日 (金)",
+  "intro": "OpenAIが<strong>10</strong>月<strong>26</strong>日にGPT-6.1 TerraをAPIリリース（入力<strong>1</strong>ドル/Mトークン・前世代比<strong>50</strong>%安）、Ghostty <strong>1</strong>.<strong>4</strong>.0はKittyグラフィックス完全実装を達成、レバテックは<strong>6</strong>割超の企業がITエンジニア採用難度上昇と回答した調査を発表した。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "OpenAI、GPT-6.1 TerraをAPI公開 — 入力1ドル/Mトークンと前世代比50%安",
+          "summary": "OpenAIは<strong>2026</strong>年<strong>10</strong>月<strong>26</strong>日、中規模モデル「GPT-6.1 Terra」をAPIおよびChatGPT Workで公開した。標準APIの料金は入力<strong>1</strong>ドル・出力<strong>5</strong>ドル（各<strong>100</strong>万トークンあたり）で、前世代のGPT-5.6 TerraおよびGPT-6.1 Solと比べ<strong>50</strong>%安い。AIエージェントの処理速度が<strong>3</strong>倍高速化しており、コンピューターユース（PC操作）と視覚推理を得意とする設計となっている。APIはモデルID「gpt-6.1-terra」で呼び出せる。",
+          "sourceName": "BleepingComputer",
+          "sourceUrl": "https://bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing",
+          "tags": ["技術トレンド", "AI", "OpenAI"]
+        },
+        {
+          "position": 2,
+          "title": "VS CodeのGitHub Copilotに積極性3段階設定「Configurable Eagerness」を追加",
+          "summary": "GitHubは<strong>2026</strong>年<strong>10</strong>月<strong>27</strong>日付のVS Code公式ブログで、GitHub Copilotのインライン提案を制御する「Configurable Eagerness」機能を発表した。低・中・高の<strong>3</strong>段階から積極性を選択でき、「低」は提案頻度と編集量を抑え、「中」はデフォルト相当、「高」はより積極的な提案を行う。段階ごとにモデル自体の挙動が異なるよう設計されており、単純なフィルタリングではない。自分のコーディングリズムに合わせてAI補完の積極度を細かく制御できるようになった。",
+          "sourceName": "VS Code Blog",
+          "sourceUrl": "https://code.visualstudio.com/blogs/2026/10/27/configurable-eagerness",
+          "tags": ["技術トレンド", "GitHub Copilot", "開発ツール"]
+        },
+        {
+          "position": 3,
+          "title": "Ghostty 1.4.0リリース — Kittyグラフィックス完全実装、172名・2,889コミット",
+          "summary": "ターミナルエミュレータ「Ghostty」の<strong>1</strong>.<strong>4</strong>.<strong>0</strong>が<strong>2026</strong>年<strong>10</strong>月<strong>27</strong>日にリリースされた。Kittyターミナル以外でKittyグラフィックスプロトコルのアニメーションと相対配置を含む全機能を完全実装した初のターミナルエミュレータとなった。空端末のメモリ使用量が前バージョン1.3の128 KiBから約<strong>16</strong> KiBへ削減され、macOSのI/Oスループットも向上している。<strong>7</strong>ヶ月間で<strong>172</strong>名のコントリビュータが参加し<strong>2</strong>,<strong>889</strong>コミットを積んだ大型リリースとなっている。",
+          "sourceName": "Ghostty公式ドキュメント",
+          "sourceUrl": "https://ghostty.org/docs/install/release-notes/1-4-0",
+          "tags": ["技術トレンド", "開発ツール", "ターミナル"]
+        },
+        {
+          "position": 4,
+          "title": "レバテック調査、6割超の企業がITエンジニア採用難度が上昇と回答 — 年収提示を100万円超引き上げる動きも",
+          "summary": "レバテックは<strong>2026</strong>年<strong>10</strong>月、IT・システム担当者<strong>553</strong>名を対象に実施した採用実態調査（調査期間：<strong>2026</strong>年<strong>7</strong>月）の結果を発表した。AIの普及を背景にITエンジニアの採用難易度が上昇しており、<strong>6</strong>割以上の企業が難易度の上昇を実感していると回答した。採用数を増やした企業は半数以上にのぼる一方、提示額を<strong>100</strong>万円以上引き上げた企業も確認された。採用競争の激化に伴い、求められるエンジニアのスキルレベルが高度化していることが背景にある。",
+          "sourceName": "PR TIMES (レバレジーズ)",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000001003.000010591.html",
+          "tags": ["採用", "AIエンジニア", "採用市場"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": []
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "日本ラグビー協会創立100周年記念試合、フィジーに28-34で惜敗 — 前半は21-21の拮抗",
+          "summary": "日本ラグビーフットボール協会は<strong>2026</strong>年<strong>10</strong>月<strong>24</strong>日、東京・秩父宮ラグビー場で創立<strong>100</strong>周年を記念するテストマッチを開催し、日本代表（世界ランク<strong>9</strong>位）はフィジー代表（同<strong>10</strong>位）に<strong>28</strong>対<strong>34</strong>で敗れた。前半は互いに<strong>3</strong>トライずつを奪い<strong>21</strong>対<strong>21</strong>で折り返したが、後半終盤のペナルティゴールで逆転を許した。<strong>9</strong>月のパシフィック・ネーションズカップ決勝ではフィジーを<strong>20</strong>対<strong>15</strong>で破り同大会<strong>7</strong>年ぶりの優勝を果たしていたが、記念試合でそれを続けられず通算成績は<strong>5</strong>勝<strong>18</strong>敗となった。次のテストマッチは<strong>11</strong>月<strong>7</strong>日のウェールズ戦。",
+          "sourceName": "熊本日日新聞",
+          "sourceUrl": "https://kumanichi.com/articles/2050200",
+          "tags": ["スポーツ", "ラグビー"]
+        }
+      ]
+    }
+  ]
+}
