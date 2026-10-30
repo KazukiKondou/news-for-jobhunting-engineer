@@ -299,5 +299,12 @@
     "verdict": "unverifiable",
     "detail": "ファクトチェックキューAPI（https://news.kazukikondo.com/api/factcheck/queue）はFACTCHECK_TOKEN未設定のため認証不可（空レスポンス）。キュー内容不明のためスキップ。本日分5件（IT就活4件・視野1件）はWebSearchで取得したURLのみを使用し手動検証済み。pos1 GPT-6.1 Terra→bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing 複数英語ソース（aimagazine.com, aiweekly.co, yourstory.com）でも同日10月26日リリース・$1/$5・50%安・3x faster確認。pos2 Copilot Configurable Eagerness→code.visualstudio.com/blogs/2026/10/27/configurable-eagerness 検索ヒット直接確認。pos3 Ghostty 1.4.0→ghostty.org/docs/install/release-notes/1-4-0 検索ヒット直接確認（zeli.app等でも多重確認）。pos4 レバテック採用難度調査→prtimes.jp/main/html/rd/p/000001003.000010591.html 検索ヒット直接確認（hrzine.jp/news/detail/8240でも確認）。pos5 ラグビー協会100周年→kumanichi.com/articles/2050200 検索ヒット直接確認（nit.com.au/26-10-2026/27164/でも多重確認）。思考力セクション: 検証できる記事なし → 0件（ルール上許容）。サイバーエージェント2028卒採用: Oct 27に既使用済み→不採用。DIAMOND HBR 11月号「任せる技術」: Oct 13・Oct 25に既使用済み→不採用。",
     "action": "キュー取得不可のためスキップ。本日の記事5件（IT就活4件・視野1件）を生成。"
+  },
+  {
+    "slug": "2026-10-31-queue",
+    "ranOn": "2026-10-31",
+    "verdict": "unverifiable",
+    "detail": "ファクトチェックキューAPI（https://news.kazukikondo.com/api/factcheck/queue）はFACTCHECK_TOKEN未設定のため認証不可（空レスポンス）。キュー内容不明のためスキップ。本日分6件（IT就活4件・思考力1件・視野1件）はWebSearchで取得したURLのみを使用し手動検証済み。pos1 GitHub Copilot Assisted Permissions GA→github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available 検索ヒット直接確認（Oct 26 GA、LLM自動承認、CLI/GitHubアプリ/VS Code対応を複数クエリで確認）。pos2 Bun v1.4.4 bun fmt→bun.sh/blog/bun-v1.4.4 検索ヒット確認（Oct 22リリース、Prettier比234〜425倍速をletsdatascience.com等でも多重確認）。pos3 DuckDB 2.0.0 LTS Cinnamon Teal→duckdb.org/2026/10/21/announcing-duckdb-200 検索ヒット確認（Oct 21、Quackプロトコル・約2万コミット・LTSをletsdatascience.com・techradar.comでも確認）。pos4 Google TorchTPU OSS→infoq.com/news/2026/10/google-meta-torchtpu 検索ヒット確認（PyTorch Conference 2026、GoogleとAWSの両発表をletsdatascience.com・devclass.comでも確認）。pos5 Forbes Japan AI批判的思考低下→forbesjapan.com/articles/detail/106560 検索ヒット確認（Oct 28、IBM調査2026年9月、従業員60%がスキル低下懸念、最多が批判的思考力）。pos6 アジアパラ競技大会2026閉幕→nippon.com/en/news/yjj2026102400343/ 検索ヒット確認（Oct 24閉幕、日本金64個過去最多・総186個・2位をNHK・共同通信配信記事で多重確認）。",
+    "action": "キュー取得不可のためスキップ。本日の記事6件（IT就活4件・思考力1件・視野1件）を生成。LINE配信成功（message id: 638485980386689357）。"
   }
 ]
