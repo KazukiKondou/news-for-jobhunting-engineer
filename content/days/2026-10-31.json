@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-31",
+  "label": "2026年10月31日 (土)",
+  "intro": "GitHub CopilotがAIによる操作自動承認「Assisted Permissions」をGA化、Bun v<strong>1</strong>.<strong>4</strong>.<strong>4</strong>でPrettier互換フォーマッタ`bun fmt`が最大<strong>425</strong>倍速を実証、DuckDB v<strong>2</strong>.<strong>0</strong>.<strong>0</strong> LTSが約<strong>2</strong>万コミット分の機能強化でリリース、アジアパラ競技大会2026で日本が金メダル<strong>64</strong>個の過去最多を達成した。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "GitHub Copilot「Assisted Permissions」GA — 安全な操作をAIが自動承認",
+          "summary": "GitHubは<strong>2026</strong>年<strong>10</strong>月<strong>26</strong>日、Copilotエージェントが安全と判断した操作を自動承認する「Assisted Permissions」を正式版（GA）にした。LLMがシェルコマンドの実行・ファイルパスへのアクセス・URLを開く要求を評価し、安全と分類された操作は手動承認なしで進む。設定はCLIの/permissionsコマンド、GitHubアプリのTool permissions、VS Codeの権限ピッカーから選択でき、Enterprise管理者はAllow Allを禁止しつつAssistedのみ維持するなど組織単位で細かく制御できる。",
+          "sourceName": "GitHub Changelog",
+          "sourceUrl": "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available",
+          "tags": ["技術トレンド", "GitHub Copilot", "AI", "開発ツール"]
+        },
+        {
+          "position": 2,
+          "title": "Bun v1.4.4に組み込みフォーマッタ `bun fmt` 追加 — Prettier比で最大425倍速",
+          "summary": "Bunは<strong>2026</strong>年<strong>10</strong>月<strong>22</strong>日、v<strong>1</strong>.<strong>4</strong>.<strong>4</strong>をリリースし、Prettier互換の組み込みフォーマッタ「bun fmt」を追加した。vitest・date-fns・monkeytype・h3などの実プロジェクトのベンチマークではPrettier <strong>3</strong>.<strong>9</strong>.<strong>9</strong>比<strong>234</strong>〜<strong>425</strong>倍高速で、追加インストール不要で使える。JavaScriptとTypeScriptのプリンタはBiomeのフォーマッタを移植したoxc_formatterをさらに移植したもので、oxfmt <strong>0</strong>.<strong>74</strong>比では<strong>3</strong>〜<strong>6</strong>倍速い。",
+          "sourceName": "Bun公式ブログ",
+          "sourceUrl": "https://bun.sh/blog/bun-v1.4.4",
+          "tags": ["技術トレンド", "開発ツール", "JavaScript"]
+        },
+        {
+          "position": 3,
+          "title": "DuckDB 2.0.0 LTS「Cinnamon Teal」リリース — QuackプロトコルでC/Sモード対応",
+          "summary": "DuckDBは<strong>2026</strong>年<strong>10</strong>月<strong>21</strong>日、コードネーム「Cinnamon Teal」のv<strong>2</strong>.<strong>0</strong>.<strong>0</strong> LTSをリリースした。v<strong>1</strong>.<strong>5</strong>以降の約<strong>2</strong>万コミットを取り込んだ過去最大のリリースで、LTSとして少なくとも<strong>2027</strong>年<strong>10</strong>月まで保証される。Quackプロトコルにより<strong>2</strong>つのDuckDBインスタンスがHTTPで通信できるクライアント・サーバー構成が初めて可能になった。非同期I/O・VARIANT型・エージェントモード・トリガー・PEGベースの拡張可能なSQLパーサーも追加されている。",
+          "sourceName": "DuckDB公式ブログ",
+          "sourceUrl": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
+          "tags": ["技術トレンド", "データベース", "SQL"]
+        },
+        {
+          "position": 4,
+          "title": "GoogleがTorchTPUをOSS公開 — PyTorchがNVIDIA外チップでネイティブ動作",
+          "summary": "Googleは<strong>2026</strong>年<strong>10</strong>月<strong>20</strong>〜<strong>21</strong>日のPyTorch Conference <strong>2026</strong>（サンノゼ）で、Google Cloud TPU向けネイティブPyTorchバックエンド「TorchTPU」をオープンソース化した。MetaのPyTorchチームと共同開発し、既存のPyTorchコードをほぼ変更なしにTPU上で動かせる設計で、vLLM・SGLang・Ray・Hugging Faceとのツール連携も対応する。AWSも同カンファレンスでTrainium <strong>2</strong>/<strong>3</strong>向けネイティブPyTorchバックエンド「TorchNeuron」のパブリックベータを発表し、NVIDIAのCUDA依存からの脱却を狙う両社の動きとして注目された。",
+          "sourceName": "InfoQ",
+          "sourceUrl": "https://infoq.com/news/2026/10/google-meta-torchtpu",
+          "tags": ["技術トレンド", "AI", "Python", "機械学習"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "IBMの調査でAI依存による批判的思考力の低下リスクが浮かぶ",
+          "summary": "IBMが<strong>2026</strong>年<strong>9</strong>月に実施した調査によると、従業員の約<strong>60</strong>%が「AIによって自身のスキルが低下している」と懸念しており、最も多く挙げられたのが批判的思考力（クリティカル・シンキング）の低下だった。AIが即座に答えを提示する環境では、情報を疑い検証する習慣が薄れていく。Forbes JAPANは、AIを使いこなすための好奇心と検証姿勢を維持し続けることがリスク回避の鍵であると論じている。",
+          "sourceName": "Forbes JAPAN",
+          "sourceUrl": "https://forbesjapan.com/articles/detail/106560",
+          "tags": ["思考力", "AI", "批判的思考"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "アジアパラ競技大会2026閉幕 — 日本が金64個の過去最多、総186個で2位",
+          "summary": "第<strong>5</strong>回アジアパラ競技大会（愛知・名古屋<strong>2026</strong>）は<strong>2026</strong>年<strong>10</strong>月<strong>24</strong>日に閉幕した。日本初の開催となった大会で、日本は金メダル<strong>64</strong>個（過去最多）・銀<strong>60</strong>・銅<strong>62</strong>のメダル総数<strong>186</strong>個を獲得し、中国に次ぐ<strong>2</strong>位だった。車いすテニス男子シングルスを制した小田凱人選手が<strong>2028</strong>年ロサンゼルス・パラリンピックの出場権を獲得。競泳男子<strong>3</strong>冠の南井瑛翔選手が閉会式で日本選手団の旗手を務めた。",
+          "sourceName": "nippon.com",
+          "sourceUrl": "https://www.nippon.com/en/news/yjj2026102400343/",
+          "tags": ["スポーツ", "パラスポーツ", "アジアパラ"]
+        }
+      ]
+    }
+  ]
+}
