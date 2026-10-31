@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-01",
+  "label": "2026年11月1日 (日)",
+  "intro": "TypeScript <strong>7</strong>.<strong>1</strong>ベータでVue/SvelteKit/ESLintが<strong>7</strong>系へ移行可能に、SvelteKit <strong>3</strong>正式リリースで設定をViteに統合、AWSの「Lambda Web Functions」でExpress/Next.jsがアダプター不要に、Stack Overflow <strong>2026</strong>調査では開発者の<strong>45</strong>%が現職に「甘んじている」と回答した。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "TypeScript 7.1 Beta公開 — GoコンパイラAPIが安定化、Vue/SvelteKit/ESLintが7系へ移行可能に",
+          "summary": "Microsoftは<strong>2026</strong>年<strong>10</strong>月<strong>20</strong>日、TypeScript <strong>7</strong>.<strong>1</strong>のベータ版を公開した。GoベースのコンパイラになったTypeScript <strong>7</strong>.<strong>0</strong>ではプログラマティックAPIが未提供のままで、Vue（Volar）・svelte-language-server・typescript-eslintなどの主要ツールが<strong>6</strong>系に留まっていた。<strong>7</strong>.<strong>1</strong>ではこのAPIが安定版として提供され、エコシステムの<strong>7</strong>系移行が解禁される。ほかにも型付きimport attributes、WebAssembly向けsource phase imports、`es2026`コンパイルターゲットが追加された。RC予定は<strong>11</strong>月<strong>10</strong>日、安定版リリースは<strong>11</strong>月<strong>24</strong>日。",
+          "sourceName": "TypeScript公式ブログ",
+          "sourceUrl": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-1-beta/",
+          "tags": ["技術トレンド", "TypeScript", "JavaScript"]
+        },
+        {
+          "position": 2,
+          "title": "SvelteKit 3正式リリース — 設定ファイルをViteに統合、$libを#libに変更",
+          "summary": "SvelteKit <strong>3</strong>が<strong>2026</strong>年<strong>10</strong>月に正式リリースされた。最大の変更点は設定ファイルの統合で、`svelte.config.js`が廃止され`vite.config.ts`に統合された。パスエイリアスも`$lib`から標準サブパスインポート`#lib`へ変更されており、既存コードの書き換えが必要。動作要件はNode <strong>22</strong>.<strong>17</strong>・TypeScript <strong>6</strong>・Svelte <strong>5</strong>.<strong>57</strong>.<strong>1</strong>・Vite <strong>8</strong>。ViteのバンドラーはRolldownに切り替わっており、Vercel/NetlifyアダプターもVite <strong>8</strong>同梱のRolldownベース。移行は`npx sv migrate sveltekit-3 --tasks all --confirm`コマンドで大半を自動化できる。",
+          "sourceName": "Svelte公式ドキュメント",
+          "sourceUrl": "https://svelte.dev/docs/kit/migrating-to-sveltekit-3",
+          "tags": ["技術トレンド", "フロントエンド", "Svelte"]
+        },
+        {
+          "position": 3,
+          "title": "AWS Lambda Web Functions発表 — Express/Hono/Next.jsをアダプター不要でデプロイ",
+          "summary": "AWSは<strong>2026</strong>年<strong>10</strong>月、LambdaでNode.jsのHTTPフレームワーク（Express・Hono・Fastify・Next.jsなど）をコード変更・アダプター不要で動かせる「Lambda Web Functions」を発表した。`aws lambda-web deploy`コマンド<strong>1</strong>本でソースをバンドルしHTTPSエンドポイントを発行できる。実行環境あたり最大<strong>128</strong>並列リクエストに対応し、課金はウォールクロックではなくアクティブCPU時間ベースになる。ランタイムはNode.js <strong>24</strong>/Arm64で、東京を含む<strong>5</strong>リージョン（バージニア北部・オハイオ・オレゴン・東京・アイルランド）で利用可能。カナリアデプロイはトラフィック重みで制御できる。",
+          "sourceName": "IT Brief UK",
+          "sourceUrl": "https://itbrief.co.uk/story/aws-launches-lambda-web-functions-for-http-apps",
+          "tags": ["技術トレンド", "AWS", "サーバーレス", "Node.js"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 4,
+          "title": "Stack Overflow 2026 Developer Survey — 開発者の45%が現職に「甘んじている」、フリーランスは11%に急増",
+          "summary": "Stack Overflowは<strong>2026</strong>年<strong>10</strong>月、約<strong>3</strong>万<strong>900</strong>件の回答を集めた「<strong>2026</strong> Developer Survey」の結果を公開した。「もっと良い仕事を探せるが今の職場で甘んじている」に<strong>45</strong>%が該当すると回答し、フリーランス・個人事業主の割合が前年の<strong>4</strong>%から<strong>11</strong>%に急増した。「最もよく使う言語」では近年注目されたAI寄りの新言語よりRustや既存言語への「定番回帰」傾向が見られ、AIツールへの関わり方にも開発者間で温度差があることが示された。",
+          "sourceName": "@IT",
+          "sourceUrl": "https://atmarkit.itmedia.co.jp/ait/articles/2610/27/news029.html",
+          "tags": ["思考力", "キャリア", "開発者調査"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "五味虹登、世界レスリング選手権グレコローマン60kg初出場で金 — 22歳がアスタナ制す",
+          "summary": "カザフスタンのアスタナで開催されたレスリング世界選手権で、<strong>22</strong>歳の五味虹登選手（群馬ヤクルト販売）が男子グレコローマン<strong>60</strong>キロ級に初出場して金メダルを獲得した（<strong>10</strong>月<strong>26</strong>日）。決勝ではイランの選手を下した。同大会では奈良勇太（<strong>130</strong>キロ級）・鶴田峻大（<strong>97</strong>キロ級）が<strong>1</strong>回戦で敗退しており、五味選手の優勝が際立つ結果となった。大会は<strong>10</strong>月<strong>24</strong>日から<strong>11</strong>月<strong>1</strong>日の日程でアスタナ開催。",
+          "sourceName": "NHKニュース",
+          "sourceUrl": "https://news.web.nhk/newsweb/na/nd-20261026de65410",
+          "tags": ["スポーツ", "レスリング", "世界選手権"]
+        },
+        {
+          "position": 6,
+          "title": "H3ロケット10号機がMMXを軌道投入 — 世界初・火星圏サンプルリターンへ、2031年帰還目標",
+          "summary": "JAXA H3ロケット<strong>10</strong>号機（H3-<strong>24</strong>L形態）は<strong>2026</strong>年<strong>10</strong>月<strong>20</strong>日午前<strong>4</strong>時<strong>41</strong>分<strong>3</strong>秒に種子島宇宙センターから打ち上げられ、約<strong>70</strong>分後に火星衛星探査機「MMX（Martian Moons eXploration）」を予定軌道に投入した。翌<strong>21</strong>日、JAXAは太陽電池の発電・姿勢制御・地上通信の正常動作を確認。MMXはフォボス（火星の衛星）に着陸して試料を採取し<strong>2031</strong>年<strong>7</strong>月に地球へ帰還する計画で、成功すれば世界初の火星圏サンプルリターンとなる。",
+          "sourceName": "熊本日日新聞（共同通信）",
+          "sourceUrl": "https://kumanichi.com/articles/2048396",
+          "tags": ["科学", "宇宙", "JAXA"]
+        }
+      ]
+    }
+  ]
+}
