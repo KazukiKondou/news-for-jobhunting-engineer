@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-02",
+  "label": "2026年11月2日 (月)",
+  "intro": "DuckDB <strong>2</strong>.<strong>0</strong> LTSにVARIANT型とエージェントモードが加わり、CloudflareとVoidZeroがTypeScriptのRust移植「tsrs」で最大<strong>8</strong>倍高速化を発表、BunがPrettier比<strong>286</strong>倍のフォーマッタbun fmtを追加、Linux「PwnEscape」（CVSS <strong>9</strong>.<strong>3</strong>）でさくらインターネットが申込停止、全日本大学駅伝では早稲田大が<strong>5</strong>時間<strong>03</strong>分<strong>31</strong>秒の大会新記録で<strong>16</strong>年ぶり優勝した。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "DuckDB 2.0.0 LTS「Cinnamon Teal」リリース — 拡張SQLパーサー・VARIANT型・エージェントモード搭載",
+          "summary": "DuckDB <strong>2</strong>.<strong>0</strong>.<strong>0</strong> LTS（コードネーム「Cinnamon Teal」）が<strong>2026</strong>年<strong>10</strong>月<strong>21</strong>日にリリースされた。DuckDB <strong>1</strong>.<strong>5</strong>以降の約<strong>2</strong>万コミットを統合した最大規模のリリースで、サポート期間は<strong>2027</strong>年<strong>10</strong>月まで。主な新機能は拡張可能なSQLパーサー・非同期I/O・ファーストクラスのVARIANT型・エージェントモード・トリガーで、CLI/Pythonはリリース当日から利用可能。旧<strong>1</strong>.<strong>4</strong> LTSは<strong>2026</strong>年<strong>11</strong>月下旬まで、<strong>1</strong>.<strong>5</strong>は<strong>2027</strong>年<strong>3</strong>月まで延長サポートされる。",
+          "sourceName": "DuckDB公式ブログ",
+          "sourceUrl": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
+          "tags": ["技術トレンド", "データベース", "SQL"]
+        },
+        {
+          "position": 2,
+          "title": "CloudflareとVoidZeroがTypeScriptをRustに移植した「tsrs」を発表 — tsc比最大8倍高速・メモリ70%削減",
+          "summary": "Cloudflare・VoidZero・Owner.comのMax Schwenk氏が<strong>2026</strong>年<strong>10</strong>月<strong>20</strong>日、TypeScriptコンパイラをRustに移植した「tsrs」を発表した。TypeScript <strong>7</strong>.<strong>0</strong>比で最大<strong>8</strong>倍高速・メモリ約<strong>70</strong>%削減というベンチマーク値が示されており、外部の独立テストでも<strong>5</strong>.<strong>3</strong>倍高速・<strong>72</strong>%削減が報告されている。Oxcツールチェーン内で開発され、TypeScriptチームが引き続き言語設計を管理するforkでない移植。npm install -D tsrs で試用できる実験版で、型エラー時の終了コードの違いでCI設定が壊れる可能性がある点に注意が必要。",
+          "sourceName": "st-hakky.com",
+          "sourceUrl": "https://book.st-hakky.com/news/introducing-tsrs-a-port-of-typescript-to-rust",
+          "tags": ["技術トレンド", "TypeScript", "Rust"]
+        },
+        {
+          "position": 3,
+          "title": "Bun v1.4.4でbun fmt登場 — Prettier互換でPrettier比286倍高速なフォーマッタを内蔵",
+          "summary": "JavaScriptランタイム「Bun」は<strong>2026</strong>年<strong>10</strong>月<strong>22</strong>日のv<strong>1</strong>.<strong>4</strong>.<strong>4</strong>で、Prettier互換の組み込みフォーマッタ「bun fmt」を追加した。Bun公式の計測ではPrettierのリポジトリ上でbun fmt --checkが<strong>60</strong> ms、Prettierが<strong>17</strong>秒となり<strong>286</strong>倍高速と主張されている。既存の.prettierrcをそのまま読み取るため多くのプロジェクトではコマンド置き換えのみで移行でき、JavaScript/TypeScriptのプリンタはBiomeのフォーマッタをベースとしたoxc_formatterを採用。SvelteとAstroのフォーマットは組み込みでは未対応。",
+          "sourceName": "Bun公式ブログ",
+          "sourceUrl": "https://bun.com/blog/bun-v1.4.4",
+          "tags": ["技術トレンド", "JavaScript", "開発ツール"]
+        },
+        {
+          "position": 4,
+          "title": "Linux「PwnEscape」（CVE-2026-99999）公開 — ゲストVMからホストOSへの不正実行リスク、さくらが申込停止",
+          "summary": "Linuxカーネルに深刻な脆弱性「PwnEscape」（CVE-2026-99999）が<strong>2026</strong>年<strong>10</strong>月に公開された。IPv4チェックサム処理の欠陥を悪用すると、KVM等の仮想化環境でゲストVM内からホスト側のLinux OSに対してコード実行やメモリ開示が可能になる（CVSS <strong>9</strong>.<strong>3</strong>）。<strong>10</strong>月<strong>15</strong>日に修正済みカーネル<strong>7</strong>系統（<strong>5</strong>.<strong>10</strong>.<strong>272</strong>〜<strong>7</strong>.<strong>2</strong>.<strong>11</strong>）が公開されており、さくらインターネットはVPS・レンタルサーバ・クラウドの新規申込受付を一時停止した。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/linuxpwnescapecve-2026-99999linux_os.html",
+          "tags": ["技術トレンド", "セキュリティ", "Linux"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "DHBR「AIの説得力ある説明が誤った判断への追従を促す」 — 批判的思考と判断力を守る方法",
+          "summary": "DIAMOND ハーバード・ビジネス・レビューが<strong>10</strong>月<strong>24</strong>〜<strong>30</strong>日に公開した論考では、AIが生成する説得力のある説明が人の誤った判断への追従を促すリスクが指摘された。AIの答えが流暢であるほど内容を検証せずに意思決定してしまいやすい傾向があるとされる。あわせてAIを意思決定に活用しながら人間自身の批判的思考と判断力を維持するための方法も提示されており、AI活用が深まる組織においてリーダーが思考の主導権を保ち続けることの重要性を問い直している。",
+          "sourceName": "DIAMOND ハーバード・ビジネス・レビュー（Yahoo!ニュース）",
+          "sourceUrl": "https://news.yahoo.co.jp/articles/f0e06f3415f97878d2ddf7967618bf16142ba886",
+          "tags": ["思考力", "AI", "意思決定"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "早稲田大、全日本大学駅伝を5時間03分31秒の大会新記録で優勝 — 出雲との2冠・16年ぶりV",
+          "summary": "第<strong>58</strong>回全日本大学駅伝（<strong>11</strong>月<strong>1</strong>日、熱田神宮西門前〜伊勢神宮内宮宇治橋前、<strong>8</strong>区間<strong>106</strong>.<strong>8</strong>km）は、早稲田大学が<strong>5</strong>時間<strong>03</strong>分<strong>31</strong>秒の大会新記録で優勝した。<strong>16</strong>年ぶりの優勝で、<strong>10</strong>月の出雲全日本大学選抜駅伝に続く<strong>2</strong>冠を達成した。<strong>2</strong>位は國學院大（<strong>5</strong>時間<strong>07</strong>分<strong>05</strong>秒）、<strong>3</strong>位は創価大（<strong>5</strong>時間<strong>09</strong>分<strong>28</strong>秒）で創価大は過去最高順位となった。",
+          "sourceName": "陸上競技マガジン",
+          "sourceUrl": "https://www.rikujyokyogi.co.jp/archives/220967",
+          "tags": ["スポーツ", "駅伝", "陸上"]
+        }
+      ]
+    }
+  ]
+}
