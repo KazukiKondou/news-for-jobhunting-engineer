@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-03",
+  "label": "2026年11月3日 (火)",
+  "intro": "GitHub Universe 2026でCopilot Fusion（Single・Cascade・Critique の<strong>3</strong>パターン）が正式提供開始、Next.js <strong>16</strong>.<strong>4</strong>でCache Componentsが新規アプリのデフォルトになり、Node.js全系統でBrotli CVE（CVSS <strong>9</strong>.<strong>2</strong>）を修正；与那覇潤が「知識人こそ暗示にかかりやすい」と問う新著を<strong>10</strong>月<strong>21</strong>日に発売；島田麻央がスケートカナダで今季世界最高<strong>235</strong>.<strong>44</strong>点のGPデビュー戦優勝を飾った。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "GitHub Copilot Fusion が正式提供開始 — Single・Cascade・Critique の3パターンでモデルを自動選択",
+          "summary": "GitHubは<strong>2026</strong>年<strong>10</strong>月<strong>28</strong>〜<strong>29</strong>日にサンフランシスコで開催した年次イベント「GitHub Universe 2026」で、AIコーディング支援機能「GitHub Copilot Fusion」の正式提供（GA）を発表した。タスクに応じてAIモデルの選択を自動判断する機能で、<strong>1</strong>モデルで処理するSingle・下位モデルで起草し品質不足時に上位モデルへ引き上げるCascade・<strong>1</strong>モデルが起草し別モデルがレビューするCritiqueの<strong>3</strong>パターンを搭載。Standard / High / Max の<strong>3</strong>段階のエフォートレベルから選択でき、全Copilotプランで利用できる。同イベントでは複数リポジトリをまたぐ作業を自律実行する「Copilot Projects」のプレビュー公開も発表されている。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/githubcopilot_fusionaigithub_universe_2026.html",
+          "tags": ["技術トレンド", "AI", "GitHub"]
+        },
+        {
+          "position": 2,
+          "title": "Next.js 16.4 リリース — Cache Componentsが新規アプリのデフォルトに、ensureStaticオプションも追加",
+          "summary": "Vercelは<strong>2026</strong>年<strong>10</strong>月<strong>6</strong>日にNext.js <strong>16</strong>.<strong>4</strong>をリリースした。最大の変更は「Cache Components」で、create-next-appで作成した新規アプリではデフォルトで有効になった（Next.js 17 では全アプリへの適用が予定されている）。新オプション`ensureStatic`は対象ルートのシェル・プリフェッチ・ナビゲーションが静的であることを検証し、動的なコンテンツが含まれるとビルドを失敗させる。`next upgrade --agent`コマンドが追加されコーディングエージェントへのアップグレード委任が可能になり、React <strong>19</strong>.<strong>3</strong>のサポートも含まれる。",
+          "sourceName": "Next.js公式ブログ",
+          "sourceUrl": "https://nextjs.org/blog/next-16-4",
+          "tags": ["技術トレンド", "JavaScript", "フロントエンド"]
+        },
+        {
+          "position": 3,
+          "title": "Node.js全系統でBrotliデコーダーの境界外書き込み脆弱性を修正 — CVE-2026-111497、22.x/24.x/26.x が対象",
+          "summary": "Node.jsプロジェクトは<strong>2026</strong>年<strong>10</strong>月<strong>21</strong>日、Brotliデコーダーの境界外書き込み脆弱性CVE-<strong>2026</strong>-<strong>111497</strong>を含む計<strong>10</strong>件の脆弱性を修正したセキュリティリリースを公開した。修正バージョンはNode.js <strong>22</strong>.<strong>23</strong>.<strong>4</strong>・<strong>24</strong>.<strong>22</strong>.<strong>1</strong>・<strong>26</strong>.<strong>12</strong>.<strong>1</strong>で、現行の全系統（<strong>22</strong>.x、<strong>24</strong>.x、<strong>26</strong>.x）が影響を受ける。深刻度はNode.jsプロジェクトが「High」と評価し、一部情報ではCVSS v4.0で<strong>9</strong>.<strong>2</strong>と報告されている。攻撃者が制御するBrotliデータをデコーダーに渡せる状況でコード実行の可能性があるが、<strong>10</strong>月<strong>22</strong>日時点で実際の悪用は報告されていない。同リリースにはTLSホスト名検証回避（CVE-<strong>2026</strong>-<strong>106069</strong>）などの修正も含まれる。",
+          "sourceName": "The Hacker News",
+          "sourceUrl": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
+          "tags": ["技術トレンド", "セキュリティ", "Node.js"]
+        },
+        {
+          "position": 4,
+          "title": "ファインディが「Tech Branding」を本格展開 — エンジニア採用担当の約8割が採用広報に課題",
+          "summary": "ファインディ株式会社は<strong>2026</strong>年<strong>10</strong>月末、エンジニア採用ブランディング支援サービス「Tech Branding」の本格展開を発表した。エンジニア採用担当者を対象にした調査では約<strong>8</strong>割が「採用広報に課題を感じている」と回答した。Tech BrandingはAI時代に「選ばれる開発組織」をつくるためのサービスで、戦略策定からKPI設定・モニタリングまでを一貫して支援する。FindyはIT/Webエンジニアの転職・採用支援を主軸としており、採用広報に悩む開発組織向けにターゲットを絞った提案を行っている。",
+          "sourceName": "PR TIMES",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000281.000045379.html",
+          "tags": ["採用", "エンジニア採用"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "専門家でも誤りを認められない構造を問う — 与那覇潤『なぜ「まちがえた」と言えないのか』",
+          "summary": "歴史家・評論家の与那覇潤氏の新著『なぜ「まちがえた」と言えないのか――専門家依存が壊すメディアの信頼』（東洋経済新報社）が<strong>2026</strong>年<strong>10</strong>月<strong>21</strong>日に発売された。東洋経済オンラインに掲載された記事は、<strong>1932</strong>年のアインシュタインの書簡を引きながら「知識人こそ暗示にかかりやすい」という逆説的な問いを立てる。予測が後から誤りと判明しても反省・訂正する識者はほとんどいないという問題意識から出発し、日本社会に蔓延する「専門家依存症」がメディアの信頼を崩す構造を論じている。著者は歴史家・評論家として複数分野の文献や事例を横断しながら、専門家と読者の双方が「まちがえた」と言えない構造的要因を分析している。",
+          "sourceName": "東洋経済オンライン（Yahoo!ニュース）",
+          "sourceUrl": "https://news.yahoo.co.jp/articles/3e3250377a113c0b2f35de2dfd657598c5f48325",
+          "tags": ["思考力", "批判的思考", "認識論"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "島田麻央、スケートカナダでGPデビュー戦優勝 — 今季世界最高235.44点、日本女子4人目",
+          "summary": "フィギュアスケートのグランプリシリーズ第<strong>2</strong>戦・スケートカナダは現地<strong>2026</strong>年<strong>11</strong>月<strong>1</strong>日に開催され（日本時間<strong>11</strong>月<strong>2</strong>日）、<strong>18</strong>歳の島田麻央（木下グループ）がショートプログラム<strong>82</strong>.<strong>11</strong>点・フリー<strong>153</strong>.<strong>33</strong>点・合計<strong>235</strong>.<strong>44</strong>点で優勝した。この合計は今季の世界最高得点で、<strong>2</strong>位ペトロキナ（エストニア）に<strong>14</strong>.<strong>37</strong>点差をつけた。GP初出場での優勝は日本女子<strong>4</strong>人目の記録で、紀平梨花（<strong>2018</strong>年）・渡辺倫果（<strong>2022</strong>年）・中井亜美（<strong>2025</strong>年）に続く達成。第<strong>5</strong>戦フィンランディア杯（<strong>11</strong>月<strong>20</strong>〜<strong>21</strong>日）にもエントリーしており、グランプリファイナル進出へ好発進となった。",
+          "sourceName": "NHK",
+          "sourceUrl": "https://news.web.nhk/newsweb/na/nd-20261102de69385",
+          "tags": ["スポーツ", "フィギュアスケート"]
+        }
+      ]
+    }
+  ]
+}
