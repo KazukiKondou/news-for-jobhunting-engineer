@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-04",
+  "label": "2026年11月4日 (水)",
+  "intro": "DevographicsがState of Devs 2026（全世界<strong>5,463</strong>人回答）でエンジニア年収中央値<strong>9</strong>万ドル・<strong>3</strong>分の<strong>2</strong>がバーンアウト実感と公表、レバレジーズが<strong>6</strong>割超の企業でAIによる採用難易度の上昇を報告、LinuxカーネルのPwnEscape（CVE-<strong>2026</strong>-<strong>99999</strong>、CVSS<strong>9</strong>.<strong>3</strong>）はゲストVMからホストへの不正コード実行を可能にする；DHBRはMITスローン校が権限委譲を妨げる<strong>4</strong>つの課題を解説；中田璃士がスケートカナダ男子GP初出場でSP首位から逆転を許し合計<strong>249</strong>.<strong>25</strong>点の銀メダル。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "State of Devs 2026 公開 — 世界5,463人調査でエンジニア年収中央値9万ドル、3分の2がバーンアウト実感",
+          "summary": "DevographicsはIT関連調査「State of Devs 2026」の結果を公開した。調査期間は<strong>2026</strong>年<strong>7</strong>月<strong>5</strong>日〜<strong>9</strong>月<strong>5</strong>日で<strong>5,463</strong>人のソフトウェア開発者が回答、回答者の<strong>84</strong>%が男性で年齢の中央値は<strong>36</strong>歳、全世界の年収中央値は<strong>9</strong>万ドル（約<strong>1,350</strong>万円）とされた。約半数が「雇用の不安定さや賃金の不足を経験した」と回答し、約<strong>3</strong>分の<strong>2</strong>が最近やる気を失い皮肉的な見方が増えたと感じていると答え、AI普及が開発者の働き方意識を大きく変えている実態が浮かび上がった。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/state_of_devs_2026_ai.html",
+          "tags": ["技術トレンド", "AI", "開発者調査"]
+        },
+        {
+          "position": 2,
+          "title": "AIでITエンジニア採用競争が激化 — 6割超の企業が採用難易度の上昇を実感",
+          "summary": "レバレジーズは<strong>2026</strong>年<strong>10</strong>月、AIがエンジニア採用市場に与える影響に関する調査結果を発表した。AIの普及を受けて半数以上の企業がITエンジニアの採用数を増やしたと回答し、<strong>6</strong>割以上の企業がITエンジニアの採用難易度が上昇したと実感していることが明らかになった。採用要件の高度化と高度人材の獲得競争の激化が難易度上昇の主な要因として挙げられた。",
+          "sourceName": "PR TIMES（レバレジーズ）",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000001003.000010591.html",
+          "tags": ["採用", "エンジニア採用", "AI"]
+        },
+        {
+          "position": 3,
+          "title": "LinuxカーネルのPwnEscape（CVE-2026-99999）— ゲストVMからホストへのコード実行リスク、CVSS 9.3",
+          "summary": "<strong>2026</strong>年<strong>10</strong>月<strong>15</strong>日に公開されたLinuxカーネルの深刻な脆弱性「PwnEscape」（CVE-<strong>2026</strong>-<strong>99999</strong>）は、ゲストの仮想マシンからホスト側Linux OSに不正なコードを実行できる可能性がある。CVSSスコアは<strong>9</strong>.<strong>3</strong>（Red Hatは<strong>8</strong>.<strong>8</strong>と評価）で、問題はKVMではなくLinuxカーネルのネットワーク処理層に起因する。クラウド・VPSホスト、CIランナー、AIエージェント実行サンドボックスなどでリスクが高いとされ、マルチテナント環境のホストはカーネルへのパッチ適用が推奨されている。<strong>2026</strong>年<strong>10</strong>月時点で実際の悪用は確認されていない。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/linuxpwnescapecve-2026-99999linux_os.html",
+          "tags": ["技術トレンド", "セキュリティ", "Linux"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 4,
+          "title": "なぜリーダーは「任せる」ことを避けるのか — MITスローン校が4つの心理的障害を解説",
+          "summary": "DIAMONDハーバード・ビジネス・レビュー<strong>2026</strong>年<strong>11</strong>月号（<strong>10</strong>月<strong>9</strong>日発売）の特集「任せる技術」として、MITスローン校のエルズベス・ジョンソン准教授による「リーダーは権限委譲の難しさをどうすれば乗り越えられるのか」が公開された。権限委譲はリーダーが習得すべき最重要スキルの一つとされながら多くが苦手とする理由として、誰もが直面しうる<strong>4</strong>つの課題が分析されている。何を任せるかの判断や任せることへの内面的な抵抗を乗り越えるアプローチが論じられており、AIツールが組織の仕事を再分配するこの時代にリーダーとしての思考を再点検する内容になっている。",
+          "sourceName": "DIAMOND ハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14901",
+          "tags": ["思考力", "組織", "リーダーシップ"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "中田璃士、スケートカナダ男子GP初出場で銀メダル — SP首位から逆転許す249.25点",
+          "summary": "フィギュアスケートのグランプリシリーズ第<strong>2</strong>戦スケートカナダ（カナダ・ケロウナ）の男子シングルは<strong>2026</strong>年<strong>11</strong>月<strong>1</strong>日（現地<strong>10</strong>月<strong>31</strong>日）に開催され、シニア<strong>1</strong>年目の中田璃士がショートプログラム<strong>92</strong>.<strong>64</strong>点で首位発進したが、フリーでジャンプのミスが響きフリー<strong>4</strong>位となり合計<strong>249</strong>.<strong>25</strong>点の<strong>2</strong>位に終わった。優勝はケビン・エイモズ（フランス）の<strong>258</strong>.<strong>43</strong>点で逆転を許した中田は「<strong>1</strong>位しか狙っていなかった。<strong>2</strong>位でも全然うれしくない」とコメントした。今季<strong>2</strong>戦目として最終第<strong>6</strong>戦のNHK杯（東京）を予定しており、グランプリファイナル進出をかけた戦いが続く。",
+          "sourceName": "中日スポーツ",
+          "sourceUrl": "https://www.chunichi.co.jp/article/1333337",
+          "tags": ["スポーツ", "フィギュアスケート"]
+        }
+      ]
+    }
+  ]
+}
