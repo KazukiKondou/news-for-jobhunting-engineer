@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-05",
+  "label": "2026年11月5日 (木)",
+  "intro": "GitHubが<strong>2026</strong>年<strong>10</strong>月<strong>28</strong>日にGitHub Copilot Fusionを正式提供開始しClaude Opus 5比コスト<strong>67</strong>%低減を主張、サイバーエージェントは<strong>2028</strong>年度新卒からAI・データ職<strong>2</strong>職種を新設、GMOインターネットグループはFXサービス不正アクセスで<strong>26,739</strong>台のサーバーに影響し政府に能動的サイバー防御の適用を緊急要請（制度施行後初）；DIAMONDハーバード・ビジネス・レビューはミシガン大学ロスのグリーアらが意思決定ルールを定めても組織が動かない<strong>4</strong>つの要因を解説；書道のユネスコ無形文化遺産登録がユネスコ評価機関から勧告された（政府間委員会は<strong>11</strong>月<strong>30</strong>日〜<strong>12</strong>月<strong>5</strong>日）。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "GitHub Copilot Fusion が正式提供開始 — タスク難易度でAIモデルを自動選択、Claude Opus 5比コスト67%低減をGitHubが主張",
+          "summary": "GitHubは<strong>2026</strong>年<strong>10</strong>月<strong>28</strong>日、GitHub Universe 2026でGitHub Copilot Fusionの一般提供（GA）を発表した。従来のモデル単体選択に替えて、Standard・High・Maxの<strong>3</strong>段階からFusionを選択するとタスクの難易度に合わせた複数AIモデルへの振り分けが自動化される。GitHubが実施したHydraFusionの事前評価では、Claude Opus 5と比較して品質が<strong>4</strong>.<strong>9</strong>ポイント向上し推定コストは<strong>67</strong>%低いと報告しているが、第三者による独立検証は実施されていない。有料プランの利用者は<strong>2026</strong>年<strong>11</strong>月<strong>30</strong>日まで使用モデルのコストが<strong>30</strong>%割引となる期間限定優遇が設けられている。",
+          "sourceName": "labmemo.com",
+          "sourceUrl": "https://labmemo.com/github-copilot-fusion-ga-model-routing-2026-10/",
+          "tags": ["技術トレンド", "AI"]
+        },
+        {
+          "position": 2,
+          "title": "サイバーエージェント、2028年度新卒エンジニア採用にAI・データ専門職2職種を新設",
+          "summary": "サイバーエージェントは<strong>2026</strong>年<strong>10</strong>月、<strong>2028</strong>年度新卒採用においてエンジニア職にAI・データ専門職<strong>2</strong>職種「ビジネスリードエンジニア（AI・データ）」「テックリードエンジニア（AI・データ）」を新設すると発表した。<strong>2028</strong>年までに全社開発プロセスを完全自動化する目標のもと、エンジニアの役割をコーディングから課題発見・ビジネス設計フェーズへと拡大する方針で、AIと協働できる高度専門職の採用を強化する。",
+          "sourceName": "サイバーエージェント",
+          "sourceUrl": "https://www.cyberagent.co.jp/careers/news/detail/id=33912",
+          "tags": ["採用", "新卒", "AI"]
+        },
+        {
+          "position": 3,
+          "title": "GMOインターネットグループ、FXサービス不正アクセスで政府に能動的サイバー防御の緊急要請 — 制度施行後初",
+          "summary": "GMOインターネットグループは<strong>2026</strong>年<strong>10</strong>月、傘下サービス「お名前.comデスクトップクラウド」で不正なアクセスと取引があったことを確認し、政府に「能動的サイバー防御」の適用を緊急要請した。影響を受けた可能性があるサーバーは<strong>26,739</strong>台で、攻撃者からは<strong>5,000</strong>万ドル（約<strong>79</strong>億円）の支払いを要求されたが応じていない。能動的サイバー防御は政府が攻撃元サーバーを無害化する措置で、<strong>2026</strong>年<strong>11</strong>月<strong>1</strong>日の関連法施行後、GMOはその初の適用要請事例となった。熊谷正寿社長は、社内技術者から安全性に関する「改善すべき課題」が事前に指摘されていたことも認めた。",
+          "sourceName": "共同通信（熊本日日新聞）",
+          "sourceUrl": "https://kumanichi.com/articles/2050148",
+          "tags": ["セキュリティ", "技術トレンド"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 4,
+          "title": "意思決定のルールを定めても組織が動かない4つの要因 — ミシガン大学ロスのグリーアらがチームの決定権設計の盲点を解説",
+          "summary": "DIAMONDハーバード・ビジネス・レビュー<strong>2026</strong>年<strong>11</strong>月号（<strong>10</strong>月<strong>9</strong>日発売）の特集「任せる技術」として、ミシガン大学ロスのリンディ・グリーア、IMDのジェニファー・ジョーダン、マキシム・シッチによる「意思決定のルールを定めても組織が動かない<strong>4</strong>つの要因」が収録されている。意思決定権（決定権限）を明確化しても組織が動かない原因を<strong>4</strong>つに整理し、チームの意思決定精度を高め協働性を上げるアプローチを論じる。",
+          "sourceName": "DIAMOND ハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://www.diamond.co.jp/magazine/059691126.html",
+          "tags": ["思考力", "組織", "リーダーシップ"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "書道、ユネスコ無形文化遺産への登録をユネスコ評価機関が勧告 — 国内24件目へ、政府間委員会は11月末",
+          "summary": "ユネスコの評価機関は<strong>2026</strong>年<strong>11</strong>月<strong>5</strong>日、日本が申請していた「書道」を無形文化遺産に「記載」するよう勧告した。最終的な登録の可否は<strong>11</strong>月<strong>30</strong>日〜<strong>12</strong>月<strong>5</strong>日に中国・アモイで開かれるユネスコ政府間委員会で正式に決定する見通しで、登録されれば国内の無形文化遺産は和紙・和食などに続き<strong>24</strong>件目となる。日本は<strong>2024</strong>年に申請し<strong>2025</strong>年に再申請、「日本人の暮らしに深く根ざした社会的慣習」として提案していた。",
+          "sourceName": "時事通信",
+          "sourceUrl": "https://www.jiji.com/jc/article?k=2026110500120&g=soc&m=rss",
+          "tags": ["文化"]
+        }
+      ]
+    }
+  ]
+}
