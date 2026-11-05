@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-06",
+  "label": "2026年11月6日 (金)",
+  "intro": "OpenAIが画像生成「Images 2.6」でGIF生成と<strong>2</strong>つのAPIモデルを追加（<strong>11</strong>月<strong>5</strong>日）、AnthropicはMessages APIのスレッド機能で初トークン時間を<strong>35</strong>%短縮、Appleは刷新版「Siri AI」をiOS <strong>27.3</strong>ベータで全開発者に開放、Google Chrome <strong>157</strong>が「HTML-in-Canvas」正式提供と<strong>213</strong>件のセキュリティ修正を含む安定版を公開；東洋経済オンラインは認知科学者ズミグロッドによる「ストレスが意思決定の柔軟性を低下させる」論を紹介；国際熱核融合実験炉ITERの炉心を構成する全<strong>9</strong>つの真空容器パーツがフランス南部の建設現場にそろった。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "OpenAI、GIF生成対応の「Images 2.6」を公開 — API版にFlare・Sunburstの2モデルを追加",
+          "summary": "OpenAIは<strong>2026</strong>年<strong>11</strong>月<strong>4</strong>日（米国時間）、画像生成モデルの新版「Images 2.6」を発表した。プロンプトや<strong>1</strong>枚の静止画からアニメーションGIFを作成できる機能を追加し、個々のフレームの編集と再生速度の調整も可能になった。ChatGPT・Codexの全プランでWebとモバイルから利用できる（無料版は生成回数に制限あり）。APIではハイクオリティ向けの「Sunburst」と軽量の「Flare」の<strong>2</strong>モデルが提供され、SVG書き出しと画像マークアップにも対応した。",
+          "sourceName": "OpenAI",
+          "sourceUrl": "https://openai.com/index/introducing-images-2-6/",
+          "tags": ["技術トレンド", "AI"]
+        },
+        {
+          "position": 2,
+          "title": "Apple、刷新版「Siri AI」をiOS 27.3ベータで全開発者に開放 — App Intentsでアプリ内操作を音声で",
+          "summary": "Appleは<strong>2026</strong>年<strong>11</strong>月<strong>3</strong>日（米国時間）、刷新版の音声アシスタント「Siri AI」とサードパーティアプリの連携を全開発者に開放した。iOS <strong>27.3</strong>のベータ版でDeveloper Previewが始まり、開発者はApp Intentsを使って自アプリをSiri AIから直接呼び出せる機能を組み込める。配送状況の確認や予約・注文といった複数ステップの操作を音声でシームレスに行えるよう、複数の操作をまとめる「スキル」という仕組みも導入された。一般ユーザー向け提供は数か月後、App Storeへの申請受付は<strong>2027</strong>年春の見通し。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2611/04/2000002855/",
+          "tags": ["技術トレンド", "AI"]
+        },
+        {
+          "position": 3,
+          "title": "AnthropicがMessages APIにスレッド機能を追加 — 長期エージェント実行の初トークン時間を35%短縮",
+          "summary": "Anthropicは<strong>2026</strong>年<strong>11</strong>月<strong>2</strong>日、Messages APIで「Message Threads」のパブリックベータを開始した。これまで毎リクエストで会話履歴全件を送り直す必要があったが、スレッド機能を使うと以降のリクエストに前のレスポンスIDと新規メッセージだけを送れる。<strong>500,000</strong>〜<strong>1,000,000</strong>トークンの会話では初トークンまでの時間の中央値が<strong>35</strong>%短縮されたとAnthropicは内部検証で報告している。スレッドはリクエストなしの状態が<strong>5</strong>分続くと自動削除され、ゼロデータ保持を設定した環境やHIPAA対象アカウントでは利用できない。",
+          "sourceName": "Unite.AI",
+          "sourceUrl": "https://www.unite.ai/anthropic-launches-message-threads-beta-for-long-running-agents/",
+          "tags": ["技術トレンド", "AI"]
+        },
+        {
+          "position": 4,
+          "title": "ファインディ、エンジニア採用ブランディング支援「Tech Branding」を本格展開",
+          "summary": "ファインディは<strong>2026</strong>年<strong>10</strong>月<strong>30</strong>日、エンジニア採用ブランディング支援「Tech Branding」の本格展開を発表した。エンジニア採用担当者の約<strong>8</strong>割が採用広報に課題を抱えているという同社調査を背景に、戦略設計から施策実行まで一貫支援するサービスで、同日にサービス紹介サイトを公開した。累計<strong>1,000</strong>回以上のエンジニア向けイベント企画・運営から得た知見を活かし、登録エンジニア<strong>30</strong>万人・導入企業<strong>5,600</strong>社超のプラットフォームを通じてスタートアップから大企業まで幅広く支援する。",
+          "sourceName": "PR TIMES（ファインディ）",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000281.000045379.html",
+          "tags": ["採用"]
+        },
+        {
+          "position": 5,
+          "title": "Google Chrome 157が公開 — 「HTML-in-Canvas」正式提供、213件の脆弱性を修正",
+          "summary": "Googleは<strong>2026</strong>年<strong>11</strong>月<strong>3</strong>日、「Google Chrome 157」の安定版を公開した。最大の開発者向け機能は「HTML-in-Canvas」の正式提供で、ライブかつインタラクティブなDOM要素を2D・WebGL・WebGPU上のcanvasに直接描画できる。描画された要素はアクセシビリティツリーに含まれ、翻訳やページ内検索などのブラウザ機能も引き続き動作する。セキュリティ修正は<strong>213</strong>件（うちクリティカル<strong>7</strong>件）が含まれ、Android版ではデバイス上で言語検出を行うLanguage Detector APIも使えるようになった。",
+          "sourceName": "窓の杜",
+          "sourceUrl": "https://forest.watch.impress.co.jp/docs/news/2153357.html",
+          "tags": ["技術トレンド"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "ストレスが意思決定の柔軟性を下げ習慣的行動に偏らせる — 認知科学者ズミグロッドが神経科学の知見を解説",
+          "summary": "東洋経済オンラインは<strong>2026</strong>年<strong>11</strong>月<strong>4</strong>日、政治心理学者・神経科学者のレオール・ズミグロッド氏（著書『The Ideological Brain』）による解説記事を掲載した。急性ストレスを与える実験では被験者の認知的柔軟性が低下し、注意がストレス要因に絞り込まれて不確実性への耐性が落ちる傾向がみられると説明する。研究によればストレスを受けた被験者の意思決定は習慣的な行動パターンに偏り、脳の形態にも変化が生じていた。ワーキングメモリ容量が大きい人ほどこの影響を受けにくいという知見も紹介されている。",
+          "sourceName": "東洋経済オンライン",
+          "sourceUrl": "https://toyokeizai.net/articles/-/954636",
+          "tags": ["思考力", "認知科学"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "国際熱核融合実験炉ITERの炉心主要部品がすべて建設現場にそろう — 真空容器9パーツが完成",
+          "summary": "JST科学ポータルは<strong>2026</strong>年<strong>10</strong>月<strong>30</strong>日、国際熱核融合実験炉「ITER」の炉心を構成するすべての主要部品がフランス南部サン＝ポール＝レ＝デュランスの建設現場にそろったと伝えた。真空容器を構成する<strong>9</strong>つのパーツのうち最後の<strong>1</strong>つが到着し、炉心の全主要要素がサイト内に集まった節目となる。真空容器の製造は韓国が<strong>4</strong>つ、欧州が<strong>5</strong>つを担当した。日本はダイバーターや超伝導トロイダル磁場コイルなどの主要機器を担当している。運転開始の目標は<strong>2039</strong>年とされており、当初計画から大幅に遅延している。",
+          "sourceName": "Science Portal（JST）",
+          "sourceUrl": "https://scienceportal.jst.go.jp/newsflash/20261030_n01/",
+          "tags": ["科学", "国際"]
+        },
+        {
+          "position": 8,
+          "title": "島田麻央、GP初出場で優勝 — 合計235.44点と今季世界最高、日本女子4人目の快挙",
+          "summary": "フィギュアスケートのISUグランプリシリーズ第<strong>2</strong>戦スケートカナダ（<strong>10</strong>月<strong>30</strong>日〜<strong>11</strong>月<strong>1</strong>日、カナダ・ケロウナ）で、<strong>18</strong>歳の島田麻央（木下グループ）がGPシリーズ初参戦にして優勝を果たした。合計<strong>235</strong>.<strong>44</strong>点はSP・フリーともに今季世界最高点で、<strong>2</strong>位のペトロキナ選手（エストニア）に<strong>14</strong>.<strong>37</strong>点差をつけた（ISU集計）。GP初出場での優勝は日本女子<strong>4</strong>人目の記録とされている。",
+          "sourceName": "NHK Web",
+          "sourceUrl": "https://news.web.nhk/newsweb/na/nd-20261102de69385",
+          "tags": ["スポーツ"]
+        }
+      ]
+    }
+  ]
+}
