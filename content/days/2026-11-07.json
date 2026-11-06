@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-07",
+  "label": "2026年11月7日 (土)",
+  "intro": "JetBrainsがIntelliJ IDEA 2026.3でAIエージェント開発層「Air」を初搭載（<strong>11</strong>月<strong>5</strong>日）、GitHubのOctoverse 2026ではAIエージェント起点のPRが<strong>40</strong>%超に拡大しTypeScriptが<strong>2</strong>年連続首位、Node.js <strong>27</strong>アルファ版ではV8 <strong>15</strong>.<strong>6</strong>とMath.sumPrecise()を追加、レバテック調査では技術選考の<strong>7</strong>割がAI利用可；DHBR2026年<strong>11</strong>月号ではミシガン大グリーア教授が「意思決定ルールを定めても組織が動かない<strong>4</strong>要因」を解説、ESA探査機Heraが予定より<strong>1</strong>か月早くディディモスへ接近し衝突実験後の本格調査を開始。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "JetBrains、IntelliJ IDEA 2026.3を公開 — AIエージェント開発層「Air」を同梱、Java 28サポート",
+          "summary": "JetBrainsは<strong>2026</strong>年<strong>11</strong>月<strong>5</strong>日、IntelliJ IDEA 2026.3の安定版をリリースした。最大の変更点は「JetBrains Air」の同梱で、IDEにエージェント開発のための新しいレイヤーが加わり、複数のAIエージェントを並列実行してプロジェクトのデバッグ構成やログポイントへのアクセスも支援する（Air自体はEAP段階）。Java <strong>28</strong>への早期サポート、Hibernateデバッガー、Spring ModulithのKotlin対応も追加された。バグ修正は<strong>1,000</strong>件超・パフォーマンス修正<strong>300</strong>件超が含まれ、CursorやVS Code向けのJava/Kotlin拡張機能も同時に提供開始となった。",
+          "sourceName": "JetBrains Blog",
+          "sourceUrl": "https://blog.jetbrains.com/idea/2026/11/whats-new-in-intellij-idea-2026-3/",
+          "tags": ["技術トレンド"]
+        },
+        {
+          "position": 2,
+          "title": "GitHub Octoverse 2026 — TypeScriptが2年連続首位、AIエージェントがPRの4割超を起点に",
+          "summary": "GitHubは<strong>2026</strong>年<strong>10</strong>月<strong>28</strong>日（米国時間）、年次開発者レポート「Octoverse 2026」を公表した。最も使われている言語の首位はTypeScriptが<strong>2</strong>年連続で維持し、<strong>2</strong>位がPython・<strong>3</strong>位がJavaScript。最も成長した言語はRustで、PRへの貢献者数が<strong>1</strong>年間で<strong>162</strong>%増加した。コードpushは年間<strong>179</strong>億件に達し、AIエージェントが起点となったPRは<strong>40</strong>%超（2026年3月時点では<strong>17</strong>%）に急拡大。GitHubへの登録開発者数は<strong>2億2,500万</strong>人を超えた。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/github2typescriptrustosscc_switchomarchygithub_octoverse_2026.html",
+          "tags": ["技術トレンド"]
+        },
+        {
+          "position": 3,
+          "title": "Node.js 27アルファ版が公開 — V8を15.6に更新、Math.sumPrecise()とIterator新メソッドを追加",
+          "summary": "Node.jsプロジェクトは<strong>2026</strong>年<strong>10</strong>月<strong>29</strong>日、Node.js 27.0.0-alpha.0.0.0を公開した。V8エンジンをNode.js 26の14.6系から<strong>15</strong>.<strong>6</strong>系に更新し、浮動小数点の正確な合計を計算する「Math.sumPrecise()」、Iterator.prototype.join()などのイテレータ操作メソッドが標準で有効になった。デフォルトのヒープ上限は物理メモリの<strong>50</strong>%（<strong>256</strong>MB〜<strong>4</strong>GB）に変更され、BufferやArrayBufferが保持するメモリも上限に含まれる。npmは12.1.0に更新され、ビルドにはOpenSSL 3以降が必要になる。アルファ版のため正式リリースの日程は未定。",
+          "sourceName": "Node.js Blog",
+          "sourceUrl": "https://nodejs.org/ja/blog/release/v27.0.0-alpha.0.0.0",
+          "tags": ["技術トレンド"]
+        },
+        {
+          "position": 4,
+          "title": "ITエンジニア採用の技術選考、7割がAI利用可 — 9割の企業がAI活用力を評価の軸に",
+          "summary": "レバテックが<strong>2026</strong>年<strong>11</strong>月<strong>5</strong>日に発表した調査によると、ITエンジニアの技術選考においてAIの利用を認める企業が<strong>7</strong>割に達した（IT採用担当者<strong>553</strong>名対象、2026年7月調査）。さらに約<strong>9</strong>割の企業がAI活用力を採用評価の軸のひとつとして加えており、単に技術力を問うだけでなくAIを適切に使いこなせるかが問われる選考が主流になりつつある。一方でAI利用の懸念として評価の偏りや判断過程の不透明さが挙げられており、全自動化への移行にはまだ課題があるとされている。",
+          "sourceName": "PR TIMES（レバテック）",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000001004.000010591.html",
+          "tags": ["採用"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "意思決定ルールを定めても組織は動かない — ミシガン大グリーア教授らが4要因を解説",
+          "summary": "「DIAMOND ハーバード・ビジネス・レビュー」2026年11月号（特集「任せる技術: みずから考え、行動する人を育てる」、2026年10月9日発売）には、ミシガン大学のリンディ・グリーア、ジェニファー・ジョーダン、マキシム・シッチによる「意思決定のルールを定めても組織が動かない<strong>4</strong>つの要因」が掲載されている。MIT エルズベス・ジョンソン教授はリーダーが権限委譲で直面しうる<strong>4</strong>つの課題を論じ、P&Gジャパンの木葉慎介社長は仕事を任せる仕組みで社員をリーダーへ育てる実践を紹介している。同号にはHBR Classicとしてクリス・アージリス「意思決定を阻む人間関係という障害」（<strong>1966</strong>年初出）も収録されている。",
+          "sourceName": "DIAMONDハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/list/magazine/2026-11",
+          "tags": ["意思決定", "組織"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "ESA探査機Heraが予定より1か月早くディディモスへ接近 — DART衝突後の小惑星系調査を本格開始",
+          "summary": "欧州宇宙機関（ESA）の小惑星探査機「Hera」が<strong>2026</strong>年<strong>11</strong>月、当初の計画より<strong>1</strong>か月早く二重小惑星ディディモス・ディモルフォス系への接近段階に入った。Heraは<strong>10</strong>月<strong>7</strong>日にディディモスを初めて捉え、<strong>10</strong>月<strong>15</strong>日と<strong>22</strong>日に逆噴射によるブレーキ噴射を実施した。ミッションの主目的は<strong>2022</strong>年のNASA・DARTによる衝突実験後の小惑星の変化を精密調査することで、JAXAが提供した熱赤外カメラ「TIRI」も搭載されている。ESA主導の惑星防衛計画の中核をなす探査機で、今後は表面調査とキューブサット<strong>2</strong>機の放出が予定されている。",
+          "sourceName": "ESA",
+          "sourceUrl": "https://www.esa.int/Space_Safety/Hera/ESA_s_Hera_targets_early_arrival_at_Didymos_asteroids",
+          "tags": ["科学", "宇宙"]
+        }
+      ]
+    }
+  ]
+}
