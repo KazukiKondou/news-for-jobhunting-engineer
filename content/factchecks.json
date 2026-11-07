@@ -1,5 +1,12 @@
 [
   {
+    "slug": "2026-11-08-queue",
+    "ranOn": "2026-11-08",
+    "verdict": "unverifiable",
+    "detail": "ファクトチェックキューAPI（https://news.kazukikondo.com/api/factcheck/queue）はegressプロキシにより拒否（403）。FACTCHECK_TOKEN・LINE_TOKEN ともに未設定または到達不可。本日分4件（IT就活3件・思考力0件・視野1件）はWebSearchで取得したURLのみを使用し手動検証済み。pos1 Anthropic Message Threads→unite.ai/anthropic-launches-message-threads-beta-for-long-running-agents 複数クエリ（aichatdaily.com、lapaasvoice.com、dev.to/delimitter、aireiter.com）でも確認。pos2 GitHub Copilot Fusion GA→publickey1.jp/blog/26/githubcopilot_fusionaigithub_universe_2026.html 複数クエリ（venturebeat.com、cryptobriefing.com、datastudios.org、neowin.net）でも確認。pos3 Synergy Research Q3 2026クラウドシェア→publickey1.jp/blog/26/aws26google_cloud1620263synergy_research.html 複数クエリ（telesemana.com 2026-10-30スペイン語記事で同一数値確認）でも確認。pos4 理研・ALMA TiO検出→riken.jp/press/2026/20261105_1/index.html 複数クエリ（tiisys.com/blog/2026/11/05/post-212195/）でも確認。思考力セクション：検証可能なURLが見つからず0件（routine-prompt.txt section4「検証を通る記事が足りなければ、無理に埋めず件数を減らす」適用）。deploy確認：egressプロキシ制限によりuntilループがタイムアウト（警告のみ）。LINE配信：LINE_TOKEN未設定のため401（警告のみ、LINE_TOKENは環境変数に存在しない）。",
+    "action": "キュー取得不可のためスキップ。本日分 (2026-11-08) の記事4件を新規生成。deploy確認・LINE配信ともにネットワーク/認証制約によりスキップ（警告）。"
+  },
+  {
     "slug": "2026-11-07-queue",
     "ranOn": "2026-11-07",
     "verdict": "unverifiable",
