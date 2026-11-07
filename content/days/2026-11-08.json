@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-08",
+  "label": "2026年11月8日 (日)",
+  "intro": "AnthropicがMessages APIに会話スレッド機能を公開ベータで追加しTime to First Tokenが<strong>35</strong>%改善・ペイロードを<strong>800</strong>KBから<strong>1.8</strong>KBへ削減、GitHubはCopilot FusionをGitHub Universe 2026でGAとして全プランに展開、Synergy Research調査では<strong>2026</strong>年Q3のクラウドインフラ市場が前年比<strong>55</strong>%増の約<strong>1,677</strong>億ドルに拡大しAWSが<strong>26</strong>%・Google Cloudが<strong>16</strong>%に変動、理研はALMAで<strong>1,350</strong>光年先の原始星から一酸化チタンを検出し太陽系以前の鉱物蒸発の痕跡を初めて捉えた。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Anthropic、Messages APIにスレッド機能を公開ベータで追加 — TTFT 35%改善・ペイロード1/400超の削減",
+          "summary": "Anthropicは<strong>2026</strong>年<strong>11</strong>月<strong>2</strong>日、Messages APIに「message threads」を公開ベータとして追加した。従来は会話履歴をリクエストごとに再送する必要があったが、スレッドではサーバーが履歴を保持し、新しいメッセージと前回のレスポンスIDだけを送信すれば済む仕組みになった。<strong>500</strong>K〜<strong>1</strong>Mトークン規模のリクエストでTime to First Tokenの中央値が約<strong>35</strong>%改善し、ペイロードは最大<strong>800</strong>KBから<strong>1.8</strong>KBへ削減された事例も報告されている。すべてのClaude モデルに対応しており、すでにClaudeCodeユーザーのほとんどにはデフォルトで有効になっている。スレッド状態は最後のリクエストから<strong>5</strong>分間サーバーに保持され、追加料金はなくトークン料金のみが適用される。",
+          "sourceName": "unite.ai",
+          "sourceUrl": "https://www.unite.ai/anthropic-launches-message-threads-beta-for-long-running-agents",
+          "tags": ["技術トレンド"]
+        },
+        {
+          "position": 2,
+          "title": "GitHub、Copilot Fusion を全プランでGA — タスクごとに最適AIモデルを自動選択",
+          "summary": "GitHubは<strong>2026</strong>年<strong>10</strong>月<strong>28</strong>日のGitHub Universe 2026で、「GitHub Copilot Fusion」を一般提供（GA）に移行した。開発者がFusionを選択すると、各プロンプトに最適なAIモデルとその組み合わせをFusionが自動決定する仕組みで、Standard・High・Maxの<strong>3</strong>段階の効果レベルが選べる。すべてのGitHub Copilotプランで利用可能で、Visual Studio Code・JetBrains IDE・GitHub Copilot CLI・GitHub Copilot appに対応する。追加のオーケストレーション料金はなく実際のモデル呼び出し分のみが課金され、<strong>2026</strong>年<strong>11</strong>月末まで割引期間が設けられている。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/githubcopilot_fusionaigithub_universe_2026.html",
+          "tags": ["技術トレンド"]
+        },
+        {
+          "position": 3,
+          "title": "クラウドインフラ市場、2026年Q3は前年比55%増の約1677億ドル — AWSシェア26%へ後退・Google Cloud 16%に浮上",
+          "summary": "Synergy Research Groupは<strong>2026</strong>年<strong>10</strong>月<strong>29</strong>日、<strong>2026</strong>年第<strong>3</strong>四半期のグローバルクラウドインフラサービス支出が約<strong>1,677</strong>億ドルに達し、前年同期比<strong>55</strong>%増でクラウドインフラ市場として過去最大の成長率となったと発表した。クラウドシェアはAWSが<strong>26</strong>%、Microsoftが<strong>19</strong>%、Google Cloudが<strong>16</strong>%で、AI基盤サービスへの企業投資が市場全体を押し上げた。Google Cloudは前年の<strong>14</strong>%水準から拡大傾向にあり、AIインフラ投資を追い風に成長率でAWSを上回っている。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/aws26google_cloud1620263synergy_research.html",
+          "tags": ["技術トレンド"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": []
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 4,
+          "title": "理研、ALMA望遠鏡で1,350光年先の原始星から一酸化チタンを検出 — 鉱物蒸発の痕跡を初めて捉える",
+          "summary": "理化学研究所と国立天文台などの国際共同研究グループは<strong>2026</strong>年<strong>11</strong>月<strong>5</strong>日、アルマ望遠鏡（ALMA）を使って地球から約<strong>1,350</strong>光年離れた若い大質量原始星「Orion Source I」の周囲で一酸化チタン（TiO）の電波を検出したと発表した。チタンは通常固体の鉱物に取り込まれており、今回の検出は原始星近傍の高温環境で鉱物から気体として放出されたチタンと考えられている。TiOは円盤から噴き出すガスの流れ（円盤風）の根元付近に集中しており、過去に検出された一酸化アルミニウム（AlO）と分布や速度構造が類似していることも確認された。岩石惑星や初期太陽系の固体物質の形成過程を理解する手がかりとなり、論文は『The Astrophysical Journal Letters』に掲載された。",
+          "sourceName": "理化学研究所",
+          "sourceUrl": "https://www.riken.jp/press/2026/20261105_1/index.html",
+          "tags": ["科学", "宇宙"]
+        }
+      ]
+    }
+  ]
+}
