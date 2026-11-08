@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-09",
+  "label": "2026年11月9日 (月)",
+  "intro": "レバテックの調査でITエンジニア技術選考の<strong>7</strong>割がAI利用可・約<strong>9</strong>割がAI活用力を評価に加味、VS Code <strong>1.145</strong>が複数AIエージェントを<strong>1</strong>セッションで使い分ける機能をプレビュー追加・cronスケジュールにも対応、Chrome <strong>157</strong>が<strong>213</strong>件のセキュリティ修正でリリース、NASAがボイジャー<strong>1</strong>号の<strong>11</strong>月<strong>18</strong>日に地球から<strong>1</strong>光日（約<strong>259</strong>億km）到達を発表。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "エンジニア技術選考の7割がAI利用可——約9割の企業がAI活用力を選考評価に加味",
+          "summary": "レバレジーズが<strong>2026</strong>年<strong>11</strong>月<strong>5</strong>日に発表した調査では、ITエンジニアを採用する<strong>553</strong>社を対象とした結果、技術選考でAI利用を認める企業が<strong>7</strong>割にのぼることが示された。同調査でAI活用力を選考評価に加える企業は約<strong>9</strong>割に達する。エンジニア採用において技術選考でのAI利用と活用力の評価が広まっていることが明らかになった。",
+          "sourceName": "PR TIMES（レバレジーズ）",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000001004.000010591.html",
+          "tags": ["採用"]
+        },
+        {
+          "position": 2,
+          "title": "VS Code 1.145 リリース——複数AIエージェントを1セッションで使い分け可能、cronスケジュールも追加",
+          "summary": "Microsoftは<strong>2026</strong>年<strong>11</strong>月<strong>4</strong>日、VS Code安定版<strong>1.145</strong>を公開した。ネストされたエージェントセッションで複数のAIハーネスを使い分けられるようになり、CopilotのセッションからClaudeやCodexにレビューを依頼できる機能がプレビューとして追加された。また<strong>5</strong>フィールドのcron式によるスケジュール指定が可能になり、チャット表示もConversation・Verbose・Compactの<strong>3</strong>モードから選べるようになった。なお一部ツールが削除されており、自作のエージェントやプロンプトファイルが参照している場合は更新が必要だ。",
+          "sourceName": "Visual Studio Magazine",
+          "sourceUrl": "https://visualstudiomagazine.com/articles/2026/11/04/vs-code-1-145-expands-remote-agent-workflows-adds-cron-automations.aspx",
+          "tags": ["技術トレンド"]
+        },
+        {
+          "position": 3,
+          "title": "Chrome 157 リリース——213件のセキュリティ修正・HTML-in-canvas機能を追加",
+          "summary": "Googleは<strong>2026</strong>年<strong>11</strong>月<strong>3</strong>日、Chrome安定版<strong>157</strong>をデスクトップ向けにリリースした。セキュリティ修正は<strong>213</strong>件で、うち最も深刻なCriticalは<strong>7</strong>件にのぼる。開発者向けの新機能としてHTMLをcanvas要素上に描画できるHTML-in-canvasが導入された。Chrome <strong>153</strong>以降は更新サイクルが<strong>2</strong>週間に短縮されており、次版Chrome <strong>158</strong>は<strong>11</strong>月<strong>17</strong>日のリリースが予定されている。",
+          "sourceName": "窓の杜（Impress）",
+          "sourceUrl": "https://forest.watch.impress.co.jp/docs/news/2153357.html",
+          "tags": ["技術トレンド"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 4,
+          "title": "生成AIが賢くなるほど、人間は考えなくなる——認知オフローディング研究が示す企業研修の盲点",
+          "summary": "<strong>319</strong>名・<strong>936</strong>件の業務事例を対象とした調査では、AI利用頻度が高いほど思考の外部委託（認知オフローディング）が増加し（相関係数<strong>+0.72</strong>）、それが批判的思考力を低下させる（相関係数<strong>−0.75</strong>）という結果が示された。Lee et al.（<strong>2025</strong>）など複数の研究でも、AIへの信頼が高まるほど人が自ら考えることを止め批判的思考力が低下する可能性が指摘されている。個人の自信だけではこの現象に対抗しにくいとも指摘されており、AIとの向き合い方を設計する組織や研修のあり方が問われている。",
+          "sourceName": "PR TIMES",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000005.000181785.html",
+          "tags": ["思考力", "認知科学"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "ボイジャー1号、11月18日に地球から1光日に到達予定——1977年打ち上げ以来の快挙",
+          "summary": "NASAの発表によると、<strong>2026</strong>年<strong>11</strong>月<strong>18</strong>日にボイジャー1号が地球から<strong>1</strong>光日（約<strong>259</strong>億km）の距離に到達する見込みだ。<strong>1</strong>光日は光が<strong>1</strong>日かけて進む距離で、<strong>1977</strong>年の打ち上げ以来初めてこの節目に達する人工物となる。到達後は地球からの指令が届くまで約<strong>1</strong>日かかり、その応答が戻るまでさらに<strong>1</strong>日を要する。ボイジャー<strong>2</strong>号が同じ距離に到達するのは<strong>2035</strong>年頃と見込まれている。",
+          "sourceName": "CNN Japan",
+          "sourceUrl": "https://www.cnn.co.jp/fringe/35241463.html",
+          "tags": ["科学", "宇宙"]
+        }
+      ]
+    }
+  ]
+}
