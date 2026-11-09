@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-10",
+  "label": "2026年11月10日 (火)",
+  "intro": "AnthropicのMessages APIにmessage threadsがpublic beta追加（リクエストサイズ<strong>800</strong>KB→<strong>1.8</strong>KB・time to first token<strong>35</strong>%削減）、CognitionがSWE-2 Flash（<strong>200</strong>tok/s、SWE-2比<strong>3</strong>倍速・<strong>5</strong>分の<strong>1</strong>コスト）を発表、VercelがSchedulesをパブリックベータで公開（再デプロイ不要でcronスケジュール管理）、GitHub Copilot usage metrics APIにテレメトリ欠落とバージョン不足の可視化機能を追加、AIスタートアップLazyAIがJAFCOより<strong>1</strong>億円を調達してエンジニア採用加速、DHBR<strong>2026</strong>年<strong>12</strong>月号「リーダーの直観力」本日発売（一橋大学教授「AI時代にこそ直観力が重要」）、太平洋ゴミベルト付近の海水色が<strong>20</strong>年分の衛星データで変化、頭部鎧の無顎古代魚は泳ぎの伸びしろを残したまま絶滅していたことが<strong>3D</strong>流体解析で判明。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Claude Messages APIがmessage threadsをpublic betaに——エージェントのリクエストサイズが800KBから1.8KBへ",
+          "summary": "Anthropicは<strong>2026</strong>年<strong>11</strong>月<strong>2</strong>日、会話履歴をサーバー側でキャッシュする「message threads」をMessages APIのパブリックベータとして公開した。従来は会話全体を毎回送信していたが、スレッドIDと新しいメッセージだけを送ることで対話を継続できる仕組みで、リクエストサイズが最大<strong>800</strong>KBから<strong>1.8</strong>KBへと劇的に削減される。<strong>500K</strong>〜<strong>1M</strong>トークン規模のリクエストでtime to first tokenを約<strong>35</strong>%削減できるとAnthropicは発表した。スレッドは最後のリクエストから<strong>5</strong>分で期限切れとなり、Claude APIのほかAWS・Microsoft Foundry・Google Cloudのマネージドモデルでも利用可能だ。",
+          "sourceName": "AI Chat Daily",
+          "sourceUrl": "https://www.aichatdaily.com/ai-tools/anthropic-launches-message-threads-cut-claude-api-agent",
+          "tags": ["技術トレンド"]
+        },
+        {
+          "position": 2,
+          "title": "Cognition、コーディングエージェント向け「SWE-2 Flash」を発表——SWE-2の3倍速・5分の1コスト",
+          "summary": "Cognitionは<strong>2026</strong>年<strong>11</strong>月<strong>4</strong>日、コーディングエージェント向けモデル「SWE-2 Flash」を発表した。総パラメータ<strong>276</strong>B・アクティブ<strong>12</strong>BのMoEアーキテクチャで、生成速度は<strong>200</strong>トークン/秒。上位モデルSWE-2と比べて速度<strong>3</strong>倍・コスト<strong>5</strong>分の<strong>1</strong>を実現し、コードレビューや機能開発など日常的な作業向けの高速・低コスト版として位置付けられている。Thinking Machines Labの「Inkling-Small」をベースに独自の中間学習を追加した設計で、Devin DesktopとCLI経由でPro・Max・Teamsユーザーへ<strong>11</strong>月末まで無料提供される。",
+          "sourceName": "CodeZine",
+          "sourceUrl": "https://codezine.jp/news/detail/30287",
+          "tags": ["技術トレンド"]
+        },
+        {
+          "position": 3,
+          "title": "Vercel Schedulesがpublic betaに——再デプロイ不要でcronスケジュールを実行時に操作可能",
+          "summary": "VercelはVercel Schedulesをパブリックベータとして公開した。従来のCron Jobsを置き換える機能で、cron間隔または単一日時で指定したタスクを、再デプロイなしに有効化・無効化・変更できる。SDK（@vercel/schedules）・CLI・APIを通じて実行時にスケジュールの作成・更新・停止が可能で、実行先はVercel FunctionかVercel Queueのトピックだ。最短間隔は<strong>15</strong>分で、ジッターはProおよびEnterpriseプランで最小<strong>1</strong>分、Hobbyプランでは<strong>15</strong>分固定となる。静的スケジュールはvercel.jsonで定義し、動的スケジュールは実行時に生成できる。",
+          "sourceName": "Vercel",
+          "sourceUrl": "https://vercel.com/changelog/vercel-schedules-is-now-in-public-beta",
+          "tags": ["技術トレンド"]
+        },
+        {
+          "position": 4,
+          "title": "GitHub Copilot usage metrics APIにテレメトリ欠落とバージョン不足の可視化機能を追加",
+          "summary": "GitHubは<strong>2026</strong>年<strong>11</strong>月<strong>5</strong>日、Copilot usage metrics APIに<strong>2</strong>つの新フィールドを追加した。<code>client_telemetry_present</code>フィールドはその日にユーザーのクライアントからCopilotの利用イベントが届いたかを示し、falseの場合は詳細な行数・機能別・モデル別データが集計に含まれない。<code>usage_metrics_requirements</code>フィールドでは各IDEとCopilot拡張機能が最小サポートバージョンを満たしているかをmet・unmet・unknownで表示する。テレメトリ欠落ユーザーもアクティブとして計上されるため、<strong>2</strong>指標は合算せず別々に管理する必要がある。",
+          "sourceName": "GitHub Changelog",
+          "sourceUrl": "https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps",
+          "tags": ["技術トレンド"]
+        },
+        {
+          "position": 5,
+          "title": "AIネイティブITSM「LazyAI for IT」のLazyAI、JAFCOより1億円調達——エンジニア採用加速",
+          "summary": "AIを中核に据えたITサービス管理（ITSM）プラットフォーム「LazyAI for IT」を開発するLazyAIは<strong>2026</strong>年<strong>11</strong>月<strong>9</strong>日、JAFCOから<strong>1</strong>億円の資金調達を実施したと発表した。中核技術の特許出願も同時に明らかにされた。調達資金はSOC <strong>2</strong>取得・プロダクト開発の強化のほか、エンジニアおよび事業開発人材の採用に充当する予定だ。",
+          "sourceName": "PR TIMES（LazyAI）",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000005.000177190.html",
+          "tags": ["採用", "スタートアップ"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "DHBR 2026年12月号「リーダーの直観力」本日発売——直観はAI時代にむしろ重要性が増す",
+          "summary": "DIAMOND ハーバード・ビジネス・レビュー<strong>2026</strong>年<strong>12</strong>月号（<strong>11</strong>月<strong>10</strong>日発売）は「リーダーの直観力——経験を武器に本質を捉える」を特集する。一橋大学大学院の鈴木真介教授は、直観とは経験の蓄積から引き出される能力であり、AIやビッグデータが普及する時代にこそ重要性が増すと論じている。柳井正（ファーストリテイリング）は「直観は決断のための道具にすぎない」と述べ、プロゲーマーの梅原大吾は「直観が機能する状況を見極める力」の重要性を語る。FCバルセロナの医療責任者など多様な立場からの重圧下での意思決定も収録されている。",
+          "sourceName": "DIAMOND ハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/15055",
+          "tags": ["思考力", "意思決定"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "太平洋ゴミベルト付近の海水色が変化——20年分の衛星データがマイクロプラスチックを示唆",
+          "summary": "Nature系列誌「Communications Earth & Environment」に掲載された研究では、北太平洋の太平洋ゴミベルト付近で過去<strong>20</strong>年分の衛星海色データを解析した結果、周辺海域より青色・緑色の両波長帯で海面の明るさが増加していることが判明した。研究チームは、ポリスチレンやポリプロピレンなどのマイクロプラスチックが海中の有機物より光を強く散乱させる特性をもとに放射伝達モデルで照合した。<strong>5</strong>万通り以上のスペクトルシミュレーションでは自然の生物地球化学的変動では説明しにくいことが示され、衛星海色からマイクロプラスチックの蓄積を評価する診断ツールとしての活用が期待される。",
+          "sourceName": "Scientific American",
+          "sourceUrl": "https://www.scientificamerican.com/article/the-great-pacific-garbage-patch-is-changing-the-color-of-the-ocean/",
+          "tags": ["環境", "科学"]
+        },
+        {
+          "position": 8,
+          "title": "顎のない古代魚は泳ぎの伸びしろを残したまま絶滅していた——化石を3Dで流体解析",
+          "summary": "ナゾロジーが<strong>2026</strong>年<strong>11</strong>月<strong>7</strong>日に報じた研究によると、約<strong>4</strong>億年前に栄えた頭部を鎧で覆った無顎の古代魚は、泳ぎの能力にまだ十分な伸びしろを残したまま姿を消していたことが明らかになった。研究チームは化石の頭部を<strong>3D</strong>モデル化しコンピュータで水の流れを計算して游泳性能を定量的に評価した。顎を持つ魚が進化的優位から無顎類を絶滅させたという従来説とは異なり、泳ぎの面では無顎類が劣っていなかったことが示唆されている。なぜ絶滅したのかという謎は依然として残り、今後の研究が注目される。",
+          "sourceName": "ナゾロジー",
+          "sourceUrl": "https://nazology.kusuguru.co.jp/archives/205644",
+          "tags": ["科学", "古生物"]
+        }
+      ]
+    }
+  ]
+}
