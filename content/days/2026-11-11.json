@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-11",
+  "label": "2026年11月11日 (水)",
+  "intro": "TypeScript 7.1 BetaがVue・Svelte向けコンテンツマッパーを搭載（vue-tsc比<strong>4.6</strong>倍速）、Node.js 26系「Lithium」がLTS入り（<strong>2029</strong>年<strong>4</strong>月まで）、GitHubが<strong>12</strong>月<strong>2</strong>日よりpull_request_targetを既定ブロック（テストブラウンアウトは<strong>11</strong>月<strong>9</strong>・<strong>16</strong>日）、レバテック<strong>553</strong>名調査で技術選考のAI利用可が<strong>70.4</strong>%、日本CTO協会の新卒エンジニア合同研修が2027年度定員<strong>100</strong>→<strong>150</strong>名に拡大、DHBRでArgyrisの組織意思決定論（<strong>265</strong>社観察）が再掲、理研・東大・阪大が量子力学からエントロピー増大則を証明（PRX Quantum掲載）、名古屋大・岐阜大がアルマ望遠鏡で大マゼラン雲のガンマ線連星から分子雲ジェットを初検出。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "ITエンジニア採用の技術選考、AI利用可が70.4%——約9割の企業がAI活用力を選考評価に加味",
+          "summary": "レバレジーズ（レバテック）は2026年11月5日、ITエンジニア採用を担当する企業<strong>553</strong>名への調査結果を公表した。技術課題でのAI使用を認めている企業は<strong>70.4</strong>%、活用度合いによって合否が変わる企業は<strong>28.6</strong>%だった。AI活用力を選考評価に加味している企業は約<strong>9</strong>割に上り、採用の現場でAI活用が標準的な前提として浸透しつつあることが示された。一方、AI利用のデメリット・懸念点として「評価の偏りやブラックボックス化」を挙げる声もあり、選考の全自動化にはなお課題が残るとされている。",
+          "sourceName": "PR TIMES（レバレジーズ）",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000001004.000010591.html",
+          "tags": ["採用"]
+        },
+        {
+          "position": 2,
+          "title": "日本CTO協会の新卒エンジニア合同研修、2027年度は定員150名に拡大——本日より申込受付開始",
+          "summary": "日本CTO協会は2026年11月10日、2024年度より開催している「新卒エンジニア合同研修」について、2027年度の定員を昨年度の<strong>100</strong>名から<strong>150</strong>名に拡大し、本日より参加申込を開始したと発表した。同研修は企業横断型の新卒エンジニア向けプログラムで3年目を迎える。各社が研修計画を立てる時期に合わせ、例年より大幅に早いタイミングでの募集開始となっている。採用数の少ないスタートアップや中小企業にとって新卒エンジニアの育成は特に負担の大きい課題であり、業界全体で学びと同期のつながりを提供したいという。",
+          "sourceName": "PR TIMES（日本CTO協会）",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000060.000081310.html",
+          "tags": ["採用", "27卒"]
+        },
+        {
+          "position": 3,
+          "title": "GitHub Actionsがパブリックリポジトリでのpull_request_targetを12月2日から既定ブロック",
+          "summary": "GitHubは2026年11月2日、パブリックリポジトリでのpull_request_targetイベントを<strong>2026</strong>年<strong>12</strong>月<strong>2</strong>日から既定でブロックすると発表した。対象はGitHub Free・Team・Enterprise Cloudのパブリックリポジトリで、プライベート・インターナルリポジトリとGitHub Enterprise Serverは除外される。施行前のテストとして<strong>11</strong>月<strong>9</strong>日と<strong>16</strong>日の各日16:00〜18:00 UTCにブラウンアウト（一時的な強制適用）が実施される。このトリガーはリポジトリのシークレットにアクセスできるため、フォークPRを使った攻撃（「pwn request」）の標的になってきており、継続して使用するワークフローにはActionsのイベントポリシーで明示的な許可が必要となる。",
+          "sourceName": "GitHub Changelog",
+          "sourceUrl": "https://github.blog/changelog/2026-11-02-pull_request_target-blocked-by-default-december-2/",
+          "tags": ["技術トレンド", "セキュリティ"]
+        },
+        {
+          "position": 4,
+          "title": "Node.js 26.13.0「Lithium」がLTSに移行——2029年4月まで長期サポート",
+          "summary": "OpenJS Foundationは2026年10月28日、Node.js 26.13.0をリリースし、Node.js 26系がLTS（長期サポート）コードネーム「Lithium」として正式に移行したと発表した。サポート期間は<strong>2029</strong>年<strong>4</strong>月末までで、Node.js 24は同日Maintenanceステータスへ移行した。今回のリリース自体には新コードは含まれず、process.releaseなどのメタデータ変更のみで構成されており、Node.js 26.12.1から安定運用されてきたコードがそのままLTS入りした形だ。",
+          "sourceName": "Node.js Blog",
+          "sourceUrl": "https://nodejs.org/en/blog/release/v26.13.0",
+          "tags": ["技術トレンド"]
+        },
+        {
+          "position": 5,
+          "title": "TypeScript 7.1 BetaがVue・Svelte向けコンテンツマッパーを追加——復活のコンパイラAPIと4.6倍速の型チェック",
+          "summary": "Microsoftは2026年10月20日、TypeScript 7.1 Betaを公開した。最大の新機能は「コンテンツマッパー」で、Vue・SvelteなどTypeScript以外のファイル形式に対してIDEの型補完・エラー検出を提供するプラグインポイントだ。TypeScript 7.0で削除されたコンパイラAPIも、typescript/sync・typescript/async・typescript/fs・typescript/astなどの用途別エントリポイントとして復活し、以降の7.x系との後方互換性も保証された。性能面では、Vue SFC<strong>581</strong>コンポーネント・TypeScriptファイル<strong>882</strong>件のDirectusプロジェクトでvue-tsc 3比で型チェックが約<strong>4.6</strong>倍速くなったと報告されている。",
+          "sourceName": "Microsoft TypeScript Blog",
+          "sourceUrl": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-1-beta/",
+          "tags": ["技術トレンド"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "意思決定を阻む人間関係という障害——265社の会議観察が明かす言行不一致の構造",
+          "summary": "DIAMOND ハーバード・ビジネス・レビュー<strong>2026</strong>年<strong>11</strong>月号に、クリス・アージリスが<strong>1966</strong>年にHBRに発表した論考「意思決定を阻む人間関係という障害——経営幹部の言行不一致はなぜ起きるのか」が再掲された。同論考は約<strong>265</strong>社の意思決定会議の観察を通じて、なぜ経営幹部の言行不一致が起き、どのように組織の意思決定を歪めるかを分析したもの。意思決定における障害が「人間関係」にあるという視点は、HBR Classicsとして<strong>60</strong>年後も再掲されるほど普遍的な問いを含んでいる。",
+          "sourceName": "DIAMOND ハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14897",
+          "tags": ["思考力", "意思決定"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "量子力学からエントロピー増大則の成立を証明——理研・東大・阪大の共同研究",
+          "summary": "理化学研究所・東京大学・大阪大学の共同研究グループは<strong>2026</strong>年<strong>11</strong>月<strong>4</strong>日、量子力学から熱力学第二法則の基本形であるエントロピー増大則が成立することを証明したと発表した。研究グループはマクロに意味のある物理量を提案し、それを用いて熱平衡状態・熱力学的操作・エントロピーを量子力学的に定式化したうえで、まずプランクの原理を証明し、エントロピー増大則の成立を導いた。論文は米国物理学会の科学誌『PRX Quantum』に掲載され、同学会の報道機関向け広報対象論文に選出された。「時間はなぜ逆戻りしないのか」という「時間の矢」の起源を量子力学から説明できるか、という長年の問いに大きな一歩をもたらしたとされている。",
+          "sourceName": "理化学研究所 プレスリリース",
+          "sourceUrl": "https://www.riken.jp/press/2026/20261104_1/index.html",
+          "tags": ["科学", "物理学"]
+        },
+        {
+          "position": 8,
+          "title": "大マゼラン雲のガンマ線連星LMC P3から分子雲ジェットを初検出——アルマ望遠鏡で",
+          "summary": "名古屋大学・岐阜大学の研究チームは<strong>2026</strong>年<strong>10</strong>月<strong>30</strong>日、アルマ望遠鏡を使って大マゼラン雲に位置するガンマ線連星「LMC P3」から分子ガスの流れ（分子雲ジェット）を初めて検出したと発表した。大マゼラン雲で高エネルギー天体現象に伴う分子ガスのジェットが捉えられたのは今回が初めてとされる。観測された分子雲ジェットは天体から放出された光速に近い高速ジェットによってつくられた可能性があり、ブラックホールや中性子星の周囲の降着円盤がどれほどのエネルギーを生み出しているかのメカニズム解明への重要な成果として注目される。",
+          "sourceName": "共同通信PR WIRE（名古屋大学・岐阜大学）",
+          "sourceUrl": "https://kyodonewsprwire.jp/release/202610238599",
+          "tags": ["宇宙", "天文"]
+        }
+      ]
+    }
+  ]
+}
