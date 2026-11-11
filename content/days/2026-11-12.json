@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-12",
+  "label": "2026年11月12日 (木)",
+  "intro": "Anthropicが「Fable 5.2」を公開（速度約<strong>30</strong>%向上・価格<strong>20</strong>%引き下げ）、GoogleがGemini 4 Carbonを一般提供（入力<strong>2</strong>ドル/M tokens・複雑なコーディング向け最高位モデル）、MicrosoftはC# <strong>15</strong> union types搭載の.NET <strong>11</strong>をリリース（dotnet new mcpserverコマンド追加）、JetBrainsはIntelliJ IDEA 2026.3でエージェント開発レイヤー「Air」を搭載（<strong>1,000</strong>件超のバグ修正）、Rustが史上初の<strong>3</strong>桁版「1.100.0」をリリース（Cargoにサプライチェーン対策の依存クールダウン機能）、IBM調査でAI利用により批判的思考力が低下していると懸念する従業員が<strong>60</strong>%、美ノ海が大相撲九州場所で沖縄出身初の小結昇進（<strong>33</strong>歳<strong>5</strong>か月・戦後<strong>4</strong>番目の年長新三役）。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Anthropic、Fable 5.2 / Mythos 5.2 を公開——速度約30%向上・FrontierCode 2.0 で最高スコア",
+          "summary": "Anthropicは2026年11月9日、AIモデルの新版「Fable 5.2」と「Mythos 5.2」を公開した（Mythos 5.2はAPI・Cloud向けのエンタープライズ名）。出力速度は従来比約<strong>30</strong>%速くなり、APIの料金はFable 5.1から<strong>20</strong>%引き下げられ入力<strong>8</strong>ドル・出力<strong>40</strong>ドル（百万トークン当たり）となった。コーディングベンチマーク「FrontierCode 2.0」では<strong>49.1</strong>%のスコアを記録して最高性能を発揮した一方、コンテンツのブロック率が前世代から約<strong>55</strong>%減少しており、AI安全性の観点から業界内で議論も呼んでいる。",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+          "tags": ["技術トレンド"]
+        },
+        {
+          "position": 2,
+          "title": "Google Gemini 4 Carbon が一般提供——複雑なコーディング向け最高位モデル、入力2ドル/M tokens",
+          "summary": "Googleは2026年11月10日、最高位AIモデル「Gemini 4 Carbon」の一般提供（GA）を開始した。複数ステップにわたる複雑なコーディング・デバッグや長時間の推論が必要なタスクに最適化されており、Gemini 4 Argonよりも多くのトークンを使って深く検証する設計だ。APIの料金は入力<strong>2</strong>ドル・出力<strong>10</strong>ドル（百万トークン当たり、有料ティア限定）で、同日公開のAnthropicのFable 5.2に比べて入力料金で<strong>4</strong>分の<strong>1</strong>程度と競争力のある価格設定となっている。",
+          "sourceName": "Google Blog",
+          "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+          "tags": ["技術トレンド"]
+        },
+        {
+          "position": 3,
+          "title": "Microsoft .NET 11 正式リリース——C# 15 union types・MCP対応・Runtime Async 安定化",
+          "summary": "Microsoftは2026年11月10日、.NET 11を正式リリースした。C# <strong>15</strong>ではunion typesが導入され、コンパイラによる型の網羅チェックがより強力になった。MCPサーバープロジェクトをスキャフォールドする「dotnet new mcpserver」コマンドを含むMCP対応が標準搭載され、AI連携ツール開発が容易になる。.NET <strong>11</strong>はSTSで<strong>2</strong>年間サポートされ、.NET <strong>8</strong>・<strong>9</strong>はこの日にEOLを迎えた。同時にRuntime Asyncの安定化やMEAI統合といった非同期パフォーマンスの改善も含まれている。",
+          "sourceName": "Microsoft DevBlog",
+          "sourceUrl": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-11/",
+          "tags": ["技術トレンド"]
+        },
+        {
+          "position": 4,
+          "title": "JetBrains IntelliJ IDEA 2026.3 リリース——エージェント開発レイヤー「Air」とJava 28対応を搭載",
+          "summary": "JetBrainsは2026年11月5日、IntelliJ IDEA 2026.3をリリースした。最大の新機能は「Air」という新エージェント開発レイヤーで、Claude Agent・Codex・Gemini・GitHub Copilot・Junieなど主要AIエージェントをIDE内で直接操作できるようになった（JetBrains AI サブスクリプション不要で、既存プロバイダーのAPIキーも利用可能）。Java <strong>28</strong>とHibernate <strong>8</strong>への対応も追加され、<strong>1,000</strong>件超のバグ修正と<strong>300</strong>件超のパフォーマンス修正が含まれる。Cursor・VS Code向けのJava/Kotlin拡張機能の提供も開始された。",
+          "sourceName": "JetBrains Blog",
+          "sourceUrl": "https://blog.jetbrains.com/idea/2026/11/whats-new-in-intellij-idea-2026-3/",
+          "tags": ["技術トレンド"]
+        },
+        {
+          "position": 5,
+          "title": "Rust 1.100.0 リリース——史上初の3桁版、Cargoにサプライチェーン対策の依存クールダウン機能",
+          "summary": "Rust公式チームは2026年11月12日、Rust 1.100.0をリリースした。史上初の<strong>3</strong>桁バージョン番号となる記念リリースで、Cargoに「依存関係クールダウン」機能が追加された。これはクレートの公開後から指定した時間が経過していないものを依存パッケージとして採用できないようにするもの（デフォルトは制限なし）で、直近に公開された悪意あるパッケージによるサプライチェーン攻撃リスクを軽減できる。なお「1.100」はテキスト文字列として比較すると「1.99」より小さいと誤判定されるため、バージョン比較スクリプトの確認が推奨されている。",
+          "sourceName": "Rust リリースノート (releases.rs)",
+          "sourceUrl": "https://releases.rs/docs/1.100.0/",
+          "tags": ["技術トレンド"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "AI依存で「批判的思考力が失われる」リスク——IBM調査で従業員の6割がスキル低下を懸念",
+          "summary": "ForbesJapanは2026年10月28日、IBMが2026年9月に実施した調査結果をもとに、AI依存が批判的思考力に与えるリスクを論じた記事を公開した。調査では従業員の<strong>60</strong>%が「AI活用によって自身のスキルが低下している」と懸念しており、最も多く挙がったのが批判的思考力（クリティカルシンキング）の低下だった。一方、最高人事責任者の<strong>57</strong>%は批判的思考力を従業員に必要な最重要スキルの一つとして評価しており、AIが普及するほど「自分の頭で考える力」が逆に高く評価されるという状況が浮き彫りになっている。",
+          "sourceName": "Forbes Japan",
+          "sourceUrl": "https://forbesjapan.com/articles/detail/106560",
+          "tags": ["思考力", "AI活用"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "美ノ海が小結昇進——沖縄出身初の三役、33歳5か月で戦後4番目の年長新三役",
+          "summary": "大相撲の審判部は2026年10月26日の番付編成会議で、美ノ海（本名：石原巧）の小結昇進を決定した。沖縄県うるま市出身の美ノ海は沖縄出身力士として初めての三役昇進を果たし、九州場所（2026年11月<strong>8</strong>日初日）で地元からの熱い視線を受けて戦っている。秋場所での<strong>10</strong>勝<strong>5</strong>敗・<strong>2</strong>度目の敢闘賞が評価された結果で、<strong>33</strong>歳<strong>5</strong>か月での新三役入りは戦後<strong>4</strong>番目の年長記録、初土俵から<strong>63</strong>場所での三役入りは学生出身力士として史上最遅とされる。",
+          "sourceName": "琉球新報",
+          "sourceUrl": "https://ryukyushimpo.jp/sports/entry-5576307.html",
+          "tags": ["スポーツ", "相撲"]
+        }
+      ]
+    }
+  ]
+}
