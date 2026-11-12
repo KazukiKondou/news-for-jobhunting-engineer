@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-13",
+  "label": "2026年11月13日 (金)",
+  "intro": "AWSがAIエージェント向け軽量VM「Nitro Sandboxes」を発表（全商用リージョン追加料金なし・EKS Auto ModeはPod spec<strong>1</strong>行追記で有効）、GitHub Octoverse 2026でTypeScriptが2年連続首位・AIエージェント起点のPRが初めて<strong>40</strong>%超・コードプッシュ数<strong>179</strong>億回、クラウドインフラQ3調査でAWSシェア<strong>26</strong>%・Google Cloud <strong>16</strong>%・市場前年比<strong>55</strong>%増（過去最大規模）、RedisがAIエージェント向け「Iris」に<strong>6</strong>機能追加（うち<strong>2</strong>機能ベータ）、GoogleがAgent SubstrateとgVisorをCNCFサンドボックスに寄贈（KubeCon NA・ソルトレイクシティ）、PwC米国が<strong>8</strong>万<strong>5000</strong>人超に批判的思考認定プログラムを12月開始、AnthropicエンジニアAddy OsmaniがエージェントへのAI「認知的降伏」を警告、侍ジャパンが東京ドームで「アジアプロ野球チャンピオンシップ<strong>2026</strong>」に井口資仁新監督体制で初陣（<strong>11</strong>月12〜15日・<strong>28</strong>選手招集）。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "AWS Nitro Sandboxes 公開——全商用リージョンでAIエージェントをハードウェア隔離・追加料金なし",
+          "summary": "AWSは2026年11月9日、EKSポッド・ECSタスク・EC2ワークロードそれぞれをハードウェア分離された軽量VMで動かす「Nitro Sandboxes」を発表した。コンテナブレイクアウトを防ぐ通常の隔離モードと、暗号検証（アテステーション）を加えた機密モードの<strong>2</strong>種類を選べる。AIエージェントが自ら生成・実行するコードを各セッション独立のVMに閉じ込めるユースケースが公式に挙げられており、EKS Auto ModeではPod specの<strong>1</strong>行追記で有効になる。ほとんどのNitroベースEC2インスタンスで追加料金なしで利用可能で、全商用リージョンに展開済みだ。",
+          "sourceName": "AWS Compute Blog",
+          "sourceUrl": "https://aws.amazon.com/blogs/compute/nitro-sandboxes-hardware-isolation-for-every-eks-pod-ecs-task-and-ec2-workload/",
+          "tags": ["技術トレンド", "AIエージェント"]
+        },
+        {
+          "position": 2,
+          "title": "GitHub Octoverse 2026——TypeScript 2年連続首位・Rustが最速成長、AIエージェント起点のPRが初めて4割超",
+          "summary": "GitHubは2026年10月28日に年次調査「Octoverse 2026」を公開し、コントリビューター数ランキングでTypeScriptが2年連続<strong>1</strong>位となった。最も成長率が高かった言語はRustで、過去1年で倍増した。同期間のコードプッシュ数は計<strong>179</strong>億回に達し、マージされたPRの<strong>40</strong>%超がAIエージェント起点で作成されたという初めての報告も注目された。TypeScript・Python・RustではAI関与を検出されたPRが約40〜44%を占めており、AIフィードバックループがこれらの言語採用を加速させているとの分析が添えられている。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/github2typescriptrustosscc_switchomarchygithub_octoverse_2026.html",
+          "tags": ["技術トレンド"]
+        },
+        {
+          "position": 3,
+          "title": "クラウドインフラQ3 2026——市場が前年比55%増・過去最大成長、AWSシェア26%・Google Cloud 16%",
+          "summary": "Synergy Research Groupが発表した2026年第3四半期のクラウドインフラ市場調査によると、企業支出は前年比<strong>55</strong>%増の約<strong>1,677</strong>億ドルに達し、12四半期連続の成長かつ過去最大の伸び率を記録した。シェアはAWSが<strong>26</strong>%でトップを維持、MicrosoftのAzureが<strong>19</strong>%、Google Cloudが<strong>16</strong>%と続いた。AI特化型クラウドサービスが市場の約<strong>3</strong>分の<strong>1</strong>を占め、ネオクラウドの台頭によって既存大手各社のシェアが圧迫されている。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/aws26google_cloud1620263synergy_research.html",
+          "tags": ["技術トレンド"]
+        },
+        {
+          "position": 4,
+          "title": "Redis Iris が6機能に拡張——本番AIエージェント向けにメモリ・ルーティング・観測可能性を追加",
+          "summary": "Redisは2026年11月4日、AIエージェント向けリアルタイムコンテキストエンジン「Redis Iris」に6つの機能セット（Intent Router・Agent Playbooks・Agent Memory・Context Gateway・Lens・Agent Mesh）を追加すると発表した。<strong>4</strong>機能が一般提供（GA）、LensとAgent Meshの<strong>2</strong>機能がベータで、各機能は単独または組み合わせて利用できる。Agent Meshはエージェント間の通信を一時ストリームで実現し、切断時に自動でバッファリング・再接続する。Redis CloudとKubernetes上でのどちらにも対応している。",
+          "sourceName": "Redis プレスリリース",
+          "sourceUrl": "https://redis.io/press/redis-expands-redis-iris-to-give-ai-agents-the-memory-context-and-messaging-they-need-to-get-to-production/",
+          "tags": ["技術トレンド", "AIエージェント"]
+        },
+        {
+          "position": 5,
+          "title": "Google、AIエージェント隔離基盤「Agent Substrate」「gVisor」をCNCFに寄贈——KubeCon NAで発表",
+          "summary": "Googleは2026年11月5日、KubeCon North America（ソルトレイクシティ）で、KubernetesでAIエージェントを隔離・実行する「Agent Substrate」と「gVisor」をCloud Native Computing Foundation（CNCF）のサンドボックスプロジェクトとして寄贈すると発表した。gVisorはGoogleが2018年に公開したコンテナのシステムコールをユーザー空間で処理するサンドボックスで、CNCF傘下へ移すことで性能改善パッチをLinuxカーネル本流に取り込みやすくすることを狙う。Agent SubstrateはgVisorやmicroVMをアイソレーション層として利用し、ベンダー中立で任意のKubernetesクラスタに展開できる。同時にOpenRLも寄贈された。",
+          "sourceName": "Google Open Source Blog",
+          "sourceUrl": "https://opensource.googleblog.com/2026/11/sandboxing-untrusted-ai-agents-at-scale.html",
+          "tags": ["技術トレンド"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "PwC米国、8万5000人超に批判的思考の認定プログラム——AI出力を自ら検証する実践訓練を12月開始",
+          "summary": "PwC米国法人は、パートナーとスタッフ計<strong>8</strong>万<strong>5,000</strong>人以上を対象に批判的思考力の認定プログラムを始める。AIツールが専門サービス企業の日常業務を変えつつある中で、「情報を評価し、前提を疑い、判断を下す実践的で再現可能な方法」を身につけることが目的だ。研修にはAI作成の企業内部統制評価を保証業務の観点から見直し、AIの結論に異議を唱える個別化されたシミュレーションが含まれる。2026年12月に米国とメキシコの事務所・アクセラレーションセンターで開始し、2027年6月までに修了する予定。",
+          "sourceName": "Business Insider Japan",
+          "sourceUrl": "https://www.businessinsider.jp/article/2611-pwc-ai-critical-thinking-certification/",
+          "tags": ["思考力", "AI活用"]
+        },
+        {
+          "position": 7,
+          "title": "「認知的降伏」に陥るな——AnthropicエンジニアがAIへの思考丸投げを警告",
+          "summary": "AnthropicのClaude Codeチームに属するエンジニア、Addy OsmaniはブログでAIへの「認知的降伏（cognitive surrender）」を警戒するよう呼びかけた。日々の業務がエージェント経由になると批判的思考を促す場面が自然には生まれなくなるとし、「AIの出力を確認も理解もせずに受け入れてしまう習慣」が思考力の退化につながると指摘する。対策として「AIに聞く前に自分で考えてみる」「生成内容を注意深く読んでAIの判断を把握する」など<strong>4</strong>つの実践を挙げた。UPenn/Whartonの研究でも、AIが使える状態に置かれただけで人が自ら考えることを放棄する傾向が確認されている。",
+          "sourceName": "Addy Osmani（Anthropicエンジニア）ブログ",
+          "sourceUrl": "https://addyosmani.com/blog/cognitive-surrender/",
+          "tags": ["思考力", "AI活用"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 8,
+          "title": "侍ジャパン、東京ドームで「アジアプロ野球CS 2026」初陣——井口資仁新監督体制で11月12〜15日",
+          "summary": "2026年11月12日、東京ドームで「ラグザス アジアプロ野球チャンピオンシップ2026」が開幕した。井口資仁新監督（<strong>51</strong>歳）率いる侍ジャパンにとって新体制初の国際大会で、<strong>28</strong>選手が招集され、オーバーエイジ枠は正木智也（ソフトバンク）・山口航輝（ロッテ）・辰見鴻之介（広島）の<strong>3</strong>選手だ。大会スケジュールは12日（チャイニーズ・タイペイ戦）・13日（韓国戦）・14日（オーストラリア戦）の予選ラウンドを経て、15日に決勝と3位決定戦が行われる。直前の練習試合では広島に5対1で快勝し、LA五輪に向けた新世代の代表構築が始まった。",
+          "sourceName": "週刊ベースボールONLINE",
+          "sourceUrl": "https://www.hb-nippon.com/articles/19019",
+          "tags": ["スポーツ", "野球"]
+        }
+      ]
+    }
+  ]
+}
