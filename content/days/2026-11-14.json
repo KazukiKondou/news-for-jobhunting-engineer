@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-14",
+  "label": "2026年11月14日 (土)",
+  "intro": "JetBrains 2026.3リリースで全IDEに「Air」搭載（AIエージェントをGit worktreeで並列実行・無料開始）、AWS EmulatorがAWSアカウント不要・<strong>200</strong>以上サービス対応でGA（コード全行は自律型AIエージェントが生成）、.NET 11が2026年11月10日正式リリース（C# 15 union型・Runtime Asyncプレビュー・LINQ FullJoin追加）、レバテック<strong>553</strong>社調査で28卒ITエンジニア採用「維持・拡大」が<strong>9</strong>割超（提示年収引き上げが<strong>53.3</strong>%）、DHbR12月号「リーダーの直観力 経験を武器に本質を捉える」が発売（柳井正・梅原大吾インタビュー収録）、東京でアジア最高峰ピックルボールリーグ「MLP Asia 2026」が日本初開催（THE DOTS TOKYOが初戦<strong>4</strong>対<strong>0</strong>勝利）。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "JetBrains 2026.3 全IDEリリース——AIエージェントをGit worktreeで並列実行可能に",
+          "summary": "JetBrainsは2026年11月5日にIntelliJ IDEA 2026.3を含む全IDEを正式リリースし、AIコーディングエージェント実行環境「Air」を標準搭載した。Claude Agent・Codex・Gemini・GitHub Copilot・JunieなどACP対応エージェントを、それぞれ独立したGit worktreeで並列実行でき、各エージェントからデバッガー・プロファイラー・データベースツールなどのIDE機能を利用できる。JetBrains AccountとJunie Lite設定のみで無料利用が可能で、スタンドアロンのAirアプリは廃止された。以前インストールしていたAgents・MCP設定・chat履歴は自動移行される。",
+          "sourceName": "JetBrains AI Blog",
+          "sourceUrl": "https://blog.jetbrains.com/ai/2026/11/air-in-jetbrains-ides-ga/",
+          "tags": ["技術トレンド", "AIエージェント"]
+        },
+        {
+          "position": 2,
+          "title": "AWS、ローカル実行のAWSエミュレータを無料公開——コードは自律型AIエージェントが生成",
+          "summary": "AWSは2026年11月11日、ローカルマシン上でAWS APIをエミュレートする「AWS Emulator」を正式公開した。インストールするだけで<strong>200</strong>以上のサービスに対応し、AWSアカウントなし・追加料金なしで利用できる。LinuxとmacOS・Windowsに対応し、macOSとWindowsではDockerを使って動かす仕組みで、ソースコードはGitHubで公開されている。AIコーディングエージェントがデプロイを待たずにローカルでAWS環境を試せる用途が期待されており、コード全行は自律型AIエージェントによって書かれたとAWSが説明している。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/awsawsaws_1.html",
+          "tags": ["技術トレンド", "AIエージェント"]
+        },
+        {
+          "position": 3,
+          "title": ".NET 11 正式リリース——C# 15 union型・Runtime Asyncプレビュー・LINQ FullJoin追加",
+          "summary": "Microsoftは2026年11月10日にC# 15を同梱した.NET 11を正式リリースした。C# 15の目玉はunion型で、値が決まった型の集合のいずれかになる仕組みをコンパイラが網羅検査する。async/awaitの変換をコンパイラからJIT・ランタイム側へ移す「Runtime Async」（プレビュー）、LINQへのFullJoin追加、Zstandard圧縮の組み込みも加わった。Standard-Term Supportリリースとして<strong>2028</strong>年<strong>11</strong>月まで<strong>24</strong>か月のサポートを受けられる。",
+          "sourceName": ".NET Blog",
+          "sourceUrl": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-11/",
+          "tags": ["技術トレンド"]
+        },
+        {
+          "position": 4,
+          "title": "レバテック調査——28卒ITエンジニア採用、9割超が「維持・拡大」へ",
+          "summary": "レバテック（レバレジーズ）は2026年11月11日、採用担当者<strong>553</strong>名を対象に生成AI時代の新卒採用実態調査を発表した。28卒でのITエンジニア採用数を「増やす」と回答した企業は<strong>44.1</strong>%で、現状維持を含めると<strong>9</strong>割超が前年以上の採用数を想定している。採用数を増やす企業のうち<strong>53.3</strong>%が提示年収の引き上げを実施し、シニア採用や採用チャネルの増強を組み合わせる企業も多い。AI時代に入っても新卒エンジニア採用が縮小に向かうとは言えない実態が示された。",
+          "sourceName": "PR TIMES（レバレジーズ）",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000001005.000010591.html",
+          "tags": ["採用", "28卒"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "DHbR12月号「リーダーの直観力」——経験から本質を捉える5つの方法",
+          "summary": "ダイヤモンド ハーバード・ビジネス・レビュー2026年12月号（2026年11月10日発売）が「リーダーの直観力 経験を武器に本質を捉える」を特集している。直観を「経験というデータベースから導き出される能力」として捉え、AIが答えを即座に出せる時代にこそ人間が経験を積んで判断力を育てる必要があるという問いかけが軸になる。同特集には柳井正氏のインタビュー「直観は決めるための道具にすぎない」、梅原大吾氏（プロゲーマー）のインタビュー、一流スポーツコーチが重圧下でどのように決断するかを論じた記事も含まれる。リーダーが直観を磨く実践的な方法として<strong>5</strong>つのアプローチを解説する記事も収録されている。",
+          "sourceName": "DIAMOND ハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/12512",
+          "tags": ["思考力", "ビジネス書"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "ピックルボール「MLP Asia 2026」東京開幕——TBS・電通グループがTHE DOTS TOKYOを設立",
+          "summary": "TBSと電通グループは共同でプロピックルボールチーム「THE DOTS TOKYO」を設立し、2026年11月13日から東京・Sansanピックルボールコート池袋でアジア最高峰プロリーグ「MLP Asia 2026」の日本ラウンドが開幕した。日本・中国・香港・マレーシア・フィリピン・ベトナムの<strong>6</strong>チームが参加し、開幕戦でTHE DOTS TOKYOはフィリピン「Manila Helios」に<strong>4</strong>対<strong>0</strong>で勝利した。その後のマレーシア戦にも連勝し、日本初上陸となるアジア最高峰のプロリーグで好スタートを切った。大会は2026年12月12日まで続き、TBSと電通グループが日本ラウンドの主管も担う。",
+          "sourceName": "電通グループ プレスリリース",
+          "sourceUrl": "https://www.group.dentsu.com/jp/news/release/001757.html",
+          "tags": ["スポーツ"]
+        }
+      ]
+    }
+  ]
+}
