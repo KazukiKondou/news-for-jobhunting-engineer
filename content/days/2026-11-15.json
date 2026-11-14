@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-15",
+  "label": "2026年11月15日 (日)",
+  "intro": "GitHub CopilotがGemini 4 Carbonを<strong>4</strong>プラン向けに一般提供、Node.jsが<strong>16</strong>件CVE修正（22/24/26系）、CocoaPods Trunkが12月<strong>2</strong>日に読み取り専用化（Flutter移行迫る）、サポーターズ調査でAI普及受け採用要件変更が<strong>64.2</strong>%、リブセンス調査でエンジニアの<strong>98.4</strong>%が技術発信を採用前に確認、MITスローン流組織論『ダイナミックワークデザイン』を東洋経済新報社が翻訳刊行（11月11日）、侍ジャパンが本日APBC2026決勝で韓国と対戦（<strong>3</strong>連覇に挑む）。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "GitHub Copilot、Gemini 4 Carbonを一般提供——Pro+・Max・Business・Enterprise向け",
+          "summary": "GitHubは2026年11月10日、GoogleのGemini 4 CarbonをGitHub Copilotで一般提供した。対応プランはCopilot Pro+・Max・Business・Enterpriseの<strong>4</strong>つで、VS Code・GitHub Copilot CLI・コーディングエージェント・github.comなどのモデルピッカーから選択できる。複雑なコーディング・エージェントタスク・推論・セキュリティコード生成を重視した用途向けに位置づけられており、利用料はGoogleのリスト価格での従量課金となる。管理者はCopilot設定のモデルポリシーでアクセス制御できる。",
+          "sourceName": "GitHub Changelog",
+          "sourceUrl": "https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot",
+          "tags": ["技術トレンド", "AIツール"]
+        },
+        {
+          "position": 2,
+          "title": "Node.js、HTTP/2とTLSの脆弱性含む16件を修正——22・24・26系がセキュリティリリース",
+          "summary": "Node.jsプロジェクトは2026年11月11日、バージョン22.23.5・24.22.3・26.13.1をリリースし、<strong>16</strong>件のCVEを修正した。内訳はHigh <strong>7</strong>件・Medium <strong>6</strong>件・Low <strong>3</strong>件で、HTTP/2とTLS/HTTPSのサーバー機能に関わる脆弱性が多い。ロードバランサーやnginxの背後でNode.jsを動かす構成にはHTTP/2の問題が届かないケースもある。自分のアプリがHTTP/2やHTTPSを直接処理しているかを確認し、該当するバージョンへの更新を検討したい。",
+          "sourceName": "Node.js Blog",
+          "sourceUrl": "https://nodejs.org/en/blog/vulnerability/november-2026-security-releases",
+          "tags": ["技術トレンド", "セキュリティ"]
+        },
+        {
+          "position": 3,
+          "title": "28卒エンジニア採用、AI普及で採用要件変更が64.2%——約9割が10月までに本選考開始",
+          "summary": "サポーターズは2026年11月11日、28卒エンジニア採用のインターン時期と採用要件に関する調査を発表した。AI普及を受けて採用要件を変更した企業は<strong>64.2</strong>%に達し、約<strong>9</strong>割の企業が10月までに本選考を開始している。一方でオファー年収を引き上げた企業は約<strong>13</strong>%にとどまる。コーディング試験をAIを使ったプロジェクト型課題に切り替える動きも出てきており、採用の評価軸が変化しつつある。",
+          "sourceName": "PR TIMES（サポーターズ）",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000100.000045025.html",
+          "tags": ["採用", "28卒"]
+        },
+        {
+          "position": 4,
+          "title": "エンジニアの98.4%が技術発信を採用前に確認——テックブログが採用チャネルに",
+          "summary": "リブセンスは2026年11月13日、ITエンジニアの転職活動における技術発信の影響を調査した結果を発表した。エンジニアの<strong>98.4</strong>%が、応募やスカウト返信の前に技術ブログ・OSSコントリビューション・登壇資料などの技術発信を確認していると回答した。さらに約半数は、技術発信の内容が理由で応募を見送った経験があると答えており、技術広報が採用チャネルとして実質的に機能していることが数値で示された。",
+          "sourceName": "PR TIMES（リブセンス）",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000236.000015443.html",
+          "tags": ["採用", "テックブログ"]
+        },
+        {
+          "position": 5,
+          "title": "CocoaPods Trunk、12月2日に読み取り専用化——Flutter 3.44からSPMがデフォルトに",
+          "summary": "CocoaPods Trunkは2026年12月<strong>2</strong>日に恒久的な読み取り専用となり、新規PodやバージョンのTrunkへの追加が止まる。Flutterはバージョン3.44からSwift Package Manager（SPM）をiOS/macOSのデフォルト依存関係マネージャーへ切り替えており、CocoaPodsに依存するプラグインはSPM対応を済ませるかXCFrameworkの手動導入が必要になる。読み取り専用テストが11月1〜7日に実施され、期限まで2週間強に迫った。<strong>2011</strong>年のサービス開始から15年でiOSエコシステムの標準的なパッケージ管理が移行する。",
+          "sourceName": "Flutter Blog",
+          "sourceUrl": "https://flutter.dev/blog/saying-goodbye-to-cocoapods-swift-package-manager-is-soon-the-default-in-flutter",
+          "tags": ["技術トレンド", "iOS"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "MITスローン流「流れのいい組織」の作り方——東洋経済が翻訳刊行",
+          "summary": "MITスローン経営大学院のネルソン・レペニング教授とドナルド・キーファー氏が開発した「ダイナミックワークデザイン」の入門書を、東洋経済新報社が2026年11月11日に翻訳刊行した（邦題：『ダイナミックワークデザイン 流れのいい組織――要の仕事に正しく向き合う』）。危機のときに生まれる集中力と目的意識を危機のない状況でも組織に取り込む方法論で、MITスローンスクールのプログラムでも教えられている。現場の疲弊とマネジャーの悩みを解消し、仕事の流れを改善することで生産性を高める実践手法を体系化した内容とされる。訳者は矢羽野薫、東洋経済新報社刊。",
+          "sourceName": "BOOK☆WALKER",
+          "sourceUrl": "https://bookwalker.jp/dec2314b32-08f1-4ce9-abab-b8b52b1f1533/",
+          "tags": ["思考力", "組織論"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "侍ジャパン、APBC2026決勝へ——本日19時に東京ドームで韓国と激突",
+          "summary": "野球日本代表「侍ジャパン」は2026年11月15日19時から東京ドームで、アジアプロ野球チャンピオンシップ（APBC）2026の決勝に臨む。今大会は日本・韓国・チャイニーズ・タイペイ・オーストラリアの<strong>4</strong>チームが参加し、11月12〜15日に東京ドームで行われている。日本代表は2017年・2023年と連続優勝しており、今大会は<strong>3</strong>連覇がかかる。今大会から監督を務める井口資仁監督にとっても初の国際大会となる。1次リーグを1勝2敗で並んだ<strong>3</strong>チームから大会規定で韓国が決勝へ進み、侍ジャパンと対戦することが決まった。",
+          "sourceName": "NPB公式（APBC2026）",
+          "sourceUrl": "https://npb.jp/apbc/2026/",
+          "tags": ["スポーツ", "野球"]
+        }
+      ]
+    }
+  ]
+}
