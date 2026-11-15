@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-16",
+  "label": "2026年11月16日 (月)",
+  "intro": ".NET 11（C# 15 union型/STS<strong>2</strong>年）が11月10日に正式リリース、DiscordがElectronを廃してGPUI・Rustへ刷新（早期ビルドRAM<strong>290</strong>MB）、AWSが<strong>200</strong>以上サービス対応のローカルエミュレーターを無償提供、ファインディが技術動画<strong>300</strong>件超の「Findy Knowledge」を公開、レバテック調査でIT技術選考の<strong>7</strong>割がAI利用可・<strong>9</strong>割超がAI活用力を評価、DHBR12月号が「リーダーの直観力」特集、COP31がトルコ・アンタルヤで開幕（約<strong>190</strong>か国・第<strong>2</strong>回GST）。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": ".NET 11正式リリース——C# 15にunion型を導入、JIT/AOT高速化とSTS2年サポート",
+          "summary": "マイクロソフトは2026年11月10日、.NET Conf 2026に合わせて.NET 11を正式リリースした。STS（標準サポート）として<strong>2</strong>年間サポートされる。今バージョンにはC# 15が含まれ、値が取りうる複数の戻り値型を列挙できる共用体型（union types）が追加されたほか、switch式による網羅性チェックがコンパイル時に強制される。JITおよびAOTコンパイラの高速化とSDKコマンドの起動負荷削減が行われ、.NET 8・.NET 9は同日でサポートが終了した。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/net_11cjitaot.html",
+          "tags": ["技術トレンド", ".NET"]
+        },
+        {
+          "position": 2,
+          "title": "Discord、ElectronからRust+GPUIへ刷新——早期ビルド「Phoenix」でRAM290MB",
+          "summary": "DiscordのCTOスタニスラフ・ヴィシュネフスキー氏は2026年11月4日、デスクトップ・モバイル両クライアントをRustで再構築することをXで発表した。デスクトップはElectronを廃止し、ZedエディタチームのGPUI（GPU高速描画UIフレームワーク）を採用する。モバイルはReact NativeからRustネイティブアプリへ移行し、Rustで書いたアプリケーションロジックを両プラットフォームで共有する設計となる。開発中ビルド「Discord Phoenix」では2アカウント同時ログイン時のRAM使用量が<strong>290</strong>MBとされ、公開テスト時期は未発表だ。",
+          "sourceName": "heise online",
+          "sourceUrl": "https://www.heise.de/en/news/Discord-is-rebuilding-in-Rust-leaving-React-and-Electron-behind-11516113.html",
+          "tags": ["技術トレンド", "Rust"]
+        },
+        {
+          "position": 3,
+          "title": "AWS、200超サービス対応のローカルAPIエミュレーターを無償公開",
+          "summary": "AWSは2026年11月11日、ローカル環境でAWS APIを再現できる「AWS Emulator」の一般提供を開始した。<strong>200</strong>以上のAWSサービスをカバーし、既存のSDK・CLI・コーディングエージェントはAWS_ENDPOINT_URL環境変数を書き換えるだけでローカルエンドポイントへ接続できる。エミュレーター本体の追加料金はなく、アカウントなしにAWSのAPIを呼び出せるため、ローカルでの開発・テストサイクルを短縮できる。ただし、IAMポリシー評価はクラウドと同一ではなく、本番環境・セキュリティ検証への利用はAWSが非推奨としている。",
+          "sourceName": "AWS News Blog",
+          "sourceUrl": "https://aws.amazon.com/blogs/aws/test-your-applications-against-aws-locally-with-aws-emulator/",
+          "tags": ["技術トレンド", "AWS"]
+        },
+        {
+          "position": 4,
+          "title": "Findy、技術カンファレンス動画300件超の「Findy Knowledge」を公開",
+          "summary": "ファインディは2026年11月5日、エンジニア向けの技術カンファレンス動画・登壇資料プラットフォーム「Findy Knowledge」を公開した。公開時点で約<strong>300</strong>件のコンテンツを掲載し、今後も追加される予定。無料のFindy IDで利用でき、イベントへ参加できなかった回の登壇内容も後から参照できる。同社が主催してきたFindy Engineer Labのイベントやオンラインカンファレンスのアーカイブが主なコンテンツとなる予定。",
+          "sourceName": "PR TIMES（ファインディ）",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000283.000045379.html",
+          "tags": ["技術トレンド", "エンジニア学習"]
+        },
+        {
+          "position": 5,
+          "title": "レバテック調査：技術選考の7割がAI利用可——9割超の企業がAI活用力を評価に追加",
+          "summary": "レバレジーズは2026年11月5日、転職サービス「レバテック」の企業調査として、ITエンジニア採用の技術選考に関する結果を発表した。技術選考でAIツールの使用を「可」とする企業が<strong>7</strong>割に上り、約<strong>9</strong>割の企業がAI活用力を選考評価に加えていることが分かった。コーディング試験や技術課題においてAIを使ってよい前提でタスクを設定する企業が増えており、採用評価の軸が「AIを使わない単独技術力」から「AI活用も含めた問題解決力」へシフトしていることが示された。",
+          "sourceName": "PR TIMES（レバレジーズ）",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000001004.000010591.html",
+          "tags": ["採用", "AI選考"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "DHBR12月号「リーダーの直観力」——AIとデータの時代こそ経験の蓄積から来る直観が問われる",
+          "summary": "ダイヤモンド・ハーバード・ビジネス・レビュー2026年12月号（2026年11月10日発売）が「リーダーの直観力」を特集した。一橋大学の鈴木真介氏は、AIやビッグデータが普及する時代こそ直観の重要性が増すと論じ、直観は経験の蓄積から導かれる認知能力だと定義する。柳井正氏（ファーストリテイリング）は直観を覚悟ある決断のための道具と位置づけ、プロゲーマーの梅原大吾氏は直観が機能する状況の見極め方を語る。FCバルセロナ医療責任者らのスポーツ界の重圧下での決断事例も収録されている。",
+          "sourceName": "ダイヤモンド社",
+          "sourceUrl": "https://www.diamond.co.jp/magazine/059691226.html",
+          "tags": ["思考力", "意思決定"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "COP31がトルコ・アンタルヤで開幕——190か国・第2回GST開始、米国は今年も欠席",
+          "summary": "国連気候変動枠組み条約第31回締約国会議（COP31）が2026年11月9日にトルコ・アンタルヤで開幕し、同<strong>20</strong>日まで開催される。約<strong>190</strong>か国が参加し、パリ協定の実施状況を点検する第<strong>2</strong>回グローバル・ストックテイク（GST 2）が今会期から始まった。議長国トルコのムラト・クルム環境大臣が主催し、交渉担当にはオーストラリアのクリス・ボーエン氏が就く。2026年初めにパリ協定から離脱した米国は今年も代表を派遣しておらず、前年に世界全体で約<strong>5,000</strong>億ドルのコスト削減をもたらした再生可能エネルギーの資金調達が主要議題となっている。",
+          "sourceName": "IISD Earth Negotiations Bulletin",
+          "sourceUrl": "https://enb.iisd.org/antalya-un-climate-change-conference-cop31",
+          "tags": ["環境", "国際"]
+        }
+      ]
+    }
+  ]
+}
