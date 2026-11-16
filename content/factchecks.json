@@ -1,5 +1,12 @@
 [
   {
+    "slug": "2026-11-17-queue",
+    "ranOn": "2026-11-17",
+    "verdict": "unverifiable",
+    "detail": "ファクトチェックキューAPI（https://news.kazukikondo.com/api/factcheck/queue）はFACTCHECK_TOKEN未設定のため認証不可（空レスポンス）。キュー内容不明のためスキップ。本日分8件（IT就活5件・思考力1件・視野2件）はWebSearchで取得したURLのみを使用し手動検証済み。pos1 JetBrains 2026.3 Air→blog.jetbrains.com/idea/2026/11/whats-new-in-intellij-idea-2026-3/ 複数クエリ（jetbrains.com/ides/whatsnew/, jetbrains.com/pycharm/whatsnew/, x.com/AGTPinsights/status/2118752129921732824, daily.dev）でAir全IDE搭載・ACP対応・Air Liteは無料・Git worktree並列実行・スタンドアロン版終了確認。pos2 PostgreSQL 19延期→publickey1.jp/blog/26/postgresql_194ai.html 複数クエリ（theregister.com/databases/2026/10/16/postgres-19-delayed..., softantenna.com/blog/ai-found-too-many-bugs-postgresql-19/, news.yahoo.co.jp/articles/b07da1775ade726cd7f8192a90a04cbdffb8c5c3）でβ4多数取り消し・AIコードレビュー起因・SQL/PGQ等削除・RC2 11月12日・正式版11月19日前後確認。pos3 Apache 2.4.71→thinkit.co.jp/news/39735 複数クエリ（rocket-boys.co.jp/security-measures-lab/apache-http-server-2471-critical-mod-http2-rce-cve-2026-119618/, cybersecuritynews.com/apache-patches-critical-http-2-flaw/, smartscope.blog/blog/apache-http-server-2-4-71-3-vulnerabilities-2026/）でCVE-2026-119618 Critical・mod_http2・ヒープ破壊RCE・2.4.55〜2.4.70対象・3件修正・2026-11-11公開確認。pos4 レバテック28卒採用調査→prtimes.jp/main/html/rd/p/000001005.000010591.html 複数クエリ（hrzine.jp/news/detail/8276, hrog.net/news/137331/, zaikei.co.jp/releases/3709627/）で2026-11-11発表・553名・44.1%増加予定・9割超維持拡大・53.3%年収引き上げ・47.9%マネジメント候補不足懸念確認。pos5 リブセンス98.4%技術発信→prtimes.jp/main/html/rd/p/000000236.000015443.html 複数クエリ（zaikei.co.jp/releases/3713949/）で2026-11-13発表・320名・98.4%確認・48.1%見送り経験・テックブログ84.7%最多・46.6%登壇資料確認。pos6 DHBR11月号アージリス→dhbr.diamond.jp/articles/-/14897 複数クエリ（dhbr.diamond.jp/list/magazine/2026-11, diamond.co.jp/magazine/059691126.html, fujisan.co.jp/product/5772/new/）でDHBR2026年11月号（10月9日発売）・特集「任せる技術」・クリス・アージリス・言行不一致・防衛ルーティン・リンディ・グリーア教授の4つの落とし穴確認。pos7 ベピコロンボ→zaikei.co.jp/article/20261107/876516.html 複数クエリ（sorae.info/space/20260904-bepicolombo-farewell-mtm.html, zaikei.co.jp/article/20260908/869117.html, isas.jaxa.jp/topics/003810.html）で11月21日軌道投入・674km×17万8000km・MTM分離済み・12月みお分離・科学観測2027年4月確認。pos8 大相撲九州場所10日目→news.web.nhk/newsweb/na/nd-20261117de76892 複数クエリ（NHK news.web.nhk/newsweb/na/nd-20261116de76589, fukuoka-tanoshimu.net/2026/09/22/kyushu-basho-sumo-fukuoka-2026/）で10日目大の里vs熱海富士直接対決・9日目熱海富士が豊昇龍破る・大の里9月場所6度目優勝・11月8〜22日福岡国際センター確認。",
+    "action": "キュー取得不可のためスキップ。本日分 (2026-11-17) の記事8件を新規生成。"
+  },
+  {
     "slug": "2026-11-16-queue",
     "ranOn": "2026-11-16",
     "verdict": "unverifiable",

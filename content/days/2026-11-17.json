@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-17",
+  "label": "2026年11月17日 (月)",
+  "intro": "JetBrains 2026.3でAIエージェント「Air」が全IDE標準搭載、PostgreSQL 19 はAIコードレビューで多数の新機能が削除されリリース延期（<strong>11</strong>月19日前後の見込み）、Apache 2.4.71でmod_http2にCritical RCE脆弱性（対象<strong>2.4.55</strong>〜2.4.70）、レバテック調査で28卒ITエンジニア採用「維持・拡大」が<strong>9</strong>割超（<strong>553</strong>名調査）、エンジニアの<strong>98.4</strong>%が応募前に企業の技術発信を確認、DHBR11月号でアージリスが「意思決定を阻む人間関係」の構造を解析、ベピコロンボが<strong>11</strong>月<strong>21</strong>日に水星周回軌道投入予定（打ち上げから<strong>8</strong>年）、九州場所<strong>10</strong>日目で横綱・大の里と熱海富士が<strong>1</strong>敗同士で直接対決。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "JetBrains IDE 2026.3、AIエージェント「Air」を全製品に標準搭載",
+          "summary": "JetBrains は2026年11月にリリースした IDE バージョン2026.3で、AIエージェント開発基盤「Air」を IntelliJ IDEA・PyCharm・WebStorm・Rider など全製品に組み込んだ。Air Lite は無料で利用でき、Claude・Codex・Gemini・GitHub Copilot・Junie など複数のエージェントが ACP 規格で接続できる。エージェントはデバッグ・プロファイリング・データベース管理など IDE 本来の機能をそのまま呼び出せ、Git worktree を利用して複数のエージェントを並列実行することもできる。これまで単体アプリとして配布されていた Air は、2026.3 より全 IDE 内で利用可能となり、スタンドアロン版の配布は終了した。",
+          "sourceName": "JetBrains Blog",
+          "sourceUrl": "https://blog.jetbrains.com/idea/2026/11/whats-new-in-intellij-idea-2026-3/",
+          "tags": ["技術トレンド", "IDE", "AI"]
+        },
+        {
+          "position": 2,
+          "title": "PostgreSQL 19リリース延期——AIがバグを見つけすぎてβ4で多数の新機能が削除",
+          "summary": "Publickey は2026年11月に、PostgreSQL 19 のリリース延期とその背景を報じた。今回のベータサイクルでは、AIを活用したコードレビューによってこれまでより多くのバグが発見され、β4 で多数の新機能が取り消しまたは削除されたとされる。取り消された主な機能には SQL/PGQ・パーティションの MERGE/SPLIT・GROUP BY ALL・FOR PORTION OF などが含まれる。正式リリースは当初の9〜10月から延期され、11月19日前後が見込まれている（The Register 報道）。REPACK（無停止でのテーブル再構成）や並列 autovacuum などの機能は残り、RC2 は2026年11月12日に公開済みだ。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/postgresql_194ai.html",
+          "tags": ["技術トレンド", "PostgreSQL"]
+        },
+        {
+          "position": 3,
+          "title": "Apache HTTP Server 2.4.71リリース——mod_http2にCritical RCE脆弱性、2.4.55〜2.4.70が対象",
+          "summary": "Apache Software Foundation は2026年11月11日、「Apache HTTP Server 2.4.71」を公開した。最も深刻な CVE-2026-119618（深刻度 Critical）は、HTTP/2モジュール mod_http2 の並行処理の不備によりヒープ破壊からリモートコード実行が可能になるおそれがある。影響バージョンは<strong>2.4.55</strong>〜<strong>2.4.70</strong>で、HTTP/2 を有効にしているサーバーは優先して更新が必要だ。あわせて mod_md の NULLポインタ参照（CVE-2026-106023、Important）と mod_vhost_alias のスタック書き込み（CVE-2026-109163、Low）の計<strong>3</strong>件を修正した。公式の回避策は公表されておらず、2.4.71 へのバージョンアップが唯一の対策となる。",
+          "sourceName": "Think IT",
+          "sourceUrl": "https://thinkit.co.jp/news/39735",
+          "tags": ["技術トレンド", "セキュリティ"]
+        },
+        {
+          "position": 4,
+          "title": "28卒のITエンジニア採用「維持・拡大」が9割超——レバテック調査",
+          "summary": "レバテックは2026年11月11日、IT企業採用担当者<strong>553</strong>名への調査結果を発表した。28卒（2028年卒）の新卒ITエンジニア採用数を「増やす」と答えた企業は<strong>44.1</strong>%で、前年度（27卒は<strong>39.8</strong>%）から増加した。「変わらない」を含めると採用数を維持または拡大する企業は<strong>9</strong>割を超えた。採用数を増やす企業のうち半数超（<strong>53.3</strong>%）が提示年収を引き上げており、シニア採用（<strong>48.8</strong>%）も次いで多かった。新卒採用を抑制した場合の懸念として「マネジメント候補・コア人材の不足」を挙げた企業が<strong>47.9</strong>%に上り、2社に1社近くが将来の組織中核層の確保を課題としている。",
+          "sourceName": "PR TIMES（レバテック）",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000001005.000010591.html",
+          "tags": ["採用", "28卒"]
+        },
+        {
+          "position": 5,
+          "title": "エンジニアの98.4%が応募前に技術発信を確認——テックブログが最多、約半数が内容で見送り経験",
+          "summary": "リブセンスと転職ドラフトは2026年11月13日、転職ドラフト利用エンジニア<strong>320</strong>名への調査結果を発表した。応募やスカウト返信の前に企業の技術発信を「確認する」と答えた割合は<strong>98.4</strong>%に達した。技術発信の内容を理由に応募を取りやめた経験がある人は<strong>48.1</strong>%と約半数に上り、企業のテックブログが技術の実態を知る手段として最多（<strong>84.7</strong>%）だった。技術発信の質と量が採用候補者の意思決定に直接影響する実態が示され、登壇資料・発表動画も<strong>46.6</strong>%が参照していると報告された。",
+          "sourceName": "PR TIMES（リブセンス）",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000236.000015443.html",
+          "tags": ["採用", "技術発信"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "DHBR11月号「意思決定を阻む人間関係」——アージリスが組織の防衛ルーティンを解析",
+          "summary": "ダイヤモンド・ハーバード・ビジネス・レビュー2026年11月号（特集「任せる技術」、10月9日発売）に、クリス・アージリスによる論文「意思決定を阻む人間関係という障害」が掲載されている。アージリスは、経営幹部が表向き権限委譲を支持しながら実際には口出しをやめられない「言行不一致」の原因を、批判やリスクを避けるために情報をフィルタリングする組織的な防衛ルーティンとして分析した。意思決定ルールを設計しても機能しない原因は設計の誤りではなく、メンバーがこのルーティンに基づいて情報を歪める学習阻害にあると論じている。同特集にはミシガン大学のリンディ・グリーア教授らによる「意思決定権限の設計における4つの落とし穴」も収録されている。",
+          "sourceName": "DIAMOND ハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14897",
+          "tags": ["思考力", "組織論"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "ベピコロンボ、11月21日に水星周回軌道投入へ——打ち上げから8年の旅",
+          "summary": "日欧共同の水星探査ミッション「ベピコロンボ」は2026年11月21日、水星の極軌道（高度<strong>674</strong>km×<strong>17万8000</strong>km）への投入が予定されている。2024年4月に推進モジュールの電力が低下する問題が起きたため、当初2025年12月だった到着予定が2026年11月に変更された経緯がある。2026年9月3日に電気推進モジュール（MTM）の分離を完了し、現在は化学推進で軌道制御を行う到着フェーズにある。12月9〜10日にJAXAの「みお」がMPOから分離され、科学観測は2027年4月に開始される計画だ。",
+          "sourceName": "財経新聞",
+          "sourceUrl": "https://www.zaikei.co.jp/article/20261107/876516.html",
+          "tags": ["科学", "宇宙"]
+        },
+        {
+          "position": 8,
+          "title": "大相撲九州場所10日目——横綱・大の里と熱海富士が1敗同士で直接対決",
+          "summary": "2026年11月8〜22日に福岡国際センターで開催中の大相撲十一月場所（九州場所）は11月17日に10日目を迎え、ともに1敗で並ぶ横綱・大の里と関脇・熱海富士の直接対決が組まれた。9日目（11月16日）には熱海富士が横綱・豊昇龍を破り、大の里と1敗で並んで優勝争いの中心となった。大の里は九月場所で<strong>6</strong>度目の優勝を達成した直後の場所で連覇がかかる。今場所は優勝争いに複数力士が絡む混戦となっており、千秋楽（11月22日）まで展開が読めない状況が続く。",
+          "sourceName": "NHKニュース",
+          "sourceUrl": "https://news.web.nhk/newsweb/na/nd-20261117de76892",
+          "tags": ["スポーツ", "相撲"]
+        }
+      ]
+    }
+  ]
+}
