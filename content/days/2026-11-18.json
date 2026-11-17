@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-18",
+  "label": "2026年11月18日 (水)",
+  "intro": "マイクロソフトが.NET <strong>11</strong>（C# 15）を、Rustが通算<strong>100</strong>番目の安定版1.100.0をそれぞれリリース。McKinseyの調査ではAIコーディングツールを導入した企業の<strong>3</strong>割が生産性低下を経験。「江夏の21球」で知られる江夏豊さんが享年<strong>78</strong>歳で逝去。ボイジャー1号は打ち上げ<strong>49</strong>年目にして今日11月<strong>18</strong>日、地球から1光日（約<strong>260</strong>億km）の距離に到達した。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": ".NET 11正式リリース——C# 15でunion型を追加、.NET 8/9は同日にEOL",
+          "summary": "マイクロソフトは2026年11月10日、開発プラットフォーム「.NET 11」を正式リリースした。C# 15の目玉は「共用体型（union types）」と「クローズド階層（closed hierarchies）」の追加で、型安全なADTを言語機能として記述できるようになる。.NET 11はStandard Term Support（STS）で<strong>2028</strong>年11月までサポートされる。同日、.NET 8と.NET 9はサポートが終了しセキュリティ修正が打ち切られたため、稼働中のサービスは移行が急務だ。SDKではNative AOT用のCLIホストがデフォルトで有効化され、コマンドライン起動の高速化が標準的に享受できるようになった。",
+          "sourceName": "窓の杜（Impress）",
+          "sourceUrl": "https://forest.watch.impress.co.jp/docs/news/2155556.html",
+          "tags": ["技術トレンド", ".NET"]
+        },
+        {
+          "position": 2,
+          "title": "Rust 1.100.0リリース——never型が10年・5度の失敗を経てついに安定化",
+          "summary": "Rustチームは2026年11月12日、通算<strong>100</strong>番目の安定版「Rust 1.100.0」をリリースした。最大の変更点はnever型（!）の安定化で、約<strong>10</strong>年間・<strong>5</strong>度の失敗を経てついに正式サポートに至った。これにより`Result<T, !>`のような型が標準的に記述できる。Vec・Boxがカスタムアロケータを受け取れるようになるAllocator APIのコア部分も安定化された。Cargoでは未使用の依存クレートを警告するオプションと、依存バージョンのクールダウン設定（min-publish-age）が追加された。ただしエディション2015〜2021ではnever型のフォールバックが`()`から`!`に変わるため、既存コードの確認が必要だ。",
+          "sourceName": "Phoronix",
+          "sourceUrl": "https://phoronix.com/news/Rust-1.100-Released",
+          "tags": ["技術トレンド", "Rust"]
+        },
+        {
+          "position": 3,
+          "title": "McKinsey「AIコーディング導入の3割で生産性低下」——ワークフロー再設計が明暗を分ける",
+          "summary": "McKinseyは2026年の調査で、エージェント型AIコーディングツールを導入した企業のうち約<strong>3</strong>割で生産性が低下したと報告した。Business Insider Japanはこの調査をもとに、2倍以上の生産性向上を達成した企業がある一方で躓く企業が多い実態と、その落とし穴を分析している。ツールを既存プロセスに「追加」しただけの組織は恩恵を受けにくく、生産性を高めた組織に共通するのはワークフロー自体をAI前提で再設計していた点だという。コーディング活動量が大幅に増えても、実際にリリースされた成果物の増加は相対的に小さかったとされる。",
+          "sourceName": "Business Insider Japan",
+          "sourceUrl": "https://businessinsider.jp/article/2611-mckinsey-cognition-target-roi-challenge-ai-coding",
+          "tags": ["技術トレンド", "AI"]
+        },
+        {
+          "position": 4,
+          "title": "「AIエンジニア」という呼び名さえ消える——ヘイズ調査、職種変化の加速を指摘",
+          "summary": "人材サービスのヘイズ・ジャパンは2026年11月11日に記者説明会を開催し、AI時代においてITエンジニアのスキルや職種定義が急速に変化しているという見解を示した。@ITが報じた内容では、「AIエンジニア」という肩書き自体が数年以内に再編・消滅しうる可能性や、現在求められるスキルが将来的に陳腐化するスピードが加速していることが指摘されている。変化への適応力やプロダクト全体を俯瞰できる視点が、特定の技術スタックよりも長期的な市場価値を持つとの主張が示された。",
+          "sourceName": "@IT（ITmedia）",
+          "sourceUrl": "https://atmarkit.itmedia.co.jp/ait/articles/2611/17/news008.html",
+          "tags": ["採用", "スキル"]
+        },
+        {
+          "position": 5,
+          "title": "GitHub Copilot、JetBrains AirとXcodeに正式対応——週次更新で機能拡充",
+          "summary": "GitHubは2026年11月6日公開の週次changelogで、GitHub CopilotがJetBrains Airのエージェント基盤に統合され、既存のCopilotサブスクリプションで複数のエージェントセッションをIDE内から追跡できるようになったと告知した。同時にXcodeへの直接組み込みも実現し、iOS・macOS開発者もXcodeのコーディングアシスタントからCopilotを利用できるようになった。プルリクエスト画面からAgent Mergeを設定しやすくなるほか、CLIでは`/settings`コマンドでプラグインやMCPサーバーを一元管理できるダッシュボードが追加された。",
+          "sourceName": "GitHub Blog（Changelog）",
+          "sourceUrl": "https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2",
+          "tags": ["技術トレンド", "AI"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "AIの答えをそのまま出す部下が増加——「それっぽい正解」が奪う考える力",
+          "summary": "NewsPicks ＋ｄは2026年11月に、AIツールが普及する職場で起きている新たな認知の問題を取り上げた。部下に仕事を任せると驚くほど速くそれなりの成果物が上がってくるが、その裏側ではAIの出力をほぼそのまま提出するだけで、問題を自分で考え抜く過程が省略されているという現象だ。表面上は合格水準の答えに見えても、プロセスを踏まない習慣が積み重なると組織全体の判断力が低下するおそれがある。AIを使いこなすためにこそ、仮説を立て根拠を問い直す「自ら考えるプロセス」を意識的に守ることの重要性が論じられている。",
+          "sourceName": "NewsPicks ＋ｄ（Yahoo!ニュース）",
+          "sourceUrl": "https://news.yahoo.co.jp/articles/341d1d760da4a84af44a4bf30fbe84a1c9315423",
+          "tags": ["思考力", "AI"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "ボイジャー1号、今日11月18日に「1光日」到達——地球から約260億km",
+          "summary": "1977年に打ち上げられたNASAの宇宙探査機「ボイジャー1号」が、2026年11月18日（東部標準時5時16分）に地球から「1光日」の距離に到達した。1光日とは光が1日かけて進む距離で約<strong>260</strong>億kmに相当し、指令を送って返答が届くまでに往復で<strong>2</strong>日以上かかることになる。現在も星間空間を航行しており、地球とのデータ通信速度は毎秒約<strong>160</strong>ビットに低下している。双子機のボイジャー2号が同じ距離に達するのは2035年の見込みとNASAは説明している。",
+          "sourceName": "CNN Japan",
+          "sourceUrl": "https://www.cnn.co.jp/fringe/35241463.html",
+          "tags": ["科学", "宇宙"]
+        },
+        {
+          "position": 8,
+          "title": "伝説の左腕・江夏豊さん死去、78歳——「江夏の21球」「9者連続三振」の名投手",
+          "summary": "日本プロ野球名球会は2026年11月17日、元投手の江夏豊さんが同日に亡くなったと発表した。享年<strong>78</strong>歳。阪神・南海・広島・日本ハム・西武で活躍し、阪神在籍時にはシーズン最多奪三振の日本記録を樹立した。1971年オールスターで達成した<strong>9</strong>者連続奪三振と、1979年日本シリーズ第<strong>7</strong>戦の「江夏の21球」は日本野球史に残る名場面として語り継がれる。南海では先発からリリーフへ転向し、現代の守護神文化の先駆けとなった存在でもあった。",
+          "sourceName": "時事ドットコム",
+          "sourceUrl": "https://www.jiji.com/jc/article?k=2026111700558&g=spo",
+          "tags": ["スポーツ", "野球"]
+        }
+      ]
+    }
+  ]
+}
