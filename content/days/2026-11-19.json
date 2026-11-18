@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-19",
+  "label": "2026年11月19日 (木)",
+  "intro": "マイクロソフトが低コスト高性能コーディングAI「MAI Code 2」を、OpenAIが初のHigh自己改善評価「GPT-6.2 Astra」を相次いで発表。PostgreSQL <strong>19</strong>は本日11月<strong>19</strong>日にリリース予定。理化学研究所「富岳」への不正アクセスで最大<strong>4,222</strong>名の認証情報が流出の恐れ。大相撲九州場所<strong>11</strong>日目は平幕・若元春が単独首位に立った。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "マイクロソフト「MAI Code 2」発表——Claude Opus 5.5の96%性能を5%コストで実現",
+          "summary": "マイクロソフトは2026年11月17日の「Microsoft Ignite 2026」で、コーディング用AIモデル「MAI Code 2」と軽量版「MAI Code 2 Flash」を発表した。<strong>4</strong>つのコーディングベンチマーク平均でClaude Opus 5.5の<strong>96</strong>%の性能を<strong>5</strong>%のコストで実現すると同社は主張する（プロモーション価格を前提とした数値）。難解なデバッグ・リポジトリ全体の推論・UI作業向けのMAI Code 2と、局所的な編集・コードの説明向けのFlash版という2ラインナップ構成。両モデルはすでにGitHub Copilotに統合済みで、企業顧客はAzure上でモデルの重みをカスタマイズして実行できる。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/aimai_code_2mai_code_2_flash.html",
+          "tags": ["技術トレンド", "AI"]
+        },
+        {
+          "position": 2,
+          "title": "OpenAI「GPT-6.2 Astra」公開——外部モデル初のHigh自己改善評価、価格20%引き下げ",
+          "summary": "OpenAIは2026年11月17日、高難度プロジェクト向け「GPT-6.2 Astra」と日常業務向け「GPT-6.2 Sol」を公開した。GPT-6.2 Astraは外部公開モデルとして初めてAI自己改善能力の「High」評価に該当したとOpenAIが発表している（同社の評価フレームワークに基づく自己申告）。安全対策として研究環境での封じ込め強化・出力を停止できる「Control Room」・拡充した監視機能が導入された。APIの標準入出力トークン価格はAstraで<strong>20</strong>%引き下げられ、ChatGPT Work、Codex、APIから利用できる。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2611/18/2000003279/",
+          "tags": ["技術トレンド", "AI"]
+        },
+        {
+          "position": 3,
+          "title": "スパコン「富岳」に不正アクセス——最大4,222名の認証情報流出の恐れ、運用停止",
+          "summary": "理化学研究所は2026年11月16日、スーパーコンピュータ「富岳」の運用系システムに11月12日に外部から不正アクセスがあったと発表した。影響を受けた可能性がある登録利用者は「富岳」が最大<strong>4,222</strong>名、「理究（りきゅう）」が最大<strong>375</strong>名。認証システムに登録された氏名・メールアドレス・IDのほか、外部サービスへの接続用認証情報を含むホームディレクトリのファイルが外部に持ち出された可能性がある。理研は富岳の運用を停止し、文部科学省に報告のうえ調査を進めている。",
+          "sourceName": "NHK Web",
+          "sourceUrl": "https://news.web.nhk/newsweb/na/nd-20261116de76603",
+          "tags": ["セキュリティ", "インフラ"]
+        },
+        {
+          "position": 4,
+          "title": "Node.js 22/24/26 に16件のCVE——HTTP/2クラッシュ・メモリ漏えい・mTLS回避を11月11日修正",
+          "summary": "Node.jsプロジェクトは2026年11月11日、Node.js 22・24・26の各系統にセキュリティ更新を公開した。修正されたCVEは計<strong>16</strong>件（High <strong>7</strong>件・Medium <strong>6</strong>件・Low <strong>3</strong>件）で、主な脆弱性はHTTP/2サーバーをクラッシュさせる問題、HTTPSサーバーで認証不要のクライアントが他接続のメモリを読める問題、mTLS認証を迂回できる問題の3種類。対応する修正済みバージョンは22.23.5・24.22.3・26.13.1。開発チームは11月3日の段階で最高深刻度「High」の更新が予定されていることを事前に告知していた。",
+          "sourceName": "Node.js 公式ブログ",
+          "sourceUrl": "https://nodejs.org/en/blog/vulnerability/november-2026-security-releases",
+          "tags": ["技術トレンド", "セキュリティ"]
+        },
+        {
+          "position": 5,
+          "title": "PostgreSQL 19、β4で多数機能削除の遅延を経て本日11/19リリース予定",
+          "summary": "Publickeyは2026年11月16日、PostgreSQL 19のリリースが遅延した背景を報じた。β4の段階で多くの新機能が取り下げられており、開発コミュニティではAIによるコードレビューツールとの関連も検討されているという。最終リリース候補（RC2）は11月12日に公開されており、正式版は本日11月19日のリリースが見込まれている。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/postgresql_194ai.html",
+          "tags": ["技術トレンド", "データベース"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "DHBR12月号「リーダーの直観力」——直観は経験のデータベース、熟練から生まれる能力と論じる",
+          "summary": "2026年11月10日発売のDIAMOND ハーバード・ビジネス・レビュー12月号は「リーダーの直観力——経験を武器に本質を捉える」を特集した。一橋大学の鈴木真介教授は、直観を「過去の経験の蓄積から生まれる能力」として位置づける論考を寄稿した。ファーストリテイリングの柳井正会長へのインタビューでは、直観は「決断の道具にすぎない」との見方も示された。",
+          "sourceName": "DIAMONDハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://www.diamond.co.jp/magazine/059691226.html",
+          "tags": ["思考力", "リーダーシップ"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "九州場所11日目、平幕・若元春が単独首位——大の里2敗守り、熱海富士は2敗に後退",
+          "summary": "大相撲九州場所は11月18日に11日目を迎え、平幕の若元春が<strong>1</strong>敗で単独首位に立った。横綱・大の里は関脇・藤ノ川を押し出しで下し<strong>2</strong>敗をキープ。関脇・熱海富士は大関・琴桜に敗れ<strong>2</strong>敗に後退し、若元春の単独首位を許した。残り<strong>4</strong>日間は大の里と熱海富士が<strong>1</strong>差で若元春を追う展開となった。",
+          "sourceName": "日本経済新聞",
+          "sourceUrl": "https://www.nikkei.com/article/DGXZQODH18A0Q0Y6A111C2000000/",
+          "tags": ["スポーツ", "相撲"]
+        }
+      ]
+    }
+  ]
+}
