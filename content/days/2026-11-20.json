@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-20",
+  "label": "2026年11月20日 (金)",
+  "intro": "楽天証券のテスト環境から最大<strong>1,125</strong>万口座分の顧客情報漏えいの疑いが発覚（<strong>11</strong>月<strong>17</strong>日発表）。VS Code <strong>1.147</strong>がCopilotエージェントにBrowser UseとSend Later機能を追加して<strong>11</strong>月<strong>18</strong>日リリース。レバテック調査で28卒ITエンジニア採用は<strong>9</strong>割超が維持・拡大方針、採用増加企業の半数超が提示年収を引き上げ。国枝慎吾さんが日本人初の国際テニス殿堂入りを発表。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "28卒ITエンジニア採用は9割超が維持・拡大——レバテック553社調査",
+          "summary": "レバレジーズが2026年11月11日に発表した調査では、ITエンジニア採用を実施する<strong>553</strong>社の採用担当者を対象に、2027年卒・2028年卒ともに<strong>9</strong>割超が採用数を維持または拡大すると回答した。2027年卒で採用数を「増やした」と答えた企業は<strong>39.8</strong>%、2028年卒で「増やす予定」は<strong>44.1</strong>%だった。28卒採用数を増やすと答えた企業では半数以上が提示年収を引き上げており、一方で約<strong>2</strong>社に<strong>1</strong>社が若手採用の抑制による将来のマネジメント人材不足を懸念しているとされている。",
+          "sourceName": "PR TIMES（レバレジーズ）",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000001005.000010591.html",
+          "tags": ["採用", "28卒"]
+        },
+        {
+          "position": 2,
+          "title": "VS Code 1.147リリース——CopilotエージェントにBrowser UseとSend Later",
+          "summary": "マイクロソフトは2026年11月18日、Visual Studio Code <strong>1.147</strong>のStable版をリリースした。Copilotエージェントがユーザーのデフォルトブラウザ（Chrome/Edge）を直接操作できる「Browser Use」がプレビューとして追加された。エージェントへのリクエストを後から送信できる実験的な「Send Later」と、YAML形式で記述する実験的な「Model Routers」も含まれる。企業向けにはClaudeやCodexのハーネスを管理者が許可できる設定が追加された。macOS VenturaおよびSonomaのデスクトップ版と<strong>32</strong>ビットARM Linux版は非推奨になった。",
+          "sourceName": "Visual Studio Code 公式リリースノート",
+          "sourceUrl": "https://code.visualstudio.com/updates/v1_147",
+          "tags": ["技術トレンド", "IDE", "AI"]
+        },
+        {
+          "position": 3,
+          "title": "GitHub Copilotコードレビューに「Adaptive effort」と秘密情報検知を追加",
+          "summary": "GitHubは2026年11月17日、GitHub Copilotのコードレビュー機能に「Adaptive effort（レビュー努力量の自動調整）」と「Secret detection（秘密情報の検知）」などを追加したとChangelogで告知した。Adaptive effortはコードの変更内容に応じてレビューの深さを動的に調整する機能で、Secret detectionはAPIキーなどの秘密情報が誤ってコードに混入していないかを検知する機能。Copilotコードレビューは2026年9月18日に一般提供（GA）が開始されており、今回の更新はその機能拡充にあたる。",
+          "sourceName": "GitHub Changelog",
+          "sourceUrl": "https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more/",
+          "tags": ["技術トレンド", "AI", "セキュリティ"]
+        },
+        {
+          "position": 4,
+          "title": "楽天証券のテスト環境に本番顧客情報——最大1,125万口座の漏えい可能性",
+          "summary": "楽天証券は2026年11月17日、テスト環境への不正アクセスにより顧客情報が外部に漏えいした可能性があると発表した。最大<strong>1,125</strong>万口座のログインIDなどが対象となり、最大約<strong>447</strong>万口座分では氏名・住所・出金先口座・年収も含まれる可能性がある。パスワードや暗証番号の漏えいと不正取引は確認されていない。不正アクセスは11月11日に発生し11月16日に検知されており、テスト環境に本番の顧客データが含まれていた点について報道では疑問の声が上がっている。",
+          "sourceName": "Impress Watch",
+          "sourceUrl": "https://www.watch.impress.co.jp/docs/news/2157207.html",
+          "tags": ["セキュリティ", "インシデント"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "AIで個人の仕事は速くなるがチーム成果には結びつかない——Miro 9,500人調査",
+          "summary": "Miroが2026年11月に公開した<strong>9,500</strong>人超対象の調査によると、AIによって個人の生産性が向上したと考える人は<strong>83</strong>%に上る一方、成果物の品質が向上したと答えたのは<strong>56</strong>%にとどまった。出力スピードが上がったと感じる人は<strong>73</strong>%だが、協働の改善を感じていない人は<strong>60</strong>%、意思決定の改善を感じていない人は<strong>52</strong>%という結果だった。ITmediaの記事では、AIが速い実行をもたらす一方、意思決定とその質こそが本当のボトルネックであるとの専門家コメントを紹介している。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2611/19/2000003314/",
+          "tags": ["思考力", "AI", "組織"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "ボイジャー1号、人類初の「1光日」到達——地球から259億km、往復通信に48時間",
+          "summary": "NASAの探査機ボイジャー1号が2026年11月18日、地球から「1光日」（約<strong>259</strong>億km）の距離に到達した。日本時間18日19時16分07秒の到達とされており、人工物として史上初めてとなる。<strong>1977</strong>年の打ち上げから約<strong>49</strong>年が経過し今も地球と通信を続けており、この距離では指令と応答の電波の往復に約<strong>48</strong>時間かかる。",
+          "sourceName": "Forbes JAPAN",
+          "sourceUrl": "https://forbesjapan.com/articles/detail/107711",
+          "tags": ["科学", "宇宙"]
+        },
+        {
+          "position": 7,
+          "title": "国枝慎吾さん、日本人初の国際テニス殿堂入り——車いす部門で2027年の式典へ",
+          "summary": "国際テニス殿堂（ITHF）は2026年11月18〜19日頃、元車いすテニス選手の国枝慎吾さんを2027年の殿堂入り選手に選んだと発表した。日本人が全部門を通じて国際テニス殿堂に選ばれるのは初めて。国枝さんは四大大会シングルス<strong>28</strong>度優勝を含む生涯ゴールデンスラムを男子で初めて達成し、パラリンピックのシングルスで<strong>3</strong>個の金メダルを獲得している。殿堂入りの式典は2027年<strong>8</strong>月26〜28日、米ロードアイランド州ニューポートで開催予定。",
+          "sourceName": "時事ドットコム",
+          "sourceUrl": "https://www.jiji.com/jc/article?k=2026111900508&g=spo",
+          "tags": ["スポーツ", "テニス"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,12 @@
 [
   {
+    "slug": "2026-11-20-queue",
+    "ranOn": "2026-11-20",
+    "verdict": "unverifiable",
+    "detail": "ファクトチェックキューAPI（https://news.kazukikondo.com/api/factcheck/queue）はFACTCHECK_TOKEN未設定のため認証不可（空レスポンス）。キュー内容不明のためスキップ。本日分7件（IT就活4件・思考力1件・視野2件）はWebSearchで取得したURLのみを使用し手動検証済み。pos1 レバテック28卒採用→prtimes.jp/main/html/rd/p/000001005.000010591.html 複数クエリ（hrzine.jp/news/detail/8276, resemom.jp/article/2026/11/18/88349.html, hrog.net/news/137331/）で2026-11-11発表・553名・39.8%/44.1%増加・9割超維持拡大・28卒採用増加企業半数超年収引き上げ・2社に1社マネジメント人材不足懸念確認。pos2 VS Code 1.147→code.visualstudio.com/updates/v1_147 複数クエリ（visualstudiomagazine.com/blogs/release-radar/2026/11/vs-code-1-147-adds-scheduled-ai-tasks-browser-control-and-model-routers.aspx, windowsforum.com/news/vs-code-1-147-stable-copilot-agent-scheduling-browser-use-and-enterprise-harness-controls.453068/）で2026-11-18 Stableリリース・Browser Use Chrome/Edge・Send Later実験的・Model Routers YAML・macOS Ventura/Sonoma非推奨確認。pos3 GitHub Copilot code review→github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more/ 検索結果でURL確認済み。タイトル「Adaptive effort, secret detection, and more」から機能名確認。WebFetch ENOTFOUND（egress制限）のためスニペット事実のみ使用。9/18 GA確認済み（別クエリ）。pos4 楽天証券データ漏えい→watch.impress.co.jp/docs/news/2157207.html 複数クエリ（sbbit.jp/article/fj/188499, news.web.nhk/newsweb/na/nd-20261117de77397, smartscope.blog/blog/rakuten-securities-potential-data-breach-up-approximately-4-2026/）で2026-11-17発表・11/11不正アクセス・11/16検知・最大1125万口座ログインID・約447万口座氏名等・パスワード/不正取引なし確認。pos5 Miro AI調査（思考力）→itmedia.co.jp/news/article/2611/19/2000003314/ 複数クエリ（zaikei.co.jp/releases/3698053/, news.yahoo.co.jp/articles/a831f47eeb4ba0883a21faa84769cb89649519b4）で2026-11-19 ITmedia掲載・9500人超・83%個人生産性向上・56%品質向上・73%スピード向上・60%協働改善なし・52%意思決定改善なし確認。pos6 ボイジャー1号（視野）→forbesjapan.com/articles/detail/107711 複数クエリ（cnn.co.jp/fringe/35241463.html, news.yahoo.co.jp/expert/articles/7e1759ae1bb5dc587548360e8f4b7fd6919b276c, news.infoseek.co.jp/article/mainichi_20261117k0000m100349000c/）で2026-11-18日本時間19時16分07秒到達・約259億km・1977年打ち上げ・人工物史上初・往復約48時間確認。pos7 国枝慎吾殿堂入り（視野）→jiji.com/jc/article?k=2026111900508&g=spo 複数クエリ（news.yahoo.co.jp/articles/bd0c8e8c681720adbcbfd8bad9552dddc0d52906, news.yahoo.co.jp/articles/5b0ef22968222c540dae87894ec2a556bbaf2ec0, nippon.com/ja/articles/-/57721）で日本人全部門初・車いす部門・四大大会シングルス28勝・生涯GSを男子初達成・パラリンピックシングルス3金・式典2027年8月26-28日ニューポート確認。",
+    "action": "キュー取得不可のためスキップ。本日分 (2026-11-20) の記事7件を新規生成。"
+  },
+  {
     "slug": "2026-11-19-queue",
     "ranOn": "2026-11-19",
     "verdict": "unverifiable",
