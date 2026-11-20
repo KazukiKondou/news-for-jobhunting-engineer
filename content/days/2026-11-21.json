@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-21",
+  "label": "2026年11月21日 (土)",
+  "intro": "GoogleがJetpack Compose <strong>1.13</strong>安定版をリリース（実験的APIを<strong>120</strong>件→<strong>58</strong>件に削減）。マイクロソフトは<strong>11</strong>月<strong>10</strong>日に.NET <strong>11</strong>を正式リリースしC# <strong>15</strong>にunion型を導入。Node.jsが<strong>11</strong>月<strong>11</strong>日にHTTP/2とTLS周辺を中心に<strong>16</strong>件（HIGH <strong>7</strong>件）の脆弱性を修正。サイバーエージェントがWeb Speed Hackathon <strong>2027</strong>の参加受付を開始。大エジプト博物館が開館<strong>1</strong>年で来場者<strong>520</strong>万人超を記録した。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "Jetpack Compose 1.13安定版リリース——プログレッシブブラーとPolygon Shapes追加",
+          "summary": "Googleは2026年11月にJetpack Compose 1.13を安定版としてリリースした。プログレッシブブラーとPolygon Shapesが新機能として追加され、DialogやPopupでブラーを直接設定できるようになった。BottomAppBarやTopAppBarなどMaterial Design系のAPIが安定版に昇格し、実験的アノテーションの数は従来の<strong>120</strong>件から<strong>58</strong>件に削減された。なお、BOM（部品表）のアップデートにはKotlin <strong>2.2</strong>以上が必要とされている。",
+          "sourceName": "Android Developers Blog",
+          "sourceUrl": "https://developer.android.com/blog/posts/jetpack-compose-november-2026-release",
+          "tags": ["技術トレンド", "Android"]
+        },
+        {
+          "position": 2,
+          "title": "マイクロソフト、.NET 11正式リリース——C# 15にunion型、CLIの起動負荷を削減",
+          "summary": "マイクロソフトは2026年11月10日に.NET 11を正式リリースした。C# 15ではunionキーワードによる「共用型」が追加され、コンパイラが網羅的なパターンマッチングを強制する。MSBuildサーバーがCLI呼び出し間で起動状態を保つ設計変更により日常的なビルド作業のオーバーヘッドが削減され、JITの境界チェック除去やAOTコンパイラの最適化も含まれる。サポート期間は<strong>2</strong>年のSTSリリースで、.NET 8と.NET 9は同日にサポートが終了している。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/net_11cjitaot.html",
+          "tags": ["技術トレンド"]
+        },
+        {
+          "position": 3,
+          "title": "Node.jsセキュリティリリース——16件のCVE修正、HTTP/2とTLSにHIGH評価7件",
+          "summary": "OpenJS FoundationはNode.js v22.23.5、v24.22.3、v26.13.1を2026年11月11日にリリースした。今回修正されたCVEは計<strong>16</strong>件（HIGH <strong>7</strong>件、MEDIUM 6件、LOW 3件）で、最高深刻度はHIGH。主な脆弱性はHTTP/2とTLSプロセスに関わるCVE-2026-123864（HTTPSヒープ情報漏えい）とCVE-2026-123863（HTTP/2中断処理）で、どちらもHIGH評価を受けている。本番環境でNode.jsを使用している場合は各バージョンへの速やかなアップデートが求められる。",
+          "sourceName": "Node.js November 2026 Security Releases",
+          "sourceUrl": "https://braindetox.kr/en/posts/nodejs_security_release_2026_11.html",
+          "tags": ["技術トレンド", "セキュリティ"]
+        },
+        {
+          "position": 4,
+          "title": "サイバーエージェント、Web Speed Hackathon 2027の参加受付を開始",
+          "summary": "サイバーエージェントは2027年3月27日（土）〜28日（日）開催の「Web Speed Hackathon 2027」の参加申込受付を開始した。同ハッカソンはWebのパフォーマンス最適化を競う形式で、1日目はオンラインのみ、2日目は対面またはオンラインを選択できる。選考はなくエンジニアなら誰でも応募可能で、エントリー締切は2027年3月24日（水）23:59とされている。",
+          "sourceName": "サイバーエージェント 採用サイト",
+          "sourceUrl": "https://www.cyberagent.co.jp/careers/students/career_event/detail/id=33969",
+          "tags": ["採用", "フロントエンド"]
+        },
+        {
+          "position": 5,
+          "title": "「ITエンジニア本大賞2027」投票スタート——技術書・ビジネス書を最大6冊まで",
+          "summary": "好きな技術書・ビジネス書を最大<strong>6</strong>冊まで選んで投票する「ITエンジニアが選ぶ本大賞2027」の投票受付が開始された。Web投票の締切は2026年12月<strong>6</strong>日で、両部門のベスト10は2027年1月下旬に発表予定。大賞はDevelopers Summit 2027（2027年<strong>2</strong>月<strong>17</strong>日開催）のプレゼン投票で決定される。前回2026年版の技術書部門大賞は『ことばの意味を計算するしくみ 計算言語学と自然言語処理の基礎』（谷中瞳著、講談社）だった。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/itit2027.html",
+          "tags": ["技術書", "コミュニティ"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "意思決定ルールを定めても組織が動かない4つの要因——DHBR 2026年11月号",
+          "summary": "『DIAMONDハーバード・ビジネス・レビュー』2026年11月号は「任せる技術」を特集している。ミシガン大学ロスのリンディ・グリーア、IMDのジェニファー・ジョーダンほかによる翻訳論考では、決定権の枠組みを設定しても組織が期待通りに動かない<strong>4</strong>つのよくある誤りを分析している（英語版HBR 2026年7-8月号掲載）。委譲とは「役割を割り当てる」だけでなく「責任まで移す」ことだという視点で、RACIのような枠組みが実務でうまく機能しない理由を論じている。MITスローン校のエルズベス・ジョンソン氏による「権限委譲で誰もが直面しうる<strong>4</strong>つの課題」も収録されている。",
+          "sourceName": "DIAMONDハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/list/magazine/2026-11",
+          "tags": ["思考力", "意思決定"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "大エジプト博物館、開館1年で来場者520万人超——日本のODAが支えた建設",
+          "summary": "2025年11月にカイロ近郊ギザで開館した大エジプト博物館（GEM）が、2026年11月16日時点で開館から<strong>1</strong>年間の来場者数が<strong>520</strong>万人を超えたとEgyptian Streetsが報じた。エジプト観光・考古大臣が開館前に示した年間<strong>500</strong>万人来場という目標を上回る結果となった。日本はJICAを通じた円借款（建設支援）と技術協力でこの博物館の整備に深く関わっており、開館式典でエルシーシ大統領が「日本の支援を決して忘れない」と謝辞を述べた。",
+          "sourceName": "Egyptian Streets",
+          "sourceUrl": "https://egyptianstreets.com/2026/11/16/grand-egyptian-museum-attracts-5-2-million-visitors-in-its-first-year/",
+          "tags": ["文化", "国際"]
+        }
+      ]
+    }
+  ]
+}
