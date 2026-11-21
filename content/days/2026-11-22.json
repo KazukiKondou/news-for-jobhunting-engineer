@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-22",
+  "label": "2026年11月22日 (日)",
+  "intro": "GitHubはCopilotアプリをAzure DevOpsとGHESに対応させた。CocoaPodsは<strong>12月2日</strong>から新規pod受け付けを停止しSwiftPMへの移行を推奨。マッキンゼーの調査ではAIコーディングツール導入組織の<strong>3</strong>割近くで生産性が低下した一方、上位<strong>4</strong>分の<strong>1</strong>は生産性が<strong>2</strong>倍以上向上した。広西の洞窟から原人の歯化石<strong>9</strong>本が発見され、ホモ・エレクトスのアジア生息が約<strong>18万4000</strong>年前まで続いたことが示された。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "GitHub Copilotアプリ、Azure DevOpsとGHESに対応——企業DevOps環境での利用が拡大",
+          "summary": "GitHubは2026年11月17日、CopilotアプリがAzure DevOpsリポジトリとGitHub Enterprise Server（GHES）、サインイン済みブラウザからの利用に対応したと発表した。企業のDevOps環境でCopilotを一元的に活用できるようになり、オンプレミス環境でも同ツールが利用可能になった。同週にはJetBrains AirとXcodeのコーディングアシスタントとしての一般提供も開始された。エンタープライズ向けの機能拡充が続いており、就活先となる企業内での開発支援AIとしての採用が進んでいる。",
+          "sourceName": "GitHub Changelog",
+          "sourceUrl": "https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases/",
+          "tags": ["AI", "開発ツール", "GitHub"]
+        },
+        {
+          "position": 2,
+          "title": "CocoaPods、2026年12月2日から新規pod受け付け停止——SwiftPMへの移行を推奨",
+          "summary": "2026年11月11日の「What's new in Swift: November 2026 Edition」によると、CocoaPodsは同年<strong>12月2日</strong>に新規podおよびpodバージョンの受け付けを停止する。停止後も既存のpodは読み取り専用で利用できるが、更新公開はできなくなる。Google Mobile Ads SDKは同日以降Swift Package Manager（SwiftPM）と手動ダウンロードのみで新リリースを配布するとしており、FirebaseもすでにCocoaPodsへの新規リリースを2026年10月に停止している。iOSアプリを開発するエンジニアにはSwiftPMへの移行が急務となっている。",
+          "sourceName": "CodeZine",
+          "sourceUrl": "https://codezine.jp/news/detail/30358",
+          "tags": ["iOS", "Swift", "モバイル"]
+        },
+        {
+          "position": 3,
+          "title": "マッキンゼー調査：AIコーディングで3割の組織が生産性低下、上位4分の1は2倍以上向上",
+          "summary": "マッキンゼーは2026年11月16日、製品・エンジニアリング部門のリーダー<strong>300人以上</strong>を対象にした調査結果を発表した。AIコーディングツールを導入した組織のうち、上位4分の1の組織では生産性が<strong>2倍以上</strong>向上した一方、<strong>3割近く</strong>の組織では生産性が低下したと回答している。課題として、AIによる成果の証明が難しい点が挙げられており、ツール導入の効果は組織によって二極化していることが示された。",
+          "sourceName": "Business Insider Japan",
+          "sourceUrl": "https://www.businessinsider.jp/article/2611-mckinsey-cognition-target-roi-challenge-ai-coding/",
+          "tags": ["AI", "生産性", "調査"]
+        },
+        {
+          "position": 4,
+          "title": "Findy、技術カンファレンス動画約300件を無料公開——「Findy Knowledge」サービス開始",
+          "summary": "Findyは2026年11月5日、技術カンファレンスなどの登壇動画を無料で閲覧できる新サービス「Findy Knowledge」の提供を開始した。国内外のエンジニアによる実践的な知識を技術テーマをもとに横断検索でき、約<strong>300</strong>件の動画が公開されている。エンジニアが直接発信する形式の知識が集約されており、カンファレンスに参加できなかった場合でも事後に技術情報を追える。",
+          "sourceName": "PR TIMES",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000283.000045379.html",
+          "tags": ["エンジニア情報", "学習", "サービス"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "AIが意思決定を速くしても事業は加速しない——組織の土台が生産性を決める",
+          "summary": "フォーブス・ジャパンは2026年11月18日、AIによって意思決定は速くなったものの事業の加速につながらない原因を分析した記事を掲載した。記事は「分析結果があっても、組織にデータを成果改善へ結びつける土台がなければ行動は変わらない」と指摘している。AIツールは情報処理と選択肢の生成を速めるが、その結果を実際の行動変容につなげられるかどうかは組織の構造と人間の判断力に依存する。",
+          "sourceName": "Forbes JAPAN",
+          "sourceUrl": "https://forbesjapan.com/articles/detail/108446",
+          "tags": ["AI", "思考力", "意思決定"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "中国広西で原人の歯化石9本発見——約18万年前まで生息、Nature誌に掲載",
+          "summary": "中国科学院などの国際研究チームは2026年11月19日、広西チワン族自治区の八仙洞と那仙洞から計<strong>9本</strong>のヒト族の歯化石を発見したとNature誌に発表した。年代測定では約<strong>32万4000年</strong>前から<strong>18万4000年</strong>前のものとされ、ホモ・エレクトスがアジアの雨林で生存し続けていた最新証拠となる。これまで中国南部における原人の記録は約40万年前までとされており、発見によりホモ・エレクトスのアジア生息期間が更新された。残る<strong>1本</strong>は既知のどのヒト族の種にも当てはまらず、その正体は未解明とされている。",
+          "sourceName": "Nature World News",
+          "sourceUrl": "https://www.natureworldnews.com/articles/73932/20261119/fossil-teeth-suggest-homo-erectus-survived-chinas-rainforests-until-about-184000-years-ago.htm",
+          "tags": ["科学", "考古学", "国際"]
+        }
+      ]
+    }
+  ]
+}

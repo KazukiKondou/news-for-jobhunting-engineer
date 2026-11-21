@@ -1,5 +1,12 @@
 [
   {
+    "slug": "2026-11-22-queue",
+    "ranOn": "2026-11-22",
+    "verdict": "unverifiable",
+    "detail": "ファクトチェックキューAPI（https://news.kazukikondo.com/api/factcheck/queue）はFACTCHECK_TOKEN未設定のため認証不可。キュー内容不明のためスキップ。本日分6件（IT就活4件・思考力1件・視野1件）はWebSearchで取得したURLのみを使用し手動検証済み。pos1 GitHub Copilot Azure DevOps/GHES対応→github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases/ 複数クエリ（GitHub Copilot app Azure DevOps GHES 2026-11-17・Microsoft Ignite GitHub releases）でAzure DevOps対応・GHES対応・ブラウザサインイン利用・JetBrains Air/Xcode同週GA確認。pos2 CocoaPods 12月2日停止→codezine.jp/news/detail/30358 複数クエリ（CocoaPods 新規pod停止 2026年12月・SwiftPM移行 November 2026 Swift）でCocoaPods 12月2日新規pod受付停止・読み取り専用継続・Google Mobile Ads SwiftPM移行・Firebase 10月停止済み確認。pos3 マッキンゼーAIコーディング調査→businessinsider.jp/article/2611-mckinsey-cognition-target-roi-challenge-ai-coding/ 複数クエリ（McKinsey AI coding productivity 2026年11月16日・AIコーディング 生産性低下 300人超）で300人以上対象・上位4分の1は2倍以上向上・3割近く低下・成果証明困難確認。pos4 Findy Knowledge 300件→prtimes.jp/main/html/rd/p/000000283.000045379.html 複数クエリ（Findy Knowledge 技術カンファレンス動画 2026年11月5日・Findy Knowledge 300件）で2026-11-05提供開始・約300件・横断検索確認。pos5 Forbes Japan AI意思決定（思考力）→forbesjapan.com/articles/detail/108446 複数クエリ（Forbes Japan AI 意思決定 加速 2026年11月18日・AI 組織 土台 生産性）で2026-11-18掲載・分析結果だけでは行動は変わらない・組織構造と判断力依存確認。pos6 広西歯化石（視野）→natureworldnews.com/articles/73932/20261119/fossil-teeth-suggest-homo-erectus-survived-chinas-rainforests-until-about-184000-years-ago.htm 複数クエリ（Homo erectus fossil teeth China Guangxi 2026 November Nature・ホモ・エレクトス 歯化石 広西 2026年11月19日）で中国科学院・八仙洞/那仙洞・9本・32万4000年前〜18万4000年前・Nature誌掲載・1本未解明確認。",
+    "action": "キュー取得不可のためスキップ。本日分 (2026-11-22) の記事6件を新規生成。"
+  },
+  {
     "slug": "2026-11-21-queue",
     "ranOn": "2026-11-21",
     "verdict": "unverifiable",
