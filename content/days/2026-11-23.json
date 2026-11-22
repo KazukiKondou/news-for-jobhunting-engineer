@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-23",
+  "label": "2026年11月23日 (月・祝)",
+  "intro": "GoogleはAIコーディングエージェント向け「Modern Web Guidance 1.0」を<strong>200</strong>以上のスキルで正式公開。28卒を含むITエンジニア採用数は<strong>9</strong>割超の企業が維持・拡大方針、MicrosoftはIgnite 2026でAIセキュリティ基盤「Perception」を発表した。DIAMOND HBR 12月号は柳井正氏・梅原大吾氏のインタビューで「リーダーの直観力」を特集。2019年の火災から<strong>7</strong>年を経た首里城正殿が本日より一般公開を開始した。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "AI時代も28卒採用は縮小せず——ITエンジニア9割超の企業が「維持・拡大」方針",
+          "summary": "レバテックは2026年11月、IT・システム担当者<strong>553</strong>名を対象に「AI時代のITエンジニア新卒採用動向調査」を発表した。28卒を含む新卒採用数について、<strong>9</strong>割超の企業が「維持または拡大」すると回答し、AI普及後も新卒採用が縮小していないことが明らかになった。採用数を「増やした」が<strong>16.5</strong>%、「やや増やした」が<strong>34.7</strong>%で、合わせて半数以上の企業が前年より採用数を増やしている。",
+          "sourceName": "PR TIMES",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000001005.000010591.html",
+          "tags": ["採用", "28卒", "調査"]
+        },
+        {
+          "position": 2,
+          "title": "ITエンジニアの98.4%が応募前に企業の技術発信を確認——約半数が内容で応募を見送る",
+          "summary": "リブセンスがエンジニア<strong>320</strong>名を対象に実施した調査で、<strong>98.4</strong>%が応募やスカウト返信の前に企業の技術発信を確認していることがわかった。さらに約半数のエンジニアは、技術発信の内容を理由に応募を見送った経験があると回答している。テックブログなどの技術発信が、採用における重要な判断材料として機能していることが数字で示された。",
+          "sourceName": "PR TIMES",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000236.000015443.html",
+          "tags": ["採用", "技術発信", "調査"]
+        },
+        {
+          "position": 3,
+          "title": "Google「Modern Web Guidance 1.0」正式公開——200以上のスキルでAIエージェントのWeb開発を支援",
+          "summary": "Googleは2026年11月10日、AIコーディングエージェント向けのオープンソーススキル集「Modern Web Guidance 1.0」の安定版をリリースした。Chrome・Edge・Mozillaの各チームが共同で監修した<strong>200</strong>以上のスキルを含み、ブラウザの対応状況を踏まえたコード生成と既存コードのモダナイゼーションを支援する。npx modern-web-guidance@latest installコマンドで主要なコーディングエージェントへ導入でき、AnthropicやOpenAI、Googleが参加する公開評価ベンチマークも提供される。",
+          "sourceName": "Chrome Developers Blog",
+          "sourceUrl": "https://developer.chrome.com/blog/modern-web-guidance-v1",
+          "tags": ["AI", "Web開発", "開発ツール"]
+        },
+        {
+          "position": 4,
+          "title": "Microsoft Perception提供開始——AIエージェントがサイバー攻撃の検出から修復まで自律対応",
+          "summary": "MicrosoftはIgnite 2026（2026年11月）で、AIエージェントを用いてサイバー脅威に対抗する新プラットフォーム「Microsoft Perception」の一般提供を開始した。信号・アクションツール、コンテキスト層、専門エージェントの<strong>3</strong>層構成で、Defender・Sentinel・Entra・Purview・Intuneに横断的に統合される。背景として、2026年のCVEプログラムで公開された脆弱性数が<strong>9万6000</strong>件超と2024年比で約<strong>2</strong>倍に膨らんでおり、AIによる防御の自動化が急務となっている。",
+          "sourceName": "ITmedia NEWS",
+          "sourceUrl": "https://www.itmedia.co.jp/news/article/2611/20/2000003368/",
+          "tags": ["AI", "セキュリティ", "Microsoft"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "DIAMOND HBR 12月号「リーダーの直観力」——柳井正・梅原大吾が語る経験知の正体",
+          "summary": "ダイヤモンド・ハーバード・ビジネス・レビュー2026年12月号（2026年11月10日発売）は、「リーダーの直観力——経験を武器に本質を捉える」を特集している。ファーストリテイリングの柳井正氏のインタビュー、一橋大学大学院の鈴木真介氏の寄稿、プロゲーマーの梅原大吾氏のインタビューが収録されている。スポーツ科学の専門家が、トップコーチが重圧下でいかに意思決定するかを論じた論考も掲載されている。",
+          "sourceName": "DIAMOND ハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://www.diamond.co.jp/magazine/059691226.html",
+          "tags": ["思考力", "直観", "リーダーシップ"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "首里城正殿、2019年の火災から7年——本日11月23日より内部の一般公開を開始",
+          "summary": "2019年10月31日の火災で焼失した首里城正殿が、約<strong>7</strong>年を経て再建され、2026年11月22日に政府主催の復元完成式が開かれた。23日（月・祝）から正殿内部の一般公開が始まり、大人の入場料は<strong>400</strong>円から<strong>1,000</strong>円に改定されるとともに、来場集中を避けるための事前予約制が導入された。正殿の大龍柱の向きについては現在も議論が続いており、技術検討委員会は暫定的に前回の向きを踏襲するとしている。",
+          "sourceName": "琉球新報",
+          "sourceUrl": "https://ryukyushimpo.jp/region/entry-5605789.html",
+          "tags": ["文化", "沖縄", "観光"]
+        }
+      ]
+    }
+  ]
+}
