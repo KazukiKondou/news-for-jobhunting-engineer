@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-25",
+  "label": "2026年11月25日 (水)",
+  "intro": "28卒ITエンジニア採用数を<strong>9</strong>割超の企業が維持・拡大方針、MicrosoftはIgniteで「.NET <strong>11</strong>」を正式リリースしC# 15をデフォルト化。東大らが藻類DNAを動物染色体に組み込む「プラニマル細胞」の作製成功をNature Communicationsに発表した。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "AI時代でも28卒ITエンジニア採用は縮小せず——9割超が「維持・拡大」方針",
+          "summary": "レバテックが2026年11月11日に発表した「AI時代における新卒ITエンジニアの採用動向調査」によると、<strong>27</strong>卒・<strong>28</strong>卒のITエンジニア採用数を「維持・拡大」する方針の企業が<strong>9</strong>割超に達した。対象はIT・システム担当者の採用や人的リソース調達に関わる<strong>553</strong>名で、2026年7月に実施された。AI代替への懸念が指摘される中でも新卒採用を縮小しない背景には、中長期的なマネジメント人材の育成ニーズがある。一方で、約半数の企業が若手採用を抑制した場合の将来的なマネジメント人材不足を懸念しているとも報告された。",
+          "sourceName": "PR TIMES（レバテック）",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000001005.000010591.html",
+          "tags": ["採用", "28卒", "AI"]
+        },
+        {
+          "position": 2,
+          "title": "Microsoft、.NET 11正式リリース——C# 15デフォルト化、SDKにMCPテンプレート同梱",
+          "summary": "Microsoftは2026年11月10日、開発プラットフォームの最新版「.NET 11」を正式リリースした。サポート期間<strong>2</strong>年のSTS（Standard Term Support）版で、<strong>3</strong>年サポートのLTSである.NET 10と並行提供される。C# 15がデフォルト言語バージョンとなり、共用体型（union types）やクローズドな継承階層（Closed hierarchies）が追加されたほか、AIエージェント向けMCPサーバーのプロジェクトテンプレートが.NET SDKに同梱された。なお.NET 8と.NET 9はリリースと同日の2026年11月10日でサポートが終了した。",
+          "sourceName": "窓の杜（Impress Watch）",
+          "sourceUrl": "https://forest.watch.impress.co.jp/docs/news/2155556.html",
+          "tags": [".NET", "C#", "開発ツール"]
+        },
+        {
+          "position": 3,
+          "title": "GitHub CopilotにClaude Fable 5.2・Gemini 4 Carbon追加——GHES連携もGA",
+          "summary": "GitHubは2026年11月16日付の週次リリースで、GitHub CopilotにAnthropicの「Claude Fable 5.2」とGoogleの「Gemini 4 Carbon」の<strong>2</strong>モデルを追加した。いずれもPro+・Max・Business・Enterpriseのユーザーが利用でき、Claude Fable 5.2についてはBusinessおよびEnterprise向けにデータ保持ポリシーの管理者設定が必要となる。同週にJetBrains環境でのエージェントセッション複数管理のサポートも追加され、IDE連携が一段と強化された。またGitHub Enterprise Server（GHES）のリポジトリ・Issue・PRを扱う機能の一般提供も同週に開始されている。",
+          "sourceName": "GitHub Blog",
+          "sourceUrl": "https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9",
+          "tags": ["GitHub Copilot", "AI", "開発ツール"]
+        },
+        {
+          "position": 4,
+          "title": "GoogleがGemini 4 CarbonをAPIで開発者向けに公開——複雑な推論タスク向け最上位モデル",
+          "summary": "Googleは2026年11月10日、複雑なAIタスク向けの最上位モデル「Gemini 4 Carbon」を有料の開発者向けAPIで公開した。Google AI StudioおよびAndroid Studio経由で利用でき、高度な推論を必要とするAIアプリケーションへの組み込みが可能になった。同モデルは2026年10月28日にGoogleが発表しており、今回のAPIリリースにより開発者は自社のサービスやツールにGemini 4 Carbonを直接活用できるようになった。",
+          "sourceName": "Google Blog",
+          "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-4-carbon-developers/",
+          "tags": ["AI", "Gemini", "API"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 5,
+          "title": "AIで作業は速くなっても「思考は鋭くなるとは限らない」——BCG×ハーバード758名研究",
+          "summary": "ボストン・コンサルティング・グループとハーバード・ビジネス・スクール、ウォートン、MITスローン、ウォーリックの研究者らが2026年の学術誌『Organization Science』に発表した現場実験では、若手コンサルタント<strong>758</strong>名がAIツールを使用し、成果物の質が平均<strong>40</strong>%以上向上、作業速度が<strong>25.1</strong>%改善した。Forbes Japanが2026年11月12日付で紹介した記事では「仕事が滑らかになっても、批判的思考が鋭くなるとは限らない」という問いを投げかけている。研究では、参加者の成果が共通の水準に収束する「均質化」傾向も確認されており、AIがアウトプットを押し上げる一方で、個人の思考の深さや独自性への影響は別の問いとして残る。",
+          "sourceName": "Forbes Japan",
+          "sourceUrl": "https://forbesjapan.com/articles/detail/108104",
+          "tags": ["思考力", "AI", "研究"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "動植物ハイブリッド「プラニマル細胞」世界初の作製成功——藻類DNAを動物染色体に組み込む",
+          "summary": "東京大学・東京科学大学などの共同研究グループは、藻類の全DNAを動物培養細胞に組み込んだ動植物ハイブリッド細胞「プラニマル細胞」の作製に成功し、2026年11月12日付で学術誌『Nature Communications』にオンライン掲載された。藻類のDNAが動物細胞の染色体に組み込まれて安定的に維持されることが初めて確認された一方、藻類のDNAはメチル化によって不活性に保たれており、光合成を担う葉緑体は融合の過程で分解された。研究グループは今後、光合成や窒素固定に関わる遺伝子を動物細胞に導入する技術の開発を目指すとしており、細胞培養コストの削減や環境負荷の低減を見据えた基礎研究として位置づけられている。",
+          "sourceName": "東京大学（プレスリリース）",
+          "sourceUrl": "https://www.s.u-tokyo.ac.jp/ja/press/11265/",
+          "tags": ["科学", "生命科学", "東大"]
+        }
+      ]
+    }
+  ]
+}
