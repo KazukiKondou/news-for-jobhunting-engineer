@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-26",
+  "label": "2026年11月26日 (木)",
+  "intro": "28卒エンジニア採用では<strong>64.2</strong>%の企業がAI普及を受けた採用要件変更を実施。JetpackCompose <strong>1.13</strong>が安定版に昇格し実験的APIが<strong>58</strong>件に削減。国枝慎吾が日本初の国際テニス殿堂（車いす部門）入りを果たした。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "28卒エンジニア採用、AI台頭で64%の企業が採用要件変更——約9割が10月本選考開始",
+          "summary": "サポーターズが2026年11月11日に発表した「28卒エンジニア採用・インターン期調査」によると、AI普及を受けて採用要件を変更した企業が<strong>64.2</strong>%に達した。約<strong>9</strong>割の企業が10月までに本選考を開始しており、採用の早期化が一層進んでいる。インターンへの応募数が「増加した」と答えた企業は約<strong>57</strong>%で、採用競争が前年より激しくなっている。AIの台頭が採用基準に影響している実態が示された。",
+          "sourceName": "PR TIMES（サポーターズ）",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000100.000045025.html",
+          "tags": ["採用", "28卒", "AI"]
+        },
+        {
+          "position": 2,
+          "title": "LAPRAS、エンジニア採用プランを3種に再編——採用DBと人材紹介機能を組み合わせて提供",
+          "summary": "ハイスキルITエンジニア採用プラットフォーム「LAPRAS」を運営するLAPRAS株式会社は2026年11月24日、採用DBと人材紹介機能を組み合わせた体制への進化に伴い、企業の採用課題に合わせて選べる<strong>3</strong>つの新プラン（セルフ / アドバンス / BPaaS）の提供を開始した。これまでの単一プランから選択制への移行で、採用活動の自走運用から採用業務のアウトソースまでカバーする体制が整えられた。",
+          "sourceName": "PR TIMES（LAPRAS）",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000163.000024729.html",
+          "tags": ["採用", "エンジニア転職", "スタートアップ"]
+        },
+        {
+          "position": 3,
+          "title": "GitHub、開発者とAIエージェントがマージ前にシークレットをスキャンできる機能を追加",
+          "summary": "GitHubは2026年11月17日、Copilotのセキュリティレビューに「GitHub Secret Scanning」を組み込み、開発者とAIエージェントがコード変更をマージする前にシークレットの漏洩をオンデマンドで検出できる機能を公開した。<strong>150</strong>以上の業界パートナーと構築したカタログから<strong>500</strong>以上のシークレット種別に対応する。エージェントビルダーはCopilot SDKを通じてエージェントの変更を返す前にセキュリティレビューをリクエストできるため、個別の検出ツールを管理する必要がなくなる。",
+          "sourceName": "GitHub Blog（Changelog）",
+          "sourceUrl": "https://github.blog/changelog/2026-11-17-secret-scanning-on-demand-for-developers-and-agents",
+          "tags": ["GitHub", "セキュリティ", "AIエージェント"]
+        },
+        {
+          "position": 4,
+          "title": "Vercel、Workflow SDK 5リリース——ペイロード暗号化を標準化しエンジンを全面書き直し",
+          "summary": "Vercelは2026年11月12日、ワークフロー実行エンジンを本番環境向けに全面強化した「Workflow SDK 5」の提供を開始した。ワークフローとステップの入出力やフックのペイロード・ストリームデータは、実行ごとに固有の鍵を使ったAES-256-GCM暗号化が標準で適用される。エンジン全体を書き直すことで、余分なキューホップ・ネットワーク通信・CPU処理を削減した。AIエージェント向けには非推奨になったDurableAgent APIに代わり、モデル呼び出しとツールをチェックポイント化するWorkflowAgentが利用できる。",
+          "sourceName": "Vercel Blog",
+          "sourceUrl": "https://vercel.com/blog/workflow-sdk-5",
+          "tags": ["Vercel", "AIエージェント", "OSS"]
+        },
+        {
+          "position": 5,
+          "title": "Jetpack Compose 1.13が安定版に——プログレッシブブラーとポリゴンシェイプを追加",
+          "summary": "Googleは2026年11月にJetpack Composeの安定版「1.13」をリリースした。プログレッシブブラーおよびポリゴンシェイプ（PolygonShape・MorphPolygonShape）がfoundationライブラリに追加されたほか、BottomAppBar・TopAppBar・BasicAlertDialogなどのAPIが安定版に昇格した。実験的なアノテーションの数が<strong>120</strong>から<strong>58</strong>に削減され、APIの安定性が大きく向上した。アップグレードにはKotlin 2.2以上とcompileSdk 37.1以上が必要で、Compose BOM 2026.11.01へのアップデートで採用できる。",
+          "sourceName": "Android Developers Blog",
+          "sourceUrl": "https://developer.android.com/blog/posts/jetpack-compose-november-2026-release",
+          "tags": ["Android", "Jetpack Compose", "モバイル"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "「直観は経験で磨ける」——DHBR 12月号が柳井正・梅原大吾のインタビューで問い直す",
+          "summary": "ダイヤモンド・ハーバード・ビジネス・レビュー（DHBR）は2026年11月10日発売の12月号で「リーダーの直観力——経験を武器に本質を捉える」を特集した。ファーストリテイリング会長・柳井正氏へのインタビューや、一橋大学の鈴木真介教授による直観と経験の関係についての論考が収録されている。スポーツ界の意思決定やプロゲーマー・梅原大吾氏へのインタビューも含まれており、直観力をテーマに多様な領域の実践者・研究者の知見を集めた構成となっている。",
+          "sourceName": "DIAMOND ハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://www.diamond.co.jp/magazine/059691226.html",
+          "tags": ["思考力", "直観", "意思決定"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "国枝慎吾、国際テニス殿堂入りへ——車いす部門で日本初、2027年8月に表彰式",
+          "summary": "国際テニス殿堂は現地時間2026年11月18日（日本時間11月19日）、車いすテニスの国枝慎吾氏（42）が2027年に車いす部門で殿堂入りすることが決まったと発表した。日本勢として初の国際テニス殿堂入りとなる。国枝氏は四大大会のシングルスで<strong>28</strong>回、ダブルスで<strong>22</strong>回優勝し、パラリンピックでは計<strong>4</strong>個の金メダルを獲得している。車いす部門でパラリンピックと四大大会すべてで優勝する「生涯ゴールデンスラム」を達成しており、表彰式は2027年8月に米ロードアイランド州ニューポートで行われる予定。",
+          "sourceName": "NHK",
+          "sourceUrl": "https://news.web.nhk/newsweb/na/nd-20261119de78535",
+          "tags": ["スポーツ", "文化", "国際"]
+        }
+      ]
+    }
+  ]
+}
