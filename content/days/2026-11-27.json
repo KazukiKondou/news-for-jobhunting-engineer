@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-27",
+  "label": "2026年11月27日 (金)",
+  "intro": "フリーランスのアプリエンジニア案件平均年収は<strong>918</strong>万円（フリーランスボード調べ）。jQuery <strong>4.1</strong>が内部をquerySelectorAllに統一してリリース。EU首脳がECB次期総裁にスペインのデコス氏指名に合意。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "AI時代でも28卒ITエンジニア採用は縮小せず——9割超の企業が「維持・拡大」",
+          "summary": "レバレジーズ株式会社がIT採用担当者<strong>553</strong>名を対象に実施した調査によると、27卒・28卒ともにITエンジニアの新卒採用数を「維持・拡大」する企業が<strong>9</strong>割超にのぼった。生成AI普及に伴うITエンジニア新卒採用市場の実態調査として実施されたもので、AI台頭後もエンジニアの採用需要が衰えていない現状が示されている。採用競争の激化が続く中、早期からの企業研究と選考準備が求められる状況は変わらない。",
+          "sourceName": "PR TIMES（レバレジーズ）",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000001005.000010591.html",
+          "tags": ["採用", "28卒", "AI"]
+        },
+        {
+          "position": 2,
+          "title": "アプリエンジニアのフリーランス案件、平均年収918万円——リモート比率は78%",
+          "summary": "フリーランス案件検索サービス「フリーランスボード」を運営するINSTANTROOM株式会社が2026年11月に発表した調査によると、アプリエンジニア案件<strong>36,980</strong>件の平均月額単価は<strong>76.5</strong>万円、試算年収は<strong>918</strong>万円だった。リモート案件が<strong>78.0</strong>%を占めており、フリーランスエンジニアの働き方の柔軟性が定着しつつある実態が示された。正社員と比較する際の市場水準の一指標として参照できる。",
+          "sourceName": "PR TIMES（フリーランスボード）",
+          "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000170.000116595.html",
+          "tags": ["フリーランス", "市場データ", "エンジニア転職"]
+        },
+        {
+          "position": 3,
+          "title": "MCPに「Skills over MCP」β版——AIエージェントがスキル手順もMCP経由で取得",
+          "summary": "2026年11月26日、AI外部ツール接続の標準規格「MCP（Model Context Protocol）」に新機能「Skills over MCP」がβ版として追加された。これまでMCPはツールとの接続のみを担っていたが、新機能ではAIエージェントがMCPサーバからスキル（ツールの使い方の手順）を受け取れるようになる。エージェントは必要なスキルのみを読み込むことでコンテキストを節約でき、より効率的なAIシステムの構築が可能になる。MCPは業界標準として普及が加速しており、エンジニアとして仕組みを理解しておく価値が高い。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/mcpskills_over_mcpmcp.html",
+          "tags": ["MCP", "AIエージェント", "技術トレンド"]
+        },
+        {
+          "position": 4,
+          "title": "jQuery 4.1正式版リリース——内部実装をquerySelectorAllに統一し高速化",
+          "summary": "2026年11月25日、jQuery 4.1の正式版がリリースされた。今回の主な変更点は、内部実装で使っていたgetElementsByTagNameやgetElementsByClassNameをすべてquerySelectorAllに置き換えることによる高速化だ。同時に、3.x系最後の機能リリースとなるjQuery 3.8も公開された。3.x系は今後は重大なセキュリティ修正とバグ修正のみとなり、フロントエンド開発者には4.x系への移行が推奨されている。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/jquery_41queryselectoralljquery_3xjquery_38.html",
+          "tags": ["JavaScript", "jQuery", "フロントエンド"]
+        },
+        {
+          "position": 5,
+          "title": "Rust 1.100.0リリース——10年越しのnever type (!型) がついに安定化",
+          "summary": "2026年11月12日、Rustチームはバージョン1.100.0をリリースした。最大の目玉は「never type（!型）」の安定化で、10年以上にわたる議論と複数の失敗を経てようやく正式採用された。never typeの安定化に伴い、Infallible型はその別名として再定義される。また、カスタムアロケータAPIのコア部分も安定化され、VecやBoxに独自のアロケータを定義できるようになった。フォールバック変更により2024 edition以前のコードに影響が出る場合があるため、公式ブログでのアップグレード案内が推奨されている。",
+          "sourceName": "Rust公式ブログ",
+          "sourceUrl": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+          "tags": ["Rust", "OSS", "技術トレンド"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "DHBR Classic「意思決定を阻む人間関係の障害」——265社の観察で示した盲点",
+          "summary": "ダイヤモンド・ハーバード・ビジネス・レビュー（DHBR）2026年11月号にHBR Classicsとして収録されているクリス・アージリスの論文は、<strong>265</strong>を超える企業の実際の意思決定会議を観察した研究だ。経営幹部は往々にして、表向きの発言と実際の行動が矛盾しており、この「行動理論と標榜理論の乖離」が組織の意思決定を阻む最大の障壁だとアージリスは論じた。自分の思考パターンを客観的に観察するメタ認知能力の欠如が根本原因であり、AIが判断を代行し始める現代においても、人間自身の意思決定プロセスを意識化する必要性は変わらない。",
+          "sourceName": "DIAMOND ハーバード・ビジネス・レビュー",
+          "sourceUrl": "https://dhbr.diamond.jp/articles/-/14897",
+          "tags": ["思考力", "意思決定", "メタ認知"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "ECB次期総裁にスペインのデコス氏——EU首脳が指名合意、スペイン人初",
+          "summary": "EU首脳は2026年11月26日、欧州中央銀行（ECB）の次期総裁に国際決済銀行（BIS）総支配人のパブロ・エルナンデス・デコス氏を充てることで合意した。2027年2月に任期を前倒しで退任するラガルド現総裁の後任で、スペイン人として初のECB総裁となる。デコス氏は2018年から2024年までスペイン銀行総裁を務め、コロナ禍後の経済混乱対応に当たった実績がある。正式指名は12月のEU首脳会議で行われる予定。",
+          "sourceName": "時事ドットコム",
+          "sourceUrl": "https://www.jiji.com/jc/article?k=2026112601218&g=int",
+          "tags": ["国際", "経済", "EU"]
+        }
+      ]
+    }
+  ]
+}

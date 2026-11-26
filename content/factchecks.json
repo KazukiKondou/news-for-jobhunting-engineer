@@ -418,5 +418,12 @@
     "verdict": "unverifiable",
     "detail": "ファクトチェックキューAPI（https://news.kazukikondo.com/api/factcheck/queue）はFACTCHECK_TOKEN未設定のため認証不可（空レスポンス）。キュー内容不明のためスキップ。本日分5件（IT就活3件・思考力1件・視野1件）はWebSearchで取得したURLのみを使用し手動検証済み。pos1 GitHub Copilot Fusion GA→labmemo.com/github-copilot-fusion-ga-model-routing-2026-10/ 検索結果に完全URLとして出現（2026-10-28 GA、Standard/High/Max 3段階、HydraFusion評価Claude Opus 5比コスト67%低減・品質4.9pt向上、30%割引11月末まで確認）。pos2 サイバーエージェント2028年度新卒AI・データ職新設→cyberagent.co.jp/careers/news/detail/id=33912 前回セッション複数クエリで確認（ビジネスリードエンジニア・テックリードエンジニアAI・データ職2職種、2028年全社開発完全自動化目標確認）。pos3 GMO FX不正アクセス能動的サイバー防御緊急要請→kumanichi.com/articles/2050148 今回検索結果に完全URLとして出現（26,739台サーバー影響、5,000万ドル要求、11月1日施行後初の適用要請、社内事前指摘確認）。pos4 DHBR11月号意思決定4要因→diamond.co.jp/magazine/059691126.html 複数クエリで出現（特集「任せる技術」、グリーア/ジョーダン/シッチ3著者、4要因確認）。pos5 書道ユネスコ登録勧告→jiji.com/jc/article?k=2026110500120&g=soc&m=rss 前回セッション検索確認済（11月5日勧告、24件目、政府間委員会11/30〜12/5アモイ確認）。",
     "action": "キュー取得不可のためスキップ。本日の記事5件（IT就活3件・思考力1件・視野1件）を生成。LINE配信成功（HTTP 200）。"
+  },
+  {
+    "slug": "2026-11-27-queue",
+    "ranOn": "2026-11-27",
+    "verdict": "unverifiable",
+    "detail": "ファクトチェックキューAPI（https://news.kazukikondo.com/api/factcheck/queue）はFACTCHECK_TOKEN未設定のため認証不可（空レスポンス）。キュー内容不明のためスキップ。本日分7件（IT就活5件・思考力1件・視野1件）はWebSearchで取得したURLのみを使用し手動検証済み。pos1 レバレジーズ28卒採用「維持・拡大」→prtimes.jp/main/html/rd/p/000001005.000010591.html 2026年11月エンジニア採用調査クエリで検索ヒット（28卒ITエンジニア採用数9割超維持・拡大、553名調査実施確認）。pos2 フリーランスボードアプリエンジニア年収918万円→prtimes.jp/main/html/rd/p/000000170.000116595.html 2026年11月フリーランス調査クエリで直接ヒット（36,980件・76.5万円・918万円・リモート78.0%確認）。pos3 MCP Skills over MCPβ版→publickey1.jp/blog/26/mcpskills_over_mcpmcp.html 2026年11月26日Publickeyクエリで直接ヒット（β版追加・MCPサーバからスキル読込確認）。pos4 jQuery 4.1正式版→publickey1.jp/blog/26/jquery_41queryselectoralljquery_3xjquery_38.html 2026年11月25日PublickeyクエリおよびjQuery 4.1クエリで多重確認（querySelectorAll統一・3.8同時リリース確認）。pos5 Rust 1.100.0→blog.rust-lang.org/2026/11/12/Rust-1.100.0/ 複数英語ソース（ostechnix.com・infoq.com・tecaiwire.com等）で多重確認（never type安定化・10年越し・AllocatorAPI確認）。pos6 DHBR Classicアージリス意思決定→dhbr.diamond.jp/articles/-/14897 DHBRクエリで検索ヒット（265社観察・行動理論と標榜理論の乖離・HBR Classics確認）。pos7 ECB次期総裁デコス→jiji.com/jc/article?k=2026112601218&g=int 複数ソース（oanda.jp・Yahoo!ニュース・newsweekjapan.jp・biggo.jp等）で多重確認（2026-11-26 EU首脳合意・BIS総支配人・スペイン銀行総裁2018-2024・スペイン人初確認）。",
+    "action": "キュー取得不可のためスキップ。本日の記事7件（IT就活5件・思考力1件・視野1件）を生成。"
   }
 ]
