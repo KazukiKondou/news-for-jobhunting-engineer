@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-28",
+  "label": "2026年11月28日 (土)",
+  "intro": "さくらインターネットがAIの月額固定サービス「シンプルAI」を発表（<strong>12月10日</strong>正式化）。PHP <strong>8.6</strong>が部分関数適用やDurationクラスを追加してリリース。日本の2026年上半期出生数が<strong>11</strong>年ぶりに前年比増となった。",
+  "sections": [
+    {
+      "key": "it",
+      "title": "IT就活ニュース",
+      "intro": null,
+      "articles": [
+        {
+          "position": 1,
+          "title": "さくらインターネット、AIを月額固定料金「シンプルAI」として12月10日に正式サービス化",
+          "summary": "さくらインターネットは2026年11月26日開催のSAKURA DEKIRU Conference 2026で、AIを月額固定料金で提供する「シンプルAI」を発表した。既存の「さくらのAI Engine」が従量課金制なのに対し、システムへの組み込み用途に特化し、月額固定での安定した利用を想定している。<strong>12月10日</strong>の正式サービス化に向けたCR版の仕様が提示されており、AIモデルが更新されることで組み込んだシステムの挙動が変わるリスクを避けたい企業向けに、モデルの長期安定提供を目指す方針を示している。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/aiai_1.html",
+          "tags": ["AI", "クラウド", "技術トレンド"]
+        },
+        {
+          "position": 2,
+          "title": "Google Workspace MCPサーバとCLIが正式版リリース——AIエージェントからGmail/Drive/Calendarに接続可能に",
+          "summary": "GoogleはGoogle Workspace向けのMCP（Model Context Protocol）サーバとGoogle Workspace CLIの両ツールを正式版としてリリースした。Workspace CLIはGmail・Drive・Calendar・Sheets・DocsにコマンドラインやAIエージェントからアクセスできるApache 2.0ライセンスのOSSで、Claude等のAIシステムがWorkspaceデータへ直接接続できる。公式のMCPサーバはGmail（メール検索・読み書き）・Drive（ファイル取得・権限管理）・Calendar（予定管理）・Chat・Peopleをカバーしており、エージェントによる大量アクセスに対応するツールの階層化モデルも導入されている。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/google_workspace_mcpgoogle_workspace_cli.html",
+          "tags": ["AI", "MCP", "Google", "技術トレンド"]
+        },
+        {
+          "position": 3,
+          "title": "PHP 8.6正式リリース——部分関数適用、Time\\Durationクラス、clamp()などを追加",
+          "summary": "<strong>2026年11月19日</strong>にPHP 8.6.0が正式リリースされた。主な新機能は「部分関数適用（Partial Function Application）」で、関数の一部引数をあらかじめ指定してClosure（無名関数）を返す機能が加わり、`array_filter`などの記述をより簡潔に書けるようになる。ナノ秒精度の時間量を扱う`\\Time\\Duration`クラス、値を範囲内に収める`clamp()`関数、`SortDirection` enumも追加されたほか、PHP 8.2〜8.5の重大なセキュリティ脆弱性を修正したリリースも同日公開された。",
+          "sourceName": "PHP公式",
+          "sourceUrl": "https://php.net/releases/8.6/",
+          "tags": ["PHP", "バックエンド", "技術トレンド"]
+        },
+        {
+          "position": 4,
+          "title": "MicrosoftがMicrosoft Ignite 2026でPostgreSQL互換サーバレスDB「Fabric HorizonDB」をパブリックプレビュー",
+          "summary": "MicrosoftはMicrosoft Ignite 2026にてPostgreSQL互換のサーバレスデータベース「Microsoft Fabric HorizonDB」のパブリックプレビューを発表した。OLTPとOLAPの両方のワークロードに対応しており、同一データベースでトランザクション処理と分析クエリを実行できる設計になっている。PostgreSQL互換のインターフェースを持ち、既存のPostgreSQLドライバーやツールからアクセスできる。サーバレスアーキテクチャにより、利用量に応じた自動スケーリングが可能となっている。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/postgresqloltpolapmicrosoft_fabric_horizondb.html",
+          "tags": ["クラウド", "データベース", "Microsoft", "技術トレンド"]
+        },
+        {
+          "position": 5,
+          "title": "テストフレームワーク「Playwright」がBunを正式サポート——テストランナーの実行が可能に",
+          "summary": "テストフレームワーク「Playwright」が2026年11月にJavaScriptランタイム「Bun」を正式サポートし、BunからPlaywrightのテストランナーを実行できるようになった。BunはJavaScript・TypeScriptに対応するサーバサイドランタイムで、今回の正式サポートにより、Bunを開発環境として採用しているプロジェクトでも公式な状態でPlaywrightのブラウザ自動化テストを実行できるようになった。Playwrightはクロスブラウザのエンドツーエンドテストを得意とするフレームワークで、今回の対応でサポートするランタイムの幅がさらに広がった。",
+          "sourceName": "Publickey",
+          "sourceUrl": "https://www.publickey1.jp/blog/26/playwrightbun.html",
+          "tags": ["テスト", "JavaScript", "技術トレンド"]
+        }
+      ]
+    },
+    {
+      "key": "thinking",
+      "title": "思考力を育てる",
+      "intro": "AI時代こそ、自分の思考力を鍛えるニュース。技術ニュースだけ追っていても本質的な力はつきません。",
+      "articles": [
+        {
+          "position": 6,
+          "title": "精神科医Tomyが説く「AI時代に自分の価値を見失わない」考え方",
+          "summary": "ダイヤモンド・オンラインに精神科医Tomyによる「AI時代に『自分の価値』を見失わないための考え方」が掲載された。記事は、AIに仕事を奪われる恐怖より「私がいる必要がなくなる」という存在意義の揺らぎの方が本質的な問題だと指摘する。今ある役割のうち大事な部分を手放さず、新しい役割や楽しみを見つけながら環境に慣れていくことが大切とされており、仕事の置き換えというより自己の在り方に向き合う視点を提示している。",
+          "sourceName": "ダイヤモンド・オンライン（Yahoo!ニュース）",
+          "sourceUrl": "https://news.yahoo.co.jp/articles/e077bfeba695baa2c46499fed01997f0c3c6afe5",
+          "tags": ["思考力", "AI", "キャリア"]
+        }
+      ]
+    },
+    {
+      "key": "other",
+      "title": "視野を広げる",
+      "intro": "視野を広げるためのニュース。IT就活生は技術に偏りがちなので、ここではあえてIT以外の話題も入れています。",
+      "articles": [
+        {
+          "position": 7,
+          "title": "2026年上半期の出生数が11年ぶり前年比増——東京集中が鮮明に",
+          "summary": "厚生労働省が2026年11月4日に公表した人口動態統計月報（概数）によると、2026年1〜6月に国内で生まれた日本人の出生数は<strong>32万458人</strong>で前年同期比<strong>0.4%</strong>（<strong>1,379人</strong>）増となり、2015年以来<strong>11</strong>年ぶりに前年同期を上回った。ただし東京都だけで<strong>1,864人</strong>増加した一方、東京を除く<strong>46</strong>道府県では合計<strong>485人</strong>減少しており、増加は首都圏に集中している。増加の背景には、2024年・2025年に婚姻数が<strong>2</strong>年連続で回復したことが影響したとみられている。",
+          "sourceName": "nippon.com",
+          "sourceUrl": "https://www.nippon.com/ja/japan-data/h02872/",
+          "tags": ["社会", "少子化", "データ"]
+        }
+      ]
+    }
+  ]
+}
